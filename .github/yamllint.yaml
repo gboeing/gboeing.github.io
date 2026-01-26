@@ -1,0 +1,10 @@
+---
+extends: default
+rules:
+  line-length:
+    max: 85
+  quoted-strings:
+    quote-type: single
+    required: only-when-needed
+  truthy:
+    check-keys: true

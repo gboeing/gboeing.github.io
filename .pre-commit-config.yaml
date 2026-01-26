@@ -1,0 +1,65 @@
+---
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-case-conflict
+      - id: check-executables-have-shebangs
+      - id: check-merge-conflict
+        args: [--assume-in-merge]
+      - id: check-shebang-scripts-are-executable
+      - id: check-xml
+      - id: check-yaml
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: fix-byte-order-marker
+      - id: mixed-line-ending
+      - id: no-commit-to-branch
+      - id: trailing-whitespace
+
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.38.0
+    hooks:
+      - id: yamllint
+        args: [--strict, --config-file=.github/yamllint.yaml]
+
+  - repo: local
+    hooks:
+      - id: yamllint-frontmatter
+        name: yamllint frontmatter
+        entry: .github/yamllint_markdown_frontmatter.sh
+        language: system
+        files: \.md$
+        args: [--strict, --config-file=.github/yamllint.yaml]
+
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.47.0
+    hooks:
+      - id: markdownlint
+        args: [--config=.github/markdownlint.yaml]
+
+#  - repo: https://github.com/tcort/markdown-link-check
+#    rev: v3.14.2
+#    hooks:
+#      - id: markdown-link-check
+#        args: [-q, "--alive=0,200,202,301,403,429,999"]
+
+#  - repo: local
+#    hooks:
+#      - id: update-last-modified
+#        name: Update Last Modified
+#        description: Replace `last_modified_at` timestamp with current time
+#        entry: .github/update_last_modified.sh
+#        language: script
+#        always_run: true
+#        require_serial: true
+
+#  - repo: local
+#    hooks:
+#      - id: exif-correct
+#        name: Exif Correct
+#        description: Removes exif data from images and sets copyright
+#        entry: .github/correct_exif.sh
+#        language: script
+#        types: [image]
+#        exclude_types: [svg, gif]
