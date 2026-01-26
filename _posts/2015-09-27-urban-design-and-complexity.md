@@ -25,7 +25,7 @@ Here's the abstract:
 > useful applications in analyzing the built form that results from local
 > planning and design processes. Rich linkages between complexity theory and
 > urban design have been underexplored by researchers at the neighborhood and
-> street scales – the scales of daily human experience. The urban design
+> street scales—the scales of daily human experience. The urban design
 > literature frequently cites the value of "complexity" in neighborhood design,
 > but these arguments often lack the theoretical formalism found in complex
 > systems science. If neighborhood complexity is important, urban planners and

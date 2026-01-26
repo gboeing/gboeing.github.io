@@ -4,15 +4,15 @@ title: OSMnx Paper
 permalink: /publications/osmnx-complex-street-networks/
 ---
 
-[Download PDF](https://doi.org/10.1111/gean.70009) open-access from
-_Geographical Analysis_.
-
 This is the official reference paper for the OSMnx package. If you use OSMnx in
 your work, please cite it as:
 
 Boeing, G. 2025. "Modeling and Analyzing Urban Networks and Amenities with
 OSMnx." _Geographical Analysis_, published online ahead of print.
 doi:10.1111/gean.70009
+
+[Download PDF](https://doi.org/10.1111/gean.70009) open-access from
+_Geographical Analysis_.
 
 ## Abstract
 

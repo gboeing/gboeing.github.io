@@ -78,7 +78,7 @@ but it's hard to know where you're eventually really heading in the long run.
 This makes it harder for unfamiliar visitors to navigate Boston than many other
 US cities. It does not adhere to a straightforward north-south-east-west pattern
 (or any other consistent, predictable pattern) that our brains adjust to in most
-places – not because Boston apocryphally paved over its cow paths, but because
+places—not because Boston apocryphally paved over its cow paths, but because
 of its age, terrain, and annexation of various independent towns.
 
 60 years ago, Kevin Lynch defined "legible" cities as those whose patterns lend

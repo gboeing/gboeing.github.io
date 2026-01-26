@@ -41,7 +41,7 @@ site.url }}{{ site.baseurl }}/files/img/street-
 network-complexity-irvine-rome-dubai.png)
 
 Urban design has evolved through eras of classicism, organicism, austere
-modernism, postmodernism, and neotraditionalism – each of which encounters the
+modernism, postmodernism, and neotraditionalism—each of which encounters the
 city's physical complexity with different goals. Today, multiple synergies exist
 between urban design objectives and recent knowledge emerging from the
 complexity sciences as complexity theory. Prominent urban design movements such
@@ -71,7 +71,7 @@ and how it can be resilient against floods, earthquakes, traffic collisions,
 congestion, and other disruptions. It grounds design decisions in science and
 theory to clarify goals and evaluate the outcomes of alternative plans. These
 measures help designers evaluate how well the physical built environment might
-adapt to expected – or unexpected – change. They offer a rubric for the
+adapt to expected—or unexpected—change. They offer a rubric for the
 continuing shift of design theory and practice away from a logic of top-down
 artificially constructed urban landscapes and towards a logic of organic growth,
 evolution, and resilience.

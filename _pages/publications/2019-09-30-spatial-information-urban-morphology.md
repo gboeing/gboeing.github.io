@@ -17,8 +17,8 @@ Download PDF from [SocArXiv](https://osf.io/preprints/socarxiv/vhrdc/) or
 Urban planning and morphology have relied on analytical cartography and visual
 communication tools for centuries to illustrate spatial patterns, propose
 designs, compare alternatives, and engage the public. Classic urban form
-visualizations – from Giambattista Nolli's ichnographic maps of Rome to Allan
-Jacobs's figure-ground diagrams of city streets – have compressed physical urban
+visualizations—from Giambattista Nolli's ichnographic maps of Rome to Allan
+Jacobs's figure-ground diagrams of city streets—have compressed physical urban
 complexity into easily comprehensible information artifacts. Today we can
 enhance these traditional workflows through the Smart Cities paradigm of
 understanding cities via user-generated content and harvested data in an

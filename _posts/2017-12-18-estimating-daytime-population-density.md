@@ -20,10 +20,10 @@ states shapefile. I preferred the 2010 census demographic data to (more recent)
 ACS data because the ACS tract-level variables are five-year rolling averages.
 Given this, I preferred not to compare 2014 LODES data to 2010-2014 ACS data as
 the Bay Area experienced substantial housing, economic, and demographic upheaval
-over this interval – [patterns obscured]({{ site.url }}{{ site.baseurl
+over this interval—[patterns obscured]({{ site.url }}{{ site.baseurl
 }}/2016/08/craigslist-rental-housing-insights/) in the ACS rolling average. To
-avoid inconsistent comparison, I opted for more stale – but more accurate and
-comparable – data.
+avoid inconsistent comparison, I opted for more stale—but more accurate and
+comparable—data.
 
 [![Map of the estimated daytime population density in the San Francisco Bay
 Area]({{ site.url }}{{ site.baseurl
@@ -59,7 +59,7 @@ the population sample estimates and standard errors to determine confidence
 intervals, but this still would not take into account the LODES enumeration.
 
 The latter points to another issue that makes any confidence in this analysis –
-and its interpretability – far more fraught. We systematically ignore or
+and its interpretability—far more fraught. We systematically ignore or
 [undercount](<https://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(98)_FR.pdf>)
 the existence and flow of tourists, shoppers, students, the self-employed,
 various government workers, and populations that are less-legible to these data
@@ -72,7 +72,7 @@ fundamental problem: biased toward certain populations plus balkanized data
 ownership.
 
 So let's muse briefly on takeaways and limitations. If you inspect the map
-above, density patterns are straightforward and pass the smell test – urban
+above, density patterns are straightforward and pass the smell test—urban
 cores around the Bay Area clearly stand out, including Palo Alto and downtown
 San Francisco. But there are anomalies. Due to its student and government worker
 populations (which LODES misses), UC Berkeley's campus shows an absurdly low
@@ -99,7 +99,7 @@ more chance encounters and "urban life" than Jane Jacobs's lower-density
 sidewalk ballet? Finally, what about demographics? What is the value or impact
 of daytime density in wealthy tracts versus impoverished tracts? What about in a
 demographically-mixed tract with lower density but more opportunities for
-cultural exchange? What about homeless populations – how does their density
+cultural exchange? What about homeless populations—how does their density
 contribute to urban life? And, in each of these questions, whose formulation of
 "good" urban life might we refer to?
 

@@ -8,7 +8,7 @@ permalink: /publications/topological-distance-nonplanar-transportation-networks/
 "Topological Distance Between Nonplanar Transportation Networks." Fall Workshop
 on Computational Geometry. Queens, New York.
 
-Download [PDF]({{ site.url }}{{ site.baseurl }}/files/img/abfm-localhom.pdf)
+Download [PDF]({{ site.url }}{{ site.baseurl }}/files/pdf/abfm-localhom.pdf)
 
 ## Abstract
 

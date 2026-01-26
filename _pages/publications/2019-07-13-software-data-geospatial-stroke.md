@@ -12,7 +12,7 @@ Geospatial Analysis of Stroke Services." _Frontiers in Neurology_ , 10, 743.
 doi:10.3389/fneur.2019.00743
 
 Download PDF from
-[_Frontiers in Neurology_](https://www.frontiersin.org/articles/10.3389/fneur.2019.00743/abstract)
+[_Frontiers in Neurology_](https://doi.org/10.3389/fneur.2019.00743)
 
 ## Abstract
 

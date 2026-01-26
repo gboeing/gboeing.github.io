@@ -11,8 +11,8 @@ of some of my recent research on making OpenStreetMap data analysis easy for
 urban planners. It was also published on the [ACSP](https://www.acsp.org/)
 blog._
 
-[OpenStreetMap](https://www.openstreetmap.org/) – a collaborative worldwide
-mapping project inspired by Wikipedia – has emerged in recent years as a major
+[OpenStreetMap](https://www.openstreetmap.org/)—a collaborative worldwide
+mapping project inspired by Wikipedia—has emerged in recent years as a major
 player both for mapping and acquiring urban spatial data. Though coverage varies
 somewhat worldwide, its data are of high quality and compare favorably to CIA
 World Factbook estimates and US Census TIGER/Line data. OpenStreetMap imported
@@ -91,7 +91,7 @@ travel? We might build a regression model to predict VMT in different places as
 a function of their D variables: _density_, land use _diversity_, street network
 and streetscape _design_, _distance_ to transit, _destination_ accessibility,
 and _demographics_. OpenStreetMap can help us quickly acquire those _design_
-variables – such as intersection density, block size, and the proportions of
+variables—such as intersection density, block size, and the proportions of
 four-way intersections, dead-ends, etc. For example, with OSMnx we can download
 then analyze a street network in two lines of simple, readable [Python
 code]({{ site.url }}{{ site.baseurl }}/2017/02/python-getting-started/):

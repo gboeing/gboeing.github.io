@@ -49,7 +49,7 @@ locations.]({{ site.url }}{{ site.baseurl }}/files/img/states-beer-locations-
 big-1024x683.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/states-beer-locations- big.png)
 
-We can also break these locations out by type – that is, breweries versus brew
+We can also break these locations out by type—that is, breweries versus brew
 pubs:
 
 [![Locations of craft breweries and brew pubs across the United States.

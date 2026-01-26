@@ -13,12 +13,12 @@ Download PDF [from JPER](https://dx.doi.org/10.1177/0739456X16664789) or
 [from ResearchGate](https://www.researchgate.net/publication/306400541_New_Insights_into_Rental_Housing_Markets_across_the_United_States_Web_Scraping_and_Analyzing_Craigslist_Rental_Listings).
 
 Check out the [blog post]({{ site.url }}{{ site.baseurl
-}}/2016/08/craigslist-rental- housing-insights/) summary of our findings.
+}}/2016/08/craigslist-rental-housing-insights/) summary of our findings.
 
 ## Abstract
 
-Current sources of data on rental housing – such as the census or commercial
-databases that focus on large apartment complexes – do not reflect recent market
+Current sources of data on rental housing—such as the census or commercial
+databases that focus on large apartment complexes—do not reflect recent market
 activity or the full scope of the U.S. rental market. To address this gap, we
 collected, cleaned, analyzed, mapped, and visualized 11 million Craigslist
 rental housing listings. The data reveal fine-grained spatial and temporal

@@ -110,8 +110,8 @@ rents are much, much more dispersed.
 
 Metropolitan
 [fair market rent](https://www.housingonline.com/2015/12/16/hud-proposes-fair-market-rents-for-2016/)
-based housing vouchers – designed to unlock neighborhoods of opportunity to the
-poor – may work differently in high-cost versus low-cost areas. Wide variations
+based housing vouchers—designed to unlock neighborhoods of opportunity to the
+poor—may work differently in high-cost versus low-cost areas. Wide variations
 in rents within a city might make it very difficult for voucher holders to "move
 the needle" and upgrade neighborhoods in a statistically dispersed market like
 San Francisco's, especially when considering household size.

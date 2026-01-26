@@ -47,7 +47,7 @@ Here's the chapter abstract:
 
 > Researchers and practitioners across many disciplines have recently adopted
 > computational notebooks to develop, document, and share their scientific
-> workflows – and the GIS community is no exception. This chapter introduces
+> workflows—and the GIS community is no exception. This chapter introduces
 > computational notebooks in the geographical context. It begins by explaining
 > the computational paradigm and philosophy that underlie notebooks. Next it
 > unpacks their architecture to illustrate a notebook user's typical workflow.

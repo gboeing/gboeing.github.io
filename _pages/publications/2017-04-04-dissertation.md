@@ -20,7 +20,7 @@ Complex systems have been widely studied by social and natural scientists in
 terms of their dynamics and their structure. Scholars of cities and urban
 planning have incorporated complexity theories from qualitative and quantitative
 perspectives. From a structural standpoint, the urban form may be characterized
-by the morphological complexity of its circulation networks – particularly their
+by the morphological complexity of its circulation networks—particularly their
 density, resilience, centrality, and connectedness. This dissertation unpacks
 theories of nonlinearity and complex systems, then develops a framework for
 assessing the complexity of urban form and street networks. It introduces a new

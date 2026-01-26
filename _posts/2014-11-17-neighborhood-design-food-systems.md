@@ -12,7 +12,7 @@ wrote in Progressive Planning]({{ site.url }}{{ site.baseurl
 
 Does _food_ matter in neighborhood design? Should it? The answers to these
 questions are complicated and obscured by decades of perplexing policy and
-practice. There are many benefits of good food – that is, food which is healthy,
+practice. There are many benefits of good food—that is, food which is healthy,
 affordable, fair, and sustainable. Proper nourishment has been linked in several
 studies to better classroom performance. Walkable access to healthy food can
 reduce America's growing obesity and diabetes epidemics. Locally- sourced food
@@ -29,7 +29,7 @@ monolithic, monoculture communities in which civilization's functions are
 dramatically segregated. Square miles of suburbs are zoned strictly residential,
 often with explicit restrictions against front yard agriculture and no
 allowances for food shops or hubs. Downtowns are widely paved over or planted
-with merely ornamental landscapes. Humans – an urban species – eat several times
+with merely ornamental landscapes. Humans—an urban species—eat several times
 a day yet seem fixated on zoning food out of the urban experience.
 
 This is partly a result of the food system's complexity. As a matter of
@@ -65,7 +65,7 @@ or even weeks of produce at hand?
 ## Freedom of Choice
 
 This is a problem that affects everyone in terms of massive risk, mortality
-rates, and health care costs – but should it be the concern of neighborhood
+rates, and health care costs—but should it be the concern of neighborhood
 designers? The past decade has given clear voice to the many people who fear
 government intervention into their communities as a loss of freedom of choice.
 In this case, however, food policy and neighborhood design _require_

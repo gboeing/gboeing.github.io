@@ -35,7 +35,7 @@ American urbanization in the latter half of the 20th century.
 
 In stark contrast, Rome has a more fine-grained, complex, organic form that
 evolved over millennia of self-organization and urban planning. Representing
-each of these street networks here at the same scale – one square mile – it is
+each of these street networks here at the same scale—one square mile—it is
 easy to compare the qualitative urban patterns in these different cities to one
 another. Contrast the geometric order of the 19th century orthogonal grid in San
 Francisco and the functionalist simplifications of 20th century Irvine to the
@@ -88,7 +88,7 @@ neighborhoods. The cities they represent are drawn from across the United
 States, Europe, North Africa, the Arabian Peninsula, and East Asia. Yet street
 network patterns also vary greatly within cities: Portland's suburban east and
 west sides look different than its downtown, and Sacramento's compact, grid-like
-downtown looks different than its residential suburbs – a [finding true]({{
+downtown looks different than its residential suburbs—a [finding true]({{
 site.url }}{{ site.baseurl }}/publications/multiscale-analysis-
 street-networks/) of many American cities.
 
@@ -188,7 +188,7 @@ Tehran, Toronto, Warsaw, Tokyo, Berlin, Venice]({{ site.url }}{{ site.baseurl
 }}{{ site.baseurl }}/files/img/city-street- orientations-world-osmnx.png)
 
 Data-driven urban morphology explores urban form by modeling spatial data to
-trace histories, configurations, and orientations in physical space – but it
+trace histories, configurations, and orientations in physical space—but it
 requires interpretation to reveal the nuance of local context and history. The
 urban historian Spiro Kostof once said: "Form, in itself, is very lamely
 informative of intention. We 'read' form correctly only to the extent that we

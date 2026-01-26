@@ -5,7 +5,7 @@ permalink: /publications/morphology-circuity-street-networks/
 ---
 
 **Cite as** : Boeing, G. 2019. "The Morphology and Circuity of Walkable and
-Drivable Street Networks." In: _The Mathematics of Urban Morphology_(pp.
+Drivable Street Networks." In: _The Mathematics of Urban Morphology_ (pp.
 271-287), edited by L. D'Acci. Basel, Switzerland: Birkhäuser.
 doi:10.1007/978-3-030-12381-9_12
 
