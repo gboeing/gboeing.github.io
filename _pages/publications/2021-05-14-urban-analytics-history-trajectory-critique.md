@@ -5,9 +5,9 @@ permalink: /publications/urban-analytics-history-trajectory-critique/
 ---
 
 **Cite as:** Boeing, G., M. Batty, S. Jiang, and L. Schweitzer. 2021. "Urban
-Analytics: History, Trajectory, and Critique." In: _Handbook of Spatial
-Analysis in the Social Sciences_, edited by S. Rey and R. Franklin.
-Cheltenham, England: Edward Elgar.
+Analytics: History, Trajectory, and Critique." In: _Handbook of Spatial Analysis
+in the Social Sciences_, edited by S. Rey and R. Franklin. Cheltenham, England:
+Edward Elgar.
 
 Download PDF from [SSRN](https://papers.ssrn.com/abstract=3846508) or
 [SocArXiv](https://osf.io/preprints/socarxiv/bwhx2/).
@@ -28,5 +28,5 @@ structure. Next it discusses urban applications of spatiotemporal big data and
 machine learning. Finally, it argues that privacy and ethical concerns are too
 often ignored as ubiquitous monitoring and analytics can empower social
 repression. It concludes with a call for a more critical urban analytics that
-recognizes its epistemological limits, emphasizes human dignity, and learns
-from and supports marginalized communities.
+recognizes its epistemological limits, emphasizes human dignity, and learns from
+and supports marginalized communities.

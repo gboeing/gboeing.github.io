@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Position at USC
-date: 2019-06-30 22:42:55.000000000 -07:00
+date: 2019-06-30 22:42:55-07:00
 permalink: /2019/06/new-position-at-usc/
 ---
 

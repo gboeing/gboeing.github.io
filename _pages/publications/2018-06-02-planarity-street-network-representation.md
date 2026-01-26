@@ -15,15 +15,15 @@ Download PDF from [SocArXiv](https://osf.io/preprints/socarxiv/hma8y) or
 
 Models of street networks underlie research in urban travel behavior,
 accessibility, design patterns, and morphology. These models are commonly
-defined as planar, meaning they can be represented in two dimensions without
-any underpasses or overpasses. However, real-world urban street networks exist
-in three-dimensional space and frequently feature grade separation such as
-bridges and tunnels: planar simplifications can be useful but they also impact
-the results of real-world street network analysis. This study measures the
+defined as planar, meaning they can be represented in two dimensions without any
+underpasses or overpasses. However, real-world urban street networks exist in
+three-dimensional space and frequently feature grade separation such as bridges
+and tunnels: planar simplifications can be useful but they also impact the
+results of real-world street network analysis. This study measures the
 nonplanarity of drivable and walkable street networks in the centers of 50
 cities worldwide, then examines the variation of nonplanarity across a single
-city. It develops two new indicators - the Spatial Planarity Ratio and the
-Edge Length Ratio - to measure planarity and describe infrastructure and
+city. It develops two new indicators - the Spatial Planarity Ratio and the Edge
+Length Ratio - to measure planarity and describe infrastructure and
 urbanization. While some street networks are approximately planar, we
 empirically quantify how planar models can inconsistently but drastically
 misrepresent intersection density, street lengths, routing, and connectivity.

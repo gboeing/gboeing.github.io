@@ -1,41 +1,43 @@
 ---
 layout: post
 title: 'Visualizing Summer Travels Part 5: Python + Matplotlib'
-date: 2014-08-29 15:32:03.000000000 -07:00
+date: 2014-08-29 15:32:03-07:00
 permalink: /2014/08/visualizing-summer-travels-part-5-python-matplotlib/
 ---
 
-_This post is [part of a series]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-
-summer-travels/ "Visualizing Summer Travels") on visualizing data from my
-summer travels._
+_This post is [part of a series]({{ site.url }}{{ site.baseurl
+}}/2014/08/visualizing- summer-travels/ "Visualizing Summer Travels") on
+visualizing data from my summer travels._
 
 I've previously discussed visualizing the GPS location data from my summer
-travels with [CartoDB]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-
-travels-with-cartodb/), [Leaflet]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-
-summer-travels-part-3-leaflet/), and [Mapbox +
-Tilemill]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels-
-part-4-mapbox-tilemill/). Today I will explore visualizing this data set in
-Python, using the matplotlib plotting library. All of my code is available in
-this [GitHub repo](https://github.com/gboeing/2014-summer-travels),
-particularly [this notebook](https://github.com/gboeing/2014-summer-travels/blob/master/trip-visualization.ipynb).
+travels with [CartoDB]({{ site.url }}{{ site.baseurl
+}}/2014/08/visualizing-summer- travels-with-cartodb/), [Leaflet]({{ site.url
+}}{{ site.baseurl }}/2014/08/visualizing- summer-travels-part-3-leaflet/), and
+[Mapbox + Tilemill]({{ site.url }}{{ site.baseurl
+}}/2014/08/visualizing-summer-travels- part-4-mapbox-tilemill/). Today I will
+explore visualizing this data set in Python, using the matplotlib plotting
+library. All of my code is available in this
+[GitHub repo](https://github.com/gboeing/2014-summer-travels), particularly
+[this notebook](https://github.com/gboeing/2014-summer-travels/blob/master/trip-visualization.ipynb).
 
 ## Getting started
 
 First I'm going to import the necessary Python modules I'll be working with.
-Then I load two location data sets: one is the [original full
-set]({{ site.url }}{{ site.baseurl }}/2014/07/visualizing-summer-travels-
-part-1-openpaths/ "Visualizing Summer Travels Part 1: OpenPaths") and the
-other is a [clustered, reduced set]({{ site.url }}{{ site.baseurl }}/2014/08/clustering-
+Then I load two location data sets: one is the [original full set]({{ site.url
+}}{{ site.baseurl }}/2014/07/visualizing-summer-travels- part-1-openpaths/
+"Visualizing Summer Travels Part 1: OpenPaths") and the other is a [clustered,
+reduced set]({{ site.url }}{{ site.baseurl }}/2014/08/clustering-
 to-reduce-spatial-data-set-size/ "Clustering to Reduce Spatial Data Set Size")
 of location data points. Both of these data sets have been [reverse-
-geocoded]({{ site.url }}{{ site.baseurl }}/2014/08/reverse-geocode-a-set-of-lat-long-
-coordinates-to-city-country/ "Reverse Geocode a Set of Lat-Long Coordinates to
-City + Country") so I have lat-long coordinates, city, and country data.
+geocoded]({{ site.url }}{{ site.baseurl
+}}/2014/08/reverse-geocode-a-set-of-lat-long- coordinates-to-city-country/
+"Reverse Geocode a Set of Lat-Long Coordinates to City + Country") so I have
+lat-long coordinates, city, and country data.
 
 For the full data set, I'll use its timestamp column as its index. For the
 reduced data set, pandas will automatically generate the index. The data files
-are encoded as utf-8: I need to specify this encoding to prevent matplotlib
-from choking on diacritics in some of the city names. Lastly, I'll define font
+are encoded as utf-8: I need to specify this encoding to prevent matplotlib from
+choking on diacritics in some of the city names. Lastly, I'll define font
 properties for the plot titles, axis labels, tick labels, and annotations, and
 the background color to use in the plots.
 
@@ -67,10 +69,9 @@ These visualizations rely on several Python packages imported for extended
 functionality. I'll use [pandas](https://pandas.pydata.org/) and
 [numpy](https://www.numpy.org/) for data analysis. The
 [matplotlib](https://matplotlib.org/) modules are for plotting the
-visualizations. The
-[datetime](https://docs.python.org/2/library/datetime.html) module will be
-used to analyze the full data set based on its timestamp index. Lastly,
-[shapely](https://pypi.python.org/pypi/Shapely),
+visualizations. The [datetime](https://docs.python.org/2/library/datetime.html)
+module will be used to analyze the full data set based on its timestamp index.
+Lastly, [shapely](https://pypi.python.org/pypi/Shapely),
 [geopy](https://pypi.python.org/pypi/geopy), and
 [geopandas](https://geopandas.org/) will perform spatial and geographic
 calculations and analysis.
@@ -81,9 +82,9 @@ the most observations (aka records or rows) in the data set, as a proxy.
 
 ## Simple bar charts
 
-I'll begin with some simple charts to examine which places were visited the
-most (or, more accurately which places have the most observations in the data
-set). First I'll plot the most visited countries.
+I'll begin with some simple charts to examine which places were visited the most
+(or, more accurately which places have the most observations in the data set).
+First I'll plot the most visited countries.
 
 The procedure will be very similar for each subsequent bar chart, so I'll
 explain it this first time. The variable countdata is a pandas series whose
@@ -93,8 +94,8 @@ the count of each country's observations.
 Next I use the pandas plot() function to create the plot. Then I use a lambda
 function to create one tick mark on the x axis for each country, and use the
 index (aka country name) as the label. I turn the y axis grid on and set the
-background color. Lastly, I set the title, x axis label, and y axis label,
-then show the plot.
+background color. Lastly, I set the title, x axis label, and y axis label, then
+show the plot.
 
 ```python
 countdata = df['country'].value_counts()
@@ -115,15 +116,14 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-[![matplotlib-bar-most-visited-countries]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-bar-most-
-visited-countries.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-bar-
-most-visited-countries.png)
+[![matplotlib-bar-most-visited-countries]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-bar-most- visited-countries.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-bar- most-visited-countries.png)
 
 Spain is the clear winner, with about 650 records in the data set. The other
 countries trail off behind it. I was in Spain for about a month of the total
-trip and was in Portugal, Germany, and the Czech Republic for about a week
-each, explaining their numbers of observations and relative positions in the
-chart.
+trip and was in Portugal, Germany, and the Czech Republic for about a week each,
+explaining their numbers of observations and relative positions in the chart.
 
 However, the scaling on this chart isn't very nice because of the non-linear
 relationship between these countries' number of observations in the data set.
@@ -148,15 +148,14 @@ ax.set_ylabel('Log of number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-[![matplotlib-bar-most-visited-countries-log]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-bar-
-most-visited-countries-
-log.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-bar-most-visited-
-countries-log.png)
+[![matplotlib-bar-most-visited-countries-log]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-bar- most-visited-countries- log.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-bar-most-visited- countries-log.png)
 
-That looks a bit nicer and represents the relationships between the value
-counts more linearly. But, it may be misleading in how it represents the
-relative share of observations across the data set. Next I'll plot the most
-visited cities in the data set, without any log transformation:
+That looks a bit nicer and represents the relationships between the value counts
+more linearly. But, it may be misleading in how it represents the relative share
+of observations across the data set. Next I'll plot the most visited cities in
+the data set, without any log transformation:
 
 ```python
 countdata = df['city'].value_counts().head(13)
@@ -178,9 +177,9 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-[![matplotlib-bar-most-visited-cities]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-bar-most-
-visited-cities.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-bar-most-
-visited-cities.png)
+[![matplotlib-bar-most-visited-cities]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-bar-most- visited-cities.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-bar-most- visited-cities.png)
 
 Barcelona really dominates this chart, followed by Lisbon, Tuebingen, and
 Prague. Each were cities where I spent extended time.
@@ -188,27 +187,26 @@ Prague. Each were cities where I spent extended time.
 ## Scatter plots to visualize spatial data with matplotlib
 
 Now I'll create a scatter plot of my point data to make a simple map. On it,
-I'll annotate the eight most visited cities. The procedure will be very
-similar for each subsequent scatter plot, so again I'll explain it a bit this
-first time. I'll also provide inline Python comments throughout the coming
-code to explain what is happening as it moves along.
+I'll annotate the eight most visited cities. The procedure will be very similar
+for each subsequent scatter plot, so again I'll explain it a bit this first
+time. I'll also provide inline Python comments throughout the coming code to
+explain what is happening as it moves along.
 
 First I calculate the eight most visited cities (in terms of number of
-observations) in the full data set, sort by count of observations, and drop
-the duplicates so I get a single, representative point for each of these eight
+observations) in the full data set, sort by count of observations, and drop the
+duplicates so I get a single, representative point for each of these eight
 cities.
 
-Then I create a 10 by 6 inch figure and create the scatter plot, using that
-lon and lat columns of my [reduced data
-set]({{ site.url }}{{ site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set-
-size/ "Clustering to Reduce Spatial Data Set Size") as the x and y values,
-respectively. Next I set x and y axis labels, tick mark labels, and the plot's
-title. Lastly, I iterate through my dataframe of most visited cities, creating
-an annotation on the map for each of their points. Note that these are plots
-of unprojected data - I explain more about this in [another
-post]({{ site.url }}{{ site.baseurl }}/2014/09/visualizing-summer-travels-
-part-6-projecting-spatial-data-python/ "Visualizing Summer Travels Part 6:
-Projecting Spatial Data in Python").
+Then I create a 10 by 6 inch figure and create the scatter plot, using that lon
+and lat columns of my [reduced data set]({{ site.url }}{{ site.baseurl
+}}/2014/08/clustering-to-reduce-spatial-data-set- size/ "Clustering to Reduce
+Spatial Data Set Size") as the x and y values, respectively. Next I set x and y
+axis labels, tick mark labels, and the plot's title. Lastly, I iterate through
+my dataframe of most visited cities, creating an annotation on the map for each
+of their points. Note that these are plots of unprojected data - I explain more
+about this in [another post]({{ site.url }}{{ site.baseurl
+}}/2014/09/visualizing-summer-travels- part-6-projecting-spatial-data-python/
+"Visualizing Summer Travels Part 6: Projecting Spatial Data in Python").
 
 ```python
 #get a representative point from the data set for each of the most visited
@@ -247,14 +245,13 @@ alpha=0.8))
 plt.show()
 ```
 
-[![matplotlib-scatter-most-visited-cities]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-scatter-
-most-visited-cities.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-
-scatter-most-visited-cities.png)
+[![matplotlib-scatter-most-visited-cities]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-scatter- most-visited-cities.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib- scatter-most-visited-cities.png)
 
-The scatter plot above maps my point data and indicates the locations of
-Lisbon, Porto, Barcelona, Krakow, Prague, Tuebingen, Athens, and Istanbul.
-Let's do the same thing, only this time annotating the eight most visited
-countries:
+The scatter plot above maps my point data and indicates the locations of Lisbon,
+Porto, Barcelona, Krakow, Prague, Tuebingen, Athens, and Istanbul. Let's do the
+same thing, only this time annotating the eight most visited countries:
 
 ```python
 #get a representative point from the data set for each of the most visited
@@ -291,10 +288,9 @@ xycoords='data')
 plt.show()
 ```
 
-[![matplotlib-scatter-most-visited-countries]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-
-scatter-most-visited-
-countries.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-scatter-most-
-visited-countries.png)
+[![matplotlib-scatter-most-visited-countries]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib- scatter-most-visited- countries.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-scatter-most- visited-countries.png)
 
 Much like the previous scatter plot, this one displays my coordinate data and
 indicates the locations of the eight most visited countries in the data set:
@@ -304,13 +300,12 @@ Turkey.
 Notice that the label for the Czech Republic overlaps that of Poland. I could
 write more code to move one or the other, but this kind of overlap isn't an
 uncommon problem, considering the difficulty and computational complexity of
-[automatic label
-placement](https://en.wikipedia.org/wiki/Automatic_label_placement).
+[automatic label placement](https://en.wikipedia.org/wiki/Automatic_label_placement).
 
 ## Turning the scatter plot into a map
 
-This scatter plot would like much more map-like if it had a basemap showing
-the geographical region and its nation's borders. To that end, I'll use the
+This scatter plot would like much more map-like if it had a basemap showing the
+geographical region and its nation's borders. To that end, I'll use the
 geopandas and shapely libraries to work with a shapefile of country boundaries
 and create a nicer map of my summer travels.
 
@@ -328,10 +323,10 @@ most = pd.DataFrame(rs[rs['city'].isin(most_index)])
 most.drop_duplicates(subset=['city'], take_last=False, inplace=True)
 ```
 
-Next, I'll define the latitude and longitude range of the coordinates in my
-data set, plus some buffer so they point data doesn't run all the way to the
-edges of the map. Then I create a shapely rectangle from the coordinates of
-this spatial extent.
+Next, I'll define the latitude and longitude range of the coordinates in my data
+set, plus some buffer so they point data doesn't run all the way to the edges of
+the map. Then I create a shapely rectangle from the coordinates of this spatial
+extent.
 
 Next I use the geopandas intersects() method to select the borders of all the
 countries that appear within this spatial extent. Lastly, I remove Russia
@@ -363,9 +358,9 @@ scatter plot my data set on top of it.
 
 First I set the dimensions of the plotting figure to the spatial extent I
 calculated earlier. Then I create the plot of the country borders and the
-scatter plot of my reduced data set. Next I annotate the most visited cities
-and limit the x and y axes to the spatial extent. Lastly, I set axis labels
-and the plot's title, and I show the plot:
+scatter plot of my reduced data set. Next I annotate the most visited cities and
+limit the x and y axes to the spatial extent. Lastly, I set axis labels and the
+plot's title, and I show the plot:
 
 ```python
 fig = plt.figure()
@@ -400,39 +395,39 @@ Set')
 plt.show()
 ```
 
-[![geopandas-shapfile-point-data-map]({{ site.url }}{{ site.baseurl }}/files/img/geopandas-shapfile-point-
-data-map.png)]({{ site.url }}{{ site.baseurl }}/files/img/geopandas-shapfile-point-
-data-map.png)
+[![geopandas-shapfile-point-data-map]({{ site.url }}{{ site.baseurl
+}}/files/img/geopandas-shapfile-point- data-map.png)]({{ site.url }}{{
+site.baseurl }}/files/img/geopandas-shapfile-point- data-map.png)
 
 This plot above depicts a map of Europe (from my shapefile), with my location
-data plotted on top of it. The top six most visited cities are annotated on
-the map: Lisbon, Barcelona, Prague, Tuebingen, Athens, and Istanbul.
+data plotted on top of it. The top six most visited cities are annotated on the
+map: Lisbon, Barcelona, Prague, Tuebingen, Athens, and Istanbul.
 
 Like I mentioned earlier, this is just a simple plot of unprojected data so
-there is significant horizontal distortion and stretching at these latitudes.
-In [another post]({{ site.url }}{{ site.baseurl }}/2014/09/visualizing-summer-travels-
-part-6-projecting-spatial-data-python/ "Visualizing Summer Travels Part 6:
-Projecting Spatial Data in Python"), I explain how to convert point data and
-basemaps to a projected coordinate system in Python. I also demonstrate how to
-style the map to make it much more beautiful, also entirely in Python. Like
-this:
+there is significant horizontal distortion and stretching at these latitudes. In
+[another post]({{ site.url }}{{ site.baseurl
+}}/2014/09/visualizing-summer-travels- part-6-projecting-spatial-data-python/
+"Visualizing Summer Travels Part 6: Projecting Spatial Data in Python"), I
+explain how to convert point data and basemaps to a projected coordinate system
+in Python. I also demonstrate how to style the map to make it much more
+beautiful, also entirely in Python. Like this:
 
-[![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl }}/files/img/projected-shapefile-
-gps-coordinates.png)]({{ site.url }}{{ site.baseurl }}/files/img/projected-
-shapefile-gps-coordinates.png)
+[![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
+}}/files/img/projected-shapefile- gps-coordinates.png)]({{ site.url }}{{
+site.baseurl }}/files/img/projected- shapefile-gps-coordinates.png)
 
 ## The most isolated locations
 
-You can see that certain locations on the map are particularly isolated from
-the other places I visited - for example, London, Barcelona, and Istanbul were
-flown in and out of, so there aren't other data points near them in the data
-set. What are the most isolated places in the data set?
+You can see that certain locations on the map are particularly isolated from the
+other places I visited - for example, London, Barcelona, and Istanbul were flown
+in and out of, so there aren't other data points near them in the data set. What
+are the most isolated places in the data set?
 
 To answer this question, I'll first define a threshold distance of 20 miles to
 rephrase the question as: for each point in the data set, what is the distance
-to the nearest point that is at least 20 miles away? This will ignore all
-other points within this distance when identifying the nearest other point in
-the data set.
+to the nearest point that is at least 20 miles away? This will ignore all other
+points within this distance when identifying the nearest other point in the data
+set.
 
 The value of this method is that it treats everything within the threshold
 distance as a single cluster, like an epsilon value in a clustering algorithm.
@@ -441,9 +436,9 @@ considered isolated even though it contains several points within a couple of
 miles of each other.
 
 For each point in the data set, I'll loop through all other points in the data
-set, calculating the great circle distance between the two points using
-geopy's great_circle() function. Then, for each point, I save the label of the
-other point that is the shortest distance (greater than 20 miles) from it:
+set, calculating the great circle distance between the two points using geopy's
+great_circle() function. Then, for each point, I save the label of the other
+point that is the shortest distance (greater than 20 miles) from it:
 
 ```python
 #what is the distance to the nearest point that is at least *threshold* miles
@@ -486,11 +481,11 @@ most_isolated = most_isolated.head(5)
 most_isolated
 ```
 
-Now I can plot these points. I'll create one scatter plot of the entire
-reduced data set in blue and another of the five most isolated points in red.
-Then I label the ticks and axes and give the plot a title. Lastly, I annotate
-each of the most isolated clusters with the city name, the distance to the
-nearest neighbor, and that nearest point's city name:
+Now I can plot these points. I'll create one scatter plot of the entire reduced
+data set in blue and another of the five most isolated points in red. Then I
+label the ticks and axes and give the plot a title. Lastly, I annotate each of
+the most isolated clusters with the city name, the distance to the nearest
+neighbor, and that nearest point's city name:
 
 ```python
 # plot the most isolated clusters in the data set
@@ -524,35 +519,34 @@ xycoords='data')
 plt.show()
 ```
 
-[![matplotlib-most-isolated-clusters]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-most-isolated-
-clusters.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-most-isolated-
-clusters.png)
+[![matplotlib-most-isolated-clusters]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-most-isolated- clusters.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-most-isolated- clusters.png)
 
 The plot above shows the data set in blue and highlights the most isolated
 points in red: Barcelona, Hounslow (outside of London), Munich, Prizren, and
-Istanbul. Each point's annotation shows how far it is from its nearest
-neighbor. As mentioned earlier, in [another
-post]({{ site.url }}{{ site.baseurl }}/2014/09/visualizing-summer-travels-
-part-6-projecting-spatial-data-python/ "Visualizing Summer Travels Part 6:
-Projecting Spatial Data in Python") I explain how to convert point data and
-basemaps to a projected coordinate system in Python, and how to style the map
-to make it much more beautiful. Like this:
+Istanbul. Each point's annotation shows how far it is from its nearest neighbor.
+As mentioned earlier, in [another post]({{ site.url }}{{ site.baseurl
+}}/2014/09/visualizing-summer-travels- part-6-projecting-spatial-data-python/
+"Visualizing Summer Travels Part 6: Projecting Spatial Data in Python") I
+explain how to convert point data and basemaps to a projected coordinate system
+in Python, and how to style the map to make it much more beautiful. Like this:
 
-[![most-isolated-projected]({{ site.url }}{{ site.baseurl }}/files/img/most-isolated-
-projected.png)]({{ site.url }}{{ site.baseurl }}/files/img/most-isolated-
-projected.png)
+[![most-isolated-projected]({{ site.url }}{{ site.baseurl
+}}/files/img/most-isolated- projected.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/most-isolated- projected.png)
 
-You can see that Barcelona, Hounslow, and Istanbul are by far the most
-isolated points, each being over 300 miles from their nearest neighbors (where
-the nearest neighbor must be at least 20 miles away).
+You can see that Barcelona, Hounslow, and Istanbul are by far the most isolated
+points, each being over 300 miles from their nearest neighbors (where the
+nearest neighbor must be at least 20 miles away).
 
 ## Pie charts with matplotlib
 
 Let's take a step back for a second. At the beginning of this post, I plotted
-some bar charts showing which countries and cities were the most visited
-during my travels. Let's revisualize this data with pie charts, to show
-relative shares of the data set. First, I'll plot the cities I visited by
-each's share of the total records in the data set:
+some bar charts showing which countries and cities were the most visited during
+my travels. Let's revisualize this data with pie charts, to show relative shares
+of the data set. First, I'll plot the cities I visited by each's share of the
+total records in the data set:
 
 ```python
 countdata = df['city'].value_counts()
@@ -563,9 +557,9 @@ grouping_threshold = 30,
 grouping_label = 'All Other Cities')
 ```
 
-[![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-pie-cities-by-
-share.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-pie-cities-by-
-share.png)
+[![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-pie-cities-by- share.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-pie-cities-by- share.png)
 
 As we saw earlier, Barcelona was the most visited city, followed by Lisbon,
 Tuebingen, and Prague. Cities with fewer than 30 rows in the data set are
@@ -575,13 +569,13 @@ But what, oh what is this wonderful gbplot_pie() function that produces such
 beautiful matplotlib pie charts? That will be a tale for another post, but in
 short, it's a function I wrote to make matplotlib pie charts look nice, and to
 group lots of minuscule wedges into one "all other values" wedge. This pie-
-charting function appears in its entirety, with comments, in the full [IPython
-notebook](https://github.com/gboeing/2014-summer-travels/blob/master/trip-visualization.ipynb).
+charting function appears in its entirety, with comments, in the full
+[IPython notebook](https://github.com/gboeing/2014-summer-travels/blob/master/trip-visualization.ipynb).
 
-The pie chart above uses percentages as its values. Next I'll plot the
-countries I visited by how many total observations each has in the data set. I
-first need to write a short formatting function to convert the percentage
-value from each wedge back into its original count value:
+The pie chart above uses percentages as its values. Next I'll plot the countries
+I visited by how many total observations each has in the data set. I first need
+to write a short formatting function to convert the percentage value from each
+wedge back into its original count value:
 
 ```python
 countdata = df['country'].value_counts()
@@ -600,9 +594,9 @@ grouping_threshold = 30,
 grouping_label = 'All Other Countries')
 ```
 
-[![matplotlib-pie-countries-by-records]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-pie-
-countries-by-records.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-
-pie-countries-by-records.png)
+[![matplotlib-pie-countries-by-records]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-pie- countries-by-records.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib- pie-countries-by-records.png)
 
 As we saw earlier, Spain was the most visited country, followed by Portugal,
 Germany, and the Czech Republic. All countries with fewer than 30 rows in the
@@ -616,12 +610,12 @@ chart at the beginning of this post.
 
 We've been visualizing this data so far based on geographical attributes like
 city, country, or lat-long coordinates. Let's change gears slightly now to
-visualize the data set by date and time. The full data set is a pandas
-dataframe indexed by its timestamp, making date and time operations simple.
+visualize the data set by date and time. The full data set is a pandas dataframe
+indexed by its timestamp, making date and time operations simple.
 
-First, I'll plot a bar chart of all of the observations in the data set,
-grouped by the hour of the day. Did I produce more GPS data in the morning,
-afternoon, or at night?
+First, I'll plot a bar chart of all of the observations in the data set, grouped
+by the hour of the day. Did I produce more GPS data in the morning, afternoon,
+or at night?
 
 ```python
 # plot a histogram of observations grouped by hour
@@ -647,13 +641,13 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-[![matplotlib-bar-records-by-hour-of-day]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-bar-
-records-by-hour-of-day.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-
-bar-records-by-hour-of-day.png)
+[![matplotlib-bar-records-by-hour-of-day]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-bar- records-by-hour-of-day.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib- bar-records-by-hour-of-day.png)
 
-It looks like the OpenPaths app on my phone was transmitting more location
-data points between mid-afternoon and early evening. My phone would sometimes
-be turned off or set to airplane mode at night, preventing it from sending or
+It looks like the OpenPaths app on my phone was transmitting more location data
+points between mid-afternoon and early evening. My phone would sometimes be
+turned off or set to airplane mode at night, preventing it from sending or
 receiving any signals. But during the day, my phone was on and transmitting
 while I was out and about.
 
@@ -690,32 +684,32 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-[![matplotlib-bar-records-by-day-of-week]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-bar-
-records-by-day-of-week.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-
-bar-records-by-day-of-week.png)
+[![matplotlib-bar-records-by-day-of-week]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-bar- records-by-day-of-week.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib- bar-records-by-day-of-week.png)
 
 Interesting. Thursday has by far the fewest observations in the data set.
 However, I was producing about 30 records per day and my trip ended on a
 Wednesday - it could just be a fluke of timing. Another full day of location
-data would have pushed Thursday up into the same range as the other days of
-the week.
+data would have pushed Thursday up into the same range as the other days of the
+week.
 
-Lastly, I'll plot the number of observations by date. The trip lasted for
-about two months, so there are approximately 60 days represented in the data
-set. However, the number of records should fluctuate greatly by date.
-OpenPaths could only record my location when I had WiFi or cell data, so some
-dates/locations will be better represented than others.
+Lastly, I'll plot the number of observations by date. The trip lasted for about
+two months, so there are approximately 60 days represented in the data set.
+However, the number of records should fluctuate greatly by date. OpenPaths could
+only record my location when I had WiFi or cell data, so some dates/locations
+will be better represented than others.
 
-I had cell data everywhere in Europe except for Albania and the countries of
-the former Yugoslavia. Accordingly, I'd expect the dates that I was in these
+I had cell data everywhere in Europe except for Albania and the countries of the
+former Yugoslavia. Accordingly, I'd expect the dates that I was in these
 countries to have fewer observations in the data set.
 
 To visualize this, I will group my data set by date and count the number of
 observations for each date. Then I'll create a line graph of these counts,
 annotating when I left the European Union to spend time in Albania and the
 former Yugoslavian countries, and when I returned to the E.U. at the Greek
-border. On the x axis, I'll create one tick mark per inch and label it with
-the date. Then I'll set the tick labels, axis labels, and plot's title:
+border. On the x axis, I'll create one tick mark per inch and label it with the
+date. Then I'll set the tick labels, axis labels, and plot's title:
 
 ```python
 # plot a chart of records by date
@@ -766,9 +760,9 @@ ax.set_axis_bgcolor(axis_bgcolor)
 plt.show()
 ```
 
-[![matplotlib-line-records-by-day]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-line-records-by-
-day.png)]({{ site.url }}{{ site.baseurl }}/files/img/matplotlib-line-records-by-
-day.png)
+[![matplotlib-line-records-by-day]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-line-records-by- day.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-line-records-by- day.png)
 
 As expected, the line chart above shows major fluctuations in the number of
 observations by date. At the very beginning of the trip, I had OpenPaths
@@ -778,8 +772,8 @@ scientifically controlled data set).
 
 I used matplotlib to annotate when I left and returned to the European Union
 (and cell phone service) to explain the big trough in the latter third of the
-graph. However there is one sharp peak in the middle of this trough. Where was
-I then? What was happening?
+graph. However there is one sharp peak in the middle of this trough. Where was I
+then? What was happening?
 
 ```python
 # lots of observations from this date in the balkans - why?
@@ -810,13 +804,12 @@ That's it for my visualizations in Python and matplotlib. To summarize, I
 created some bar charts showing which cities and countries were the most
 visited. I also created some pie charts showing their relative shares of the
 number of observations. I did scatter plots of my spatial data and made a map
-using a shapefile of country borders. Lastly, I plotted the data set by date
-and time to show trends over the duration of the trip.
+using a shapefile of country borders. Lastly, I plotted the data set by date and
+time to show trends over the duration of the trip.
 
 Python is a powerful language for data analysis and there is a lot of
-visualization work that you can do natively in it using matplotlib. In
-[another post]({{ site.url }}{{ site.baseurl }}/2014/09/visualizing-summer-travels-
+visualization work that you can do natively in it using matplotlib. In [another
+post]({{ site.url }}{{ site.baseurl }}/2014/09/visualizing-summer-travels-
 part-6-projecting-spatial-data-python/ "Visualizing Summer Travels Part 6:
 Projecting Spatial Data in Python"), I explain how to project lat-long point
-data and shapefiles to make create beautiful, spatially-accurate maps in
-Python.
+data and shapefiles to make create beautiful, spatially-accurate maps in Python.

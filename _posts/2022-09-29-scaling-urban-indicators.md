@@ -1,18 +1,18 @@
 ---
 layout: post
 title: Scaling Urban Indicators
-date: 2022-09-29 14:20:22.000000000 -07:00
+date: 2022-09-29 14:20:22-07:00
 permalink: /2022/09/scaling-urban-indicators/
 ---
 
-I have a new [article](https://doi.org/10.1080/08111146.2022.2076215) out now
-in the journal of _Urban Policy and Research_ coauthored with a team
-comprising many of the folks from our recent
-[series]({{ site.url }}{{ site.baseurl }}/2022/06/lancet-series-transport-health/) in
-_The Lancet Global Health_. The article is titled "Policy-Relevant Spatial
-Indicators of Urban Liveability and Sustainability: Scaling from Local to
-Global" and discusses measuring urban indicators and scaling the software to
-calculate them from a local case study to a worldwide effort.
+I have a new [article](https://doi.org/10.1080/08111146.2022.2076215) out now in
+the journal of _Urban Policy and Research_ coauthored with a team comprising
+many of the folks from our recent [series]({{ site.url }}{{ site.baseurl
+}}/2022/06/lancet-series-transport-health/) in _The Lancet Global Health_. The
+article is titled "Policy-Relevant Spatial Indicators of Urban Liveability and
+Sustainability: Scaling from Local to Global" and discusses measuring urban
+indicators and scaling the software to calculate them from a local case study to
+a worldwide effort.
 
 From the abstract:
 
@@ -23,12 +23,12 @@ From the abstract:
 > individuals and communities, is crucial to ensure planning decisions are
 > effective and equitable. This paper outlines challenges and lessons from a
 > 5-year collaborative research program, scaling up a software workflow for
-> calculating a composite indicator of urban liveability for residential
-> address points across Melbourne, to Australia's 21 largest cities, and
-> further extension to 25 global cities in diverse contexts.
+> calculating a composite indicator of urban liveability for residential address
+> points across Melbourne, to Australia's 21 largest cities, and further
+> extension to 25 global cities in diverse contexts.
 
-For more, check out the
-[article](https://doi.org/10.1080/08111146.2022.2076215) itself. And you may
-also be interested in our recent _The Lancet Global Health_
-[series]({{ site.url }}{{ site.baseurl }}/2022/06/lancet-series-transport-health/) of
-articles that developed similar themes in great depth.
+For more, check out the [article](https://doi.org/10.1080/08111146.2022.2076215)
+itself. And you may also be interested in our recent _The Lancet Global Health_
+[series]({{ site.url }}{{ site.baseurl
+}}/2022/06/lancet-series-transport-health/) of articles that developed similar
+themes in great depth.

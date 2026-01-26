@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Network-Based Spatial Clustering
-date: 2018-04-05 11:04:38.000000000 -07:00
+date: 2018-04-05 11:04:38-07:00
 permalink: /2018/04/network-based-spatial-clustering/
 ---
 
@@ -12,31 +12,31 @@ be traversed as-the-crow-flies: human mobility is network-constrained. To
 properly model agglomeration along a city's street network, we must use
 network-based spatial clustering.
 
-The code for this example can be found in this [GitHub
-repo](https://github.com/gboeing/network-clustering). We use
-[OSMnx]({{ site.url }}{{ site.baseurl }}/2016/11/osmnx-python-street-networks/) to
-download and assemble the street network for a small city. We also have a
-dataframe of points representing the locations of (fake) restaurants in this
-city. Our restaurants cluster into distinct districts, as many establishments
-and industries tend to do:
+The code for this example can be found in this
+[GitHub repo](https://github.com/gboeing/network-clustering). We use
+[OSMnx]({{ site.url }}{{ site.baseurl
+}}/2016/11/osmnx-python-street-networks/) to download and assemble the street
+network for a small city. We also have a dataframe of points representing the
+locations of (fake) restaurants in this city. Our restaurants cluster into
+distinct districts, as many establishments and industries tend to do:
 
 ![firm locations on the street network to be clustered: python, osmnx,
-matplotlib, scipy, scikit-learn,
-geopandas]({{ site.url }}{{ site.baseurl }}/files/img/locations-1024x722.png)
+matplotlib, scipy, scikit-learn, geopandas]({{ site.url }}{{ site.baseurl
+}}/files/img/locations-1024x722.png)
 
 If we want to explore how these establishments agglomerate, we can identify
-spatial clusters using an algorithm [like
-DBSCAN]({{ site.url }}{{ site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set-
-size/). DBSCAN identifies points as members of a cluster if each is within
-_epsilon_ distance of another and if this cluster contains at least _minpts_
-number of points. For this example we parameterize it with an _epsilon_ = 300
-and _minpts_ = 3. That is, points must be within 300 meters of each other and
-a cluster must contain at least 3 points. For more on DBSCAN, check out this
-[blog post]({{ site.url }}{{ site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-
-set-size/) and [paper](https://osf.io/preprints/socarxiv/nzhdc/).
+spatial clusters using an algorithm [like DBSCAN]({{ site.url }}{{
+site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set- size/). DBSCAN
+identifies points as members of a cluster if each is within _epsilon_ distance
+of another and if this cluster contains at least _minpts_ number of points. For
+this example we parameterize it with an _epsilon_ = 300 and _minpts_ = 3. That
+is, points must be within 300 meters of each other and a cluster must contain at
+least 3 points. For more on DBSCAN, check out this [blog post]({{ site.url
+}}{{ site.baseurl }}/2014/08/clustering-to-reduce-spatial-data- set-size/) and
+[paper](https://osf.io/preprints/socarxiv/nzhdc/).
 
-We compute DBSCAN by converting everything to radians, fitting it, then
-getting cluster labels for each establishment:
+We compute DBSCAN by converting everything to radians, fitting it, then getting
+cluster labels for each establishment:
 
 ```python
 eps_rad = 300 / 3671000. #meters to radians
@@ -45,28 +45,26 @@ algorithm='ball_tree')
 df['spatial_cluster'] = db.fit_predict(np.deg2rad(df[['y', 'x']]))
 ```
 
-Now we can visualize our establishments, coloring them by spatial cluster
-label:
+Now we can visualize our establishments, coloring them by spatial cluster label:
 
 ![business locations on the urban street network spatially clustered with
-DBSCAN: python, osmnx, matplotlib, scipy, scikit-learn,
-geopandas]({{ site.url }}{{ site.baseurl }}/files/img/spatial-clusters-1024x722.png)
+DBSCAN: python, osmnx, matplotlib, scipy, scikit-learn, geopandas]({{ site.url
+}}{{ site.baseurl }}/files/img/spatial-clusters-1024x722.png)
 
 Our three clusters of establishments are clearly visible in red, magenta, and
-green, representing three distinct districts in the city. Each cluster
-contains at least 3 points and no point is more than 300 meters away from
-another. Except for one problem: in cities, we usually cannot travel as-the-
-crow-flies. Rather, urban circulation is constrained to networks of streets
-and paths. Due to terrain and other factors, even adjacent land parcels may
-not interface with each other except through a long trip along the street
-network.
+green, representing three distinct districts in the city. Each cluster contains
+at least 3 points and no point is more than 300 meters away from another. Except
+for one problem: in cities, we usually cannot travel as-the- crow-flies. Rather,
+urban circulation is constrained to networks of streets and paths. Due to
+terrain and other factors, even adjacent land parcels may not interface with
+each other except through a long trip along the street network.
 
 The image above provides an example. The red cluster's right-most 3 points lay
 on a street loop that does not directly connect to the rest of the cluster's
-street network, due to the terrain. Although these two parts of the cluster
-are within our  _epsilon_ distance (300m) of each other spatially, they are
-much farther apart when traveling along the network, as you would have to do
-in reality.
+street network, due to the terrain. Although these two parts of the cluster are
+within our _epsilon_ distance (300m) of each other spatially, they are much
+farther apart when traveling along the network, as you would have to do in
+reality.
 
 To identify how these points cluster together in a meaningful way given that
 urban circulation is network-constrained, we must re-label them using network-
@@ -86,8 +84,8 @@ in vs]
 return pd.Series(dists, index=vs)
 ```
 
-Next we calculate the distance matrix using our OSMnx street network, _G_,
-and re-index to make the matrix establishment-based.
+Next we calculate the distance matrix using our OSMnx street network, _G_, and
+re-index to make the matrix establishment-based.
 
 ```python
 nodes_unique = pd.Series(df['nn'].unique())
@@ -112,9 +110,9 @@ Now we visualize our establishments again, coloring them by network cluster
 label:
 
 ![network-based spatial clustering: points along the city street network
-spatially clustered with network-constrained DBSCAN: python, osmnx,
-matplotlib, scipy, scikit-learn, geopandas]({{ site.url }}{{ site.baseurl }}/files/img/network-
-clusters-1024x722.png)
+spatially clustered with network-constrained DBSCAN: python, osmnx, matplotlib,
+scipy, scikit-learn, geopandas]({{ site.url }}{{ site.baseurl
+}}/files/img/network- clusters-1024x722.png)
 
 When clustered spatially earlier, we got 3 clusters. Now, when we do network-
 constrained density-based spatial clustering, we get 4 clusters: the formerly
@@ -124,10 +122,11 @@ accurately reflects circulation and agglomeration in real-world urban space,
 which is network-constrained.
 
 All of the code to re-create this network clustering workflow is in this
-[Jupyter notebook](https://github.com/gboeing/network-clustering/blob/master/network-clustering-simple.ipynb) in this [GitHub
-repo](https://github.com/gboeing/network-clustering). For a more complicated
-example clustering millions of points along a network, see [this
-notebook](https://github.com/gboeing/network-clustering/blob/master/network-clustering-node-based.ipynb). For more on using DBSCAN for spatial clustering,
-compression, and dimensionality reduction see this [blog
-post]({{ site.url }}{{ site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set-
-size/) and [paper](https://osf.io/preprints/socarxiv/nzhdc/).
+[Jupyter notebook](https://github.com/gboeing/network-clustering/blob/master/network-clustering-simple.ipynb)
+in this [GitHub repo](https://github.com/gboeing/network-clustering). For a more
+complicated example clustering millions of points along a network, see
+[this notebook](https://github.com/gboeing/network-clustering/blob/master/network-clustering-node-based.ipynb).
+For more on using DBSCAN for spatial clustering, compression, and dimensionality
+reduction see this [blog post]({{ site.url }}{{ site.baseurl
+}}/2014/08/clustering-to-reduce-spatial-data-set- size/) and
+[paper](https://osf.io/preprints/socarxiv/nzhdc/).

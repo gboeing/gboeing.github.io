@@ -1,7 +1,9 @@
 ---
 layout: page
-title: 'The Effects of Inequality, Density, and Heterogeneous Residential Preferences
-  on Urban Displacement and Metropolitan Structure: An Agent-Based Model'
+title: >
+  The Effects of Inequality, Density, and Heterogeneous Residential
+  Preferences on Urban Displacement and Metropolitan Structure:
+  An Agent-Based Model
 permalink: /publications/urban-displacement-agglomeration-model/
 ---
 
@@ -20,9 +22,9 @@ Urban displacement - when a household is forced to relocate due to conditions
 affecting its home or surroundings - often results from rising housing costs,
 particularly in wealthy, prosperous cities. However, its dynamics are complex
 and often difficult to understand. This paper presents an agent-based model of
-urban settlement, agglomeration, displacement, and sprawl. New settlements
-form around a spatial amenity that draws initial, poor settlers to subsist on
-the resource. As the settlement grows, subsequent settlers of varying income,
+urban settlement, agglomeration, displacement, and sprawl. New settlements form
+around a spatial amenity that draws initial, poor settlers to subsist on the
+resource. As the settlement grows, subsequent settlers of varying income,
 skills, and interests are heterogeneously drawn to either the original amenity
 or to the emerging human agglomeration. As this agglomeration grows and
 densifies, land values increase, and the initial poor settlers are displaced
