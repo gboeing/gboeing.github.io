@@ -294,9 +294,9 @@ This is even more compelling in the 3-D phase diagram that embeds our time
 series into a 3-dimensional state space by depicting the population value at
 generation _t + 2_ vs the value at generation _t + 1_ vs the value at _t_.
 
-Let's plot the rest of the logistic map's chaotic regime in 3-D. This is [an
-animated, 3-D]({{ site.url }}{{ site.baseurl }}/2015/04/visualizing-chaos-and-
-randomness/ "Visualizing Chaos and Randomness") version of the 2-D rainbow
+Let's plot the rest of the logistic map's chaotic regime in 3-D. This is
+[an animated, 3-D]({{ site.url }}{{ site.baseurl
+}}/2015/04/visualizing-chaos-and-randomness/) version of the 2-D rainbow
 parabolas we saw earlier:
 
 [![Animated 3-D Poincare plot of the logistic map's chaotic regime - this is
@@ -381,11 +381,8 @@ supplanted it as an analytic frame for
 [social](https://press.princeton.edu/books/paperback/9780691127026/complex-adaptive-systems)
 [systems](https://mitpress.mit.edu/books/cities-and-complexity). Complexity
 draws on similar principles but in the end is a very different beast. Instead of
-looking at simple, closed, deterministic systems, [complexity]({{ site.url
-}}{{ site.baseurl }}/2014/10/urban-complexity-march-toward-qualifying-exams/
-"Urban Complexity and the March Toward Qualifying Exams") [examines]({{
-site.url }}{{ site.baseurl }}/2015/01/the-inside-field-exam-and-urban-
-complexity/ "The Inside Field Exam and Urban Complexity") large open systems
+looking at simple, closed, deterministic systems, complexity considers
+large open systems
 made of many interacting parts. Unlike chaotic systems, complex systems retain
 some trace of their initial conditions and previous states, through path
 dependence. They are unpredictable, but in a different way than chaos: complex

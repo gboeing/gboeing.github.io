@@ -7,7 +7,7 @@ permalink: /2019/04/aag-transactions-gis-plenary/
 
 [![Manhattan, New York City, New York street network, bearing, orientation
 from OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
-}}/files/img/manhattan-nyc- street-network-bearings- osmnx-189x300.png)]({{
+}}/files/img/manhattan-nyc-street-network-bearings-osmnx-189x300.png)]({{
 site.url }}{{ site.baseurl
 }}/files/img/manhattan-nyc-street-network-bearings-osmnx.png)
 

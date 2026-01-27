@@ -61,7 +61,7 @@ informal settlements:
 [![Figure-ground diagrams of building footprints and street network in New
 York, San Francisco, Monrovia, and Port au Prince from OpenStreetMap data. Maps
 created in Python with OSMnx and matplotlib.]({{ site.url }}{{ site.baseurl
-}}/files/img/bldg- footprints-ny-sf-monrovia-port-au- prince-970x1024.png)]({{
+}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)]({{
 site.url }}{{ site.baseurl }}/2017/03/urban-form-figure-ground/)
 
 Or how about modernism's inversion of traditional urban spatial order, neatly

@@ -48,7 +48,7 @@ different decades:
 [![US street network patterns from different decades. 1900s: interconnected,
 imperfect grid. 1940s: increasingly circuitous car-centric suburbs. 1990s:
 disconnected, dendritic, car-dependent sprawl.]({{ site.url }}{{ site.baseurl
-}}/files/img/us-street- network-design- evolution-1024x351.png)]({{ site.url
+}}/files/img/us-street-network-design-evolution-1024x351.png)]({{ site.url
 }}{{ site.baseurl }}/files/img/us-street-network-design-evolution.png)
 
 US street network design evolved over time toward car-dependent sprawl. To

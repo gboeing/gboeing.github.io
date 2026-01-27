@@ -43,7 +43,7 @@ character of the street network than any single scale can.
 
 [![Simple regression shows the linear relationship between number of nodes in
 city street network graph and length of roads.]({{ site.url }}{{ site.baseurl
-}}/files/img/usa-street- networks-length-vs- nodes-1024x330.png)]({{ site.url
+}}/files/img/usa-street-networks-length-vs-nodes-1024x330.png)]({{ site.url
 }}{{ site.baseurl }}/files/img/usa-street-networks-length-vs-nodes.png)
 
 This analysis finds a strong linear relationship, across scales, between total

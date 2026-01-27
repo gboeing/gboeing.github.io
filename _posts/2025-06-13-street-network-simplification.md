@@ -12,7 +12,7 @@ it up: "Counting is hard." Hear me out... it really is!
 
 [![Street network graph simplification of complex intersections, nonplanarity,
 and curve digitization from OpenStreetMap data]({{ site.url }}{{ site.baseurl
-}}/files/img/network- simplification-complex- intersections-1024x652.jpeg)]({{
+}}/files/img/network-simplification-complex-intersections-1024x652.jpeg)]({{
 site.url }}{{ site.baseurl
 }}/files/img/network-simplification-complex-intersections.jpeg)
 

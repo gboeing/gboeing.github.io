@@ -98,8 +98,8 @@ pops.tail()
 Next we supply a filename for our animated GIF. This will also serve as the name
 of a working directory in which we'll save each snapshot of our plot. Then we
 call the function to create a 3-D phase diagram (or _Poincaré plot_), described
-[in detail here]({{ site.url }}{{ site.baseurl }}/2015/04/visualizing-chaos-
-and-randomness/ "Visualizing Chaos and Randomness"), of our data set:
+[in detail here]({{ site.url }}{{ site.baseurl
+}}/2015/04/visualizing-chaos-and-randomness/), of our data set:
 
 ```python
 gif_filename = '3d-phase-diagram-chaos-vs-random'

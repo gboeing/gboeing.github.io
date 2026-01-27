@@ -43,7 +43,7 @@ histogram:
 
 [![Manhattan, New York City, New York street network, bearing, orientation
 from OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
-}}/files/img/manhattan-nyc- street-network-bearings- osmnx-646x1024.png)]({{
+}}/files/img/manhattan-nyc-street-network-bearings-osmnx-646x1024.png)]({{
 site.url }}{{ site.baseurl
 }}/files/img/manhattan-nyc-street-network-bearings-osmnx.png)
 
@@ -62,11 +62,9 @@ cities that have one or two primary street grids organizing city circulation,
 their streets are more evenly distributed in every direction. For example,
 here's Boston:
 
-[![Boston, Massachusetts city street network, bearing, orientation from
+![Boston, Massachusetts city street network, bearing, orientation from
 OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
-}}/files/img/boston- massachusetts-street-network-bearings-
-osmnx-864x1024.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/boston-massachusetts-street-network-bearings-osmnx.png)
+}}/files/img/boston-massachusetts-street-network-bearings-osmnx-864x1024.png)
 
 Although it features a grid in some neighborhoods like the Back Bay and South
 Boston, these grids tend to not be aligned with one another, resulting in a

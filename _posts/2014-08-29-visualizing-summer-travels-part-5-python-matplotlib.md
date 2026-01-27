@@ -24,15 +24,14 @@ library. All of my code is available in this
 
 First I'm going to import the necessary Python modules I'll be working with.
 Then I load two location data sets: one is the [original full set]({{ site.url
-}}{{ site.baseurl }}/2014/07/visualizing-summer-travels-part-1-openpaths/
-"Visualizing Summer Travels Part 1: OpenPaths") and the other is a [clustered,
-reduced set]({{ site.url }}{{ site.baseurl }}/2014/08/clustering-
-to-reduce-spatial-data-set-size/ "Clustering to Reduce Spatial Data Set Size")
+}}{{ site.baseurl
+}}/2014/07/visualizing-summer-travels-part-1-openpaths/) and the other is a
+[clustered, reduced set]({{ site.url }}{{ site.baseurl
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/)
 of location data points. Both of these data sets have been [reverse-
 geocoded]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/
-"Reverse Geocode a Set of Lat-Long Coordinates to City + Country") so I have
-lat-long coordinates, city, and country data.
+}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/)
+so I have lat-long coordinates, city, and country data.
 
 For the full data set, I'll use its timestamp column as its index. For the
 reduced data set, pandas will automatically generate the index. The data files
@@ -149,7 +148,7 @@ plt.show()
 ```
 
 [![matplotlib-bar-most-visited-countries-log]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar- most-visited-countries- log.png)]({{ site.url }}{{
+}}/files/img/matplotlib-bar-most-visited-countries-log.png)]({{ site.url }}{{
 site.baseurl }}/files/img/matplotlib-bar-most-visited-countries-log.png)
 
 That looks a bit nicer and represents the relationships between the value counts
@@ -205,8 +204,7 @@ axis labels, tick mark labels, and the plot's title. Lastly, I iterate through
 my dataframe of most visited cities, creating an annotation on the map for each
 of their points. Note that these are plots of unprojected data - I explain more
 about this in [another post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/
-"Visualizing Summer Travels Part 6: Projecting Spatial Data in Python").
+}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/).
 
 ```python
 #get a representative point from the data set for each of the most visited
@@ -289,7 +287,7 @@ plt.show()
 ```
 
 [![matplotlib-scatter-most-visited-countries]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib- scatter-most-visited- countries.png)]({{ site.url }}{{
+}}/files/img/matplotlib-scatter-most-visited-countries.png)]({{ site.url }}{{
 site.baseurl }}/files/img/matplotlib-scatter-most-visited-countries.png)
 
 Much like the previous scatter plot, this one displays my coordinate data and
@@ -406,8 +404,7 @@ map: Lisbon, Barcelona, Prague, Tuebingen, Athens, and Istanbul.
 Like I mentioned earlier, this is just a simple plot of unprojected data so
 there is significant horizontal distortion and stretching at these latitudes. In
 [another post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/
-"Visualizing Summer Travels Part 6: Projecting Spatial Data in Python"), I
+}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/), I
 explain how to convert point data and basemaps to a projected coordinate system
 in Python. I also demonstrate how to style the map to make it much more
 beautiful, also entirely in Python. Like this:
@@ -527,8 +524,7 @@ The plot above shows the data set in blue and highlights the most isolated
 points in red: Barcelona, Hounslow (outside of London), Munich, Prizren, and
 Istanbul. Each point's annotation shows how far it is from its nearest neighbor.
 As mentioned earlier, in [another post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/
-"Visualizing Summer Travels Part 6: Projecting Spatial Data in Python") I
+}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/) I
 explain how to convert point data and basemaps to a projected coordinate system
 in Python, and how to style the map to make it much more beautiful. Like this:
 
@@ -809,7 +805,7 @@ time to show trends over the duration of the trip.
 
 Python is a powerful language for data analysis and there is a lot of
 visualization work that you can do natively in it using matplotlib. In [another
-post]({{ site.url }}{{ site.baseurl }}/2014/09/visualizing-summer-travels-
-part-6-projecting-spatial-data-python/ "Visualizing Summer Travels Part 6:
-Projecting Spatial Data in Python"), I explain how to project lat-long point
-data and shapefiles to make create beautiful, spatially-accurate maps in Python.
+post]({{ site.url }}{{ site.baseurl
+}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/),
+I explain how to project lat-long point
+data and shapefiles to make create better maps in Python.

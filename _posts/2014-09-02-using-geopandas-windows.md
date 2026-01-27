@@ -96,9 +96,9 @@ gdal.VersionInfo()
 
 If each of these lines of code runs successfully without errors, then geopandas
 is successfully installed and ready to be used. Here's a simple [example]({{
-site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels-
-part-5-python-matplotlib/ "Visualizing Summer Travels Part 5: Python +
-Matplotlib") of using geopandas with matplotlib to plot point data over a
+site.url }}{{ site.baseurl
+}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/)
+of using geopandas with matplotlib to plot point data over a
 shapefile basemap:
 
 [![most-isolated-projected]({{ site.url }}{{ site.baseurl

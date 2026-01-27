@@ -14,8 +14,8 @@ site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/)). So, I used
 the DBSCAN clustering algorithm to reduce
 [my data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
 from 1,759 rows to 158 spatially-representative points. This [series of
-posts]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels/
-"Visualizing Summer Travels") discusses this data set in depth.
+posts]({{ site.url }}{{ site.baseurl
+}}/2014/08/visualizing-summer-travels/) discusses this data set in depth.
 
 ## The Douglas-Peucker algorithm
 

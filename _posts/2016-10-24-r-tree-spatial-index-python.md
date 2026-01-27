@@ -133,11 +133,9 @@ Now we can just iterate through these small sub-polygons to quickly identify
 which points lie within each, using the R-tree spatial index (as demonstrated in
 the code snippet earlier):
 
-[![r-tree spatial index with python geopandas: Los Angeles, California city
+![r-tree spatial index with python geopandas: Los Angeles, California city
 boundary subdivided and with street intersections]({{ site.url }}{{
-site.baseurl }}/files/img/los-angeles- boundary-quadrats-
-intersections.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/los-angeles-boundary-quadrats-intersections.png)
+site.baseurl }}/files/img/los-angeles-boundary-quadrats-intersections.png)
 
 This spatial intersection now can take full advantage of the R-tree index and
 reduces the computation time from 20+ minutes down to just a few seconds. Here

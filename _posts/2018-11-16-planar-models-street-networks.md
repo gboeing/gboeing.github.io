@@ -32,11 +32,9 @@ mathematical/topological planarity, which we refer to as "formal planarity," and
 the planarity of its real-world spatial embedding, which we refer to as "spatial
 planarity."
 
-[![Formally planar, spatially nonplanar, and formally nonplanar street network
+![Formally planar, spatially nonplanar, and formally nonplanar street network
 graph models with trivial and real-world examples]({{ site.url }}{{
-site.baseurl }}/files/img/planar- nonplanar-street-network-
-graph-1024x673.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/planar-nonplanar-street-network-graph.png)
+site.baseurl }}/files/img/planar-nonplanar-street-network-graph-1024x673.png)
 
 For example, a street network might be spatially nonplanar due to its embedding
 in space (i.e., it contains overpasses or underpasses in the real world), but it
@@ -58,8 +56,8 @@ analysis, and topological studies.
 
 ![Map of world cities street networks grouped by Spatial Planarity Ratio
 terciles, demonstrating how planar or nonplanar each graph is.]({{ site.url
-}}{{ site.baseurl }}/files/img/street- network-planar-nonplanar-world-
-map-1024x484.png)
+}}{{ site.baseurl
+}}/files/img/street-network-planar-nonplanar-world-map-1024x484.png)
 
 This study develops two new indicators - the Spatial Planarity Ratio and the
 Edge Length Ratio - then measures the extent of nonplanarity in street networks

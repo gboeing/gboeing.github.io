@@ -35,9 +35,7 @@ I also mapped all the artists I've listened to. To do this, I took each artist
 ID in the Last.fm data set and passed it
 [to the Musicbrainz API](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_downloader.ipynb)
 to get full artist details. Then I recursively queried the place until I got a
-full place name, like "Brixton, London, England, UK" (this process takes a
-while, and is perfectly suited to run on a [Raspberry Pi]({{ site.url }}{{
-site.baseurl }}/2016/03/scientific-python-raspberry-pi/)!). Next I
+full place name, like "Brixton, London, England, UK". Next I
 [geocoded](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_geocoder.ipynb)
 these place names to latitude-longitude using the Nominatim and Google APIs.
 Finally I mapped these points in Python with matplotlib

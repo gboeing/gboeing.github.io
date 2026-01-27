@@ -16,9 +16,9 @@ travels with [CartoDB]({{ site.url }}{{ site.baseurl
 [Mapbox + Tilemill]({{ site.url }}{{ site.baseurl
 }}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/). I also
 visualized different aspects of this data set in Python, using the
-[matplotlib]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-
-summer-travels-part-5-python-matplotlib/ "Visualizing Summer Travels Part 5:
-Python + Matplotlib") plotting library. However, these spatial scatter plots
+[matplotlib]({{ site.url }}{{ site.baseurl
+}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/) plotting
+library. However, these spatial scatter plots
 used unprojected lat-long data which looked pretty distorted at European
 latitudes.
 
@@ -76,12 +76,12 @@ calculations and analysis.
 Then I load two location data sets: one is the [original full set]({{ site.url
 }}{{ site.baseurl }}/2014/07/visualizing-summer-travels-part-1-openpaths/
 "Visualizing Summer Travels Part 1: OpenPaths") and the other is a [clustered,
-reduced set]({{ site.url }}{{ site.baseurl }}/2014/08/clustering-
-to-reduce-spatial-data-set-size/ "Clustering to Reduce Spatial Data Set Size")
-of location data points. Both of these data sets have been [reverse-
-geocoded]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/
-"Reverse Geocode a Set of Lat-Long Coordinates to City + Country") so I have
+reduced set]({{ site.url }}{{ site.baseurl
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/)
+of location data points. Both of these data sets have been
+[reverse-geocoded]({{ site.url }}{{ site.baseurl
+}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/)
+so I have
 lat-long coordinates, city, and country data. Finally I load a shapefile of
 world country borders as a geopandas GeoDataFrame.
 
