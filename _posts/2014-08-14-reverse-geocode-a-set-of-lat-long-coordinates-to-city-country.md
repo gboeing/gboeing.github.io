@@ -144,7 +144,7 @@ components. You could also easily tweak this geocoder to search for municipality
 in other types of address components, but these four I used covered my entire
 data set accurately. The data can be visualized with nice informational pop-ups
 now with tools like [CartoDB]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-with- cartodb/), [Leaflet]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing-summer- travels-part-3-leaflet/), or
+}}/2014/08/visualizing-summer-travels-with-cartodb/), [Leaflet]({{ site.url
+}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/), or
 [Mapbox and Tilemill]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels- part-4-mapbox-tilemill/).
+}}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/).

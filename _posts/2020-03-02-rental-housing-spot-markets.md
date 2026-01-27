@@ -64,7 +64,7 @@ and AHS estimates. We might expect Craigslist's asking rents to exceed more-
 representative estimates if it over-represents high-rent neighborhoods and
 units. Yet Craigslist does not exclusively represent the high-end rental market:
 about half of its asking rents [would be affordable]({{ site.url }}{{
-site.baseurl }}/publications/online-housing-market-urban- inequality/) for
+site.baseurl }}/publications/online-housing-market-urban-inequality/) for
 households just below the US median income and about a quarter would be
 affordable for households just below the corresponding African-American median.
 Craigslist hosts [millions of rental listings]({{ site.url }}{{ site.baseurl
@@ -100,10 +100,10 @@ widely and publicly available to help planners address pressing rental housing
 questions.
 
 For more, read [the article]({{ site.url }}{{ site.baseurl
-}}/publications/rental- housing-spot-markets/) itself. Or check out my previous
+}}/publications/rental-housing-spot-markets/) itself. Or check out my previous
 articles on collecting/analyzing [Craigslist listings]({{ site.url }}{{
-site.baseurl }}/publications/craigslist-rental-housing- markets/), understanding
+site.baseurl }}/publications/craigslist-rental-housing-markets/), understanding
 its housing [information landscape]({{ site.url }}{{ site.baseurl
-}}/publications/online-housing-market-urban- inequality/), and what this all
+}}/publications/online-housing-market-urban-inequality/), and what this all
 means for [housing search]({{ site.url }}{{ site.baseurl
 }}/publications/housing-search-big-data/) in the age of big data.

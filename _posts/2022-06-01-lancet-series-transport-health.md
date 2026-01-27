@@ -26,7 +26,7 @@ substantial implementation gaps.
 measurable, evidence-based policies in place to support healthy sustainable
 cities]({{ site.url }}{{ site.baseurl }}/files/img/lancet-urban-policy-
 analysis-1024x860.jpeg)]({{ site.url }}{{ site.baseurl
-}}/files/img/lancet-urban- policy-analysis.jpeg)
+}}/files/img/lancet-urban-policy-analysis.jpeg)
 
 In our [second paper](<https://doi.org/10.1016/S2214-109X(22)00068-7>), our team
 calculated thresholds of built environment characteristics that support two
@@ -36,8 +36,8 @@ a 15% reduction in insufficient physical activity through walking.
 [![The Lancet Global Healthy study estimating the thresholds of built
 environment features that support UN SDG and WHO physical activity goals through
 walking for transport]({{ site.url }}{{ site.baseurl
-}}/files/img/lancet-IPEN-physical-activity- thresholds.jpeg)]({{ site.url }}{{
-site.baseurl }}/files/img/lancet-IPEN-physical- activity-thresholds.jpeg)
+}}/files/img/lancet-IPEN-physical-activity-thresholds.jpeg)]({{ site.url }}{{
+site.baseurl }}/files/img/lancet-IPEN-physical-activity-thresholds.jpeg)
 
 I led our [third paper](<https://doi.org/10.1016/S2214-109X(22)00072-9>), in
 which our geospatial team developed open-source software to calculate indicators
@@ -48,8 +48,8 @@ maps and visualizations for the 25 cities.
 
 [![The Lancet Global Healthy spatial analysis of urban walkability and access
 to daily living needs in 25 global cities]({{ site.url }}{{ site.baseurl
-}}/files/img/lancet-global-urban- walkability.jpeg)]({{ site.url }}{{
-site.baseurl }}/files/img/lancet-global-urban- walkability.jpeg)
+}}/files/img/lancet-global-urban-walkability.jpeg)]({{ site.url }}{{
+site.baseurl }}/files/img/lancet-global-urban-walkability.jpeg)
 
 Our [fourth paper](<https://doi.org/10.1016/S2214-109X(22)00066-3>) sums up our
 findings and considers where we go from here. Few cities in our study had

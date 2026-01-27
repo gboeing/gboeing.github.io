@@ -16,10 +16,10 @@ housing markets in the United States.
 ![Map of 1.5 million Craigslist rental listings in the contiguous U.S., divided
 into quintiles by each listing's rent per square foot. Published in JPER: the
 Journal of Planning Education and Research.]({{ site.url }}{{ site.baseurl
-}}/files/img/01-craigslist-rental-housing-listings-us- map-1024x677.jpg)
+}}/files/img/01-craigslist-rental-housing-listings-us-map-1024x677.jpg)
 
 Here are 4 [key takeaways]({{ site.url }}{{ site.baseurl
-}}/2016/08/craigslist-rental- housing-insights/):
+}}/2016/08/craigslist-rental-housing-insights/):
 
 1. There are incredibly few rental units below fair market rent in the hottest
    housing markets. Some metro areas like New York and Boston have only
@@ -56,6 +56,6 @@ For more info on this project and the findings from analyzing Craigslist housing
 markets, check out this summary [blog post]({{ site.url }}{{ site.baseurl
 }}/2016/08/craigslist-rental-housing-insights/) or download the JPER [journal
 article]({{ site.url }}{{ site.baseurl
-}}/publications/craigslist-rental-housing- markets/). Also see this analysis of
+}}/publications/craigslist-rental-housing-markets/). Also see this analysis of
 [census rents]({{ site.url }}{{ site.baseurl }}/2015/11/landscape-us-rents/)
 data.

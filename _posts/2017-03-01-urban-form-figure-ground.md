@@ -6,11 +6,11 @@ permalink: /2017/03/urban-form-figure-ground/
 ---
 
 _Check out the [journal article]({{ site.url }}{{ site.baseurl
-}}/publications/osmnx- complex-street-networks/) about OSMnx._
+}}/publications/osmnx-complex-street-networks/) about OSMnx._
 
 I previously demonstrated how to create figure-ground [square-mile
 visualizations]({{ site.url }}{{ site.baseurl
-}}/2017/01/square-mile-street-network- visualization/) of urban street networks
+}}/2017/01/square-mile-street-network-visualization/) of urban street networks
 [with OSMnx]({{ site.url }}{{ site.baseurl
 }}/2016/11/osmnx-python-street-networks/) to consistently compare city patterns,
 design paradigms, and connectivity. OSMnx downloads, analyzes, and visualizes
@@ -21,7 +21,7 @@ fascinating comparative window into urban form:
 [![Figure-ground map of building footprints and street network in New York,
 San Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
 Python with OSMnx]({{ site.url }}{{ site.baseurl
-}}/files/img/bldg-footprints-ny-sf-monrovia-port-au- prince-970x1024.png)]({{
+}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)]({{
 site.url }}{{ site.baseurl }}/files/img/bldg-footprints-ny-
 sf-monrovia-port-au-prince.png)
 
@@ -51,7 +51,7 @@ to represent the relationship between built and un-built space in a city. An
 early example is the
 [Nolli Map](https://en.wikipedia.org/wiki/Giambattista_Nolli#Nolli_Map) of Rome
 from the 1740s. We can use [OSMnx]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx-python- street-networks/) to produce a similar map of a city -
+}}/2016/11/osmnx-python-street-networks/) to produce a similar map of a city -
 in this example, suburban Piedmont, California:
 
 [![Nolli map, figure-ground diagram of building footprints in Piedmont,

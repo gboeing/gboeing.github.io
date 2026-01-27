@@ -6,10 +6,10 @@ permalink: /2016/09/college-football-stadium-attendance/
 ---
 
 A few months ago, I wrote about the [large investments]({{ site.url }}{{
-site.baseurl }}/2016/01/visualizing-college-football- stadiums/) that U.S.
+site.baseurl }}/2016/01/visualizing-college-football-stadiums/) that U.S.
 universities are making in their football stadiums. This also included a visual
 analysis of [stadium capacity]({{ site.url }}{{ site.baseurl
-}}/2016/01/visualizing-college-football- stadiums/) around the country. Outside
+}}/2016/01/visualizing-college-football-stadiums/) around the country. Outside
 of North Korea, the 8 largest stadiums in the world are college football
 stadiums, and the 15 largest college football stadiums are larger than any NFL
 stadium.
@@ -28,7 +28,7 @@ First, I visualized the FBS attendance figures themselves:
 [![NCAA college football teams' stadiums' 2015 average attendance per
 game]({{ site.url }}{{ site.baseurl }}/files/img/stadiums-fbs-attend-conf-
 bar-1024x594.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-fbs-attend- conf-bar.png)
+}}/files/img/stadiums-fbs-attend-conf-bar.png)
 
 Michigan, Ohio State, and Texas A&M had the highest average attendance per home
 game in 2015. Overall, six teams exceeded an average of 100,000 people in
@@ -40,20 +40,20 @@ I also grouped these stadiums by conference:
 
 [![NCAA college football conferences' teams' stadiums' 2015 average attendance
 per game]({{ site.url }}{{ site.baseurl
-}}/files/img/conferences-fbs-attendance- bar.png)]({{ site.url }}{{
-site.baseurl }}/files/img/conferences-fbs-attendance- bar.png)
+}}/files/img/conferences-fbs-attendance-bar.png)]({{ site.url }}{{
+site.baseurl }}/files/img/conferences-fbs-attendance-bar.png)
 
 The SEC has the highest average home game attendance (79,000 people/game) and
 the MAC has the lowest (15,000 people/game). Next I looked at how this relates
 to [stadium capacity]({{ site.url }}{{ site.baseurl
-}}/2016/01/visualizing-college- football-stadiums/). The colored bars below
+}}/2016/01/visualizing-college-football-stadiums/). The colored bars below
 represent average attendance per home game, with excess stadium capacity in
 gray:
 
 [![NCAA college football teams' stadiums' 2015 seating capacity and average
 attendance per game, per school]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-fbs-attend-capacity- conf-bar-1024x594.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/stadiums-fbs- attend-capacity-conf-bar.png)
+}}/files/img/stadiums-fbs-attend-capacity-conf-bar-1024x594.png)]({{ site.url
+}}{{ site.baseurl }}/files/img/stadiums-fbs-attend-capacity-conf-bar.png)
 
 Teams like Michigan and Ohio State have enormous stadiums that fill up for all
 of their games. Other teams like USC and UCLA have very large stadiums but fill
@@ -64,8 +64,8 @@ average?
 
 [![NCAA college football teams' stadiums' 2015 average per-game attendance as
 a percent of seating capacity]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-fbs-fill-conf- bar-1024x594.png)]({{ site.url }}{{
-site.baseurl }}/files/img/stadiums-fbs-fill- conf-bar.png)
+}}/files/img/stadiums-fbs-fill-conf-bar-1024x594.png)]({{ site.url }}{{
+site.baseurl }}/files/img/stadiums-fbs-fill-conf-bar.png)
 
 Oregon, Kansas State, and Oklahoma had the highest ratio of average attendance
 to stadium capacity in 2015. Overall, 17 teams averaged a sell-out crowd or

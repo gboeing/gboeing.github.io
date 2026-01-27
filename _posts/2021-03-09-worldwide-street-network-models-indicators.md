@@ -7,7 +7,7 @@ permalink: /2021/03/worldwide-street-network-models-indicators/
 
 My article, "[Street Network Models and Indicators for Every Urban Area in the
 World]({{ site.url }}{{ site.baseurl
-}}/publications/street-network-models-indicators- world/)" has been published by
+}}/publications/street-network-models-indicators-world/)" has been published by
 _Geographical Analysis_. This project was a massive undertaking and I'm excited
 to share it. As you might guess from the title, I modeled and analyzed the
 street network of each urban area in the world then deposited all the
@@ -43,8 +43,8 @@ indicators-world/).
 
 [![Relationships between urban street network variables around the world:
 intersection count, street length, population, GDP]({{ site.url }}{{
-site.baseurl }}/files/img/world- street-network-scatterplots.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/world- street-network-scatterplots.png)
+site.baseurl }}/files/img/world-street-network-scatterplots.png)]({{ site.url
+}}{{ site.baseurl }}/files/img/world-street-network-scatterplots.png)
 
 The article focuses on this open source pipeline for street network modeling and
 analysis, but it also includes a high-level analysis of urban street network

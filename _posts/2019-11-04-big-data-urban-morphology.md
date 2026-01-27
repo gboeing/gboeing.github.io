@@ -9,7 +9,7 @@ My new article "[Spatial Information and the Legibility of Urban Form: Big Data
 in Urban Morphology]({{ site.url }}{{ site.baseurl }}/publications/spatial-
 information-urban-morphology/)" has been published in the _International Journal
 of Information Management_ (download [free PDF]({{ site.url }}{{ site.baseurl
-}}/publications/spatial-information-urban- morphology/)). It builds on recent
+}}/publications/spatial-information-urban-morphology/)). It builds on recent
 work by Crooks et al, presenting workflows to integrate data-driven and
 narrative approaches to urban morphology in today's era of ubiquitous urban big
 data. It situates this theoretically in the visual culture of planning to
@@ -95,7 +95,7 @@ street-networks/) of many American cities.
 [![Figure-ground map of building footprints and street network in New York,
 San Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
 Python with OSMnx]({{ site.url }}{{ site.baseurl
-}}/files/img/bldg-footprints-ny-sf-monrovia-port-au- prince-970x1024.png)]({{
+}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)]({{
 site.url }}{{ site.baseurl }}/files/img/bldg-footprints-
 ny-sf-monrovia-port-au-prince.png)
 
@@ -145,17 +145,17 @@ human activities and social relations.
 [![Urban street network grid orientations, rose plot, polar histogram made
 with Python, OSMnx, OpenStreetMap, matplotlib. New York City and its five
 boroughs, Manhattan, Brooklyn, Queens, The Bronx, Staten Island]({{ site.url
-}}{{ site.baseurl }}/files/img/street-orientation-new- york-1024x721.jpg)]({{
-site.url }}{{ site.baseurl }}/files/img/street-orientation- new-york.jpg)
+}}{{ site.baseurl }}/files/img/street-orientation-new-york-1024x721.jpg)]({{
+site.url }}{{ site.baseurl }}/files/img/street-orientation-new-york.jpg)
 
 The [rose diagrams]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban-street-network- orientation/) above offer another perspective
+}}/2019/09/urban-street-network-orientation/) above offer another perspective
 on visualizing this structural ordering of the city, in this case New York City.
 Each visualizes the orientation (compass bearing) of the borough's street
 segments, with bins representing 10-degrees around the compass and bar lengths
 representing relative frequency (for complete methodological details and
 theoretical development [see here]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban-street-network- orientation/)). For example, in Manhattan's
+}}/2019/09/urban-street-network-orientation/)). For example, in Manhattan's
 rose diagram we can see the spatial order produced by its dominant orthogonal
 grid as its street bearings are primarily captured in four bins, offset from
 true North. The other boroughs have higher entropy street orientations, not
@@ -184,8 +184,8 @@ Python, OSMnx, OpenStreetMap, matplotlib. Bangkok, Barcelona, Beijing, Budapest,
 Cairo, Delhi, Dubai, Glasgow, Hong Kong, Lagos, London, Madrid, Melbourne,
 Mexico City, Moscow, Mumbai, Munich, Paris, Rio de Janeiro, Rome, Seoul, Sydney,
 Tehran, Toronto, Warsaw, Tokyo, Berlin, Venice]({{ site.url }}{{ site.baseurl
-}}/files/img/city-street-orientations-world- osmnx-930x1024.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/city-street- orientations-world-osmnx.png)
+}}/files/img/city-street-orientations-world-osmnx-930x1024.png)]({{ site.url
+}}{{ site.baseurl }}/files/img/city-street-orientations-world-osmnx.png)
 
 Data-driven urban morphology explores urban form by modeling spatial data to
 trace histories, configurations, and orientations in physical space—but it
@@ -199,4 +199,4 @@ built environment." Urban spatial data must be contextually interpreted to
 become meaningful information about form and its evolution.
 
 For more, check out [the article]({{ site.url }}{{ site.baseurl
-}}/publications/spatial-information-urban- morphology/) itself in IJIM.
+}}/publications/spatial-information-urban-morphology/) itself in IJIM.

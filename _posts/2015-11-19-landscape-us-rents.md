@@ -9,7 +9,7 @@ Which U.S. cities are the most expensive for rental housing? Where are rents
 rising the fastest? The American Community Survey (ACS) recently released its
 latest batch of 1-year data and I analyzed, mapped, and visualized it. My
 [methodology]({{ site.url }}{{ site.baseurl
-}}/2015/08/urban-informatics-visualization- berkeley/) is below, and my code and
+}}/2015/08/urban-informatics-visualization-berkeley/) is below, and my code and
 data are in this
 [GitHub repo](https://github.com/gboeing/data-visualization/tree/master/census-rents-2014).
 
@@ -33,7 +33,7 @@ to have risen at a quicker rate since 2010.
 
 [![Most expensive cities in the US: United States metro areas by percent
 increase in median rent between 2010 and 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/rent_change_msa- labels.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/rent_change_msa-labels.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/rent_change_msa-labels.png)
 
 ## Cities with the most expensive rents
@@ -43,8 +43,8 @@ along with the median rent's percentage change since 2010:
 
 [![Most expensive cities in the United States: the US metro areas with the
 highest median rent in 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/highest-median- rent-2014.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/highest-median- rent-2014.png)
+}}/files/img/highest-median-rent-2014.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/highest-median-rent-2014.png)
 
 The list of most expensive cities is dominated by California, which comprises 10
 of the top 15. Cities around the Bay Area also have particularly large increases
@@ -68,8 +68,8 @@ rents. This scatter plot depicts the 2014 vs 2010 median rents for each metro
 area, with a simple regression line showing their relationship:
 
 [![scatter-rent-change-2010-2014]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent- change-2010-2014.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent- change-2010-2014.png)
+}}/files/img/scatter-rent-change-2010-2014.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/scatter-rent-change-2010-2014.png)
 
 And what about fast growing cities? Do they have faster rising rents? Not
 really. The next scatter plot depicts the percent change in median rent vs the
@@ -77,8 +77,8 @@ percent change in population for each metro area: faster growing metros tend to
 have _slightly_ faster rising rents, but the relationship is very weak.
 
 [![scatter-rent-pop-change-2010-14]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent-pop- change-2010-14.png)]({{ site.url }}{{
-site.baseurl }}/files/img/scatter-rent-pop- change-2010-14.png)
+}}/files/img/scatter-rent-pop-change-2010-14.png)]({{ site.url }}{{
+site.baseurl }}/files/img/scatter-rent-pop-change-2010-14.png)
 
 Faster-growing cities do not necessarily have faster-rising rents. There are
 clearly other factors at play.
@@ -90,8 +90,8 @@ median rent's percent change since 2010:
 
 [![Least expensive cities in the United States: the US metro areas with the
 lowest median rent in 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/lowest-median- rent-2014.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/lowest-median- rent-2014.png)
+}}/files/img/lowest-median-rent-2014.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/lowest-median-rent-2014.png)
 
 The least expensive rents are concentrated in small towns and predominantly in
 the South. Talladega, Alabama has the lowest rent in the country by a
@@ -103,8 +103,8 @@ rents since 2010:
 
 [![Least expensive cities in the United States: the US metro areas with the
 fastest decreasing rents]({{ site.url }}{{ site.baseurl
-}}/files/img/greatest-rent- decreases-2014.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/greatest-rent- decreases-2014.png)
+}}/files/img/greatest-rent-decreases-2014.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/greatest-rent-decreases-2014.png)
 
 Talladega pops up here again and the list of cities with the greatest decrease
 in median rent is peppered with small towns across the US. But if anyone's
@@ -122,8 +122,8 @@ Detroit.
 
 [![Most expensive cities in the United States: the most populous US metro
 areas and their median rents]({{ site.url }}{{ site.baseurl
-}}/files/img/most-populous-median- rent-2014.png)]({{ site.url }}{{
-site.baseurl }}/files/img/most-populous-median- rent-2014.png)
+}}/files/img/most-populous-median-rent-2014.png)]({{ site.url }}{{
+site.baseurl }}/files/img/most-populous-median-rent-2014.png)
 
 What is the relationship between city size and median rent? More populous cities
 generally have higher rents, but the relationship is weak and there could be
@@ -168,7 +168,7 @@ the principle city/state and geocoded it to latitude-longitude for mapping.
 I did all the analysis and static mapping in Python with pandas and basemap. I
 made the interactive map with Leaflet. For more on these methods, check out our
 [Urban Informatics and Visualization]({{ site.url }}{{ site.baseurl
-}}/2015/08/urban-informatics-visualization- berkeley/) course at UC Berkeley or
+}}/2015/08/urban-informatics-visualization-berkeley/) course at UC Berkeley or
 see my
 [GitHub repo](https://github.com/gboeing/data-visualization/tree/master/census-rents-2014)
 for the code.

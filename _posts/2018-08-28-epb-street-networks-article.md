@@ -7,7 +7,7 @@ permalink: /2018/08/epb-street-networks-article/
 
 My article, "[A Multi-Scale Analysis of 27,000 Urban Street Networks: Every US
 City, Town, Urbanized Area, and Zillow Neighborhood]({{ site.url }}{{
-site.baseurl }}/publications/multiscale-analysis-street- networks/)," was
+site.baseurl }}/publications/multiscale-analysis-street-networks/)," was
 recently published in _Environment and Planning B: Urban Analytics and City
 Science_. This study uses [OSMnx]({{ site.url }}{{ site.baseurl
 }}/2018/03/osmnx-features-roundup/) to download and analyze 27,000 street
@@ -44,7 +44,7 @@ character of the street network than any single scale can.
 [![Simple regression shows the linear relationship between number of nodes in
 city street network graph and length of roads.]({{ site.url }}{{ site.baseurl
 }}/files/img/usa-street- networks-length-vs- nodes-1024x330.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/usa-street- networks-length-vs-nodes.png)
+}}{{ site.baseurl }}/files/img/usa-street-networks-length-vs-nodes.png)
 
 This analysis finds a strong linear relationship, across scales, between total
 street length and the number of nodes in a network (figure above). This differs
@@ -63,8 +63,8 @@ expansion or sprawl.
 
 [![Map of intersection density and average streets per node for US urbanized
 area street networks]({{ site.url }}{{ site.baseurl
-}}/files/img/usa-urbanized-areas-street- networks-1024x398.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/usa-urbanized- areas-street-networks.png)
+}}/files/img/usa-urbanized-areas-street-networks-1024x398.png)]({{ site.url
+}}{{ site.baseurl }}/files/img/usa-urbanized-areas-street-networks.png)
 
 Looking across US urbanized areas, we can see clear patterns in intersection
 density and the average number of streets per node (figure above). The former
@@ -97,6 +97,6 @@ in the same era but later subjected to sprawl and late 20th century
 planning/design paradigms.
 
 For more, check out the [article here]({{ site.url }}{{ site.baseurl
-}}/publications/multiscale-analysis-street- networks/) or [see here]({{
-site.url }}{{ site.baseurl }}/2018/03/osmnx-features- roundup/) for more info on
+}}/publications/multiscale-analysis-street-networks/) or [see here]({{
+site.url }}{{ site.baseurl }}/2018/03/osmnx-features-roundup/) for more info on
 OSMnx.

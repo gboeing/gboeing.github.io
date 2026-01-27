@@ -10,10 +10,10 @@ _This post part of a series]({{ site.url }}{{ site.baseurl
 visualizing data from my summer travels._
 
 I've previously discussed [my goals]({{ site.url }}{{ site.baseurl
-}}/2014/07/visualizing-summer-travels- part-1-openpaths/) in visualizing GPS
+}}/2014/07/visualizing-summer-travels-part-1-openpaths/) in visualizing GPS
 data from my summer travels and explored visualizing the data set [with
 CartoDB]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-with- cartodb/) and [with Leaflet]({{
+}}/2014/08/visualizing-summer-travels-with-cartodb/) and [with Leaflet]({{
 site.url }}{{ site.baseurl }}/2014/08/visualizing-
 summer-travels-part-3-leaflet/). The full OpenPaths location data from my summer
 travels is
@@ -79,8 +79,8 @@ specify zoom levels. Your choices here must balance map detail and extent vs the
 file size of your tile set. Here's how I configured it:
 
 [![tilemill-screen-upload-settings]({{ site.url }}{{ site.baseurl
-}}/files/img/tilemill-screen-upload- settings.jpg)]({{ site.url }}{{
-site.baseurl }}/files/img/tilemill-screen-upload- settings.jpg)
+}}/files/img/tilemill-screen-upload-settings.jpg)]({{ site.url }}{{
+site.baseurl }}/files/img/tilemill-screen-upload-settings.jpg)
 
 Mine weighs in at 13.1 MB. When you're done configuring, click the upload
 button. It will take a couple of minutes to process the data and upload it all
@@ -91,7 +91,7 @@ a web page, but let's create a new javascript map instead. Copy the map ID from
 the info box.
 
 [![mapbox-project-page]({{ site.url }}{{ site.baseurl
-}}/files/img/mapbox-project- page.jpg)]({{ site.url }}{{ site.baseurl
+}}/files/img/mapbox-project-page.jpg)]({{ site.url }}{{ site.baseurl
 }}/files/img/mapbox-project-page.jpg)
 
 ## Using your tiles in a web map
@@ -130,6 +130,6 @@ All done! Save your HTML file, then open it in a web browser. The Mapbox map
 will appear like the one at the top of this page. It's zoomable and clickable –
 each data point has a popup with time, date, city, and country information. You
 can compare this visualization to similar ones using [CartoDB]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-with- cartodb/) or
+}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/) or
 [Leaflet]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-
 travels-part-3-leaflet/).

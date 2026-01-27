@@ -6,7 +6,7 @@ permalink: /2017/08/isochrone-maps-osmnx-python/
 ---
 
 _Check out the [journal article]({{ site.url }}{{ site.baseurl
-}}/publications/osmnx- complex-street-networks/) about OSMnx._
+}}/publications/osmnx-complex-street-networks/) about OSMnx._
 
 How far can you travel on foot in 15 minutes? Urban planners use isochrone maps
 to show spatial horizons (i.e., isolines) that are equal in time. Isochrones
@@ -40,4 +40,4 @@ in the world. Installation instructions are
 
 If you're interested in routing, travel times, and imputing road speeds, make
 sure to check out OSMnx's new [speed]({{ site.url }}{{ site.baseurl
-}}/2020/06/whats- new-with-osmnx/) module.
+}}/2020/06/whats-new-with-osmnx/) module.

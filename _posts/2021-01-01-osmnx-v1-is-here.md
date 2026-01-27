@@ -7,7 +7,7 @@ permalink: /2021/01/osmnx-v1-is-here/
 
 Happy new year! After five years of development and over 2,000 code commits from
 dozens of contributors, [OSMnx]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx- python-street-networks/) v1.0 has officially been released.
+}}/2016/11/osmnx-python-street-networks/) v1.0 has officially been released.
 This has been a long labor of love and I'm thrilled to see it reach this
 milestone.
 

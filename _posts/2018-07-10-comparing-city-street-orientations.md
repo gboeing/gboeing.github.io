@@ -53,8 +53,8 @@ separate orthogonal grids, one a slight rotation of the other:
 
 [![Detroit, Michigan city street network, bearing, orientation from
 OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
-}}/files/img/detroit-michigan- street-bearings-osmnx.jpg)]({{ site.url }}{{
-site.baseurl }}/files/img/detroit- michigan-street-bearings-osmnx.jpg)
+}}/files/img/detroit-michigan-street-bearings-osmnx.jpg)]({{ site.url }}{{
+site.baseurl }}/files/img/detroit-michigan-street-bearings-osmnx.jpg)
 
 Most cities' polar histograms similarly tend to cluster in at least a rough,
 approximate way. But then there are Boston and Charlotte. Unlike most American
@@ -105,7 +105,7 @@ inexplicable adventure that accompanies every simple right turn.
 _Want to see more cities?_ This post is adapted from this [research paper]({{
 site.url }}{{ site.baseurl }}/2019/09/urban-street-network-orientation/) that
 analyzes and visualizes [100 cities]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban- street-network-orientation/) around the world, discussing
+}}/2019/09/urban-street-network-orientation/) around the world, discussing
 these methods, entropy calculations, and images in more detail. And for more on
 OSMnx, see this [post]({{ site.url }}{{ site.baseurl
 }}/2018/03/osmnx-features-roundup/) or this
@@ -119,5 +119,5 @@ Python, OSMnx, OpenStreetMap, matplotlib. Bangkok, Barcelona, Beijing, Budapest,
 Cairo, Delhi, Dubai, Glasgow, Hong Kong, Lagos, London, Madrid, Melbourne,
 Mexico City, Moscow, Mumbai, Munich, Paris, Rio de Janeiro, Rome, Seoul, Sydney,
 Tehran, Toronto, Warsaw, Tokyo, Berlin, Venice]({{ site.url }}{{ site.baseurl
-}}/files/img/city-street-orientations-world- osmnx-272x300.png)]({{ site.url
-}}{{ site.baseurl }}/2018/07/city-street-orientations- world/)
+}}/files/img/city-street-orientations-world-osmnx-272x300.png)]({{ site.url
+}}{{ site.baseurl }}/2018/07/city-street-orientations-world/)

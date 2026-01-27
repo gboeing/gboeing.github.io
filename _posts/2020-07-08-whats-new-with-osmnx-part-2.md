@@ -70,8 +70,8 @@ fig, ax = ox.plot_graph_routes(G, routes, route_colors=colors, node_size=0)
 
 [![OSMnx plot_graph_routes with multiple colors to plot multiple shortest
 paths in a street network]({{ site.url }}{{ site.baseurl
-}}/files/img/osmnx-plot-graph-routes- colors.png)]({{ site.url }}{{
-site.baseurl }}/files/img/osmnx-plot-graph-routes- colors.png)
+}}/files/img/osmnx-plot-graph-routes-colors.png)]({{ site.url }}{{
+site.baseurl }}/files/img/osmnx-plot-graph-routes-colors.png)
 
 Color handling in the plot module has also been substantially improved. For
 example, the

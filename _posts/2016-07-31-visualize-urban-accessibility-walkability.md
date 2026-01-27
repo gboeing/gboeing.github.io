@@ -28,7 +28,7 @@ in the network to the nearest amenity:
 [![Berkeley Oakland California street network walking accessibility and
 walkability]({{ site.url }}{{ site.baseurl }}/files/img/accessibility-all-east-
 bay-1024x752.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/accessibility-all- east-bay.png)
+}}/files/img/accessibility-all-east-bay.png)
 
 The map shows the walking distance in meters from each network node to the
 nearest restaurant, bar, or school. But, a better indicator of accessibility
@@ -37,8 +37,8 @@ _nearest_, I'll plot accessibility to the _fifth-nearest_ amenity:
 
 [![Berkeley Oakland California street network walking accessibility and
 walkability]({{ site.url }}{{ site.baseurl
-}}/files/img/accessibility-all-5th-east- bay-1024x745.png)]({{ site.url }}{{
-site.baseurl }}/files/img/accessibility-all-5th- east-bay.png)
+}}/files/img/accessibility-all-5th-east-bay-1024x745.png)]({{ site.url }}{{
+site.baseurl }}/files/img/accessibility-all-5th-east-bay.png)
 
 This map more clearly reveals high-amenity hot spots around downtown Oakland and
 downtown Berkeley. We can also break out our amenities individually. Here is
@@ -46,15 +46,15 @@ access to the nearest bar:
 
 [![Berkeley Oakland California street network walking accessibility and
 walkability to bars]({{ site.url }}{{ site.baseurl
-}}/files/img/accessibility-bar-east- bay-1024x752.png)]({{ site.url }}{{
-site.baseurl }}/files/img/accessibility-bar- east-bay.png)
+}}/files/img/accessibility-bar-east-bay-1024x752.png)]({{ site.url }}{{
+site.baseurl }}/files/img/accessibility-bar-east-bay.png)
 
 Compare that to the accessibility to the nearest school:
 
 [![Berkeley Oakland California street network walking accessibility and
 walkability to schools]({{ site.url }}{{ site.baseurl
-}}/files/img/accessibility-school-east- bay-1024x752.png)]({{ site.url }}{{
-site.baseurl }}/files/img/accessibility-school- east-bay.png)
+}}/files/img/accessibility-school-east-bay-1024x752.png)]({{ site.url }}{{
+site.baseurl }}/files/img/accessibility-school-east-bay.png)
 
 Unsurprisingly, different neighborhoods have very different levels of access to
 schools versus bars. And, there are large residential swaths of the East Bay

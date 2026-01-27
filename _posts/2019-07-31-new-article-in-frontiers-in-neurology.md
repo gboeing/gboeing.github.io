@@ -8,7 +8,7 @@ permalink: /2019/07/new-article-in-frontiers-in-neurology/
 I recently teamed up with an international group of public health researchers
 and spatial analysts to co-author an article, [An Introduction to Software
 Tools, Data, and Services for Geospatial Analysis of Stroke Services]({{
-site.url }}{{ site.baseurl }}/publications/software-data-geospatial- stroke/),
+site.url }}{{ site.baseurl }}/publications/software-data-geospatial-stroke/),
 that has been accepted for publication at _Frontiers in Neurology_ ([download
 free PDF]({{ site.url }}{{ site.baseurl }}/publications/software-data-
 geospatial-stroke/)).
@@ -25,4 +25,4 @@ demonstrated in R and Python (including [OSMnx]({{ site.url }}{{ site.baseurl
 }}/2018/03/osmnx-features-roundup/)), and features static mapping and
 interactive web mapping to explore the region. For more info, check out [the
 article]({{ site.url }}{{ site.baseurl
-}}/publications/software-data-geospatial- stroke/).
+}}/publications/software-data-geospatial-stroke/).

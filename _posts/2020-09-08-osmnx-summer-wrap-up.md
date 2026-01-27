@@ -18,8 +18,8 @@ module that lets you flexibly download any OSM geospatial objects as a geopandas
 GeoDataFrame.
 
 First, check out those two [previous]({{ site.url }}{{ site.baseurl
-}}/2020/06/whats- new-with-osmnx/) [updates]({{ site.url }}{{ site.baseurl
-}}/2020/07/whats-new-with- osmnx-part-2/) covering what was new along the way,
+}}/2020/06/whats-new-with-osmnx/) [updates]({{ site.url }}{{ site.baseurl
+}}/2020/07/whats-new-with-osmnx-part-2/) covering what was new along the way,
 including topological intersection consolidation, automatic max speed imputation
 and travel time calculation, querying historical OSM snapshots by date, improved
 visualization and plotting, better graph simplification, a new geocoder module,

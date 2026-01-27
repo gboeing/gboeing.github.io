@@ -86,7 +86,7 @@ New York's median rent/ft² is more than 3.5x higher than Atlanta's, reflecting
 underlying differences in land values which capitalize variation in amenities,
 incomes, supply, and demand. Median rent figures for all cities appear in [the
 article]({{ site.url }}{{ site.baseurl
-}}/publications/craigslist-rental-housing- markets/) so I won't belabor them
+}}/publications/craigslist-rental-housing-markets/) so I won't belabor them
 here, but suffice it to say that the median rental unit in metro areas like New
 York, Boston, and the Bay Area costs well over $2,300/mo. That's across the
 whole metro area and its exurbs - not just the typical pricey urban core.
@@ -119,7 +119,7 @@ San Francisco's, especially when considering household size.
 ## Housing affordability on Craigslist
 
 [The article]({{ site.url }}{{ site.baseurl
-}}/publications/craigslist-rental-housing- markets/) looks at three simple but
+}}/publications/craigslist-rental-housing-markets/) looks at three simple but
 telling indicators of affordability: the proportion of income spent on rent, the
 proportion of listings below fair market rent, and a "rental power" indicator.
 I'll summarize each briefly:
@@ -135,7 +135,7 @@ populous metro areas:
 income for the 15 most populous metropolitan areas in the U.S. New York, Boston,
 Miami, San Francisco Bay Area, Los Angeles, Chicago, Philadelphia, Seattle,
 Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta.]({{ site.url }}{{
-site.baseurl }}/files/img/04-craigslist-rent-burden-by- metro.png)
+site.baseurl }}/files/img/04-craigslist-rent-burden-by-metro.png)
 
 At their _median_ rent and income values, New York, Los Angeles, San Francisco,
 Miami, Boston, and San Diego all _exceed_ the rent burden threshold. In other
@@ -156,7 +156,7 @@ percentages_ of listings below this threshold:
 New York, Boston, Miami, San Francisco Bay Area, Los Angeles, Chicago,
 Philadelphia, Seattle, Washington D.C., Dallas, Houston, Detroit, Phoenix,
 Atlanta]({{ site.url }}{{ site.baseurl
-}}/files/img/04-craigslist-rental-listings-hud-fair-market- rent.png)
+}}/files/img/04-craigslist-rental-listings-hud-fair-market-rent.png)
 
 This is troubling for housing advocates. As discussed earlier, fair market rents
 might be insufficient for households trying to upgrade neighborhoods in metros
@@ -183,12 +183,12 @@ each of the 15 most populous metropolitan areas for the nationwide median rent
 of $1,145, given each's median rent per square foot: New York, Boston, Miami,
 San Francisco Bay Area, Los Angeles, Chicago, Philadelphia, Seattle, Washington
 D.C., Dallas, Houston, Detroit, Phoenix, Atlanta]({{ site.url }}{{ site.baseurl
-}}/files/img/05-craigslist-rental-power-by- metro.png)
+}}/files/img/05-craigslist-rental-power-by-metro.png)
 
 Memphis, TN offers the greatest value among large metros at 1,659 square feet,
 while New York offers the least value at 398 square feet. Details for all the
 other metro areas are in the [journal article]({{ site.url }}{{ site.baseurl
-}}/publications/craigslist-rental-housing- markets/).
+}}/publications/craigslist-rental-housing-markets/).
 
 ## Metropolitan patterns
 
@@ -242,7 +242,7 @@ This project was conducted in Paul Waddell's
 rental listings from Craigslist across the U.S. between May and July 2014 using
 a web scraper built with Python. For a full discussion of the web scraping
 methodology and copyright law, check out the [journal article]({{ site.url
-}}{{ site.baseurl }}/publications/craigslist-rental-housing- markets/). This
+}}{{ site.baseurl }}/publications/craigslist-rental-housing-markets/). This
 study cleaned the data, extracted useful elements, organized them, and analyzed
 them, all with Python and its pandas, numpy, and matplotlib libraries.
 
@@ -254,7 +254,7 @@ are positive, strong, and statistically significant:
 ![Scatterplot of Craigslist median rents versus HUD median rents, for each
 metropolitan area. The simple regression lines represent the relationship
 between the two datasets disambiguated by number of bedrooms.]({{ site.url }}{{
-site.baseurl }}/files/img/09-craigslist-median-rent-vs-hud-median- rent.png)
+site.baseurl }}/files/img/09-craigslist-median-rent-vs-hud-median-rent.png)
 
 On average, median rents are 7% higher for 1-bedroom, 3% higher for 2-bedroom,
 7% lower for 3 bedroom, and 1% higher for 4-bedroom units than the corresponding
@@ -284,7 +284,7 @@ demographic traits. Nevertheless, Craigslist presents an invaluable data source
 for housing research.
 
 [Download the journal article]({{ site.url }}{{ site.baseurl
-}}/publications/craigslist- rental-housing-markets/)
+}}/publications/craigslist-rental-housing-markets/)
 
 **Citation info** : Boeing, G. and P. Waddell. 2016. "New Insights into Rental
 Housing Markets across the United States: Web Scraping and Analyzing Craigslist

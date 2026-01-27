@@ -6,7 +6,7 @@ permalink: /2017/05/osmnx-street-network-elevation/
 ---
 
 _Check out the [journal article]({{ site.url }}{{ site.baseurl
-}}/publications/osmnx- complex-street-networks/) about OSMnx._
+}}/publications/osmnx-complex-street-networks/) about OSMnx._
 
 OSMnx can now download street network elevation data for anywhere in the world.
 In one line of code it downloads the elevation in meters of each network node,
@@ -16,8 +16,8 @@ colored according to their elevation:
 
 [![OSMnx street network elevation data for San Francisco, California to
 calculate street grade and steepness]({{ site.url }}{{ site.baseurl
-}}/files/img/osmnx-sf-elevation- street-network.png)]({{ site.url }}{{
-site.baseurl }}/files/img/osmnx-sf-elevation- street-network.png)
+}}/files/img/osmnx-sf-elevation-street-network.png)]({{ site.url }}{{
+site.baseurl }}/files/img/osmnx-sf-elevation-street-network.png)
 
 Here we find that the average street grade in San Francisco is 4.0% and the
 median street grade is 2.6%. OSMnx uses the Google Maps Elevation API to

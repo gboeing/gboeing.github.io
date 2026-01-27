@@ -22,8 +22,8 @@ and is easy to re-purpose for exploring your own Last.fm history. All you need
 is an [API key](https://www.last.fm/api).
 
 [![Last.fm artists played the most]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-played- most.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-played- most.png)
+}}/files/img/lastfm-artists-played-most.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm-artists-played-most.png)
 
 First I visualized my most-played artists, above. Across the dataset, I have
 279,769 scrobbles (aka, song plays). I've listened to 26,761 different artists
@@ -37,7 +37,7 @@ ID in the Last.fm data set and passed it
 to get full artist details. Then I recursively queried the place until I got a
 full place name, like "Brixton, London, England, UK" (this process takes a
 while, and is perfectly suited to run on a [Raspberry Pi]({{ site.url }}{{
-site.baseurl }}/2016/03/scientific- python-raspberry-pi/)!). Next I
+site.baseurl }}/2016/03/scientific-python-raspberry-pi/)!). Next I
 [geocoded](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_geocoder.ipynb)
 these place names to latitude-longitude using the Nominatim and Google APIs.
 Finally I mapped these points in Python with matplotlib
@@ -68,8 +68,8 @@ I was curious about my most-played artists' relative performance over time. So,
 I took the top six artists and charted their cumulative play counts since 2009:
 
 [![Last.fm top artists' scrobbles over time]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles- top-artists-years.png)]({{ site.url }}{{
-site.baseurl }}/files/img/lastfm-scrobbles- top-artists-years.png)
+}}/files/img/lastfm-scrobbles-top-artists-years.png)]({{ site.url }}{{
+site.baseurl }}/files/img/lastfm-scrobbles-top-artists-years.png)
 
 David Bowie is the big winner here, moving from sixth place in 2009 all the way
 up to first place today as my most-played artist (since Last.fm sign-up). Note
@@ -83,8 +83,8 @@ they changed over the years? And, when exactly do I spend time listening to
 music? First I looked at my songs played per _month_ since January 2010:
 
 [![Last.fm scrobbles per month]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per- month.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per- month.png)
+}}/files/img/lastfm-scrobbles-per-month.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm-scrobbles-per-month.png)
 
 Although there are a couple of big spikes, during most months I listen to
 somewhere around 1,000 to 2,500 songs. The peak during March 2015 coincides with
@@ -93,8 +93,8 @@ reading, writing... and listening to music. Next I looked at which _days_ of the
 week I do most of my listening:
 
 [![Last.fm scrobbles per day of the week]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per- weekday.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per- weekday.png)
+}}/files/img/lastfm-scrobbles-per-weekday.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm-scrobbles-per-weekday.png)
 
 So, I listen to the most music on Fridays, and the least on Saturdays. The
 weekdays are all consistently higher as I tend to listen to music all day long
@@ -103,7 +103,7 @@ about more, away from my computer and stereo. Next I looked at my cumulative
 listening history by _hour_ of the day:
 
 [![Last.fm scrobbles by hour of the day]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per- hour.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm-scrobbles-per-hour.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/lastfm-scrobbles-per-hour.png)
 
 This chart essentially follows my sleep, wake, work schedule. Most of my
@@ -112,8 +112,8 @@ evening. But this aggregate pattern isn't exactly same each day. Here I broke
 out the hourly chart above, by each day of the week:
 
 [![Last.fm scrobbles by hour and day of week]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles- days-hours.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-days- hours.png)
+}}/files/img/lastfm-scrobbles-days-hours.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm-scrobbles-days-hours.png)
 
 Now it's easy to see the low days of Saturday and Sunday - but interestingly,
 Saturday has my highest play count late at night, when I'm up late PARTYING.
@@ -128,15 +128,15 @@ frequency of artist names beginning with each letter of the alphabet (sans a
 preceding "the"):
 
 [![Last.fm artist names first letter prevalence]({{ site.url }}{{
-site.baseurl }}/files/img/lastfm- artists-first-letter-count.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/lastfm- artists-first-letter-count.png)
+site.baseurl }}/files/img/lastfm-artists-first-letter-count.png)]({{ site.url
+}}{{ site.baseurl }}/files/img/lastfm-artists-first-letter-count.png)
 
 S's and M's lead the pack, and Q's and X's bring up the rear. Next I looked at
 the frequency of artist name lengths:
 
 [![Last.fm artist name character length]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-name- length.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-name- length.png)
+}}/files/img/lastfm-artists-name-length.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm-artists-name-length.png)
 
 Not everyone can be a name length outlier like
 [X](<https://en.wikipedia.org/wiki/X_(American_band)>) and
@@ -149,14 +149,14 @@ most-played songs and albums of all-time on Last.fm. First, my most-played
 tracks:
 
 [![Last.fm most played songs of all time]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-tracks-played- most-h.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-tracks-played- most-h.png)
+}}/files/img/lastfm-tracks-played-most-h.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm-tracks-played-most-h.png)
 
 And lastly, my most-played albums:
 
 [![Last.fm most played albums]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-albums-played- most-h-642x1024.png)]({{ site.url }}{{
-site.baseurl }}/files/img/lastfm-albums- played-most-h.png)
+}}/files/img/lastfm-albums-played-most-h-642x1024.png)]({{ site.url }}{{
+site.baseurl }}/files/img/lastfm-albums-played-most-h.png)
 
 There are some common themes here: similar artists appear in both the most-
 played songs and most-played albums lists, unsurprisingly. There's also a pretty

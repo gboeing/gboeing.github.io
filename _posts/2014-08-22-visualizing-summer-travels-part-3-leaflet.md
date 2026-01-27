@@ -10,20 +10,20 @@ _This post is [part of a series]({{ site.url }}{{ site.baseurl
 visualizing data from my summer travels._
 
 I've previously discussed [my goals]({{ site.url }}{{ site.baseurl
-}}/2014/07/visualizing-summer-travels- part-1-openpaths/) in visualizing GPS
+}}/2014/07/visualizing-summer-travels-part-1-openpaths/) in visualizing GPS
 data from my summer travels and explored [visualizing the data set]({{
-site.url }}{{ site.baseurl }}/2014/08/visualizing-summer- travels-with-cartodb/)
+site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/)
 with CartoDB. The full OpenPaths location data from my summer travels is
 [available here](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
 and I discussed how I [reverse-geocoded it here]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a- set-of-lat-long-coordinates-to-city-country/).
+}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/).
 
 Lastly, I reduced the size of this spatial data set so Leaflet can render it
 more quickly on low-power mobile devices. I discussed why this is important and
 how to do it with the [DBSCAN]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering- to-reduce-spatial-data-set-size/) clustering algorithm
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/) clustering algorithm
 and also with the [Douglas-Peucker]({{ site.url }}{{ site.baseurl
-}}/2014/08/reducing-spatial-data-set- size-with-douglas-peucker/) algorithm. The
+}}/2014/08/reducing-spatial-data-set-size-with-douglas-peucker/) algorithm. The
 final data set I'll be working with is
 [available here](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv).
 
@@ -149,6 +149,6 @@ Save the map.html file, then open it in a web browser. The Leaflet map will
 appear like the one at the top of this page. It's zoomable and clickable - each
 data point has a popup with time, date, city, and country information. You can
 compare this visualization to similar ones using [CartoDB]({{ site.url }}{{
-site.baseurl }}/2014/08/visualizing-summer-travels-with- cartodb/) or [Mapbox
+site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/) or [Mapbox
 and Tilemill]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-
 summer-travels-part-4-mapbox-tilemill/).

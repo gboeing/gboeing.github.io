@@ -6,7 +6,7 @@ permalink: /2022/07/two-way-street-network-efficiency/
 ---
 
 I have a new [article]({{ site.url }}{{ site.baseurl
-}}/publications/converting-one- way-streets/) out now in the _Journal of
+}}/publications/converting-one-way-streets/) out now in the _Journal of
 Planning Education and Research_ with Billy Riggs, in which we examine how
 two-way street conversions impact street network efficiency. Most of the
 efficiency literature looks at the benefits of one-way streets for signalization

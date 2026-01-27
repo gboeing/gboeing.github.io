@@ -11,10 +11,10 @@ visualizing data from my summer travels._
 
 I've previously discussed visualizing the GPS location data from my summer
 travels with [CartoDB]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer- travels-with-cartodb/), [Leaflet]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing- summer-travels-part-3-leaflet/), and
+}}/2014/08/visualizing-summer-travels-with-cartodb/), [Leaflet]({{ site.url
+}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/), and
 [Mapbox + Tilemill]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels- part-4-mapbox-tilemill/). Today I will
+}}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/). Today I will
 explore visualizing this data set in Python, using the matplotlib plotting
 library. All of my code is available in this
 [GitHub repo](https://github.com/gboeing/2014-summer-travels), particularly
@@ -117,8 +117,8 @@ plt.show()
 ```
 
 [![matplotlib-bar-most-visited-countries]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-most- visited-countries.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-bar- most-visited-countries.png)
+}}/files/img/matplotlib-bar-most-visited-countries.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-bar-most-visited-countries.png)
 
 Spain is the clear winner, with about 650 records in the data set. The other
 countries trail off behind it. I was in Spain for about a month of the total
@@ -150,7 +150,7 @@ plt.show()
 
 [![matplotlib-bar-most-visited-countries-log]({{ site.url }}{{ site.baseurl
 }}/files/img/matplotlib-bar- most-visited-countries- log.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-bar-most-visited- countries-log.png)
+site.baseurl }}/files/img/matplotlib-bar-most-visited-countries-log.png)
 
 That looks a bit nicer and represents the relationships between the value counts
 more linearly. But, it may be misleading in how it represents the relative share
@@ -178,8 +178,8 @@ plt.show()
 ```
 
 [![matplotlib-bar-most-visited-cities]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-most- visited-cities.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-bar-most- visited-cities.png)
+}}/files/img/matplotlib-bar-most-visited-cities.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-bar-most-visited-cities.png)
 
 Barcelona really dominates this chart, followed by Lisbon, Tuebingen, and
 Prague. Each were cities where I spent extended time.
@@ -246,8 +246,8 @@ plt.show()
 ```
 
 [![matplotlib-scatter-most-visited-cities]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-scatter- most-visited-cities.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib- scatter-most-visited-cities.png)
+}}/files/img/matplotlib-scatter-most-visited-cities.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-scatter-most-visited-cities.png)
 
 The scatter plot above maps my point data and indicates the locations of Lisbon,
 Porto, Barcelona, Krakow, Prague, Tuebingen, Athens, and Istanbul. Let's do the
@@ -290,7 +290,7 @@ plt.show()
 
 [![matplotlib-scatter-most-visited-countries]({{ site.url }}{{ site.baseurl
 }}/files/img/matplotlib- scatter-most-visited- countries.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-scatter-most- visited-countries.png)
+site.baseurl }}/files/img/matplotlib-scatter-most-visited-countries.png)
 
 Much like the previous scatter plot, this one displays my coordinate data and
 indicates the locations of the eight most visited countries in the data set:
@@ -396,8 +396,8 @@ plt.show()
 ```
 
 [![geopandas-shapfile-point-data-map]({{ site.url }}{{ site.baseurl
-}}/files/img/geopandas-shapfile-point- data-map.png)]({{ site.url }}{{
-site.baseurl }}/files/img/geopandas-shapfile-point- data-map.png)
+}}/files/img/geopandas-shapfile-point-data-map.png)]({{ site.url }}{{
+site.baseurl }}/files/img/geopandas-shapfile-point-data-map.png)
 
 This plot above depicts a map of Europe (from my shapefile), with my location
 data plotted on top of it. The top six most visited cities are annotated on the
@@ -413,8 +413,8 @@ in Python. I also demonstrate how to style the map to make it much more
 beautiful, also entirely in Python. Like this:
 
 [![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile- gps-coordinates.png)]({{ site.url }}{{
-site.baseurl }}/files/img/projected- shapefile-gps-coordinates.png)
+}}/files/img/projected-shapefile-gps-coordinates.png)]({{ site.url }}{{
+site.baseurl }}/files/img/projected-shapefile-gps-coordinates.png)
 
 ## The most isolated locations
 
@@ -520,8 +520,8 @@ plt.show()
 ```
 
 [![matplotlib-most-isolated-clusters]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-most-isolated- clusters.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-most-isolated- clusters.png)
+}}/files/img/matplotlib-most-isolated-clusters.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-most-isolated-clusters.png)
 
 The plot above shows the data set in blue and highlights the most isolated
 points in red: Barcelona, Hounslow (outside of London), Munich, Prizren, and
@@ -533,8 +533,8 @@ explain how to convert point data and basemaps to a projected coordinate system
 in Python, and how to style the map to make it much more beautiful. Like this:
 
 [![most-isolated-projected]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated- projected.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated- projected.png)
+}}/files/img/most-isolated-projected.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/most-isolated-projected.png)
 
 You can see that Barcelona, Hounslow, and Istanbul are by far the most isolated
 points, each being over 300 miles from their nearest neighbors (where the
@@ -558,8 +558,8 @@ grouping_label = 'All Other Cities')
 ```
 
 [![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-pie-cities-by- share.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-pie-cities-by- share.png)
+}}/files/img/matplotlib-pie-cities-by-share.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-pie-cities-by-share.png)
 
 As we saw earlier, Barcelona was the most visited city, followed by Lisbon,
 Tuebingen, and Prague. Cities with fewer than 30 rows in the data set are
@@ -595,8 +595,8 @@ grouping_label = 'All Other Countries')
 ```
 
 [![matplotlib-pie-countries-by-records]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-pie- countries-by-records.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib- pie-countries-by-records.png)
+}}/files/img/matplotlib-pie-countries-by-records.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-pie-countries-by-records.png)
 
 As we saw earlier, Spain was the most visited country, followed by Portugal,
 Germany, and the Czech Republic. All countries with fewer than 30 rows in the
@@ -642,8 +642,8 @@ plt.show()
 ```
 
 [![matplotlib-bar-records-by-hour-of-day]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar- records-by-hour-of-day.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib- bar-records-by-hour-of-day.png)
+}}/files/img/matplotlib-bar-records-by-hour-of-day.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-bar-records-by-hour-of-day.png)
 
 It looks like the OpenPaths app on my phone was transmitting more location data
 points between mid-afternoon and early evening. My phone would sometimes be
@@ -685,8 +685,8 @@ plt.show()
 ```
 
 [![matplotlib-bar-records-by-day-of-week]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar- records-by-day-of-week.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib- bar-records-by-day-of-week.png)
+}}/files/img/matplotlib-bar-records-by-day-of-week.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-bar-records-by-day-of-week.png)
 
 Interesting. Thursday has by far the fewest observations in the data set.
 However, I was producing about 30 records per day and my trip ended on a
@@ -761,8 +761,8 @@ plt.show()
 ```
 
 [![matplotlib-line-records-by-day]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-line-records-by- day.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-line-records-by- day.png)
+}}/files/img/matplotlib-line-records-by-day.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-line-records-by-day.png)
 
 As expected, the line chart above shows major fluctuations in the number of
 observations by date. At the very beginning of the trip, I had OpenPaths

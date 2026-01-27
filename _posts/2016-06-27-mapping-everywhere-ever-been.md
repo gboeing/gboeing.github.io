@@ -70,7 +70,7 @@ day.
 [![Visualizing Foursquare/Swarm check-in history: most common countries
 checked into]({{ site.url }}{{ site.baseurl
 }}/files/img/foursquare_common_countries.png)]({{ site.url }}{{ site.baseurl
-}}/2016/04/visualize- foursquare-history/)
+}}/2016/04/visualize-foursquare-history/)
 
 Next I downloaded my Google location history from the Google
 [Takeout](https://accounts.google.com/ServiceLogin?service=backup) site. It
@@ -85,7 +85,7 @@ San Francisco Bay Area.
 history data in the San Francisco Bay Area, 2012-2016]({{ site.url }}{{
 site.baseurl }}/files/img/google_location_history_sf_bay_map-small-
 brdr.jpg)]({{ site.url }}{{ site.baseurl
-}}/2016/06/mapping-google-location-history- python/)
+}}/2016/06/mapping-google-location-history-python/)
 
 ## Clustering and reverse-geocoding
 
@@ -108,7 +108,7 @@ and country for each data point, without spending weeks making a million API
 calls.
 
 Accordingly, [I reverse-geocoded]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse- geocode-a-set-of-lat-long-coordinates-to-city-country/) each
+}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) each
 point in my cluster-reduced Google location history data set with the Google
 Maps reverse- geocoding API, using the code in
 [this notebook](https://github.com/gboeing/data-visualization/blob/master/location-history/google-location-history-reverse-geocode.ipynb).

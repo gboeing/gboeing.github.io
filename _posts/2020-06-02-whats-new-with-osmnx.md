@@ -62,8 +62,8 @@ dead_ends=True)
 
 [![OSMnx intersection consolidation to merge nearby nodes together and rebuild
 graph topology by reconnecting edges to new merged node]({{ site.url }}{{
-site.baseurl }}/files/img/osmnx- consolidate_intersections-300x241.png)]({{
-site.url }}{{ site.baseurl }}/files/img/osmnx- consolidate_intersections.png)
+site.baseurl }}/files/img/osmnx-consolidate_intersections-300x241.png)]({{
+site.url }}{{ site.baseurl }}/files/img/osmnx-consolidate_intersections.png)
 
 If we plot a portion of this network (above), notice how the traffic circles'
 many (red) nodes are merged into a new single centroid node (black), with edge
@@ -110,8 +110,8 @@ time (blue) rather than distance (red):
 
 [![Calculate shortest path routes that minimize distance or travel time by
 imputing missing street speeds with OSMnx]({{ site.url }}{{ site.baseurl
-}}/files/img/osmnx-route-travel- time.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/osmnx-route-travel- time.png)
+}}/files/img/osmnx-route-travel-time.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/osmnx-route-travel-time.png)
 
 See the
 [documentation](https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.speed)

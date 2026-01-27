@@ -11,10 +11,10 @@ visualizing data from my summer travels._
 
 I've previously discussed visualizing the GPS location data from my summer
 travels with [CartoDB]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer- travels-with-cartodb/), [Leaflet]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing- summer-travels-part-3-leaflet/), and
+}}/2014/08/visualizing-summer-travels-with-cartodb/), [Leaflet]({{ site.url
+}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/), and
 [Mapbox + Tilemill]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels- part-4-mapbox-tilemill/). I also
+}}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/). I also
 visualized different aspects of this data set in Python, using the
 [matplotlib]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-
 summer-travels-part-5-python-matplotlib/ "Visualizing Summer Travels Part 5:
@@ -39,15 +39,15 @@ to understand this distortion is to see it visually. Here is the very simple but
 very distorted plot of my lat-long data, from the previous post:
 
 [![geopandas-shapfile-point-data-map]({{ site.url }}{{ site.baseurl
-}}/files/img/geopandas-shapfile-point- data-map-300x153.png)]({{ site.url }}{{
-site.baseurl }}/files/img/geopandas- shapfile-point-data-map.png)
+}}/files/img/geopandas-shapfile-point-data-map-300x153.png)]({{ site.url }}{{
+site.baseurl }}/files/img/geopandas-shapfile-point-data-map.png)
 
 And here is the projected data in a more geographically representative plot
 which I will create today in this post:
 
 [![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile- gps-coordinates-300x203.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/projected- shapefile-gps-coordinates.png)
+}}/files/img/projected-shapefile-gps-coordinates-300x203.png)]({{ site.url
+}}{{ site.baseurl }}/files/img/projected-shapefile-gps-coordinates.png)
 
 You can see the horizontal distortion in the top image: France, Germany,
 England, etc are too wide because the three dimensional lat-long data from the
@@ -293,8 +293,8 @@ plt.show()
 ```
 
 [![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile- gps-coordinates.png)]({{ site.url }}{{
-site.baseurl }}/files/img/projected- shapefile-gps-coordinates.png)
+}}/files/img/projected-shapefile-gps-coordinates.png)]({{ site.url }}{{
+site.baseurl }}/files/img/projected-shapefile-gps-coordinates.png)
 
 The plot above depicts a map of Europe with my GPS location data plotted on top
 of it. The top six most visited cities are annotated on the map: Lisbon,
@@ -384,8 +384,8 @@ plt.show()
 ```
 
 [![most-isolated-projected]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated- projected.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated- projected.png)
+}}/files/img/most-isolated-projected.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/most-isolated-projected.png)
 
 The plot above shows the projected GPS location data set in magenta and
 highlights the most isolated points in red: Barcelona, Hounslow (outside of

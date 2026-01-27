@@ -39,13 +39,13 @@ From the abstract:
 > networks in Portland, Oregon.
 
 I developed [OSMnx]({{ site.url }}{{ site.baseurl
-}}/publications/osmnx-complex-street- networks/) as part of my
+}}/publications/osmnx-complex-street-networks/) as part of my
 [dissertation]({{ site.url }}{{ site.baseurl }}/publications/dissertation/)
 research. For more info on using OSMnx, check out this [blog post]({{ site.url
 }}{{ site.baseurl }}/2016/11/osmnx-python-street-networks/), its
 [documentation](https://osmnx.readthedocs.io/), or its
 [GitHub repo](https://github.com/gboeing/osmnx). Or, check out some quick
 demonstrations of using OSMnx to analyze [street network patterns]({{ site.url
-}}{{ site.baseurl }}/2017/01/square-mile-street-network- visualization/) or the
+}}{{ site.baseurl }}/2017/01/square-mile-street-network-visualization/) or the
 [urban form]({{ site.url }}{{ site.baseurl }}/2017/04/urban-form-
 analysis-openstreetmap/).

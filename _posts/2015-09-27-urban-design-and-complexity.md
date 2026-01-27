@@ -12,7 +12,7 @@ assessing the complexity of urban design. If you're attending the conference,
 come on by!
 
 Here's [the paper]({{ site.url }}{{ site.baseurl
-}}/publications/measuring-complexity- urban-form/).
+}}/publications/measuring-complexity-urban-form/).
 
 Here's the abstract:
 

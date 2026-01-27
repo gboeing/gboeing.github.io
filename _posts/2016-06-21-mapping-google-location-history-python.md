@@ -61,6 +61,6 @@ and feel free to re-purpose it to map your own Google location history. You
 might also be interested in [mapping everywhere you've ever been]({{ site.url
 }}{{ site.baseurl }}/2016/06/mapping-everywhere-ever-been/), analyzing your
 [Foursquare check-in history]({{ site.url }}{{ site.baseurl
-}}/2016/04/visualize- foursquare-history/), or our [course at UC Berkeley]({{
+}}/2016/04/visualize-foursquare-history/), or our [course at UC Berkeley]({{
 site.url }}{{ site.baseurl }}/2015/08/urban-informatics-visualization-
 berkeley/) that teaches these skills and tools.

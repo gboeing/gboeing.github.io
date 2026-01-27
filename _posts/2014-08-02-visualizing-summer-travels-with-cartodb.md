@@ -17,7 +17,7 @@ from my summer travels. In this post, I'll explore visualizing this dataset with
 which I'll be working with in these examples, is
 [available here](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
 and I discuss how I [reverse-geocoded it here]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long- coordinates-to-city-country/).
+}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/).
 CartoDB is a simple cloud-based tool for building web maps. You can import data
 through their web-based dashboard and quickly turn it into a dynamic map or
 visualization.
@@ -47,6 +47,6 @@ These are two different ways of quickly and simply visualizing a location
 dataset. CartoDB is good for producing a nice-looking map in a short amount of
 time without requiring technical skills, but its customizability is in turn
 somewhat limited. Next, I'll explore the [Leaflet]({{ site.url }}{{
-site.baseurl }}/2014/08/visualizing-summer-travels- part-3-leaflet/) javascript
+site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/) javascript
 library for mapping and visualizing this data, with a bit more for us to do
 under the hood.

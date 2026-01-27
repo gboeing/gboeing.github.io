@@ -7,9 +7,9 @@ permalink: /2019/08/online-rental-housing-representation/
 
 My article, [Online Rental Housing Market Representation and the Digital
 Reproduction of Urban Inequality]({{ site.url }}{{ site.baseurl
-}}/publications/online- housing-market-urban-inequality/), has just been
+}}/publications/online-housing-market-urban-inequality/), has just been
 published in _Environment and Planning A_ (download [free PDF]({{ site.url
-}}{{ site.baseurl }}/publications/online- housing-market-urban-inequality/)). It
+}}{{ site.baseurl }}/publications/online-housing-market-urban-inequality/)). It
 explores the representation of different communities in online rental listings
 from two perspectives: 1) how might biases in representativeness impact housing
 planners' knowledge of rental markets, and 2) how might information inequality
@@ -78,7 +78,7 @@ Here is the article's abstract:
 > and planners' ability to monitor and respond to urban challenges.
 
 For more, check out [the article]({{ site.url }}{{ site.baseurl
-}}/publications/online- housing-market-urban-inequality/). You might also be
+}}/publications/online-housing-market-urban-inequality/). You might also be
 interested in this [previous article]({{ site.url }}{{ site.baseurl
-}}/2016/08/craigslist-rental-housing- insights/) about Craigslist housing market
+}}/2016/08/craigslist-rental-housing-insights/) about Craigslist housing market
 characteristics.

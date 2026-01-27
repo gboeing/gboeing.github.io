@@ -6,10 +6,10 @@ permalink: /2015/04/animated-3d-plots-python/
 ---
 
 _[Download/cite the paper here]({{ site.url }}{{ site.baseurl
-}}/publications/nonlinear- chaos-fractals-prediction/)!_
+}}/publications/nonlinear-chaos-fractals-prediction/)!_
 
 In a previous post, I discussed [chaos]({{ site.url }}{{ site.baseurl
-}}/2015/03/chaos- theory-logistic-map/), fractals, and strange attractors. I
+}}/2015/03/chaos-theory-logistic-map/), fractals, and strange attractors. I
 also showed how to [visualize]({{ site.url }}{{ site.baseurl
 }}/2015/04/visualizing-chaos-and-randomness/ "Visualizing Chaos and Randomness")
 them with static 3-D plots. Here, I'll demonstrate how to create these animated
@@ -21,7 +21,7 @@ produce animated data visualizations like this, in pure Python:
 time series data embedded in three dimensional state space]({{ site.url }}{{
 site.baseurl }}/files/img/logistic-3d-poincare-plot-chaotic-regime-
 animated.gif)]({{ site.url }}{{ site.baseurl
-}}/files/img/logistic-3d-poincare-plot- chaotic-regime-animated.gif)
+}}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 ## Getting Started
 
@@ -34,8 +34,8 @@ left and right, respectively):
 
 [![Chaos vs random noise in 2D and 3D Poincare plots - the strange attractor
 is revealed]({{ site.url }}{{ site.baseurl
-}}/files/img/poincare-plots-chaos-vs- random.png)]({{ site.url }}{{
-site.baseurl }}/files/img/poincare-plots-chaos-vs- random.png)
+}}/files/img/poincare-plots-chaos-vs-random.png)]({{ site.url }}{{
+site.baseurl }}/files/img/poincare-plots-chaos-vs-random.png)
 
 I noted that if you were to look straight down at the x-y plane of the 3-D plot
 on the right, you'd see an image in perspective identical to the 2-D plot on the
@@ -208,8 +208,8 @@ IPdisplay.Image(url=file_path_name)
 
 [![Chaos vs random noise in an animated 3D Poincare plot - the strange
 attractor is revealed]({{ site.url }}{{ site.baseurl
-}}/files/img/3d-poincare-plot-chaos-vs- random.gif)]({{ site.url }}{{
-site.baseurl }}/files/img/3d-poincare-plot-chaos-vs- random.gif)
+}}/files/img/3d-poincare-plot-chaos-vs-random.gif)]({{ site.url }}{{
+site.baseurl }}/files/img/3d-poincare-plot-chaos-vs-random.gif)
 
 The animation begins by looking straight down at the x-y plane. Then it starts
 rotating and panning, revealing the full 3-D structure of this state space.
@@ -223,7 +223,7 @@ Let's look at another example, with a more interesting data set and movie
 script. The previous animation revealed the difference between chaotic and
 random time series. This time, let's look at 50 different time series from the
 logistic map's [chaotic regime]({{ site.url }}{{ site.baseurl
-}}/2015/03/chaos-theory- logistic-map/), all in one plot:
+}}/2015/03/chaos-theory-logistic-map/), all in one plot:
 
 ```python
 pops = logistic_model(generations=4000, growth_rate_min=3.6,
@@ -284,7 +284,7 @@ IPdisplay.Image(url=file_path_name)
 time series data embedded in three dimensional state space]({{ site.url }}{{
 site.baseurl }}/files/img/logistic-3d-poincare-plot-chaotic-regime-
 animated.gif)]({{ site.url }}{{ site.baseurl
-}}/files/img/logistic-3d-poincare-plot- chaotic-regime-animated.gif)
+}}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 In this animated plot, we have 50 different time series, one for each growth
 rate parameter value. Each of these 50 has its own color and forms its own curve
@@ -307,7 +307,7 @@ and strange attractors. Or check out [this post]({{ site.url }}{{ site.baseurl
 for more on phase diagrams and differentiating chaos from randomness.
 
 You can [download/cite the paper here]({{ site.url }}{{ site.baseurl
-}}/publications/nonlinear-chaos-fractals- prediction/). All of the Python code
+}}/publications/nonlinear-chaos-fractals-prediction/). All of the Python code
 that I used to run the model and produce these animated plots is available in
 this [GitHub repo](https://github.com/gboeing/pynamical). Feel free to play
 around with it and create your own 3-D animations.

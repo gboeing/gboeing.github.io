@@ -7,7 +7,7 @@ permalink: /2020/11/off-grid-back-again/
 
 My article "[Off the Grid... and Back Again? The Recent Evolution of American
 Street Network Planning and Design]({{ site.url }}{{ site.baseurl
-}}/publications/off- the-grid-japa/)" has been published by the _Journal of the
+}}/publications/off-the-grid-japa/)" has been published by the _Journal of the
 American Planning Association_ and won the 2020 Stough-Johansson Springer Award
 for best paper. It identifies recent nationwide trends in American street
 network design, measuring how urban planners abandoned the grid and embraced
@@ -19,7 +19,7 @@ discuss my analysis methods.
 [![Map of where street grids exist today across the US, made with OSMnx and
 Python]({{ site.url }}{{ site.baseurl }}/files/img/us-street-network-
 grid-1024x648.jpg)]({{ site.url }}{{ site.baseurl
-}}/files/img/us-street-network- grid.jpg)
+}}/files/img/us-street-network-grid.jpg)
 
 For starters, where do grid-like streets exist today? The figure above shows how
 grid-like each tract's streets are today, across the contiguous US. We can see
@@ -49,13 +49,13 @@ different decades:
 imperfect grid. 1940s: increasingly circuitous car-centric suburbs. 1990s:
 disconnected, dendritic, car-dependent sprawl.]({{ site.url }}{{ site.baseurl
 }}/files/img/us-street- network-design- evolution-1024x351.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/us-street- network-design-evolution.png)
+}}{{ site.baseurl }}/files/img/us-street-network-design-evolution.png)
 
 US street network design evolved over time toward car-dependent sprawl. To
 measure these street network design paradigms over time, I developed algorithms
 to estimate the vintage of each US census tract from a combination of census
 data, tax assessor data, and property transaction records (see [article]({{
-site.url }}{{ site.baseurl }}/publications/off-the-grid- japa/) for full
+site.url }}{{ site.baseurl }}/publications/off-the-grid-japa/) for full
 details). Then I grouped tracts by decade and looked at their average values
 today across a basket of street network indicators:
 
@@ -63,7 +63,7 @@ today across a basket of street network indicators:
 circuitous over the 20th century, before rebounding toward traditional urbanism
 in recent years.]({{ site.url }}{{ site.baseurl }}/files/img/us-street-network-
 trends-1024x563.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/us-street-network- trends.png)
+}}/files/img/us-street-network-trends.png)
 
 The figure above shows how these street network indicators trend together over
 time. Each trend line represents a different vintage estimation method, as
@@ -187,7 +187,7 @@ with Python, OSMnx, OpenStreetMap, matplotlib. Cities include Boston, Charlotte,
 Chicago, Detroit, Manhattan, Miami, New Orleans, Philadelphia, San Francisco, St
 Louis. ]({{ site.url }}{{ site.baseurl }}/files/img/us-street-
 orientations-1024x422.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/us-street- orientations.png) Above, the polar histogram bars'
+}}/files/img/us-street-orientations.png) Above, the polar histogram bars'
 directions represent compass bearings and bars' lengths represent the proportion
 of city street segments with those bearings. For example, Chicago and Manhattan
 illustrate high orientation order: they have internally-consistent orientations
@@ -195,7 +195,7 @@ as nearly all their streets point in just four different directions. In
 contrast, Charlotte and Boston illustrate low orientation order: their streets
 point more evenly in all directions. Further interpretation and worldwide
 findings on street orientation [are here]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban-street-network- orientation/).
+}}/2019/09/urban-street-network-orientation/).
 
 I also estimated each tract's vintage algorithmically using three different
 methods, based on census bureau data and HISDAC-US property records and assessor

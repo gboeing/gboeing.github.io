@@ -24,7 +24,7 @@ site.baseurl }}/2018/03/osmnx-features-roundup/).
 
 The easiest way to get started with street network modeling and analysis in
 OSMnx is with this [docker image]({{ site.url }}{{ site.baseurl
-}}/2019/02/osmnx- docker-container/) and these example/tutorial
+}}/2019/02/osmnx-docker-container/) and these example/tutorial
 [Jupyter notebooks](https://github.com/gboeing/osmnx-examples). The OSMnx
 software documentation is [available here](https://osmnx.readthedocs.io/) and
 this [journal article]({{ site.url }}{{ site.baseurl
@@ -46,10 +46,10 @@ network-models-measures/).
 This [round-up]({{ site.url }}{{ site.baseurl
 }}/2018/03/osmnx-features-roundup/) contains a set of links to related projects.
 Some recent popular projects include [these]({{ site.url }}{{ site.baseurl
-}}/2018/07/city-street-orientations- world/) [analyses]({{ site.url }}{{
-site.baseurl }}/2018/07/comparing-city-street- orientations/) of street network
+}}/2018/07/city-street-orientations-world/) [analyses]({{ site.url }}{{
+site.baseurl }}/2018/07/comparing-city-street-orientations/) of street network
 orientation around the world, this [urban form analysis]({{ site.url }}{{
-site.baseurl }}/2017/04/urban-form-analysis- openstreetmap/), and [this
+site.baseurl }}/2017/04/urban-form-analysis-openstreetmap/), and [this
 paper]({{ site.url }}{{ site.baseurl
-}}/publications/multiscale-analysis-street- networks/) in _Environment and
+}}/publications/multiscale-analysis-street-networks/) in _Environment and
 Planning B_.

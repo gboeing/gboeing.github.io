@@ -6,7 +6,7 @@ permalink: /2017/12/estimating-daytime-population-density/
 ---
 
 _Check out the [journal article]({{ site.url }}{{ site.baseurl
-}}/publications/estimating-density-census- payroll/) about this project._
+}}/publications/estimating-density-census-payroll/) about this project._
 
 I was recently asked: "how might someone figure out the local daytime population
 density across the Bay Area from public data?" My answer, in short, was that you
@@ -27,8 +27,8 @@ comparable—data.
 
 [![Map of the estimated daytime population density in the San Francisco Bay
 Area]({{ site.url }}{{ site.baseurl
-}}/files/img/sf-bay-daytime-population-density- map-749x1024.jpg)]({{ site.url
-}}{{ site.baseurl }}/files/img/sf-bay-daytime- population-density-map.jpg)
+}}/files/img/sf-bay-daytime-population-density-map-749x1024.jpg)]({{ site.url
+}}{{ site.baseurl }}/files/img/sf-bay-daytime-population-density-map.jpg)
 
 I used Python and JavaScript to produce the analysis, the choropleth map above,
 and the interactive Leaflet web map below (code

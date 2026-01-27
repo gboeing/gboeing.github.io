@@ -112,7 +112,7 @@ of approximately one million street intersections in and around LA:
 [![Los Angeles, California city boundary and street intersections]({{
 site.url }}{{ site.baseurl }}/files/img/los-angeles-boundary-
 intersections.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/los-angeles-boundary- intersections.png)
+}}/files/img/los-angeles-boundary-intersections.png)
 
 We want to find which street intersections are within LA's city boundary. Notice
 that our polygon and points have the same minimum bounding boxes, so an R-tree
@@ -125,8 +125,8 @@ evenly-spaced quadrat lines, then split it into separate polygons along these
 lines:
 
 [![Los Angeles, California city boundary subdivided by quadrats]({{ site.url
-}}{{ site.baseurl }}/files/img/los-angeles-boundary- subdivided.png)]({{
-site.url }}{{ site.baseurl }}/files/img/los-angeles-boundary- subdivided.png)
+}}{{ site.baseurl }}/files/img/los-angeles-boundary-subdivided.png)]({{
+site.url }}{{ site.baseurl }}/files/img/los-angeles-boundary-subdivided.png)
 
 Now we can just iterate through these small sub-polygons to quickly identify
 which points lie within each, using the R-tree spatial index (as demonstrated in
@@ -136,7 +136,7 @@ the code snippet earlier):
 boundary subdivided and with street intersections]({{ site.url }}{{
 site.baseurl }}/files/img/los-angeles- boundary-quadrats-
 intersections.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/los-angeles-boundary- quadrats-intersections.png)
+}}/files/img/los-angeles-boundary-quadrats-intersections.png)
 
 This spatial intersection now can take full advantage of the R-tree index and
 reduces the computation time from 20+ minutes down to just a few seconds. Here

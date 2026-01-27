@@ -29,10 +29,10 @@ parties. As part of my dissertation, I developed a tool called [OSMnx]({{
 site.url }}{{ site.baseurl }}/2016/11/osmnx-python-street-networks/) that allows
 researchers to download street networks and building footprints for any city
 name, address, or polygon in the world, then [analyze]({{ site.url }}{{
-site.baseurl }}/publications/multiscale-analysis-street- networks/) and
+site.baseurl }}/publications/multiscale-analysis-street-networks/) and
 [visualize]({{ site.url }}{{ site.baseurl }}/2017/01/square-mile-street-
 network-visualization/) [them]({{ site.url }}{{ site.baseurl
-}}/2017/03/urban-form- figure-ground/). OSMnx democratizes these data and
+}}/2017/03/urban-form-figure-ground/). OSMnx democratizes these data and
 methods to help technical and non-technical planners and researchers use
 OpenStreetMap data to study urban form, circulation networks, accessibility, and
 resilience.
@@ -50,7 +50,7 @@ using OSMnx:
 from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
 site.url }}{{ site.baseurl }}/files/img/square-mile-street-
 networks-1024x822.jpg)]({{ site.url }}{{ site.baseurl
-}}/2017/01/square-mile-street- network-visualization/)
+}}/2017/01/square-mile-street-network-visualization/)
 
 Each image was created with a single line of code. Adding in [building
 footprints]({{ site.url }}{{ site.baseurl
@@ -62,7 +62,7 @@ informal settlements:
 York, San Francisco, Monrovia, and Port au Prince from OpenStreetMap data. Maps
 created in Python with OSMnx and matplotlib.]({{ site.url }}{{ site.baseurl
 }}/files/img/bldg- footprints-ny-sf-monrovia-port-au- prince-970x1024.png)]({{
-site.url }}{{ site.baseurl }}/2017/03/urban-form-figure- ground/)
+site.url }}{{ site.baseurl }}/2017/03/urban-form-figure-ground/)
 
 Or how about modernism's inversion of traditional urban spatial order, neatly
 illustrated by the building footprints in central Brasília (inspired by James
@@ -73,7 +73,7 @@ Paris, Venice, and Brasilia depict modernism's inversion of traditional spatial
 order]({{ site.url }}{{ site.baseurl
 }}/files/img/square-mile-urban-form-venice-london-paris-
 brasilia-963x1024.jpg)]({{ site.url }}{{ site.baseurl
-}}/2017/03/urban-form-figure- ground/)
+}}/2017/03/urban-form-figure-ground/)
 
 These are still all one square-mile, held at the same scale. However, a single
 square mile cannot be taken as representative of broader scales or other
@@ -124,7 +124,7 @@ small network subsets in different neighborhoods of Portland, Oregon:
 [![Portland Oregon neighborhood street networks for Laurelhurst, Downtown, and
 Northwest Heights, from OpenStreetMap, created with OSMnx, Python, NetworkX, and
 matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/portland-neighborhood-street- networks.jpg)]({{ site.url }}{{
+}}/files/img/portland-neighborhood-street-networks.jpg)]({{ site.url }}{{
 site.baseurl }}/2016/11/osmnx-python-street-networks/)
 
 Each image shows half a km2. Downtown has an orthogonal grid with compact
@@ -150,7 +150,7 @@ earthquake, etc.) than the latter's.
 OpenStreetMap offers a useful new data repository for [walkability]({{
 site.url }}{{ site.baseurl }}/2016/07/visualize-urban-accessibility-
 walkability/) studies, urban form modeling, and [computational]({{ site.url
-}}{{ site.baseurl }}/2015/08/urban-informatics- visualization-berkeley/) urban
+}}{{ site.baseurl }}/2015/08/urban-informatics-visualization-berkeley/) urban
 design. Even if you're [new to Python]({{ site.url }}{{ site.baseurl
 }}/2017/02/python-getting-started/), OSMnx offers an easy way to get started
 working with this rich urban dataset. For more info, check out the paper [about

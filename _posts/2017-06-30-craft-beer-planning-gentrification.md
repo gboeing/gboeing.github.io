@@ -6,7 +6,7 @@ permalink: /2017/06/craft-beer-planning-gentrification/
 ---
 
 I co-authored [a chapter]({{ site.url }}{{ site.baseurl
-}}/publications/craft-beer- neighborhood-change/) in the
+}}/publications/craft-beer-neighborhood-change/) in the
 [new book](https://wvupressonline.com/node/663) _Untapped: Exploring the
 Cultural Dimensions of Craft Beer_ with the estimable Jesus Barajas and Julie
 Wartell. Our chapter is titled "Neighborhood Change, One Pint at a Time" and it
@@ -47,7 +47,7 @@ followed by other western states:
 California, Colorado, Oregon, Washington, Michigan have the most craft beer
 locations.]({{ site.url }}{{ site.baseurl }}/files/img/states-beer-locations-
 big-1024x683.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/states-beer-locations- big.png)
+}}/files/img/states-beer-locations-big.png)
 
 We can also break these locations out by type—that is, breweries versus brew
 pubs:
@@ -55,8 +55,8 @@ pubs:
 [![Locations of craft breweries and brew pubs across the United States.
 California, Colorado, Oregon, Washington, Michigan have the most craft beer
 locations.]({{ site.url }}{{ site.baseurl
-}}/files/img/states-beer-locations-type- big-1024x683.png)]({{ site.url }}{{
-site.baseurl }}/files/img/states-beer-locations- type-big.png)
+}}/files/img/states-beer-locations-type-big-1024x683.png)]({{ site.url }}{{
+site.baseurl }}/files/img/states-beer-locations-type-big.png)
 
 Neighborhoods with craft breweries tend to have densities equivalent to inner-
 ring suburbs. They also tend to have more white residents, a higher proportion
@@ -77,4 +77,4 @@ revitalization of disinvested neighborhoods. We advocate for urban planners to
 recognize the potential importance of craft breweries in neighborhood
 revitalization while also protecting residents from displacement. Read more in
 [the chapter]({{ site.url }}{{ site.baseurl
-}}/publications/craft-beer-neighborhood- change/).
+}}/publications/craft-beer-neighborhood-change/).

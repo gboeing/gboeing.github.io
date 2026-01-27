@@ -6,7 +6,7 @@ permalink: /2018/09/measuring-complexity-urban-form/
 ---
 
 My article, [Measuring the Complexity of Urban Form and Design]({{ site.url
-}}{{ site.baseurl }}/publications/measuring-complexity-urban- form/), is now
+}}{{ site.baseurl }}/publications/measuring-complexity-urban-form/), is now
 in-press for publication at _Urban Design International_ ([download free
 PDF]({{ site.url }}{{ site.baseurl }}/publications/measuring-
 complexity-urban-form/)). Cities are complex systems composed of many human
@@ -36,7 +36,7 @@ urban form.
 through density, grain, connectivity, and permeability. Left: Irvine,
 California. Center: Rome, Italy. Right: Dubai, UAE. Visualizing OpenStreetMap
 data with Python and OSMnx.]({{ site.url }}{{ site.baseurl
-}}/files/img/street-network-complexity-irvine- rome-dubai-1024x331.png)]({{
+}}/files/img/street-network-complexity-irvine-rome-dubai-1024x331.png)]({{
 site.url }}{{ site.baseurl }}/files/img/street-
 network-complexity-irvine-rome-dubai.png)
 
@@ -78,4 +78,4 @@ evolution, and resilience.
 
 Portions of this work were previously presented at the Conference on Complex
 Systems in Tempe, Arizona. For more, check out [the article]({{ site.url }}{{
-site.baseurl }}/publications/measuring-complexity-urban- form/).
+site.baseurl }}/publications/measuring-complexity-urban-form/).

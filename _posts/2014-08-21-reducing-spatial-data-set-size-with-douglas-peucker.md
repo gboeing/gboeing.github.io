@@ -7,10 +7,10 @@ permalink: /2014/08/reducing-spatial-data-set-size-with-douglas-peucker/
 
 In a previous post I discussed how to [reduce the size of a spatial data set by
 clustering]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial- data-set-size/). Too many data points
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/). Too many data points
 in a visualization can overwhelm the user and bog down on-the-fly client-side
 map rendering (for example, with a javascript tool like [Leaflet]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing- summer-travels-part-3-leaflet/)). So,
+}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/)). So,
 I used the DBSCAN clustering algorithm to reduce
 [my data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
 from 1,759 rows to 158 spatially-representative points. This [series of
@@ -65,7 +65,7 @@ The Douglas-Peucker algorithm reduced the size of the data set by about 90%,
 from 1,759 data points in the original full set to 178 points in the new reduced
 data set. That's not bad - these stats are comparable to [results from
 clustering]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data- set-size/). Now let's save the
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/). Now let's save the
 simplified set of coordinates as a new pandas dataframe:
 
 ```python
@@ -135,14 +135,14 @@ plt.show()
 ```
 
 [![shapely-simplified-vs-full]({{ site.url }}{{ site.baseurl
-}}/files/img/shapely-simplified-vs- full.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/shapely-simplified-vs- full.png)
+}}/files/img/shapely-simplified-vs-full.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/shapely-simplified-vs-full.png)
 
 The
 [new reduced data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
 closely approximates the spatial distribution of the original full data set. You
 can compare it to the results I got [by clustering]({{ site.url }}{{
-site.baseurl }}/2014/08/clustering-to- reduce-spatial-data-set-size/): the
+site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set-size/): the
 Douglas-Peucker gave us a better reduced data set than the k-means clustering
 algorithm did, and one comparable to result of the DBSCAN clustering algorithm.
 

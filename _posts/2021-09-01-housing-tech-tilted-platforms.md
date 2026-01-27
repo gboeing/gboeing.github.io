@@ -9,7 +9,7 @@ I have a new article out now in a special issue on platform urbanism, co-
 authored with Max Besbris, David Wachsmuth, and Jake Wegmann, titled [Tilted
 Platforms: Rental Housing Technology and the Rise of Urban Big Data
 Oligopolies]({{ site.url }}{{ site.baseurl
-}}/publications/tilted-platforms-housing- oligopolies/). We reflect on
+}}/publications/tilted-platforms-housing-oligopolies/). We reflect on
 short-term and long-term rental housing technologies and how they're affecting
 the housing search, equity, and affordability.
 
@@ -37,4 +37,4 @@ From the abstract:
 > recommendations.
 
 For more, check out [the article]({{ site.url }}{{ site.baseurl
-}}/publications/tilted- platforms-housing-oligopolies/).
+}}/publications/tilted-platforms-housing-oligopolies/).

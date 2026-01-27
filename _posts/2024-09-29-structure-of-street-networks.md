@@ -10,12 +10,12 @@ I recently coauthored an [article](https://doi.org/10.32866/001c.122117) titled
 _Transport Findings_. On a personal note, Marc has long been a personal hero of
 mine and was the 2nd most cited author in my dissertation, after Mike Batty (who
 I also recently had the pleasure of [collaborating]({{ site.url }}{{
-site.baseurl }}/2022/12/urban-analytics-history- trajectory-critique/) with).
+site.baseurl }}/2022/12/urban-analytics-history-trajectory-critique/) with).
 
 [![Street network orientation in Chicago (low entropy), New Orleans (medium
 entropy), and Rome (high entropy) with polar histograms.]({{ site.url }}{{
-site.baseurl }}/files/img/findings-street- orientations-1024x692.png)]({{
-site.url }}{{ site.baseurl }}/files/img/findings- street-orientations.png)
+site.baseurl }}/files/img/findings-street-orientations-1024x692.png)]({{
+site.url }}{{ site.baseurl }}/files/img/findings-street-orientations.png)
 
 From the abstract:
 

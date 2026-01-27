@@ -6,8 +6,8 @@ permalink: /2014/08/visualizing-summer-travels/
 ---
 
 [![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile- gps-coordinates.png)]({{ site.url }}{{
-site.baseurl }}/files/img/projected- shapefile-gps-coordinates.png) This is a
+}}/files/img/projected-shapefile-gps-coordinates.png)]({{ site.url }}{{
+site.baseurl }}/files/img/projected-shapefile-gps-coordinates.png) This is a
 series of posts about visualizing spatial data. I spent a couple of months
 traveling in Europe this summer and collected GPS location data throughout the
 trip with the OpenPaths app. I explored different web mapping technologies such
@@ -86,8 +86,8 @@ Summer Travels Part 5: Python + Matplotlib") pie chart breaks out the cities I
 visited, by their share of observations in the data set:
 
 [![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-pie-cities-by- share.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-pie-cities-by- share.png)
+}}/files/img/matplotlib-pie-cities-by-share.png)]({{ site.url }}{{
+site.baseurl }}/files/img/matplotlib-pie-cities-by-share.png)
 
 I also calculated the most isolated locations in my data set. These locations
 are spatially isolated from other data points either because I flew in/out of
@@ -99,8 +99,8 @@ plots a projected shapefile and my GPS location data to show these isolated
 clusters:
 
 [![most-isolated-projected]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated- projected.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated- projected.png)
+}}/files/img/most-isolated-projected.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/most-isolated-projected.png)
 
 There is much more in the full posts, along with full explanations of how I
 developed everything and visualized different aspects of the trip.

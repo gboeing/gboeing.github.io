@@ -29,7 +29,7 @@ match the compass bearings:
 
 ![Moraga, California street network orientation edge bearings polar plot OSMnx
 OpenStreetMap Python]({{ site.url }}{{ site.baseurl
-}}/files/img/moraga-california-street-network-polar- plot-1000x1024.png)
+}}/files/img/moraga-california-street-network-polar-plot-1000x1024.png)
 
 In the polar plot above, it's easy to see how Moraga's street orientations are
 scattered in all directions, much as we'd expect given its winding, dendritic
@@ -45,7 +45,7 @@ network than Moraga does. This is clearly reflected in its polar plot:
 
 ![Santa Monica, California street network orientation edge bearings polar plot
 OSMnx OpenStreetMap Python]({{ site.url }}{{ site.baseurl
-}}/files/img/santa-monica-california-street- network-polar-plot-1000x1024.png)
+}}/files/img/santa-monica-california-street-network-polar-plot-1000x1024.png)
 
 In this polar plot, Santa Monica's orthogonal grid is clearly visible in the
 clustering of its streets' compass bearings. We can further use these clustered
@@ -54,5 +54,5 @@ how grid-like or non-grid-like different cities' or neighborhoods' street
 networks are. For more, check out this
 [example notebook](https://github.com/gboeing/osmnx-examples/blob/v0.11/notebooks/15-calculate-visualize-edge-bearings.ipynb),
 read this [overview of OSMnx]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx-python- street-networks/), or get OSMnx
+}}/2016/11/osmnx-python-street-networks/), or get OSMnx
 [from GitHub](https://github.com/gboeing/osmnx).

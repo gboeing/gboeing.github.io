@@ -6,7 +6,7 @@ permalink: /2018/01/urban-street-network-centrality/
 ---
 
 _Check out the [journal article]({{ site.url }}{{ site.baseurl
-}}/publications/osmnx- complex-street-networks/) about OSMnx._
+}}/publications/osmnx-complex-street-networks/) about OSMnx._
 
 We can measure and visualize how "important" a node or an edge is in a network
 by calculating its centrality. Lots of flavors of centrality exist in network
@@ -22,7 +22,7 @@ For example, here is the node closeness centrality for Piedmont, California:
 site.url }}{{ site.baseurl
 }}/files/img/urban-street-network-graph-node-closeness-
 centrality-1024x666.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/urban-street- network-graph-node-closeness-centrality.png)
+}}/files/img/urban-street-network-graph-node-closeness-centrality.png)
 
 The nodes are colored by their relative centrality, from lowest in dark purple
 to highest in bright yellow. However, in some traditions of street network
@@ -39,7 +39,7 @@ street network:
 site.url }}{{ site.baseurl
 }}/files/img/urban-street-network-graph-edge-closeness-
 centrality-1024x666.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/urban-street- network-graph-edge-closeness-centrality.png)
+}}/files/img/urban-street-network-graph-edge-closeness-centrality.png)
 
 The edges are now colored by their centrality, from lowest in dark purple to
 highest in bright yellow. Alternatively, we could weight the nodes or edges by

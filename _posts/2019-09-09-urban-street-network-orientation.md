@@ -47,7 +47,7 @@ polar histogram:
 [![Manhattan, New York City, New York and Boston, Massachusetts street
 network, bearing, orientation from OpenStreetMap mapped with OSMnx and
 Python]({{ site.url }}{{ site.baseurl
-}}/files/img/manhattan-boston-street-network- orientation-1024x678.jpg)]({{
+}}/files/img/manhattan-boston-street-network-orientation-1024x678.jpg)]({{
 site.url }}{{ site.baseurl }}/files/img/manhattan-
 boston-street-network-orientation.jpg)
 
@@ -82,8 +82,8 @@ details [in paper](https://doi.org/10.1007/s41109-019-0189-1)):
 
 [![Cluster analysis of urban street networks via hierarchical agglomerative
 clustering: OpenStreetMap, OSMnx, Python, scikit-learn, matplotlib]({{ site.url
-}}{{ site.baseurl }}/files/img/cluster-city-street- networks-560x1024.png)]({{
-site.url }}{{ site.baseurl }}/files/img/cluster-city- street-networks.png)
+}}{{ site.baseurl }}/files/img/cluster-city-street-networks-560x1024.png)]({{
+site.url }}{{ site.baseurl }}/files/img/cluster-city-street-networks.png)
 
 The clustering dendrogram above shows how different cities' street networks
 group together in similarity. We can also visualize this in two dimensions using
@@ -94,8 +94,8 @@ represent other cities):
 
 [![t-SNE visualization of urban street network clusters via OpenStreetMap,
 OSMnx, Python, scikit-learn, matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/tsne-cluster-street- networks-1024x638.png)]({{ site.url }}{{
-site.baseurl }}/files/img/tsne-cluster- street-networks.png)
+}}/files/img/tsne-cluster-street-networks-1024x638.png)]({{ site.url }}{{
+site.baseurl }}/files/img/tsne-cluster-street-networks.png)
 
 Most of the North American cities lie near each other in three adjacent clusters
 (red, orange, and blue), which contain grid-like—and almost exclusively North

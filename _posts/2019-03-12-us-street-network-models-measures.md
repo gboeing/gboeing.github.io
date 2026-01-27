@@ -6,7 +6,7 @@ permalink: /2019/03/us-street-network-models-measures/
 ---
 
 My new [article]({{ site.url }}{{ site.baseurl
-}}/publications/street-networks-models- measures/), "Street Network Models and
+}}/publications/street-networks-models-measures/), "Street Network Models and
 Measures for Every U.S. City, County, Urbanized Area, Census Tract, and
 Zillow-Defined Neighborhood" has been published in _Urban Science_. This paper
 reports results from a broader project that collected raw street network data
@@ -37,5 +37,5 @@ to quickly and easily conduct graph-theoretic urban circulation network analysis
 anywhere in the U.S. using standard, free, open-source tools.
 
 For more, check out [the article]({{ site.url }}{{ site.baseurl
-}}/publications/street- networks-models-measures/) or read more [about
+}}/publications/street-networks-models-measures/) or read more [about
 OSMnx]({{ site.url }}{{ site.baseurl }}/2018/03/osmnx-features-roundup/).

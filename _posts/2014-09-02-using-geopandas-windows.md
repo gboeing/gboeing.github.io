@@ -70,7 +70,7 @@ install it the manual but foolproof way...
 
 [![Install geopandas on windows with dependencies gdal, fiona, pyproj,
 shapely]({{ site.url }}{{ site.baseurl
-}}/files/img/install-geopandas-windows-gdal-fiona-pyproj- shapely.png)]({{
+}}/files/img/install-geopandas-windows-gdal-fiona-pyproj-shapely.png)]({{
 site.url }}{{ site.baseurl }}/files/img/install-geopandas-windows-
 gdal-fiona-pyproj-shapely.png)
 
@@ -102,13 +102,13 @@ Matplotlib") of using geopandas with matplotlib to plot point data over a
 shapefile basemap:
 
 [![most-isolated-projected]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated- projected.png)]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels- part-6-projecting-spatial-data-python/)
+}}/files/img/most-isolated-projected.png)]({{ site.url }}{{ site.baseurl
+}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/)
 
 For more advanced examples, see this tutorial on [R-tree spatial indexing]({{
 site.url }}{{ site.baseurl }}/2016/10/r-tree-spatial-index-python/) with
 geopandas, and an intro to the [OSMnx]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx- python-street-networks/) package that uses geopandas to work
+}}/2016/11/osmnx-python-street-networks/) package that uses geopandas to work
 with OpenStreetMap street networks. You may also be interested in this simple
 [GitHub gist](https://gist.github.com/gboeing/a6fcb39a9010d142446f4a83e43d8d6c)
 I put together on a quick way to install geopandas as part of a Python spatial

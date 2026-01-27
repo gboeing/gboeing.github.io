@@ -38,7 +38,7 @@ subdivisions are further divided into conferences, each with several teams.
 Here is each Division I conference, colored by subdivision and ranked by the
 average seating capacity of their teams' stadiums (see this follow-up for an
 [analysis of attendance data]({{ site.url }}{{ site.baseurl
-}}/2016/09/college-football- stadium-attendance/)):
+}}/2016/09/college-football-stadium-attendance/)):
 
 ![conferences-bar]({{ site.url }}{{ site.baseurl
 }}/files/img/conferences-bar.png)
@@ -51,8 +51,8 @@ Here is each FBS team ranked by home stadium seating capacity and colored by
 conference:
 
 [![stadiums-fbs-conf-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-fbs-conf- bar-572x1024.png)]({{ site.url }}{{
-site.baseurl }}/files/img/stadiums-fbs-conf- bar.png)
+}}/files/img/stadiums-fbs-conf-bar-572x1024.png)]({{ site.url }}{{
+site.baseurl }}/files/img/stadiums-fbs-conf-bar.png)
 
 Although the SEC has the largest stadiums on average, the top three largest
 stadiums all belong to Big Ten schools: Michigan, Penn State, and Ohio State.
@@ -61,7 +61,7 @@ NCAA Division I teams' football stadiums (FBS and FCS) sorted by seating
 capacity and colored by conference:
 
 [![stadiums-conf-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-conf- bar-1024x595.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-conf-bar-1024x595.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/stadiums-conf-bar.png)
 
 Or to look at this another way, below are the same stadiums again, colored by
@@ -81,7 +81,7 @@ with the newest football stadiums - the Northeast and the Big South - average
 1990 and 1991 respectively:
 
 [![conferences-year-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/conferences-year- bar.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/conferences-year-bar.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/conferences-year-bar.png)
 
 So the SEC's stadiums on average are both the largest and the oldest. How well
@@ -90,15 +90,15 @@ of the oldest stadiums are also among the largest. This chart is similar to the
 one we saw earlier, only colored by year built rather than by conference:
 
 [![stadiums-year-capacity-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-year-capacity- bar-1024x595.png)]({{ site.url }}{{
-site.baseurl }}/files/img/stadiums-year- capacity-bar.png)
+}}/files/img/stadiums-year-capacity-bar-1024x595.png)]({{ site.url }}{{
+site.baseurl }}/files/img/stadiums-year-capacity-bar.png)
 
 ## Big stadiums are big investments
 
 Most of these college football stadiums are larger than their university's
 student bodies, and many are larger than the cities they are located in (also
 see this follow-up [analysis of attendance]({{ site.url }}{{ site.baseurl
-}}/2016/09/college-football-stadium- attendance/)). New stadium and renovation
+}}/2016/09/college-football-stadium-attendance/)). New stadium and renovation
 costs recently have been skyrocketing into the nine-figure range: $450 million
 at Texas A&M, $400 million at Notre Dame, and $474 million at Cal. While these
 massive investments might make sense at football powerhouses with

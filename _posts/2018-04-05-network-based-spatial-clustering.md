@@ -26,13 +26,13 @@ matplotlib, scipy, scikit-learn, geopandas]({{ site.url }}{{ site.baseurl
 
 If we want to explore how these establishments agglomerate, we can identify
 spatial clusters using an algorithm [like DBSCAN]({{ site.url }}{{
-site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set- size/). DBSCAN
+site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set-size/). DBSCAN
 identifies points as members of a cluster if each is within _epsilon_ distance
 of another and if this cluster contains at least _minpts_ number of points. For
 this example we parameterize it with an _epsilon_ = 300 and _minpts_ = 3. That
 is, points must be within 300 meters of each other and a cluster must contain at
 least 3 points. For more on DBSCAN, check out this [blog post]({{ site.url
-}}{{ site.baseurl }}/2014/08/clustering-to-reduce-spatial-data- set-size/) and
+}}{{ site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set-size/) and
 [paper](https://osf.io/preprints/socarxiv/nzhdc/).
 
 We compute DBSCAN by converting everything to radians, fitting it, then getting
@@ -112,7 +112,7 @@ label:
 ![network-based spatial clustering: points along the city street network
 spatially clustered with network-constrained DBSCAN: python, osmnx, matplotlib,
 scipy, scikit-learn, geopandas]({{ site.url }}{{ site.baseurl
-}}/files/img/network- clusters-1024x722.png)
+}}/files/img/network-clusters-1024x722.png)
 
 When clustered spatially earlier, we got 3 clusters. Now, when we do network-
 constrained density-based spatial clustering, we get 4 clusters: the formerly
@@ -128,5 +128,5 @@ complicated example clustering millions of points along a network, see
 [this notebook](https://github.com/gboeing/network-clustering/blob/master/network-clustering-node-based.ipynb).
 For more on using DBSCAN for spatial clustering, compression, and dimensionality
 reduction see this [blog post]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set- size/) and
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/) and
 [paper](https://osf.io/preprints/socarxiv/nzhdc/).

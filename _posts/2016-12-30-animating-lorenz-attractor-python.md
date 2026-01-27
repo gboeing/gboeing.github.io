@@ -50,7 +50,7 @@ attractor in two dimensions with matplotlib:
 
 For more about chaos, check out this [blog post]({{ site.url }}{{ site.baseurl
 }}/2015/03/chaos-theory-logistic-map/) and this [article]({{ site.url }}{{
-site.baseurl }}/publications/nonlinear-chaos-fractals- prediction/). You can
+site.baseurl }}/publications/nonlinear-chaos-fractals-prediction/). You can
 easily animate the Lorenz system and visualize its strange attractor with
 Python, using my code this
 [GitHub repo](https://github.com/gboeing/lorenz-system). You might also be

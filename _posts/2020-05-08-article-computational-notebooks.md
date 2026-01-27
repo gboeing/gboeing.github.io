@@ -36,4 +36,4 @@ From the abstract:
 > geocomputation disciplines should continue into the future.
 
 For more, check out [the article]({{ site.url }}{{ site.baseurl
-}}/publications/street- network-computational-notebook/).
+}}/publications/street-network-computational-notebook/).

@@ -40,7 +40,7 @@ part-5-python-matplotlib/ "Visualizing Summer Travels Part 5: Python +
 Matplotlib") scatter plot of all the coordinates in the full data set:
 
 [![DBSCAN clustering of GPS latitude longitude spatial data]({{ site.url }}{{
-site.baseurl }}/files/img/scatter-full- set.png)]({{ site.url }}{{ site.baseurl
+site.baseurl }}/files/img/scatter-full-set.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/scatter-full-set.png)
 
 At this scale, only a few dozen of the 1,759 data points are really visible.
@@ -213,7 +213,7 @@ plt.show()
 ```
 
 [![DBSCAN clustering of GPS latitude-longitude spatial data]({{ site.url }}{{
-site.baseurl }}/files/img/dbscan-clustering-spatial-gps-lat-long- data.png)]({{
+site.baseurl }}/files/img/dbscan-clustering-spatial-gps-lat-long-data.png)]({{
 site.url }}{{ site.baseurl }}/files/img/dbscan-clustering-spatial-gps-
 lat-long-data.png)
 
@@ -235,6 +235,6 @@ applications that need a low-overhead spatial data set to render a visualization
 quickly and responsively. In particular, you might be interested in
 [this notebook](https://github.com/gboeing/data-visualization/blob/master/location-history/google-location-history-cluster.ipynb)
 that uses this technique to cluster 1.2 million spatial data points and [this
-post]({{ site.url }}{{ site.baseurl }}/2016/06/mapping-everywhere-ever- been/)
+post]({{ site.url }}{{ site.baseurl }}/2016/06/mapping-everywhere-ever-been/)
 about that project. You can also read the
 [paper here](https://osf.io/preprints/socarxiv/nzhdc/).
