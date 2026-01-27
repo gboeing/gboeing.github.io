@@ -24,14 +24,13 @@ library. All of my code is available in this
 
 First I'm going to import the necessary Python modules I'll be working with.
 Then I load two location data sets: one is the [original full set]({{ site.url
-}}{{ site.baseurl
-}}/2014/07/visualizing-summer-travels-part-1-openpaths/) and the other is a
-[clustered, reduced set]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/)
-of location data points. Both of these data sets have been [reverse-
-geocoded]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/)
-so I have lat-long coordinates, city, and country data.
+}}{{ site.baseurl }}/2014/07/visualizing-summer-travels-part-1-openpaths/) and
+the other is a [clustered, reduced set]({{ site.url }}{{ site.baseurl
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/) of location data points.
+Both of these data sets have been [reverse- geocoded]({{ site.url }}{{
+site.baseurl
+}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) so I
+have lat-long coordinates, city, and country data.
 
 For the full data set, I'll use its timestamp column as its index. For the
 reduced data set, pandas will automatically generate the index. The data files
@@ -792,6 +791,6 @@ time to show trends over the duration of the trip.
 Python is a powerful language for data analysis and there is a lot of
 visualization work that you can do natively in it using matplotlib. In [another
 post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/),
-I explain how to project lat-long point
-data and shapefiles to make create better maps in Python.
+}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/), I
+explain how to project lat-long point data and shapefiles to make create better
+maps in Python.

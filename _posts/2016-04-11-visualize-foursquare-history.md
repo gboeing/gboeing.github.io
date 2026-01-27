@@ -39,8 +39,8 @@ Berkeley dominates, which is unsurprising because I live and work in Berkeley.
 Other bay area cities (San Francisco and Oakland) likewise come in second and
 third. What _types_ of places have I checked-into the most?
 
-![Foursquare Swarm most common venue categories checked into]({{ site.url
-}}{{ site.baseurl }}/files/img/foursquare_common_categories.png)
+![Foursquare Swarm most common venue categories checked into]({{ site.url }}{{
+site.baseurl }}/files/img/foursquare_common_categories.png)
 
 I guess these venue categories reveal the highs and lows of PhD student life:
 college buildings, libraries, bars, and breweries. Beyond categories, what

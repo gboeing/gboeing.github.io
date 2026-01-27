@@ -25,8 +25,8 @@ to compare. My data, code, and analysis are in this
 [GitHub repo](https://github.com/gboeing/data-visualization/tree/master/ncaa-football-stadiums).
 First, I visualized the FBS attendance figures themselves:
 
-![NCAA college football teams' stadiums' 2015 average attendance per
-game]({{ site.url }}{{ site.baseurl
+![NCAA college football teams' stadiums' 2015 average attendance per game]({{
+site.url }}{{ site.baseurl
 }}/files/img/stadiums-fbs-attend-conf-bar-1024x594.png)
 
 Michigan, Ohio State, and Texas A&M had the highest average attendance per home
@@ -59,8 +59,8 @@ much smaller percentages of their capacity. Finally I looked at this another way
 capacity? In other words, what percent full does each stadium get, per-game, on
 average?
 
-![NCAA college football teams' stadiums' 2015 average per-game attendance as
-a percent of seating capacity]({{ site.url }}{{ site.baseurl
+![NCAA college football teams' stadiums' 2015 average per-game attendance as a
+percent of seating capacity]({{ site.url }}{{ site.baseurl
 }}/files/img/stadiums-fbs-fill-conf-bar-1024x594.png)
 
 Oregon, Kansas State, and Oklahoma had the highest ratio of average attendance

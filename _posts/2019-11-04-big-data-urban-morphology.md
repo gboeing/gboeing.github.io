@@ -18,8 +18,8 @@ present a visualization-mediated interpretative process of data-driven urban
 morphology, focusing on transportation infrastructure via [OSMnx]({{ site.url
 }}{{ site.baseurl }}/2018/03/osmnx-features-roundup/).
 
-![OSMnx: Figure-ground diagrams of one square mile of each street network,
-from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
+![OSMnx: Figure-ground diagrams of one square mile of each street network, from
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
 site.url }}{{ site.baseurl
 }}/files/img/square-mile-street-networks-1024x822.jpg)
 
@@ -92,8 +92,8 @@ downtown looks different than its residential suburbs—a [finding true]({{
 site.url }}{{ site.baseurl }}/publications/multiscale-analysis-street-networks/)
 of many American cities.
 
-![Figure-ground map of building footprints and street network in New York,
-San Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
+![Figure-ground map of building footprints and street network in New York, San
+Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
 Python with OSMnx]({{ site.url }}{{ site.baseurl
 }}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)
 
@@ -138,10 +138,10 @@ figure-ground diagrams provide a spatial data-driven method to in turn
 qualitatively interpret the urban form and circulation networks that structure
 human activities and social relations.
 
-![Urban street network grid orientations, rose plot, polar histogram made
-with Python, OSMnx, OpenStreetMap, matplotlib. New York City and its five
-boroughs, Manhattan, Brooklyn, Queens, The Bronx, Staten Island]({{ site.url
-}}{{ site.baseurl }}/files/img/street-orientation-new-york-1024x721.jpg)
+![Urban street network grid orientations, rose plot, polar histogram made with
+Python, OSMnx, OpenStreetMap, matplotlib. New York City and its five boroughs,
+Manhattan, Brooklyn, Queens, The Bronx, Staten Island]({{ site.url }}{{
+site.baseurl }}/files/img/street-orientation-new-york-1024x721.jpg)
 
 The [rose diagrams]({{ site.url }}{{ site.baseurl
 }}/2019/09/urban-street-network-orientation/) above offer another perspective on

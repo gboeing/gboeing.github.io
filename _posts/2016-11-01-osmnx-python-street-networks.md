@@ -29,9 +29,8 @@ import osmnx as ox
 ox.plot_graph(ox.graph_from_place('Modena, Italy'))
 ```
 
-![OSMnx: Modena Italy networkx street network in Python from
-OpenStreetMap]({{ site.url }}{{ site.baseurl
-}}/files/img/modena-italy-street-network-300x283.png)
+![OSMnx: Modena Italy networkx street network in Python from OpenStreetMap]({{
+site.url }}{{ site.baseurl }}/files/img/modena-italy-street-network-300x283.png)
 
 ## Installing OSMnx
 
@@ -190,8 +189,7 @@ ox.plot_graph(G)
 ```
 
 ![OSMnx: San Francisco street network in Python from OpenStreetMap]({{
-site.url }}{{ site.baseurl
-}}/files/img/sf-street-network-point-284x300.png)
+site.url }}{{ site.baseurl }}/files/img/sf-street-network-point-284x300.png)
 
 You can also specify a distance in cardinal directions around the point, instead
 of along the network.
@@ -239,9 +237,8 @@ G = ox.graph_from_place('Los Angeles, California', network_type='drive')
 ox.plot_graph(G)
 ```
 
-![OSMnx: Los Angeles street network in Python from OpenStreetMap]({{
-site.url }}{{ site.baseurl
-}}/files/img/los-angeles-street-network-907x1024.png)
+![OSMnx: Los Angeles street network in Python from OpenStreetMap]({{ site.url
+}}{{ site.baseurl }}/files/img/los-angeles-street-network-907x1024.png)
 
 You can just as easily request a street network within a borough, county, state,
 or other geographic entity. You can also pass a list of places (such as several
@@ -274,9 +271,8 @@ G = ox.graph_from_place('Modena, Italy')
 ox.plot_graph(G)
 ```
 
-![OSMnx: Modena Italy networkx street network in Python from
-OpenStreetMap]({{ site.url }}{{ site.baseurl
-}}/files/img/modena-italy-street-network-300x283.png)
+![OSMnx: Modena Italy networkx street network in Python from OpenStreetMap]({{
+site.url }}{{ site.baseurl }}/files/img/modena-italy-street-network-300x283.png)
 
 ```python
 G = ox.graph_from_place('Belgrade, Serbia')
@@ -320,16 +316,16 @@ between "true" network nodes into a single edge.
 When we first download and construct the street network from OpenStreetMap, it
 looks something like this:
 
-![OSMnx: Arizona suburb before simplifying - networkx street network in
-Python from OpenStreetMap]({{ site.url }}{{ site.baseurl
+![OSMnx: Arizona suburb before simplifying - networkx street network in Python
+from OpenStreetMap]({{ site.url }}{{ site.baseurl
 }}/files/img/az-simplify-all.png)
 
 We want to simplify this network to only retain the nodes that represent the
 junction of multiple streets. OSMnx does this automatically. First it identifies
 all non-intersection nodes:
 
-![OSMnx: Arizona suburb before simplifying - networkx street network in
-Python from OpenStreetMap]({{ site.url }}{{ site.baseurl
+![OSMnx: Arizona suburb before simplifying - networkx street network in Python
+from OpenStreetMap]({{ site.url }}{{ site.baseurl
 }}/files/img/az-simplify-both.png)
 
 And then it removes them, but faithfully maintains the spatial geometry of the
@@ -426,8 +422,8 @@ We can [re-create this]({{ site.url }}{{ site.baseurl
 }}/2017/01/square-mile-street-network-visualization/) automatically and
 computationally with OSMnx:
 
-![OSMnx: Figure-ground diagrams of one square mile of each street network,
-from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
+![OSMnx: Figure-ground diagrams of one square mile of each street network, from
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
 site.url }}{{ site.baseurl
 }}/files/img/square-mile-street-networks-1024x822.jpg)
 

@@ -183,16 +183,15 @@ with Python, OSMnx, OpenStreetMap, matplotlib. Cities include Boston, Charlotte,
 Chicago, Detroit, Manhattan, Miami, New Orleans, Philadelphia, San Francisco, St
 Louis. ]({{ site.url }}{{ site.baseurl
 }}/files/img/us-street-orientations-1024x422.png)]({{ site.url }}{{
-site.baseurl
-}}/files/img/us-street-orientations-1024x422.png) Above, the polar histogram
-bars' directions represent compass bearings and bars' lengths represent the
-proportion of city street segments with those bearings. For example, Chicago and
-Manhattan illustrate high orientation order: they have internally-consistent
-orientations as nearly all their streets point in just four different
-directions. In contrast, Charlotte and Boston illustrate low orientation order:
-their streets point more evenly in all directions. Further interpretation and
-worldwide findings on street orientation [are here]({{ site.url }}{{
-site.baseurl }}/2019/09/urban-street-network-orientation/).
+site.baseurl }}/files/img/us-street-orientations-1024x422.png) Above, the polar
+histogram bars' directions represent compass bearings and bars' lengths
+represent the proportion of city street segments with those bearings. For
+example, Chicago and Manhattan illustrate high orientation order: they have
+internally-consistent orientations as nearly all their streets point in just
+four different directions. In contrast, Charlotte and Boston illustrate low
+orientation order: their streets point more evenly in all directions. Further
+interpretation and worldwide findings on street orientation [are here]({{
+site.url }}{{ site.baseurl }}/2019/09/urban-street-network-orientation/).
 
 I also estimated each tract's vintage algorithmically using three different
 methods, based on census bureau data and HISDAC-US property records and assessor

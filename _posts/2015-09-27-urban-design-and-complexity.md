@@ -5,10 +5,9 @@ date: 2015-09-27 21:53:22-07:00
 permalink: /2015/09/urban-design-and-complexity/
 ---
 
-I am presenting at the 2015 Conference
-on Complex Systems tomorrow in Tempe, Arizona. My paper is on methods for
-assessing the complexity of urban design. If you're attending the conference,
-come on by!
+I am presenting at the 2015 Conference on Complex Systems tomorrow in Tempe,
+Arizona. My paper is on methods for assessing the complexity of urban design. If
+you're attending the conference, come on by!
 
 Here's [the paper]({{ site.url }}{{ site.baseurl
 }}/publications/measuring-complexity-urban-form/).

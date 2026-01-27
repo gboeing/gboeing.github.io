@@ -20,8 +20,8 @@ as an IPython notebook. You can re-purpose it for your own inbox - just
 [download](https://accounts.google.com/ServiceLogin?service=backup) your Gmail
 archive then run my code.
 
-![Visualizing Gmail inbox email traffic volume by day with Python, pandas,
-and matplotlib]({{ site.url }}{{ site.baseurl
+![Visualizing Gmail inbox email traffic volume by day with Python, pandas, and
+matplotlib]({{ site.url }}{{ site.baseurl
 }}/files/img/gmail-traffic-day-1024x341.png)
 
 First I loaded my Gmail archive, which contained 164,959 messages. I filtered
@@ -42,8 +42,8 @@ and matplotlib]({{ site.url }}{{ site.baseurl
 Next I grouped the data by day of the week and calculated averages. Here's the
 mean email volume by the day of the week:
 
-![Visualizing Gmail inbox email traffic volume by day of the week with
-Python, pandas, and matplotlib]({{ site.url }}{{ site.baseurl
+![Visualizing Gmail inbox email traffic volume by day of the week with Python,
+pandas, and matplotlib]({{ site.url }}{{ site.baseurl
 }}/files/img/gmail-traffic-day-week.png)
 
 Again this is just my personal email inbox, so the daily traffic is fairly low.
@@ -55,8 +55,8 @@ traffic occurs during the work week.
 Next I grouped the data by hour of the day to see when most of the email traffic
 occurs throughout the day:
 
-![Visualizing Gmail inbox email traffic volume by hour of the day with
-Python, pandas, and matplotlib]({{ site.url }}{{ site.baseurl
+![Visualizing Gmail inbox email traffic volume by hour of the day with Python,
+pandas, and matplotlib]({{ site.url }}{{ site.baseurl
 }}/files/img/gmail-traffic-hour.png)
 
 In other words, I don't get much in or out before 9:00am as a rule of thumb. One

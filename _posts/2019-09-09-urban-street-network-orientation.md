@@ -42,9 +42,9 @@ Charlotte is the least. To illustrate this more clearly, in Manhattan for
 example, we can easily see the angled, primarily orthogonal street grid in its
 polar histogram:
 
-![Manhattan, New York City, New York and Boston, Massachusetts street
-network, bearing, orientation from OpenStreetMap mapped with OSMnx and
-Python]({{ site.url }}{{ site.baseurl
+![Manhattan, New York City, New York and Boston, Massachusetts street network,
+bearing, orientation from OpenStreetMap mapped with OSMnx and Python]({{
+site.url }}{{ site.baseurl
 }}/files/img/manhattan-boston-street-network-orientation-1024x678.jpg)
 
 Unlike most American cities that have one or two primary street grids organizing

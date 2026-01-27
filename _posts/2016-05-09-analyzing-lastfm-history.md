@@ -118,8 +118,8 @@ For yuks, I looked at a couple traits of artist names. The first is the
 frequency of artist names beginning with each letter of the alphabet (sans a
 preceding "the"):
 
-![Last.fm artist names first letter prevalence]({{ site.url }}{{
-site.baseurl }}/files/img/lastfm-artists-first-letter-count.png)
+![Last.fm artist names first letter prevalence]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm-artists-first-letter-count.png)
 
 S's and M's lead the pack, and Q's and X's bring up the rear. Next I looked at
 the frequency of artist name lengths:

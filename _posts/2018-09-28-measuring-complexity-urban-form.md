@@ -31,10 +31,10 @@ of various neighborhood types and design standards. It includes temporal,
 visual, spatial, scaling, and network-analytic connectivity measures of the
 urban form.
 
-![Street networks (one square mile each) exhibiting varying complexity
-through density, grain, connectivity, and permeability. Left: Irvine,
-California. Center: Rome, Italy. Right: Dubai, UAE. Visualizing OpenStreetMap
-data with Python and OSMnx.]({{ site.url }}{{ site.baseurl
+![Street networks (one square mile each) exhibiting varying complexity through
+density, grain, connectivity, and permeability. Left: Irvine, California.
+Center: Rome, Italy. Right: Dubai, UAE. Visualizing OpenStreetMap data with
+Python and OSMnx.]({{ site.url }}{{ site.baseurl
 }}/files/img/street-network-complexity-irvine-rome-dubai-1024x331.png)
 
 Urban design has evolved through eras of classicism, organicism, austere

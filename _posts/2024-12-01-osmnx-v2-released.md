@@ -18,8 +18,8 @@ can just as easily work with urban amenities/points of interest, building
 footprints, transit stops, elevation data, street orientations, speed/travel
 time, and routing.
 
-![OSMnx: Figure-ground diagrams of one square mile of each street network,
-from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
+![OSMnx: Figure-ground diagrams of one square mile of each street network, from
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
 site.url }}{{ site.baseurl
 }}/files/img/square-mile-street-networks-1024x822.jpg)
 

@@ -5,9 +5,8 @@ date: 2014-11-17 14:27:03-08:00
 permalink: /2014/11/neighborhood-design-food-systems/
 ---
 
-_This post is adapted from [an article I
-wrote in Progressive Planning]({{ site.url }}{{ site.baseurl
-}}/publications/how-neighborhoods-lost-food/)_.
+_This post is adapted from [an article I wrote in Progressive Planning]({{
+site.url }}{{ site.baseurl }}/publications/how-neighborhoods-lost-food/)_.
 
 Does _food_ matter in neighborhood design? Should it? The answers to these
 questions are complicated and obscured by decades of perplexing policy and

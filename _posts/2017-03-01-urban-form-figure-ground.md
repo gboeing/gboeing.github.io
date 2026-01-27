@@ -18,8 +18,8 @@ street networks from OpenStreetMap but it can also get building footprints. If
 we mash-up these building footprints with the street networks, we get a
 fascinating comparative window into urban form:
 
-![Figure-ground map of building footprints and street network in New York,
-San Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
+![Figure-ground map of building footprints and street network in New York, San
+Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
 Python with OSMnx]({{ site.url }}{{ site.baseurl
 }}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)
 

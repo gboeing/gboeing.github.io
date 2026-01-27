@@ -54,15 +54,15 @@ full details and lots of visualizations.
 ## Interactive maps
 
 Here are some brief highlights. This interactive [CartoDB]({{ site.url }}{{
-site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/)
-map displays my location data set and provides
-city, country, and date/time information if you hover over any point:
+site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/) map displays
+my location data set and provides city, country, and date/time information if
+you hover over any point:
 
 I also visualized this spatial data as an interactive map using the
 [Leaflet]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-3-leaflet/) javascript
-library, and by rolling my own set of web map tiles then rendering them with
-[Tilemill and Mapbox]({{ site.url }}{{ site.baseurl
+}}/2014/08/visualizing-summer-travels-part-3-leaflet/) javascript library, and
+by rolling my own set of web map tiles then rendering them with [Tilemill and
+Mapbox]({{ site.url }}{{ site.baseurl
 }}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/).
 
 ## Exploring the data set

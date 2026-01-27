@@ -98,7 +98,8 @@ distribution of rents/ft² for each of the 415 Craigslist regions in the U.S.:
 regions, with the 15 most populous broken out for detail: New York, Boston,
 Miami, San Francisco Bay Area, Los Angeles, Chicago, Philadelphia, Seattle,
 Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta]({{ site.url }}{{
-site.baseurl }}/files/img/03-craigslist-distribution-rents-per-metro-1024x365.png)
+site.baseurl
+}}/files/img/03-craigslist-distribution-rents-per-metro-1024x365.png)
 
 I know that this rainbow spaghetti is a bit much, but bear with me for a moment.
 The color gradient just shows that metros with lower median rents/ft² tend to

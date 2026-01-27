@@ -14,8 +14,7 @@ free PDF]({{ site.url }}{{ site.baseurl
 }}/publications/software-data-geospatial-stroke/)).
 
 ![Hospital catchment basin for stroke services. Spatial analysis in python,
-geopandas, osmnx.]({{ site.url }}{{ site.baseurl
-}}/files/img/catchment.png)
+geopandas, osmnx.]({{ site.url }}{{ site.baseurl }}/files/img/catchment.png)
 
 In this article, we discuss tools, data, and methodologies for building
 geospatial and network-theoretic models of hospital catchment basins to analyze

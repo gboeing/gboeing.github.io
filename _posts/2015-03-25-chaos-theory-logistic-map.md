@@ -5,10 +5,10 @@ date: 2015-03-25 17:13:39-07:00
 permalink: /2015/03/chaos-theory-logistic-map/
 ---
 
-_Using Python to visualize
-chaos, fractals, and self-similarity to better understand the limits of
-knowledge and prediction. [Download/cite the article here]({{ site.url }}{{
-site.baseurl }}/publications/nonlinear-chaos-fractals-prediction/) and try
+_Using Python to visualize chaos, fractals, and self-similarity to better
+understand the limits of knowledge and prediction. [Download/cite the article
+here]({{ site.url }}{{ site.baseurl
+}}/publications/nonlinear-chaos-fractals-prediction/) and try
 [pynamical](https://github.com/gboeing/pynamical) yourself._
 
 Chaos theory is a branch of mathematics that deals with nonlinear dynamical
@@ -220,8 +220,8 @@ Remember that our model follows a simple deterministic rule, so if we know a
 certain generation's population value, we can easily determine the next
 generation's value:
 
-![Poincaré plots for fixed-point and limit-cycle attractors]({{ site.url
-}}{{ site.baseurl }}/files/img/poincare-plot-fixed-limit-attractors.png)
+![Poincaré plots for fixed-point and limit-cycle attractors]({{ site.url }}{{
+site.baseurl }}/files/img/poincare-plot-fixed-limit-attractors.png)
 
 The phase diagram above on the left shows that the logistic map homes in on a
 fixed-point attractor at 0.655 (on both axes) when the growth rate parameter is
@@ -271,8 +271,8 @@ is set to 3.99. This is deterministic chaos, but it's hard to differentiate it
 from randomness. So, let's visualize these same two data sets with phase
 diagrams instead of line charts:
 
-![Chaos vs random noise in 2D and 3D Poincare plots - the strange attractor
-is revealed]({{ site.url }}{{ site.baseurl
+![Chaos vs random noise in 2D and 3D Poincare plots - the strange attractor is
+revealed]({{ site.url }}{{ site.baseurl
 }}/files/img/poincare-plots-chaos-vs-random.png)
 
 Now we can see our chaotic system (in red, above) constrained by its strange
@@ -281,15 +281,14 @@ This is even more compelling in the 3-D phase diagram that embeds our time
 series into a 3-dimensional state space by depicting the population value at
 generation _t + 2_ vs the value at generation _t + 1_ vs the value at _t_.
 
-Let's plot the rest of the logistic map's chaotic regime in 3-D. This is
-[an animated, 3-D]({{ site.url }}{{ site.baseurl
+Let's plot the rest of the logistic map's chaotic regime in 3-D. This is [an
+animated, 3-D]({{ site.url }}{{ site.baseurl
 }}/2015/04/visualizing-chaos-and-randomness/) version of the 2-D rainbow
 parabolas we saw earlier:
 
 ![Animated 3-D Poincare plot of the logistic map's chaotic regime - this is
 time series data embedded in three dimensional state space]({{ site.url }}{{
-site.baseurl
-}}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
+site.baseurl }}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 In [three dimensions]({{ site.url }}{{ site.baseurl
 }}/2015/04/visualizing-chaos-and-randomness/ "Visualizing Chaos and
@@ -365,13 +364,12 @@ supplanted it as an analytic frame for
 [social](https://press.princeton.edu/books/paperback/9780691127026/complex-adaptive-systems)
 [systems](https://mitpress.mit.edu/books/cities-and-complexity). Complexity
 draws on similar principles but in the end is a very different beast. Instead of
-looking at simple, closed, deterministic systems, complexity considers
-large open systems
-made of many interacting parts. Unlike chaotic systems, complex systems retain
-some trace of their initial conditions and previous states, through path
-dependence. They are unpredictable, but in a different way than chaos: complex
-systems have the ability to surprise through novelty and emergence. But that is
-a tale for another day.
+looking at simple, closed, deterministic systems, complexity considers large
+open systems made of many interacting parts. Unlike chaotic systems, complex
+systems retain some trace of their initial conditions and previous states,
+through path dependence. They are unpredictable, but in a different way than
+chaos: complex systems have the ability to surprise through novelty and
+emergence. But that is a tale for another day.
 
 You can [download/cite the paper]({{ site.url }}{{ site.baseurl
 }}/publications/nonlinear-chaos-fractals-prediction/) this post is adapted from.

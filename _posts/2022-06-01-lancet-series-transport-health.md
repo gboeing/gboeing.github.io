@@ -43,8 +43,8 @@ cities' policy contexts and identified populations living above and below the
 thresholds for physical activity. Also check out our appendix which contains 380
 maps and visualizations for the 25 cities.
 
-![The Lancet Global Healthy spatial analysis of urban walkability and access
-to daily living needs in 25 global cities]({{ site.url }}{{ site.baseurl
+![The Lancet Global Healthy spatial analysis of urban walkability and access to
+daily living needs in 25 global cities]({{ site.url }}{{ site.baseurl
 }}/files/img/lancet-global-urban-walkability.jpeg)
 
 Our [fourth paper](<https://doi.org/10.1016/S2214-109X(22)00066-3>) sums up our
@@ -69,8 +69,8 @@ for our cities [are here](https://www.healthysustainablecities.org/) alongside
 the 1,000 Cities Challenge to which anyone can contribute. Here's an example
 scorecard for São Paulo:
 
-![Global Observatory of Healthy and Sustainable Cities Scorecard for Sao
-Paulo Brasil]({{ site.url }}{{ site.baseurl
+![Global Observatory of Healthy and Sustainable Cities Scorecard for Sao Paulo
+Brasil]({{ site.url }}{{ site.baseurl
 }}/files/img/Scorecard_Sao-Paulo-1024x791.jpg)
 
 Check out The Lancet Global Health

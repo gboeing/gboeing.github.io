@@ -46,8 +46,8 @@ re-create]({{ site.url }}{{ site.baseurl
 }}/2017/01/square-mile-street-network-visualization/) these with OpenStreetMap
 data for any city in the world, using OSMnx:
 
-![OSMnx: Figure-ground diagrams of one square mile of each street network,
-from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
+![OSMnx: Figure-ground diagrams of one square mile of each street network, from
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
 site.url }}{{ site.baseurl
 }}/files/img/square-mile-street-networks-1024x822.jpg)
 
@@ -57,8 +57,8 @@ footprints]({{ site.url }}{{ site.baseurl
 percolation of formal circulation networks in cities around the world, including
 informal settlements:
 
-![Figure-ground diagrams of building footprints and street network in New
-York, San Francisco, Monrovia, and Port au Prince from OpenStreetMap data. Maps
+![Figure-ground diagrams of building footprints and street network in New York,
+San Francisco, Monrovia, and Port au Prince from OpenStreetMap data. Maps
 created in Python with OSMnx and matplotlib.]({{ site.url }}{{ site.baseurl
 }}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)
 

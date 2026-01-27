@@ -10,8 +10,8 @@ The official OSMnx reference paper, titled
 has just been published open-access by _Geographical Analysis_. Years in the
 making, this article describes what OSMnx does and why it does it that way.
 
-![OSMnx: Figure-ground diagrams of one square mile of each street network,
-from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
+![OSMnx: Figure-ground diagrams of one square mile of each street network, from
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
 site.url }}{{ site.baseurl
 }}/files/img/square-mile-street-networks-1024x822.jpg)
 

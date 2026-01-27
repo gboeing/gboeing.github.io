@@ -56,9 +56,8 @@ And we also have a geopandas GeoDataFrame of lat-long points representing street
 intersections in the vicinity of this city. Some of these points are within the
 city's borders, but others are outside of them:
 
-![Walnut Creek, California city boundary and street intersections]({{
-site.url }}{{ site.baseurl
-}}/files/img/walnut-creek-boundary-intersections.png)
+![Walnut Creek, California city boundary and street intersections]({{ site.url
+}}{{ site.baseurl }}/files/img/walnut-creek-boundary-intersections.png)
 
 We can use geopandas's R-tree spatial index to find which street intersections
 lie within the boundaries of the city:
@@ -102,9 +101,8 @@ Fortunately, we can work around this limitation in Python. Let's say we have a
 polygon representing the borders of the city of Los Angeles, and a GeoDataFrame
 of approximately one million street intersections in and around LA:
 
-![Los Angeles, California city boundary and street intersections]({{
-site.url }}{{ site.baseurl
-}}/files/img/los-angeles-boundary-intersections.png)
+![Los Angeles, California city boundary and street intersections]({{ site.url
+}}{{ site.baseurl }}/files/img/los-angeles-boundary-intersections.png)
 
 We want to find which street intersections are within LA's city boundary. Notice
 that our polygon and points have the same minimum bounding boxes, so an R-tree

@@ -26,9 +26,9 @@ for anywhere in the world in just one line of code. Here are the square-mile
 diagrams of Portland, San Francisco, Irvine, and Rome created and plotted
 automatically by OSMnx:
 
-![OSMnx: Figure-ground diagrams of one square mile of Portland, San
-Francisco, Irvine, and Rome shows the street network, urban form, and urban
-design in these cities]({{ site.url }}{{ site.baseurl
+![OSMnx: Figure-ground diagrams of one square mile of Portland, San Francisco,
+Irvine, and Rome shows the street network, urban form, and urban design in these
+cities]({{ site.url }}{{ site.baseurl
 }}/files/img/gs_portland_san_francisco_irvine_rome-970x1024.jpg)
 
 The top row depicts the late 19th century orthogonal grids of Portland, Oregon
@@ -46,10 +46,10 @@ orthogonal grid in San Francisco and the modernist simplifications of Irvine to
 the complex mesh of pedestrian paths, passageways, and alleys comprising much of
 the circulation network in Rome.
 
-![OSMnx: Figure-ground diagrams of one square mile of Manhattan New York,
-Paris France, Tunis Tunisia, and Atlanta Georgia shows the street network, urban
-form, and urban design in these cities with Python in the style of Allan Jacobs
-Great Streets and Nolli maps]({{ site.url }}{{ site.baseurl
+![OSMnx: Figure-ground diagrams of one square mile of Manhattan New York, Paris
+France, Tunis Tunisia, and Atlanta Georgia shows the street network, urban form,
+and urban design in these cities with Python in the style of Allan Jacobs Great
+Streets and Nolli maps]({{ site.url }}{{ site.baseurl
 }}/files/img/gs_new_york_paris_tunis_atlanta-970x1024.jpg)
 
 Above, we see New York, Paris, Tunis, and Atlanta. Manhattan's rectangular grid

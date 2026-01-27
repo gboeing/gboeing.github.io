@@ -18,9 +18,8 @@ travels with [CartoDB]({{ site.url }}{{ site.baseurl
 visualized different aspects of this data set in Python, using the
 [matplotlib]({{ site.url }}{{ site.baseurl
 }}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/) plotting
-library. However, these spatial scatter plots
-used unprojected lat-long data which looked pretty distorted at European
-latitudes.
+library. However, these spatial scatter plots used unprojected lat-long data
+which looked pretty distorted at European latitudes.
 
 Today I will show how to convert this data into a projected coordinate reference
 system and plot it again using matplotlib. These projected maps will provide a
@@ -75,12 +74,11 @@ Then I load two location data sets: one is the [original full set]({{ site.url
 }}{{ site.baseurl }}/2014/07/visualizing-summer-travels-part-1-openpaths/
 "Visualizing Summer Travels Part 1: OpenPaths") and the other is a [clustered,
 reduced set]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/)
-of location data points. Both of these data sets have been
-[reverse-geocoded]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/)
-so I have
-lat-long coordinates, city, and country data. Finally I load a shapefile of
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/) of location data points.
+Both of these data sets have been [reverse-geocoded]({{ site.url }}{{
+site.baseurl
+}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) so I
+have lat-long coordinates, city, and country data. Finally I load a shapefile of
 world country borders as a geopandas GeoDataFrame.
 
 ```python

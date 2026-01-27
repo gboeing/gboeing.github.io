@@ -5,8 +5,8 @@ date: 2019-04-05 11:41:33-07:00
 permalink: /2019/04/aag-transactions-gis-plenary/
 ---
 
-![Manhattan, New York City, New York street network, bearing, orientation
-from OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
+![Manhattan, New York City, New York street network, bearing, orientation from
+OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
 }}/files/img/manhattan-nyc-street-network-bearings-osmnx-189x300.png)
 
 I am giving the _Transactions in GIS_ plenary address at the AAG conference this

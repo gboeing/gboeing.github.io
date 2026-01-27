@@ -40,8 +40,8 @@ relative frequency of streets with those bearings. For example, in Manhattan we
 can clearly see the angled, primarily orthogonal street grid in its polar
 histogram:
 
-![Manhattan, New York City, New York street network, bearing, orientation
-from OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
+![Manhattan, New York City, New York street network, bearing, orientation from
+OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
 }}/files/img/manhattan-nyc-street-network-bearings-osmnx-646x1024.png)
 
 Similar orthogonal grids can be seen in the histograms of Chicago, Denver,

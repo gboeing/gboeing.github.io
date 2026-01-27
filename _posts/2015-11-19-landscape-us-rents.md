@@ -22,8 +22,7 @@ The expensive coastal cities' median rents form a red line snaking along the
 western and eastern seaboards. The nation's blue interior has lower rents.
 
 ![Most expensive cities in the US: United States metro areas by 2014 median
-rent]({{ site.url }}{{ site.baseurl
-}}/files/img/median_rent_msa-labels.png)
+rent]({{ site.url }}{{ site.baseurl }}/files/img/median_rent_msa-labels.png)
 
 But when you switch to the percent _change_ in median rent since 2010, the
 coasts cool off somewhat and the interior - especially east of the Rockies -

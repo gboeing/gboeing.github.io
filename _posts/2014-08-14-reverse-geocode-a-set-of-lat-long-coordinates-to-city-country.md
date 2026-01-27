@@ -82,10 +82,10 @@ df['geocode_data'] = df['latlng'].map(reverse_geocode)
 
 Due to the ambiguity of terminology in different countries - city vs town, state
 vs province, county vs region, etc. - most reverse geocoders return a full
-address with normalized address elements . Google, however,
-returns a more flexible list of address components, each tagged with one or more
-"types." I'll have to parse this data to find city name - or the closest thing
-to it - for each set of coordinates.
+address with normalized address elements . Google, however, returns a more
+flexible list of address components, each tagged with one or more "types." I'll
+have to parse this data to find city name - or the closest thing to it - for
+each set of coordinates.
 
 For each element in the series of reverse-geocode data I received from Google, I
 search inside the address components list for an item that contains the string
@@ -136,12 +136,12 @@ Interestingly, Google's API returned no results for any of the lat-long
 coordinates in Kosovo, so I had to enter the city and country for these (few)
 rows manually.
 
-This Python code can be easily changed to use a different geocoding API
-or extract the full address text instead of city and country
-components. You could also easily tweak this geocoder to search for municipality
-in other types of address components, but these four I used covered my entire
-data set accurately. The data can be visualized with nice informational pop-ups
-now with tools like [CartoDB]({{ site.url }}{{ site.baseurl
+This Python code can be easily changed to use a different geocoding API or
+extract the full address text instead of city and country components. You could
+also easily tweak this geocoder to search for municipality in other types of
+address components, but these four I used covered my entire data set accurately.
+The data can be visualized with nice informational pop-ups now with tools like
+[CartoDB]({{ site.url }}{{ site.baseurl
 }}/2014/08/visualizing-summer-travels-with-cartodb/), [Leaflet]({{ site.url
 }}{{ site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/), or
 [Mapbox and Tilemill]({{ site.url }}{{ site.baseurl

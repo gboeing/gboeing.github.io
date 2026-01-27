@@ -19,8 +19,7 @@ produce animated data visualizations like this, in pure Python:
 
 ![Animated 3-D Poincare plot of the logistic map's chaotic regime - this is
 time series data embedded in three dimensional state space]({{ site.url }}{{
-site.baseurl
-}}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
+site.baseurl }}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 ## Getting Started
 
@@ -31,8 +30,8 @@ the following two data visualizations. Each depicts one-dimensional chaotic and
 random time series embedded into two- and three-dimensional state space (on the
 left and right, respectively):
 
-![Chaos vs random noise in 2D and 3D Poincare plots - the strange attractor
-is revealed]({{ site.url }}{{ site.baseurl
+![Chaos vs random noise in 2D and 3D Poincare plots - the strange attractor is
+revealed]({{ site.url }}{{ site.baseurl
 }}/files/img/poincare-plots-chaos-vs-random.png)
 
 I noted that if you were to look straight down at the x-y plane of the 3-D plot
@@ -204,8 +203,8 @@ writeGif(file_path_name, images, duration=0.1)
 IPdisplay.Image(url=file_path_name)
 ```
 
-![Chaos vs random noise in an animated 3D Poincare plot - the strange
-attractor is revealed]({{ site.url }}{{ site.baseurl
+![Chaos vs random noise in an animated 3D Poincare plot - the strange attractor
+is revealed]({{ site.url }}{{ site.baseurl
 }}/files/img/3d-poincare-plot-chaos-vs-random.gif)
 
 The animation begins by looking straight down at the x-y plane. Then it starts
@@ -279,8 +278,7 @@ IPdisplay.Image(url=file_path_name)
 
 ![Animated 3-D Poincare plot of the logistic map's chaotic regime - this is
 time series data embedded in three dimensional state space]({{ site.url }}{{
-site.baseurl
-}}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
+site.baseurl }}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 In this animated plot, we have 50 different time series, one for each growth
 rate parameter value. Each of these 50 has its own color and forms its own curve
