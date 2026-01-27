@@ -1,3 +1,5 @@
+.DS_Store
+
 # Jekyll ignores
 _site/
 .sass-cache/
