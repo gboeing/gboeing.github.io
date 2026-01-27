@@ -68,10 +68,8 @@ install it the manual but foolproof way...
    pip install geopandas from the command prompt, like this (click for
    full-size):
 
-[![Install geopandas on windows with dependencies gdal, fiona, pyproj,
+![Install geopandas on windows with dependencies gdal, fiona, pyproj,
 shapely]({{ site.url }}{{ site.baseurl
-}}/files/img/install-geopandas-windows-gdal-fiona-pyproj-shapely.png)]({{
-site.url }}{{ site.baseurl
 }}/files/img/install-geopandas-windows-gdal-fiona-pyproj-shapely.png)
 
 ## Verifying the geopandas installation
@@ -101,9 +99,8 @@ site.url }}{{ site.baseurl
 of using geopandas with matplotlib to plot point data over a
 shapefile basemap:
 
-[![most-isolated-projected]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated-projected.png)]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/)
+![most-isolated-projected]({{ site.url }}{{ site.baseurl
+}}/files/img/most-isolated-projected.png)
 
 For more advanced examples, see this tutorial on [R-tree spatial indexing]({{
 site.url }}{{ site.baseurl }}/2016/10/r-tree-spatial-index-python/) with

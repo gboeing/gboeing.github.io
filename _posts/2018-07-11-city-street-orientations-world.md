@@ -16,26 +16,24 @@ orientation of streets in 25 US cities using Python and [OSMnx]({{ site.url
 }}{{ site.baseurl }}/2018/03/osmnx-features-roundup/). Here are 25 more cities
 around the world:
 
-[![City street network grid orientations, rose plot, polar histogram made with
+![City street network grid orientations, rose plot, polar histogram made with
 Python, OSMnx, OpenStreetMap, matplotlib. Bangkok, Barcelona, Beijing, Budapest,
 Cairo, Delhi, Dubai, Glasgow, Hong Kong, Lagos, London, Madrid, Melbourne,
 Mexico City, Moscow, Mumbai, Munich, Paris, Rio de Janeiro, Rome, Seoul, Sydney,
 Tehran, Toronto, Warsaw, Tokyo, Berlin, Venice]({{ site.url }}{{ site.baseurl
-}}/files/img/city-street-orientations-world-osmnx-930x1024.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/city-street-orientations-world-osmnx.png)
+}}/files/img/city-street-orientations-world-osmnx-930x1024.png)
 
 And for reference, here's [the original]({{ site.url }}{{ site.baseurl
 }}/2018/07/comparing-city-street-orientations/) that looked only at American
 cities:
 
-[![City street network grid orientations, rose plot, polar histogram made with
+![City street network grid orientations, rose plot, polar histogram made with
 Python, OSMnx, OpenStreetMap, matplotlib. Atlanta, Boston, Buffalo, Charlotte,
 Chicago, Cleveland, Dallas, Denver, Detroit, Houston, Las Vegas, Los Angeles,
 Manhattan, New York, Miami, Minneapolis, Orlando, Philadelphia, Phoenix,
 Portland, Sacramento, San Francisco, Seattle, St Louis, Tampa, Washington
 DC.]({{ site.url }}{{ site.baseurl
-}}/files/img/city-street-orientations-usa-osmnx-930x1024.png)]({{ site.url }}{{
-site.baseurl }}/files/img/city-street-orientations-usa-osmnx.png)
+}}/files/img/city-street-orientations-usa-osmnx-930x1024.png)
 
 _Want to see more cities?_ This post is adapted from this [research paper]({{
 site.url }}{{ site.baseurl }}/2019/09/urban-street-network-orientation/) that

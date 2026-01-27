@@ -82,9 +82,7 @@ df['geocode_data'] = df['latlng'].map(reverse_geocode)
 
 Due to the ambiguity of terminology in different countries - city vs town, state
 vs province, county vs region, etc. - most reverse geocoders return a full
-address with normalized address elements (see
-[Factual's API](https://developer.factual.com/api-docs-v4/#Geotag) for an
-example using [OSM](https://www.openstreetmap.org/) data). Google, however,
+address with normalized address elements . Google, however,
 returns a more flexible list of address components, each tagged with one or more
 "types." I'll have to parse this data to find city name - or the closest thing
 to it - for each set of coordinates.
@@ -138,8 +136,8 @@ Interestingly, Google's API returned no results for any of the lat-long
 coordinates in Kosovo, so I had to enter the city and country for these (few)
 rows manually.
 
-This Python code can be easily changed to use a different geocoding API (such as
-Factual's) or extract the full address text instead of city and country
+This Python code can be easily changed to use a different geocoding API
+or extract the full address text instead of city and country
 components. You could also easily tweak this geocoder to search for municipality
 in other types of address components, but these four I used covered my entire
 data set accurately. The data can be visualized with nice informational pop-ups

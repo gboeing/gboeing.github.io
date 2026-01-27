@@ -13,10 +13,9 @@ local daytime density across a metropolitan area using US Census and LEHD LODES
 data, and dig into some limitations and biases. I look at the San Francisco Bay
 Area as a case study:
 
-[![Map of the estimated daytime population density in the San Francisco Bay
+![Map of the estimated daytime population density in the San Francisco Bay
 Area]({{ site.url }}{{ site.baseurl
-}}/files/img/sf-bay-daytime-population-density-map.jpg)]({{ site.url }}{{
-site.baseurl }}/files/img/sf-bay-daytime-population-density-map.jpg)
+}}/files/img/sf-bay-daytime-population-density-map.jpg)
 
 From the abstract:
 

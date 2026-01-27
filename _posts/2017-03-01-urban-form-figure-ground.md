@@ -18,12 +18,10 @@ street networks from OpenStreetMap but it can also get building footprints. If
 we mash-up these building footprints with the street networks, we get a
 fascinating comparative window into urban form:
 
-[![Figure-ground map of building footprints and street network in New York,
+![Figure-ground map of building footprints and street network in New York,
 San Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
 Python with OSMnx]({{ site.url }}{{ site.baseurl
-}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)]({{
-site.url }}{{ site.baseurl
-}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince.png)
+}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)
 
 Above we see four cities, all at the same scale (one square mile) to allow easy
 comparison of the pattern, texture, and grain of the urban form. At the top-left
@@ -54,10 +52,9 @@ from the 1740s. We can use [OSMnx]({{ site.url }}{{ site.baseurl
 }}/2016/11/osmnx-python-street-networks/) to produce a similar map of a city -
 in this example, suburban Piedmont, California:
 
-[![Nolli map, figure-ground diagram of building footprints in Piedmont,
+![Nolli map, figure-ground diagram of building footprints in Piedmont,
 California from OpenStreetMap data created in Python with OSMnx]({{ site.url
-}}{{ site.baseurl }}/files/img/piedmont_bldgs-1024x665.png)]({{ site.url }}{{
-site.baseurl }}/files/img/piedmont_bldgs.png)
+}}{{ site.baseurl }}/files/img/piedmont_bldgs-1024x665.png)
 
 Piedmont's curving streets can be seen winding through the built form, which
 comprises almost exclusively single-family detached homes. By contrast, we may
@@ -67,10 +64,9 @@ Paris, centered on the Arc de Triomphe. Notice how Baron Haussmann's
 }}/2017/01/square-mile-street-network-visualization/) radiate outward as
 remnants of his massive demolition and renovation of 19th century Paris:
 
-[![Nolli map, figure-ground diagram of building footprints and urban form in
+![Nolli map, figure-ground diagram of building footprints and urban form in
 Paris, France from OpenStreetMap data created in Python with OSMnx]({{ site.url
-}}{{ site.baseurl }}/files/img/paris_bldgs.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/paris_bldgs.png)
+}}{{ site.baseurl }}/files/img/paris_bldgs.png)
 
 Each of these visualizations was created in just a handful of lines of code
 using [OSMnx]({{ site.url }}{{ site.baseurl

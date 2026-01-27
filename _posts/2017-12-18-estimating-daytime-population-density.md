@@ -25,10 +25,9 @@ over this interval—[patterns obscured]({{ site.url }}{{ site.baseurl
 avoid inconsistent comparison, I opted for more stale—but more accurate and
 comparable—data.
 
-[![Map of the estimated daytime population density in the San Francisco Bay
+![Map of the estimated daytime population density in the San Francisco Bay
 Area]({{ site.url }}{{ site.baseurl
-}}/files/img/sf-bay-daytime-population-density-map-749x1024.jpg)]({{ site.url
-}}{{ site.baseurl }}/files/img/sf-bay-daytime-population-density-map.jpg)
+}}/files/img/sf-bay-daytime-population-density-map-749x1024.jpg)
 
 I used Python and JavaScript to produce the analysis, the choropleth map above,
 and the interactive Leaflet web map below (code

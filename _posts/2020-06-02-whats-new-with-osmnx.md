@@ -60,10 +60,9 @@ G2 = ox.consolidate_intersections(G, tolerance=10, rebuild_graph=True,
 dead_ends=True)
 ```
 
-[![OSMnx intersection consolidation to merge nearby nodes together and rebuild
+![OSMnx intersection consolidation to merge nearby nodes together and rebuild
 graph topology by reconnecting edges to new merged node]({{ site.url }}{{
-site.baseurl }}/files/img/osmnx-consolidate_intersections-300x241.png)]({{
-site.url }}{{ site.baseurl }}/files/img/osmnx-consolidate_intersections.png)
+site.baseurl }}/files/img/osmnx-consolidate_intersections-300x241.png)
 
 If we plot a portion of this network (above), notice how the traffic circles'
 many (red) nodes are merged into a new single centroid node (black), with edge
@@ -108,9 +107,8 @@ limit standards.
 This allows you to easily calculate shortest-path routes that minimize travel
 time (blue) rather than distance (red):
 
-[![Calculate shortest path routes that minimize distance or travel time by
+![Calculate shortest path routes that minimize distance or travel time by
 imputing missing street speeds with OSMnx]({{ site.url }}{{ site.baseurl
-}}/files/img/osmnx-route-travel-time.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/osmnx-route-travel-time.png)
 
 See the

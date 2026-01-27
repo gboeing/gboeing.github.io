@@ -21,8 +21,7 @@ in this
 and is easy to re-purpose for exploring your own Last.fm history. All you need
 is an [API key](https://www.last.fm/api).
 
-[![Last.fm artists played the most]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-played-most.png)]({{ site.url }}{{ site.baseurl
+![Last.fm artists played the most]({{ site.url }}{{ site.baseurl
 }}/files/img/lastfm-artists-played-most.png)
 
 First I visualized my most-played artists, above. Across the dataset, I have
@@ -41,9 +40,8 @@ these place names to latitude-longitude using the Nominatim and Google APIs.
 Finally I mapped these points in Python with matplotlib
 [basemap](https://matplotlib.org/basemap/):
 
-[![Map of Last.fm artist origins]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm_artists_origins_map-1024x627.png)]({{ site.url }}{{
-site.baseurl }}/files/img/lastfm_artists_origins_map.png)
+![Map of Last.fm artist origins]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm_artists_origins_map-1024x627.png)
 
 I also converted these
 [points to GeoJSON](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_lastfm_leaflet.ipynb)
@@ -65,9 +63,8 @@ the world (that appear in my listening history).
 I was curious about my most-played artists' relative performance over time. So,
 I took the top six artists and charted their cumulative play counts since 2009:
 
-[![Last.fm top artists' scrobbles over time]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-top-artists-years.png)]({{ site.url }}{{
-site.baseurl }}/files/img/lastfm-scrobbles-top-artists-years.png)
+![Last.fm top artists' scrobbles over time]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm-scrobbles-top-artists-years.png)
 
 David Bowie is the big winner here, moving from sixth place in 2009 all the way
 up to first place today as my most-played artist (since Last.fm sign-up). Note
@@ -80,8 +77,7 @@ I wanted to look more into these time dynamics of my listening history. How have
 they changed over the years? And, when exactly do I spend time listening to
 music? First I looked at my songs played per _month_ since January 2010:
 
-[![Last.fm scrobbles per month]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per-month.png)]({{ site.url }}{{ site.baseurl
+![Last.fm scrobbles per month]({{ site.url }}{{ site.baseurl
 }}/files/img/lastfm-scrobbles-per-month.png)
 
 Although there are a couple of big spikes, during most months I listen to
@@ -90,8 +86,7 @@ my doctoral qualifying exams, which saw me sitting in my room about 16 hours day
 reading, writing... and listening to music. Next I looked at which _days_ of the
 week I do most of my listening:
 
-[![Last.fm scrobbles per day of the week]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per-weekday.png)]({{ site.url }}{{ site.baseurl
+![Last.fm scrobbles per day of the week]({{ site.url }}{{ site.baseurl
 }}/files/img/lastfm-scrobbles-per-weekday.png)
 
 So, I listen to the most music on Fridays, and the least on Saturdays. The
@@ -100,8 +95,7 @@ while I'm working. The weekends are consistently lower as I tend to be out and
 about more, away from my computer and stereo. Next I looked at my cumulative
 listening history by _hour_ of the day:
 
-[![Last.fm scrobbles by hour of the day]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per-hour.png)]({{ site.url }}{{ site.baseurl
+![Last.fm scrobbles by hour of the day]({{ site.url }}{{ site.baseurl
 }}/files/img/lastfm-scrobbles-per-hour.png)
 
 This chart essentially follows my sleep, wake, work schedule. Most of my
@@ -109,8 +103,7 @@ listening occurs during the mid-day while I'm working and tails off into the
 evening. But this aggregate pattern isn't exactly same each day. Here I broke
 out the hourly chart above, by each day of the week:
 
-[![Last.fm scrobbles by hour and day of week]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-days-hours.png)]({{ site.url }}{{ site.baseurl
+![Last.fm scrobbles by hour and day of week]({{ site.url }}{{ site.baseurl
 }}/files/img/lastfm-scrobbles-days-hours.png)
 
 Now it's easy to see the low days of Saturday and Sunday - but interestingly,
@@ -125,15 +118,13 @@ For yuks, I looked at a couple traits of artist names. The first is the
 frequency of artist names beginning with each letter of the alphabet (sans a
 preceding "the"):
 
-[![Last.fm artist names first letter prevalence]({{ site.url }}{{
-site.baseurl }}/files/img/lastfm-artists-first-letter-count.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/lastfm-artists-first-letter-count.png)
+![Last.fm artist names first letter prevalence]({{ site.url }}{{
+site.baseurl }}/files/img/lastfm-artists-first-letter-count.png)
 
 S's and M's lead the pack, and Q's and X's bring up the rear. Next I looked at
 the frequency of artist name lengths:
 
-[![Last.fm artist name character length]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-name-length.png)]({{ site.url }}{{ site.baseurl
+![Last.fm artist name character length]({{ site.url }}{{ site.baseurl
 }}/files/img/lastfm-artists-name-length.png)
 
 Not everyone can be a name length outlier like
@@ -146,15 +137,13 @@ Finally, I'll wrap this up similarly to how I started it by visualizing my
 most-played songs and albums of all-time on Last.fm. First, my most-played
 tracks:
 
-[![Last.fm most played songs of all time]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-tracks-played-most-h.png)]({{ site.url }}{{ site.baseurl
+![Last.fm most played songs of all time]({{ site.url }}{{ site.baseurl
 }}/files/img/lastfm-tracks-played-most-h.png)
 
 And lastly, my most-played albums:
 
-[![Last.fm most played albums]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-albums-played-most-h-642x1024.png)]({{ site.url }}{{
-site.baseurl }}/files/img/lastfm-albums-played-most-h.png)
+![Last.fm most played albums]({{ site.url }}{{ site.baseurl
+}}/files/img/lastfm-albums-played-most-h-642x1024.png)
 
 There are some common themes here: similar artists appear in both the most-
 played songs and most-played albums lists, unsurprisingly. There's also a pretty

@@ -20,9 +20,8 @@ from geospatial data. Then we introduce an emerging solution, the computational
 notebook, using Jupyter as our central example to illustrate what it does and
 how it works.
 
-[![Jupyter notebook JupyterLab user interface]({{ site.url }}{{ site.baseurl
-}}/files/img/jupyterlab-interface-1024x583.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/jupyterlab-interface.png)
+![Jupyter notebook JupyterLab user interface]({{ site.url }}{{ site.baseurl
+}}/files/img/jupyterlab-interface-1024x583.png)
 
 Notebooks offer GIS researchers and practitioners better integration with modern
 software, more natural access to new forms of data, and better alignment with

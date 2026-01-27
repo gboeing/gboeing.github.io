@@ -46,11 +46,10 @@ re-create]({{ site.url }}{{ site.baseurl
 }}/2017/01/square-mile-street-network-visualization/) these with OpenStreetMap
 data for any city in the world, using OSMnx:
 
-[![OSMnx: Figure-ground diagrams of one square mile of each street network,
+![OSMnx: Figure-ground diagrams of one square mile of each street network,
 from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
 site.url }}{{ site.baseurl
-}}/files/img/square-mile-street-networks-1024x822.jpg)]({{ site.url }}{{
-site.baseurl }}/2017/01/square-mile-street-network-visualization/)
+}}/files/img/square-mile-street-networks-1024x822.jpg)
 
 Each image was created with a single line of code. Adding in [building
 footprints]({{ site.url }}{{ site.baseurl
@@ -58,21 +57,19 @@ footprints]({{ site.url }}{{ site.baseurl
 percolation of formal circulation networks in cities around the world, including
 informal settlements:
 
-[![Figure-ground diagrams of building footprints and street network in New
+![Figure-ground diagrams of building footprints and street network in New
 York, San Francisco, Monrovia, and Port au Prince from OpenStreetMap data. Maps
 created in Python with OSMnx and matplotlib.]({{ site.url }}{{ site.baseurl
-}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)]({{
-site.url }}{{ site.baseurl }}/2017/03/urban-form-figure-ground/)
+}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)
 
 Or how about modernism's inversion of traditional urban spatial order, neatly
 illustrated by the building footprints in central Brasília (inspired by James
 Holston's _The Modernist City_):
 
-[![Figure-ground diagrams of urban form and building footprints in London,
+![Figure-ground diagrams of urban form and building footprints in London,
 Paris, Venice, and Brasilia depict modernism's inversion of traditional spatial
 order]({{ site.url }}{{ site.baseurl
-}}/files/img/square-mile-urban-form-venice-london-paris-brasilia-963x1024.jpg)]({{
-site.url }}{{ site.baseurl }}/2017/03/urban-form-figure-ground/)
+}}/files/img/square-mile-urban-form-venice-london-paris-brasilia-963x1024.jpg)
 
 These are still all one square-mile, held at the same scale. However, a single
 square mile cannot be taken as representative of broader scales or other
@@ -120,11 +117,10 @@ recently from the study of complex networks in statistical physics, and provide
 insight into a network's structure, performance, and resilience. Consider three
 small network subsets in different neighborhoods of Portland, Oregon:
 
-[![Portland Oregon neighborhood street networks for Laurelhurst, Downtown, and
+![Portland Oregon neighborhood street networks for Laurelhurst, Downtown, and
 Northwest Heights, from OpenStreetMap, created with OSMnx, Python, NetworkX, and
 matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/portland-neighborhood-street-networks.jpg)]({{ site.url }}{{
-site.baseurl }}/2016/11/osmnx-python-street-networks/)
+}}/files/img/portland-neighborhood-street-networks.jpg)
 
 Each image shows half a km2. Downtown has an orthogonal grid with compact
 blocks, Laurelhurst shows its early 20th century Olmstead-influenced roots, and

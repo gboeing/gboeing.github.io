@@ -17,12 +17,10 @@ quantitative measures from city planning, network science, ecosystems studies,
 fractal geometry, statistical physics, and information theory to the analysis of
 urban form and qualitative human experience.
 
-[![The Mandelbrot set, a mathematical fractal. Venice's fractal urban form and
+![The Mandelbrot set, a mathematical fractal. Venice's fractal urban form and
 fabric. The Eiffel Tower's fractal architecture in Paris.]({{ site.url }}{{
 site.baseurl
-}}/files/img/fractal-mandelbrot-venice-urban-form-eiffel-tower-architecture-1024x334.png)]({{
-site.url }}{{ site.baseurl
-}}/files/img/fractal-mandelbrot-venice-urban-form-eiffel-tower-architecture.png)
+}}/files/img/fractal-mandelbrot-venice-urban-form-eiffel-tower-architecture-1024x334.png)
 
 Metrics at multiple scales are scattered throughout diverse bodies of literature
 and have useful applications in analyzing the adaptive complexity that both
@@ -33,13 +31,11 @@ of various neighborhood types and design standards. It includes temporal,
 visual, spatial, scaling, and network-analytic connectivity measures of the
 urban form.
 
-[![Street networks (one square mile each) exhibiting varying complexity
+![Street networks (one square mile each) exhibiting varying complexity
 through density, grain, connectivity, and permeability. Left: Irvine,
 California. Center: Rome, Italy. Right: Dubai, UAE. Visualizing OpenStreetMap
 data with Python and OSMnx.]({{ site.url }}{{ site.baseurl
-}}/files/img/street-network-complexity-irvine-rome-dubai-1024x331.png)]({{
-site.url }}{{ site.baseurl
-}}/files/img/street-network-complexity-irvine-rome-dubai.png)
+}}/files/img/street-network-complexity-irvine-rome-dubai-1024x331.png)
 
 Urban design has evolved through eras of classicism, organicism, austere
 modernism, postmodernism, and neotraditionalism—each of which encounters the

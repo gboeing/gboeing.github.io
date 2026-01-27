@@ -26,11 +26,10 @@ for anywhere in the world in just one line of code. Here are the square-mile
 diagrams of Portland, San Francisco, Irvine, and Rome created and plotted
 automatically by OSMnx:
 
-[![OSMnx: Figure-ground diagrams of one square mile of Portland, San
+![OSMnx: Figure-ground diagrams of one square mile of Portland, San
 Francisco, Irvine, and Rome shows the street network, urban form, and urban
 design in these cities]({{ site.url }}{{ site.baseurl
-}}/files/img/gs_portland_san_francisco_irvine_rome-970x1024.jpg)]({{ site.url
-}}{{ site.baseurl }}/files/img/gs_portland_san_francisco_irvine_rome.jpg)
+}}/files/img/gs_portland_san_francisco_irvine_rome-970x1024.jpg)
 
 The top row depicts the late 19th century orthogonal grids of Portland, Oregon
 and San Francisco, California. Portland's famously compact walkable blocks are
@@ -47,12 +46,11 @@ orthogonal grid in San Francisco and the modernist simplifications of Irvine to
 the complex mesh of pedestrian paths, passageways, and alleys comprising much of
 the circulation network in Rome.
 
-[![OSMnx: Figure-ground diagrams of one square mile of Manhattan New York,
+![OSMnx: Figure-ground diagrams of one square mile of Manhattan New York,
 Paris France, Tunis Tunisia, and Atlanta Georgia shows the street network, urban
 form, and urban design in these cities with Python in the style of Allan Jacobs
 Great Streets and Nolli maps]({{ site.url }}{{ site.baseurl
-}}/files/img/gs_new_york_paris_tunis_atlanta-970x1024.jpg)]({{ site.url }}{{
-site.baseurl }}/files/img/gs_new_york_paris_tunis_atlanta.jpg)
+}}/files/img/gs_new_york_paris_tunis_atlanta-970x1024.jpg)
 
 Above, we see New York, Paris, Tunis, and Atlanta. Manhattan's rectangular grid
 originates from the New York Commissioners' Plan of 1811. You can see Broadway
@@ -67,12 +65,11 @@ One final example: square miles of central Boston, Jumeirah circle in Dubai,
 suburban northeastern Sacramento, and Osaka, Japan. What can you tell about
 these neighborhoods from their street patterns?
 
-[![OSMnx: Figure-ground diagrams of one square mile of Boston Massachusetts,
+![OSMnx: Figure-ground diagrams of one square mile of Boston Massachusetts,
 Dubai UAE, Sacramento California, and Osaka Japan shows the street network,
 urban form, and urban design in these cities with Python in the style of Allan
 Jacobs Great Streets and Nolli maps]({{ site.url }}{{ site.baseurl
-}}/files/img/gs_boston_dubai_sacramento_osaka-970x1024.png)]({{ site.url }}{{
-site.baseurl }}/files/img/gs_boston_dubai_sacramento_osaka.png)
+}}/files/img/gs_boston_dubai_sacramento_osaka-970x1024.png)
 
 To compare urban form in different kinds of places, these visualizations have
 depicted some downtowns, some business parks, and some suburban residential

@@ -5,8 +5,7 @@ date: 2015-09-27 21:53:22-07:00
 permalink: /2015/09/urban-design-and-complexity/
 ---
 
-![Corbusier Paris plan]({{ site.url }}{{ site.baseurl
-}}/files/img/paris-corbusier-221x300.jpg) I am presenting at the 2015 Conference
+I am presenting at the 2015 Conference
 on Complex Systems tomorrow in Tempe, Arizona. My paper is on methods for
 assessing the complexity of urban design. If you're attending the conference,
 come on by!

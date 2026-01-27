@@ -18,11 +18,9 @@ We can calculate this easily with [OSMnx]({{ site.url }}{{ site.baseurl
 [GitHub demo](https://github.com/gboeing/osmnx-examples/blob/v0.11/notebooks/08-example-line-graph.ipynb).
 For example, here is the node closeness centrality for Piedmont, California:
 
-[![Urban street network graph node closeness and betweenness centrality]({{
+![Urban street network graph node closeness and betweenness centrality]({{
 site.url }}{{ site.baseurl
-}}/files/img/urban-street-network-graph-node-closeness-centrality-1024x666.png)]({{
-site.url }}{{ site.baseurl
-}}/files/img/urban-street-network-graph-node-closeness-centrality.png)
+}}/files/img/urban-street-network-graph-node-closeness-centrality-1024x666.png)
 
 The nodes are colored by their relative centrality, from lowest in dark purple
 to highest in bright yellow. However, in some traditions of street network
@@ -35,11 +33,9 @@ its line graph
 Then we calculate the closeness centrality again and color the edges of our
 street network:
 
-[![Urban street network graph edge closeness and betweenness centrality]({{
+![Urban street network graph edge closeness and betweenness centrality]({{
 site.url }}{{ site.baseurl
-}}/files/img/urban-street-network-graph-edge-closeness-centrality-1024x666.png)]({{
-site.url }}{{ site.baseurl
-}}/files/img/urban-street-network-graph-edge-closeness-centrality.png)
+}}/files/img/urban-street-network-graph-edge-closeness-centrality-1024x666.png)
 
 The edges are now colored by their centrality, from lowest in dark purple to
 highest in bright yellow. Alternatively, we could weight the nodes or edges by

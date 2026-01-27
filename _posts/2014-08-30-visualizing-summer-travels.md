@@ -5,20 +5,9 @@ date: 2014-08-30 18:29:17-07:00
 permalink: /2014/08/visualizing-summer-travels/
 ---
 
-[![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile-gps-coordinates.png)]({{ site.url }}{{
-site.baseurl }}/files/img/projected-shapefile-gps-coordinates.png) This is a
-series of posts about visualizing spatial data. I spent a couple of months
-traveling in Europe this summer and collected GPS location data throughout the
-trip with the OpenPaths app. I explored different web mapping technologies such
-as CartoDB, Leaflet, Mapbox, and Tilemill to plot my travels. I also used Python
-and matplotlib to run some descriptive statistics and visualize other aspects of
-my trip.
+![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
+}}/files/img/projected-shapefile-gps-coordinates.png)
 
-Here is the series of posts:
-
-- [Part 1: introduction and data collection with OpenPaths]({{ site.url }}{{
-  site.baseurl }}/2014/07/visualizing-summer-travels-part-1-openpaths/)
 - [Part 2: interactive web maps with CartoDB]({{ site.url }}{{ site.baseurl
   }}/2014/08/visualizing-summer-travels-with-cartodb/ "Visualizing Summer
   Travels Part 2: CartoDB")
@@ -84,8 +73,7 @@ data set. This [matplotlib]({{ site.url }}{{ site.baseurl
 Summer Travels Part 5: Python + Matplotlib") pie chart breaks out the cities I
 visited, by their share of observations in the data set:
 
-[![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-pie-cities-by-share.png)]({{ site.url }}{{ site.baseurl
+![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl
 }}/files/img/matplotlib-pie-cities-by-share.png)
 
 I also calculated the most isolated locations in my data set. These locations
@@ -97,8 +85,7 @@ else near them. This [matplotlib]({{ site.url }}{{ site.baseurl
 plots a projected shapefile and my GPS location data to show these isolated
 clusters:
 
-[![most-isolated-projected]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated-projected.png)]({{ site.url }}{{ site.baseurl
+![most-isolated-projected]({{ site.url }}{{ site.baseurl
 }}/files/img/most-isolated-projected.png)
 
 There is much more in the full posts, along with full explanations of how I

@@ -16,10 +16,9 @@ shifting back toward historical design patterns. In this post I discuss these
 findings and visualizations across the US today as well as over time, then
 discuss my analysis methods.
 
-[![Map of where street grids exist today across the US, made with OSMnx and
+![Map of where street grids exist today across the US, made with OSMnx and
 Python]({{ site.url }}{{ site.baseurl
-}}/files/img/us-street-network-grid-1024x648.jpg)]({{ site.url }}{{
-site.baseurl }}/files/img/us-street-network-grid.jpg)
+}}/files/img/us-street-network-grid-1024x648.jpg)
 
 For starters, where do grid-like streets exist today? The figure above shows how
 grid-like each tract's streets are today, across the contiguous US. We can see
@@ -45,11 +44,10 @@ car-centric suburbs. By the 1990s, disconnected dendritic car-dependent sprawl
 dominated. Here are typical street patterns today in neighborhoods designed in
 different decades:
 
-[![US street network patterns from different decades. 1900s: interconnected,
+![US street network patterns from different decades. 1900s: interconnected,
 imperfect grid. 1940s: increasingly circuitous car-centric suburbs. 1990s:
 disconnected, dendritic, car-dependent sprawl.]({{ site.url }}{{ site.baseurl
-}}/files/img/us-street-network-design-evolution-1024x351.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/us-street-network-design-evolution.png)
+}}/files/img/us-street-network-design-evolution-1024x351.png)
 
 US street network design evolved over time toward car-dependent sprawl. To
 measure these street network design paradigms over time, I developed algorithms
@@ -59,11 +57,10 @@ site.url }}{{ site.baseurl }}/publications/off-the-grid-japa/) for full
 details). Then I grouped tracts by decade and looked at their average values
 today across a basket of street network indicators:
 
-[![US street network design grew more coarse-grained, disconnected, and
+![US street network design grew more coarse-grained, disconnected, and
 circuitous over the 20th century, before rebounding toward traditional urbanism
 in recent years.]({{ site.url }}{{ site.baseurl
-}}/files/img/us-street-network-trends-1024x563.png)]({{ site.url }}{{
-site.baseurl }}/files/img/us-street-network-trends.png)
+}}/files/img/us-street-network-trends-1024x563.png)
 
 The figure above shows how these street network indicators trend together over
 time. Each trend line represents a different vintage estimation method, as
@@ -168,12 +165,11 @@ intersections instead of three-way "T" junctions or dead-ends. Each of these
 components is necessary but alone insufficient for griddedness. Only in unison
 do they make a true grid.
 
-[![A street grid has an internally-consistent orientation, is relatively
+![A street grid has an internally-consistent orientation, is relatively
 straight, and comprises mostly four-way intersections. Each of these three
 characteristics is necessary but alone insufficient: only in unison do they make
 a street grid.]({{ site.url }}{{ site.baseurl
-}}/files/img/street-network-grid-index-1024x317.png)]({{ site.url }}{{
-site.baseurl }}/files/img/street-network-grid-index.png)
+}}/files/img/street-network-grid-index-1024x317.png)
 
 The grid index combines these three measures together. The notion of
 straightness or 4-way junctions is pretty straightforward. I've previously
@@ -187,7 +183,8 @@ with Python, OSMnx, OpenStreetMap, matplotlib. Cities include Boston, Charlotte,
 Chicago, Detroit, Manhattan, Miami, New Orleans, Philadelphia, San Francisco, St
 Louis. ]({{ site.url }}{{ site.baseurl
 }}/files/img/us-street-orientations-1024x422.png)]({{ site.url }}{{
-site.baseurl }}/files/img/us-street-orientations.png) Above, the polar histogram
+site.baseurl
+}}/files/img/us-street-orientations-1024x422.png) Above, the polar histogram
 bars' directions represent compass bearings and bars' lengths represent the
 proportion of city street segments with those bearings. For example, Chicago and
 Manhattan illustrate high orientation order: they have internally-consistent

@@ -26,22 +26,20 @@ continue to flow after a disaster. All else equal, networks with higher
 connectivity, fewer chokepoints, and less circuity are less vulnerable to
 disruption.
 
-[![Measures of urban street network resilience and robustness to disasters
+![Measures of urban street network resilience and robustness to disasters
 like flooding, sea level rise, earthquakes, and targeted attacks like warfare
 and terrorism.]({{ site.url }}{{ site.baseurl
-}}/files/img/street-network-disasters-robustness.png)]({{ site.url }}{{
-site.baseurl }}/files/img/street-network-disasters-robustness.png)
+}}/files/img/street-network-disasters-robustness.png)
 
 In other words, a sprawling dendritic street network is easy to disconnect by
 knocking out a few key nodes that link neighborhoods together. But (for example)
 even the otherwise dense, connected Amsterdam is easy to disconnect by targeting
 its chokepoints (like canal bridges).
 
-[![Measures of urban street network resilience and robustness to disasters
+![Measures of urban street network resilience and robustness to disasters
 like flooding, sea level rise, earthquakes, and targeted attacks like warfare
 and terrorism.]({{ site.url }}{{ site.baseurl
-}}/files/img/street-network-disaster-resilience.png)]({{ site.url }}{{
-site.baseurl }}/files/img/street-network-disaster-resilience.png)
+}}/files/img/street-network-disaster-resilience.png)
 
 These design characteristics offer high leverage points for street network
 resilience and robustness that planners should emphasize when designing or

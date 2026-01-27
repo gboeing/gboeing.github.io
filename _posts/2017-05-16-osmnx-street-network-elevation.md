@@ -14,10 +14,9 @@ and in one more line of code it can calculate every street (i.e., edge) grade.
 Here is the complete street network of San Francisco, California, with nodes
 colored according to their elevation:
 
-[![OSMnx street network elevation data for San Francisco, California to
+![OSMnx street network elevation data for San Francisco, California to
 calculate street grade and steepness]({{ site.url }}{{ site.baseurl
-}}/files/img/osmnx-sf-elevation-street-network.png)]({{ site.url }}{{
-site.baseurl }}/files/img/osmnx-sf-elevation-street-network.png)
+}}/files/img/osmnx-sf-elevation-street-network.png)
 
 Here we find that the average street grade in San Francisco is 4.0% and the
 median street grade is 2.6%. OSMnx uses the Google Maps Elevation API to

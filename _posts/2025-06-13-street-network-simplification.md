@@ -10,11 +10,9 @@ published this week in _Transactions in GIS_
 ([open- access](https://doi.org/10.1111/tgis.70037)) and its first sentence sums
 it up: "Counting is hard." Hear me out... it really is!
 
-[![Street network graph simplification of complex intersections, nonplanarity,
+![Street network graph simplification of complex intersections, nonplanarity,
 and curve digitization from OpenStreetMap data]({{ site.url }}{{ site.baseurl
-}}/files/img/network-simplification-complex-intersections-1024x652.jpeg)]({{
-site.url }}{{ site.baseurl
-}}/files/img/network-simplification-complex-intersections.jpeg)
+}}/files/img/network-simplification-complex-intersections-1024x652.jpeg)
 
 Most real-world objects belong to fuzzy categories, resulting in subjective
 decisions about what to include or exclude from counts. Yet this complexity is
@@ -44,10 +42,9 @@ would be overestimated by >14%, but very unevenly so in different parts of the
 world. This bias's extreme heterogeneity particularly hinders comparative urban
 analytics.
 
-[![Street network topology simplification with OSMnx and OpenStreetMap]({{
+![Street network topology simplification with OSMnx and OpenStreetMap]({{
 site.url }}{{ site.baseurl
-}}/files/img/osmnx-network-simplification-1024x586.png)]({{ site.url }}{{
-site.baseurl }}/files/img/osmnx-network-simplification.png)
+}}/files/img/osmnx-network-simplification-1024x586.png)
 
 Mitigating these 3 problems is a project I've been iteratively refining for the
 past decade. It was a central focus of my dissertation and a key motivation for

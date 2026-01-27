@@ -13,10 +13,9 @@ manifolds (e.g., the Earth's surface), and what this means for distance metrics
 and lazy path solving when accounting for fluctuations in the manifold's
 curvature (e.g., changes in elevation on Earth's surface).
 
-[![Surfacic network: a spatial network embedded in a non-flat two-dimensional
+![Surfacic network: a spatial network embedded in a non-flat two-dimensional
 manifold such as the Earth's surface accounting for elevation changes]({{
-site.url }}{{ site.baseurl }}/files/img/surfacic-network.jpeg)]({{ site.url
-}}{{ site.baseurl }}/files/img/surfacic-network.jpeg)
+site.url }}{{ site.baseurl }}/files/img/surfacic-network.jpeg)
 
 From the abstract:
 

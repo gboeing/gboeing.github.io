@@ -134,8 +134,7 @@ left')
 plt.show()
 ```
 
-[![shapely-simplified-vs-full]({{ site.url }}{{ site.baseurl
-}}/files/img/shapely-simplified-vs-full.png)]({{ site.url }}{{ site.baseurl
+![shapely-simplified-vs-full]({{ site.url }}{{ site.baseurl
 }}/files/img/shapely-simplified-vs-full.png)
 
 The

@@ -40,9 +40,8 @@ Here is a simple Python [matplotlib]({{ site.url }}{{ site.baseurl
 Summer Travels Part 5: Python + Matplotlib") scatter plot of all the coordinates
 in the full data set:
 
-[![DBSCAN clustering of GPS latitude longitude spatial data]({{ site.url }}{{
-site.baseurl }}/files/img/scatter-full-set.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-full-set.png)
+![DBSCAN clustering of GPS latitude longitude spatial data]({{ site.url }}{{
+site.baseurl }}/files/img/scatter-full-set.png)
 
 At this scale, only a few dozen of the 1,759 data points are really visible.
 Even zoomed in very close, several locations have hundreds of data points
@@ -213,10 +212,8 @@ right')
 plt.show()
 ```
 
-[![DBSCAN clustering of GPS latitude-longitude spatial data]({{ site.url }}{{
-site.baseurl }}/files/img/dbscan-clustering-spatial-gps-lat-long-data.png)]({{
-site.url }}{{ site.baseurl
-}}/files/img/dbscan-clustering-spatial-gps-lat-long-data.png)
+![DBSCAN clustering of GPS latitude-longitude spatial data]({{ site.url }}{{
+site.baseurl }}/files/img/dbscan-clustering-spatial-gps-lat-long-data.png)
 
 Looks good! You can see the 138 representative points, in green, approximating
 the spatial distribution of the 1,759 points of the full data set, in black.

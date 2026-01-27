@@ -18,11 +18,10 @@ present a visualization-mediated interpretative process of data-driven urban
 morphology, focusing on transportation infrastructure via [OSMnx]({{ site.url
 }}{{ site.baseurl }}/2018/03/osmnx-features-roundup/).
 
-[![OSMnx: Figure-ground diagrams of one square mile of each street network,
+![OSMnx: Figure-ground diagrams of one square mile of each street network,
 from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
 site.url }}{{ site.baseurl
-}}/files/img/square-mile-street-networks-1024x822.jpg)]({{ site.url }}{{
-site.baseurl }}/files/img/square-mile-street-networks.jpg)
+}}/files/img/square-mile-street-networks-1024x822.jpg)
 
 Above, we see one square mile [figure-ground diagrams]({{ site.url }}{{
 site.baseurl }}/2017/03/urban-form-figure-ground/) from 12 cities around the
@@ -93,12 +92,10 @@ downtown looks different than its residential suburbs—a [finding true]({{
 site.url }}{{ site.baseurl }}/publications/multiscale-analysis-street-networks/)
 of many American cities.
 
-[![Figure-ground map of building footprints and street network in New York,
+![Figure-ground map of building footprints and street network in New York,
 San Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
 Python with OSMnx]({{ site.url }}{{ site.baseurl
-}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)]({{
-site.url }}{{ site.baseurl
-}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince.png)
+}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)
 
 In the image above, we use OSMnx to visualize street networks along with
 building footprints. At the top-left, we see the densely built form of Midtown
@@ -118,12 +115,10 @@ square mile contains 2,543 building footprints with a median area of 127 square
 meters. Port-au-Prince's square mile contains 14,037 building footprints with a
 median area of just 34 square meters.
 
-[![Figure-ground diagrams of urban form and building footprints in London,
+![Figure-ground diagrams of urban form and building footprints in London,
 Paris, Venice, and Brasilia depict modernism's inversion of traditional spatial
 order]({{ site.url }}{{ site.baseurl
-}}/files/img/square-mile-urban-form-venice-london-paris-brasilia-963x1024.jpg)]({{
-site.url }}{{ site.baseurl
-}}/files/img/square-mile-urban-form-venice-london-paris-brasilia.jpg)
+}}/files/img/square-mile-urban-form-venice-london-paris-brasilia-963x1024.jpg)
 
 Visualizing spatial information can also reveal the state assertion of power and
 modernism's inversion of traditional [urban spatial order]({{ site.url }}{{
@@ -143,11 +138,10 @@ figure-ground diagrams provide a spatial data-driven method to in turn
 qualitatively interpret the urban form and circulation networks that structure
 human activities and social relations.
 
-[![Urban street network grid orientations, rose plot, polar histogram made
+![Urban street network grid orientations, rose plot, polar histogram made
 with Python, OSMnx, OpenStreetMap, matplotlib. New York City and its five
 boroughs, Manhattan, Brooklyn, Queens, The Bronx, Staten Island]({{ site.url
-}}{{ site.baseurl }}/files/img/street-orientation-new-york-1024x721.jpg)]({{
-site.url }}{{ site.baseurl }}/files/img/street-orientation-new-york.jpg)
+}}{{ site.baseurl }}/files/img/street-orientation-new-york-1024x721.jpg)
 
 The [rose diagrams]({{ site.url }}{{ site.baseurl
 }}/2019/09/urban-street-network-orientation/) above offer another perspective on
@@ -180,13 +174,12 @@ rationalist, centrally planned gridirons of Western cities like Toronto,
 Melbourne, and Manhattan and suggesting a certain spatial logic undergirding its
 massive and rapid urbanization in recent years.
 
-[![City street network grid orientations, rose plot, polar histogram made with
+![City street network grid orientations, rose plot, polar histogram made with
 Python, OSMnx, OpenStreetMap, matplotlib. Bangkok, Barcelona, Beijing, Budapest,
 Cairo, Delhi, Dubai, Glasgow, Hong Kong, Lagos, London, Madrid, Melbourne,
 Mexico City, Moscow, Mumbai, Munich, Paris, Rio de Janeiro, Rome, Seoul, Sydney,
 Tehran, Toronto, Warsaw, Tokyo, Berlin, Venice]({{ site.url }}{{ site.baseurl
-}}/files/img/city-street-orientations-world-osmnx-930x1024.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/city-street-orientations-world-osmnx.png)
+}}/files/img/city-street-orientations-world-osmnx-930x1024.png)
 
 Data-driven urban morphology explores urban form by modeling spatial data to
 trace histories, configurations, and orientations in physical space—but it

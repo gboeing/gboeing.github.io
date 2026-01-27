@@ -5,10 +5,6 @@ date: 2016-10-24 22:22:46-07:00
 permalink: /2016/10/r-tree-spatial-index-python/
 ---
 
-![r-tree spatial index with python geopandas: Thumbnail of Walnut Creek,
-California city boundary and street intersections inside and outside city
-limits]({{ site.url }}{{ site.baseurl
-}}/files/img/walnut-creek-boundary-intersections-inside-outside-thumb-150x150.png)
 _Check out the [journal article]({{ site.url }}{{ site.baseurl
 }}/publications/osmnx-complex-street-networks/) about OSMnx, which implements
 this technique._
@@ -53,18 +49,16 @@ Python's geopandas offers an implementation of R-tree to speed up spatial
 queries. Let's say we have a polygon representing the city boundary of Walnut
 Creek, California:
 
-[![Walnut Creek, California city boundary]({{ site.url }}{{ site.baseurl
-}}/files/img/walnut-creek-city-boundary-300x295.png)]({{ site.url }}{{
-site.baseurl }}/files/img/walnut-creek-city-boundary.png)
+![Walnut Creek, California city boundary]({{ site.url }}{{ site.baseurl
+}}/files/img/walnut-creek-city-boundary-300x295.png)
 
 And we also have a geopandas GeoDataFrame of lat-long points representing street
 intersections in the vicinity of this city. Some of these points are within the
 city's borders, but others are outside of them:
 
-[![Walnut Creek, California city boundary and street intersections]({{
+![Walnut Creek, California city boundary and street intersections]({{
 site.url }}{{ site.baseurl
-}}/files/img/walnut-creek-boundary-intersections.png)]({{ site.url }}{{
-site.baseurl }}/files/img/walnut-creek-boundary-intersections.png)
+}}/files/img/walnut-creek-boundary-intersections.png)
 
 We can use geopandas's R-tree spatial index to find which street intersections
 lie within the boundaries of the city:
@@ -84,11 +78,9 @@ border's bounding box contains some points outside the city border. Finally, to
 identify the _precise_ matches (those points exactly within our polygon), we
 intersect the _possible_ matches with the polygon itself:
 
-[![r-tree spatial index with python geopandas: Walnut Creek, California city
+![r-tree spatial index with python geopandas: Walnut Creek, California city
 boundary and street intersections inside and outside city limits]({{ site.url
 }}{{ site.baseurl
-}}/files/img/walnut-creek-boundary-intersections-inside-outside.png)]({{
-site.url }}{{ site.baseurl
 }}/files/img/walnut-creek-boundary-intersections-inside-outside.png)
 
 Here we can see all of the street intersections within the city of Walnut Creek
@@ -110,10 +102,9 @@ Fortunately, we can work around this limitation in Python. Let's say we have a
 polygon representing the borders of the city of Los Angeles, and a GeoDataFrame
 of approximately one million street intersections in and around LA:
 
-[![Los Angeles, California city boundary and street intersections]({{
+![Los Angeles, California city boundary and street intersections]({{
 site.url }}{{ site.baseurl
-}}/files/img/los-angeles-boundary-intersections.png)]({{ site.url }}{{
-site.baseurl }}/files/img/los-angeles-boundary-intersections.png)
+}}/files/img/los-angeles-boundary-intersections.png)
 
 We want to find which street intersections are within LA's city boundary. Notice
 that our polygon and points have the same minimum bounding boxes, so an R-tree
@@ -125,9 +116,8 @@ minimum bounding boxes, using shapely. I simply overlay my polygon with
 evenly-spaced quadrat lines, then split it into separate polygons along these
 lines:
 
-[![Los Angeles, California city boundary subdivided by quadrats]({{ site.url
-}}{{ site.baseurl }}/files/img/los-angeles-boundary-subdivided.png)]({{
-site.url }}{{ site.baseurl }}/files/img/los-angeles-boundary-subdivided.png)
+![Los Angeles, California city boundary subdivided by quadrats]({{ site.url
+}}{{ site.baseurl }}/files/img/los-angeles-boundary-subdivided.png)
 
 Now we can just iterate through these small sub-polygons to quickly identify
 which points lie within each, using the R-tree spatial index (as demonstrated in
@@ -142,11 +132,9 @@ reduces the computation time from 20+ minutes down to just a few seconds. Here
 we can see all of the street intersections within the city of Los Angeles in
 blue, and all those outside of it in red:
 
-[![r-tree spatial index with python geopandas: Los Angeles, California city
+![r-tree spatial index with python geopandas: Los Angeles, California city
 boundary and street intersections inside and outside city limits]({{ site.url
 }}{{ site.baseurl
-}}/files/img/los-angeles-boundary-intersections-inside-outside.png)]({{
-site.url }}{{ site.baseurl
 }}/files/img/los-angeles-boundary-intersections-inside-outside.png)
 
 ## Conclusion: R-trees and Python

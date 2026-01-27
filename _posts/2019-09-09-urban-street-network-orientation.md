@@ -15,12 +15,10 @@ in 100 cities around the world using OpenStreetMap data and [OSMnx]({{
 site.url }}{{ site.baseurl }}/2016/11/osmnx-python-street-networks/) for
 modeling and visualization:
 
-[![City street network grid orientations, order, disorder, entropy, rose plot,
+![City street network grid orientations, order, disorder, entropy, rose plot,
 polar histogram made with Python, OSMnx, OpenStreetMap, matplotlib.]({{
 site.url }}{{ site.baseurl
-}}/files/img/city-street-network-polar-histograms-alpha-933x1024.jpg)]({{
-site.url }}{{ site.baseurl
-}}/files/img/city-street-network-polar-histograms-alpha.jpg)
+}}/files/img/city-street-network-polar-histograms-alpha-933x1024.jpg)
 
 So, who's got a grid and who doesn't? Each of the cities above is represented by
 a polar histogram (aka rose diagram) depicting how its streets orient. Each
@@ -30,12 +28,10 @@ those bearings. The cities above are in alphabetical order. Here they are again,
 re-sorted from most-ordered/gridded city (Chicago) to most-disordered
 (Charlotte):
 
-[![City street network grid orientations, order, disorder, entropy, rose plot,
+![City street network grid orientations, order, disorder, entropy, rose plot,
 polar histogram made with Python, OSMnx, OpenStreetMap, matplotlib.]({{
 site.url }}{{ site.baseurl
-}}/files/img/city-street-network-polar-histograms-entropy-933x1024.jpg)]({{
-site.url }}{{ site.baseurl
-}}/files/img/city-street-network-polar-histograms-entropy.jpg)
+}}/files/img/city-street-network-polar-histograms-entropy-933x1024.jpg)
 
 Note that these are cities proper (municipalities), not wider metro areas or
 urban agglomerations. Some cities, like Seattle, Denver, and Minneapolis, have
@@ -46,12 +42,10 @@ Charlotte is the least. To illustrate this more clearly, in Manhattan for
 example, we can easily see the angled, primarily orthogonal street grid in its
 polar histogram:
 
-[![Manhattan, New York City, New York and Boston, Massachusetts street
+![Manhattan, New York City, New York and Boston, Massachusetts street
 network, bearing, orientation from OpenStreetMap mapped with OSMnx and
 Python]({{ site.url }}{{ site.baseurl
-}}/files/img/manhattan-boston-street-network-orientation-1024x678.jpg)]({{
-site.url }}{{ site.baseurl
-}}/files/img/manhattan-boston-street-network-orientation.jpg)
+}}/files/img/manhattan-boston-street-network-orientation-1024x678.jpg)
 
 Unlike most American cities that have one or two primary street grids organizing
 city circulation, Boston's streets are more evenly distributed in every
@@ -82,10 +76,9 @@ circuity. We can see this with a cluster analysis to explore similarities and
 differences among these study sites in multiple dimensions (full methodological
 details [in paper](https://doi.org/10.1007/s41109-019-0189-1)):
 
-[![Cluster analysis of urban street networks via hierarchical agglomerative
+![Cluster analysis of urban street networks via hierarchical agglomerative
 clustering: OpenStreetMap, OSMnx, Python, scikit-learn, matplotlib]({{ site.url
-}}{{ site.baseurl }}/files/img/cluster-city-street-networks-560x1024.png)]({{
-site.url }}{{ site.baseurl }}/files/img/cluster-city-street-networks.png)
+}}{{ site.baseurl }}/files/img/cluster-city-street-networks-560x1024.png)
 
 The clustering dendrogram above shows how different cities' street networks
 group together in similarity. We can also visualize this in two dimensions using
@@ -94,10 +87,9 @@ is a scatterplot of cities in two dimensions via t-SNE, with cluster colors
 corresponding to those above (triangles represent US/Canadian cities and circles
 represent other cities):
 
-[![t-SNE visualization of urban street network clusters via OpenStreetMap,
+![t-SNE visualization of urban street network clusters via OpenStreetMap,
 OSMnx, Python, scikit-learn, matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/tsne-cluster-street-networks-1024x638.png)]({{ site.url }}{{
-site.baseurl }}/files/img/tsne-cluster-street-networks.png)
+}}/files/img/tsne-cluster-street-networks-1024x638.png)
 
 Most of the North American cities lie near each other in three adjacent clusters
 (red, orange, and blue), which contain grid-like—and almost exclusively North

@@ -12,10 +12,9 @@ mine and was the 2nd most cited author in my dissertation, after Mike Batty (who
 I also recently had the pleasure of [collaborating]({{ site.url }}{{
 site.baseurl }}/2022/12/urban-analytics-history-trajectory-critique/) with).
 
-[![Street network orientation in Chicago (low entropy), New Orleans (medium
+![Street network orientation in Chicago (low entropy), New Orleans (medium
 entropy), and Rome (high entropy) with polar histograms.]({{ site.url }}{{
-site.baseurl }}/files/img/findings-street-orientations-1024x692.png)]({{
-site.url }}{{ site.baseurl }}/files/img/findings-street-orientations.png)
+site.baseurl }}/files/img/findings-street-orientations-1024x692.png)
 
 From the abstract:
 

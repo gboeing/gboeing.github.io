@@ -5,11 +5,9 @@ date: 2015-03-25 17:13:39-07:00
 permalink: /2015/03/chaos-theory-logistic-map/
 ---
 
-![Logistic map bifurcation diagram showing the period-doubling path to
-chaos]({{ site.url }}{{ site.baseurl
-}}/files/img/logistic-bifurcation-cropped-150x150.png)_Using Python to visualize
+_Using Python to visualize
 chaos, fractals, and self-similarity to better understand the limits of
-knowledge and prediction.[Download/cite the article here]({{ site.url }}{{
+knowledge and prediction. [Download/cite the article here]({{ site.url }}{{
 site.baseurl }}/publications/nonlinear-chaos-fractals-prediction/) and try
 [pynamical](https://github.com/gboeing/pynamical) yourself._
 
@@ -67,9 +65,8 @@ the logistic model for 20 time steps (I'll henceforth call these recursive
 iterations of the equation _generations_) for growth rate parameters of 0.5,
 1.0, 1.5, 2.0, 2.5, 3.0, and 3.5. Here are the values we get:
 
-[![logistic-table]({{ site.url }}{{ site.baseurl
-}}/files/img/logistic-table-271x300.jpg)]({{ site.url }}{{ site.baseurl
-}}/files/img/logistic-table.jpg)
+![logistic-table]({{ site.url }}{{ site.baseurl
+}}/files/img/logistic-table-271x300.jpg)
 
 The columns represent growth rates and the rows represent generations. The model
 always starts with a population level of 0.5 and it's set up to represent
@@ -87,8 +84,7 @@ represents the replacement rate.
 
 Let's visualize this table of results as a line chart:
 
-[![logistic-model-line]({{ site.url }}{{ site.baseurl
-}}/files/img/logistic-model-line.png)]({{ site.url }}{{ site.baseurl
+![logistic-model-line]({{ site.url }}{{ site.baseurl
 }}/files/img/logistic-model-line.png)
 
 Here you can easily see how the population changes over time, given different
@@ -122,8 +118,7 @@ line chart above, we had only 7 growth rates. This time we'll have 1,000 so
 we'll need to visualize it in a different way, using something called a
 bifurcation diagram:
 
-[![Logistic map bifurcation diagram]({{ site.url }}{{ site.baseurl
-}}/files/img/logistic-bifurcation-full1.png)]({{ site.url }}{{ site.baseurl
+![Logistic map bifurcation diagram]({{ site.url }}{{ site.baseurl
 }}/files/img/logistic-bifurcation-full1.png)
 
 Think of this bifurcation diagram as 1,000 discrete vertical slices, each one
@@ -147,9 +142,8 @@ growth rates, such as 3.9, the diagram shows 100 different values
 So, why is this called a bifurcation diagram? Let's zoom into the growth rates
 between 2.8 and 4.0 to see what's happening:
 
-[![Logistic map bifurcation diagram showing the period-doubling path to
+![Logistic map bifurcation diagram showing the period-doubling path to
 chaos]({{ site.url }}{{ site.baseurl
-}}/files/img/logistic-bifurcation-med1.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/logistic-bifurcation-med1.png)
 
 At the vertical slice above growth rate 3.0, the possible population values fork
@@ -181,8 +175,7 @@ is chaos: deterministic and aperiodic.
 
 Let's zoom in again, to the narrow slice of growth rates between 3.7 and 3.9:
 
-[![Logistic map bifurcation diagram]({{ site.url }}{{ site.baseurl
-}}/files/img/logistic-bifurcation-narrow1.png)]({{ site.url }}{{ site.baseurl
+![Logistic map bifurcation diagram]({{ site.url }}{{ site.baseurl
 }}/files/img/logistic-bifurcation-narrow1.png)
 
 As we zoom in, we begin to see the beauty of chaos. Out of the noise emerge
@@ -197,8 +190,7 @@ again and returns to chaos at growth rates beyond 3.86.
 In the plot above, the bifurcations around growth rate 3.85 look a bit familiar.
 Let's zoom in to the center one:
 
-[![Logistic map bifurcation diagram revealing fractal structure]({{ site.url
-}}{{ site.baseurl }}/files/img/logistic-bifurcation-fractal1.png)]({{ site.url
+![Logistic map bifurcation diagram revealing fractal structure]({{ site.url
 }}{{ site.baseurl }}/files/img/logistic-bifurcation-fractal1.png)
 
 Incredibly, we see the exact same structure that we saw earlier at the macro-
@@ -228,10 +220,8 @@ Remember that our model follows a simple deterministic rule, so if we know a
 certain generation's population value, we can easily determine the next
 generation's value:
 
-[![Poincaré plots for fixed-point and limit-cycle attractors]({{ site.url
-}}{{ site.baseurl }}/files/img/poincare-plot-fixed-limit-attractors.png)]({{
-site.url }}{{ site.baseurl
-}}/files/img/poincare-plot-fixed-limit-attractors.png)
+![Poincaré plots for fixed-point and limit-cycle attractors]({{ site.url
+}}{{ site.baseurl }}/files/img/poincare-plot-fixed-limit-attractors.png)
 
 The phase diagram above on the left shows that the logistic map homes in on a
 fixed-point attractor at 0.655 (on both axes) when the growth rate parameter is
@@ -243,8 +233,7 @@ diagrams from earlier).
 
 Here's what happens when these period-doubling bifurcations lead to chaos:
 
-[![Poincaré plots of the logistic map, revealing deterministic chaos]({{
-site.url }}{{ site.baseurl }}/files/img/poincare-plots-logistic-chaos1.png)]({{
+![Poincaré plots of the logistic map, revealing deterministic chaos]({{
 site.url }}{{ site.baseurl }}/files/img/poincare-plots-logistic-chaos1.png)
 
 The plot on the left depicts a parabola formed by a growth rate parameter of
@@ -273,8 +262,7 @@ Indeed, it can be hard to tell if certain time series are chaotic or just random
 when you don't fully understand their underlying dynamics. Take these two as an
 example:
 
-[![Chaos vs random noise in time series data]({{ site.url }}{{ site.baseurl
-}}/files/img/chaos-random-time-series.png)]({{ site.url }}{{ site.baseurl
+![Chaos vs random noise in time series data]({{ site.url }}{{ site.baseurl
 }}/files/img/chaos-random-time-series.png)
 
 Both of the lines seem to jump around randomly. The blue line _does_ depict
@@ -283,9 +271,8 @@ is set to 3.99. This is deterministic chaos, but it's hard to differentiate it
 from randomness. So, let's visualize these same two data sets with phase
 diagrams instead of line charts:
 
-[![Chaos vs random noise in 2D and 3D Poincare plots - the strange attractor
+![Chaos vs random noise in 2D and 3D Poincare plots - the strange attractor
 is revealed]({{ site.url }}{{ site.baseurl
-}}/files/img/poincare-plots-chaos-vs-random.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/poincare-plots-chaos-vs-random.png)
 
 Now we can see our chaotic system (in red, above) constrained by its strange
@@ -299,11 +286,9 @@ Let's plot the rest of the logistic map's chaotic regime in 3-D. This is
 }}/2015/04/visualizing-chaos-and-randomness/) version of the 2-D rainbow
 parabolas we saw earlier:
 
-[![Animated 3-D Poincare plot of the logistic map's chaotic regime - this is
+![Animated 3-D Poincare plot of the logistic map's chaotic regime - this is
 time series data embedded in three dimensional state space]({{ site.url }}{{
 site.baseurl
-}}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)]({{
-site.url }}{{ site.baseurl
 }}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 In [three dimensions]({{ site.url }}{{ site.baseurl
@@ -333,8 +318,7 @@ approximately determine the future."
 As an example of this, let's run the logistic model with two _very_ similar
 initial population values:
 
-[![Chaos is revealed through a sensitive dependence on initial conditions]({{
-site.url }}{{ site.baseurl }}/files/img/logistic-sens-dep-init-cond.png)]({{
+![Chaos is revealed through a sensitive dependence on initial conditions]({{
 site.url }}{{ site.baseurl }}/files/img/logistic-sens-dep-init-cond.png)
 
 Both have the same growth rate parameter, 3.9. The blue line represents an

@@ -5,8 +5,7 @@ date: 2014-11-17 14:27:03-08:00
 permalink: /2014/11/neighborhood-design-food-systems/
 ---
 
-![Healthy-food]({{ site.url }}{{ site.baseurl
-}}/files/img/Healthy-food-300x133.jpg)_This post is adapted from [an article I
+_This post is adapted from [an article I
 wrote in Progressive Planning]({{ site.url }}{{ site.baseurl
 }}/publications/how-neighborhoods-lost-food/)_.
 

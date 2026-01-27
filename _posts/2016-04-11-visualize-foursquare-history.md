@@ -25,32 +25,28 @@ and map geospatial data attractively with Python (here, using the
 check-ins are unsurprisingly in the U.S. and along the west coast. What
 countries _other_ than the U.S. have I checked-into the most?
 
-[![Foursquare Swarm most common countries checked into]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_common_countries.png)]({{ site.url }}{{
+![Foursquare Swarm most common countries checked into]({{ site.url }}{{
 site.baseurl }}/files/img/foursquare_common_countries.png)
 
 Outside of the U.S., I've checked-in to Spain more than any other country.
 Conversely, which cities (total, including the U.S.) have I checked-into the
 most?
 
-[![Foursquare Swarm most common cities checked into]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_common_cities.png)]({{ site.url }}{{
+![Foursquare Swarm most common cities checked into]({{ site.url }}{{
 site.baseurl }}/files/img/foursquare_common_cities.png)
 
 Berkeley dominates, which is unsurprising because I live and work in Berkeley.
 Other bay area cities (San Francisco and Oakland) likewise come in second and
 third. What _types_ of places have I checked-into the most?
 
-[![Foursquare Swarm most common venue categories checked into]({{ site.url
-}}{{ site.baseurl }}/files/img/foursquare_common_categories.png)]({{ site.url
+![Foursquare Swarm most common venue categories checked into]({{ site.url
 }}{{ site.baseurl }}/files/img/foursquare_common_categories.png)
 
 I guess these venue categories reveal the highs and lows of PhD student life:
 college buildings, libraries, bars, and breweries. Beyond categories, what
 specific places (aka, Foursquare "venues") have I checked-into the most?
 
-[![Foursquare Swarm most common venues checked into]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_common_venues.png)]({{ site.url }}{{
+![Foursquare Swarm most common venues checked into]({{ site.url }}{{
 site.baseurl }}/files/img/foursquare_common_venues.png)
 
 So the top four venues are all buildings on UC Berkeley's campus. Two others are
@@ -62,8 +58,7 @@ grocery store, transit station, and airport.
 How has my check-in behavior changed over time? Have I used Foursquare/Swarm
 differently at different times?
 
-[![Foursquare Swarm check-ins per month]({{ site.url }}{{ site.baseurl
-}}/files/img/foursquare_checkins_month.png)]({{ site.url }}{{ site.baseurl
+![Foursquare Swarm check-ins per month]({{ site.url }}{{ site.baseurl
 }}/files/img/foursquare_checkins_month.png)
 
 Clearly I have used it much more in some months than in others. While I
@@ -72,16 +67,14 @@ spikes correlated with times I was on vacation or out of town. The valleys tend
 to be mid-semester when I was busy at school and not going out and about much.
 What about by day of the week?
 
-[![Foursquare Swarm check-ins per day of the week]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_checkins_weekday.png)]({{ site.url }}{{
+![Foursquare Swarm check-ins per day of the week]({{ site.url }}{{
 site.baseurl }}/files/img/foursquare_checkins_weekday.png)
 
 Fridays and Saturdays have the most check-ins, because I'm going out more on
 those days. But there isn't a _drastic_ difference in daily check-in activity.
 What about by hour of the day?
 
-[![Foursquare Swarm check-ins per hour of the day]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_checkins_hour.png)]({{ site.url }}{{
+![Foursquare Swarm check-ins per hour of the day]({{ site.url }}{{
 site.baseurl }}/files/img/foursquare_checkins_hour.png)
 
 My check-in activity peaks around mid-day before hitting another mini peak in

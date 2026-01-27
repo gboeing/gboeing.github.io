@@ -115,9 +115,8 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-[![matplotlib-bar-most-visited-countries]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-most-visited-countries.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-bar-most-visited-countries.png)
+![matplotlib-bar-most-visited-countries]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-bar-most-visited-countries.png)
 
 Spain is the clear winner, with about 650 records in the data set. The other
 countries trail off behind it. I was in Spain for about a month of the total
@@ -147,9 +146,8 @@ ax.set_ylabel('Log of number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-[![matplotlib-bar-most-visited-countries-log]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-most-visited-countries-log.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-bar-most-visited-countries-log.png)
+![matplotlib-bar-most-visited-countries-log]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-bar-most-visited-countries-log.png)
 
 That looks a bit nicer and represents the relationships between the value counts
 more linearly. But, it may be misleading in how it represents the relative share
@@ -176,9 +174,8 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-[![matplotlib-bar-most-visited-cities]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-most-visited-cities.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-bar-most-visited-cities.png)
+![matplotlib-bar-most-visited-cities]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-bar-most-visited-cities.png)
 
 Barcelona really dominates this chart, followed by Lisbon, Tuebingen, and
 Prague. Each were cities where I spent extended time.
@@ -243,9 +240,8 @@ alpha=0.8))
 plt.show()
 ```
 
-[![matplotlib-scatter-most-visited-cities]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-scatter-most-visited-cities.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-scatter-most-visited-cities.png)
+![matplotlib-scatter-most-visited-cities]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-scatter-most-visited-cities.png)
 
 The scatter plot above maps my point data and indicates the locations of Lisbon,
 Porto, Barcelona, Krakow, Prague, Tuebingen, Athens, and Istanbul. Let's do the
@@ -286,9 +282,8 @@ xycoords='data')
 plt.show()
 ```
 
-[![matplotlib-scatter-most-visited-countries]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-scatter-most-visited-countries.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-scatter-most-visited-countries.png)
+![matplotlib-scatter-most-visited-countries]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-scatter-most-visited-countries.png)
 
 Much like the previous scatter plot, this one displays my coordinate data and
 indicates the locations of the eight most visited countries in the data set:
@@ -393,9 +388,8 @@ Set')
 plt.show()
 ```
 
-[![geopandas-shapfile-point-data-map]({{ site.url }}{{ site.baseurl
-}}/files/img/geopandas-shapfile-point-data-map.png)]({{ site.url }}{{
-site.baseurl }}/files/img/geopandas-shapfile-point-data-map.png)
+![geopandas-shapfile-point-data-map]({{ site.url }}{{ site.baseurl
+}}/files/img/geopandas-shapfile-point-data-map.png)
 
 This plot above depicts a map of Europe (from my shapefile), with my location
 data plotted on top of it. The top six most visited cities are annotated on the
@@ -409,9 +403,8 @@ explain how to convert point data and basemaps to a projected coordinate system
 in Python. I also demonstrate how to style the map to make it much more
 beautiful, also entirely in Python. Like this:
 
-[![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile-gps-coordinates.png)]({{ site.url }}{{
-site.baseurl }}/files/img/projected-shapefile-gps-coordinates.png)
+![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
+}}/files/img/projected-shapefile-gps-coordinates.png)
 
 ## The most isolated locations
 
@@ -516,9 +509,8 @@ xycoords='data')
 plt.show()
 ```
 
-[![matplotlib-most-isolated-clusters]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-most-isolated-clusters.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-most-isolated-clusters.png)
+![matplotlib-most-isolated-clusters]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-most-isolated-clusters.png)
 
 The plot above shows the data set in blue and highlights the most isolated
 points in red: Barcelona, Hounslow (outside of London), Munich, Prizren, and
@@ -528,8 +520,7 @@ As mentioned earlier, in [another post]({{ site.url }}{{ site.baseurl
 explain how to convert point data and basemaps to a projected coordinate system
 in Python, and how to style the map to make it much more beautiful. Like this:
 
-[![most-isolated-projected]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated-projected.png)]({{ site.url }}{{ site.baseurl
+![most-isolated-projected]({{ site.url }}{{ site.baseurl
 }}/files/img/most-isolated-projected.png)
 
 You can see that Barcelona, Hounslow, and Istanbul are by far the most isolated
@@ -553,8 +544,7 @@ grouping_threshold = 30,
 grouping_label = 'All Other Cities')
 ```
 
-[![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-pie-cities-by-share.png)]({{ site.url }}{{ site.baseurl
+![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl
 }}/files/img/matplotlib-pie-cities-by-share.png)
 
 As we saw earlier, Barcelona was the most visited city, followed by Lisbon,
@@ -590,9 +580,8 @@ grouping_threshold = 30,
 grouping_label = 'All Other Countries')
 ```
 
-[![matplotlib-pie-countries-by-records]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-pie-countries-by-records.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-pie-countries-by-records.png)
+![matplotlib-pie-countries-by-records]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-pie-countries-by-records.png)
 
 As we saw earlier, Spain was the most visited country, followed by Portugal,
 Germany, and the Czech Republic. All countries with fewer than 30 rows in the
@@ -637,9 +626,8 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-[![matplotlib-bar-records-by-hour-of-day]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-records-by-hour-of-day.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-bar-records-by-hour-of-day.png)
+![matplotlib-bar-records-by-hour-of-day]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-bar-records-by-hour-of-day.png)
 
 It looks like the OpenPaths app on my phone was transmitting more location data
 points between mid-afternoon and early evening. My phone would sometimes be
@@ -680,9 +668,8 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-[![matplotlib-bar-records-by-day-of-week]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-records-by-day-of-week.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-bar-records-by-day-of-week.png)
+![matplotlib-bar-records-by-day-of-week]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-bar-records-by-day-of-week.png)
 
 Interesting. Thursday has by far the fewest observations in the data set.
 However, I was producing about 30 records per day and my trip ended on a
@@ -756,8 +743,7 @@ ax.set_axis_bgcolor(axis_bgcolor)
 plt.show()
 ```
 
-[![matplotlib-line-records-by-day]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-line-records-by-day.png)]({{ site.url }}{{ site.baseurl
+![matplotlib-line-records-by-day]({{ site.url }}{{ site.baseurl
 }}/files/img/matplotlib-line-records-by-day.png)
 
 As expected, the line chart above shows major fluctuations in the number of

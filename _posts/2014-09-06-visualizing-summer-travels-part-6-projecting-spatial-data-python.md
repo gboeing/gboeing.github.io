@@ -38,16 +38,14 @@ European latitudes because the spatial data was
 to understand this distortion is to see it visually. Here is the very simple but
 very distorted plot of my lat-long data, from the previous post:
 
-[![geopandas-shapfile-point-data-map]({{ site.url }}{{ site.baseurl
-}}/files/img/geopandas-shapfile-point-data-map-300x153.png)]({{ site.url }}{{
-site.baseurl }}/files/img/geopandas-shapfile-point-data-map.png)
+![geopandas-shapfile-point-data-map]({{ site.url }}{{ site.baseurl
+}}/files/img/geopandas-shapfile-point-data-map-300x153.png)
 
 And here is the projected data in a more geographically representative plot
 which I will create today in this post:
 
-[![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile-gps-coordinates-300x203.png)]({{ site.url }}{{
-site.baseurl }}/files/img/projected-shapefile-gps-coordinates.png)
+![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
+}}/files/img/projected-shapefile-gps-coordinates-300x203.png)
 
 You can see the horizontal distortion in the top image: France, Germany,
 England, etc are too wide because the three dimensional lat-long data from the
@@ -292,9 +290,8 @@ xycoords='data')
 plt.show()
 ```
 
-[![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile-gps-coordinates.png)]({{ site.url }}{{
-site.baseurl }}/files/img/projected-shapefile-gps-coordinates.png)
+![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
+}}/files/img/projected-shapefile-gps-coordinates.png)
 
 The plot above depicts a map of Europe with my GPS location data plotted on top
 of it. The top six most visited cities are annotated on the map: Lisbon,
@@ -383,8 +380,7 @@ xycoords='data')
 plt.show()
 ```
 
-[![most-isolated-projected]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated-projected.png)]({{ site.url }}{{ site.baseurl
+![most-isolated-projected]({{ site.url }}{{ site.baseurl
 }}/files/img/most-isolated-projected.png)
 
 The plot above shows the projected GPS location data set in magenta and

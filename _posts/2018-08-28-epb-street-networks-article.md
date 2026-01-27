@@ -41,10 +41,9 @@ metropolitan-scale trip-taking. In short, multiple scales in concert provide
 planners a clearer view of the urban form and the topological and metric
 character of the street network than any single scale can.
 
-[![Simple regression shows the linear relationship between number of nodes in
+![Simple regression shows the linear relationship between number of nodes in
 city street network graph and length of roads.]({{ site.url }}{{ site.baseurl
-}}/files/img/usa-street-networks-length-vs-nodes-1024x330.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/usa-street-networks-length-vs-nodes.png)
+}}/files/img/usa-street-networks-length-vs-nodes-1024x330.png)
 
 This analysis finds a strong linear relationship, across scales, between total
 street length and the number of nodes in a network (figure above). This differs
@@ -61,10 +60,9 @@ scale, examples include towns in the Great Plains that have orthogonal grids
 with consistent block sizes, platted at one time, and never subjected to
 expansion or sprawl.
 
-[![Map of intersection density and average streets per node for US urbanized
+![Map of intersection density and average streets per node for US urbanized
 area street networks]({{ site.url }}{{ site.baseurl
-}}/files/img/usa-urbanized-areas-street-networks-1024x398.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/usa-urbanized-areas-street-networks.png)
+}}/files/img/usa-urbanized-areas-street-networks-1024x398.png)
 
 Looking across US urbanized areas, we can see clear patterns in intersection
 density and the average number of streets per node (figure above). The former
@@ -78,12 +76,10 @@ planning: the spatial signatures of the Homestead Act, successive land use
 regulations, urban design paradigms, and planning instruments remain clearly
 etched in these cities' urban forms and street networks today.
 
-[![Average streets per node and street segment length for every US city and
+![Average streets per node and street segment length for every US city and
 town, aggregated to the state-level and choropleth mapped by median value.]({{
 site.url }}{{ site.baseurl
-}}/files/img/usa-city-street-networks-state-aggregation-1024x414.png)]({{
-site.url }}{{ site.baseurl
-}}/files/img/usa-city-street-networks-state-aggregation.png)
+}}/files/img/usa-city-street-networks-state-aggregation-1024x414.png)
 
 For instance (and unsurprising given this history), if we measure the average
 number of streets per node at the city-scale and then aggregate these cities by

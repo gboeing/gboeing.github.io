@@ -21,9 +21,8 @@ rents have risen since 2010:
 The expensive coastal cities' median rents form a red line snaking along the
 western and eastern seaboards. The nation's blue interior has lower rents.
 
-[![Most expensive cities in the US: United States metro areas by 2014 median
+![Most expensive cities in the US: United States metro areas by 2014 median
 rent]({{ site.url }}{{ site.baseurl
-}}/files/img/median_rent_msa-labels.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/median_rent_msa-labels.png)
 
 But when you switch to the percent _change_ in median rent since 2010, the
@@ -31,9 +30,8 @@ coasts cool off somewhat and the interior - especially east of the Rockies -
 warms up. Inland rents seem to be lower than those on the coasts, but also seem
 to have risen at a quicker rate since 2010.
 
-[![Most expensive cities in the US: United States metro areas by percent
+![Most expensive cities in the US: United States metro areas by percent
 increase in median rent between 2010 and 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/rent_change_msa-labels.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/rent_change_msa-labels.png)
 
 ## Cities with the most expensive rents
@@ -41,9 +39,8 @@ increase in median rent between 2010 and 2014]({{ site.url }}{{ site.baseurl
 Here are the U.S. metro areas with the highest rents (listed by principle city),
 along with the median rent's percentage change since 2010:
 
-[![Most expensive cities in the United States: the US metro areas with the
+![Most expensive cities in the United States: the US metro areas with the
 highest median rent in 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/highest-median-rent-2014.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/highest-median-rent-2014.png)
 
 The list of most expensive cities is dominated by California, which comprises 10
@@ -52,9 +49,8 @@ in median rent since 2010. New York surprisingly doesn't even enter the list
 until #15. By contrast, here are the U.S. metro areas with the _fastest rising_
 median rents since 2010:
 
-[![Most expensive cities in the United States: the US metro areas with the
+![Most expensive cities in the United States: the US metro areas with the
 fastest rising rents]({{ site.url }}{{ site.baseurl
-}}/files/img/greatest-rent-increases-2014.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/greatest-rent-increases-2014.png)
 
 This list is largely composed of smaller cities, with plenty of representation
@@ -67,8 +63,7 @@ rose 65%. Overall, 2014 median rents are closely correlated with 2010 median
 rents. This scatter plot depicts the 2014 vs 2010 median rents for each metro
 area, with a simple regression line showing their relationship:
 
-[![scatter-rent-change-2010-2014]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent-change-2010-2014.png)]({{ site.url }}{{ site.baseurl
+![scatter-rent-change-2010-2014]({{ site.url }}{{ site.baseurl
 }}/files/img/scatter-rent-change-2010-2014.png)
 
 And what about fast growing cities? Do they have faster rising rents? Not
@@ -76,9 +71,8 @@ really. The next scatter plot depicts the percent change in median rent vs the
 percent change in population for each metro area: faster growing metros tend to
 have _slightly_ faster rising rents, but the relationship is very weak.
 
-[![scatter-rent-pop-change-2010-14]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent-pop-change-2010-14.png)]({{ site.url }}{{
-site.baseurl }}/files/img/scatter-rent-pop-change-2010-14.png)
+![scatter-rent-pop-change-2010-14]({{ site.url }}{{ site.baseurl
+}}/files/img/scatter-rent-pop-change-2010-14.png)
 
 Faster-growing cities do not necessarily have faster-rising rents. There are
 clearly other factors at play.
@@ -88,9 +82,8 @@ clearly other factors at play.
 Here are the U.S. metro areas with the least expensive rents, along with the
 median rent's percent change since 2010:
 
-[![Least expensive cities in the United States: the US metro areas with the
+![Least expensive cities in the United States: the US metro areas with the
 lowest median rent in 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/lowest-median-rent-2014.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/lowest-median-rent-2014.png)
 
 The least expensive rents are concentrated in small towns and predominantly in
@@ -101,9 +94,8 @@ list but also placed 2 cities on the list of fastest growing rents since 2010.
 By contrast, here are the U.S. metro areas with the _fastest falling_ median
 rents since 2010:
 
-[![Least expensive cities in the United States: the US metro areas with the
+![Least expensive cities in the United States: the US metro areas with the
 fastest decreasing rents]({{ site.url }}{{ site.baseurl
-}}/files/img/greatest-rent-decreases-2014.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/greatest-rent-decreases-2014.png)
 
 Talladega pops up here again and the list of cities with the greatest decrease
@@ -120,19 +112,13 @@ high). Interestingly, every single one of the 20 largest metro areas saw rent
 rise in excess of 5% since 2010 - even struggling areas like Riverside and
 Detroit.
 
-[![Most expensive cities in the United States: the most populous US metro
-areas and their median rents]({{ site.url }}{{ site.baseurl
-}}/files/img/most-populous-median-rent-2014.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/most-populous-median-rent-2014.png)
-
 What is the relationship between city size and median rent? More populous cities
 generally have higher rents, but the relationship is weak and there could be
 many latent factors at play. This scatter plot depicts the 2014 median rent vs
 the (log of) 2014 population of each metro area:
 
-[![U.S. cities (metro areas) with larger populations tend to have slightly
+![U.S. cities (metro areas) with larger populations tend to have slightly
 higher rents]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent-pop-log-2010-14.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/scatter-rent-pop-log-2010-14.png)
 
 Rents rise and fall for many reasons. Jobs come and go, local economies boom and

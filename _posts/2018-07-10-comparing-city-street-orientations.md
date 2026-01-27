@@ -25,14 +25,13 @@ south-east-west layout? I wanted to revisit this by
 [follow- up]({{ site.url }}{{ site.baseurl
 }}/2019/09/urban-street-network-orientation/) comparing world cities):
 
-[![City street network grid orientations, rose plot, polar histogram made with
+![City street network grid orientations, rose plot, polar histogram made with
 Python, OSMnx, OpenStreetMap, matplotlib. Atlanta, Boston, Buffalo, Charlotte,
 Chicago, Cleveland, Dallas, Denver, Detroit, Houston, Las Vegas, Los Angeles,
 Manhattan, New York, Miami, Minneapolis, Orlando, Philadelphia, Phoenix,
 Portland, Sacramento, San Francisco, Seattle, St Louis, Tampa, Washington
 DC.]({{ site.url }}{{ site.baseurl
-}}/files/img/city-street-orientations-usa-osmnx-930x1024.png)]({{ site.url }}{{
-site.baseurl }}/files/img/city-street-orientations-usa-osmnx.png)
+}}/files/img/city-street-orientations-usa-osmnx-930x1024.png)
 
 Each of the cities above is represented by a polar histogram (aka rose diagram)
 depicting how its streets orient. Each bar's _direction_ represents the compass
@@ -41,20 +40,17 @@ relative frequency of streets with those bearings. For example, in Manhattan we
 can clearly see the angled, primarily orthogonal street grid in its polar
 histogram:
 
-[![Manhattan, New York City, New York street network, bearing, orientation
+![Manhattan, New York City, New York street network, bearing, orientation
 from OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
-}}/files/img/manhattan-nyc-street-network-bearings-osmnx-646x1024.png)]({{
-site.url }}{{ site.baseurl
-}}/files/img/manhattan-nyc-street-network-bearings-osmnx.png)
+}}/files/img/manhattan-nyc-street-network-bearings-osmnx-646x1024.png)
 
 Similar orthogonal grids can be seen in the histograms of Chicago, Denver,
 Tampa, etc. Detroit is an interesting case, as it primarily comprises two
 separate orthogonal grids, one a slight rotation of the other:
 
-[![Detroit, Michigan city street network, bearing, orientation from
+![Detroit, Michigan city street network, bearing, orientation from
 OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
-}}/files/img/detroit-michigan-street-bearings-osmnx.jpg)]({{ site.url }}{{
-site.baseurl }}/files/img/detroit-michigan-street-bearings-osmnx.jpg)
+}}/files/img/detroit-michigan-street-bearings-osmnx.jpg)
 
 Most cities' polar histograms similarly tend to cluster in at least a rough,
 approximate way. But then there are Boston and Charlotte. Unlike most American
@@ -112,10 +108,9 @@ to recreate the visualization. Finally, by popular request, here's a [follow-
 up]({{ site.url }}{{ site.baseurl }}/2019/09/urban-street-network-orientation/)
 comparing world cities:
 
-[![City street network grid orientations, rose plot, polar histogram made with
+![City street network grid orientations, rose plot, polar histogram made with
 Python, OSMnx, OpenStreetMap, matplotlib. Bangkok, Barcelona, Beijing, Budapest,
 Cairo, Delhi, Dubai, Glasgow, Hong Kong, Lagos, London, Madrid, Melbourne,
 Mexico City, Moscow, Mumbai, Munich, Paris, Rio de Janeiro, Rome, Seoul, Sydney,
 Tehran, Toronto, Warsaw, Tokyo, Berlin, Venice]({{ site.url }}{{ site.baseurl
-}}/files/img/city-street-orientations-world-osmnx-272x300.png)]({{ site.url
-}}{{ site.baseurl }}/2018/07/city-street-orientations-world/)
+}}/files/img/city-street-orientations-world-osmnx-272x300.png)

@@ -27,10 +27,9 @@ street grades to every node/edge in the final models. All the final models were
 topologically simplified such that nodes represent intersections and dead-ends,
 and edges represent the street segments linking them.
 
-[![Street network topology simplification with OSMnx and OpenStreetMap]({{
+![Street network topology simplification with OSMnx and OpenStreetMap]({{
 site.url }}{{ site.baseurl
-}}/files/img/osmnx-network-simplification-1024x586.png)]({{ site.url }}{{
-site.baseurl }}/files/img/osmnx-network-simplification.png)
+}}/files/img/osmnx-network-simplification-1024x586.png)
 
 I attached elevation data to each node from the SRTM and ASTER DEMs, and
 validated those values against the Google Maps Elevation API. Once all the nodes
@@ -41,10 +40,9 @@ orientation and entropy, and more. See details and findings in [the
 article]({{ site.url }}{{ site.baseurl
 }}/publications/street-network-models-indicators-world/).
 
-[![Relationships between urban street network variables around the world:
+![Relationships between urban street network variables around the world:
 intersection count, street length, population, GDP]({{ site.url }}{{
-site.baseurl }}/files/img/world-street-network-scatterplots.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/world-street-network-scatterplots.png)
+site.baseurl }}/files/img/world-street-network-scatterplots.png)
 
 The article focuses on this open source pipeline for street network modeling and
 analysis, but it also includes a high-level analysis of urban street network

@@ -13,9 +13,8 @@ that has been accepted for publication at _Frontiers in Neurology_ ([download
 free PDF]({{ site.url }}{{ site.baseurl
 }}/publications/software-data-geospatial-stroke/)).
 
-[![Hospital catchment basin for stroke services. Spatial analysis in python,
+![Hospital catchment basin for stroke services. Spatial analysis in python,
 geopandas, osmnx.]({{ site.url }}{{ site.baseurl
-}}/files/img/catchment.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/catchment.png)
 
 In this article, we discuss tools, data, and methodologies for building

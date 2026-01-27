@@ -27,14 +27,13 @@ Building on this idea, we propose a generative model of urban street networks
   distributions. Our model, implemented in Python, reproduces key empirical
   characteristics well.
 
-[![Two different networks with both having an equivalent density p=0.5
+![Two different networks with both having an equivalent density p=0.5
 (N=4000). On the left, we show a random Eden-like model, and below, the
 corresponding distribution of the Gini coefficient. In this case the Gini
 coefficient of the BC is G=0.51, and the spatial Gini is Gspa=0.26. On the
 right, we show the result for our model based on the MST and the corresponding
 BC map. The BC Gini is here equal to G=0.72, and the spatial Gini
 Gspa=0.40.]({{ site.url }}{{ site.baseurl
-}}/files/img/generative-network-models.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/generative-network-models.png)
 
 From the abstract:

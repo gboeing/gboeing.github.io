@@ -59,15 +59,13 @@ marker-allow-overlap:true;
 }
 ```
 
-[![tilemill-screen]({{ site.url }}{{ site.baseurl
-}}/files/img/tilemill-screen.jpg)]({{ site.url }}{{ site.baseurl
+![tilemill-screen]({{ site.url }}{{ site.baseurl
 }}/files/img/tilemill-screen.jpg)
 
 Click the templates button in the bottom-left. Here you can enter text and data
 fields to display as a pop up:
 
-[![tilemill-screen2]({{ site.url }}{{ site.baseurl
-}}/files/img/tilemill-screen2.jpg)]({{ site.url }}{{ site.baseurl
+![tilemill-screen2]({{ site.url }}{{ site.baseurl
 }}/files/img/tilemill-screen2.jpg)
 
 ## Export to Mapbox
@@ -79,9 +77,8 @@ Export > Upload on the top-right. Choose a center and bounds for your map and
 specify zoom levels. Your choices here must balance map detail and extent vs the
 file size of your tile set. Here's how I configured it:
 
-[![tilemill-screen-upload-settings]({{ site.url }}{{ site.baseurl
-}}/files/img/tilemill-screen-upload-settings.jpg)]({{ site.url }}{{
-site.baseurl }}/files/img/tilemill-screen-upload-settings.jpg)
+![tilemill-screen-upload-settings]({{ site.url }}{{ site.baseurl
+}}/files/img/tilemill-screen-upload-settings.jpg)
 
 Mine weighs in at 13.1 MB. When you're done configuring, click the upload
 button. It will take a couple of minutes to process the data and upload it all
@@ -91,8 +88,7 @@ project." In your project, the info tab provides embed code to stick this map on
 a web page, but let's create a new javascript map instead. Copy the map ID from
 the info box.
 
-[![mapbox-project-page]({{ site.url }}{{ site.baseurl
-}}/files/img/mapbox-project-page.jpg)]({{ site.url }}{{ site.baseurl
+![mapbox-project-page]({{ site.url }}{{ site.baseurl
 }}/files/img/mapbox-project-page.jpg)
 
 ## Using your tiles in a web map

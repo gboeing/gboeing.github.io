@@ -21,10 +21,9 @@ I'll show the maps first, then run through the process I followed, below. First
 off, I used Python and matplotlib basemap to create this map of everywhere I've
 ever been:
 
-[![Location History World Map, data from Foursquare and Google, made with
+![Location History World Map, data from Foursquare and Google, made with
 Python matplotlib basemap]({{ site.url }}{{ site.baseurl
-}}/files/img/location_history_world_map-1-1024x622.png)]({{ site.url }}{{
-site.baseurl }}/files/img/location_history_world_map-1.png)
+}}/files/img/location_history_world_map-1-1024x622.png)
 
 I also made an interactive web map with Leaflet that you can zoom into and click
 any point for details:
@@ -67,10 +66,9 @@ checked-into the most often. Then I analyzed my check-in history over time by
 visualizing the check-ins per month, per day of the week, and per hour of the
 day.
 
-[![Visualizing Foursquare/Swarm check-in history: most common countries
+![Visualizing Foursquare/Swarm check-in history: most common countries
 checked into]({{ site.url }}{{ site.baseurl
-}}/files/img/foursquare_common_countries.png)]({{ site.url }}{{ site.baseurl
-}}/2016/04/visualize-foursquare-history/)
+}}/files/img/foursquare_common_countries.png)
 
 Next I downloaded my Google location history from the Google
 [Takeout](https://accounts.google.com/ServiceLogin?service=backup) site. It
@@ -81,11 +79,10 @@ site.baseurl }}/2016/06/mapping-google-location-history-python/). I mapped my
 worldwide Google location history, as well as closer looks at California and the
 San Francisco Bay Area.
 
-[![Mapping everywhere I've ever been: a small map of my Google location
+![Mapping everywhere I've ever been: a small map of my Google location
 history data in the San Francisco Bay Area, 2012-2016]({{ site.url }}{{
 site.baseurl
-}}/files/img/google_location_history_sf_bay_map-small-brdr.jpg)]({{ site.url
-}}{{ site.baseurl }}/2016/06/mapping-google-location-history-python/)
+}}/files/img/google_location_history_sf_bay_map-small-brdr.jpg)
 
 ## Clustering and reverse-geocoding
 

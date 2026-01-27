@@ -13,11 +13,10 @@ looks at the benefits of one-way streets for signalization and vehicular
 throughput. We took a different approach, considering how one-way streets
 inherently increase travel distances.
 
-[![How one-way to two-way street conversions affect street network efficiency
+![How one-way to two-way street conversions affect street network efficiency
 through shortest paths, distance traveled, VKT and VMT, signal timing and
 intersection flow, vehicle travel speed, travel time, fuel consumption, and
 greenhouse gas emissions]({{ site.url }}{{ site.baseurl
-}}/files/img/conversions_ghg.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/conversions_ghg.png)
 
 We found that two-way street conversions (all else equal) would allow for

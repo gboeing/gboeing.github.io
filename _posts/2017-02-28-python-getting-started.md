@@ -5,10 +5,6 @@ date: 2017-02-28 16:02:18-08:00
 permalink: /2017/02/python-getting-started/
 ---
 
-![Piedmont, California street network created in Python with OSMnx, networkx,
-matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/piedmont-california-street-network-150x150.png)
-
 This is a guide for absolute beginners to get started using Python. Since
 releasing [OSMnx]({{ site.url }}{{ site.baseurl
 }}/2016/11/osmnx-python-street-networks/) a few weeks ago, I've received a lot

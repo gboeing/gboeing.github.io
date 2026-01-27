@@ -26,11 +26,10 @@ neighborhood character was an important or even primary reason for their
 location choice, and many referred to themselves as pioneers and catalysts in
 neglected historic neighborhoods.
 
-[![Locations of craft breweries and brew pubs across the United States.
+![Locations of craft breweries and brew pubs across the United States.
 California, Colorado, Oregon, Washington, Michigan have the most craft beer
 locations.]({{ site.url }}{{ site.baseurl
-}}/files/img/beer-locations-map-1024x742.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/beer-locations-map.png)
+}}/files/img/beer-locations-map-1024x742.png)
 
 Do breweries instigate revitalization, gentrification, or displacement? To date,
 there hasn't been clear evidence of the relationship (or even the causal
@@ -43,20 +42,18 @@ particular, California has by far the most craft beer locations (more than twice
 as many as the next closest state... it is, after all, the most populous state),
 followed by other western states:
 
-[![Locations of craft breweries and brew pubs across the United States.
+![Locations of craft breweries and brew pubs across the United States.
 California, Colorado, Oregon, Washington, Michigan have the most craft beer
 locations.]({{ site.url }}{{ site.baseurl
-}}/files/img/states-beer-locations-big-1024x683.png)]({{ site.url }}{{
-site.baseurl }}/files/img/states-beer-locations-big.png)
+}}/files/img/states-beer-locations-big-1024x683.png)
 
 We can also break these locations out by type—that is, breweries versus brew
 pubs:
 
-[![Locations of craft breweries and brew pubs across the United States.
+![Locations of craft breweries and brew pubs across the United States.
 California, Colorado, Oregon, Washington, Michigan have the most craft beer
 locations.]({{ site.url }}{{ site.baseurl
-}}/files/img/states-beer-locations-type-big-1024x683.png)]({{ site.url }}{{
-site.baseurl }}/files/img/states-beer-locations-type-big.png)
+}}/files/img/states-beer-locations-type-big-1024x683.png)
 
 Neighborhoods with craft breweries tend to have densities equivalent to inner-
 ring suburbs. They also tend to have more white residents, a higher proportion

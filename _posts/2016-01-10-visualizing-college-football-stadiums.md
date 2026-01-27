@@ -50,9 +50,8 @@ stadiums, followed by teams in the Big Ten.
 Here is each FBS team ranked by home stadium seating capacity and colored by
 conference:
 
-[![stadiums-fbs-conf-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-fbs-conf-bar-572x1024.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-fbs-conf-bar.png)
+![stadiums-fbs-conf-bar]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-fbs-conf-bar-572x1024.png)
 
 Although the SEC has the largest stadiums on average, the top three largest
 stadiums all belong to Big Ten schools: Michigan, Penn State, and Ohio State.
@@ -60,17 +59,15 @@ But after that, seven of the next ten largest are in the SEC. Here are _all_ the
 NCAA Division I teams' football stadiums (FBS and FCS) sorted by seating
 capacity and colored by conference:
 
-[![stadiums-conf-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-conf-bar-1024x595.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-conf-bar.png)
+![stadiums-conf-bar]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-conf-bar-1024x595.png)
 
 Or to look at this another way, below are the same stadiums again, colored by
 subdivision instead of by conference. There are a few notably large FCS stadiums
 including those of Tennessee State, Yale, Jackson State, Penn, and Harvard:
 
-[![stadiums-div-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-div-bar-1024x595.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-div-bar.png)
+![stadiums-div-bar]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-div-bar-1024x595.png)
 
 ## College football stadiums by year built
 
@@ -80,8 +77,7 @@ League is just behind them with an average year built of 1932. The conferences
 with the newest football stadiums - the Northeast and the Big South - average
 1990 and 1991 respectively:
 
-[![conferences-year-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/conferences-year-bar.png)]({{ site.url }}{{ site.baseurl
+![conferences-year-bar]({{ site.url }}{{ site.baseurl
 }}/files/img/conferences-year-bar.png)
 
 So the SEC's stadiums on average are both the largest and the oldest. How well
@@ -89,9 +85,8 @@ does build year correspond to stadium seating capacity? It turns out that many
 of the oldest stadiums are also among the largest. This chart is similar to the
 one we saw earlier, only colored by year built rather than by conference:
 
-[![stadiums-year-capacity-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-year-capacity-bar-1024x595.png)]({{ site.url }}{{
-site.baseurl }}/files/img/stadiums-year-capacity-bar.png)
+![stadiums-year-capacity-bar]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-year-capacity-bar-1024x595.png)
 
 ## Big stadiums are big investments
 
@@ -122,9 +117,8 @@ beautiful and seismically safe Memorial Stadium.
 
 ## Methodology
 
-[![stadiums-map]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-map-300x209.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-map.png)
+![stadiums-map]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-map-300x209.png)
 
 All of the data and code for my maps, analysis, and visualizations are available
 on
