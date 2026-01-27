@@ -6,7 +6,7 @@ permalink: /2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/
 ---
 
 _This post part of a series]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing- summer-travels/ "Visualizing Summer Travels") on
+}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") on
 visualizing data from my summer travels._
 
 I've previously discussed [my goals]({{ site.url }}{{ site.baseurl

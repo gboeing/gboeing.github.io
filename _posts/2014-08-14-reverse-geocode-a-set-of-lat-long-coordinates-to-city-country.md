@@ -9,7 +9,7 @@ This tutorial demonstrates how to reverse geocode a set of latitude-longitude
 coordinates to city and country using Python and the Google Maps API.
 
 I have [previously written]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer- travels/ "Visualizing Summer Travels") about my
+}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") about my
 GPS location data from this summer's travels. The data set, gathered with the
 OpenPaths app, contains lat- long coordinates and timestamps. Without city or
 country data, any visualizations would be very simplistic because all I have is

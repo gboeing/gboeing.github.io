@@ -307,7 +307,7 @@ site.url }}{{ site.baseurl
 }}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 In [three dimensions]({{ site.url }}{{ site.baseurl
-}}/2015/04/visualizing-chaos-and- randomness/ "Visualizing Chaos and
+}}/2015/04/visualizing-chaos-and-randomness/ "Visualizing Chaos and
 Randomness"), the beautiful structure of the strange attractor is revealed as it
 twists and curls around its 3-D state space. This structure demonstrates that
 our _apparently_ random time series data from the logistic model isn't really
@@ -382,7 +382,7 @@ supplanted it as an analytic frame for
 [systems](https://mitpress.mit.edu/books/cities-and-complexity). Complexity
 draws on similar principles but in the end is a very different beast. Instead of
 looking at simple, closed, deterministic systems, [complexity]({{ site.url
-}}{{ site.baseurl }}/2014/10/urban-complexity-march-toward- qualifying-exams/
+}}{{ site.baseurl }}/2014/10/urban-complexity-march-toward-qualifying-exams/
 "Urban Complexity and the March Toward Qualifying Exams") [examines]({{
 site.url }}{{ site.baseurl }}/2015/01/the-inside-field-exam-and-urban-
 complexity/ "The Inside Field Exam and Urban Complexity") large open systems

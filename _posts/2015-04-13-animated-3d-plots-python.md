@@ -146,7 +146,7 @@ one, other than some slightly different axis scaling.
 But we don't want to stop here. We want to reproduce this snapshot from a range
 of different perspectives that pan and rotate around the plot to reveal the
 [attractor's structure]({{ site.url }}{{ site.baseurl
-}}/2015/04/visualizing-chaos- and-randomness/ "Visualizing Chaos and
+}}/2015/04/visualizing-chaos-and-randomness/ "Visualizing Chaos and
 Randomness"). To do this, we'll create 100 frames (or snapshots of our plot) to
 combine into an animated GIF. Every good movie needs a good script that defines
 its action. Here's ours:

@@ -6,11 +6,11 @@ permalink: /2014/08/visualizing-summer-travels-with-cartodb/
 ---
 
 _This post is [part of a series]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing- summer-travels/ "Visualizing Summer Travels") on
+}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") on
 visualizing data from my summer travels._
 
 I [recently discussed]({{ site.url }}{{ site.baseurl
-}}/2014/07/visualizing-summer- travels-part-1-openpaths/ "Visualizing Summer
+}}/2014/07/visualizing-summer-travels-part-1-openpaths/ "Visualizing Summer
 Travels Part 1: OpenPaths") OpenPaths and my goals in visualizing location data
 from my summer travels. In this post, I'll explore visualizing this dataset with
 [CartoDB](https://cartodb.com/). The OpenPaths data from my summer travels,

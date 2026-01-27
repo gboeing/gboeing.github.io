@@ -6,7 +6,7 @@ permalink: /2014/08/visualizing-summer-travels-part-5-python-matplotlib/
 ---
 
 _This post is [part of a series]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing- summer-travels/ "Visualizing Summer Travels") on
+}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") on
 visualizing data from my summer travels._
 
 I've previously discussed visualizing the GPS location data from my summer
@@ -24,13 +24,13 @@ library. All of my code is available in this
 
 First I'm going to import the necessary Python modules I'll be working with.
 Then I load two location data sets: one is the [original full set]({{ site.url
-}}{{ site.baseurl }}/2014/07/visualizing-summer-travels- part-1-openpaths/
+}}{{ site.baseurl }}/2014/07/visualizing-summer-travels-part-1-openpaths/
 "Visualizing Summer Travels Part 1: OpenPaths") and the other is a [clustered,
 reduced set]({{ site.url }}{{ site.baseurl }}/2014/08/clustering-
 to-reduce-spatial-data-set-size/ "Clustering to Reduce Spatial Data Set Size")
 of location data points. Both of these data sets have been [reverse-
 geocoded]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long- coordinates-to-city-country/
+}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/
 "Reverse Geocode a Set of Lat-Long Coordinates to City + Country") so I have
 lat-long coordinates, city, and country data.
 
@@ -199,13 +199,13 @@ cities.
 
 Then I create a 10 by 6 inch figure and create the scatter plot, using that lon
 and lat columns of my [reduced data set]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set- size/ "Clustering to Reduce
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/ "Clustering to Reduce
 Spatial Data Set Size") as the x and y values, respectively. Next I set x and y
 axis labels, tick mark labels, and the plot's title. Lastly, I iterate through
 my dataframe of most visited cities, creating an annotation on the map for each
 of their points. Note that these are plots of unprojected data - I explain more
 about this in [another post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels- part-6-projecting-spatial-data-python/
+}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/
 "Visualizing Summer Travels Part 6: Projecting Spatial Data in Python").
 
 ```python
@@ -406,7 +406,7 @@ map: Lisbon, Barcelona, Prague, Tuebingen, Athens, and Istanbul.
 Like I mentioned earlier, this is just a simple plot of unprojected data so
 there is significant horizontal distortion and stretching at these latitudes. In
 [another post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels- part-6-projecting-spatial-data-python/
+}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/
 "Visualizing Summer Travels Part 6: Projecting Spatial Data in Python"), I
 explain how to convert point data and basemaps to a projected coordinate system
 in Python. I also demonstrate how to style the map to make it much more
@@ -527,7 +527,7 @@ The plot above shows the data set in blue and highlights the most isolated
 points in red: Barcelona, Hounslow (outside of London), Munich, Prizren, and
 Istanbul. Each point's annotation shows how far it is from its nearest neighbor.
 As mentioned earlier, in [another post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels- part-6-projecting-spatial-data-python/
+}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/
 "Visualizing Summer Travels Part 6: Projecting Spatial Data in Python") I
 explain how to convert point data and basemaps to a projected coordinate system
 in Python, and how to style the map to make it much more beautiful. Like this:

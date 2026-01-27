@@ -36,7 +36,7 @@ Travels"), and reverse-geocoded the coordinates to [add city and country]({{
 site.url }}{{ site.baseurl
 }}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) data.
 Here is a simple Python [matplotlib]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels- part-5-python-matplotlib/ "Visualizing
+}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/ "Visualizing
 Summer Travels Part 5: Python + Matplotlib") scatter plot of all the coordinates
 in the full data set:
 

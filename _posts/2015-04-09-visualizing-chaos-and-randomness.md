@@ -252,7 +252,7 @@ futures may be unknowable with any precision.
 You can [download/cite the paper here]({{ site.url }}{{ site.baseurl
 }}/publications/nonlinear-chaos-fractals-prediction/). For a wider-ranging intro
 to chaos and the logistic map, check out my [previous post]({{ site.url }}{{
-site.baseurl }}/2015/03/chaos-theory-logistic- map/ "Chaos Theory and the
+site.baseurl }}/2015/03/chaos-theory-logistic-map/ "Chaos Theory and the
 Logistic Map"). For more on creating animated 3-D data visualizations in Python,
 check out [this post]({{ site.url }}{{ site.baseurl
 }}/2015/04/animated-3d-plots-python/ "Animated 3-D Plots in Python"). All of the

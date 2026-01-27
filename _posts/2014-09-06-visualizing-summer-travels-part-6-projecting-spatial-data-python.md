@@ -6,7 +6,7 @@ permalink: /2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-py
 ---
 
 _This post is [part of a series]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing- summer-travels/ "Visualizing Summer Travels") on
+}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") on
 visualizing data from my summer travels._
 
 I've previously discussed visualizing the GPS location data from my summer
@@ -74,13 +74,13 @@ is used to convert the shapes into plottable objects. Lastly,
 calculations and analysis.
 
 Then I load two location data sets: one is the [original full set]({{ site.url
-}}{{ site.baseurl }}/2014/07/visualizing-summer-travels- part-1-openpaths/
+}}{{ site.baseurl }}/2014/07/visualizing-summer-travels-part-1-openpaths/
 "Visualizing Summer Travels Part 1: OpenPaths") and the other is a [clustered,
 reduced set]({{ site.url }}{{ site.baseurl }}/2014/08/clustering-
 to-reduce-spatial-data-set-size/ "Clustering to Reduce Spatial Data Set Size")
 of location data points. Both of these data sets have been [reverse-
 geocoded]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long- coordinates-to-city-country/
+}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/
 "Reverse Geocode a Set of Lat-Long Coordinates to City + Country") so I have
 lat-long coordinates, city, and country data. Finally I load a shapefile of
 world country borders as a geopandas GeoDataFrame.
@@ -303,7 +303,7 @@ point data are all projected to preserve relative sizes at European latitudes.
 The countries are shaded different colors indicating if I visited them or not.
 It looks much better than the simple, unprojected plots in the [previous
 post]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-5-python- matplotlib/ "Visualizing
+}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/ "Visualizing
 Summer Travels Part 5: Python + Matplotlib").
 
 ## Plotting the most isolated locations
@@ -397,7 +397,7 @@ nearest neighbors.
 ## Wrap up
 
 In my [previous post]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer- travels-part-5-python-matplotlib/ "Visualizing
+}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/ "Visualizing
 Summer Travels Part 5: Python + Matplotlib"), I created several simple plots of
 my GPS location data that didn't bother with projection. However, the data was
 spatially distorted at these European latitudes. The projected plots of my most

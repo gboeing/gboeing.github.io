@@ -65,7 +65,7 @@ full details and lots of visualizations.
 ## Interactive maps
 
 Here are some brief highlights. This interactive [CartoDB]({{ site.url }}{{
-site.baseurl }}/2014/08/visualizing-summer-travels-with- cartodb/ "Visualizing
+site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/ "Visualizing
 Summer Travels Part 2: CartoDB") map displays my location data set and provides
 city, country, and date/time information if you hover over any point:
 
@@ -74,14 +74,14 @@ I also visualized this spatial data as an interactive map using the
 part-3-leaflet/ "Visualizing Summer Travels Part 3: Leaflet") javascript
 library, and by rolling my own set of web map tiles then rendering them with
 [Tilemill and Mapbox]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer- travels-part-4-mapbox-tilemill/ "Visualizing
+}}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/ "Visualizing
 Summer Travels Part 4: Mapbox + Tilemill").
 
 ## Exploring the data set
 
 Beyond mapping my GPS location points, I also visualized other aspects of this
 data set. This [matplotlib]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer- travels-part-5-python-matplotlib/ "Visualizing
+}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/ "Visualizing
 Summer Travels Part 5: Python + Matplotlib") pie chart breaks out the cities I
 visited, by their share of observations in the data set:
 
@@ -93,7 +93,7 @@ I also calculated the most isolated locations in my data set. These locations
 are spatially isolated from other data points either because I flew in/out of
 them, or because I didn't have cell service to transmit location data anywhere
 else near them. This [matplotlib]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing- summer-travels-part-6-projecting-spatial-data-python/
+}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/
 "Visualizing Summer Travels Part 6: Projecting Spatial Data in Python") image
 plots a projected shapefile and my GPS location data to show these isolated
 clusters:
