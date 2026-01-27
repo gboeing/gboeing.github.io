@@ -22,8 +22,8 @@ The expensive coastal cities' median rents form a red line snaking along the
 western and eastern seaboards. The nation's blue interior has lower rents.
 
 [![Most expensive cities in the US: United States metro areas by 2014 median
-rent]({{ site.url }}{{ site.baseurl }}/files/img/median_rent_msa-
-labels.png)]({{ site.url }}{{ site.baseurl
+rent]({{ site.url }}{{ site.baseurl
+}}/files/img/median_rent_msa-labels.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/median_rent_msa-labels.png)
 
 But when you switch to the percent _change_ in median rent since 2010, the
@@ -53,9 +53,9 @@ until #15. By contrast, here are the U.S. metro areas with the _fastest rising_
 median rents since 2010:
 
 [![Most expensive cities in the United States: the US metro areas with the
-fastest rising rents]({{ site.url }}{{ site.baseurl }}/files/img/greatest-rent-
-increases-2014.png)]({{ site.url }}{{ site.baseurl }}/files/img/greatest-rent-
-increases-2014.png)
+fastest rising rents]({{ site.url }}{{ site.baseurl
+}}/files/img/greatest-rent-increases-2014.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/greatest-rent-increases-2014.png)
 
 This list is largely composed of smaller cities, with plenty of representation
 from [Texas](https://www.latimes.com/nation/la-na-texas-oil-20150303-story.html)
@@ -122,8 +122,8 @@ Detroit.
 
 [![Most expensive cities in the United States: the most populous US metro
 areas and their median rents]({{ site.url }}{{ site.baseurl
-}}/files/img/most-populous-median-rent-2014.png)]({{ site.url }}{{
-site.baseurl }}/files/img/most-populous-median-rent-2014.png)
+}}/files/img/most-populous-median-rent-2014.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/most-populous-median-rent-2014.png)
 
 What is the relationship between city size and median rent? More populous cities
 generally have higher rents, but the relationship is weak and there could be
@@ -131,9 +131,9 @@ many latent factors at play. This scatter plot depicts the 2014 median rent vs
 the (log of) 2014 population of each metro area:
 
 [![U.S. cities (metro areas) with larger populations tend to have slightly
-higher rents]({{ site.url }}{{ site.baseurl }}/files/img/scatter-rent-pop-
-log-2010-14.png)]({{ site.url }}{{ site.baseurl }}/files/img/scatter-rent-pop-
-log-2010-14.png)
+higher rents]({{ site.url }}{{ site.baseurl
+}}/files/img/scatter-rent-pop-log-2010-14.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/scatter-rent-pop-log-2010-14.png)
 
 Rents rise and fall for many reasons. Jobs come and go, local economies boom and
 bust. Fed monetary policy and inflation affect nominal rents. Cities restrict

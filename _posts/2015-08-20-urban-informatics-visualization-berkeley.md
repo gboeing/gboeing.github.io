@@ -43,8 +43,9 @@ and [matplotlib for visualization]({{ site.url }}{{ site.baseurl
 }}/2014/08/visualizing-summer-travels-with-cartodb/) for simple interactive web
 mapping.
 
-[Leaflet]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels-
-part-3-leaflet/) and [MapBox]({{ site.url }}{{ site.baseurl
+[Leaflet]({{ site.url }}{{ site.baseurl
+}}/2014/08/visualizing-summer-travels-part-3-leaflet/) and [MapBox]({{
+site.url }}{{ site.baseurl
 }}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/): more advanced
 web mapping for community engagement, advocacy, and visualizing research
 findings.
@@ -65,8 +66,8 @@ libraries.
 
 Machine learning: including feature engineering and selection, dimensionality
 reduction, modeling, and [clustering]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/) in Python with scipy
-and scikit-learn.
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/) in Python with scipy and
+scikit-learn.
 
 Modeling and visualizing urban [accessibility]({{ site.url }}{{ site.baseurl
 }}/2016/07/visualize-urban-accessibility-walkability/), walkability, [street

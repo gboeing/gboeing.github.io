@@ -19,9 +19,9 @@ divergent outcomes, rendering weather prediction
 beyond a time horizon of about a fortnight.
 
 [![Lorenz system attractor animated GIF created with Python matplotlib scipy
-numpy PIL]({{ site.url }}{{ site.baseurl }}/files/img/animated-lorenz-
-attractor.gif)]({{ site.url }}{{ site.baseurl }}/files/img/animated-lorenz-
-attractor.gif)
+numpy PIL]({{ site.url }}{{ site.baseurl
+}}/files/img/animated-lorenz-attractor.gif)]({{ site.url }}{{ site.baseurl
+}}/files/img/animated-lorenz-attractor.gif)
 
 In 1963, Lorenz developed this simple model of the way air moves around in the
 atmosphere:

@@ -30,9 +30,9 @@ ox.plot_graph(ox.graph_from_place('Modena, Italy'))
 ```
 
 [![OSMnx: Modena Italy networkx street network in Python from
-OpenStreetMap]({{ site.url }}{{ site.baseurl }}/files/img/modena-italy-street-
-network-300x283.png)]({{ site.url }}{{ site.baseurl }}/files/img/modena-italy-
-street-network.png)
+OpenStreetMap]({{ site.url }}{{ site.baseurl
+}}/files/img/modena-italy-street-network-300x283.png)]({{ site.url }}{{
+site.baseurl }}/files/img/modena-italy-street-network.png)
 
 ## Installing OSMnx
 
@@ -127,9 +127,9 @@ _ = ax.axis('off')
 ```
 
 [![OSMnx: Botswana, Zambia, Zimbabwe national borders from OpenStreetMap]({{
-site.url }}{{ site.baseurl }}/files/img/zambia-zimbabwe-botswana-
-borders-264x300.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/zambia-zimbabwe-botswana-borders.png)
+site.url }}{{ site.baseurl
+}}/files/img/zambia-zimbabwe-botswana-borders-264x300.png)]({{ site.url }}{{
+site.baseurl }}/files/img/zambia-zimbabwe-botswana-borders.png)
 
 ### 2. Download and model street networks
 
@@ -177,9 +177,8 @@ ox.plot_graph(G_projected)
 ```
 
 [![OSMnx: San Francisco street network in Python from OpenStreetMap]({{
-site.url }}{{ site.baseurl }}/files/img/sf-street-network-
-bbox-300x183.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/sf-street-network-bbox.png)
+site.url }}{{ site.baseurl }}/files/img/sf-street-network-bbox-300x183.png)]({{
+site.url }}{{ site.baseurl }}/files/img/sf-street-network-bbox.png)
 
 You can get different types of street networks by passing a _network_type_
 argument, including driving, walking, biking networks (and more).
@@ -195,9 +194,9 @@ ox.plot_graph(G)
 ```
 
 [![OSMnx: San Francisco street network in Python from OpenStreetMap]({{
-site.url }}{{ site.baseurl }}/files/img/sf-street-network-
-point-284x300.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/sf-street-network-point.png)
+site.url }}{{ site.baseurl
+}}/files/img/sf-street-network-point-284x300.png)]({{ site.url }}{{
+site.baseurl }}/files/img/sf-street-network-point.png)
 
 You can also specify a distance in cardinal directions around the point, instead
 of along the network.
@@ -231,9 +230,9 @@ ox.plot_graph(G)
 ```
 
 [![OSMnx: San Francisco Mission District street network in Python from
-OpenStreetMap]({{ site.url }}{{ site.baseurl }}/files/img/sf-mission-street-
-network-264x300.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/sf-mission-street-network.png)
+OpenStreetMap]({{ site.url }}{{ site.baseurl
+}}/files/img/sf-mission-street-network-264x300.png)]({{ site.url }}{{
+site.baseurl }}/files/img/sf-mission-street-network.png)
 
 #### 2e) street network from place name
 
@@ -248,9 +247,9 @@ ox.plot_graph(G)
 ```
 
 [![OSMnx: Los Angeles street network in Python from OpenStreetMap]({{
-site.url }}{{ site.baseurl }}/files/img/los-angeles-street-
-network-907x1024.png)]({{ site.url }}{{ site.baseurl }}/files/img/los-angeles-
-street-network.png)
+site.url }}{{ site.baseurl
+}}/files/img/los-angeles-street-network-907x1024.png)]({{ site.url }}{{
+site.baseurl }}/files/img/los-angeles-street-network.png)
 
 You can just as easily request a street network within a borough, county, state,
 or other geographic entity. You can also pass a list of places (such as several
@@ -266,9 +265,9 @@ ox.plot_graph(G)
 ```
 
 [![OSMnx: Silicon Valley street network in Python from OpenStreetMap]({{
-site.url }}{{ site.baseurl }}/files/img/silicon-valley-street-
-network-300x248.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/silicon-valley-street-network.png)
+site.url }}{{ site.baseurl
+}}/files/img/silicon-valley-street-network-300x248.png)]({{ site.url }}{{
+site.baseurl }}/files/img/silicon-valley-street-network.png)
 
 #### 2f) street networks from all around the world
 
@@ -285,9 +284,9 @@ ox.plot_graph(G)
 ```
 
 [![OSMnx: Modena Italy networkx street network in Python from
-OpenStreetMap]({{ site.url }}{{ site.baseurl }}/files/img/modena-italy-street-
-network-300x283.png)]({{ site.url }}{{ site.baseurl }}/files/img/modena-italy-
-street-network.png)
+OpenStreetMap]({{ site.url }}{{ site.baseurl
+}}/files/img/modena-italy-street-network-300x283.png)]({{ site.url }}{{
+site.baseurl }}/files/img/modena-italy-street-network.png)
 
 ```python
 G = ox.graph_from_place('Belgrade, Serbia')
@@ -315,9 +314,9 @@ ox.plot_graph(G)
 ```
 
 [![OSMnx: Tunis Tunisia networkx street network in Python from
-OpenStreetMap]({{ site.url }}{{ site.baseurl }}/files/img/tunis-tunisia-street-
-network-300x282.png)]({{ site.url }}{{ site.baseurl }}/files/img/tunis-tunisia-
-street-network.png)
+OpenStreetMap]({{ site.url }}{{ site.baseurl
+}}/files/img/tunis-tunisia-street-network-300x282.png)]({{ site.url }}{{
+site.baseurl }}/files/img/tunis-tunisia-street-network.png)
 
 ### 3. Correct and simplify network topology
 
@@ -352,8 +351,9 @@ And then it removes them, but faithfully maintains the spatial geometry of the
 street segment between the true intersection nodes:
 
 [![OSMnx: Arizona suburb after simplifying - networkx street network in Python
-from OpenStreetMap]({{ site.url }}{{ site.baseurl }}/files/img/az-simplify-
-strict.png)]({{ site.url }}{{ site.baseurl }}/files/img/az-simplify-strict.png)
+from OpenStreetMap]({{ site.url }}{{ site.baseurl
+}}/files/img/az-simplify-strict.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/az-simplify-strict.png)
 
 Above, all the non-intersection nodes have been removed, all the true
 intersections (junctions of multiple streets) remain in blue, and self-loop
@@ -364,8 +364,8 @@ want to retain these intersections when the incident edges have different OSM
 IDs, use non-strict mode:
 
 [![OSMnx: Arizona suburb after simplifying - networkx street network in Python
-from OpenStreetMap]({{ site.url }}{{ site.baseurl }}/files/img/az-simplify-non-
-strict.png)]({{ site.url }}{{ site.baseurl
+from OpenStreetMap]({{ site.url }}{{ site.baseurl
+}}/files/img/az-simplify-non-strict.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/az-simplify-non-strict.png)
 
 ### 4. Save street networks to disk
@@ -383,8 +383,8 @@ Illustrator:
 
 [![Adobe Illustrator: Piedmont California street network SVG from
 OpenStreetMap]({{ site.url }}{{ site.baseurl
-}}/files/img/piedmont-california-street-network-illustrator-
-svg-1024x614.jpg)]({{ site.url }}{{ site.baseurl
+}}/files/img/piedmont-california-street-network-illustrator-svg-1024x614.jpg)]({{
+site.url }}{{ site.baseurl
 }}/files/img/piedmont-california-street-network-illustrator-svg.jpg)
 
 You can then load any network you saved as GraphML back into OSMnx to calculate
@@ -439,8 +439,9 @@ world:
 
 [![City street network grid orientations, order, disorder, entropy, rose plot,
 polar histogram made with Python, OSMnx, OpenStreetMap, matplotlib.]({{
-site.url }}{{ site.baseurl }}/files/img/city-street-network-polar-histograms-
-alpha-273x300.jpg)]({{ site.url }}{{ site.baseurl
+site.url }}{{ site.baseurl
+}}/files/img/city-street-network-polar-histograms-alpha-273x300.jpg)]({{
+site.url }}{{ site.baseurl
 }}/files/img/city-street-network-polar-histograms-alpha.jpg)
 
 Allan Jacobs famously compared several cities' urban forms through figure-ground
@@ -451,9 +452,9 @@ computationally with OSMnx:
 
 [![OSMnx: Figure-ground diagrams of one square mile of each street network,
 from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
-site.url }}{{ site.baseurl }}/files/img/square-mile-street-
-networks-1024x822.jpg)]({{ site.url }}{{ site.baseurl }}/files/img/square-mile-
-street-networks.jpg)
+site.url }}{{ site.baseurl
+}}/files/img/square-mile-street-networks-1024x822.jpg)]({{ site.url }}{{
+site.baseurl }}/files/img/square-mile-street-networks.jpg)
 
 These figure-ground diagrams are created completely with OSMnx.
 

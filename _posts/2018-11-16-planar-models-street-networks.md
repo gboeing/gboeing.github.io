@@ -63,6 +63,6 @@ map-1024x484.png)
 
 This study develops two new indicators - the Spatial Planarity Ratio and the
 Edge Length Ratio - then measures the extent of nonplanarity in street networks
-around the world [using OSMnx]({{ site.url }}{{ site.baseurl }}/2018/03/osmnx-
-features-roundup/). For more, read [the article]({{ site.url }}{{ site.baseurl
-}}/publications/planarity-street-network-representation/).
+around the world [using OSMnx]({{ site.url }}{{ site.baseurl
+}}/2018/03/osmnx-features-roundup/). For more, read [the article]({{ site.url
+}}{{ site.baseurl }}/publications/planarity-street-network-representation/).

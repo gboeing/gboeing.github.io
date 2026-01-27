@@ -26,9 +26,9 @@ WalkScore for everyone. Finally I calculate and plot the distance from each node
 in the network to the nearest amenity:
 
 [![Berkeley Oakland California street network walking accessibility and
-walkability]({{ site.url }}{{ site.baseurl }}/files/img/accessibility-all-east-
-bay-1024x752.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/accessibility-all-east-bay.png)
+walkability]({{ site.url }}{{ site.baseurl
+}}/files/img/accessibility-all-east-bay-1024x752.png)]({{ site.url }}{{
+site.baseurl }}/files/img/accessibility-all-east-bay.png)
 
 The map shows the walking distance in meters from each network node to the
 nearest restaurant, bar, or school. But, a better indicator of accessibility

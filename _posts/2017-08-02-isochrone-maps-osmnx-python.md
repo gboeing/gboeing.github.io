@@ -15,8 +15,8 @@ These visualizations are particularly useful in transportation planning as they
 reveal what places are accessible within a set of time horizons.
 
 We can create isochrone maps for anywhere in the world automatically with Python
-and its [OSMnx]({{ site.url }}{{ site.baseurl }}/2016/11/osmnx-python-street-
-networks/) package:
+and its [OSMnx]({{ site.url }}{{ site.baseurl
+}}/2016/11/osmnx-python-street-networks/) package:
 
 ![OSMnx map of isochrone isolines in Berkeley California's street network]({{
 site.url }}{{ site.baseurl }}/files/img/osmnx-isochrone-lines-berkeley.png)

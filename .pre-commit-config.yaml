@@ -21,21 +21,23 @@ repos:
     rev: v1.38.0
     hooks:
       - id: yamllint
+        types: [yaml]
         args: [--strict, --config-file=.github/yamllint.yaml]
 
   - repo: local
     hooks:
-      - id: yamllint-frontmatter
-        name: yamllint frontmatter
+      - id: yamllint-markdown-frontmatter
+        name: yamllint markdown frontmatter
         entry: .github/yamllint_markdown_frontmatter.sh
         language: system
-        files: \.md$
+        types: [markdown]
         args: [--strict, --config-file=.github/yamllint.yaml]
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.47.0
     hooks:
       - id: markdownlint
+        types: [markdown]
         args: [--config=.github/markdownlint.yaml]
 
 #  - repo: https://github.com/tcort/markdown-link-check

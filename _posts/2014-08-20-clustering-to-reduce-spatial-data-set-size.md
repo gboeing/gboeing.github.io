@@ -27,17 +27,18 @@ How can we reduce the size of a data set down to a smaller set of spatially
 representative points? Consider a spatial data set with 1,759 latitude-
 longitude coordinates. This manageable data set is not too large to map, but it
 serves as a useful object for this tutorial (for a more complex example
-clustering 1.2 million GPS coordinates, see [this project]({{ site.url }}{{
-site.baseurl }}/2016/06/mapping-everywhere-ever-been/)).
+clustering 1.2 million GPS coordinates, see [this project]({{ site.url
+}}{{site.baseurl }}/2016/06/mapping-everywhere-ever-been/)).
 
 I have discussed this data set in a [series of posts]({{ site.url }}{{
 site.baseurl }}/2014/08/visualizing-summer-travels/ "Visualizing Summer
 Travels"), and reverse-geocoded the coordinates to [add city and country]({{
-site.url }}{{ site.baseurl }}/2014/08/reverse-geocode-a-set-of-lat-long-
-coordinates-to-city-country/) data. Here is a simple Python [matplotlib]({{
-site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels-
-part-5-python-matplotlib/ "Visualizing Summer Travels Part 5: Python +
-Matplotlib") scatter plot of all the coordinates in the full data set:
+site.url }}{{ site.baseurl
+}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) data.
+Here is a simple Python [matplotlib]({{ site.url }}{{ site.baseurl
+}}/2014/08/visualizing-summer-travels- part-5-python-matplotlib/ "Visualizing
+Summer Travels Part 5: Python + Matplotlib") scatter plot of all the coordinates
+in the full data set:
 
 [![DBSCAN clustering of GPS latitude longitude spatial data]({{ site.url }}{{
 site.baseurl }}/files/img/scatter-full-set.png)]({{ site.url }}{{ site.baseurl
@@ -214,8 +215,8 @@ plt.show()
 
 [![DBSCAN clustering of GPS latitude-longitude spatial data]({{ site.url }}{{
 site.baseurl }}/files/img/dbscan-clustering-spatial-gps-lat-long-data.png)]({{
-site.url }}{{ site.baseurl }}/files/img/dbscan-clustering-spatial-gps-
-lat-long-data.png)
+site.url }}{{ site.baseurl
+}}/files/img/dbscan-clustering-spatial-gps-lat-long-data.png)
 
 Looks good! You can see the 138 representative points, in green, approximating
 the spatial distribution of the 1,759 points of the full data set, in black.

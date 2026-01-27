@@ -10,8 +10,8 @@ and spatial analysts to co-author an article, [An Introduction to Software
 Tools, Data, and Services for Geospatial Analysis of Stroke Services]({{
 site.url }}{{ site.baseurl }}/publications/software-data-geospatial-stroke/),
 that has been accepted for publication at _Frontiers in Neurology_ ([download
-free PDF]({{ site.url }}{{ site.baseurl }}/publications/software-data-
-geospatial-stroke/)).
+free PDF]({{ site.url }}{{ site.baseurl
+}}/publications/software-data-geospatial-stroke/)).
 
 [![Hospital catchment basin for stroke services. Spatial analysis in python,
 geopandas, osmnx.]({{ site.url }}{{ site.baseurl

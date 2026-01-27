@@ -28,9 +28,9 @@ topologically simplified such that nodes represent intersections and dead-ends,
 and edges represent the street segments linking them.
 
 [![Street network topology simplification with OSMnx and OpenStreetMap]({{
-site.url }}{{ site.baseurl }}/files/img/osmnx-network-
-simplification-1024x586.png)]({{ site.url }}{{ site.baseurl }}/files/img/osmnx-
-network-simplification.png)
+site.url }}{{ site.baseurl
+}}/files/img/osmnx-network-simplification-1024x586.png)]({{ site.url }}{{
+site.baseurl }}/files/img/osmnx-network-simplification.png)
 
 I attached elevation data to each node from the SRTM and ASTER DEMs, and
 validated those values against the Google Maps Elevation API. Once all the nodes
@@ -38,8 +38,8 @@ had elevations, I calculated each street's grade (rise over run) in every urban
 area. Finally, I calculated several indicators of street network size,
 compactness, connectivity, circuity, clustering, hilliness, block lengths,
 orientation and entropy, and more. See details and findings in [the
-article]({{ site.url }}{{ site.baseurl }}/publications/street-network-models-
-indicators-world/).
+article]({{ site.url }}{{ site.baseurl
+}}/publications/street-network-models-indicators-world/).
 
 [![Relationships between urban street network variables around the world:
 intersection count, street length, population, GDP]({{ site.url }}{{
@@ -69,5 +69,5 @@ All of this project's Python
 have been deposited in open repositories for public reuse. This represents the
 first such comprehensive repository of ready-to-use urban area street network
 models and indicators worldwide. For more details and findings, check out [the
-article]({{ site.url }}{{ site.baseurl }}/publications/street-network-
-models-indicators-world/)!
+article]({{ site.url }}{{ site.baseurl
+}}/publications/street-network-models-indicators-world/)!

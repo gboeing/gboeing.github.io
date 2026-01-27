@@ -10,13 +10,12 @@ _This post part of a series]({{ site.url }}{{ site.baseurl
 visualizing data from my summer travels._
 
 I've previously discussed [my goals]({{ site.url }}{{ site.baseurl
-}}/2014/07/visualizing-summer-travels-part-1-openpaths/) in visualizing GPS
-data from my summer travels and explored visualizing the data set [with
-CartoDB]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-with-cartodb/) and [with Leaflet]({{
-site.url }}{{ site.baseurl }}/2014/08/visualizing-
-summer-travels-part-3-leaflet/). The full OpenPaths location data from my summer
-travels is
+}}/2014/07/visualizing-summer-travels-part-1-openpaths/) in visualizing GPS data
+from my summer travels and explored visualizing the data set [with CartoDB]({{
+site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/)
+and [with Leaflet]({{ site.url }}{{ site.baseurl
+}}/2014/08/visualizing-summer-travels-part-3-leaflet/). The full OpenPaths
+location data from my summer travels is
 [available here](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
 and I discussed how I [reverse-geocoded it here]({{ site.url }}{{ site.baseurl
 }}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/).
@@ -60,14 +59,16 @@ marker-allow-overlap:true;
 }
 ```
 
-[![tilemill-screen]({{ site.url }}{{ site.baseurl }}/files/img/tilemill-
-screen.jpg)]({{ site.url }}{{ site.baseurl }}/files/img/tilemill-screen.jpg)
+[![tilemill-screen]({{ site.url }}{{ site.baseurl
+}}/files/img/tilemill-screen.jpg)]({{ site.url }}{{ site.baseurl
+}}/files/img/tilemill-screen.jpg)
 
 Click the templates button in the bottom-left. Here you can enter text and data
 fields to display as a pop up:
 
-[![tilemill-screen2]({{ site.url }}{{ site.baseurl }}/files/img/tilemill-
-screen2.jpg)]({{ site.url }}{{ site.baseurl }}/files/img/tilemill-screen2.jpg)
+[![tilemill-screen2]({{ site.url }}{{ site.baseurl
+}}/files/img/tilemill-screen2.jpg)]({{ site.url }}{{ site.baseurl
+}}/files/img/tilemill-screen2.jpg)
 
 ## Export to Mapbox
 
@@ -131,5 +132,5 @@ will appear like the one at the top of this page. It's zoomable and clickable â€
 each data point has a popup with time, date, city, and country information. You
 can compare this visualization to similar ones using [CartoDB]({{ site.url
 }}{{ site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/) or
-[Leaflet]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-
-travels-part-3-leaflet/).
+[Leaflet]({{ site.url }}{{ site.baseurl
+}}/2014/08/visualizing-summer-travels-part-3-leaflet/).

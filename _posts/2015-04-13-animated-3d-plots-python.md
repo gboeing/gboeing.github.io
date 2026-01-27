@@ -9,8 +9,8 @@ _[Download/cite the paper here]({{ site.url }}{{ site.baseurl
 }}/publications/nonlinear-chaos-fractals-prediction/)!_
 
 In a previous post, I discussed [chaos]({{ site.url }}{{ site.baseurl
-}}/2015/03/chaos-theory-logistic-map/), fractals, and strange attractors. I
-also showed how to [visualize]({{ site.url }}{{ site.baseurl
+}}/2015/03/chaos-theory-logistic-map/), fractals, and strange attractors. I also
+showed how to [visualize]({{ site.url }}{{ site.baseurl
 }}/2015/04/visualizing-chaos-and-randomness/ "Visualizing Chaos and Randomness")
 them with static 3-D plots. Here, I'll demonstrate how to create these animated
 visualizations using Python and matplotlib. All of my source code is available
@@ -19,8 +19,9 @@ produce animated data visualizations like this, in pure Python:
 
 [![Animated 3-D Poincare plot of the logistic map's chaotic regime - this is
 time series data embedded in three dimensional state space]({{ site.url }}{{
-site.baseurl }}/files/img/logistic-3d-poincare-plot-chaotic-regime-
-animated.gif)]({{ site.url }}{{ site.baseurl
+site.baseurl
+}}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)]({{
+site.url }}{{ site.baseurl
 }}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 ## Getting Started
@@ -34,8 +35,8 @@ left and right, respectively):
 
 [![Chaos vs random noise in 2D and 3D Poincare plots - the strange attractor
 is revealed]({{ site.url }}{{ site.baseurl
-}}/files/img/poincare-plots-chaos-vs-random.png)]({{ site.url }}{{
-site.baseurl }}/files/img/poincare-plots-chaos-vs-random.png)
+}}/files/img/poincare-plots-chaos-vs-random.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/poincare-plots-chaos-vs-random.png)
 
 I noted that if you were to look straight down at the x-y plane of the 3-D plot
 on the right, you'd see an image in perspective identical to the 2-D plot on the
@@ -282,8 +283,9 @@ IPdisplay.Image(url=file_path_name)
 
 [![Animated 3-D Poincare plot of the logistic map's chaotic regime - this is
 time series data embedded in three dimensional state space]({{ site.url }}{{
-site.baseurl }}/files/img/logistic-3d-poincare-plot-chaotic-regime-
-animated.gif)]({{ site.url }}{{ site.baseurl
+site.baseurl
+}}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)]({{
+site.url }}{{ site.baseurl
 }}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 In this animated plot, we have 50 different time series, one for each growth

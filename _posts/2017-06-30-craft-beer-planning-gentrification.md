@@ -28,9 +28,9 @@ neglected historic neighborhoods.
 
 [![Locations of craft breweries and brew pubs across the United States.
 California, Colorado, Oregon, Washington, Michigan have the most craft beer
-locations.]({{ site.url }}{{ site.baseurl }}/files/img/beer-locations-
-map-1024x742.png)]({{ site.url }}{{ site.baseurl }}/files/img/beer-locations-
-map.png)
+locations.]({{ site.url }}{{ site.baseurl
+}}/files/img/beer-locations-map-1024x742.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/beer-locations-map.png)
 
 Do breweries instigate revitalization, gentrification, or displacement? To date,
 there hasn't been clear evidence of the relationship (or even the causal
@@ -45,9 +45,9 @@ followed by other western states:
 
 [![Locations of craft breweries and brew pubs across the United States.
 California, Colorado, Oregon, Washington, Michigan have the most craft beer
-locations.]({{ site.url }}{{ site.baseurl }}/files/img/states-beer-locations-
-big-1024x683.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/states-beer-locations-big.png)
+locations.]({{ site.url }}{{ site.baseurl
+}}/files/img/states-beer-locations-big-1024x683.png)]({{ site.url }}{{
+site.baseurl }}/files/img/states-beer-locations-big.png)
 
 We can also break these locations out by type—that is, breweries versus brew
 pubs:

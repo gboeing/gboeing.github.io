@@ -21,8 +21,8 @@ as an IPython notebook. You can re-purpose it for your own inbox - just
 archive then run my code.
 
 [![Visualizing Gmail inbox email traffic volume by day with Python, pandas,
-and matplotlib]({{ site.url }}{{ site.baseurl }}/files/img/gmail-traffic-
-day-1024x341.png)]({{ site.url }}{{ site.baseurl
+and matplotlib]({{ site.url }}{{ site.baseurl
+}}/files/img/gmail-traffic-day-1024x341.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/gmail-traffic-day.png)
 
 First I loaded my Gmail archive, which contained 164,959 messages. I filtered
@@ -37,8 +37,8 @@ at the expense of traditional email. To make these broader trends clearer, I
 aggregated the data by month and visualized volume:
 
 [![Visualizing Gmail inbox email traffic volume by month with Python, pandas,
-and matplotlib]({{ site.url }}{{ site.baseurl }}/files/img/gmail-traffic-
-month-1-1024x341.png)]({{ site.url }}{{ site.baseurl
+and matplotlib]({{ site.url }}{{ site.baseurl
+}}/files/img/gmail-traffic-month-1-1024x341.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/gmail-traffic-month-1.png)
 
 Next I grouped the data by day of the week and calculated averages. Here's the

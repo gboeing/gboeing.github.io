@@ -10,8 +10,8 @@ Compendium of Papers. Washington, DC.
 
 Download PDF from [TRB](https://trid.trb.org/View/1495502). Note: an updated
 version of this paper was subsequently published as a [book chapter]({{
-site.url }}{{ site.baseurl }}/publications/morphology-circuity-street-
-networks/).
+site.url }}{{ site.baseurl
+}}/publications/morphology-circuity-street-networks/).
 
 ## Abstract
 

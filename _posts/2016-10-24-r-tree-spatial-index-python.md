@@ -8,10 +8,10 @@ permalink: /2016/10/r-tree-spatial-index-python/
 ![r-tree spatial index with python geopandas: Thumbnail of Walnut Creek,
 California city boundary and street intersections inside and outside city
 limits]({{ site.url }}{{ site.baseurl
-}}/files/img/walnut-creek-boundary-intersections-inside-outside-
-thumb-150x150.png) _Check out the [journal article]({{ site.url }}{{
-site.baseurl }}/publications/osmnx-complex-street-networks/) about OSMnx, which
-implements this technique._
+}}/files/img/walnut-creek-boundary-intersections-inside-outside-thumb-150x150.png)
+_Check out the [journal article]({{ site.url }}{{ site.baseurl
+}}/publications/osmnx-complex-street-networks/) about OSMnx, which implements
+this technique._
 
 A spatial index such as R-tree can drastically speed up GIS operations like
 intersections and joins. Spatial indices are key features of spatial databases
@@ -62,9 +62,9 @@ intersections in the vicinity of this city. Some of these points are within the
 city's borders, but others are outside of them:
 
 [![Walnut Creek, California city boundary and street intersections]({{
-site.url }}{{ site.baseurl }}/files/img/walnut-creek-boundary-
-intersections.png)]({{ site.url }}{{ site.baseurl }}/files/img/walnut-creek-
-boundary-intersections.png)
+site.url }}{{ site.baseurl
+}}/files/img/walnut-creek-boundary-intersections.png)]({{ site.url }}{{
+site.baseurl }}/files/img/walnut-creek-boundary-intersections.png)
 
 We can use geopandas's R-tree spatial index to find which street intersections
 lie within the boundaries of the city:
@@ -86,8 +86,9 @@ intersect the _possible_ matches with the polygon itself:
 
 [![r-tree spatial index with python geopandas: Walnut Creek, California city
 boundary and street intersections inside and outside city limits]({{ site.url
-}}{{ site.baseurl }}/files/img/walnut-creek-boundary-intersections-inside-
-outside.png)]({{ site.url }}{{ site.baseurl
+}}{{ site.baseurl
+}}/files/img/walnut-creek-boundary-intersections-inside-outside.png)]({{
+site.url }}{{ site.baseurl
 }}/files/img/walnut-creek-boundary-intersections-inside-outside.png)
 
 Here we can see all of the street intersections within the city of Walnut Creek
@@ -110,9 +111,9 @@ polygon representing the borders of the city of Los Angeles, and a GeoDataFrame
 of approximately one million street intersections in and around LA:
 
 [![Los Angeles, California city boundary and street intersections]({{
-site.url }}{{ site.baseurl }}/files/img/los-angeles-boundary-
-intersections.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/los-angeles-boundary-intersections.png)
+site.url }}{{ site.baseurl
+}}/files/img/los-angeles-boundary-intersections.png)]({{ site.url }}{{
+site.baseurl }}/files/img/los-angeles-boundary-intersections.png)
 
 We want to find which street intersections are within LA's city boundary. Notice
 that our polygon and points have the same minimum bounding boxes, so an R-tree
@@ -145,9 +146,10 @@ blue, and all those outside of it in red:
 
 [![r-tree spatial index with python geopandas: Los Angeles, California city
 boundary and street intersections inside and outside city limits]({{ site.url
-}}{{ site.baseurl }}/files/img/los-angeles-boundary-intersections-inside-
-outside.png)]({{ site.url }}{{ site.baseurl }}/files/img/los-angeles-boundary-
-intersections-inside-outside.png)
+}}{{ site.baseurl
+}}/files/img/los-angeles-boundary-intersections-inside-outside.png)]({{
+site.url }}{{ site.baseurl
+}}/files/img/los-angeles-boundary-intersections-inside-outside.png)
 
 ## Conclusion: R-trees and Python
 

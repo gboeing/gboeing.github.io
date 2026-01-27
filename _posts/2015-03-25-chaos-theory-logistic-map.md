@@ -19,10 +19,10 @@ whole. _Nonlinear_ means that due to feedback or multiplicative effects between
 the components, the whole becomes something greater than just adding up the
 individual parts. Lastly, _dynamical_ means the system changes over time based
 on its current state. In the following piece ([adapted from this article]({{
-site.url }}{{ site.baseurl }}/publications/nonlinear-chaos-fractals-
-prediction/)), I break down some of this jargon, visualize interesting
-characteristics of chaos, and discuss its implications for knowledge and
-prediction.
+site.url }}{{ site.baseurl
+}}/publications/nonlinear-chaos-fractals-prediction/)), I break down some of
+this jargon, visualize interesting characteristics of chaos, and discuss its
+implications for knowledge and prediction.
 
 Chaotic systems are a simple sub-type of nonlinear dynamical systems. They may
 contain very few interacting parts and these may follow very simple rules, but
@@ -30,9 +30,9 @@ these systems all have a very sensitive dependence on their initial conditions.
 Despite their deterministic simplicity, over time these systems can produce
 totally unpredictable and wildly divergent (aka, chaotic) behavior. Edward
 Lorenz, the father of chaos theory, [described]({{ site.url }}{{ site.baseurl
-}}/publications/nonlinear-chaos-fractals-prediction/) chaos as "when the
-present determines the future, but the approximate present does not
-approximately determine the future."
+}}/publications/nonlinear-chaos-fractals-prediction/) chaos as "when the present
+determines the future, but the approximate present does not approximately
+determine the future."
 
 ## The Logistic Map
 
@@ -61,14 +61,14 @@ As simple as this equation is, it produces chaos at certain growth rate
 parameters. I'll explore this below. This demo uses the Python
 [pynamical](https://github.com/gboeing/pynamical) package and all my code is in
 this [GitHub repo](https://github.com/gboeing/pynamical) (see [article for
-more]({{ site.url }}{{ site.baseurl }}/publications/nonlinear-chaos-fractals-
-prediction/) on this). First, I'll run the logistic model for 20 time steps
-(I'll henceforth call these recursive iterations of the equation _generations_)
-for growth rate parameters of 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, and 3.5. Here are
-the values we get:
+more]({{ site.url }}{{ site.baseurl
+}}/publications/nonlinear-chaos-fractals-prediction/) on this). First, I'll run
+the logistic model for 20 time steps (I'll henceforth call these recursive
+iterations of the equation _generations_) for growth rate parameters of 0.5,
+1.0, 1.5, 2.0, 2.5, 3.0, and 3.5. Here are the values we get:
 
-[![logistic-table]({{ site.url }}{{ site.baseurl }}/files/img/logistic-
-table-271x300.jpg)]({{ site.url }}{{ site.baseurl
+[![logistic-table]({{ site.url }}{{ site.baseurl
+}}/files/img/logistic-table-271x300.jpg)]({{ site.url }}{{ site.baseurl
 }}/files/img/logistic-table.jpg)
 
 The columns represent growth rates and the rows represent generations. The model
@@ -148,8 +148,8 @@ So, why is this called a bifurcation diagram? Let's zoom into the growth rates
 between 2.8 and 4.0 to see what's happening:
 
 [![Logistic map bifurcation diagram showing the period-doubling path to
-chaos]({{ site.url }}{{ site.baseurl }}/files/img/logistic-bifurcation-
-med1.png)]({{ site.url }}{{ site.baseurl
+chaos]({{ site.url }}{{ site.baseurl
+}}/files/img/logistic-bifurcation-med1.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/logistic-bifurcation-med1.png)
 
 At the vertical slice above growth rate 3.0, the possible population values fork
@@ -230,8 +230,8 @@ generation's value:
 
 [![Poincaré plots for fixed-point and limit-cycle attractors]({{ site.url
 }}{{ site.baseurl }}/files/img/poincare-plot-fixed-limit-attractors.png)]({{
-site.url }}{{ site.baseurl }}/files/img/poincare-plot-fixed-
-limit-attractors.png)
+site.url }}{{ site.baseurl
+}}/files/img/poincare-plot-fixed-limit-attractors.png)
 
 The phase diagram above on the left shows that the logistic map homes in on a
 fixed-point attractor at 0.655 (on both axes) when the growth rate parameter is
@@ -244,9 +244,8 @@ diagrams from earlier).
 Here's what happens when these period-doubling bifurcations lead to chaos:
 
 [![Poincaré plots of the logistic map, revealing deterministic chaos]({{
-site.url }}{{ site.baseurl }}/files/img/poincare-plots-logistic-
-chaos1.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/poincare-plots-logistic-chaos1.png)
+site.url }}{{ site.baseurl }}/files/img/poincare-plots-logistic-chaos1.png)]({{
+site.url }}{{ site.baseurl }}/files/img/poincare-plots-logistic-chaos1.png)
 
 The plot on the left depicts a parabola formed by a growth rate parameter of
 3.9. The plot on the right depicts 50 different growth rate parameters between
@@ -286,8 +285,8 @@ diagrams instead of line charts:
 
 [![Chaos vs random noise in 2D and 3D Poincare plots - the strange attractor
 is revealed]({{ site.url }}{{ site.baseurl
-}}/files/img/poincare-plots-chaos-vs-random.png)]({{ site.url }}{{
-site.baseurl }}/files/img/poincare-plots-chaos-vs-random.png)
+}}/files/img/poincare-plots-chaos-vs-random.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/poincare-plots-chaos-vs-random.png)
 
 Now we can see our chaotic system (in red, above) constrained by its strange
 attractor. In contrast, the random data (in blue, above) just looks like noise.
@@ -302,8 +301,9 @@ parabolas we saw earlier:
 
 [![Animated 3-D Poincare plot of the logistic map's chaotic regime - this is
 time series data embedded in three dimensional state space]({{ site.url }}{{
-site.baseurl }}/files/img/logistic-3d-poincare-plot-chaotic-regime-
-animated.gif)]({{ site.url }}{{ site.baseurl
+site.baseurl
+}}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)]({{
+site.url }}{{ site.baseurl
 }}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 In [three dimensions]({{ site.url }}{{ site.baseurl
@@ -393,9 +393,9 @@ systems have the ability to surprise through novelty and emergence. But that is
 a tale for another day.
 
 You can [download/cite the paper]({{ site.url }}{{ site.baseurl
-}}/publications/nonlinear-chaos-fractals-prediction/) this post is adapted
-from. I delve into 2-D, 3-D, and animated phase diagrams in greater detail in
-this [post]({{ site.url }}{{ site.baseurl
+}}/publications/nonlinear-chaos-fractals-prediction/) this post is adapted from.
+I delve into 2-D, 3-D, and animated phase diagrams in greater detail in this
+[post]({{ site.url }}{{ site.baseurl
 }}/2015/04/visualizing-chaos-and-randomness/ "Visualizing Chaos and
 Randomness"), and I explain how to create animated 3-D data visualizations in
 Python in [this post]({{ site.url }}{{ site.baseurl

@@ -6,9 +6,10 @@ permalink: /2019/11/big-data-urban-morphology/
 ---
 
 My new article "[Spatial Information and the Legibility of Urban Form: Big Data
-in Urban Morphology]({{ site.url }}{{ site.baseurl }}/publications/spatial-
-information-urban-morphology/)" has been published in the _International Journal
-of Information Management_ (download [free PDF]({{ site.url }}{{ site.baseurl
+in Urban Morphology]({{ site.url }}{{ site.baseurl
+}}/publications/spatial-information-urban-morphology/)" has been published in
+the _International Journal of Information Management_ (download [free PDF]({{
+site.url }}{{ site.baseurl
 }}/publications/spatial-information-urban-morphology/)). It builds on recent
 work by Crooks et al, presenting workflows to integrate data-driven and
 narrative approaches to urban morphology in today's era of ubiquitous urban big
@@ -19,9 +20,9 @@ morphology, focusing on transportation infrastructure via [OSMnx]({{ site.url
 
 [![OSMnx: Figure-ground diagrams of one square mile of each street network,
 from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
-site.url }}{{ site.baseurl }}/files/img/square-mile-street-
-networks-1024x822.jpg)]({{ site.url }}{{ site.baseurl }}/files/img/square-mile-
-street-networks.jpg)
+site.url }}{{ site.baseurl
+}}/files/img/square-mile-street-networks-1024x822.jpg)]({{ site.url }}{{
+site.baseurl }}/files/img/square-mile-street-networks.jpg)
 
 Above, we see one square mile [figure-ground diagrams]({{ site.url }}{{
 site.baseurl }}/2017/03/urban-form-figure-ground/) from 12 cities around the
@@ -35,8 +36,8 @@ American urbanization in the latter half of the 20th century.
 
 In stark contrast, Rome has a more fine-grained, complex, organic form that
 evolved over millennia of self-organization and urban planning. Representing
-each of these street networks here at the same scale—one square mile—it is
-easy to compare the qualitative urban patterns in these different cities to one
+each of these street networks here at the same scale—one square mile—it is easy
+to compare the qualitative urban patterns in these different cities to one
 another. Contrast the geometric order of the 19th century orthogonal grid in San
 Francisco and the functionalist simplifications of 20th century Irvine to the
 messy, complex, lively mesh of pedestrian paths, passageways, and alleys
@@ -89,15 +90,15 @@ States, Europe, North Africa, the Arabian Peninsula, and East Asia. Yet street
 network patterns also vary greatly within cities: Portland's suburban east and
 west sides look different than its downtown, and Sacramento's compact, grid-like
 downtown looks different than its residential suburbs—a [finding true]({{
-site.url }}{{ site.baseurl }}/publications/multiscale-analysis-
-street-networks/) of many American cities.
+site.url }}{{ site.baseurl }}/publications/multiscale-analysis-street-networks/)
+of many American cities.
 
 [![Figure-ground map of building footprints and street network in New York,
 San Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
 Python with OSMnx]({{ site.url }}{{ site.baseurl
 }}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)]({{
-site.url }}{{ site.baseurl }}/files/img/bldg-footprints-
-ny-sf-monrovia-port-au-prince.png)
+site.url }}{{ site.baseurl
+}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince.png)
 
 In the image above, we use OSMnx to visualize street networks along with
 building footprints. At the top-left, we see the densely built form of Midtown
@@ -120,9 +121,9 @@ median area of just 34 square meters.
 [![Figure-ground diagrams of urban form and building footprints in London,
 Paris, Venice, and Brasilia depict modernism's inversion of traditional spatial
 order]({{ site.url }}{{ site.baseurl
-}}/files/img/square-mile-urban-form-venice-london-paris-
-brasilia-963x1024.jpg)]({{ site.url }}{{ site.baseurl }}/files/img/square-mile-
-urban-form-venice-london-paris-brasilia.jpg)
+}}/files/img/square-mile-urban-form-venice-london-paris-brasilia-963x1024.jpg)]({{
+site.url }}{{ site.baseurl
+}}/files/img/square-mile-urban-form-venice-london-paris-brasilia.jpg)
 
 Visualizing spatial information can also reveal the state assertion of power and
 modernism's inversion of traditional [urban spatial order]({{ site.url }}{{
@@ -149,17 +150,17 @@ boroughs, Manhattan, Brooklyn, Queens, The Bronx, Staten Island]({{ site.url
 site.url }}{{ site.baseurl }}/files/img/street-orientation-new-york.jpg)
 
 The [rose diagrams]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban-street-network-orientation/) above offer another perspective
-on visualizing this structural ordering of the city, in this case New York City.
+}}/2019/09/urban-street-network-orientation/) above offer another perspective on
+visualizing this structural ordering of the city, in this case New York City.
 Each visualizes the orientation (compass bearing) of the borough's street
 segments, with bins representing 10-degrees around the compass and bar lengths
 representing relative frequency (for complete methodological details and
 theoretical development [see here]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban-street-network-orientation/)). For example, in Manhattan's
-rose diagram we can see the spatial order produced by its dominant orthogonal
-grid as its street bearings are primarily captured in four bins, offset from
-true North. The other boroughs have higher entropy street orientations, not
-adhering as strictly to the ordering logic of a single grid.
+}}/2019/09/urban-street-network-orientation/)). For example, in Manhattan's rose
+diagram we can see the spatial order produced by its dominant orthogonal grid as
+its street bearings are primarily captured in four bins, offset from true North.
+The other boroughs have higher entropy street orientations, not adhering as
+strictly to the ordering logic of a single grid.
 
 In the image below, we see rose diagrams of 25 cities (municipalities) around
 the world. This study scale aggregates heterogeneous neighborhoods into a single

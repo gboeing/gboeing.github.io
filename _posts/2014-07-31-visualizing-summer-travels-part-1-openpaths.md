@@ -9,12 +9,12 @@ _This post is [part of a series]({{ site.url }}{{ site.baseurl
 }}/2014/08/visualizing-summer-travels/) on visualizing data from my summer
 travels._
 
-Oscar Levant once said that "happiness isn't something you experience;
-it's something you remember." We humans have a way of constructing and
-reconstructing experiences and memories through the methods by which we recall
-them. The endlessly repeated anecdote from your vacation in Italy eventually
-becomes emblematic of the larger trip. The photograph on the wall from your
-wedding day becomes a synecdoche for the entire event.
+Oscar Levant once said that "happiness isn't something you experience; it's
+something you remember." We humans have a way of constructing and reconstructing
+experiences and memories through the methods by which we recall them. The
+endlessly repeated anecdote from your vacation in Italy eventually becomes
+emblematic of the larger trip. The photograph on the wall from your wedding day
+becomes a synecdoche for the entire event.
 
 I spent the past two months in Europe and documented my travels through a set of
 photographs which have become emblematic, for me, of packages of experiences

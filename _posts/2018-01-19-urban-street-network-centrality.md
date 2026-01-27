@@ -20,8 +20,8 @@ For example, here is the node closeness centrality for Piedmont, California:
 
 [![Urban street network graph node closeness and betweenness centrality]({{
 site.url }}{{ site.baseurl
-}}/files/img/urban-street-network-graph-node-closeness-
-centrality-1024x666.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/urban-street-network-graph-node-closeness-centrality-1024x666.png)]({{
+site.url }}{{ site.baseurl
 }}/files/img/urban-street-network-graph-node-closeness-centrality.png)
 
 The nodes are colored by their relative centrality, from lowest in dark purple
@@ -37,8 +37,8 @@ street network:
 
 [![Urban street network graph edge closeness and betweenness centrality]({{
 site.url }}{{ site.baseurl
-}}/files/img/urban-street-network-graph-edge-closeness-
-centrality-1024x666.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/urban-street-network-graph-edge-closeness-centrality-1024x666.png)]({{
+site.url }}{{ site.baseurl
 }}/files/img/urban-street-network-graph-edge-closeness-centrality.png)
 
 The edges are now colored by their centrality, from lowest in dark purple to
@@ -47,6 +47,7 @@ different variables (such as number of amenities or streetscape quality), and we
 can just as easily calculate and visualize betweenness centrality and other
 measures. For more info about OSMnx check out this [journal article]({{
 site.url }}{{ site.baseurl }}/publications/osmnx-complex-street-networks/), this
-[blog post]({{ site.url }}{{ site.baseurl }}/2016/11/osmnx-python-street-
-networks/), or its [GitHub repo](https://github.com/gboeing/osmnx) for
-installation instructions and documentation.
+[blog post]({{ site.url }}{{ site.baseurl
+}}/2016/11/osmnx-python-street-networks/), or its
+[GitHub repo](https://github.com/gboeing/osmnx) for installation instructions
+and documentation.

@@ -51,11 +51,12 @@ conda config --prepend channels conda-forge
 
 This adds the conda-forge channel and then updates conda to the latest version.
 Now let's install a couple of new packages into an isolated conda environment.
-The first is [OSMnx]({{ site.url }}{{ site.baseurl }}/2016/11/osmnx-python-
-street-networks/), a package to download, analyze, and [visualize]({{ site.url
-}}{{ site.baseurl }}/2017/01/square-mile-street-network-visualization/) street
-networks from OpenStreetMap. The second is jupyterlab, which lets us interact
-with Python code in handy Jupyter notebooks. Run the command:
+The first is [OSMnx]({{ site.url }}{{ site.baseurl
+}}/2016/11/osmnx-python-street-networks/), a package to download, analyze, and
+[visualize]({{ site.url }}{{ site.baseurl
+}}/2017/01/square-mile-street-network-visualization/) street networks from
+OpenStreetMap. The second is jupyterlab, which lets us interact with Python code
+in handy Jupyter notebooks. Run the command:
 
 ```bash
 conda create -n ox --strict-channel-priority osmnx jupyterlab

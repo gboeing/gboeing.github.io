@@ -13,8 +13,8 @@ it up: "Counting is hard." Hear me out... it really is!
 [![Street network graph simplification of complex intersections, nonplanarity,
 and curve digitization from OpenStreetMap data]({{ site.url }}{{ site.baseurl
 }}/files/img/network- simplification-complex- intersections-1024x652.jpeg)]({{
-site.url }}{{ site.baseurl }}/files/img/network-
-simplification-complex-intersections.jpeg)
+site.url }}{{ site.baseurl
+}}/files/img/network-simplification-complex-intersections.jpeg)
 
 Most real-world objects belong to fuzzy categories, resulting in subjective
 decisions about what to include or exclude from counts. Yet this complexity is
@@ -45,9 +45,9 @@ world. This bias's extreme heterogeneity particularly hinders comparative urban
 analytics.
 
 [![Street network topology simplification with OSMnx and OpenStreetMap]({{
-site.url }}{{ site.baseurl }}/files/img/osmnx-network-
-simplification-1024x586.png)]({{ site.url }}{{ site.baseurl }}/files/img/osmnx-
-network-simplification.png)
+site.url }}{{ site.baseurl
+}}/files/img/osmnx-network-simplification-1024x586.png)]({{ site.url }}{{
+site.baseurl }}/files/img/osmnx-network-simplification.png)
 
 Mitigating these 3 problems is a project I've been iteratively refining for the
 past decade. It was a central focus of my dissertation and a key motivation for

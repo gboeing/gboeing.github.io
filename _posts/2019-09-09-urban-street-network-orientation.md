@@ -17,9 +17,10 @@ modeling and visualization:
 
 [![City street network grid orientations, order, disorder, entropy, rose plot,
 polar histogram made with Python, OSMnx, OpenStreetMap, matplotlib.]({{
-site.url }}{{ site.baseurl }}/files/img/city-street-network-polar-histograms-
-alpha-933x1024.jpg)]({{ site.url }}{{ site.baseurl }}/files/img/city-street-
-network-polar-histograms-alpha.jpg)
+site.url }}{{ site.baseurl
+}}/files/img/city-street-network-polar-histograms-alpha-933x1024.jpg)]({{
+site.url }}{{ site.baseurl
+}}/files/img/city-street-network-polar-histograms-alpha.jpg)
 
 So, who's got a grid and who doesn't? Each of the cities above is represented by
 a polar histogram (aka rose diagram) depicting how its streets orient. Each
@@ -31,9 +32,10 @@ re-sorted from most-ordered/gridded city (Chicago) to most-disordered
 
 [![City street network grid orientations, order, disorder, entropy, rose plot,
 polar histogram made with Python, OSMnx, OpenStreetMap, matplotlib.]({{
-site.url }}{{ site.baseurl }}/files/img/city-street-network-polar-histograms-
-entropy-933x1024.jpg)]({{ site.url }}{{ site.baseurl }}/files/img/city-street-
-network-polar-histograms-entropy.jpg)
+site.url }}{{ site.baseurl
+}}/files/img/city-street-network-polar-histograms-entropy-933x1024.jpg)]({{
+site.url }}{{ site.baseurl
+}}/files/img/city-street-network-polar-histograms-entropy.jpg)
 
 Note that these are cities proper (municipalities), not wider metro areas or
 urban agglomerations. Some cities, like Seattle, Denver, and Minneapolis, have
@@ -48,8 +50,8 @@ polar histogram:
 network, bearing, orientation from OpenStreetMap mapped with OSMnx and
 Python]({{ site.url }}{{ site.baseurl
 }}/files/img/manhattan-boston-street-network-orientation-1024x678.jpg)]({{
-site.url }}{{ site.baseurl }}/files/img/manhattan-
-boston-street-network-orientation.jpg)
+site.url }}{{ site.baseurl
+}}/files/img/manhattan-boston-street-network-orientation.jpg)
 
 Unlike most American cities that have one or two primary street grids organizing
 city circulation, Boston's streets are more evenly distributed in every

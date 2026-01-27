@@ -20,9 +20,9 @@ time, and routing.
 
 [![OSMnx: Figure-ground diagrams of one square mile of each street network,
 from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
-site.url }}{{ site.baseurl }}/files/img/square-mile-street-
-networks-1024x822.jpg)]({{ site.url }}{{ site.baseurl }}/files/img/square-mile-
-street-networks.jpg)
+site.url }}{{ site.baseurl
+}}/files/img/square-mile-street-networks-1024x822.jpg)]({{ site.url }}{{
+site.baseurl }}/files/img/square-mile-street-networks.jpg)
 
 This has now been a labor of love for me for about 9 years. Wow. I initially
 developed this package to enable the empirical research for my dissertation.

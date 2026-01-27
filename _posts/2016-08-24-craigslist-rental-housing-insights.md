@@ -46,8 +46,8 @@ geolocated Craigslist rental listings in the contiguous U.S.:
 
 ![Map of 1.5 million Craigslist rental listings in the contiguous U.S., divided
 into quintiles by each listing's rent per square foot]({{ site.url }}{{
-site.baseurl }}/files/img/01-craigslist-rental-housing-listings-us-
-map-1024x677.jpg)
+site.baseurl
+}}/files/img/01-craigslist-rental-housing-listings-us-map-1024x677.jpg)
 
 Craigslist conforms to our geographic expectations of the U.S. housing market:
 large cities on both coasts have high rents, particularly through the Boston-
@@ -66,8 +66,8 @@ of any Craigslist region:
 ![The most expensive Craigslist regions by median rent per square foot: New
 York, Boston, Miami, San Francisco Bay Area, Los Angeles, Chicago, Philadelphia,
 Seattle, Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta]({{
-site.url }}{{ site.baseurl }}/files/img/02a-craigslist-most-expensive-cities-
-rent.png)
+site.url }}{{ site.baseurl
+}}/files/img/02a-craigslist-most-expensive-cities-rent.png)
 
 By _region_ I just mean Craigslist subdomain, like "Boston" in
 <https://boston.craigslist.org>. Overall, New York, North Dakota, San Francisco,
@@ -79,8 +79,8 @@ elsewhere in the Sunbelt (plus Detroit) are much cheaper:
 ![The most most populous Craigslist cities, by median rent per square foot: New
 York, Boston, Miami, San Francisco Bay Area, Los Angeles, Chicago, Philadelphia,
 Seattle, Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta]({{
-site.url }}{{ site.baseurl }}/files/img/02b-craigslist-most-populous-cities-
-rent.png)
+site.url }}{{ site.baseurl
+}}/files/img/02b-craigslist-most-populous-cities-rent.png)
 
 New York's median rent/ft² is more than 3.5x higher than Atlanta's, reflecting
 underlying differences in land values which capitalize variation in amenities,
@@ -111,8 +111,8 @@ rents are much, much more dispersed.
 Metropolitan
 [fair market rent](https://www.housingonline.com/2015/12/16/hud-proposes-fair-market-rents-for-2016/)
 based housing vouchers—designed to unlock neighborhoods of opportunity to the
-poor—may work differently in high-cost versus low-cost areas. Wide variations
-in rents within a city might make it very difficult for voucher holders to "move
+poor—may work differently in high-cost versus low-cost areas. Wide variations in
+rents within a city might make it very difficult for voucher holders to "move
 the needle" and upgrade neighborhoods in a statistically dispersed market like
 San Francisco's, especially when considering household size.
 
@@ -199,8 +199,7 @@ the pulse of changing neighborhoods:
 
 ![Census tract- level map of median rents per square foot on Craigslist in the
 San Francisco Bay Area]({{ site.url }}{{ site.baseurl
-}}/files/img/06-craigslist-rental-listings-census-tract-map-san-
-francisco-bay-area.jpg)
+}}/files/img/06-craigslist-rental-listings-census-tract-map-san-francisco-bay-area.jpg)
 
 San Francisco, Berkeley, and Silicon Valley are very expensive, while East
 Oakland and Vallejo are less so. This is a powerful tool for understanding

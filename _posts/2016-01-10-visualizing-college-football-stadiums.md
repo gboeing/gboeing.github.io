@@ -51,8 +51,8 @@ Here is each FBS team ranked by home stadium seating capacity and colored by
 conference:
 
 [![stadiums-fbs-conf-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-fbs-conf-bar-572x1024.png)]({{ site.url }}{{
-site.baseurl }}/files/img/stadiums-fbs-conf-bar.png)
+}}/files/img/stadiums-fbs-conf-bar-572x1024.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-fbs-conf-bar.png)
 
 Although the SEC has the largest stadiums on average, the top three largest
 stadiums all belong to Big Ten schools: Michigan, Penn State, and Ohio State.
@@ -68,8 +68,8 @@ Or to look at this another way, below are the same stadiums again, colored by
 subdivision instead of by conference. There are a few notably large FCS stadiums
 including those of Tennessee State, Yale, Jackson State, Penn, and Harvard:
 
-[![stadiums-div-bar]({{ site.url }}{{ site.baseurl }}/files/img/stadiums-div-
-bar-1024x595.png)]({{ site.url }}{{ site.baseurl
+[![stadiums-div-bar]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-div-bar-1024x595.png)]({{ site.url }}{{ site.baseurl
 }}/files/img/stadiums-div-bar.png)
 
 ## College football stadiums by year built
@@ -122,8 +122,9 @@ beautiful and seismically safe Memorial Stadium.
 
 ## Methodology
 
-[![stadiums-map]({{ site.url }}{{ site.baseurl }}/files/img/stadiums-
-map-300x209.png)]({{ site.url }}{{ site.baseurl }}/files/img/stadiums-map.png)
+[![stadiums-map]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-map-300x209.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-map.png)
 
 All of the data and code for my maps, analysis, and visualizations are available
 on

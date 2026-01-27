@@ -14,5 +14,5 @@ square foot:
 
 ![Map of 1.5 million Craigslist rental listings in the contiguous U.S., divided
 into quintiles by each listing's rent per square foot]({{ site.url }}{{
-site.baseurl }}/files/img/01-craigslist-rental-housing-listings-us-
-map-1024x677.jpg)
+site.baseurl
+}}/files/img/01-craigslist-rental-housing-listings-us-map-1024x677.jpg)

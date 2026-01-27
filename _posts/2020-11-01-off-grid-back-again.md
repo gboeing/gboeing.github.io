@@ -17,9 +17,9 @@ findings and visualizations across the US today as well as over time, then
 discuss my analysis methods.
 
 [![Map of where street grids exist today across the US, made with OSMnx and
-Python]({{ site.url }}{{ site.baseurl }}/files/img/us-street-network-
-grid-1024x648.jpg)]({{ site.url }}{{ site.baseurl
-}}/files/img/us-street-network-grid.jpg)
+Python]({{ site.url }}{{ site.baseurl
+}}/files/img/us-street-network-grid-1024x648.jpg)]({{ site.url }}{{
+site.baseurl }}/files/img/us-street-network-grid.jpg)
 
 For starters, where do grid-like streets exist today? The figure above shows how
 grid-like each tract's streets are today, across the contiguous US. We can see
@@ -61,9 +61,9 @@ today across a basket of street network indicators:
 
 [![US street network design grew more coarse-grained, disconnected, and
 circuitous over the 20th century, before rebounding toward traditional urbanism
-in recent years.]({{ site.url }}{{ site.baseurl }}/files/img/us-street-network-
-trends-1024x563.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/us-street-network-trends.png)
+in recent years.]({{ site.url }}{{ site.baseurl
+}}/files/img/us-street-network-trends-1024x563.png)]({{ site.url }}{{
+site.baseurl }}/files/img/us-street-network-trends.png)
 
 The figure above shows how these street network indicators trend together over
 time. Each trend line represents a different vintage estimation method, as
@@ -156,8 +156,8 @@ car dependence and allow freedom of mode choice.
 
 Here's a quick dive into my methods. I got tract boundaries from the US census
 bureau, then modeled and analyzed all the tracts' street networks using Python,
-[OSMnx]({{ site.url }}{{ site.baseurl }}/2016/11/osmnx-python-street-
-networks/), and OpenStreetMap data.
+[OSMnx]({{ site.url }}{{ site.baseurl
+}}/2016/11/osmnx-python-street-networks/), and OpenStreetMap data.
 
 I mentioned a "grid index" earlier, which is an indicator I developed to measure
 street network griddedness. A street grid consists of a set of streets
@@ -171,9 +171,9 @@ do they make a true grid.
 [![A street grid has an internally-consistent orientation, is relatively
 straight, and comprises mostly four-way intersections. Each of these three
 characteristics is necessary but alone insufficient: only in unison do they make
-a street grid.]({{ site.url }}{{ site.baseurl }}/files/img/street-network-grid-
-index-1024x317.png)]({{ site.url }}{{ site.baseurl }}/files/img/street-network-
-grid-index.png)
+a street grid.]({{ site.url }}{{ site.baseurl
+}}/files/img/street-network-grid-index-1024x317.png)]({{ site.url }}{{
+site.baseurl }}/files/img/street-network-grid-index.png)
 
 The grid index combines these three measures together. The notion of
 straightness or 4-way junctions is pretty straightforward. I've previously
@@ -185,17 +185,17 @@ each other?
 [![US urban street network grid orientations, rose plot, polar histogram made
 with Python, OSMnx, OpenStreetMap, matplotlib. Cities include Boston, Charlotte,
 Chicago, Detroit, Manhattan, Miami, New Orleans, Philadelphia, San Francisco, St
-Louis. ]({{ site.url }}{{ site.baseurl }}/files/img/us-street-
-orientations-1024x422.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/us-street-orientations.png) Above, the polar histogram bars'
-directions represent compass bearings and bars' lengths represent the proportion
-of city street segments with those bearings. For example, Chicago and Manhattan
-illustrate high orientation order: they have internally-consistent orientations
-as nearly all their streets point in just four different directions. In
-contrast, Charlotte and Boston illustrate low orientation order: their streets
-point more evenly in all directions. Further interpretation and worldwide
-findings on street orientation [are here]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban-street-network-orientation/).
+Louis. ]({{ site.url }}{{ site.baseurl
+}}/files/img/us-street-orientations-1024x422.png)]({{ site.url }}{{
+site.baseurl }}/files/img/us-street-orientations.png) Above, the polar histogram
+bars' directions represent compass bearings and bars' lengths represent the
+proportion of city street segments with those bearings. For example, Chicago and
+Manhattan illustrate high orientation order: they have internally-consistent
+orientations as nearly all their streets point in just four different
+directions. In contrast, Charlotte and Boston illustrate low orientation order:
+their streets point more evenly in all directions. Further interpretation and
+worldwide findings on street orientation [are here]({{ site.url }}{{
+site.baseurl }}/2019/09/urban-street-network-orientation/).
 
 I also estimated each tract's vintage algorithmically using three different
 methods, based on census bureau data and HISDAC-US property records and assessor

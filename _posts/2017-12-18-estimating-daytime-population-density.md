@@ -72,9 +72,9 @@ fundamental problem: biased toward certain populations plus balkanized data
 ownership.
 
 So let's muse briefly on takeaways and limitations. If you inspect the map
-above, density patterns are straightforward and pass the smell test—urban
-cores around the Bay Area clearly stand out, including Palo Alto and downtown
-San Francisco. But there are anomalies. Due to its student and government worker
+above, density patterns are straightforward and pass the smell test—urban cores
+around the Bay Area clearly stand out, including Palo Alto and downtown San
+Francisco. But there are anomalies. Due to its student and government worker
 populations (which LODES misses), UC Berkeley's campus shows an absurdly low
 daytime density.
 

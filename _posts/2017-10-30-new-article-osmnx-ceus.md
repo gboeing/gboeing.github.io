@@ -47,5 +47,5 @@ research. For more info on using OSMnx, check out this [blog post]({{ site.url
 [GitHub repo](https://github.com/gboeing/osmnx). Or, check out some quick
 demonstrations of using OSMnx to analyze [street network patterns]({{ site.url
 }}{{ site.baseurl }}/2017/01/square-mile-street-network-visualization/) or the
-[urban form]({{ site.url }}{{ site.baseurl }}/2017/04/urban-form-
-analysis-openstreetmap/).
+[urban form]({{ site.url }}{{ site.baseurl
+}}/2017/04/urban-form-analysis-openstreetmap/).

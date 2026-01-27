@@ -29,8 +29,8 @@ monolithic, monoculture communities in which civilization's functions are
 dramatically segregated. Square miles of suburbs are zoned strictly residential,
 often with explicit restrictions against front yard agriculture and no
 allowances for food shops or hubs. Downtowns are widely paved over or planted
-with merely ornamental landscapes. Humans—an urban species—eat several times
-a day yet seem fixated on zoning food out of the urban experience.
+with merely ornamental landscapes. Humans—an urban species—eat several times a
+day yet seem fixated on zoning food out of the urban experience.
 
 This is partly a result of the food system's complexity. As a matter of
 perceived necessity, America urbanized over the last century according to the

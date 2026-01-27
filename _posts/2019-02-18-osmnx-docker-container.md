@@ -40,6 +40,6 @@ You now have access to Jupyter Lab running inside the container, with OSMnx,
 networkx, igraph, geopandas, pysal, matplotlib, and the rest of the geospatial
 data science stack. Any changes you make to your notebook will be saved to your
 local file system even though the container is ephemeral. For more info, you can
-read more about [OSMnx here]({{ site.url }}{{ site.baseurl }}/2018/03/osmnx-
-features-roundup/) or read about the image on
+read more about [OSMnx here]({{ site.url }}{{ site.baseurl
+}}/2018/03/osmnx-features-roundup/) or read about the image on
 [docker hub](https://hub.docker.com/r/gboeing/osmnx).

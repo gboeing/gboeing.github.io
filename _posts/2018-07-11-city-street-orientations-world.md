@@ -33,15 +33,15 @@ Python, OSMnx, OpenStreetMap, matplotlib. Atlanta, Boston, Buffalo, Charlotte,
 Chicago, Cleveland, Dallas, Denver, Detroit, Houston, Las Vegas, Los Angeles,
 Manhattan, New York, Miami, Minneapolis, Orlando, Philadelphia, Phoenix,
 Portland, Sacramento, San Francisco, Seattle, St Louis, Tampa, Washington
-DC.]({{ site.url }}{{ site.baseurl }}/files/img/city-street-orientations-usa-
-osmnx-930x1024.png)]({{ site.url }}{{ site.baseurl }}/files/img/city-street-
-orientations-usa-osmnx.png)
+DC.]({{ site.url }}{{ site.baseurl
+}}/files/img/city-street-orientations-usa-osmnx-930x1024.png)]({{ site.url }}{{
+site.baseurl }}/files/img/city-street-orientations-usa-osmnx.png)
 
 _Want to see more cities?_ This post is adapted from this [research paper]({{
 site.url }}{{ site.baseurl }}/2019/09/urban-street-network-orientation/) that
 analyzes and visualizes [100 cities]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban-street-network-orientation/) around the world, discussing
-these methods, entropy calculations, and images in more detail. And for more on
-OSMnx, check out the [original post]({{ site.url }}{{ site.baseurl
+}}/2019/09/urban-street-network-orientation/) around the world, discussing these
+methods, entropy calculations, and images in more detail. And for more on OSMnx,
+check out the [original post]({{ site.url }}{{ site.baseurl
 }}/2018/07/comparing-city-street-orientations/) or [this post]({{ site.url
 }}{{ site.baseurl }}/2018/03/osmnx-features-roundup/) about OSMnx.

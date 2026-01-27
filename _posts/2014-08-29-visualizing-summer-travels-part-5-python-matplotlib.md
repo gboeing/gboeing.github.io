@@ -558,8 +558,8 @@ grouping_label = 'All Other Cities')
 ```
 
 [![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-pie-cities-by-share.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-pie-cities-by-share.png)
+}}/files/img/matplotlib-pie-cities-by-share.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-pie-cities-by-share.png)
 
 As we saw earlier, Barcelona was the most visited city, followed by Lisbon,
 Tuebingen, and Prague. Cities with fewer than 30 rows in the data set are
@@ -761,8 +761,8 @@ plt.show()
 ```
 
 [![matplotlib-line-records-by-day]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-line-records-by-day.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-line-records-by-day.png)
+}}/files/img/matplotlib-line-records-by-day.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-line-records-by-day.png)
 
 As expected, the line chart above shows major fluctuations in the number of
 observations by date. At the very beginning of the trip, I had OpenPaths

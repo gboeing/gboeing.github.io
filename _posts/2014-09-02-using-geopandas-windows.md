@@ -71,8 +71,8 @@ install it the manual but foolproof way...
 [![Install geopandas on windows with dependencies gdal, fiona, pyproj,
 shapely]({{ site.url }}{{ site.baseurl
 }}/files/img/install-geopandas-windows-gdal-fiona-pyproj-shapely.png)]({{
-site.url }}{{ site.baseurl }}/files/img/install-geopandas-windows-
-gdal-fiona-pyproj-shapely.png)
+site.url }}{{ site.baseurl
+}}/files/img/install-geopandas-windows-gdal-fiona-pyproj-shapely.png)
 
 ## Verifying the geopandas installation
 

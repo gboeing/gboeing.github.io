@@ -1,8 +1,8 @@
 ---
 layout: page
 title: >
-    Neighborhood Change, One Pint at a Time:
-    The Impact of Local Characteristics on Craft Breweries
+  Neighborhood Change, One Pint at a Time:
+  The Impact of Local Characteristics on Craft Breweries
 permalink: /publications/craft-beer-neighborhood-change/
 ---
 

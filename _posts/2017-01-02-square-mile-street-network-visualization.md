@@ -6,8 +6,8 @@ permalink: /2017/01/square-mile-street-network-visualization/
 ---
 
 _Check out the [journal article]({{ site.url }}{{ site.baseurl
-}}/publications/osmnx-complex-street-networks/) about OSMnx. All figures in
-this article come from this [journal article]({{ site.url }}{{ site.baseurl
+}}/publications/osmnx-complex-street-networks/) about OSMnx. All figures in this
+article come from this [journal article]({{ site.url }}{{ site.baseurl
 }}/publications/spatial-information-urban-morphology/), which you can read/cite
 for more._
 
@@ -89,5 +89,4 @@ visualize any street network anywhere in the world. For more info, check out
 [the paper]({{ site.url }}{{ site.baseurl
 }}/publications/osmnx-complex-street-networks/) about OSMnx. All the figures in
 this post come from [this article]({{ site.url }}{{ site.baseurl
-}}/publications/spatial-information-urban-morphology/), which you can
-read/cite.
+}}/publications/spatial-information-urban-morphology/), which you can read/cite.

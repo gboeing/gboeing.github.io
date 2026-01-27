@@ -30,27 +30,27 @@ site.url }}{{ site.baseurl }}/2016/11/osmnx-python-street-networks/) that allows
 researchers to download street networks and building footprints for any city
 name, address, or polygon in the world, then [analyze]({{ site.url }}{{
 site.baseurl }}/publications/multiscale-analysis-street-networks/) and
-[visualize]({{ site.url }}{{ site.baseurl }}/2017/01/square-mile-street-
-network-visualization/) [them]({{ site.url }}{{ site.baseurl
-}}/2017/03/urban-form-figure-ground/). OSMnx democratizes these data and
-methods to help technical and non-technical planners and researchers use
-OpenStreetMap data to study urban form, circulation networks, accessibility, and
-resilience.
+[visualize]({{ site.url }}{{ site.baseurl
+}}/2017/01/square-mile-street-network-visualization/) [them]({{ site.url }}{{
+site.baseurl }}/2017/03/urban-form-figure-ground/). OSMnx democratizes these
+data and methods to help technical and non-technical planners and researchers
+use OpenStreetMap data to study urban form, circulation networks, accessibility,
+and resilience.
 
 This sort of street network data can be useful for communicating urban design.
 Allan Jacobs' classic book _Great Streets_ featured dozens of hand-drawn
 figure-ground diagrams depicting one square mile of cities' street networks.
 Holding these cities at the same scale provides a revealing spatial objectivity
 in comparing their street networks and urban forms. We can [automatically
-re-create]({{ site.url }}{{ site.baseurl }}/2017/01/square-mile-street-
-network-visualization/) these with OpenStreetMap data for any city in the world,
-using OSMnx:
+re-create]({{ site.url }}{{ site.baseurl
+}}/2017/01/square-mile-street-network-visualization/) these with OpenStreetMap
+data for any city in the world, using OSMnx:
 
 [![OSMnx: Figure-ground diagrams of one square mile of each street network,
 from OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
-site.url }}{{ site.baseurl }}/files/img/square-mile-street-
-networks-1024x822.jpg)]({{ site.url }}{{ site.baseurl
-}}/2017/01/square-mile-street-network-visualization/)
+site.url }}{{ site.baseurl
+}}/files/img/square-mile-street-networks-1024x822.jpg)]({{ site.url }}{{
+site.baseurl }}/2017/01/square-mile-street-network-visualization/)
 
 Each image was created with a single line of code. Adding in [building
 footprints]({{ site.url }}{{ site.baseurl
@@ -71,9 +71,8 @@ Holston's _The Modernist City_):
 [![Figure-ground diagrams of urban form and building footprints in London,
 Paris, Venice, and Brasilia depict modernism's inversion of traditional spatial
 order]({{ site.url }}{{ site.baseurl
-}}/files/img/square-mile-urban-form-venice-london-paris-
-brasilia-963x1024.jpg)]({{ site.url }}{{ site.baseurl
-}}/2017/03/urban-form-figure-ground/)
+}}/files/img/square-mile-urban-form-venice-london-paris-brasilia-963x1024.jpg)]({{
+site.url }}{{ site.baseurl }}/2017/03/urban-form-figure-ground/)
 
 These are still all one square-mile, held at the same scale. However, a single
 square mile cannot be taken as representative of broader scales or other
@@ -148,13 +147,14 @@ disruption if its most important node fails (due to a traffic jam, flood,
 earthquake, etc.) than the latter's.
 
 OpenStreetMap offers a useful new data repository for [walkability]({{
-site.url }}{{ site.baseurl }}/2016/07/visualize-urban-accessibility-
-walkability/) studies, urban form modeling, and [computational]({{ site.url
-}}{{ site.baseurl }}/2015/08/urban-informatics-visualization-berkeley/) urban
-design. Even if you're [new to Python]({{ site.url }}{{ site.baseurl
+site.url }}{{ site.baseurl
+}}/2016/07/visualize-urban-accessibility-walkability/) studies, urban form
+modeling, and [computational]({{ site.url }}{{ site.baseurl
+}}/2015/08/urban-informatics-visualization-berkeley/) urban design. Even if
+you're [new to Python]({{ site.url }}{{ site.baseurl
 }}/2017/02/python-getting-started/), OSMnx offers an easy way to get started
 working with this rich urban dataset. For more info, check out the paper [about
 OSMnx]({{ site.url }}{{ site.baseurl
 }}/publications/osmnx-complex-street-networks/) or the [empirical study]({{
-site.url }}{{ site.baseurl }}/publications/multiscale-analysis-
-street-networks/) of 27,000 U.S. street networks.
+site.url }}{{ site.baseurl }}/publications/multiscale-analysis-street-networks/)
+of 27,000 U.S. street networks.

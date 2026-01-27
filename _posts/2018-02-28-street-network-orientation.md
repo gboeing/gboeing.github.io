@@ -37,8 +37,8 @@ street network pattern. By contrast, we can download the street network of Santa
 Monica, California, a small city surrounded by western Los Angeles:
 
 ![Santa Monica, California street network OSMnx OpenStreetMap Python]({{
-site.url }}{{ site.baseurl }}/files/img/santa-monica-california-street-network-
-osmnx-1024x877.png)
+site.url }}{{ site.baseurl
+}}/files/img/santa-monica-california-street-network-osmnx-1024x877.png)
 
 We can easily see that Santa Monica has a more orthogonal, grid-like street
 network than Moraga does. This is clearly reflected in its polar plot:

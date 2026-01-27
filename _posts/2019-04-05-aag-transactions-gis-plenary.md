@@ -8,8 +8,8 @@ permalink: /2019/04/aag-transactions-gis-plenary/
 [![Manhattan, New York City, New York street network, bearing, orientation
 from OpenStreetMap mapped with OSMnx and Python]({{ site.url }}{{ site.baseurl
 }}/files/img/manhattan-nyc- street-network-bearings- osmnx-189x300.png)]({{
-site.url }}{{ site.baseurl }}/files/img/manhattan-nyc-
-street-network-bearings-osmnx.png)
+site.url }}{{ site.baseurl
+}}/files/img/manhattan-nyc-street-network-bearings-osmnx.png)
 
 I am giving the _Transactions in GIS_ plenary address at the AAG conference this
 afternoon. I'll be reflecting on urban science, spatial networks, and
@@ -38,8 +38,8 @@ Zillow-defined neighborhood. The resulting public data repository contains over
 110,000 processed, cleaned street network graphs (which in turn comprise over 55
 million nodes and over 137 million edges) in multiple file formats for you to
 freely re-purpose, along with dozens of indicators calculated for each network.
-You can read [more here]({{ site.url }}{{ site.baseurl }}/2019/03/us-street-
-network-models-measures/).
+You can read [more here]({{ site.url }}{{ site.baseurl
+}}/2019/03/us-street-network-models-measures/).
 
 ## Other projects and analyses
 

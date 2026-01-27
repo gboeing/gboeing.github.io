@@ -7,11 +7,11 @@ permalink: /2014/08/reducing-spatial-data-set-size-with-douglas-peucker/
 
 In a previous post I discussed how to [reduce the size of a spatial data set by
 clustering]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/). Too many data points
-in a visualization can overwhelm the user and bog down on-the-fly client-side
-map rendering (for example, with a javascript tool like [Leaflet]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/)). So,
-I used the DBSCAN clustering algorithm to reduce
+}}/2014/08/clustering-to-reduce-spatial-data-set-size/). Too many data points in
+a visualization can overwhelm the user and bog down on-the-fly client-side map
+rendering (for example, with a javascript tool like [Leaflet]({{ site.url }}{{
+site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/)). So, I used
+the DBSCAN clustering algorithm to reduce
 [my data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
 from 1,759 rows to 158 spatially-representative points. This [series of
 posts]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels/

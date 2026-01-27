@@ -26,9 +26,9 @@ to compare. My data, code, and analysis are in this
 First, I visualized the FBS attendance figures themselves:
 
 [![NCAA college football teams' stadiums' 2015 average attendance per
-game]({{ site.url }}{{ site.baseurl }}/files/img/stadiums-fbs-attend-conf-
-bar-1024x594.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-fbs-attend-conf-bar.png)
+game]({{ site.url }}{{ site.baseurl
+}}/files/img/stadiums-fbs-attend-conf-bar-1024x594.png)]({{ site.url }}{{
+site.baseurl }}/files/img/stadiums-fbs-attend-conf-bar.png)
 
 Michigan, Ohio State, and Texas A&M had the highest average attendance per home
 game in 2015. Overall, six teams exceeded an average of 100,000 people in
@@ -40,8 +40,8 @@ I also grouped these stadiums by conference:
 
 [![NCAA college football conferences' teams' stadiums' 2015 average attendance
 per game]({{ site.url }}{{ site.baseurl
-}}/files/img/conferences-fbs-attendance-bar.png)]({{ site.url }}{{
-site.baseurl }}/files/img/conferences-fbs-attendance-bar.png)
+}}/files/img/conferences-fbs-attendance-bar.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/conferences-fbs-attendance-bar.png)
 
 The SEC has the highest average home game attendance (79,000 people/game) and
 the MAC has the lowest (15,000 people/game). Next I looked at how this relates

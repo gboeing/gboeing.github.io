@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-CMD="uvx --with yamllint yamllint"
-
+# Separate yamllint args from file paths
 yamllint_args=()
 files=()
-
-# Separate yamllint args from file paths
 for arg in "$@"; do
   if [[ "$arg" == *.md || "$arg" == *.markdown ]]; then
     files+=("$arg")
@@ -32,9 +29,9 @@ for file in "${files[@]}"; do
 
   # Extract front matter including --- markers
   frontmatter="$(sed -n '1{/^---$/!q};/^---$/,/^---$/p' "$file")"
-
   if [[ -n "$frontmatter" ]]; then
     # Run yamllint only on stdin, no filenames
+    CMD="uvx --with yamllint yamllint"
     output="$(echo "$frontmatter" | $CMD "${yamllint_args[@]}" - 2>&1)" || rc=$?
 
     # Remove leading/trailing blank lines

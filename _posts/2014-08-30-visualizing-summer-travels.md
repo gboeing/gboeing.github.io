@@ -86,8 +86,8 @@ Summer Travels Part 5: Python + Matplotlib") pie chart breaks out the cities I
 visited, by their share of observations in the data set:
 
 [![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-pie-cities-by-share.png)]({{ site.url }}{{
-site.baseurl }}/files/img/matplotlib-pie-cities-by-share.png)
+}}/files/img/matplotlib-pie-cities-by-share.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/matplotlib-pie-cities-by-share.png)
 
 I also calculated the most isolated locations in my data set. These locations
 are spatially isolated from other data points either because I flew in/out of

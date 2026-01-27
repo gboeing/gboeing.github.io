@@ -80,9 +80,10 @@ etched in these cities' urban forms and street networks today.
 
 [![Average streets per node and street segment length for every US city and
 town, aggregated to the state-level and choropleth mapped by median value.]({{
-site.url }}{{ site.baseurl }}/files/img/usa-city-street-networks-state-
-aggregation-1024x414.png)]({{ site.url }}{{ site.baseurl }}/files/img/usa-city-
-street-networks-state-aggregation.png)
+site.url }}{{ site.baseurl
+}}/files/img/usa-city-street-networks-state-aggregation-1024x414.png)]({{
+site.url }}{{ site.baseurl
+}}/files/img/usa-city-street-networks-state-aggregation.png)
 
 For instance (and unsurprising given this history), if we measure the average
 number of streets per node at the city-scale and then aggregate these cities by

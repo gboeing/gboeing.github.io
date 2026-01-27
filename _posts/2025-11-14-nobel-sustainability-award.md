@@ -10,11 +10,11 @@ Nobel Sustainability Award for research for our
 [Global Observatory of Healthy and Sustainable Cities](https://www.healthysustainablecities.org/).
 
 I'm really proud of this group. I've had the pleasure of serving on our
-executive committee and as the spatial team co-lead since its inception. We're
-a member organization of the UN's Global Urban Observatory Network and we
+executive committee and as the spatial team co-lead since its inception. We're a
+member organization of the UN's Global Urban Observatory Network and we
 published a [series of articles]({{ site.url }}{{ site.baseurl
-}}/2022/06/lancet-series-transport-health/) in The Lancet Global Health a
-couple years ago about our work to date.
+}}/2022/06/lancet-series-transport-health/) in The Lancet Global Health a couple
+years ago about our work to date.
 
 Sincere thanks to the hundreds of researchers and practitioners in hundreds of
 cities around the world who have joined our collaboration network over the past

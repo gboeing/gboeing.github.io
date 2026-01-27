@@ -1,8 +1,8 @@
 ---
 layout: page
 title: >
-    A Generalized Framework for Measuring Pedestrian Accessibility around the
-    World Using Open Data
+  A Generalized Framework for Measuring Pedestrian Accessibility around the
+  World Using Open Data
 permalink: /publications/generalized-framework-pedestrian-accessibility/
 ---
 

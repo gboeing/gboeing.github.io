@@ -7,9 +7,9 @@ permalink: /2015/04/visualizing-chaos-and-randomness/
 
 [![3-D Poincare plot of the logistic map's chaotic regime - this is time
 series data embedded in three dimensional state space]({{ site.url }}{{
-site.baseurl }}/files/img/3d-poincare-plot-logistic-chaotic-
-regime-150x150.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/3d-poincare-plot-logistic-chaotic-regime.png)
+site.baseurl
+}}/files/img/3d-poincare-plot-logistic-chaotic-regime-150x150.png)]({{ site.url
+}}{{ site.baseurl }}/files/img/3d-poincare-plot-logistic-chaotic-regime.png)
 
 _[Download/cite the paper here]({{ site.url }}{{ site.baseurl
 }}/publications/nonlinear-chaos-fractals-prediction/)!_
@@ -22,8 +22,8 @@ how phase diagrams (or _Poincaré plots_) can help us visualize system attractor
 and differentiate chaotic behavior from true randomness.
 
 In this post (adapted [from this paper]({{ site.url }}{{ site.baseurl
-}}/publications/nonlinear-chaos-fractals-prediction/)), I provide more detail
-on constructing and interpreting phase diagrams. These methods are particularly
+}}/publications/nonlinear-chaos-fractals-prediction/)), I provide more detail on
+constructing and interpreting phase diagrams. These methods are particularly
 useful for discovering deterministic chaos in otherwise random-appearing time
 series data, as they visualize strange attractors. I'm using Python for all of
 these visualizations and the source code is available in this
@@ -91,8 +91,8 @@ toward over time:
 
 [![Poincaré plots for fixed-point and limit-cycle attractors]({{ site.url
 }}{{ site.baseurl }}/files/img/poincare-plot-fixed-limit-attractors.png)]({{
-site.url }}{{ site.baseurl }}/files/img/poincare-plot-fixed-
-limit-attractors.png)
+site.url }}{{ site.baseurl
+}}/files/img/poincare-plot-fixed-limit-attractors.png)
 
 The phase diagram above on the left shows that the logistic map homes in on a
 fixed-point attractor at 0.655 (on both axes) when the growth rate parameter is
@@ -121,9 +121,8 @@ A kind of structure is slowly being revealed in these plots, and it's easier to
 see when we bump the growth rate deep into the chaotic regime:
 
 [![Poincaré plots of the logistic map, revealing deterministic chaos]({{
-site.url }}{{ site.baseurl }}/files/img/poincare-plots-logistic-
-chaos1.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/poincare-plots-logistic-chaos1.png)
+site.url }}{{ site.baseurl }}/files/img/poincare-plots-logistic-chaos1.png)]({{
+site.url }}{{ site.baseurl }}/files/img/poincare-plots-logistic-chaos1.png)
 
 The plot on the left depicts a parabola formed by a growth rate parameter of
 3.9. The plot on the right depicts 50 different growth rate parameters between
@@ -156,8 +155,8 @@ y-axis vs the value at _t_ on the x-axis:
 
 [![3-D Poincare plot of the logistic map when r=3.99 - this is time series
 data embedded in three dimensional state space]({{ site.url }}{{ site.baseurl
-}}/files/img/3d-poincare-plot-chaos-300x241.png)]({{ site.url }}{{
-site.baseurl }}/files/img/3d-poincare-plot-chaos.png)
+}}/files/img/3d-poincare-plot-chaos-300x241.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/3d-poincare-plot-chaos.png)
 
 This plot essentially extrudes our original 2-D plot, then pans and rotates the
 viewpoint. In fact, if we looked straight down at this 3-D plot, it would look
@@ -176,9 +175,9 @@ the 2-D rainbow parabolas we saw earlier:
 
 [![3-D Poincare plot of the logistic map's chaotic regime - this is time
 series data embedded in three dimensional state space]({{ site.url }}{{
-site.baseurl }}/files/img/3d-poincare-plot-logistic-chaotic-
-regime-300x241.png)]({{ site.url }}{{ site.baseurl
-}}/files/img/3d-poincare-plot-logistic-chaotic-regime.png)
+site.baseurl
+}}/files/img/3d-poincare-plot-logistic-chaotic-regime-300x241.png)]({{ site.url
+}}{{ site.baseurl }}/files/img/3d-poincare-plot-logistic-chaotic-regime.png)
 
 In three dimensions, the beautiful structure of the strange attractor is
 revealed as it twists and curls around its 3-D state space. This structure
@@ -191,8 +190,9 @@ its structure:
 
 [![Animated 3-D Poincare plot of the logistic map's chaotic regime - this is
 time series data embedded in three dimensional state space]({{ site.url }}{{
-site.baseurl }}/files/img/logistic-3d-poincare-plot-chaotic-regime-
-animated.gif)]({{ site.url }}{{ site.baseurl
+site.baseurl
+}}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)]({{
+site.url }}{{ site.baseurl
 }}/files/img/logistic-3d-poincare-plot-chaotic-regime-animated.gif)
 
 When we zoom in, we can more clearly see how the parabolas _never_ overlap and
@@ -220,8 +220,8 @@ diagrams instead of line charts:
 
 [![Chaos vs random noise in 2D and 3D Poincare plots - the strange attractor
 is revealed]({{ site.url }}{{ site.baseurl
-}}/files/img/poincare-plots-chaos-vs-random.png)]({{ site.url }}{{
-site.baseurl }}/files/img/poincare-plots-chaos-vs-random.png)
+}}/files/img/poincare-plots-chaos-vs-random.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/poincare-plots-chaos-vs-random.png)
 
 Now we can see our chaotic system (in red, above) constrained by its strange
 attractor. In contrast, the random data (in blue, above) just looks like noise.
@@ -250,9 +250,9 @@ fundamentally indicates that there are limits to knowledge and prediction: some
 futures may be unknowable with any precision.
 
 You can [download/cite the paper here]({{ site.url }}{{ site.baseurl
-}}/publications/nonlinear-chaos-fractals-prediction/). For a wider-ranging
-intro to chaos and the logistic map, check out my [previous post]({{ site.url
-}}{{ site.baseurl }}/2015/03/chaos-theory-logistic- map/ "Chaos Theory and the
+}}/publications/nonlinear-chaos-fractals-prediction/). For a wider-ranging intro
+to chaos and the logistic map, check out my [previous post]({{ site.url }}{{
+site.baseurl }}/2015/03/chaos-theory-logistic- map/ "Chaos Theory and the
 Logistic Map"). For more on creating animated 3-D data visualizations in Python,
 check out [this post]({{ site.url }}{{ site.baseurl
 }}/2015/04/animated-3d-plots-python/ "Animated 3-D Plots in Python"). All of the

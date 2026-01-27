@@ -46,8 +46,8 @@ And here is the projected data in a more geographically representative plot
 which I will create today in this post:
 
 [![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile-gps-coordinates-300x203.png)]({{ site.url
-}}{{ site.baseurl }}/files/img/projected-shapefile-gps-coordinates.png)
+}}/files/img/projected-shapefile-gps-coordinates-300x203.png)]({{ site.url }}{{
+site.baseurl }}/files/img/projected-shapefile-gps-coordinates.png)
 
 You can see the horizontal distortion in the top image: France, Germany,
 England, etc are too wide because the three dimensional lat-long data from the

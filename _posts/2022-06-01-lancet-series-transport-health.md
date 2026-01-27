@@ -11,9 +11,9 @@ urban design, transport, and health has been published by _The Lancet Global
 Health_.
 
 [![The Lancet Global Health infographic on benchmarking healthy sustainable
-cities]({{ site.url }}{{ site.baseurl }}/files/img/lancet-global-health-
-infographic-437x1024.jpeg)]({{ site.url }}{{ site.baseurl }}/files/img/lancet-
-global-health-infographic.jpeg)
+cities]({{ site.url }}{{ site.baseurl
+}}/files/img/lancet-global-health-infographic-437x1024.jpeg)]({{ site.url }}{{
+site.baseurl }}/files/img/lancet-global-health-infographic.jpeg)
 
 In our [first paper](<https://doi.org/10.1016/S2214-109X(22)00069-9>), we
 analyzed urban policies and calculated built environment indicators for 25
@@ -24,9 +24,9 @@ substantial implementation gaps.
 
 [![The Lancet Global Health policy analysis investigating if cities have
 measurable, evidence-based policies in place to support healthy sustainable
-cities]({{ site.url }}{{ site.baseurl }}/files/img/lancet-urban-policy-
-analysis-1024x860.jpeg)]({{ site.url }}{{ site.baseurl
-}}/files/img/lancet-urban-policy-analysis.jpeg)
+cities]({{ site.url }}{{ site.baseurl
+}}/files/img/lancet-urban-policy-analysis-1024x860.jpeg)]({{ site.url }}{{
+site.baseurl }}/files/img/lancet-urban-policy-analysis.jpeg)
 
 In our [second paper](<https://doi.org/10.1016/S2214-109X(22)00068-7>), our team
 calculated thresholds of built environment characteristics that support two
@@ -74,9 +74,9 @@ the 1,000 Cities Challenge to which anyone can contribute. Here's an example
 scorecard for São Paulo:
 
 [![Global Observatory of Healthy and Sustainable Cities Scorecard for Sao
-Paulo Brasil]({{ site.url }}{{ site.baseurl }}/files/img/Scorecard_Sao-
-Paulo-1024x791.jpg)]({{ site.url }}{{ site.baseurl }}/files/img/Scorecard_Sao-
-Paulo.jpg)
+Paulo Brasil]({{ site.url }}{{ site.baseurl
+}}/files/img/Scorecard_Sao-Paulo-1024x791.jpg)]({{ site.url }}{{ site.baseurl
+}}/files/img/Scorecard_Sao-Paulo.jpg)
 
 Check out The Lancet Global Health
 [series](https://www.thelancet.com/series/urban-design-2022) for more.

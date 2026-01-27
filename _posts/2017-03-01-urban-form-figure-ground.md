@@ -22,8 +22,8 @@ fascinating comparative window into urban form:
 San Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
 Python with OSMnx]({{ site.url }}{{ site.baseurl
 }}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)]({{
-site.url }}{{ site.baseurl }}/files/img/bldg-footprints-ny-
-sf-monrovia-port-au-prince.png)
+site.url }}{{ site.baseurl
+}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince.png)
 
 Above we see four cities, all at the same scale (one square mile) to allow easy
 comparison of the pattern, texture, and grain of the urban form. At the top-left
@@ -63,9 +63,9 @@ Piedmont's curving streets can be seen winding through the built form, which
 comprises almost exclusively single-family detached homes. By contrast, we may
 want to examine just one section of a city, such as this 1.5 km2 diagram of
 Paris, centered on the Arc de Triomphe. Notice how Baron Haussmann's
-[streets]({{ site.url }}{{ site.baseurl }}/2017/01/square-mile-street-network-
-visualization/) radiate outward as remnants of his massive demolition and
-renovation of 19th century Paris:
+[streets]({{ site.url }}{{ site.baseurl
+}}/2017/01/square-mile-street-network-visualization/) radiate outward as
+remnants of his massive demolition and renovation of 19th century Paris:
 
 [![Nolli map, figure-ground diagram of building footprints and urban form in
 Paris, France from OpenStreetMap data created in Python with OSMnx]({{ site.url

@@ -33,9 +33,9 @@ corresponding distribution of the Gini coefficient. In this case the Gini
 coefficient of the BC is G=0.51, and the spatial Gini is Gspa=0.26. On the
 right, we show the result for our model based on the MST and the corresponding
 BC map. The BC Gini is here equal to G=0.72, and the spatial Gini
-Gspa=0.40.]({{ site.url }}{{ site.baseurl }}/files/img/generative-network-
-models.png)]({{ site.url }}{{ site.baseurl }}/files/img/generative-network-
-models.png)
+Gspa=0.40.]({{ site.url }}{{ site.baseurl
+}}/files/img/generative-network-models.png)]({{ site.url }}{{ site.baseurl
+}}/files/img/generative-network-models.png)
 
 From the abstract:
 
