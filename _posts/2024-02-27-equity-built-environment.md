@@ -5,10 +5,9 @@ date: 2024-02-27 08:51:44-08:00
 permalink: /2024/02/equity-built-environment/
 ---
 
-I coauthored a recently published
-[article](https://doi.org/10.1016/j.buildenv.2023.110827) in _Building and
-Environment_ which systematically reviews perspectives on and approaches to
-social equity in the built environment. From the abstract:
+I coauthored a recently published [article][1] in _Building and Environment_
+which systematically reviews perspectives on and approaches to social equity in
+the built environment. From the abstract:
 
 > Equity in the built environment refers to the extent to which the built
 > environment meets the needs of different groups through planning, design,
@@ -33,6 +32,7 @@ social equity in the built environment. From the abstract:
 > directions to address vulnerable groups' needs worldwide and suggest measures
 > to alleviate inequities in the built environment.
 
-For more, check out the
-[article](https://doi.org/10.1016/j.buildenv.2023.110827) itself in _Building
-and Environment_.
+For more, check out the [article][1] itself in _Building and Environment_.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1016/j.buildenv.2023.110827

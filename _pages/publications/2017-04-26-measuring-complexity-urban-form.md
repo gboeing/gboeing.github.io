@@ -8,8 +8,7 @@ permalink: /publications/measuring-complexity-urban-form/
 Design." _Urban Design International_, 23 (4), 281-292.
 doi:10.1057/s41289-018-0072-1
 
-Download PDF from [SocArXiv](https://osf.io/preprints/socarxiv/bxhrz/) or
-[UDI](https://doi.org/10.1057/s41289-018-0072-1).
+Download PDF from [SocArXiv][2] or [UDI][1].
 
 ## Abstract
 
@@ -30,3 +29,7 @@ connectivity measures of the urban form. Today, prominent urban design movements
 openly embrace complexity but must move beyond inspiration and metaphor to
 formalize what "complexity" is and how we can use it to assess both the world
 as-is as well as proposals for how it could be instead.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1057/s41289-018-0072-1
+[2]: https://osf.io/preprints/socarxiv/bxhrz/

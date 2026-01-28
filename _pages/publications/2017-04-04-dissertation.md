@@ -7,12 +7,10 @@ permalink: /publications/dissertation/
 Boeing, G. 2017. "Methods and Measures for Analyzing Complex Street Networks and
 Urban Form." Doctoral dissertation. University of California, Berkeley.
 
-Download PDF from [SSRN](https://papers.ssrn.com/abstract=3012684) or
-[SocArXiv](https://dx.doi.org/10.17605/OSF.IO/93H82).
+Download PDF from [SSRN][3] or [SocArXiv][2].
 
 This research project's street networks and measures data are publicly available
-in my repository at the
-[Harvard Dataverse](https://dataverse.harvard.edu/dataverse/osmnx-street-networks).
+in my repository at the [Harvard Dataverse][1].
 
 ## Abstract
 
@@ -29,3 +27,8 @@ the world, then analyze and visualize them. Finally, it presents a large
 empirical study of 27,000 street networks, examining their metric and
 topological complexity relevant to urban design, transportation research, and
 the human experience of the built environment.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://dataverse.harvard.edu/dataverse/osmnx-street-networks
+[2]: https://dx.doi.org/10.17605/OSF.IO/93H82
+[3]: https://papers.ssrn.com/abstract=3012684

@@ -8,10 +8,9 @@ permalink: /2022/10/ispah-in-abu-dhabi/
 Alongside Billie Giles-Corti and Jim Sallis, I will be presenting our team's
 recent research into accessible, sustainable urban design around the world at
 the ISPAH Congress in Abu Dhabi this week. Our symposium at the congress will
-share the methods and findings from our [_The Lancet Global Health_]({{
-site.url }}{{ site.baseurl }}/2022/06/lancet-series-transport-health/) series
-published this summer, as well as our ongoing work on the
-[Thousand Cities Challenge](https://www.healthysustainablecities.org/).
+share the methods and findings from our [_The Lancet Global Health_][4] series
+published this summer, as well as our ongoing work on the [Thousand Cities
+Challenge][2].
 
 Our geospatial team developed open-source software to calculate indicators of
 walkability and accessibility around the world, and then linked these back to
@@ -21,10 +20,13 @@ standards and targets to actually build healthier and more sustainable cities,
 and their health-supportive built environment features were often inadequate or
 inequitably distributed.
 
-We simultaneously launched the
-[Global Observatory of Healthy and Sustainable Cities](https://www.healthysustainablecities.org/)
-to promote healthy and sustainable urban planning, benchmark and monitor cities'
-progress, and share more consistent, comparable urban data. The whole
-[series of articles](https://www.thelancet.com/series/urban-design-2022) is free
-and open access, as is
-[our software](https://github.com/global-healthy-liveable-cities).
+We simultaneously launched the [Global Observatory of Healthy and Sustainable
+Cities][2] to promote healthy and sustainable urban planning, benchmark and
+monitor cities' progress, and share more consistent, comparable urban data. The
+whole [series of articles][3] is free and open access, as is [our software][1].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://github.com/global-healthy-liveable-cities
+[2]: https://www.healthysustainablecities.org/
+[3]: https://www.thelancet.com/series/urban-design-2022
+[4]: {{ "/2022/06/lancet-series-transport-health/" | relative_url }}

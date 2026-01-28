@@ -10,10 +10,7 @@ permalink: /publications/housing-search-big-data/
 Search in the Age of Big Data: Smarter Cities or the Same Old Blind Spots?"
 _Housing Policy Debate_, 31 (1), 112-126. doi:10.1080/10511482.2019.1684336
 
-Download PDF from [HPD](https://doi.org/10.1080/10511482.2019.1684336) or
-[eScholarship](https://escholarship.org/uc/item/8st3t83j) or
-[SSRN](https://ssrn.com/abstract=3528765) or
-[SocArXiv](https://osf.io/preprints/socarxiv/n5zws/).
+Download PDF from [HPD][1] or [eScholarship][2] or [SSRN][4] or [SocArXiv][3].
 
 ## Abstract
 
@@ -31,3 +28,9 @@ turn, likely will not reach this potential without a significant redesign or
 policy intervention. Smart city advocates hoping to build better cities through
 technology must critically interrogate technology platforms and big data for
 systematic biases.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1080/10511482.2019.1684336
+[2]: https://escholarship.org/uc/item/8st3t83j
+[3]: https://osf.io/preprints/socarxiv/n5zws/
+[4]: https://ssrn.com/abstract=3528765

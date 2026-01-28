@@ -8,8 +8,7 @@ permalink: /publications/planarity-street-network-representation/
 Urban Form Analysis." _Environment and Planning B_, 47 (5), 855-869.
 doi:10.1177/2399808318802941
 
-Download PDF from [SocArXiv](https://osf.io/preprints/socarxiv/hma8y) or
-[EP-B](https://doi.org/10.1177%2F2399808318802941).
+Download PDF from [SocArXiv][2] or [EP-B][1].
 
 ## Abstract
 
@@ -27,3 +26,7 @@ Length Ratio - to measure planarity and describe infrastructure and
 urbanization. While some street networks are approximately planar, we
 empirically quantify how planar models can inconsistently but drastically
 misrepresent intersection density, street lengths, routing, and connectivity.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1177%2F2399808318802941
+[2]: https://osf.io/preprints/socarxiv/hma8y

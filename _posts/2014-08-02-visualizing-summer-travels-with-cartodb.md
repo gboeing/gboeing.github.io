@@ -5,22 +5,15 @@ date: 2014-08-02 18:30:08-07:00
 permalink: /2014/08/visualizing-summer-travels-with-cartodb/
 ---
 
-_This post is [part of a series]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") on
-visualizing data from my summer travels._
+_This post is [part of a series][6] on visualizing data from my summer travels._
 
-I [recently discussed]({{ site.url }}{{ site.baseurl
-}}/2014/07/visualizing-summer-travels-part-1-openpaths/ "Visualizing Summer
-Travels Part 1: OpenPaths") OpenPaths and my goals in visualizing location data
+I [recently discussed][3] OpenPaths and my goals in visualizing location data
 from my summer travels. In this post, I'll explore visualizing this dataset with
-[CartoDB](https://cartodb.com/). The OpenPaths data from my summer travels,
-which I'll be working with in these examples, is
-[available here](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
-and I discuss how I [reverse-geocoded it here]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/).
-CartoDB is a simple cloud-based tool for building web maps. You can import data
-through their web-based dashboard and quickly turn it into a dynamic map or
-visualization.
+[CartoDB][1]. The OpenPaths data from my summer travels, which I'll be working
+with in these examples, is [available here][2] and I discuss how I
+[reverse-geocoded it here][4]. CartoDB is a simple cloud-based tool for building
+web maps. You can import data through their web-based dashboard and quickly turn
+it into a dynamic map or visualization.
 
 First, create an account and then go to your dashboard. Upload your location
 dataset as a new table, then click "map" to quickly generate a simple, default
@@ -46,7 +39,13 @@ transit between locations.
 These are two different ways of quickly and simply visualizing a location
 dataset. CartoDB is good for producing a nice-looking map in a short amount of
 time without requiring technical skills, but its customizability is in turn
-somewhat limited. Next, I'll explore the [Leaflet]({{ site.url }}{{
-site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/) javascript
-library for mapping and visualizing this data, with a bit more for us to do
-under the hood.
+somewhat limited. Next, I'll explore the [Leaflet][5] javascript library for
+mapping and visualizing this data, with a bit more for us to do under the hood.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://cartodb.com/
+[2]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv
+[3]: {{ "/2014/07/visualizing-summer-travels-part-1-openpaths/" | relative_url }}
+[4]: {{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}
+[5]: {{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}
+[6]: {{ "/2014/08/visualizing-summer-travels/" | relative_url }}

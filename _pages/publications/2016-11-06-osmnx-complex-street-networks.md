@@ -11,8 +11,7 @@ Boeing, G. 2025. "Modeling and Analyzing Urban Networks and Amenities with
 OSMnx." _Geographical Analysis_, published online ahead of print.
 doi:10.1111/gean.70009
 
-[Download PDF](https://doi.org/10.1111/gean.70009) open-access from
-_Geographical Analysis_.
+[Download PDF][1] open-access from _Geographical Analysis_.
 
 ## Abstract
 
@@ -30,6 +29,12 @@ and reflects on open science's implications for urban modeling and analysis.
 
 ## Other Resources
 
-- [OSMnx documentation](https://osmnx.readthedocs.io/)
-- [Examples Gallery](https://github.com/gboeing/osmnx-examples)
-- [Code repository](https://github.com/gboeing/osmnx)
+- [OSMnx documentation][4]
+- [Examples Gallery][3]
+- [Code repository][2]
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1111/gean.70009
+[2]: https://github.com/gboeing/osmnx
+[3]: https://github.com/gboeing/osmnx-examples
+[4]: https://osmnx.readthedocs.io/

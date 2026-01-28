@@ -5,20 +5,16 @@ date: 2019-09-09 17:38:02-07:00
 permalink: /2019/09/urban-street-network-orientation/
 ---
 
-My new article,
-[Urban Spatial Order: Street Network Orientation, Configuration, and Entropy](https://doi.org/10.1007/s41109-019-0189-1),
-has just been published in one of my favorite journals: _Applied Network
-Science_ (download [free PDF](https://doi.org/10.1007/s41109-019-0189-1)). This
-study explores the spatial signatures of urban evolution and central planning.
-It examines street network orientation, connectivity, granularity, and entropy
-in 100 cities around the world using OpenStreetMap data and [OSMnx]({{
-site.url }}{{ site.baseurl }}/2016/11/osmnx-python-street-networks/) for
-modeling and visualization:
+My new article, [Urban Spatial Order: Street Network Orientation,
+Configuration, and Entropy][1], has just been published in one of my favorite
+journals: _Applied Network Science_ (download [free PDF][1]). This study
+explores the spatial signatures of urban evolution and central planning. It
+examines street network orientation, connectivity, granularity, and entropy in
+100 cities around the world using OpenStreetMap data and [OSMnx][2] for modeling
+and visualization:
 
 ![City street network grid orientations, order, disorder, entropy, rose plot,
-polar histogram made with Python, OSMnx, OpenStreetMap, matplotlib.]({{
-site.url }}{{ site.baseurl
-}}/files/img/city-street-network-polar-histograms-alpha-933x1024.jpg)
+polar histogram made with Python, OSMnx, OpenStreetMap, matplotlib.][5]
 
 So, who's got a grid and who doesn't? Each of the cities above is represented by
 a polar histogram (aka rose diagram) depicting how its streets orient. Each
@@ -29,9 +25,7 @@ re-sorted from most-ordered/gridded city (Chicago) to most-disordered
 (Charlotte):
 
 ![City street network grid orientations, order, disorder, entropy, rose plot,
-polar histogram made with Python, OSMnx, OpenStreetMap, matplotlib.]({{
-site.url }}{{ site.baseurl
-}}/files/img/city-street-network-polar-histograms-entropy-933x1024.jpg)
+polar histogram made with Python, OSMnx, OpenStreetMap, matplotlib.][6]
 
 Note that these are cities proper (municipalities), not wider metro areas or
 urban agglomerations. Some cities, like Seattle, Denver, and Minneapolis, have
@@ -43,9 +37,7 @@ example, we can easily see the angled, primarily orthogonal street grid in its
 polar histogram:
 
 ![Manhattan, New York City, New York and Boston, Massachusetts street network,
-bearing, orientation from OpenStreetMap mapped with OSMnx and Python]({{
-site.url }}{{ site.baseurl
-}}/files/img/manhattan-boston-street-network-orientation-1024x678.jpg)
+bearing, orientation from OpenStreetMap mapped with OSMnx and Python][8]
 
 Unlike most American cities that have one or two primary street grids organizing
 city circulation, Boston's streets are more evenly distributed in every
@@ -74,11 +66,10 @@ US/Canadian cities. North American cities are far more grid-like than cities in
 the rest of the world and exhibit far less orientation entropy and street
 circuity. We can see this with a cluster analysis to explore similarities and
 differences among these study sites in multiple dimensions (full methodological
-details [in paper](https://doi.org/10.1007/s41109-019-0189-1)):
+details [in paper][1]):
 
 ![Cluster analysis of urban street networks via hierarchical agglomerative
-clustering: OpenStreetMap, OSMnx, Python, scikit-learn, matplotlib]({{ site.url
-}}{{ site.baseurl }}/files/img/cluster-city-street-networks-560x1024.png)
+clustering: OpenStreetMap, OSMnx, Python, scikit-learn, matplotlib][7]
 
 The clustering dendrogram above shows how different cities' street networks
 group together in similarity. We can also visualize this in two dimensions using
@@ -88,8 +79,7 @@ corresponding to those above (triangles represent US/Canadian cities and circles
 represent other cities):
 
 ![t-SNE visualization of urban street network clusters via OpenStreetMap,
-OSMnx, Python, scikit-learn, matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/tsne-cluster-street-networks-1024x638.png)
+OSMnx, Python, scikit-learn, matplotlib][9]
 
 Most of the North American cities lie near each other in three adjacent clusters
 (red, orange, and blue), which contain grid-like—and almost exclusively North
@@ -109,11 +99,18 @@ Sarajevo. While the US cities tend to group together in the red, orange, and
 blue clusters, the other world regions' cities tend to distribute more evenly
 across the green, purple, and light gray clusters.
 
-For more information on my methodology and findings, check out the
-[open- access article](https://doi.org/10.1007/s41109-019-0189-1), or check out
-[OSMnx]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx-python-street-networks/) for the Python tool used for these
+For more information on my methodology and findings, check out the [open-
+access article][1], or check out [OSMnx][2] for the Python tool used for these
 analyses and visualizations. Some of my preliminary work on this (and links to
-source code) appears in two [blog]({{ site.url }}{{ site.baseurl
-}}/2018/07/comparing-city-street-orientations/) [posts]({{ site.url }}{{
-site.baseurl }}/2018/07/city-street-orientations-world/) from last summer.
+source code) appears in two [blog][4] [posts][3] from last summer.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1007/s41109-019-0189-1
+[2]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
+[3]: {{ "/2018/07/city-street-orientations-world/" | relative_url }}
+[4]: {{ "/2018/07/comparing-city-street-orientations/" | relative_url }}
+[5]: {{ "/files/img/city-street-network-polar-histograms-alpha-933x1024.jpg" | relative_url }}
+[6]: {{ "/files/img/city-street-network-polar-histograms-entropy-933x1024.jpg" | relative_url }}
+[7]: {{ "/files/img/cluster-city-street-networks-560x1024.png" | relative_url }}
+[8]: {{ "/files/img/manhattan-boston-street-network-orientation-1024x678.jpg" | relative_url }}
+[9]: {{ "/files/img/tsne-cluster-street-networks-1024x638.png" | relative_url }}

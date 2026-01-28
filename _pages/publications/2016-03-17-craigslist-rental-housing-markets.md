@@ -7,13 +7,11 @@ permalink: /publications/craigslist-rental-housing-markets/
 **Cite as:** Boeing, G. and P. Waddell. 2017. "New Insights into Rental Housing
 Markets across the United States: Web Scraping and Analyzing Craigslist Rental
 Listings." _Journal of Planning Education and Research_, 37 (4), 457-476.
-doi:[10.1177/0739456X16664789](https://dx.doi.org/10.1177/0739456X16664789)
+doi:[10.1177/0739456X16664789][1]
 
-Download PDF [from JPER](https://dx.doi.org/10.1177/0739456X16664789) or
-[from ResearchGate](https://www.researchgate.net/publication/306400541_New_Insights_into_Rental_Housing_Markets_across_the_United_States_Web_Scraping_and_Analyzing_Craigslist_Rental_Listings).
+Download PDF [from JPER][1] or [from ResearchGate][2].
 
-Check out the [blog post]({{ site.url }}{{ site.baseurl
-}}/2016/08/craigslist-rental-housing-insights/) summary of our findings.
+Check out the [blog post][3] summary of our findings.
 
 ## Abstract
 
@@ -27,3 +25,8 @@ metropolitan areas have only single-digit percentages of listings below fair
 market rent. Nontraditional sources of volunteered geographic information offer
 planners real-time, local-scale estimates of rent and housing characteristics
 currently lacking in alternative sources, such as census data.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://dx.doi.org/10.1177/0739456X16664789
+[2]: https://www.researchgate.net/publication/306400541_New_Insights_into_Rental_Housing_Markets_across_the_United_States_Web_Scraping_and_Analyzing_Craigslist_Rental_Listings
+[3]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}

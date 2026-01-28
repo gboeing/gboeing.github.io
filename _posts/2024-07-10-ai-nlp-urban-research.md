@@ -12,12 +12,12 @@ train a model to do, say, topic labeling for you, you'd be able to (potentially)
 analyze nearly unlimited text data nearly instantly after that initial training
 work. The mixed methods holy grail.
 
-I coauthored an [article](https://doi.org/10.1016/j.compenvurbsys.2024.102131)
-recently in _Computers, Environment and Urban Systems_ with Madison Lore and
-Julia Harten which takes up this challenge. Using Los Angeles's housing crisis
-and rental market as a case study, we demonstrate how and when modern AI and NLP
-techniques can generate qualitative insights on par with traditional manual
-techniques, but at a far larger scale and requiring far less labor.
+I coauthored an [article][1] recently in _Computers, Environment and Urban
+Systems_ with Madison Lore and Julia Harten which takes up this challenge. Using
+Los Angeles's housing crisis and rental market as a case study, we demonstrate
+how and when modern AI and NLP techniques can generate qualitative insights on
+par with traditional manual techniques, but at a far larger scale and requiring
+far less labor.
 
 We identify topics discussed in LA rental listings' text to understand the
 subtle language of discrimination and other gatekeeping obstacles to housing. To
@@ -49,5 +49,7 @@ From the abstract:
 > accuracy without sacrificing scalability.
 
 For more on this technique and how you can use to to scale up qualitative text
-analysis in urban research, check out the
-[article](https://doi.org/10.1016/j.compenvurbsys.2024.102131) at CEUS.
+analysis in urban research, check out the [article][1] at CEUS.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1016/j.compenvurbsys.2024.102131

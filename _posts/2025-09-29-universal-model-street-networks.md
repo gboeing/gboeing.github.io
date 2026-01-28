@@ -6,9 +6,8 @@ permalink: /2025/09/universal-model-street-networks/
 ---
 
 Marc Barthelemy and I have a new article out in _Physical Review Letters_ titled
-"[Universal Model of Urban Street Networks](https://doi.org/10.1103/1vj4-n8vn)"
-(because PRL apparently doesn't allow titles that start with an indefinite
-article).
+"[Universal Model of Urban Street Networks][2]" (because PRL apparently doesn't
+allow titles that start with an indefinite article).
 
 We argue that a distinguishing feature of urban street networks, which makes
 them unique compared to other spatial networks, is their extreme betweenness
@@ -32,8 +31,7 @@ On the left, we show a random Eden-like model, and below, the corresponding
 distribution of the Gini coefficient. In this case the Gini coefficient of the
 BC is G=0.51, and the spatial Gini is Gspa=0.26. On the right, we show the
 result for our model based on the MST and the corresponding BC map. The BC Gini
-is here equal to G=0.72, and the spatial Gini Gspa=0.40.]({{ site.url }}{{
-site.baseurl }}/files/img/generative-network-models.png)
+is here equal to G=0.72, and the spatial Gini Gspa=0.40.][3]
 
 From the abstract:
 
@@ -47,5 +45,10 @@ From the abstract:
 > properties to bridge the gap between empirical observations and generative
 > models.
 
-For more, check out the [article](https://doi.org/10.1103/1vj4-n8vn) at PRL or
-the open-access arXiv [pre-print](https://arxiv.org/abs/2509.21931).
+For more, check out the [article][2] at PRL or the open-access arXiv
+[pre-print][1].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://arxiv.org/abs/2509.21931
+[2]: https://doi.org/10.1103/1vj4-n8vn
+[3]: {{ "/files/img/generative-network-models.png" | relative_url }}

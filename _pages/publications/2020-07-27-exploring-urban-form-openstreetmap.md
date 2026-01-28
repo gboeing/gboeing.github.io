@@ -9,8 +9,7 @@ A Visual Introduction." In: _Urban Experience and Design: Contemporary
 Perspectives on Improving the Public Realm_ (pp. 167–184), edited by J. B.
 Hollander and A. Sussman. Abingdon, England: Routledge. ISBN 978-0-367-43558-5.
 
-Download PDF from [SSRN](https://ssrn.com/abstract=3680845) or
-[SocArXiv](https://osf.io/rnwgv).
+Download PDF from [SSRN][2] or [SocArXiv][1].
 
 ## Abstract
 
@@ -25,3 +24,7 @@ and polar histograms—that help compress urban complexity into comprehensible
 artifacts that reflect the human experience of the built environment. Ubiquitous
 urban data and computation can open up new urban form analyses from both
 quantitative and qualitative perspectives.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://osf.io/rnwgv
+[2]: https://ssrn.com/abstract=3680845

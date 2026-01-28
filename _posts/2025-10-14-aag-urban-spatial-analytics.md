@@ -8,11 +8,10 @@ permalink: /2025/10/aag-urban-spatial-analytics/
 AAG session call for papers: "Urban spatial analytics: Toward problem-driven
 methods instead of methods-driven problems."
 
-I'm organizing a session with
-[Elizabeth Delmelle](https://www.design.upenn.edu/people/elizabeth-delmelle)
-that asks: how can urban data science and spatial analytics meaningfully address
-cities' "wicked problems" instead of just reaching for this year's shiny new
-tool or the easy data set we can just grab and analyze?
+I'm organizing a session with [Elizabeth Delmelle][2] that asks: how can urban
+data science and spatial analytics meaningfully address cities' "wicked
+problems" instead of just reaching for this year's shiny new tool or the easy
+data set we can just grab and analyze?
 
 Cities today face challenges that feel intractable. Despite significant progress
 in urban data science and spatial analytics over the past 20 years, the problems
@@ -53,10 +52,13 @@ and spatial analytics. Example topics could include:
   potential to produce meaningful and plausible change
 
 **Where/When** : this session will be in-person at the American Association of
-Geographers [Annual Meeting](https://www.aag.org/events/aag2026/), March 17-21,
-2026, San Francisco, California.
+Geographers [Annual Meeting][1], March 17-21, 2026, San Francisco, California.
 
 **How to submit** : submit your abstract to AAG by its Oct 30 deadline. Then
 email your abstract and AAG PIN to both Geoff (boeing at usc dot edu) and
 Elizabeth (delmelle at design dot upenn dot edu) by Nov 1 for us to consider for
 the session. Session participants will be notified by Nov 20.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://www.aag.org/events/aag2026/
+[2]: https://www.design.upenn.edu/people/elizabeth-delmelle

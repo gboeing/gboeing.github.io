@@ -9,8 +9,7 @@ Gao, A. Poorthuis, and W. Xu. 2019. "A Roundtable Discussion: Defining Urban
 Data Science." Environment and Planning B: Urban Analytics and City Science, 46
 (9), 1756-1768. doi:10.1177/2399808319882826
 
-Download PDF from [eScholarship](https://escholarship.org/uc/item/9104t41q) or
-[EP-B](https://doi.org/10.1177/2399808319882826).
+Download PDF from [eScholarship][2] or [EP-B][1].
 
 ## Abstract
 
@@ -32,3 +31,7 @@ academic circles. The panel also discusses the normative value of doing urban
 data science, linking successful practice back to urban life. Overall, this
 panel report contributes to the wider discussion around urban analytics and city
 science and about the role of data science in this domain.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1177/2399808319882826
+[2]: https://escholarship.org/uc/item/9104t41q

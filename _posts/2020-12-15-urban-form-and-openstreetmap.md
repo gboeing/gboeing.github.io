@@ -6,10 +6,9 @@ permalink: /2020/12/urban-form-and-openstreetmap/
 ---
 
 My chapter "[Exploring Urban Form Through OpenStreetMap Data: A Visual
-Introduction]({{ site.url }}{{ site.baseurl
-}}/publications/exploring-urban-form-openstreetmap/)" has just been published in
-the new book _Urban Experience and Design: Contemporary Perspectives on
-Improving the Public Realm_ edited by Justin Hollander and Ann Sussman.
+Introduction][1]" has just been published in the new book _Urban Experience and
+Design: Contemporary Perspectives on Improving the Public Realm_ edited by
+Justin Hollander and Ann Sussman.
 
 From the abstract:
 
@@ -25,5 +24,7 @@ From the abstract:
 > environment. Ubiquitous urban data and computation can open up new urban form
 > analyses from both quantitative and qualitative perspectives.
 
-For more, check out [the chapter]({{ site.url }}{{ site.baseurl
-}}/publications/exploring-urban-form-openstreetmap/).
+For more, check out [the chapter][1].
+
+<!-- markdownlint-disable MD013 -->
+[1]: {{ "/publications/exploring-urban-form-openstreetmap/" | relative_url }}

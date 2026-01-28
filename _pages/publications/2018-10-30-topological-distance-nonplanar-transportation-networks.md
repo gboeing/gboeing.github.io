@@ -8,7 +8,7 @@ permalink: /publications/topological-distance-nonplanar-transportation-networks/
 "Topological Distance Between Nonplanar Transportation Networks." Fall Workshop
 on Computational Geometry. Queens, New York.
 
-Download [PDF]({{ site.url }}{{ site.baseurl }}/files/pdf/abfm-localhom.pdf)
+Download [PDF][1]
 
 ## Abstract
 
@@ -47,3 +47,6 @@ surface is partitioned into layers. Each layer is required to project onto the
 ground plane without self-intersection. The connections between layers can be
 thought of as staircases and ramps; ignoring heights, paths across layers are
 measured by the projected distance.
+
+<!-- markdownlint-disable MD013 -->
+[1]: {{ "/files/pdf/abfm-localhom.pdf" | relative_url }}

@@ -9,8 +9,7 @@ Analytics: History, Trajectory, and Critique." In: _Handbook of Spatial Analysis
 in the Social Sciences_, edited by S. Rey and R. Franklin. Cheltenham, England:
 Edward Elgar.
 
-Download PDF from [SSRN](https://papers.ssrn.com/abstract=3846508) or
-[SocArXiv](https://osf.io/preprints/socarxiv/bwhx2/).
+Download PDF from [SSRN][2] or [SocArXiv][1].
 
 ## Abstract
 
@@ -30,3 +29,7 @@ often ignored as ubiquitous monitoring and analytics can empower social
 repression. It concludes with a call for a more critical urban analytics that
 recognizes its epistemological limits, emphasizes human dignity, and learns from
 and supports marginalized communities.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://osf.io/preprints/socarxiv/bwhx2/
+[2]: https://papers.ssrn.com/abstract=3846508

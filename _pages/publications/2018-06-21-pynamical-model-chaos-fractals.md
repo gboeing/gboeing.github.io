@@ -10,8 +10,7 @@ permalink: /publications/pynamical-model-chaos-fractals/
 Dynamical Systems, Chaos, and Fractals." _Journal of Open Source Education_, 1
 (1), 15. doi:10.21105/jose.00015
 
-This is a peer-reviewed article for the
-[Pynamical software repository](https://github.com/gboeing/pynamical).
+This is a peer-reviewed article for the [Pynamical software repository][1].
 
 ## Abstract
 
@@ -28,3 +27,6 @@ diagrams, two-dimensional phase diagrams, three-dimensional phase diagrams, and
 cobweb plots. These visualizations enable simple qualitative assessments of
 system behavior including phase transitions, bifurcation points, attractors and
 limit cycles, basins of attraction, and fractals.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://github.com/gboeing/pynamical

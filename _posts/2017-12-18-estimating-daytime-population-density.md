@@ -5,8 +5,7 @@ date: 2017-12-18 16:44:28-08:00
 permalink: /2017/12/estimating-daytime-population-density/
 ---
 
-_Check out the [journal article]({{ site.url }}{{ site.baseurl
-}}/publications/estimating-density-census-payroll/) about this project._
+_Check out the [journal article][5] about this project._
 
 I was recently asked: "how might someone figure out the local daytime population
 density across the Bay Area from public data?" My answer, in short, was that you
@@ -20,25 +19,20 @@ states shapefile. I preferred the 2010 census demographic data to (more recent)
 ACS data because the ACS tract-level variables are five-year rolling averages.
 Given this, I preferred not to compare 2014 LODES data to 2010-2014 ACS data as
 the Bay Area experienced substantial housing, economic, and demographic upheaval
-over this interval—[patterns obscured]({{ site.url }}{{ site.baseurl
-}}/2016/08/craigslist-rental-housing-insights/) in the ACS rolling average. To
-avoid inconsistent comparison, I opted for more stale—but more accurate and
+over this interval—[patterns obscured][3] in the ACS rolling average. To avoid
+inconsistent comparison, I opted for more stale—but more accurate and
 comparable—data.
 
 ![Map of the estimated daytime population density in the San Francisco Bay
-Area]({{ site.url }}{{ site.baseurl
-}}/files/img/sf-bay-daytime-population-density-map-749x1024.jpg)
+Area][4]
 
 I used Python and JavaScript to produce the analysis, the choropleth map above,
-and the interactive Leaflet web map below (code
-[on GitHub](https://github.com/gboeing/data-visualization/blob/master/daytime-population-density/daytime-density.ipynb)).
-First, I loaded the LODES data. LODES is block-level and notoriously noisy (and
-synthetic!) so I aggregated and summed the O-D pairs to the tract-level, at
-which it converges
-[reasonably well](<https://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(98)_FR.pdf>)
-to the observed distribution. I then merged these data with tract-level
-geometries and populations within ten Bay Area counties (the standard nine-
-county ABAG/MTC region plus Santa Cruz county).
+and the interactive Leaflet web map below (code [on GitHub][1]). First, I loaded
+the LODES data. LODES is block-level and notoriously noisy (and synthetic!) so I
+aggregated and summed the O-D pairs to the tract-level, at which it converges
+[reasonably well][2] to the observed distribution. I then merged these data with
+tract-level geometries and populations within ten Bay Area counties (the
+standard nine- county ABAG/MTC region plus Santa Cruz county).
 
 Next I estimated daytime population density (persons/km²) as tract total
 population minus outbound commuters plus inbound commuters, normalized by land
@@ -59,12 +53,11 @@ intervals, but this still would not take into account the LODES enumeration.
 
 The latter points to another issue that makes any confidence in this analysis –
 and its interpretability—far more fraught. We systematically ignore or
-[undercount](<https://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(98)_FR.pdf>)
-the existence and flow of tourists, shoppers, students, the self-employed,
-various government workers, and populations that are less-legible to these data
-products, such as certain minority groups and the homeless. For instance,
-according to its post-enumeration survey, the 2010 census overcounted white
-Americans and undercounted black and Hispanic Americans. We also know such
+[undercount][2] the existence and flow of tourists, shoppers, students, the
+self-employed, various government workers, and populations that are less-legible
+to these data products, such as certain minority groups and the homeless. For
+instance, according to its post-enumeration survey, the 2010 census overcounted
+white Americans and undercounted black and Hispanic Americans. We also know such
 artifacts tend to exhibit a very lumpy geography. Alternative data, such as
 smartphone traces, could tell us other sides of this story but suffer the same
 fundamental problem: biased toward certain populations plus balkanized data
@@ -112,3 +105,10 @@ and practice as big data and algorithms fundamentally transform the disciplines
 of urban planning, policy, and social science. How can we make visible the
 various essential characteristics, behaviors, and even people that are so often
 missed or oversimplified in traditional quantitative urban studies and data?
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://github.com/gboeing/data-visualization/blob/master/daytime-population-density/daytime-density.ipynb
+[2]: https://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(98)_FR.pdf
+[3]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}
+[4]: {{ "/files/img/sf-bay-daytime-population-density-map-749x1024.jpg" | relative_url }}
+[5]: {{ "/publications/estimating-density-census-payroll/" | relative_url }}

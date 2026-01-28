@@ -12,8 +12,7 @@ Generalized Framework for Measuring Pedestrian Accessibility around the World
 Using Open Data." _Geographical Analysis_, published online before print.
 doi:10.1111/gean.12290
 
-Download PDF from [SocArXiv](https://osf.io/preprints/socarxiv/cua35) or
-[Geographical Analysis](https://doi.org/10.1111/gean.12290).
+Download PDF from [SocArXiv][2] or [Geographical Analysis][1].
 
 ## Abstract
 
@@ -34,3 +33,7 @@ allow for both within- and between-city analyses. The open source and open data
 methods developed in this study can be extended to other cities worldwide to
 support local planning and policymaking. The software is made publicly available
 for reuse in an open repository.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1111/gean.12290
+[2]: https://osf.io/preprints/socarxiv/cua35

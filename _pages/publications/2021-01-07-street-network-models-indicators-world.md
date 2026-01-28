@@ -8,14 +8,11 @@ permalink: /publications/street-network-models-indicators-world/
 Urban Area in the World." _Geographical Analysis_, published online before
 print. doi:10.1111/gean.12281
 
-Download PDF from _[Geographical Analysis](https://doi.org/10.1111/gean.12281)_
-or [SocArXiv](https://doi.org/10.31235/osf.io/f2dqc).
+Download PDF from _[Geographical Analysis][2]_ or [SocArXiv][3].
 
 This research project's models and indicators are publicly available in my
-repository at the
-[Harvard Dataverse](https://dataverse.harvard.edu/dataverse/global-urban-street-networks).
-All the source code is available
-[on GitHub](https://github.com/gboeing/street-network-models).
+repository at the [Harvard Dataverse][1]. All the source code is available [on
+GitHub][4].
 
 ## Abstract
 
@@ -37,3 +34,9 @@ data repository containing street network form indicators for each urban area.
 No such global urban street network indicator data set has previously existed.
 Fourth, it presents a summary analysis of urban street network form, reporting
 the first such worldwide results in the literature.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://dataverse.harvard.edu/dataverse/global-urban-street-networks
+[2]: https://doi.org/10.1111/gean.12281
+[3]: https://doi.org/10.31235/osf.io/f2dqc
+[4]: https://github.com/gboeing/street-network-models

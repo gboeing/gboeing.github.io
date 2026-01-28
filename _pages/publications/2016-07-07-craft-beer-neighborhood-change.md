@@ -12,9 +12,7 @@ Breweries." In: N. G. Chapman, J. S. Lellock, and C. D. Lippard (Eds.)
 _Untapped: Exploring the Cultural Dimensions of Craft Beer_ (pp. 155-176).
 Morgantown, WV: West Virginia University Press.
 
-Download
-[chapter PDF](https://www.researchgate.net/publication/317570500_Neighborhood_Change_One_Pint_at_a_Time_The_Impact_of_Local_Characteristics_on_Craft_Breweries)
-or [buy the book](https://wvupressonline.com/node/663).
+Download [chapter PDF][2] or [buy the book][1].
 
 ## Abstract
 
@@ -36,3 +34,7 @@ and craft brewing, but we do find a link between an influx of lower-to-middle
 income urban creatives and the introduction of a craft brewery. We advocate for
 urban planners to recognize the importance of craft breweries in neighborhood
 revitalization while also protecting residents from potential displacement.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://wvupressonline.com/node/663
+[2]: https://www.researchgate.net/publication/317570500_Neighborhood_Change_One_Pint_at_a_Time_The_Impact_of_Local_Characteristics_on_Craft_Breweries

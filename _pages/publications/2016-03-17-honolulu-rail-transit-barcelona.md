@@ -8,12 +8,9 @@ permalink: /publications/honolulu-rail-transit-barcelona/
 
 **Cite as:** Boeing, G. 2016. "Honolulu Rail Transit: International Lessons from
 Barcelona in Linking Urban Form, Design, and Transportation." _Planext_ , 2,
-28–47.
-doi:[10.17418/planext.2016.3vol.02](https://dx.doi.org/10.17418/planext.2016.3vol.02)
+28–47. doi:[10.17418/planext.2016.3vol.02][1]
 
-Download PDF from
-[ResearchGate](https://www.researchgate.net/publication/301651522_Honolulu_Rail_Transit_International_Lessons_in_Linking_Form_Design_and_Transportation)
-or [SSRN](https://ssrn.com/abstract=2772411)
+Download PDF from [ResearchGate][3] or [SSRN][2]
 
 ## Abstract
 
@@ -36,3 +33,8 @@ Honolulu. This discussion is situated within wider debates around livable cities
 and social justice as it contributes several form and design lessons to the
 livability and accessibility literature while identifying potential concerns
 with privatization and displacement.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://dx.doi.org/10.17418/planext.2016.3vol.02
+[2]: https://ssrn.com/abstract=2772411
+[3]: https://www.researchgate.net/publication/301651522_Honolulu_Rail_Transit_International_Lessons_in_Linking_Form_Design_and_Transportation

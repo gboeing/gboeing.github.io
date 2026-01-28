@@ -8,8 +8,7 @@ permalink: /publications/urban-spatial-order-entropy/
 Configuration, and Entropy." _Applied Network Science_, 4 (1), 67.
 doi:10.1007/s41109-019-0189-1
 
-Download PDF from [ANS](https://doi.org/10.1007/s41109-019-0189-1) or
-[SSRN](https://ssrn.com/abstract=3224723).
+Download PDF from [ANS][1] or [SSRN][2].
 
 ## Abstract
 
@@ -35,3 +34,7 @@ These indicators, taken in concert, help reveal the extent and nuance of the
 grid. These methods demonstrate automatic, scalable, reproducible tools to
 empirically measure and visualize city spatial order, illustrating complex urban
 transportation system patterns and configurations around the world.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1007/s41109-019-0189-1
+[2]: https://ssrn.com/abstract=3224723

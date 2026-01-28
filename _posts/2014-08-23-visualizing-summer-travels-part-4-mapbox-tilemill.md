@@ -5,39 +5,27 @@ date: 2014-08-23 00:01:58-07:00
 permalink: /2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/
 ---
 
-_This post part of a series]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") on
-visualizing data from my summer travels._
+_This post part of a series][10] on visualizing data from my summer travels._
 
-I've previously discussed [my goals]({{ site.url }}{{ site.baseurl
-}}/2014/07/visualizing-summer-travels-part-1-openpaths/) in visualizing GPS data
-from my summer travels and explored visualizing the data set [with CartoDB]({{
-site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/)
-and [with Leaflet]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-3-leaflet/). The full OpenPaths
-location data from my summer travels is
-[available here](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
-and I discussed how I [reverse-geocoded it here]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/).
+I've previously discussed [my goals][6] in visualizing GPS data from my summer
+travels and explored visualizing the data set [with CartoDB][9] and [with
+Leaflet][8]. The full OpenPaths location data from my summer travels is
+[available here][1] and I discussed how I [reverse-geocoded it here][7].
 
 Mapbox is a major provider of online web mapping services such as tiled web
-maps, the [Tilemill](https://www.mapbox.com/tilemill/) cartography IDE, and the
-[mapbox.js](https://www.mapbox.com/mapbox.js/) javascript library. Today I'll
-run through how to create an interactive data map in Tilemill's design studio,
-export the map as a set of tiles, upload the tileset to Mapbox, and then use a
-javascript client to display the map on a web page. Our final result will look
-something like this:
+maps, the [Tilemill][5] cartography IDE, and the [mapbox.js][4] javascript
+library. Today I'll run through how to create an interactive data map in
+Tilemill's design studio, export the map as a set of tiles, upload the tileset
+to Mapbox, and then use a javascript client to display the map on a web page.
+Our final result will look something like this:
 
 ## Creating map tiles with Tilemill
 
-First, [download](https://www.mapbox.com/tilemill/) and install the Tilemill IDE
-and create a new Mapbox [account](https://www.mapbox.com/account/). Open
-Tilemill, choose "new project," and provide it a filename, name, and
-description. Click the layers icon in the bottom-left, choose "new layer," and
-browse to the
-[CSV data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv).
-Choose save and style, then you should see the point data displayed on the map.
-I styled mine like this:
+First, [download][5] and install the Tilemill IDE and create a new Mapbox
+[account][3]. Open Tilemill, choose "new project," and provide it a filename,
+name, and description. Click the layers icon in the bottom-left, choose "new
+layer," and browse to the [CSV data set][1]. Choose save and style, then you
+should see the point data displayed on the map. I styled mine like this:
 
 ```css
 Map {
@@ -59,14 +47,12 @@ marker-allow-overlap:true;
 }
 ```
 
-![tilemill-screen]({{ site.url }}{{ site.baseurl
-}}/files/img/tilemill-screen.jpg)
+![tilemill-screen][13]
 
 Click the templates button in the bottom-left. Here you can enter text and data
 fields to display as a pop up:
 
-![tilemill-screen2]({{ site.url }}{{ site.baseurl
-}}/files/img/tilemill-screen2.jpg)
+![tilemill-screen2][14]
 
 ## Export to Mapbox
 
@@ -77,19 +63,16 @@ Export > Upload on the top-right. Choose a center and bounds for your map and
 specify zoom levels. Your choices here must balance map detail and extent vs the
 file size of your tile set. Here's how I configured it:
 
-![tilemill-screen-upload-settings]({{ site.url }}{{ site.baseurl
-}}/files/img/tilemill-screen-upload-settings.jpg)
+![tilemill-screen-upload-settings][12]
 
 Mine weighs in at 13.1 MB. When you're done configuring, click the upload
 button. It will take a couple of minutes to process the data and upload it all
-to Mapbox's servers. When it's done, go to [data](https://www.mapbox.com/) on
-the Mapbox web site, click your newly uploaded data set, and choose "create
-project." In your project, the info tab provides embed code to stick this map on
-a web page, but let's create a new javascript map instead. Copy the map ID from
-the info box.
+to Mapbox's servers. When it's done, go to [data][2] on the Mapbox web site,
+click your newly uploaded data set, and choose "create project." In your
+project, the info tab provides embed code to stick this map on a web page, but
+let's create a new javascript map instead. Copy the map ID from the info box.
 
-![mapbox-project-page]({{ site.url }}{{ site.baseurl
-}}/files/img/mapbox-project-page.jpg)
+![mapbox-project-page][11]
 
 ## Using your tiles in a web map
 
@@ -126,7 +109,21 @@ L.mapbox.map('summer-travel-mapbox-map', 'YOUR-MAP-ID-HERE');
 All done! Save your HTML file, then open it in a web browser. The Mapbox map
 will appear like the one at the top of this page. It's zoomable and clickable –
 each data point has a popup with time, date, city, and country information. You
-can compare this visualization to similar ones using [CartoDB]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/) or
-[Leaflet]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-3-leaflet/).
+can compare this visualization to similar ones using [CartoDB][9] or
+[Leaflet][8].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv
+[2]: https://www.mapbox.com/
+[3]: https://www.mapbox.com/account/
+[4]: https://www.mapbox.com/mapbox.js/
+[5]: https://www.mapbox.com/tilemill/
+[6]: {{ "/2014/07/visualizing-summer-travels-part-1-openpaths/" | relative_url }}
+[7]: {{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}
+[8]: {{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}
+[9]: {{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}
+[10]: {{ "/2014/08/visualizing-summer-travels/" | relative_url }}
+[11]: {{ "/files/img/mapbox-project-page.jpg" | relative_url }}
+[12]: {{ "/files/img/tilemill-screen-upload-settings.jpg" | relative_url }}
+[13]: {{ "/files/img/tilemill-screen.jpg" | relative_url }}
+[14]: {{ "/files/img/tilemill-screen2.jpg" | relative_url }}

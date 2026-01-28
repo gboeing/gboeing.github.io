@@ -11,13 +11,10 @@ Networks: Every US City, Town, Urbanized Area, and Zillow Neighborhood."
 _Environment and Planning B_ _: Urban Analytics and City Science_, 47 (4),
 590-608. doi: 10.1177/2399808318784595
 
-Download PDF from [SSRN](https://ssrn.com/abstract=2943038) or
-[SocArXiv](https://osf.io/preprints/socarxiv/hmhts) or
-[EP-B](https://doi.org/10.1177/2399808318784595).
+Download PDF from [SSRN][4] or [SocArXiv][3] or [EP-B][2].
 
 This research project's street networks and measures data are publicly available
-in my repository at the
-[Harvard Dataverse](https://dataverse.harvard.edu/dataverse/osmnx-street-networks).
+in my repository at the [Harvard Dataverse][1].
 
 ## Abstract
 
@@ -35,3 +32,9 @@ conduct street network analysis with extremely large sample sizes, with clearly
 defined network definitions and extents for reproducibility, and using
 nonplanar, directed graphs. These street networks and measures data have been
 shared in a public repository for other researchers to use.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://dataverse.harvard.edu/dataverse/osmnx-street-networks
+[2]: https://doi.org/10.1177/2399808318784595
+[3]: https://osf.io/preprints/socarxiv/hmhts
+[4]: https://ssrn.com/abstract=2943038

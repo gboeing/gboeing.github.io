@@ -9,9 +9,8 @@ I like to do my data wrangling and analysis work in Python, using the pandas
 library. I also use Python for much of my data visualization and simple mapping.
 But for interactive web maps, I usually use Leaflet. There isn't dead-simple way
 to dump a pandas DataFrame with geographic data to something you can load with
-Leaflet. You could use [GeoPandas]({{ site.url }}{{ site.baseurl
-}}/2014/09/using-geopandas-windows/) to convert your DataFrame then dump it to
-[GeoJSON](https://geojson.org/), but that isn't a very lightweight solution.
+Leaflet. You could use [GeoPandas][2] to convert your DataFrame then dump it to
+[GeoJSON][1], but that isn't a very lightweight solution.
 
 So, I wrote a simple reusable function to export any pandas DataFrame to
 GeoJSON:
@@ -48,3 +47,7 @@ with open(output_filename, 'wb') as output_file:
 output_file.write('var dataset = ')
 json.dump(geojson, output_file, indent=2)
 ```
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://geojson.org/
+[2]: {{ "/2014/09/using-geopandas-windows/" | relative_url }}

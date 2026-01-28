@@ -5,12 +5,11 @@ date: 2021-02-11 12:49:49-08:00
 permalink: /2021/02/gis-computational-jupyter-notebooks/
 ---
 
-I have a new chapter "[GIS and Computational Notebooks]({{ site.url }}{{
-site.baseurl }}/publications/gis-and-computational-notebooks/)," co-authored
-with Dani Arribas-Bel, out now in _The Geographic Information Science &
-Technology Body of Knowledge_. Want to make your spatial analyses more
-reproducible, portable, and well-documented? Our chapter is a short, gentle
-intro to using code and notebooks for modern GIS work.
+I have a new chapter "[GIS and Computational Notebooks][4]," co-authored with
+Dani Arribas-Bel, out now in _The Geographic Information Science & Technology
+Body of Knowledge_. Want to make your spatial analyses more reproducible,
+portable, and well-documented? Our chapter is a short, gentle intro to using
+code and notebooks for modern GIS work.
 
 Science and analytics both struggle with reproducibility, documentation, and
 portability. But GIS in both research and practice _particularly_ suffers from
@@ -20,8 +19,7 @@ from geospatial data. Then we introduce an emerging solution, the computational
 notebook, using Jupyter as our central example to illustrate what it does and
 how it works.
 
-![Jupyter notebook JupyterLab user interface]({{ site.url }}{{ site.baseurl
-}}/files/img/jupyterlab-interface-1024x583.png)
+![Jupyter notebook JupyterLab user interface][3]
 
 Notebooks offer GIS researchers and practitioners better integration with modern
 software, more natural access to new forms of data, and better alignment with
@@ -35,12 +33,9 @@ Takeaway: do your analytics in a notebook, use open-source tools, and
 containerize your environment. Once you get the hang of it, you'll never want to
 go back to ye olde closed-source point-and-click GUIs of yore.
 
-For more, check out [the chapter]({{ site.url }}{{ site.baseurl
-}}/publications/gis-and-computational-notebooks/) itself. To see examples of
-notebooks in action for geospatial analytics, check out the
-[OSMnx examples](https://github.com/gboeing/osmnx-examples) repo or my
-[Advanced Urban Analytics](https://github.com/gboeing/ppd599) course lecture
-materials.
+For more, check out [the chapter][4] itself. To see examples of notebooks in
+action for geospatial analytics, check out the [OSMnx examples][1] repo or my
+[Advanced Urban Analytics][2] course lecture materials.
 
 Here's the chapter abstract:
 
@@ -60,3 +55,9 @@ Here's the chapter abstract:
 > Compared to traditional desktop GIS, notebooks can make spatial analysis more
 > nimble, extensible, and reproducible and have thus evolved into an important
 > component of the geospatial science toolkit.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://github.com/gboeing/osmnx-examples
+[2]: https://github.com/gboeing/ppd599
+[3]: {{ "/files/img/jupyterlab-interface-1024x583.png" | relative_url }}
+[4]: {{ "/publications/gis-and-computational-notebooks/" | relative_url }}

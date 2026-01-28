@@ -5,11 +5,10 @@ date: 2024-03-26 04:25:01-07:00
 permalink: /2024/03/street-design-ghg-emissions/
 ---
 
-I have a new [article](https://doi.org/10.1016/j.trd.2023.103961) out in
-_Transportation Research Part D_ that estimates relationships between street
-network characteristics and transport CO2 emissions across every urban area in
-the world and investigates whether they are the same across development levels
-and design paradigms.
+I have a new [article][1] out in _Transportation Research Part D_ that estimates
+relationships between street network characteristics and transport CO2 emissions
+across every urban area in the world and investigates whether they are the same
+across development levels and design paradigms.
 
 The relationships between street network design and transport emissions in the
 US, Europe, and China are well-studied. But not so in many of the most rapidly
@@ -31,8 +30,7 @@ empirical base for evidence-informed practice in under-studied regions,
 particularly the rapidly urbanizing Global South.
 
 ![Urban street networks representing each of the six design paradigm clusters
-we found.]({{ site.url }}{{ site.baseurl
-}}/files/img/street-network-design-paradigms.png)
+we found.][3]
 
 From the abstract:
 
@@ -52,6 +50,10 @@ From the abstract:
 > evidence-informed practice in under-studied regions, particularly the rapidly
 > urbanizing Global South.
 
-For more, check out the [article](https://doi.org/10.1016/j.trd.2023.103961)
-itself in _Transportation Research Part D_. If you lack institutional access,
-here's a free open-access [preprint](https://doi.org/10.31235/osf.io/r32vj).
+For more, check out the [article][1] itself in _Transportation Research Part D_.
+If you lack institutional access, here's a free open-access [preprint][2].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1016/j.trd.2023.103961
+[2]: https://doi.org/10.31235/osf.io/r32vj
+[3]: {{ "/files/img/street-network-design-paradigms.png" | relative_url }}

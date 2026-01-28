@@ -5,13 +5,12 @@ date: 2023-02-09 10:06:08-08:00
 permalink: /2023/02/air-pollution-los-angeles/
 ---
 
-I have a new [article](https://doi.org/10.1177/00420980221145403) out now in
-_Urban Studies_, which finds that—all else equal—residents of Los Angeles census
-tracts that generate more vehicular travel tend to be exposed to less vehicular
-air pollution, and that tracts with a larger non-white population
-proportion—whether high- or low-income—experience more air pollution than do
-whiter but otherwise similar tracts. There's also a free, open access
-[pre- print](https://doi.org/10.31235/osf.io/wd92j) available.
+I have a new [article][1] out now in _Urban Studies_, which finds that—all else
+equal—residents of Los Angeles census tracts that generate more vehicular travel
+tend to be exposed to less vehicular air pollution, and that tracts with a
+larger non-white population proportion—whether high- or low-income—experience
+more air pollution than do whiter but otherwise similar tracts. There's also a
+free, open access [pre- print][2] available.
 
 Twentieth century planners designed and constructed an enormous network of
 expressways to open up growing American metropolises to motorists. Vast swaths
@@ -90,6 +89,9 @@ From the article's abstract:
 > and who is exposed to it, but opportunities exist for urban planning and
 > transport policy to mitigate this injustice.
 
-For more, check out the _Urban Studies_
-[article](https://doi.org/10.1177/00420980221145403) or the free, open access
-[pre-print](https://doi.org/10.31235/osf.io/wd92j).
+For more, check out the _Urban Studies_ [article][1] or the free, open access
+[pre-print][2].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1177/00420980221145403
+[2]: https://doi.org/10.31235/osf.io/wd92j

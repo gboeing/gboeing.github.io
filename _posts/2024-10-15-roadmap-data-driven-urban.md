@@ -5,10 +5,10 @@ date: 2024-10-15 12:55:14-07:00
 permalink: /2024/10/roadmap-data-driven-urban/
 ---
 
-I recently coauthored an [article](https://doi.org/10.1016/j.cities.2024.105340)
-in the journal _Cities_ titled "A Road Map for Future Data-Driven Urban Planning
-and Environmental Health Research." This arose from a symposium in Sitges, Spain
-which I was invited to last year by the Barcelona Institute for Global Health.
+I recently coauthored an [article][1] in the journal _Cities_ titled "A Road Map
+for Future Data-Driven Urban Planning and Environmental Health Research." This
+arose from a symposium in Sitges, Spain which I was invited to last year by the
+Barcelona Institute for Global Health.
 
 From the abstract:
 
@@ -23,4 +23,7 @@ From the abstract:
 > means of disease prevention and understanding context dependencies important
 > for policy.
 
-For more, check out the [article](https://doi.org/10.1016/j.cities.2024.105340).
+For more, check out the [article][1].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1016/j.cities.2024.105340

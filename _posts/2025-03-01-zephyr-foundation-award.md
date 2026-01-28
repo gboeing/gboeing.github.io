@@ -11,15 +11,17 @@ project that has had a positive impact on the fields or transportation and/or
 land use decision-making.
 
 This year will mark the 10th anniversary of my work on the OSMnx project. It
-recently reached [version 2.0]({{ site.url }}{{ site.baseurl
-}}/2024/12/osmnx-v2-released/) with a slew of new features and enhancements. If
-you haven't used it before, OSMnx is a Python package to easily download, model,
-analyze, and visualize street networks and any other geospatial features from
-OpenStreetMap. You can download and model walking, driving, or biking networks
-with a single line of code then quickly analyze and visualize them. You can just
-as easily work with urban amenities/points of interest, building footprints,
-transit stops, elevation data, street orientations, speed/travel time, and
-routing.
+recently reached [version 2.0][2] with a slew of new features and enhancements.
+If you haven't used it before, OSMnx is a Python package to easily download,
+model, analyze, and visualize street networks and any other geospatial features
+from OpenStreetMap. You can download and model walking, driving, or biking
+networks with a single line of code then quickly analyze and visualize them. You
+can just as easily work with urban amenities/points of interest, building
+footprints, transit stops, elevation data, street orientations, speed/travel
+time, and routing.
 
-If you're interested in this tool, you can
-[read more about it here](https://osmnx.readthedocs.io/).
+If you're interested in this tool, you can [read more about it here][1].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://osmnx.readthedocs.io/
+[2]: {{ "/2024/12/osmnx-v2-released/" | relative_url }}

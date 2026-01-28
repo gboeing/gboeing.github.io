@@ -8,10 +8,7 @@ permalink: /2015/11/landscape-us-rents/
 Which U.S. cities are the most expensive for rental housing? Where are rents
 rising the fastest? The American Community Survey (ACS) recently released its
 latest batch of 1-year data and I analyzed, mapped, and visualized it. My
-[methodology]({{ site.url }}{{ site.baseurl
-}}/2015/08/urban-informatics-visualization-berkeley/) is below, and my code and
-data are in this
-[GitHub repo](https://github.com/gboeing/data-visualization/tree/master/census-rents-2014).
+[methodology][5] is below, and my code and data are in this [GitHub repo][1].
 
 This interactive map shows median rents across the U.S. for every
 metro/micropolitan area. Click any one for details on population, rent, and
@@ -22,7 +19,7 @@ The expensive coastal cities' median rents form a red line snaking along the
 western and eastern seaboards. The nation's blue interior has lower rents.
 
 ![Most expensive cities in the US: United States metro areas by 2014 median
-rent]({{ site.url }}{{ site.baseurl }}/files/img/median_rent_msa-labels.png)
+rent][10]
 
 But when you switch to the percent _change_ in median rent since 2010, the
 coasts cool off somewhat and the interior - especially east of the Rockies -
@@ -30,8 +27,7 @@ warms up. Inland rents seem to be lower than those on the coasts, but also seem
 to have risen at a quicker rate since 2010.
 
 ![Most expensive cities in the US: United States metro areas by percent
-increase in median rent between 2010 and 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/rent_change_msa-labels.png)
+increase in median rent between 2010 and 2014][11]
 
 ## Cities with the most expensive rents
 
@@ -39,8 +35,7 @@ Here are the U.S. metro areas with the highest rents (listed by principle city),
 along with the median rent's percentage change since 2010:
 
 ![Most expensive cities in the United States: the US metro areas with the
-highest median rent in 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/highest-median-rent-2014.png)
+highest median rent in 2014][8]
 
 The list of most expensive cities is dominated by California, which comprises 10
 of the top 15. Cities around the Bay Area also have particularly large increases
@@ -49,29 +44,24 @@ until #15. By contrast, here are the U.S. metro areas with the _fastest rising_
 median rents since 2010:
 
 ![Most expensive cities in the United States: the US metro areas with the
-fastest rising rents]({{ site.url }}{{ site.baseurl
-}}/files/img/greatest-rent-increases-2014.png)
+fastest rising rents][7]
 
 This list is largely composed of smaller cities, with plenty of representation
-from [Texas](https://www.latimes.com/nation/la-na-texas-oil-20150303-story.html)
-and
-[North Dakota](https://www.nytimes.com/2015/08/09/travel/north-dakota-oil-boom.html)
-\- each experienced a major oil boom and housing shortage in 2014. The median
-rent in Odessa, TX rose 74% between 2010 and 2014, and the rent in Minot, ND
-rose 65%. Overall, 2014 median rents are closely correlated with 2010 median
-rents. This scatter plot depicts the 2014 vs 2010 median rents for each metro
-area, with a simple regression line showing their relationship:
+from [Texas][3] and [North Dakota][4] - each experienced a major oil boom and
+housing shortage in 2014. The median rent in Odessa, TX rose 74% between 2010
+and 2014, and the rent in Minot, ND rose 65%. Overall, 2014 median rents are
+closely correlated with 2010 median rents. This scatter plot depicts the 2014 vs
+2010 median rents for each metro area, with a simple regression line showing
+their relationship:
 
-![scatter-rent-change-2010-2014]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent-change-2010-2014.png)
+![scatter-rent-change-2010-2014][12]
 
 And what about fast growing cities? Do they have faster rising rents? Not
 really. The next scatter plot depicts the percent change in median rent vs the
 percent change in population for each metro area: faster growing metros tend to
 have _slightly_ faster rising rents, but the relationship is very weak.
 
-![scatter-rent-pop-change-2010-14]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent-pop-change-2010-14.png)
+![scatter-rent-pop-change-2010-14][13]
 
 Faster-growing cities do not necessarily have faster-rising rents. There are
 clearly other factors at play.
@@ -82,8 +72,7 @@ Here are the U.S. metro areas with the least expensive rents, along with the
 median rent's percent change since 2010:
 
 ![Least expensive cities in the United States: the US metro areas with the
-lowest median rent in 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/lowest-median-rent-2014.png)
+lowest median rent in 2014][9]
 
 The least expensive rents are concentrated in small towns and predominantly in
 the South. Talladega, Alabama has the lowest rent in the country by a
@@ -94,8 +83,7 @@ By contrast, here are the U.S. metro areas with the _fastest falling_ median
 rents since 2010:
 
 ![Least expensive cities in the United States: the US metro areas with the
-fastest decreasing rents]({{ site.url }}{{ site.baseurl
-}}/files/img/greatest-rent-decreases-2014.png)
+fastest decreasing rents][6]
 
 Talladega pops up here again and the list of cities with the greatest decrease
 in median rent is peppered with small towns across the US. But if anyone's
@@ -117,8 +105,7 @@ many latent factors at play. This scatter plot depicts the 2014 median rent vs
 the (log of) 2014 population of each metro area:
 
 ![U.S. cities (metro areas) with larger populations tend to have slightly
-higher rents]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent-pop-log-2010-14.png)
+higher rents][14]
 
 Rents rise and fall for many reasons. Jobs come and go, local economies boom and
 bust. Fed monetary policy and inflation affect nominal rents. Cities restrict
@@ -138,12 +125,10 @@ it does not disambiguate the current market for available units.
 ## Methodology
 
 All of the data and code for my maps, analysis, tables, and plots are available
-[on GitHub](https://github.com/gboeing/data-visualization/tree/master/census-rents-2014).
-The 2014 rent data was just released in
-[September](https://www.census.gov/programs-surveys/acs/news/data-releases/2014/release-schedule.html).
-I downloaded the 2010 and 2014 ACS median contract rent data and annual
-estimates of population from 2010-2014 from the Census Bureau's American
-FactFinder web site.
+[on GitHub][1]. The 2014 rent data was just released in [September][2]. I
+downloaded the 2010 and 2014 ACS median contract rent data and annual estimates
+of population from 2010-2014 from the Census Bureau's American FactFinder web
+site.
 
 These data sets cover every U.S. metropolitan and micropolitan area for which
 the ACS gathers rent data. Some metro area names and IDs changed between 2010
@@ -152,8 +137,21 @@ the principle city/state and geocoded it to latitude-longitude for mapping.
 
 I did all the analysis and static mapping in Python with pandas and basemap. I
 made the interactive map with Leaflet. For more on these methods, check out our
-[Urban Informatics and Visualization]({{ site.url }}{{ site.baseurl
-}}/2015/08/urban-informatics-visualization-berkeley/) course at UC Berkeley or
-see my
-[GitHub repo](https://github.com/gboeing/data-visualization/tree/master/census-rents-2014)
-for the code.
+[Urban Informatics and Visualization][5] course at UC Berkeley or see my
+[GitHub repo][1] for the code.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://github.com/gboeing/data-visualization/tree/master/census-rents-2014
+[2]: https://www.census.gov/programs-surveys/acs/news/data-releases/2014/release-schedule.html
+[3]: https://www.latimes.com/nation/la-na-texas-oil-20150303-story.html
+[4]: https://www.nytimes.com/2015/08/09/travel/north-dakota-oil-boom.html
+[5]: {{ "/2015/08/urban-informatics-visualization-berkeley/" | relative_url }}
+[6]: {{ "/files/img/greatest-rent-decreases-2014.png" | relative_url }}
+[7]: {{ "/files/img/greatest-rent-increases-2014.png" | relative_url }}
+[8]: {{ "/files/img/highest-median-rent-2014.png" | relative_url }}
+[9]: {{ "/files/img/lowest-median-rent-2014.png" | relative_url }}
+[10]: {{ "/files/img/median_rent_msa-labels.png" | relative_url }}
+[11]: {{ "/files/img/rent_change_msa-labels.png" | relative_url }}
+[12]: {{ "/files/img/scatter-rent-change-2010-2014.png" | relative_url }}
+[13]: {{ "/files/img/scatter-rent-pop-change-2010-14.png" | relative_url }}
+[14]: {{ "/files/img/scatter-rent-pop-log-2010-14.png" | relative_url }}

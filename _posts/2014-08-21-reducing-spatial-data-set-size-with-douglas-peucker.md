@@ -6,31 +6,23 @@ permalink: /2014/08/reducing-spatial-data-set-size-with-douglas-peucker/
 ---
 
 In a previous post I discussed how to [reduce the size of a spatial data set by
-clustering]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/). Too many data points in
-a visualization can overwhelm the user and bog down on-the-fly client-side map
-rendering (for example, with a javascript tool like [Leaflet]({{ site.url }}{{
-site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/)). So, I used
-the DBSCAN clustering algorithm to reduce
-[my data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
-from 1,759 rows to 158 spatially-representative points. This [series of
-posts]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels/)
-discusses this data set in depth.
+clustering][6]. Too many data points in a visualization can overwhelm the user
+and bog down on-the-fly client-side map rendering (for example, with a
+javascript tool like [Leaflet][8]). So, I used the DBSCAN clustering algorithm
+to reduce [my data set][3] from 1,759 rows to 158 spatially-representative
+points. This [series of posts][9] discusses this data set in depth.
 
 ## The Douglas-Peucker algorithm
 
 Today I'll show another method for reducing the size of a spatial data set in
-Python using the [shapely](https://pypi.python.org/pypi/Shapely) package's
-implementation of the
-[Douglas- Peucker](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm)
-algorithm. Douglas-Peucker reduces the number of points in a curve composed of
-line segments by recursively dividing the line. The final result is a subset of
-points from the original curve.
+Python using the [shapely][5] package's implementation of the [Douglas-
+Peucker][1] algorithm. Douglas-Peucker reduces the number of points in a curve
+composed of line segments by recursively dividing the line. The final result is
+a subset of points from the original curve.
 
-All of my code is available in this
-[GitHub repo](https://github.com/gboeing/2014-summer-travels), particularly this
-[IPython notebook](https://github.com/gboeing/2014-summer-travels/blob/master/shapely-simplify.ipynb).
-Let's begin. First I import the necessary modules and load the full data set:
+All of my code is available in this [GitHub repo][2], particularly this
+[IPython notebook][4]. Let's begin. First I import the necessary modules and
+load the full data set:
 
 ```python
 import pandas as pd, numpy as np, matplotlib.pyplot as plt
@@ -64,9 +56,8 @@ float(len(line.coords))) * 100), 1), 'percent compressed'
 The Douglas-Peucker algorithm reduced the size of the data set by about 90%,
 from 1,759 data points in the original full set to 178 points in the new reduced
 data set. That's not bad - these stats are comparable to [results from
-clustering]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/). Now let's save the
-simplified set of coordinates as a new pandas dataframe:
+clustering][6]. Now let's save the simplified set of coordinates as a new
+pandas dataframe:
 
 ```python
 lon = pd.Series(pd.Series(simplified_line.coords.xy)[1])
@@ -77,13 +68,11 @@ si.tail()
 
 ## Find matching points in the original data set
 
-The original full data set was [reverse-geocoded]({{ site.url }}{{
-site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) and
-included city/country data and timestamps. The simplified set however only
-contains coordinate lat-long data. So, I'll write a short routine that, for each
-row in the simplified set, finds the row label of the row that contains its
-matching lat-long coordinates in the original full set.
+The original full data set was [reverse-geocoded][7] and included city/country
+data and timestamps. The simplified set however only contains coordinate
+lat-long data. So, I'll write a short routine that, for each row in the
+simplified set, finds the row label of the row that contains its matching
+lat-long coordinates in the original full set.
 
 First I add a new column to the simplified set to contain the index of the
 matching row from the original full data set. Then for each row in the
@@ -134,15 +123,24 @@ left')
 plt.show()
 ```
 
-![shapely-simplified-vs-full]({{ site.url }}{{ site.baseurl
-}}/files/img/shapely-simplified-vs-full.png)
+![shapely-simplified-vs-full][10]
 
-The
-[new reduced data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
-closely approximates the spatial distribution of the original full data set. You
-can compare it to the results I got [by clustering]({{ site.url }}{{
-site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set-size/): the
-Douglas-Peucker gave us a better reduced data set than the k-means clustering
-algorithm did, and one comparable to result of the DBSCAN clustering algorithm.
+The [new reduced data set][3] closely approximates the spatial distribution of
+the original full data set. You can compare it to the results I got [by
+clustering][6]: the Douglas-Peucker gave us a better reduced data set than
+the k-means clustering algorithm did, and one comparable to result of the DBSCAN
+clustering algorithm.
 
 Now you can visualize the data set in more interesting ways.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
+[2]: https://github.com/gboeing/2014-summer-travels
+[3]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv
+[4]: https://github.com/gboeing/2014-summer-travels/blob/master/shapely-simplify.ipynb
+[5]: https://pypi.python.org/pypi/Shapely
+[6]: {{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}
+[7]: {{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}
+[8]: {{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}
+[9]: {{ "/2014/08/visualizing-summer-travels/" | relative_url }}
+[10]: {{ "/files/img/shapely-simplified-vs-full.png" | relative_url }}

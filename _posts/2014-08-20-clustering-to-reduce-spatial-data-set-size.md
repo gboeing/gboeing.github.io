@@ -5,14 +5,13 @@ date: 2014-08-20 23:55:59-07:00
 permalink: /2014/08/clustering-to-reduce-spatial-data-set-size/
 ---
 
-_Read/cite the [paper here](https://osf.io/preprints/socarxiv/nzhdc/)._
+_Read/cite the [paper here][6]._
 
 In this tutorial, I demonstrate how to reduce the size of a spatial data set of
 GPS latitude-longitude coordinates using Python and its scikit-learn
 implementation of the DBSCAN clustering algorithm. All my code is in this
-[IPython notebook](https://github.com/gboeing/2014-summer-travels/blob/master/clustering-scikitlearn.ipynb)
-in this [GitHub repo](https://github.com/gboeing/2014-summer-travels), where you
-can also find the data.
+[IPython notebook][4] in this [GitHub repo][3], where you can also find the
+data.
 
 Traditionally it's been a problem that researchers did not have enough spatial
 data to answer useful questions or build compelling visualizations. Today,
@@ -27,21 +26,13 @@ How can we reduce the size of a data set down to a smaller set of spatially
 representative points? Consider a spatial data set with 1,759 latitude-
 longitude coordinates. This manageable data set is not too large to map, but it
 serves as a useful object for this tutorial (for a more complex example
-clustering 1.2 million GPS coordinates, see [this project]({{ site.url
-}}{{site.baseurl }}/2016/06/mapping-everywhere-ever-been/)).
+clustering 1.2 million GPS coordinates, see [this project][12]).
 
-I have discussed this data set in a [series of posts]({{ site.url }}{{
-site.baseurl }}/2014/08/visualizing-summer-travels/ "Visualizing Summer
-Travels"), and reverse-geocoded the coordinates to [add city and country]({{
-site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) data.
-Here is a simple Python [matplotlib]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/ "Visualizing
-Summer Travels Part 5: Python + Matplotlib") scatter plot of all the coordinates
-in the full data set:
+I have discussed this data set in a [series of posts][11], and reverse-geocoded
+the coordinates to [add city and country][9] data. Here is a simple Python
+[matplotlib][10] scatter plot of all the coordinates in the full data set:
 
-![DBSCAN clustering of GPS latitude longitude spatial data]({{ site.url }}{{
-site.baseurl }}/files/img/scatter-full-set.png)
+![DBSCAN clustering of GPS latitude longitude spatial data][14]
 
 At this scale, only a few dozen of the 1,759 data points are really visible.
 Even zoomed in very close, several locations have hundreds of data points
@@ -86,11 +77,10 @@ would be missing from any clusters, and increasing the number of clusters would
 still leave patchy gaps throughout the reduced data set.
 
 Instead, let's use an algorithm that works better with arbitrary distances:
-scikit-learn's implementation of the
-[DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html)
-algorithm. DBSCAN clusters a spatial data set based on two parameters: a
-physical distance from each point, and a minimum cluster size. This method works
-much better for spatial latitude-longitude data.
+scikit-learn's implementation of the [DBSCAN][7] algorithm. DBSCAN clusters a
+spatial data set based on two parameters: a physical distance from each point,
+and a minimum cluster size. This method works much better for spatial
+latitude-longitude data.
 
 ## Spatial data clustering with DBSCAN
 
@@ -114,12 +104,9 @@ classified as noise). I'll set _min_samples_ to 1 so that every data point gets
 assigned to either a cluster or forms its own cluster of 1. Nothing will be
 classified as noise.
 
-I use the [haversine](https://en.wikipedia.org/wiki/Haversine_formula) metric
-and
-[ball tree](https://scikit-learn.org/stable/modules/neighbors.html#ball-tree)
-algorithm to calculate great circle distances between points. Notice my epsilon
-and coordinates get converted to radians, because scikit-learn's haversine
-metric needs radian units:
+I use the [haversine][1] metric and [ball tree][8] algorithm to calculate great
+circle distances between points. Notice my epsilon and coordinates get converted
+to radians, because scikit-learn's haversine metric needs radian units:
 
 ```python
 kms_per_radian = 6371.0088
@@ -164,9 +151,8 @@ The function above first calculates the centroid's coordinates. Then I use
 Python's built-in _min_ function to find the smallest member of the cluster in
 terms of distance to that centroid. The _key_ argument does this with a lambda
 function that calculates each point's distance to the centroid in meters, via
-geopy's [great circle](https://geopy.readthedocs.org) function. Finally, I
-return the coordinates of the point that was the least distance from the
-centroid.
+geopy's [great circle][2] function. Finally, I return the coordinates of the
+point that was the least distance from the centroid.
 
 To use this function, I map it to my pandas series of clusters. In other words,
 for each element (i.e., cluster) in the series, it gets the center-most point
@@ -212,8 +198,7 @@ right')
 plt.show()
 ```
 
-![DBSCAN clustering of GPS latitude-longitude spatial data]({{ site.url }}{{
-site.baseurl }}/files/img/dbscan-clustering-spatial-gps-lat-long-data.png)
+![DBSCAN clustering of GPS latitude-longitude spatial data][13]
 
 Looks good! You can see the 138 representative points, in green, approximating
 the spatial distribution of the 1,759 points of the full data set, in black.
@@ -230,9 +215,23 @@ points represents the full data set:
 
 Now I can save the final reduced data set to CSV and use it in other
 applications that need a low-overhead spatial data set to render a visualization
-quickly and responsively. In particular, you might be interested in
-[this notebook](https://github.com/gboeing/data-visualization/blob/master/location-history/google-location-history-cluster.ipynb)
-that uses this technique to cluster 1.2 million spatial data points and [this
-post]({{ site.url }}{{ site.baseurl }}/2016/06/mapping-everywhere-ever-been/)
-about that project. You can also read the
-[paper here](https://osf.io/preprints/socarxiv/nzhdc/).
+quickly and responsively. In particular, you might be interested in [this
+notebook][5] that uses this technique to cluster 1.2 million spatial data
+points and [this post][12] about that project. You can also read the [paper
+here][6].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://en.wikipedia.org/wiki/Haversine_formula
+[2]: https://geopy.readthedocs.org
+[3]: https://github.com/gboeing/2014-summer-travels
+[4]: https://github.com/gboeing/2014-summer-travels/blob/master/clustering-scikitlearn.ipynb
+[5]: https://github.com/gboeing/data-visualization/blob/master/location-history/google-location-history-cluster.ipynb
+[6]: https://osf.io/preprints/socarxiv/nzhdc/
+[7]: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html
+[8]: https://scikit-learn.org/stable/modules/neighbors.html#ball-tree
+[9]: {{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}
+[10]: {{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}
+[11]: {{ "/2014/08/visualizing-summer-travels/" | relative_url }}
+[12]: {{ "/2016/06/mapping-everywhere-ever-been/" | relative_url }}
+[13]: {{ "/files/img/dbscan-clustering-spatial-gps-lat-long-data.png" | relative_url }}
+[14]: {{ "/files/img/scatter-full-set.png" | relative_url }}

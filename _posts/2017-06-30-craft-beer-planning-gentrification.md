@@ -5,9 +5,7 @@ date: 2017-06-30 21:14:42-07:00
 permalink: /2017/06/craft-beer-planning-gentrification/
 ---
 
-I co-authored [a chapter]({{ site.url }}{{ site.baseurl
-}}/publications/craft-beer-neighborhood-change/) in the
-[new book](https://wvupressonline.com/node/663) _Untapped: Exploring the
+I co-authored [a chapter][5] in the [new book][1] _Untapped: Exploring the
 Cultural Dimensions of Craft Beer_ with the estimable Jesus Barajas and Julie
 Wartell. Our chapter is titled "Neighborhood Change, One Pint at a Time" and it
 explores the relationship between craft breweries, urban planning and policy,
@@ -28,8 +26,7 @@ neglected historic neighborhoods.
 
 ![Locations of craft breweries and brew pubs across the United States.
 California, Colorado, Oregon, Washington, Michigan have the most craft beer
-locations.]({{ site.url }}{{ site.baseurl
-}}/files/img/beer-locations-map-1024x742.png)
+locations.][2]
 
 Do breweries instigate revitalization, gentrification, or displacement? To date,
 there hasn't been clear evidence of the relationship (or even the causal
@@ -44,16 +41,14 @@ followed by other western states:
 
 ![Locations of craft breweries and brew pubs across the United States.
 California, Colorado, Oregon, Washington, Michigan have the most craft beer
-locations.]({{ site.url }}{{ site.baseurl
-}}/files/img/states-beer-locations-big-1024x683.png)
+locations.][3]
 
 We can also break these locations out by type—that is, breweries versus brew
 pubs:
 
 ![Locations of craft breweries and brew pubs across the United States.
 California, Colorado, Oregon, Washington, Michigan have the most craft beer
-locations.]({{ site.url }}{{ site.baseurl
-}}/files/img/states-beer-locations-type-big-1024x683.png)
+locations.][4]
 
 Neighborhoods with craft breweries tend to have densities equivalent to inner-
 ring suburbs. They also tend to have more white residents, a higher proportion
@@ -73,5 +68,11 @@ Displacement of longtime residents is a key challenge facing economic
 revitalization of disinvested neighborhoods. We advocate for urban planners to
 recognize the potential importance of craft breweries in neighborhood
 revitalization while also protecting residents from displacement. Read more in
-[the chapter]({{ site.url }}{{ site.baseurl
-}}/publications/craft-beer-neighborhood-change/).
+[the chapter][5].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://wvupressonline.com/node/663
+[2]: {{ "/files/img/beer-locations-map-1024x742.png" | relative_url }}
+[3]: {{ "/files/img/states-beer-locations-big-1024x683.png" | relative_url }}
+[4]: {{ "/files/img/states-beer-locations-type-big-1024x683.png" | relative_url }}
+[5]: {{ "/publications/craft-beer-neighborhood-change/" | relative_url }}

@@ -6,27 +6,24 @@ permalink: /2018/08/epb-street-networks-article/
 ---
 
 My article, "[A Multi-Scale Analysis of 27,000 Urban Street Networks: Every US
-City, Town, Urbanized Area, and Zillow Neighborhood]({{ site.url }}{{
-site.baseurl }}/publications/multiscale-analysis-street-networks/)," was
-recently published in _Environment and Planning B: Urban Analytics and City
-Science_. This study uses [OSMnx]({{ site.url }}{{ site.baseurl
-}}/2018/03/osmnx-features-roundup/) to download and analyze 27,000 street
-networks from OpenStreetMap at metropolitan, municipal, and neighborhood scales
-\- namely, every US city and town, census urbanized area, and Zillow-defined
-neighborhood. It illustrates the use of OSMnx and OpenStreetMap to consistently
-conduct street network analysis with extremely large sample sizes, with clearly
-defined network definitions and extents for reproducibility, and using
-nonplanar, directed graphs.
+City, Town, Urbanized Area, and Zillow Neighborhood][6]," was recently
+published in _Environment and Planning B: Urban Analytics and City Science_.
+This study uses [OSMnx][2] to download and analyze 27,000 street networks from
+OpenStreetMap at metropolitan, municipal, and neighborhood scales - namely,
+every US city and town, census urbanized area, and Zillow-defined neighborhood.
+It illustrates the use of OSMnx and OpenStreetMap to consistently conduct street
+network analysis with extremely large sample sizes, with clearly defined network
+definitions and extents for reproducibility, and using nonplanar, directed
+graphs.
 
 These 27,000 street networks as well as their measures have been shared in a
-free public repository at the
-[Harvard Dataverse](https://dataverse.harvard.edu/dataverse/osmnx-street-networks)
-for anyone to re-purpose. This study's empirical findings emphasize measures
-relevant to graph theory, transportation, urban design, and morphology, such as
-structure, connectedness, density, centrality, and resilience. It uses graph
-Maximum Betweenness Centrality and Average Node Connectivity to examine how
-"resilient" a street network is, in terms of how reliant it is on important
-nodes and how easy it is to disconnect it.
+free public repository at the [Harvard Dataverse][1] for anyone to re-purpose.
+This study's empirical findings emphasize measures relevant to graph theory,
+transportation, urban design, and morphology, such as structure, connectedness,
+density, centrality, and resilience. It uses graph Maximum Betweenness
+Centrality and Average Node Connectivity to examine how "resilient" a street
+network is, in terms of how reliant it is on important nodes and how easy it is
+to disconnect it.
 
 The characteristics of city street networks fundamentally depend on what "city"
 means: municipal boundaries, urbanized areas, or certain central neighborhoods?
@@ -42,8 +39,7 @@ planners a clearer view of the urban form and the topological and metric
 character of the street network than any single scale can.
 
 ![Simple regression shows the linear relationship between number of nodes in
-city street network graph and length of roads.]({{ site.url }}{{ site.baseurl
-}}/files/img/usa-street-networks-length-vs-nodes-1024x330.png)
+city street network graph and length of roads.][4]
 
 This analysis finds a strong linear relationship, across scales, between total
 street length and the number of nodes in a network (figure above). This differs
@@ -61,8 +57,7 @@ with consistent block sizes, platted at one time, and never subjected to
 expansion or sprawl.
 
 ![Map of intersection density and average streets per node for US urbanized
-area street networks]({{ site.url }}{{ site.baseurl
-}}/files/img/usa-urbanized-areas-street-networks-1024x398.png)
+area street networks][5]
 
 Looking across US urbanized areas, we can see clear patterns in intersection
 density and the average number of streets per node (figure above). The former
@@ -77,9 +72,7 @@ regulations, urban design paradigms, and planning instruments remain clearly
 etched in these cities' urban forms and street networks today.
 
 ![Average streets per node and street segment length for every US city and
-town, aggregated to the state-level and choropleth mapped by median value.]({{
-site.url }}{{ site.baseurl
-}}/files/img/usa-city-street-networks-state-aggregation-1024x414.png)
+town, aggregated to the state-level and choropleth mapped by median value.][3]
 
 For instance (and unsurprising given this history), if we measure the average
 number of streets per node at the city-scale and then aggregate these cities by
@@ -93,7 +86,13 @@ little afterwards, unlike, for instance, cities in California that were settled
 in the same era but later subjected to sprawl and late 20th century
 planning/design paradigms.
 
-For more, check out the [article here]({{ site.url }}{{ site.baseurl
-}}/publications/multiscale-analysis-street-networks/) or [see here]({{
-site.url }}{{ site.baseurl }}/2018/03/osmnx-features-roundup/) for more info on
+For more, check out the [article here][6] or [see here][2] for more info on
 OSMnx.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://dataverse.harvard.edu/dataverse/osmnx-street-networks
+[2]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}
+[3]: {{ "/files/img/usa-city-street-networks-state-aggregation-1024x414.png" | relative_url }}
+[4]: {{ "/files/img/usa-street-networks-length-vs-nodes-1024x330.png" | relative_url }}
+[5]: {{ "/files/img/usa-urbanized-areas-street-networks-1024x398.png" | relative_url }}
+[6]: {{ "/publications/multiscale-analysis-street-networks/" | relative_url }}

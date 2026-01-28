@@ -10,8 +10,7 @@ permalink: /publications/tilted-platforms-housing-oligopolies/
 Platforms: Rental Housing Technology and the Rise of Urban Big Data
 Oligopolies." _Urban Transformations_, 3, 6. doi:10.1186/s42854-021-00024-2
 
-Download PDF from
-[Urban Transformations](https://doi.org/10.1186/s42854-021-00024-2)
+Download PDF from [Urban Transformations][1]
 
 ## Abstract
 
@@ -34,3 +33,6 @@ of which data are available. Finally, important differences in benefits and
 drawbacks exist between short-term and long-term rental housing platforms, but
 are underexplored in the literature: this article unpacks these differences and
 proposes policy recommendations.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1186/s42854-021-00024-2

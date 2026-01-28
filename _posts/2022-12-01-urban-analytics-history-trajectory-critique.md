@@ -5,11 +5,10 @@ date: 2022-12-01 04:47:56-08:00
 permalink: /2022/12/urban-analytics-history-trajectory-critique/
 ---
 
-I have a new [chapter](https://doi.org/10.4337/9781789903942.00039) titled
-"Urban Analytics: History, Trajectory and Critique," co-authored with Mike
-Batty, Shan Jiang, and Lisa Schweitzer, now published in the _Handbook of
-Spatial Analysis in the Social Sciences_, edited by Serge Rey and Rachel
-Franklin.
+I have a new [chapter][1] titled "Urban Analytics: History, Trajectory and
+Critique," co-authored with Mike Batty, Shan Jiang, and Lisa Schweitzer, now
+published in the _Handbook of Spatial Analysis in the Social Sciences_, edited
+by Serge Rey and Rachel Franklin.
 
 From our abstract:
 
@@ -30,4 +29,7 @@ From our abstract:
 > recognizes its epistemological limits, emphasizes human dignity, and learns
 > from and supports marginalized communities.
 
-For more, check out the [chapter](https://doi.org/10.4337/9781789903942.00039).
+For more, check out the [chapter][1].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.4337/9781789903942.00039

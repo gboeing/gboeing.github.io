@@ -6,32 +6,25 @@ permalink: /2019/11/big-data-urban-morphology/
 ---
 
 My new article "[Spatial Information and the Legibility of Urban Form: Big Data
-in Urban Morphology]({{ site.url }}{{ site.baseurl
-}}/publications/spatial-information-urban-morphology/)" has been published in
-the _International Journal of Information Management_ (download [free PDF]({{
-site.url }}{{ site.baseurl
-}}/publications/spatial-information-urban-morphology/)). It builds on recent
-work by Crooks et al, presenting workflows to integrate data-driven and
-narrative approaches to urban morphology in today's era of ubiquitous urban big
-data. It situates this theoretically in the visual culture of planning to
-present a visualization-mediated interpretative process of data-driven urban
-morphology, focusing on transportation infrastructure via [OSMnx]({{ site.url
-}}{{ site.baseurl }}/2018/03/osmnx-features-roundup/).
+in Urban Morphology][10]" has been published in the _International Journal of
+Information Management_ (download [free PDF][10]). It builds on recent work by
+Crooks et al, presenting workflows to integrate data-driven and narrative
+approaches to urban morphology in today's era of ubiquitous urban big data. It
+situates this theoretically in the visual culture of planning to present a
+visualization-mediated interpretative process of data-driven urban morphology,
+focusing on transportation infrastructure via [OSMnx][2].
 
 ![OSMnx: Figure-ground diagrams of one square mile of each street network, from
-OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
-site.url }}{{ site.baseurl
-}}/files/img/square-mile-street-networks-1024x822.jpg)
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX][6]
 
-Above, we see one square mile [figure-ground diagrams]({{ site.url }}{{
-site.baseurl }}/2017/03/urban-form-figure-ground/) from 12 cities around the
-world. At the top-left, Portland, Oregon and San Francisco, California typify
-the late 19th century American orthogonal grid. Portland's famously compact,
-walkable, 200-foot × 200-foot blocks are clearly visible but its grid is
-interrupted by the Interstate 405 freeway which tore through the central city in
-the 1960s. In the middle-left, the business park in suburban Irvine, California
-demonstrates the coarse-grained, modernist, auto-centric form that characterized
-American urbanization in the latter half of the 20th century.
+Above, we see one square mile [figure-ground diagrams][1] from 12 cities around
+the world. At the top-left, Portland, Oregon and San Francisco, California
+typify the late 19th century American orthogonal grid. Portland's famously
+compact, walkable, 200-foot × 200-foot blocks are clearly visible but its grid
+is interrupted by the Interstate 405 freeway which tore through the central city
+in the 1960s. In the middle-left, the business park in suburban Irvine,
+California demonstrates the coarse-grained, modernist, auto-centric form that
+characterized American urbanization in the latter half of the 20th century.
 
 In stark contrast, Rome has a more fine-grained, complex, organic form that
 evolved over millennia of self-organization and urban planning. Representing
@@ -88,14 +81,12 @@ neighborhoods. The cities they represent are drawn from across the United
 States, Europe, North Africa, the Arabian Peninsula, and East Asia. Yet street
 network patterns also vary greatly within cities: Portland's suburban east and
 west sides look different than its downtown, and Sacramento's compact, grid-like
-downtown looks different than its residential suburbs—a [finding true]({{
-site.url }}{{ site.baseurl }}/publications/multiscale-analysis-street-networks/)
-of many American cities.
+downtown looks different than its residential suburbs—a [finding true][9] of
+many American cities.
 
 ![Figure-ground map of building footprints and street network in New York, San
 Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
-Python with OSMnx]({{ site.url }}{{ site.baseurl
-}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)
+Python with OSMnx][4]
 
 In the image above, we use OSMnx to visualize street networks along with
 building footprints. At the top-left, we see the densely built form of Midtown
@@ -117,18 +108,16 @@ median area of just 34 square meters.
 
 ![Figure-ground diagrams of urban form and building footprints in London,
 Paris, Venice, and Brasilia depict modernism's inversion of traditional spatial
-order]({{ site.url }}{{ site.baseurl
-}}/files/img/square-mile-urban-form-venice-london-paris-brasilia-963x1024.jpg)
+order][7]
 
 Visualizing spatial information can also reveal the state assertion of power and
-modernism's inversion of traditional [urban spatial order]({{ site.url }}{{
-site.baseurl }}/publications/urban-spatial-order-entropy/). In pre-industrial
-cities, the figure dominates the ground (only scattered open space between
-buildings) as seen in the image above. But in modernist cities, the ground
-dominates the figure as only a few scattered buildings are positioned as
-sculptural elements across the landscape's void. The modernist paradigm sought
-to open up the dense, messy, and complex urban fabric with towers-in-the-park,
-spacing, highways, and functional simplicity.
+modernism's inversion of traditional [urban spatial order][11]. In
+pre-industrial cities, the figure dominates the ground (only scattered open
+space between buildings) as seen in the image above. But in modernist cities,
+the ground dominates the figure as only a few scattered buildings are positioned
+as sculptural elements across the landscape's void. The modernist paradigm
+sought to open up the dense, messy, and complex urban fabric with
+towers-in-the-park, spacing, highways, and functional simplicity.
 
 This phenomenon is clearly seen in Brasília, the modernist capital of Brazil,
 designed as a planned city in the 1950s by Lúcio Costa, Oscar Niemeyer, and
@@ -140,21 +129,18 @@ human activities and social relations.
 
 ![Urban street network grid orientations, rose plot, polar histogram made with
 Python, OSMnx, OpenStreetMap, matplotlib. New York City and its five boroughs,
-Manhattan, Brooklyn, Queens, The Bronx, Staten Island]({{ site.url }}{{
-site.baseurl }}/files/img/street-orientation-new-york-1024x721.jpg)
+Manhattan, Brooklyn, Queens, The Bronx, Staten Island][8]
 
-The [rose diagrams]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban-street-network-orientation/) above offer another perspective on
-visualizing this structural ordering of the city, in this case New York City.
-Each visualizes the orientation (compass bearing) of the borough's street
-segments, with bins representing 10-degrees around the compass and bar lengths
-representing relative frequency (for complete methodological details and
-theoretical development [see here]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban-street-network-orientation/)). For example, in Manhattan's rose
-diagram we can see the spatial order produced by its dominant orthogonal grid as
-its street bearings are primarily captured in four bins, offset from true North.
-The other boroughs have higher entropy street orientations, not adhering as
-strictly to the ordering logic of a single grid.
+The [rose diagrams][3] above offer another perspective on visualizing this
+structural ordering of the city, in this case New York City. Each visualizes the
+orientation (compass bearing) of the borough's street segments, with bins
+representing 10-degrees around the compass and bar lengths representing relative
+frequency (for complete methodological details and theoretical development [see
+here][3]). For example, in Manhattan's rose diagram we can see the spatial
+order produced by its dominant orthogonal grid as its street bearings are
+primarily captured in four bins, offset from true North. The other boroughs have
+higher entropy street orientations, not adhering as strictly to the ordering
+logic of a single grid.
 
 In the image below, we see rose diagrams of 25 cities (municipalities) around
 the world. This study scale aggregates heterogeneous neighborhoods into a single
@@ -178,8 +164,7 @@ massive and rapid urbanization in recent years.
 Python, OSMnx, OpenStreetMap, matplotlib. Bangkok, Barcelona, Beijing, Budapest,
 Cairo, Delhi, Dubai, Glasgow, Hong Kong, Lagos, London, Madrid, Melbourne,
 Mexico City, Moscow, Mumbai, Munich, Paris, Rio de Janeiro, Rome, Seoul, Sydney,
-Tehran, Toronto, Warsaw, Tokyo, Berlin, Venice]({{ site.url }}{{ site.baseurl
-}}/files/img/city-street-orientations-world-osmnx-930x1024.png)
+Tehran, Toronto, Warsaw, Tokyo, Berlin, Venice][5]
 
 Data-driven urban morphology explores urban form by modeling spatial data to
 trace histories, configurations, and orientations in physical space—but it
@@ -192,5 +177,17 @@ history in different parts of the world, the better we are able to read their
 built environment." Urban spatial data must be contextually interpreted to
 become meaningful information about form and its evolution.
 
-For more, check out [the article]({{ site.url }}{{ site.baseurl
-}}/publications/spatial-information-urban-morphology/) itself in IJIM.
+For more, check out [the article][10] itself in IJIM.
+
+<!-- markdownlint-disable MD013 -->
+[1]: {{ "/2017/03/urban-form-figure-ground/" | relative_url }}
+[2]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}
+[3]: {{ "/2019/09/urban-street-network-orientation/" | relative_url }}
+[4]: {{ "/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png" | relative_url }}
+[5]: {{ "/files/img/city-street-orientations-world-osmnx-930x1024.png" | relative_url }}
+[6]: {{ "/files/img/square-mile-street-networks-1024x822.jpg" | relative_url }}
+[7]: {{ "/files/img/square-mile-urban-form-venice-london-paris-brasilia-963x1024.jpg" | relative_url }}
+[8]: {{ "/files/img/street-orientation-new-york-1024x721.jpg" | relative_url }}
+[9]: {{ "/publications/multiscale-analysis-street-networks/" | relative_url }}
+[10]: {{ "/publications/spatial-information-urban-morphology/" | relative_url }}
+[11]: {{ "/publications/urban-spatial-order-entropy/" | relative_url }}

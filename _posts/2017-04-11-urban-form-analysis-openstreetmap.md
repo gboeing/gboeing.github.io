@@ -5,62 +5,49 @@ date: 2017-04-11 11:12:51-07:00
 permalink: /2017/04/urban-form-analysis-openstreetmap/
 ---
 
-_Check out the [journal article]({{ site.url }}{{ site.baseurl
-}}/publications/osmnx-complex-street-networks/) about OSMnx. This is a summary
-of some of my recent research on making OpenStreetMap data analysis easy for
-urban planners. It was also published on the [ACSP](https://www.acsp.org/)
-blog._
+_Check out the [journal article][14] about OSMnx. This is a summary of some of
+my recent research on making OpenStreetMap data analysis easy for urban
+planners. It was also published on the [ACSP][1] blog._
 
-[OpenStreetMap](https://www.openstreetmap.org/)—a collaborative worldwide
-mapping project inspired by Wikipedia—has emerged in recent years as a major
-player both for mapping and acquiring urban spatial data. Though coverage varies
-somewhat worldwide, its data are of high quality and compare favorably to CIA
-World Factbook estimates and US Census TIGER/Line data. OpenStreetMap imported
-the TIGER/Line roads in 2007 and since then its community has made numerous
-corrections and improvements. In fact, many of these additions go beyond
-TIGER/Line's scope, including for example passageways between buildings,
-footpaths through parks, bike routes, and detailed feature attributes such as
-finer-grained street classifiers, speed limits, etc.
+[OpenStreetMap][2]—a collaborative worldwide mapping project inspired by
+Wikipedia—has emerged in recent years as a major player both for mapping and
+acquiring urban spatial data. Though coverage varies somewhat worldwide, its
+data are of high quality and compare favorably to CIA World Factbook estimates
+and US Census TIGER/Line data. OpenStreetMap imported the TIGER/Line roads in
+2007 and since then its community has made numerous corrections and
+improvements. In fact, many of these additions go beyond TIGER/Line's scope,
+including for example passageways between buildings, footpaths through parks,
+bike routes, and detailed feature attributes such as finer-grained street
+classifiers, speed limits, etc.
 
 This presents a fantastic data source to help answer urban planning questions,
 but OpenStreetMap's data has been somewhat difficult to work with due to its
 Byzantine query language and coarse-grained bulk extracts provided by third
-parties. As part of my dissertation, I developed a tool called [OSMnx]({{
-site.url }}{{ site.baseurl }}/2016/11/osmnx-python-street-networks/) that allows
-researchers to download street networks and building footprints for any city
-name, address, or polygon in the world, then [analyze]({{ site.url }}{{
-site.baseurl }}/publications/multiscale-analysis-street-networks/) and
-[visualize]({{ site.url }}{{ site.baseurl
-}}/2017/01/square-mile-street-network-visualization/) [them]({{ site.url }}{{
-site.baseurl }}/2017/03/urban-form-figure-ground/). OSMnx democratizes these
-data and methods to help technical and non-technical planners and researchers
-use OpenStreetMap data to study urban form, circulation networks, accessibility,
-and resilience.
+parties. As part of my dissertation, I developed a tool called [OSMnx][5] that
+allows researchers to download street networks and building footprints for any
+city name, address, or polygon in the world, then [analyze][13] and
+[visualize][6] [them][8]. OSMnx democratizes these data and methods to help
+technical and non-technical planners and researchers use OpenStreetMap data to
+study urban form, circulation networks, accessibility, and resilience.
 
 This sort of street network data can be useful for communicating urban design.
 Allan Jacobs' classic book _Great Streets_ featured dozens of hand-drawn
 figure-ground diagrams depicting one square mile of cities' street networks.
 Holding these cities at the same scale provides a revealing spatial objectivity
 in comparing their street networks and urban forms. We can [automatically
-re-create]({{ site.url }}{{ site.baseurl
-}}/2017/01/square-mile-street-network-visualization/) these with OpenStreetMap
-data for any city in the world, using OSMnx:
+re-create][6] these with OpenStreetMap data for any city in the world, using
+OSMnx:
 
 ![OSMnx: Figure-ground diagrams of one square mile of each street network, from
-OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
-site.url }}{{ site.baseurl
-}}/files/img/square-mile-street-networks-1024x822.jpg)
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX][11]
 
 Each image was created with a single line of code. Adding in [building
-footprints]({{ site.url }}{{ site.baseurl
-}}/2017/03/urban-form-figure-ground/), we can see the texture, grain, and
-percolation of formal circulation networks in cities around the world, including
-informal settlements:
+footprints][8], we can see the texture, grain, and percolation of formal
+circulation networks in cities around the world, including informal settlements:
 
 ![Figure-ground diagrams of building footprints and street network in New York,
 San Francisco, Monrovia, and Port au Prince from OpenStreetMap data. Maps
-created in Python with OSMnx and matplotlib.]({{ site.url }}{{ site.baseurl
-}}/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png)
+created in Python with OSMnx and matplotlib.][9]
 
 Or how about modernism's inversion of traditional urban spatial order, neatly
 illustrated by the building footprints in central Brasília (inspired by James
@@ -68,8 +55,7 @@ Holston's _The Modernist City_):
 
 ![Figure-ground diagrams of urban form and building footprints in London,
 Paris, Venice, and Brasilia depict modernism's inversion of traditional spatial
-order]({{ site.url }}{{ site.baseurl
-}}/files/img/square-mile-urban-form-venice-london-paris-brasilia-963x1024.jpg)
+order][12]
 
 These are still all one square-mile, held at the same scale. However, a single
 square mile cannot be taken as representative of broader scales or other
@@ -90,7 +76,7 @@ and _demographics_. OpenStreetMap can help us quickly acquire those _design_
 variables—such as intersection density, block size, and the proportions of
 four-way intersections, dead-ends, etc. For example, with OSMnx we can download
 then analyze a street network in two lines of simple, readable [Python
-code]({{ site.url }}{{ site.baseurl }}/2017/02/python-getting-started/):
+code][7]:
 
 ```python
 G = osmnx.graph_from_place('Berkeley, CA', network_type='drive')
@@ -119,8 +105,7 @@ small network subsets in different neighborhoods of Portland, Oregon:
 
 ![Portland Oregon neighborhood street networks for Laurelhurst, Downtown, and
 Northwest Heights, from OpenStreetMap, created with OSMnx, Python, NetworkX, and
-matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/portland-neighborhood-street-networks.jpg)
+matplotlib][10]
 
 Each image shows half a km2. Downtown has an orthogonal grid with compact
 blocks, Laurelhurst shows its early 20th century Olmstead-influenced roots, and
@@ -142,15 +127,24 @@ Downtown has only 15%. The former's street network may be more prone to
 disruption if its most important node fails (due to a traffic jam, flood,
 earthquake, etc.) than the latter's.
 
-OpenStreetMap offers a useful new data repository for [walkability]({{
-site.url }}{{ site.baseurl
-}}/2016/07/visualize-urban-accessibility-walkability/) studies, urban form
-modeling, and [computational]({{ site.url }}{{ site.baseurl
-}}/2015/08/urban-informatics-visualization-berkeley/) urban design. Even if
-you're [new to Python]({{ site.url }}{{ site.baseurl
-}}/2017/02/python-getting-started/), OSMnx offers an easy way to get started
-working with this rich urban dataset. For more info, check out the paper [about
-OSMnx]({{ site.url }}{{ site.baseurl
-}}/publications/osmnx-complex-street-networks/) or the [empirical study]({{
-site.url }}{{ site.baseurl }}/publications/multiscale-analysis-street-networks/)
-of 27,000 U.S. street networks.
+OpenStreetMap offers a useful new data repository for [walkability][4] studies,
+urban form modeling, and [computational][3] urban design. Even if you're [new
+to Python][7], OSMnx offers an easy way to get started working with this rich
+urban dataset. For more info, check out the paper [about OSMnx][14] or the
+[empirical study][13] of 27,000 U.S. street networks.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://www.acsp.org/
+[2]: https://www.openstreetmap.org/
+[3]: {{ "/2015/08/urban-informatics-visualization-berkeley/" | relative_url }}
+[4]: {{ "/2016/07/visualize-urban-accessibility-walkability/" | relative_url }}
+[5]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
+[6]: {{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}
+[7]: {{ "/2017/02/python-getting-started/" | relative_url }}
+[8]: {{ "/2017/03/urban-form-figure-ground/" | relative_url }}
+[9]: {{ "/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png" | relative_url }}
+[10]: {{ "/files/img/portland-neighborhood-street-networks.jpg" | relative_url }}
+[11]: {{ "/files/img/square-mile-street-networks-1024x822.jpg" | relative_url }}
+[12]: {{ "/files/img/square-mile-urban-form-venice-london-paris-brasilia-963x1024.jpg" | relative_url }}
+[13]: {{ "/publications/multiscale-analysis-street-networks/" | relative_url }}
+[14]: {{ "/publications/osmnx-complex-street-networks/" | relative_url }}

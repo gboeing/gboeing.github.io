@@ -8,10 +8,9 @@ permalink: /publications/review-structure-dynamics-cities/
 
 **Cite as:** Boeing, G. 2017. "A Review of the Structure and Dynamics of Cities:
 Urban Data Analysis and Theoretical Modeling." _Journal of the American Planning
-Association_, 83 (4), 418.
-[doi:10.1080/01944363.2017.1362306](https://doi.org/10.1080/01944363.2017.1362306)
+Association_, 83 (4), 418. [doi:10.1080/01944363.2017.1362306][1]
 
-Download PDF from [JAPA](https://doi.org/10.1080/01944363.2017.1362306).
+Download PDF from [JAPA][1].
 
 ## Abstract
 
@@ -30,5 +29,7 @@ circulation. Best of all, some of Barthelemy's urban physics corpus presents
 grounded, straightforward lessons for planning practice (e.g., recent work
 examining Haussmann's spatial reorganization of Paris)—a refreshing
 accomplishment in a field that too often embraces grand but vague and idealized
-theories of cities...
-[read more](https://doi.org/10.1080/01944363.2017.1362306).
+theories of cities... [read more][1].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1080/01944363.2017.1362306

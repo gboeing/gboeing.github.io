@@ -9,13 +9,9 @@ Evolution of American Street Network Planning and Design." _Journal of the
 American Planning Association_, 87 (1), 123-137.
 doi:10.1080/01944363.2020.1819382
 
-Download PDF from [JAPA](https://doi.org/10.1080/01944363.2020.1819382) or
-[SSRN](https://ssrn.com/abstract=3665445) or
-[SocArXiv](https://doi.org/10.31235/osf.io/t9um6).
+Download PDF from [JAPA][1] or [SSRN][4] or [SocArXiv][2].
 
-This article won the 2020
-[Stough-Johansson Springer Award](https://link.springer.com/journal/168/updates/17216054)
-for best paper.
+This article won the 2020 [Stough-Johansson Springer Award][3] for best paper.
 
 ## Abstract
 
@@ -43,3 +39,9 @@ network grain, and local topography. Interconnected grid-like street networks
 offer practitioners an important tool for curbing car dependence and emissions.
 Once established, street patterns determine urban spatial structure for
 centuries, so proactive planning is essential.
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1080/01944363.2020.1819382
+[2]: https://doi.org/10.31235/osf.io/t9um6
+[3]: https://link.springer.com/journal/168/updates/17216054
+[4]: https://ssrn.com/abstract=3665445

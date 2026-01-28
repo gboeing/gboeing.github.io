@@ -7,22 +7,19 @@ permalink: /2016/05/analyzing-lastfm-history/
 
 Last.fm is a web site that tracks your music listening history across devices
 (computer, phone, iPod, etc) and services (Spotify, iTunes, Google Play, etc).
-I've been [using Last.fm](https://www.last.fm/user/gboeing) for nearly 10 years
-now, and my tracked listening history goes back even further when you consider
-all my pre-existing iTunes play counts that I _scrobbled_ (ie, submitted to my
-Last.fm database) when I joined Last.fm.
+I've been [using Last.fm][13] for nearly 10 years now, and my tracked listening
+history goes back even further when you consider all my pre-existing iTunes play
+counts that I _scrobbled_ (ie, submitted to my Last.fm database) when I joined
+Last.fm.
 
 Using Python, pandas, matplotlib, and leaflet, I downloaded my listening history
 from Last.fm's API, analyzed and visualized the data, downloaded full artist
-details from the [Musicbrainz](https://musicbrainz.org/) API, then geocoded and
-mapped all the artists I've played. All of my code used to do this is available
-in this
-[GitHub repo](https://github.com/gboeing/data-visualization/tree/master/lastfm-listening-history),
-and is easy to re-purpose for exploring your own Last.fm history. All you need
-is an [API key](https://www.last.fm/api).
+details from the [Musicbrainz][11] API, then geocoded and mapped all the artists
+I've played. All of my code used to do this is available in this [GitHub
+repo][9], and is easy to re-purpose for exploring your own Last.fm history. All
+you need is an [API key][12].
 
-![Last.fm artists played the most]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-played-most.png)
+![Last.fm artists played the most][20]
 
 First I visualized my most-played artists, above. Across the dataset, I have
 279,769 scrobbles (aka, song plays). I've listened to 26,761 different artists
@@ -31,40 +28,33 @@ started using iTunes circa 2005 through the present day. This includes pretty
 close to every song I've played on anything other than vinyl during that time.
 
 I also mapped all the artists I've listened to. To do this, I took each artist
-ID in the Last.fm data set and passed it
-[to the Musicbrainz API](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_downloader.ipynb)
-to get full artist details. Then I recursively queried the place until I got a
-full place name, like "Brixton, London, England, UK". Next I
-[geocoded](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_geocoder.ipynb)
-these place names to latitude-longitude using the Nominatim and Google APIs.
-Finally I mapped these points in Python with matplotlib
-[basemap](https://matplotlib.org/basemap/):
+ID in the Last.fm data set and passed it [to the Musicbrainz API][6] to get full
+artist details. Then I recursively queried the place until I got a full place
+name, like "Brixton, London, England, UK". Next I [geocoded][7] these place
+names to latitude-longitude using the Nominatim and Google APIs. Finally I
+mapped these points in Python with matplotlib [basemap][10]:
 
-![Map of Last.fm artist origins]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm_artists_origins_map-1024x627.png)
+![Map of Last.fm artist origins][27]
 
-I also converted these
-[points to GeoJSON](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_lastfm_leaflet.ipynb)
-to produce an interactive Leaflet web map of the artists I listen to (see this
-previous post for more on exporting [pandas DataFrames to GeoJSON]({{ site.url
-}}{{ site.baseurl }}/2015/10/exporting-python-data-geojson/)). Click any point
-in the map below to see a list of artists from there:
+I also converted these [points to GeoJSON][8] to produce an interactive Leaflet
+web map of the artists I listen to (see this previous post for more on exporting
+[pandas DataFrames to GeoJSON][15]). Click any point in the map below to see a
+list of artists from there:
 
 I predominately listen to artists from the populated areas of the U.S. and the
-[blue banana](https://en.wikipedia.org/wiki/Blue_Banana). But, this map is not
-fully representative of all the artists I've played, because many of them lack a
-Musicbrainz ID on Last.fm, and many who _do_ have an ID lack place information
-in the Musicbrainz database. This database also over-represents Western artists
-and artists listened to by Westerners, and under-represents other artists around
-the world (that appear in my listening history).
+[blue banana][1]. But, this map is not fully representative of all the artists
+I've played, because many of them lack a Musicbrainz ID on Last.fm, and many who
+_do_ have an ID lack place information in the Musicbrainz database. This
+database also over-represents Western artists and artists listened to by
+Westerners, and under-represents other artists around the world (that appear in
+my listening history).
 
 ## Last.fm trends over time
 
 I was curious about my most-played artists' relative performance over time. So,
 I took the top six artists and charted their cumulative play counts since 2009:
 
-![Last.fm top artists' scrobbles over time]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-top-artists-years.png)
+![Last.fm top artists' scrobbles over time][25]
 
 David Bowie is the big winner here, moving from sixth place in 2009 all the way
 up to first place today as my most-played artist (since Last.fm sign-up). Note
@@ -77,8 +67,7 @@ I wanted to look more into these time dynamics of my listening history. How have
 they changed over the years? And, when exactly do I spend time listening to
 music? First I looked at my songs played per _month_ since January 2010:
 
-![Last.fm scrobbles per month]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per-month.png)
+![Last.fm scrobbles per month][23]
 
 Although there are a couple of big spikes, during most months I listen to
 somewhere around 1,000 to 2,500 songs. The peak during March 2015 coincides with
@@ -86,8 +75,7 @@ my doctoral qualifying exams, which saw me sitting in my room about 16 hours day
 reading, writing... and listening to music. Next I looked at which _days_ of the
 week I do most of my listening:
 
-![Last.fm scrobbles per day of the week]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per-weekday.png)
+![Last.fm scrobbles per day of the week][24]
 
 So, I listen to the most music on Fridays, and the least on Saturdays. The
 weekdays are all consistently higher as I tend to listen to music all day long
@@ -95,16 +83,14 @@ while I'm working. The weekends are consistently lower as I tend to be out and
 about more, away from my computer and stereo. Next I looked at my cumulative
 listening history by _hour_ of the day:
 
-![Last.fm scrobbles by hour of the day]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per-hour.png)
+![Last.fm scrobbles by hour of the day][22]
 
 This chart essentially follows my sleep, wake, work schedule. Most of my
 listening occurs during the mid-day while I'm working and tails off into the
 evening. But this aggregate pattern isn't exactly same each day. Here I broke
 out the hourly chart above, by each day of the week:
 
-![Last.fm scrobbles by hour and day of week]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-days-hours.png)
+![Last.fm scrobbles by hour and day of week][21]
 
 Now it's easy to see the low days of Saturday and Sunday - but interestingly,
 Saturday has my highest play count late at night, when I'm up late PARTYING.
@@ -118,18 +104,15 @@ For yuks, I looked at a couple traits of artist names. The first is the
 frequency of artist names beginning with each letter of the alphabet (sans a
 preceding "the"):
 
-![Last.fm artist names first letter prevalence]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-first-letter-count.png)
+![Last.fm artist names first letter prevalence][18]
 
 S's and M's lead the pack, and Q's and X's bring up the rear. Next I looked at
 the frequency of artist name lengths:
 
-![Last.fm artist name character length]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-name-length.png)
+![Last.fm artist name character length][19]
 
-Not everyone can be a name length outlier like
-[X](<https://en.wikipedia.org/wiki/X_(American_band)>) and
-[Orchestral Manoeuvres in the Dark](https://en.wikipedia.org/wiki/Orchestral_Manoeuvres_in_the_Dark).
+Not everyone can be a name length outlier like [X][3] and [Orchestral
+Manoeuvres in the Dark][2].
 
 ## Top songs and albums on Last.fm
 
@@ -137,13 +120,11 @@ Finally, I'll wrap this up similarly to how I started it by visualizing my
 most-played songs and albums of all-time on Last.fm. First, my most-played
 tracks:
 
-![Last.fm most played songs of all time]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-tracks-played-most-h.png)
+![Last.fm most played songs of all time][26]
 
 And lastly, my most-played albums:
 
-![Last.fm most played albums]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-albums-played-most-h-642x1024.png)
+![Last.fm most played albums][17]
 
 There are some common themes here: similar artists appear in both the most-
 played songs and most-played albums lists, unsurprisingly. There's also a pretty
@@ -152,27 +133,44 @@ album, as these data are not normalized by the latter. It _might_ be possible to
 normalize album play counts by number of tracks on the album, by querying the
 MusicBrainz API for more information.
 
-To recap, I
-[downloaded my listening history](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/lastfm_downloader.ipynb)
-from Last.fm,
-[analyzed and visualized](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/lastfm_analysis.ipynb)
-the data,
-[downloaded full artist details](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_downloader.ipynb)
-from the Musicbrainz API, then
-[geocoded and mapped](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_geocoder.ipynb)
-all the artists I've played, and finally dumped these
-[points to GeoJSON](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_lastfm_leaflet.ipynb)
-for leaflet web mapping. All of my Python and leaflet code used to do this is
-available in this
-[GitHub repo](https://github.com/gboeing/data-visualization/tree/master/lastfm-listening-history),
+To recap, I [downloaded my listening history][5] from Last.fm, [analyzed and
+visualized][4] the data, [downloaded full artist details][6] from the
+Musicbrainz API, then [geocoded and mapped][7] all the artists I've played, and
+finally dumped these [points to GeoJSON][8] for leaflet web mapping. All of my
+Python and leaflet code used to do this is available in this [GitHub repo][9],
 and is easy to re-purpose for exploring your own Last.fm history.
 
 You might also be interested in:
 
-- Exporting [pandas DataFrames to GeoJSON]({{ site.url }}{{ site.baseurl
-  }}/2015/10/exporting-python-data-geojson/)
-- Mapping [everywhere I've ever been]({{ site.url }}{{ site.baseurl
-  }}/2016/06/mapping-everywhere-ever-been/) in my life
-- Our [course at UC Berkeley]({{ site.url }}{{ site.baseurl
-  }}/2015/08/urban-informatics-visualization-berkeley/) that teaches these
-  skills and tools
+- Exporting [pandas DataFrames to GeoJSON][15]
+- Mapping [everywhere I've ever been][16] in my life
+- Our [course at UC Berkeley][14] that teaches these skills and tools
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://en.wikipedia.org/wiki/Blue_Banana
+[2]: https://en.wikipedia.org/wiki/Orchestral_Manoeuvres_in_the_Dark
+[3]: https://en.wikipedia.org/wiki/X_(American_band)
+[4]: https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/lastfm_analysis.ipynb
+[5]: https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/lastfm_downloader.ipynb
+[6]: https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_downloader.ipynb
+[7]: https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_geocoder.ipynb
+[8]: https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_lastfm_leaflet.ipynb
+[9]: https://github.com/gboeing/data-visualization/tree/master/lastfm-listening-history
+[10]: https://matplotlib.org/basemap/
+[11]: https://musicbrainz.org/
+[12]: https://www.last.fm/api
+[13]: https://www.last.fm/user/gboeing
+[14]: {{ "/2015/08/urban-informatics-visualization-berkeley/" | relative_url }}
+[15]: {{ "/2015/10/exporting-python-data-geojson/" | relative_url }}
+[16]: {{ "/2016/06/mapping-everywhere-ever-been/" | relative_url }}
+[17]: {{ "/files/img/lastfm-albums-played-most-h-642x1024.png" | relative_url }}
+[18]: {{ "/files/img/lastfm-artists-first-letter-count.png" | relative_url }}
+[19]: {{ "/files/img/lastfm-artists-name-length.png" | relative_url }}
+[20]: {{ "/files/img/lastfm-artists-played-most.png" | relative_url }}
+[21]: {{ "/files/img/lastfm-scrobbles-days-hours.png" | relative_url }}
+[22]: {{ "/files/img/lastfm-scrobbles-per-hour.png" | relative_url }}
+[23]: {{ "/files/img/lastfm-scrobbles-per-month.png" | relative_url }}
+[24]: {{ "/files/img/lastfm-scrobbles-per-weekday.png" | relative_url }}
+[25]: {{ "/files/img/lastfm-scrobbles-top-artists-years.png" | relative_url }}
+[26]: {{ "/files/img/lastfm-tracks-played-most-h.png" | relative_url }}
+[27]: {{ "/files/img/lastfm_artists_origins_map-1024x627.png" | relative_url }}

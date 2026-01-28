@@ -5,11 +5,10 @@ date: 2024-11-27 01:04:15-08:00
 permalink: /2024/11/access-to-exclusive-city/
 ---
 
-I recently coauthored an [article](https://doi.org/10.1177/00420980241258297) in
-_Urban Studies_ with Julia Harten titled "Access to the Exclusive City: Home
-Sharing as an Affordable Housing Strategy." We examined how shared housing
-serves increasingly diverse populations as a pathway into otherwise unaffordable
-housing submarkets.
+I recently coauthored an [article][1] in _Urban Studies_ with Julia Harten
+titled "Access to the Exclusive City: Home Sharing as an Affordable Housing
+Strategy." We examined how shared housing serves increasingly diverse
+populations as a pathway into otherwise unaffordable housing submarkets.
 
 From the abstract:
 
@@ -28,4 +27,7 @@ From the abstract:
 > broader exploration of the diverse populations that may benefit from or depend
 > on shared housing.
 
-For more, check out the [article](https://doi.org/10.1177/00420980241258297).
+For more, check out the [article][1].
+
+<!-- markdownlint-disable MD013 -->
+[1]: https://doi.org/10.1177/00420980241258297

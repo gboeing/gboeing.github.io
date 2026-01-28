@@ -6,17 +6,15 @@ permalink: /2020/02/housing-search-big-data/
 ---
 
 My article "[Housing Search in the Age of Big Data: Smarter Cities or the Same
-Old Blind Spots?]({{ site.url }}{{ site.baseurl
-}}/publications/housing-search-big-data/)" with Max Besbris, Ariela Schachter,
-and John Kuk is now published in _Housing Policy Debate_. We look at the
-quantity and quality of information in online housing listings and find that
-they are much higher in White and non- poor neighborhoods than they are in poor,
-Black, or Latino neighborhoods. Listings in White neighborhoods include more
-descriptive text and focus on unit and neighborhood amenities, while listings in
-Black neighborhoods focus more on applicant (dis)qualifications. We discuss what
-this means for housing markets, filter bubbles, residential sorting and
-segregation, and housing policy. You can download a [free PDF]({{ site.url
-}}{{ site.baseurl }}/publications/housing-search-big-data/).
+Old Blind Spots?][2]" with Max Besbris, Ariela Schachter, and John Kuk is now
+published in _Housing Policy Debate_. We look at the quantity and quality of
+information in online housing listings and find that they are much higher in
+White and non- poor neighborhoods than they are in poor, Black, or Latino
+neighborhoods. Listings in White neighborhoods include more descriptive text and
+focus on unit and neighborhood amenities, while listings in Black neighborhoods
+focus more on applicant (dis)qualifications. We discuss what this means for
+housing markets, filter bubbles, residential sorting and segregation, and
+housing policy. You can download a [free PDF][2].
 
 Housing search technologies are changing and, as a result, so are housing search
 behaviors. The most recent American Housing Survey revealed that, for the first
@@ -31,18 +29,15 @@ This paradigm promotes information technology as both a technocratic mode of
 monitoring cities and a utopian mode of improving urban life through big data.
 In this context, "big data" typically refers to massive streams of user-
 generated content resulting from millions or billions of decentralized human
-actions. Data exhaust [from Craigslist]({{ site.url }}{{ site.baseurl
-}}/2016/08/craigslist-rental-housing-insights/) and other housing technology
+actions. Data exhaust [from Craigslist][1] and other housing technology
 platforms offers a good example: optimistically, large corpora of rental
 listings could provide housing researchers and practitioners with actionable
-[insights for policymaking]({{ site.url }}{{ site.baseurl
-}}/publications/rental-housing-spot-markets/) while also equalizing [access to
-information]({{ site.url }}{{ site.baseurl
-}}/publications/online-housing-market-urban-inequality/) for otherwise
-disadvantaged homeseekers. But how good are these platforms at resolving the
-types of problems that already plague old- fashioned, non-big data? Does this
-broadcasting of information reduce longstanding geographic and demographic
-inequalities or do established patterns of segmentation and sorting remain?
+[insights for policymaking][4] while also equalizing [access to
+information][3] for otherwise disadvantaged homeseekers. But how good are these
+platforms at resolving the types of problems that already plague old- fashioned,
+non-big data? Does this broadcasting of information reduce longstanding
+geographic and demographic inequalities or do established patterns of
+segmentation and sorting remain?
 
 On one hand, as a publicly available and free technology platform, Craigslist
 offers exceptionally low barriers to entry. Unlike newspaper listings or
@@ -132,12 +127,13 @@ they nevertheless point to the broader limits of housing technology platforms
 themselves—which rely on user self-selection and structural market forces to
 generate information.
 
-For more, check out [the paper]({{ site.url }}{{ site.baseurl
-}}/publications/housing-search-big-data/) itself. You might also be interested
-in my [recent paper]({{ site.url }}{{ site.baseurl
-}}/publications/online-housing-market-urban-inequality/) on rental listings and
-information inequality, my paper on rental housing [spot markets]({{ site.url
-}}{{ site.baseurl }}/publications/rental-housing-spot-markets/) and the dearth
-of up-to-date rent data, or my [earlier paper]({{ site.url }}{{ site.baseurl
-}}/2016/08/craigslist-rental-housing-insights/) on using Craigslist to
-understand rental markets.
+For more, check out [the paper][2] itself. You might also be interested in my
+[recent paper][3] on rental listings and information inequality, my paper on
+rental housing [spot markets][4] and the dearth of up-to-date rent data, or my
+[earlier paper][1] on using Craigslist to understand rental markets.
+
+<!-- markdownlint-disable MD013 -->
+[1]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}
+[2]: {{ "/publications/housing-search-big-data/" | relative_url }}
+[3]: {{ "/publications/online-housing-market-urban-inequality/" | relative_url }}
+[4]: {{ "/publications/rental-housing-spot-markets/" | relative_url }}
