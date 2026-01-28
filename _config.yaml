@@ -13,10 +13,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-kramdown:
-  hard_wrap: false
-  wrap_width: 0
-
 minima:
   skin: classic
   date_format: '%-d %b %Y'
@@ -43,6 +39,8 @@ minima:
     - title: Google Scholar
       icon: google-scholar
       url: https://scholar.google.com/citations?user=xaKBPQQAAAAJ
+
+google_analytics: G-5047470VYK
 
 include:
   - _pages
