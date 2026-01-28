@@ -24,4 +24,5 @@ substantially more concentrated than corresponding night-time population
 densities, reflecting regional land use patterns. We conclude with a discussion
 of biases, limitations, and implications of this methodology.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1080/21681376.2018.1455535

@@ -34,4 +34,5 @@ the built environment. From the abstract:
 
 For more, check out the [article][1] itself in _Building and Environment_.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1016/j.buildenv.2023.110827

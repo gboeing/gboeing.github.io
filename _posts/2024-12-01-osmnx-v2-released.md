@@ -30,5 +30,6 @@ contributors. Thank you to everyone who helped make this possible.
 I hope you find the package as useful as I do. Now I'm looking forward to all of
 your bug reports.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://osmnx.readthedocs.io/
 [2]: {{ "/files/img/square-mile-street-networks-1024x822.jpg" | relative_url }}

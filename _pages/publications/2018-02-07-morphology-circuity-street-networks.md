@@ -35,6 +35,7 @@ walkable and drivable circulation networks when modeling and characterizing
 urban street networks: although different modes' networks overlap in any given
 city, their relative structure and performance vary in most cities.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1007/978-3-030-12381-9_12
 [2]: https://doi.org/10.2139/ssrn.3119939
 [3]: https://doi.org/10.31235/osf.io/edj2s

@@ -179,6 +179,7 @@ become meaningful information about form and its evolution.
 
 For more, check out [the article][10] itself in IJIM.
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/2017/03/urban-form-figure-ground/" | relative_url }}
 [2]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}
 [3]: {{ "/2019/09/urban-street-network-orientation/" | relative_url }}

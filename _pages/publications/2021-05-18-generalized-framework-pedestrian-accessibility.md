@@ -34,5 +34,6 @@ methods developed in this study can be extended to other cities worldwide to
 support local planning and policymaking. The software is made publicly available
 for reuse in an open repository.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1111/gean.12290
 [2]: https://osf.io/preprints/socarxiv/cua35

@@ -133,6 +133,7 @@ clustering algorithm.
 
 Now you can visualize the data set in more interesting ways.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
 [2]: https://github.com/gboeing/2014-summer-travels
 [3]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv

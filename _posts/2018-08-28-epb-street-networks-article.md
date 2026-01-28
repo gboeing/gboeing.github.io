@@ -89,6 +89,7 @@ planning/design paradigms.
 For more, check out the [article here][6] or [see here][2] for more info on
 OSMnx.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://dataverse.harvard.edu/dataverse/osmnx-street-networks
 [2]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}
 [3]: {{ "/files/img/usa-city-street-networks-state-aggregation-1024x414.png" | relative_url }}

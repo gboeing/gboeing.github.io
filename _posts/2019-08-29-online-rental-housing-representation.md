@@ -77,5 +77,6 @@ Here is the article's abstract:
 For more, check out [the article][2]. You might also be interested in this
 [previous article][1] about Craigslist housing market characteristics.
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}
 [2]: {{ "/publications/online-housing-market-urban-inequality/" | relative_url }}

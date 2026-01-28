@@ -48,6 +48,7 @@ From the abstract:
 For more, check out the [article][2] at PRL or the open-access arXiv
 [pre-print][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://arxiv.org/abs/2509.21931
 [2]: https://doi.org/10.1103/1vj4-n8vn
 [3]: {{ "/files/img/generative-network-models.png" | relative_url }}

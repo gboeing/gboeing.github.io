@@ -36,4 +36,5 @@ Here's the abstract:
 The paper has been adapted into a journal article manuscript and [posted
 online][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/publications/measuring-complexity-urban-form/" | relative_url }}

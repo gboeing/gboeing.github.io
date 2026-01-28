@@ -119,6 +119,7 @@ clustering millions of points along a network, see [this notebook][2]. For more
 on using DBSCAN for spatial clustering, compression, and dimensionality
 reduction see this [blog post][5] and [paper][4].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/network-clustering
 [2]: https://github.com/gboeing/network-clustering/blob/master/network-clustering-node-based.ipynb
 [3]: https://github.com/gboeing/network-clustering/blob/master/network-clustering-simple.ipynb

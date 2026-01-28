@@ -24,6 +24,7 @@ From the abstract:
 
 For more, check out the [article][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.32866/001c.122117
 [2]: {{ "/2022/12/urban-analytics-history-trajectory-critique/" | relative_url }}
 [3]: {{ "/files/img/findings-street-orientations-1024x692.png" | relative_url }}

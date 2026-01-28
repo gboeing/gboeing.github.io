@@ -46,6 +46,7 @@ Python, using my code this [GitHub repo][1]. You might also be interested in
 [Pynamical][3], a Python package for easily playing around with chaos, fractals,
 and strange attractors.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/lorenz-system
 [2]: https://github.com/gboeing/lorenz-system/blob/master/lorenz-system-attractor-animate.ipynb
 [3]: https://github.com/gboeing/pynamical

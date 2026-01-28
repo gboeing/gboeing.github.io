@@ -104,6 +104,7 @@ science: all of its materials are available as Jupyter notebooks on [GitHub][6].
 Lastly, there are lots of great Python [tutorials][3] to help you take your next
 steps.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://conda-forge.github.io/
 [2]: https://conda.io/miniconda.html
 [3]: https://docs.python.org/3/tutorial/

@@ -40,6 +40,7 @@ popular projects include [these][5] [analyses][6] of street network orientation
 around the world, this [urban form analysis][3], and [this paper][10] in
 _Environment and Planning B_.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx-examples
 [2]: https://osmnx.readthedocs.io/
 [3]: {{ "/2017/04/urban-form-analysis-openstreetmap/" | relative_url }}

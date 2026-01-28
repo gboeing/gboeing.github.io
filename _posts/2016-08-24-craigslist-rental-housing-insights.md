@@ -265,6 +265,7 @@ Housing Markets across the United States: Web Scraping and Analyzing Craigslist
 Rental Listings." _Journal of Planning Education and Research_. Online first.
 DOI: 10.1177/0739456X16664789
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://ual.berkeley.edu/
 [2]: https://www.bloomberg.com/news/articles/2015-09-29/man-camp-exodus-spurs-real-estate-crisis-across-u-s-shale-towns
 [3]: https://www.census.gov/programs-surveys/acs/

@@ -28,6 +28,7 @@ empirical study of 27,000 street networks, examining their metric and
 topological complexity relevant to urban design, transportation research, and
 the human experience of the built environment.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://dataverse.harvard.edu/dataverse/osmnx-street-networks
 [2]: https://dx.doi.org/10.17605/OSF.IO/93H82
 [3]: https://papers.ssrn.com/abstract=3012684

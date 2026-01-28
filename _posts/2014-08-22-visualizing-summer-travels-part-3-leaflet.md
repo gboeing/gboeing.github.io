@@ -140,6 +140,7 @@ data point has a popup with time, date, city, and country information. You can
 compare this visualization to similar ones using [CartoDB][12] or [Mapbox and
 Tilemill][11].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv
 [2]: https://github.com/mapbox/leaflet-omnivore
 [3]: https://leafletjs.com/

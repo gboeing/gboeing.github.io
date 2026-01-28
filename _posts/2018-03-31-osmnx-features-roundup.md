@@ -84,6 +84,7 @@ And here are some blog posts running through features, findings, and how-to:
 Finally, you can check out the OSMnx [documentation][2] or the usage
 [examples][1] for more info.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx-examples
 [2]: https://osmnx.readthedocs.io/
 [3]: {{ "/2016/10/r-tree-spatial-index-python/" | relative_url }}

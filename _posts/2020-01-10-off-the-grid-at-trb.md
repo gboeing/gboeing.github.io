@@ -20,4 +20,5 @@ related socioeconomic, topographical, and other urban factors.
 
 Update: the paper has been [published in _JAPA_][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/publications/off-the-grid-japa/" | relative_url }}

@@ -10,5 +10,6 @@ performance enhancements. I encourage you to upgrade and take advantage of
 everything new. For more information, check out the OSMnx [documentation][2] and
 [usage examples][1] for demonstrations of all you can do.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx-examples/
 [2]: https://osmnx.readthedocs.io/

@@ -25,6 +25,7 @@ asking rents diverge substantially from these most recent estimates.
 Conventional housing data understate current market conditions and affordability
 challenges, especially in cities with tight and expensive rental markets.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1177%2F0739456X20904435
 [2]: https://escholarship.org/uc/item/8gz900hd
 [3]: https://osf.io/phgqt/

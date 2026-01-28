@@ -27,5 +27,6 @@ preserve and disseminate it, I have extracted and transcribed its text using
 optical character recognition and edited the result to correct errors. Here I
 compile my transcription of Moses's statement, alongside Caro's reply to it.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.2139/ssrn.2934079
 [2]: https://osf.io/preprints/socarxiv/cpgrd/

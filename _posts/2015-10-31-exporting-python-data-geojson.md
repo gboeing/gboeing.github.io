@@ -48,5 +48,6 @@ output_file.write('var dataset = ')
 json.dump(geojson, output_file, indent=2)
 ```
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://geojson.org/
 [2]: {{ "/2014/09/using-geopandas-windows/" | relative_url }}

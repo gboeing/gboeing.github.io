@@ -41,6 +41,7 @@ structures more consistent with the rest of the package.
 For more, check out the [documentation][2] and [usage examples][1] for
 demonstrations of everything.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx-examples/
 [2]: https://osmnx.readthedocs.io/
 [3]: https://osmnx.readthedocs.io/en/stable/osmnx.html#osmnx.bearing.orientation_entropy

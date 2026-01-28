@@ -40,5 +40,6 @@ costs, they may help cities better prepare for sustainable future mobility by
 balancing various social benefits with network efficiency. For more, check out
 [the article][2].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/files/img/conversions_ghg.png" | relative_url }}
 [2]: {{ "/publications/converting-one-way-streets/" | relative_url }}

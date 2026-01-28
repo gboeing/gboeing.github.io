@@ -35,5 +35,6 @@ income urban creatives and the introduction of a craft brewery. We advocate for
 urban planners to recognize the importance of craft breweries in neighborhood
 revitalization while also protecting residents from potential displacement.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://wvupressonline.com/node/663
 [2]: https://www.researchgate.net/publication/317570500_Neighborhood_Change_One_Pint_at_a_Time_The_Impact_of_Local_Characteristics_on_Craft_Breweries

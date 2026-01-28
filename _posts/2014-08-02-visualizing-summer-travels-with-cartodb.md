@@ -42,6 +42,7 @@ time without requiring technical skills, but its customizability is in turn
 somewhat limited. Next, I'll explore the [Leaflet][5] javascript library for
 mapping and visualizing this data, with a bit more for us to do under the hood.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://cartodb.com/
 [2]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv
 [3]: {{ "/2014/07/visualizing-summer-travels-part-1-openpaths/" | relative_url }}

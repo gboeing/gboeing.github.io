@@ -28,4 +28,5 @@ cobweb plots. These visualizations enable simple qualitative assessments of
 system behavior including phase transitions, bifurcation points, attractors and
 limit cycles, basins of attraction, and fractals.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/pynamical

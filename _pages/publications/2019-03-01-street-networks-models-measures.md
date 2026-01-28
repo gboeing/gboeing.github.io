@@ -31,5 +31,6 @@ dataset exists. These data offer researchers and practitioners a new ability to
 quickly and easily conduct graph-theoretic circulation network analysis anywhere
 in the U.S. using standard, free, open-source tools.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.31235/osf.io/7fxjz
 [2]: https://doi.org/10.3390/urbansci3010028

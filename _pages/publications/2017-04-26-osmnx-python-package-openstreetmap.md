@@ -14,5 +14,6 @@ This is a peer-reviewed article for the [OSMnx software repository][1].
 
 **If you use OSMnx in your work, please instead cite [this paper][2].**
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx
 [2]: {{ "/publications/osmnx-paper/" | relative_url }}

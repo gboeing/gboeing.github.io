@@ -104,6 +104,7 @@ access article][1], or check out [OSMnx][2] for the Python tool used for these
 analyses and visualizations. Some of my preliminary work on this (and links to
 source code) appears in two [blog][4] [posts][3] from last summer.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1007/s41109-019-0189-1
 [2]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
 [3]: {{ "/2018/07/city-street-orientations-world/" | relative_url }}

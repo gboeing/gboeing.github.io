@@ -34,5 +34,6 @@ surplus travel just for intra-city trips.
 For more, check out our article [in _Transfers Magazine_][1] or the underlying
 research study [in JPER][2].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://transfersmagazine.org/magazine-article/issue-11/rethinking-the-one-way-street/
 [2]: {{ "/2022/07/two-way-street-network-efficiency/" | relative_url }}

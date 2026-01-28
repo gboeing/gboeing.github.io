@@ -29,5 +29,6 @@ For more, check out the [article][1] itself. And you may also be interested in
 our recent _The Lancet Global Health_ [series][2] of articles that developed
 similar themes in great depth.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1080/08111146.2022.2076215
 [2]: {{ "/2022/06/lancet-series-transport-health/" | relative_url }}

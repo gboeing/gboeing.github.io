@@ -34,4 +34,5 @@ accessible introduction to these areas, clinicians and researchers can write
 code to answer clinically relevant questions on topics such as service delivery
 and service demand.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.3389/fneur.2019.00743

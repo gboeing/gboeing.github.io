@@ -32,5 +32,6 @@ data science, linking successful practice back to urban life. Overall, this
 panel report contributes to the wider discussion around urban analytics and city
 science and about the role of data science in this domain.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1177/2399808319882826
 [2]: https://escholarship.org/uc/item/9104t41q

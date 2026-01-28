@@ -25,5 +25,6 @@ artifacts that reflect the human experience of the built environment. Ubiquitous
 urban data and computation can open up new urban form analyses from both
 quantitative and qualitative perspectives.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://osf.io/rnwgv
 [2]: https://ssrn.com/abstract=3680845

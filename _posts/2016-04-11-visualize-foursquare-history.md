@@ -75,6 +75,7 @@ code in this [GitHub repo][1]. Just plug in your own Foursquare OAuth token,
 then run the notebook. You might also be interested in [mapping everywhere
 you've ever been][4].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/data-visualization/blob/master/location-history/foursquare-location-history.ipynb
 [2]: https://matplotlib.org/basemap/
 [3]: https://xkcd.com/977/

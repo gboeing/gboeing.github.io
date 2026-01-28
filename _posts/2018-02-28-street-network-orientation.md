@@ -44,6 +44,7 @@ how grid-like or non-grid-like different cities' or neighborhoods' street
 networks are. For more, check out this [example notebook][2], read this
 [overview of OSMnx][3], or get OSMnx [from GitHub][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx
 [2]: https://github.com/gboeing/osmnx-examples/blob/v0.11/notebooks/15-calculate-visualize-edge-bearings.ipynb
 [3]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}

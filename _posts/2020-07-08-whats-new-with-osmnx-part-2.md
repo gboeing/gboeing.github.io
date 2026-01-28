@@ -121,6 +121,7 @@ info on the many OSMnx improvements and changes this summer, check out the
 _Update: this summer project has now concluded and been released.[More
 info][21]._
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx-examples
 [2]: https://github.com/gboeing/osmnx-examples/blob/v0.15.1/notebooks/15-advanced-plotting.ipynb
 [3]: https://github.com/gboeing/osmnx-examples/tree/v0.15.1/

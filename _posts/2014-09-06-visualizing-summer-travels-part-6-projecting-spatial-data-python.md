@@ -376,6 +376,7 @@ relative sizes without the horizontal stretching you saw in the previous post's
 plots. Python's geopandas and pyproj libraries make up a powerful toolkit for
 GIS analysis, spatial data projection, and simple cartography.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://en.wikipedia.org/wiki/Albers_projection
 [2]: https://en.wikipedia.org/wiki/Map_projection
 [3]: https://geopandas.org/

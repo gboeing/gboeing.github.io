@@ -23,5 +23,6 @@ attempts usually follow Kuhn's theory of paradigm shifts: new evidence and modes
 of thinking undermine an established science, and a new science emerges to
 replace it.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://escholarship.org/uc/item/9756w3fq
 [2]: https://www.researchgate.net/publication/313606246_Understanding_Cities_through_Networks_and_Flows

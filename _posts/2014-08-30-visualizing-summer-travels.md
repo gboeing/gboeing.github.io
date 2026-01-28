@@ -57,6 +57,7 @@ GPS location data to show these isolated clusters:
 There is much more in the full posts, along with full explanations of how I
 developed everything and visualized different aspects of the trip.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/2014-summer-travels
 [2]: {{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}
 [3]: {{ "/2014/08/reducing-spatial-data-set-size-with-douglas-peucker/" | relative_url }}

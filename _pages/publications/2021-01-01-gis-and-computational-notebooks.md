@@ -30,6 +30,7 @@ desktop GIS, notebooks can make spatial analysis more nimble, extensible, and
 reproducible and have thus evolved into an important component of the geospatial
 science toolkit.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.22224/gistbok/2021.1.2
 [2]: https://osf.io/preprints/socarxiv/x2p49/
 [3]: https://ssrn.com/abstract=3758662

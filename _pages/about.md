@@ -38,6 +38,7 @@ played a round of golf or drunk a cup of coffee in his life.
 <!-- markdownlint-disable-next-line MD036 -->
 _Pronunciation note: "Geoff" is pronounced the same as "Jeff."_
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://osmnx.readthedocs.io/
 [2]: {{ "/2020/11/off-grid-back-again/" | relative_url }}
 [3]: {{ "/2025/03/zephyr-foundation-award/" | relative_url }}

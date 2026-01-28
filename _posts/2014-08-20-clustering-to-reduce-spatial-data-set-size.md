@@ -220,6 +220,7 @@ notebook][5] that uses this technique to cluster 1.2 million spatial data
 points and [this post][12] about that project. You can also read the [paper
 here][6].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://en.wikipedia.org/wiki/Haversine_formula
 [2]: https://geopy.readthedocs.org
 [3]: https://github.com/gboeing/2014-summer-travels

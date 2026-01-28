@@ -30,6 +30,7 @@ chaos, fractals, self-similarity and the limits of prediction. Finally, it
 presents Pynamical, an open-source Python package to easily visualize and
 explore nonlinear dynamical systems' behavior.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://dx.doi.org/10.3390/systems4040037
 [2]: https://papers.ssrn.com/abstract=2823988
 [3]: https://www.researchgate.net/publication/306226253_Visual_Analysis_of_Nonlinear_Dynamical_Systems_Chaos_Fractals_Self-Similarity_and_the_Limits_of_Prediction

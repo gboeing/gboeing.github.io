@@ -37,6 +37,7 @@ data science stack. Any changes you make to your notebook will be saved to your
 local file system even though the container is ephemeral. For more info, you can
 read more about [OSMnx here][6] or read about the image on [docker hub][3].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://en.wikipedia.org/wiki/Container_(virtualization)
 [2]: https://github.com/gboeing/osmnx-examples
 [3]: https://hub.docker.com/r/gboeing/osmnx

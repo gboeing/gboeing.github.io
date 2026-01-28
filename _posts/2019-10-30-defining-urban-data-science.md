@@ -37,5 +37,6 @@ For more, check out [the article][2] in _Environment and Planning B_ and also
 see this [blog post][1] on my thematically related Transactions in GIS plenary
 address at the same conference.
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/2019/04/aag-transactions-gis-plenary/" | relative_url }}
 [2]: {{ "/publications/roundtable-urban-data-science/" | relative_url }}

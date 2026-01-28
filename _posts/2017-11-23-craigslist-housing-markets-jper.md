@@ -53,6 +53,7 @@ For more info on this project and the findings from analyzing Craigslist housing
 markets, check out this summary [blog post][3] or download the JPER [journal
 article][5]. Also see this analysis of [census rents][2] data.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1177/0739456X16664789
 [2]: {{ "/2015/11/landscape-us-rents/" | relative_url }}
 [3]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}

@@ -114,6 +114,7 @@ visualize your own location history. You might also be interested in:
 - Exporting [pandas DataFrames to GeoJSON][10]
 - Our [course at UC Berkeley][9] that teaches these skills and tools
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://accounts.google.com/ServiceLogin?service=backup
 [2]: https://github.com/gboeing/data-visualization/blob/master/location-history/google-location-history-cluster.ipynb
 [3]: https://github.com/gboeing/data-visualization/blob/master/location-history/google-location-history-reverse-geocode.ipynb

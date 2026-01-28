@@ -37,4 +37,5 @@ From the abstract:
 
 For more, check out [the article][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/publications/tilted-platforms-housing-oligopolies/" | relative_url }}

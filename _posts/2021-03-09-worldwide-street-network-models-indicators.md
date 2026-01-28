@@ -60,6 +60,7 @@ represents the first such comprehensive repository of ready-to-use urban area
 street network models and indicators worldwide. For more details and findings,
 check out [the article][6]!
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://dataverse.harvard.edu/dataverse/global-urban-street-networks
 [2]: https://github.com/gboeing/street-network-models
 [3]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}

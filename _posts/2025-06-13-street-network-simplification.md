@@ -55,6 +55,7 @@ efficiency, boosting analytical tractability without loss of model fidelity.
 Counting is hard, but we can make it a little easier by using better models. For
 more, check out the [open-access article][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1111/tgis.70037
 [2]: {{ "/2025/05/osmnx-reference-paper/" | relative_url }}
 [3]: {{ "/files/img/network-simplification-complex-intersections-1024x652.jpeg" | relative_url }}

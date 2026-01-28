@@ -25,4 +25,5 @@ A user may be presented with a navigable cross-section of requirements data
 relevant to search terms. Thus, added visibility and ease of access is provided
 for systems and systems of systems.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://www.researchgate.net/publication/276125266_Systems_and_Methods_for_Analyzing_Requirements#full-text

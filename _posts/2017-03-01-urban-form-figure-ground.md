@@ -64,6 +64,7 @@ The code to reproduce these figures is in this [demo notebook][3]. Several more
 examples are available in OSMnx's [GitHub repo][2]. For more info, check out
 [the paper][9] about OSMnx.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://en.wikipedia.org/wiki/Giambattista_Nolli#Nolli_Map
 [2]: https://github.com/gboeing/osmnx
 [3]: https://github.com/gboeing/osmnx-examples/blob/v0.11/notebooks/10-building-footprints.ipynb

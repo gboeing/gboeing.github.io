@@ -41,6 +41,7 @@ dynamics. Technology platforms like Craigslist construct new institutions with
 the power to shape spatial economies, human interactions, and planners' ability
 to monitor and respond to urban challenges.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1177/0308518X19869678
 [2]: https://doi.org/10.31235/osf.io/pqgw7
 [3]: https://ssrn.com/abstract=3419532

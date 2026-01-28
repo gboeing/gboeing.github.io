@@ -404,6 +404,7 @@ queries][6] with r-tree, kd-tree, and ball-tree indexes.
 OSMnx is open-source and [on GitHub][1]. You can download/cite the [paper
 here][33].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx
 [2]: https://github.com/gboeing/osmnx-examples
 [3]: https://github.com/gboeing/osmnx-examples/blob/v0.13.0/notebooks/02-routing-speed-time.ipynb

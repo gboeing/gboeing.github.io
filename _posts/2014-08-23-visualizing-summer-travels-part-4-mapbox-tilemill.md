@@ -112,6 +112,7 @@ each data point has a popup with time, date, city, and country information. You
 can compare this visualization to similar ones using [CartoDB][9] or
 [Leaflet][8].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv
 [2]: https://www.mapbox.com/
 [3]: https://www.mapbox.com/account/

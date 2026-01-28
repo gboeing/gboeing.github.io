@@ -29,6 +29,7 @@ So, if you haven't already, download the latest release and enjoy a faster and
 more powerful OSMnx. For more details, check out the current OSMnx
 [documentation][3] and [usage examples][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx-examples
 [2]: https://github.com/gboeing/osmnx/blob/master/CHANGELOG.md
 [3]: https://osmnx.readthedocs.io

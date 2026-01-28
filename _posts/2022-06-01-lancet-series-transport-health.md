@@ -61,6 +61,7 @@ Brasil][10]
 
 Check out The Lancet Global Health [series][8] for more.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1016/S2214-109X(22)00066-3
 [2]: https://doi.org/10.1016/S2214-109X(22)00068-7
 [3]: https://doi.org/10.1016/S2214-109X(22)00069-9

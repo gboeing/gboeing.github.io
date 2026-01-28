@@ -56,6 +56,7 @@ time, and routing.
 
 For more, check out [the article][1] at _Geographical Analysis_.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1111/gean.70009
 [2]: {{ "/2024/12/osmnx-v2-released/" | relative_url }}
 [3]: {{ "/files/img/square-mile-street-networks-1024x822.jpg" | relative_url }}

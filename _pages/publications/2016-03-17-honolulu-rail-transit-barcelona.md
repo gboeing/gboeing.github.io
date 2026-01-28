@@ -34,6 +34,7 @@ and social justice as it contributes several form and design lessons to the
 livability and accessibility literature while identifying potential concerns
 with privatization and displacement.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://dx.doi.org/10.17418/planext.2016.3vol.02
 [2]: https://ssrn.com/abstract=2772411
 [3]: https://www.researchgate.net/publication/301651522_Honolulu_Rail_Transit_International_Lessons_in_Linking_Form_Design_and_Transportation

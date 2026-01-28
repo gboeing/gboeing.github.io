@@ -133,6 +133,7 @@ drastic decrease in computation time.
 All of my code is in [this notebook][3] in this [urban data science][2] GitHub
 repo.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://en.wikipedia.org/wiki/R-tree
 [2]: https://github.com/gboeing/urban-data-science
 [3]: https://github.com/gboeing/urban-data-science/blob/2017/19-Spatial-Analysis-and-Cartography/rtree-spatial-indexing.ipynb

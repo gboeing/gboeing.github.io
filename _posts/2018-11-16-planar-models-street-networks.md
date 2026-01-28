@@ -58,6 +58,7 @@ This study develops two new indicators - the Spatial Planarity Ratio and the
 Edge Length Ratio - then measures the extent of nonplanarity in street networks
 around the world [using OSMnx][1]. For more, read [the article][4].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}
 [2]: {{ "/files/img/planar-nonplanar-street-network-graph-1024x673.png" | relative_url }}
 [3]: {{ "/files/img/street-network-planar-nonplanar-world-map-1024x484.png" | relative_url }}

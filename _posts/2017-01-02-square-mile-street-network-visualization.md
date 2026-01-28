@@ -76,6 +76,7 @@ street network anywhere in the world. For more info, check out [the paper][8]
 about OSMnx. All the figures in this post come from [this article][9], which you
 can read/cite.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx
 [2]: https://github.com/gboeing/osmnx-examples/blob/v0.11/notebooks/09-example-figure-ground.ipynb
 [3]: https://www.pinterest.com/pin/191191946661280803/

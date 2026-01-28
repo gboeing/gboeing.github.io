@@ -55,6 +55,7 @@ Check out these [IPython notebooks][2] in this [urban data science][1] GitHub
 repo for more demos of using pandana to visualize urban accessibility and
 walkability in Python.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/urban-data-science
 [2]: https://github.com/gboeing/urban-data-science/tree/2017/20-Accessibility-Walkability
 [3]: https://udst.github.io/pandana/

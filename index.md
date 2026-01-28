@@ -10,5 +10,6 @@ at the Brookings Institution.
 
 Read more about my [background][1] and [research][2].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/about/" | relative_url }}
 [2]: {{ "/research/" | relative_url }}

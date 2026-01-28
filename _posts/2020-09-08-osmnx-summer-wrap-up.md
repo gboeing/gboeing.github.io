@@ -107,6 +107,7 @@ For more information, check out the [two][12] [previous][13] mid- summer updates
 on this project's progress and changes. Also see the current OSMnx
 [documentation][2] and [usage examples][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx-examples
 [2]: https://osmnx.readthedocs.io
 [3]: https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.geometries

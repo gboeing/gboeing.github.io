@@ -63,6 +63,7 @@ on this, check out the [earlier post][4] in which I analyze stadium capacity and
 discuss the massive investments universities are now making in their athletic
 facilities.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/data-visualization/tree/master/ncaa-football-stadiums
 [2]: https://www.google.com/maps/dir/Rynearson+Stadium,+799+North+Hewitt+Road,+Ypsilanti,+MI+48197/Michigan+Stadium,+1201+South+Main+Street,+Ann+Arbor,+MI+48104/@42.2244183,-83.7821856,11.75z/
 [3]: https://www.ncaa.org/championships/statistics/ncaa-football-attendance

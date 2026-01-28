@@ -56,6 +56,7 @@ Here's the chapter abstract:
 > nimble, extensible, and reproducible and have thus evolved into an important
 > component of the geospatial science toolkit.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx-examples
 [2]: https://github.com/gboeing/ppd599
 [3]: {{ "/files/img/jupyterlab-interface-1024x583.png" | relative_url }}

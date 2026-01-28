@@ -98,6 +98,7 @@ Cairo, Delhi, Dubai, Glasgow, Hong Kong, Lagos, London, Madrid, Melbourne,
 Mexico City, Moscow, Mumbai, Munich, Paris, Rio de Janeiro, Rome, Seoul, Sydney,
 Tehran, Toronto, Warsaw, Tokyo, Berlin, Venice][8]
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1007/s41109-019-0189-1
 [2]: https://github.com/gboeing/osmnx-examples/blob/v0.11/notebooks/17-street-network-orientations.ipynb
 [3]: {{ "/2018/02/street-network-orientation/" | relative_url }}

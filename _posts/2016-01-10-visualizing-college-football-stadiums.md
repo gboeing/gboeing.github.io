@@ -112,6 +112,7 @@ follow-up [analysis of attendance][11]. For more on these methods, check out our
 [Urban Informatics and Visualization][10] course at UC Berkeley or see my
 [GitHub repo][5] for the code.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://bleacherreport.com/articles/1680579-cals-stadium-renovation-debt-shows-schools-need-to-keep-football-in-perspective
 [2]: https://en.wikipedia.org/wiki/List_of_NCAA_Division_I_FBS_football_stadiums
 [3]: https://en.wikipedia.org/wiki/List_of_NCAA_Division_I_FCS_football_stadiums

@@ -70,6 +70,7 @@ recognize the potential importance of craft breweries in neighborhood
 revitalization while also protecting residents from displacement. Read more in
 [the chapter][5].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://wvupressonline.com/node/663
 [2]: {{ "/files/img/beer-locations-map-1024x742.png" | relative_url }}
 [3]: {{ "/files/img/states-beer-locations-big-1024x683.png" | relative_url }}

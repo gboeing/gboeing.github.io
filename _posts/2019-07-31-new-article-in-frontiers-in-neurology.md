@@ -21,6 +21,7 @@ demonstrated in R and Python (including [OSMnx][1]), and features static mapping
 and interactive web mapping to explore the region. For more info, check out [the
 article][3].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}
 [2]: {{ "/files/img/catchment.png" | relative_url }}
 [3]: {{ "/publications/software-data-geospatial-stroke/" | relative_url }}

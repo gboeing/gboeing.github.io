@@ -40,6 +40,7 @@ offer practitioners an important tool for curbing car dependence and emissions.
 Once established, street patterns determine urban spatial structure for
 centuries, so proactive planning is essential.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1080/01944363.2020.1819382
 [2]: https://doi.org/10.31235/osf.io/t9um6
 [3]: https://link.springer.com/journal/168/updates/17216054

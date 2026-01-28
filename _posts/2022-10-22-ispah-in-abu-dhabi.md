@@ -25,6 +25,7 @@ Cities][2] to promote healthy and sustainable urban planning, benchmark and
 monitor cities' progress, and share more consistent, comparable urban data. The
 whole [series of articles][3] is free and open access, as is [our software][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/global-healthy-liveable-cities
 [2]: https://www.healthysustainablecities.org/
 [3]: https://www.thelancet.com/series/urban-design-2022

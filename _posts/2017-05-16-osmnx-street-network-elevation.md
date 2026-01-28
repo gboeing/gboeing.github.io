@@ -22,6 +22,7 @@ determine the elevation of each node in the network, given their latitude-
 longitude coordinates. For full details and demonstration, check out [this
 notebook][2] in the OSMnx [GitHub repo][1] or read [the documentation][3].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx
 [2]: https://github.com/gboeing/osmnx-examples/blob/v0.11/notebooks/12-node-elevations-edge-grades.ipynb
 [3]: https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.elevation

@@ -31,5 +31,6 @@ utility and versatility, the ongoing adoption of computational notebooks in
 urban planning, analytics, and related geocomputation disciplines should
 continue into the future.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.18335/region.v6i3.278
 [2]: https://escholarship.org/uc/item/6z9802kf

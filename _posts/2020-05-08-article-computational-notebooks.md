@@ -35,5 +35,6 @@ From the abstract:
 
 For more, check out [the article][2].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx-examples
 [2]: {{ "/publications/street-network-computational-notebook/" | relative_url }}

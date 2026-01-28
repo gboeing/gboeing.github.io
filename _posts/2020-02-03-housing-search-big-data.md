@@ -132,6 +132,7 @@ For more, check out [the paper][2] itself. You might also be interested in my
 rental housing [spot markets][4] and the dearth of up-to-date rent data, or my
 [earlier paper][1] on using Craigslist to understand rental markets.
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}
 [2]: {{ "/publications/housing-search-big-data/" | relative_url }}
 [3]: {{ "/publications/online-housing-market-urban-inequality/" | relative_url }}

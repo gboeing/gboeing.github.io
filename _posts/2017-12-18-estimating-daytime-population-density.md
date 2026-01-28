@@ -106,6 +106,7 @@ of urban planning, policy, and social science. How can we make visible the
 various essential characteristics, behaviors, and even people that are so often
 missed or oversimplified in traditional quantitative urban studies and data?
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/data-visualization/blob/master/daytime-population-density/daytime-density.ipynb
 [2]: https://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(98)_FR.pdf
 [3]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}

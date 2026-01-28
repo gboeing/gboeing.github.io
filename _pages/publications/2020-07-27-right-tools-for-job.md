@@ -29,6 +29,7 @@ better science, we need to build better tools. The paper concludes with paths
 forward, emphasizing open-source software and reusable computational data
 science beyond mere reproducibility and replicability.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1111/tgis.12678
 [2]: https://doi.org/10.31235/osf.io/d267g
 [3]: https://ssrn.com/abstract=3661872

@@ -58,6 +58,7 @@ against each other. This learning experience can help inform the upcoming Urban
 Informatics and Visualization course at UC Berkeley this fall semester, for
 which I am the grad student instructor. Let's [dig in][4].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv
 [2]: https://www.t-mobile.com/simple-choice-international-plans.html
 [3]: {{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}

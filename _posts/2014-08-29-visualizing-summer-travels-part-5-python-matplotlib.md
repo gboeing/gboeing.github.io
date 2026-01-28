@@ -759,6 +759,7 @@ visualization work that you can do natively in it using matplotlib. In [another
 post][18], I explain how to project lat-long point data and shapefiles to make
 create better maps in Python.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://docs.python.org/2/library/datetime.html
 [2]: https://en.wikipedia.org/wiki/Automatic_label_placement
 [3]: https://geopandas.org/

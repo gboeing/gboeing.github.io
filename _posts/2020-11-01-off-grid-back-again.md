@@ -187,6 +187,7 @@ different decades. For more on my methods and findings, check out [the
 article][8]. And if you'd like to model and analyze street networks yourself,
 check out [OSMnx][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
 [2]: {{ "/2019/09/urban-street-network-orientation/" | relative_url }}
 [3]: {{ "/files/img/street-network-grid-index-1024x317.png" | relative_url }}

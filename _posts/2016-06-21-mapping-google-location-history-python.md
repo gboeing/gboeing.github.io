@@ -44,6 +44,7 @@ history. You might also be interested in [mapping everywhere you've ever
 been][6], analyzing your [Foursquare check-in history][5], or our [course at UC
 Berkeley][4] that teaches these skills and tools.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://accounts.google.com/ServiceLogin?service=backup
 [2]: https://github.com/gboeing/data-visualization/blob/master/location-history/google-location-history-simple.ipynb
 [3]: https://github.com/gboeing/data-visualization/tree/master/location-history

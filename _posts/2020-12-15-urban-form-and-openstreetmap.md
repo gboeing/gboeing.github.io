@@ -26,4 +26,5 @@ From the abstract:
 
 For more, check out [the chapter][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/publications/exploring-urban-form-openstreetmap/" | relative_url }}

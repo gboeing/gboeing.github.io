@@ -27,5 +27,6 @@ urbanization. While some street networks are approximately planar, we
 empirically quantify how planar models can inconsistently but drastically
 misrepresent intersection density, street lengths, routing, and connectivity.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1177%2F2399808318802941
 [2]: https://osf.io/preprints/socarxiv/hma8y

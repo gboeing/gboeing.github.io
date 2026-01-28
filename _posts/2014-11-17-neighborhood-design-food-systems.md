@@ -105,6 +105,7 @@ parks, vacant lots, rooftops, and ornamental landscapes. Good food is a crucial
 component of the complete neighborhoods philosophy and is desperately needed in
 America.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://goodfoodla.org/
 [2]: https://www.bloomberg.com/news/2014-08-11/california-drought-transforms-global-food-market.html
 [3]: https://www.citylab.com/politics/2013/10/new-yorks-looming-food-disaster/7294/

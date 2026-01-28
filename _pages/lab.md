@@ -44,6 +44,7 @@ and the Urban Data Lab. Please [contact][6] me with a succinct, specific, and
 personalized summary of why you're a good fit (your research interests,
 background, and relevant skills) and attach your CV.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://priceschool.usc.edu/mup/
 [2]: https://priceschool.usc.edu/upd/
 [3]: {{ "/2019/08/online-rental-housing-representation/" | relative_url }}

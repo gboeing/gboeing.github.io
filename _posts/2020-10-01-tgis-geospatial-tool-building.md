@@ -70,4 +70,5 @@ Tool-building allows academics to better operationalize and hypothesis-test
 theory and therefore forms an essential, but poorly incentivized, pillar of
 scholarly research. To read more, check out [the article][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/publications/right-tools-for-job/" | relative_url }}

@@ -46,6 +46,7 @@ remain when we most urgently need them.
 
 For more, check out [our paper][1] at TR-A
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1016/j.tra.2024.104016
 [2]: https://osf.io/tk93y
 [3]: {{ "/files/img/street-network-disaster-resilience.png" | relative_url }}

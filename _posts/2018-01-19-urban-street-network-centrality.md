@@ -36,6 +36,7 @@ measures. For more info about OSMnx check out this [journal article][6], this
 [blog post][3], or its [GitHub repo][1] for installation instructions and
 documentation.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx
 [2]: https://github.com/gboeing/osmnx-examples/blob/v0.11/notebooks/08-example-line-graph.ipynb
 [3]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}

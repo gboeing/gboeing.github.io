@@ -19,4 +19,5 @@ diabetes epidemics. Locally-sourced food reinforces better dietary habits as
 consumers connect with the value chain and perceive eating as a more natural
 process.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://ssrn.com/abstract=2772432

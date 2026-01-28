@@ -33,6 +33,7 @@ demonstrating a simplified mechanism of how urban displacement and
 gentrification can be sensitive to income inequality, density, and varied
 preferences for different types of amenities.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://arxiv.org/abs/1703.08539
 [2]: https://doi.org/10.3390/urbansci2030076
 [3]: https://osf.io/preprints/socarxiv/mkq7d/

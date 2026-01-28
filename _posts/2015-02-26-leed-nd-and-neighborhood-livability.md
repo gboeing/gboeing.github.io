@@ -65,6 +65,7 @@ tool to fight sprawl, car-oriented public space, and single-use zoning? Or just
 the latest top-down normative template to prescribe the "good" neighborhood? I
 hate false dichotomies, and I'd wager it lies somewhere in between.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://books.google.com/books/about/The_Smart_Growth_Manual.html?id=JKwebAbN5zEC
 [2]: https://escholarship.org/uc/item/64c6h2nw
 [3]: https://www.charlottesville.org/Index.aspx?page=2499

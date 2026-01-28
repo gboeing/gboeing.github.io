@@ -70,6 +70,7 @@ America; Eddie Tejeda, the CEO of Civic Insight; Donna LaSala, the Director of
 Information Technology for the City of Berkeley; AutoDesk's Matt Davis; and my
 fellow doctoral student, Sam Maurer.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://ced.berkeley.edu/ced/faculty-staff/paul-waddell
 [2]: https://data.cityofberkeley.info/
 [3]: https://github.com/gboeing/urban-data-science

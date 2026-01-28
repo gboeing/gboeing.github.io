@@ -140,6 +140,7 @@ made the interactive map with Leaflet. For more on these methods, check out our
 [Urban Informatics and Visualization][5] course at UC Berkeley or see my
 [GitHub repo][1] for the code.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/data-visualization/tree/master/census-rents-2014
 [2]: https://www.census.gov/programs-surveys/acs/news/data-releases/2014/release-schedule.html
 [3]: https://www.latimes.com/nation/la-na-texas-oil-20150303-story.html

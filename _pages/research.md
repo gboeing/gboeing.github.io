@@ -41,6 +41,7 @@ Here are a few representative papers:
 - **Boeing G**. 2019. Urban Spatial Order: Street Network Orientation,
   Configuration, and Entropy. [_Applied Network Science_][1] 4 (1), 67.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1007/s41109-019-0189-1
 [2]: https://doi.org/10.1016/S2214-109X(22)00072-9
 [3]: https://doi.org/10.1016/j.tra.2024.104016

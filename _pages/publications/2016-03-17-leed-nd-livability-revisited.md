@@ -26,5 +26,6 @@ system. We propose that a single set of weighted, prescriptive design guidelines
 may not be able to reflect the diverse values and desired amenities of different
 communities.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://escholarship.org/uc/item/49f234rd
 [2]: https://www.researchgate.net/publication/276129939_LEED-ND_and_Livability_Revisited

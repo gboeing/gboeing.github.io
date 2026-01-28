@@ -24,4 +24,5 @@ transcribed its text using optical character recognition and edited the result
 to correct errors. My transcription of Moses's statement, alongside Caro's
 response to it, is [available here][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/publications/robert-moses-replies-caro/" | relative_url }}

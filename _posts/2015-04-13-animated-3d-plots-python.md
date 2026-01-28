@@ -278,6 +278,7 @@ You can [download/cite the paper here][18]. All of the Python code that I used
 to run the model and produce these animated plots is available in this [GitHub
 repo][3]. Feel free to play around with it and create your own 3-D animations.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://1ucasvb.tumblr.com/post/44666043888/easing-functions-are-an-immensely-useful-tool-for
 [2]: https://docs.python.org/2/library/glob.html
 [3]: https://github.com/gboeing/pynamical

@@ -92,5 +92,6 @@ From the article's abstract:
 For more, check out the _Urban Studies_ [article][1] or the free, open access
 [pre-print][2].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1177/00420980221145403
 [2]: https://doi.org/10.31235/osf.io/wd92j

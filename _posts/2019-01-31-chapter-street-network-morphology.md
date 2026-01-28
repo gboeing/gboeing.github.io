@@ -42,5 +42,6 @@ From the chapter's abstract:
 
 For more, you can read the [chapter here][2].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://www.springer.com/us/book/9783030123802
 [2]: {{ "/publications/morphology-circuity-street-networks/" | relative_url }}

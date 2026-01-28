@@ -29,6 +29,7 @@ policy intervention. Smart city advocates hoping to build better cities through
 technology must critically interrogate technology platforms and big data for
 systematic biases.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1080/10511482.2019.1684336
 [2]: https://escholarship.org/uc/item/8st3t83j
 [3]: https://osf.io/preprints/socarxiv/n5zws/

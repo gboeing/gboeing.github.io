@@ -20,5 +20,6 @@ cities around the world who have joined our collaboration network over the past
 few years. And thank you to my colleagues on the executive committee: it is
 truly a pleasure working with you.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://www.healthysustainablecities.org/
 [2]: {{ "/2022/06/lancet-series-transport-health/" | relative_url }}

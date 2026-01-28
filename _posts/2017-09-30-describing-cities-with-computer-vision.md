@@ -123,6 +123,7 @@ models, but they usually reflect our own experiences and points of view. As
 planners, we need to be cognizant of this as we increasingly use machine
 learning over the next decade to better understand cities and their citizens.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1073/pnas.1619003114
 [2]: https://t.co/4ml3qDhOdK
 [3]: https://t.co/Am9F0ldx1T

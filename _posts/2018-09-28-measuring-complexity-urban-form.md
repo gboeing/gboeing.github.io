@@ -71,6 +71,7 @@ and resilience.
 Portions of this work were previously presented at the Conference on Complex
 Systems in Tempe, Arizona. For more, check out [the article][3].
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/files/img/fractal-mandelbrot-venice-urban-form-eiffel-tower-architecture-1024x334.png" | relative_url }}
 [2]: {{ "/files/img/street-network-complexity-irvine-rome-dubai-1024x331.png" | relative_url }}
 [3]: {{ "/publications/measuring-complexity-urban-form/" | relative_url }}

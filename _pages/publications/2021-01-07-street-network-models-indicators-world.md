@@ -35,6 +35,7 @@ No such global urban street network indicator data set has previously existed.
 Fourth, it presents a summary analysis of urban street network form, reporting
 the first such worldwide results in the literature.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://dataverse.harvard.edu/dataverse/global-urban-street-networks
 [2]: https://doi.org/10.1111/gean.12281
 [3]: https://doi.org/10.31235/osf.io/f2dqc

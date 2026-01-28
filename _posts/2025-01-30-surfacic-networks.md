@@ -40,5 +40,6 @@ From the abstract:
 
 For more, check out the [article][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1093/pnasnexus/pgae585
 [2]: {{ "/files/img/surfacic-network.jpeg" | relative_url }}

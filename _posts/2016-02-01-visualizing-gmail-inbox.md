@@ -69,6 +69,7 @@ humans are responsible for the traffic.
 If you want to re-create or extend this analysis, all my code is [on GitHub][2].
 Just [download][1] your Gmail archive then run my code.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://accounts.google.com/ServiceLogin?service=backup
 [2]: https://github.com/gboeing/data-visualization/blob/master/gmail-inbox-analysis/gmail-inbox-analysis.ipynb
 [3]: {{ "/files/img/gmail-traffic-day-1024x341.png" | relative_url }}

@@ -337,6 +337,7 @@ graphics is available in this [GitHub repo][5]. All of its functionality is
 thoroughly commented, but leave a note if you have any questions or suggestions.
 Feel free to play with it and explore the beauty of chaos.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://books.google.com/books?hl=en&lr=&id=_bkoySKyc_cC
 [2]: https://en.wikipedia.org/wiki/Logistic_function#Logistic_differential_equation
 [3]: https://en.wikipedia.org/wiki/Logistic_function

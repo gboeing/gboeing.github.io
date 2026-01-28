@@ -131,6 +131,7 @@ address components, but these four I used covered my entire data set accurately.
 The data can be visualized with nice informational pop-ups now with tools like
 [CartoDB][9], [Leaflet][7], or [Mapbox and Tilemill][8].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://developers.google.com/maps/documentation/geocoding/#ReverseGeocoding
 [2]: https://geoservices.tamu.edu/Services/ReverseGeocoding/
 [3]: https://github.com/gboeing/2014-summer-travels

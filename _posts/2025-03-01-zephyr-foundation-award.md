@@ -22,5 +22,6 @@ time, and routing.
 
 If you're interested in this tool, you can [read more about it here][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://osmnx.readthedocs.io/
 [2]: {{ "/2024/12/osmnx-v2-released/" | relative_url }}

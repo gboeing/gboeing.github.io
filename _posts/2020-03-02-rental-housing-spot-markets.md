@@ -98,6 +98,7 @@ collecting/analyzing [Craigslist listings][2], understanding its housing
 [information landscape][4], and what this all means for [housing search][3] in
 the age of big data.
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}
 [2]: {{ "/publications/craigslist-rental-housing-markets/" | relative_url }}
 [3]: {{ "/publications/housing-search-big-data/" | relative_url }}

@@ -31,6 +31,7 @@ From the abstract:
 You can [download the article][3] open-access from RSRS. Also check out the
 original [blog post][1] with an interactive web map.
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/2017/12/estimating-daytime-population-density/" | relative_url }}
 [2]: {{ "/files/img/sf-bay-daytime-population-density-map.jpg" | relative_url }}
 [3]: {{ "/publications/estimating-density-census-payroll/" | relative_url }}

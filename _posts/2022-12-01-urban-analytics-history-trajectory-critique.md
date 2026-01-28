@@ -31,4 +31,5 @@ From our abstract:
 
 For more, check out the [chapter][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.4337/9781789903942.00039

@@ -176,6 +176,7 @@ redundant.
 For more info, check out the [documentation][7], the usage [examples][1], or the
 OSMnx features [round-up][14].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx-examples
 [2]: https://github.com/gboeing/osmnx-examples/
 [3]: https://github.com/gboeing/osmnx-examples/blob/v0.13.0/notebooks/00-osmnx-features-demo.ipynb

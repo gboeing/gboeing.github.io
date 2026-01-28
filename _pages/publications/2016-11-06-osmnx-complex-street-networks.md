@@ -33,6 +33,7 @@ and reflects on open science's implications for urban modeling and analysis.
 - [Examples Gallery][3]
 - [Code repository][2]
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1111/gean.70009
 [2]: https://github.com/gboeing/osmnx
 [3]: https://github.com/gboeing/osmnx-examples

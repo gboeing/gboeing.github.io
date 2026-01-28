@@ -34,6 +34,7 @@ GitHub][1].
 If you're interested in routing, travel times, and imputing road speeds, make
 sure to check out OSMnx's new [speed][5] module.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/osmnx
 [2]: https://github.com/gboeing/osmnx-examples
 [3]: https://github.com/gboeing/osmnx-examples/blob/v0.13.0/notebooks/13-isolines-isochrones.ipynb

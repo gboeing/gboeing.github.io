@@ -133,6 +133,7 @@ to Python][7], OSMnx offers an easy way to get started working with this rich
 urban dataset. For more info, check out the paper [about OSMnx][14] or the
 [empirical study][13] of 27,000 U.S. street networks.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://www.acsp.org/
 [2]: https://www.openstreetmap.org/
 [3]: {{ "/2015/08/urban-informatics-visualization-berkeley/" | relative_url }}

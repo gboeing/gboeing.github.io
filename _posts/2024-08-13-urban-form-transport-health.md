@@ -47,4 +47,5 @@ From the abstract:
 
 For more, check out the [article][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1016/j.envres.2024.119324

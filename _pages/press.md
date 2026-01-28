@@ -283,6 +283,7 @@ interviewed me:
 - [_The Daily Californian_][54]. "Berkeley Announces Retrofittings for More
   than Half of City's Soft-Story Buildings." October 6, 2015.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://99percentinvisible.org/article/on-the-grid-visualizing-street-network-orientations-across-50-global-cities/
 [2]: https://afrolanews.org/2023/06/unequal-air-the-pollution-legacy-of-segregation-and-the-freeway-boom-in-los-angeles/
 [3]: https://bigthink.com/strange-maps/charlotte-nc-has-americas-messiest-street-grid

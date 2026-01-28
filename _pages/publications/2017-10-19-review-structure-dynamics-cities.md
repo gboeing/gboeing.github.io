@@ -31,4 +31,5 @@ examining Haussmann's spatial reorganization of Paris)—a refreshing
 accomplishment in a field that too often embraces grand but vague and idealized
 theories of cities... [read more][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1080/01944363.2017.1362306

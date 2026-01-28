@@ -95,6 +95,7 @@ work with OpenStreetMap street networks. You may also be interested in this
 simple [GitHub gist][3] I put together on a quick way to install geopandas as
 part of a Python spatial science stack, with Miniconda.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://conda.pydata.org/
 [2]: https://geopandas.org/
 [3]: https://gist.github.com/gboeing/a6fcb39a9010d142446f4a83e43d8d6c

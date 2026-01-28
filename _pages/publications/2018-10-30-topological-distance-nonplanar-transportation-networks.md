@@ -48,4 +48,5 @@ ground plane without self-intersection. The connections between layers can be
 thought of as staircases and ramps; ignoring heights, paths across layers are
 measured by the projected distance.
 
+<!-- markdownlint-disable MD013 -->
 [1]: {{ "/files/pdf/abfm-localhom.pdf" | relative_url }}

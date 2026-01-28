@@ -29,4 +29,5 @@ From the abstract:
 
 For more, check out the [article][1].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1177/00420980241258297

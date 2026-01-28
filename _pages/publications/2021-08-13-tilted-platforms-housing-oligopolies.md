@@ -34,4 +34,5 @@ drawbacks exist between short-term and long-term rental housing platforms, but
 are underexplored in the literature: this article unpacks these differences and
 proposes policy recommendations.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1186/s42854-021-00024-2

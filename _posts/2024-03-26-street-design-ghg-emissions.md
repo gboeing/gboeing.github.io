@@ -53,6 +53,7 @@ From the abstract:
 For more, check out the [article][1] itself in _Transportation Research Part D_.
 If you lack institutional access, here's a free open-access [preprint][2].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1016/j.trd.2023.103961
 [2]: https://doi.org/10.31235/osf.io/r32vj
 [3]: {{ "/files/img/street-network-design-paradigms.png" | relative_url }}

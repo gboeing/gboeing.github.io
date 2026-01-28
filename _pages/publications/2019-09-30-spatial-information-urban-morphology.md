@@ -33,6 +33,7 @@ of ubiquitous urban data and computational toolkits opens up a new era of
 worldwide urban form analysis from integrated quantitative and qualitative
 perspectives.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1016/j.ijinfomgt.2019.09.009
 [2]: https://osf.io/preprints/socarxiv/vhrdc/
 [3]: https://papers.ssrn.com/abstract=3462078

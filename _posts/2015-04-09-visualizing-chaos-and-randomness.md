@@ -220,6 +220,7 @@ in this [GitHub repo][2]. All of its functionality is thoroughly commented, but
 leave a note if you have any questions or suggestions. Feel free to play with it
 and explore the beauty of chaos.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://en.wikipedia.org/wiki/Return_map
 [2]: https://github.com/gboeing/pynamical
 [3]: {{ "/2015/03/chaos-theory-logistic-map/" | relative_url }}

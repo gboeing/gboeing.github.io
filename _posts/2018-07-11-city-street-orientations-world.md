@@ -32,6 +32,7 @@ that analyzes and visualizes [100 cities][4] around the world, discussing these
 methods, entropy calculations, and images in more detail. And for more on OSMnx,
 check out the [original post][3] or [this post][2] about OSMnx.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1007/s41109-019-0189-1
 [2]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}
 [3]: {{ "/2018/07/comparing-city-street-orientations/" | relative_url }}

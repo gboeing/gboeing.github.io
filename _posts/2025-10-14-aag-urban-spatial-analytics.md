@@ -59,5 +59,6 @@ email your abstract and AAG PIN to both Geoff (boeing at usc dot edu) and
 Elizabeth (delmelle at design dot upenn dot edu) by Nov 1 for us to consider for
 the session. Session participants will be notified by Nov 20.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://www.aag.org/events/aag2026/
 [2]: https://www.design.upenn.edu/people/elizabeth-delmelle

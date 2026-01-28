@@ -30,5 +30,6 @@ repression. It concludes with a call for a more critical urban analytics that
 recognizes its epistemological limits, emphasizes human dignity, and learns from
 and supports marginalized communities.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://osf.io/preprints/socarxiv/bwhx2/
 [2]: https://papers.ssrn.com/abstract=3846508

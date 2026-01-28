@@ -51,4 +51,5 @@ From the abstract:
 For more on this technique and how you can use to to scale up qualitative text
 analysis in urban research, check out the [article][1] at CEUS.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1016/j.compenvurbsys.2024.102131

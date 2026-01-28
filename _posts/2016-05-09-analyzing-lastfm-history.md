@@ -146,6 +146,7 @@ You might also be interested in:
 - Mapping [everywhere I've ever been][16] in my life
 - Our [course at UC Berkeley][14] that teaches these skills and tools
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://en.wikipedia.org/wiki/Blue_Banana
 [2]: https://en.wikipedia.org/wiki/Orchestral_Manoeuvres_in_the_Dark
 [3]: https://en.wikipedia.org/wiki/X_(American_band)

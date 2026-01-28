@@ -41,6 +41,7 @@ on using OSMnx, check out this [blog post][4], its [documentation][3], or its
 [GitHub repo][2]. Or, check out some quick demonstrations of using OSMnx to
 analyze [street network patterns][5] or the [urban form][6].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1016/j.compenvurbsys.2017.05.004
 [2]: https://github.com/gboeing/osmnx
 [3]: https://osmnx.readthedocs.io/

@@ -35,6 +35,7 @@ open-source tools.
 
 For more, check out [the article][5] or read more [about OSMnx][3].
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.7910/DVN/CUWWYJ
 [2]: https://doi.org/10.7910/DVN/F5UNSK
 [3]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}

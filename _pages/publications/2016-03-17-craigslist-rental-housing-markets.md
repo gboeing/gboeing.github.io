@@ -26,6 +26,7 @@ market rent. Nontraditional sources of volunteered geographic information offer
 planners real-time, local-scale estimates of rent and housing characteristics
 currently lacking in alternative sources, such as census data.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://dx.doi.org/10.1177/0739456X16664789
 [2]: https://www.researchgate.net/publication/306400541_New_Insights_into_Rental_Housing_Markets_across_the_United_States_Web_Scraping_and_Analyzing_Craigslist_Rental_Listings
 [3]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}

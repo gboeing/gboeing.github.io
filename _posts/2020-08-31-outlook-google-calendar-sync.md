@@ -30,4 +30,5 @@ runs every 15 minutes.
 
 See the GitHub repo for instructions, details, and code.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://github.com/gboeing/outlook-to-google-calendar

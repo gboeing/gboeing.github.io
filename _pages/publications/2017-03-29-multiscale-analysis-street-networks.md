@@ -33,6 +33,7 @@ defined network definitions and extents for reproducibility, and using
 nonplanar, directed graphs. These street networks and measures data have been
 shared in a public repository for other researchers to use.
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://dataverse.harvard.edu/dataverse/osmnx-street-networks
 [2]: https://doi.org/10.1177/2399808318784595
 [3]: https://osf.io/preprints/socarxiv/hmhts

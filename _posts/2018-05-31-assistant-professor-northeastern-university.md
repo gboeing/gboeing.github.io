@@ -11,4 +11,5 @@ School of Public Policy and Urban Affairs, with a faculty affiliation in
 Northeastern's [Network Science Institute][1]. I will be starting in the Fall
 and moving to Boston later this summer!
 
+<!-- markdownlint-disable MD013 -->
 [1]: https://www.networkscienceinstitute.org/
