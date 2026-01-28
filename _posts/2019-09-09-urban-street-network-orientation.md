@@ -99,8 +99,8 @@ Sarajevo. While the US cities tend to group together in the red, orange, and
 blue clusters, the other world regions' cities tend to distribute more evenly
 across the green, purple, and light gray clusters.
 
-For more information on my methodology and findings, check out the [open-
-access article][1], or check out [OSMnx][2] for the Python tool used for these
+For more information on my methodology and findings, check out the [open-access
+article][1], or check out [OSMnx][2] for the Python tool used for these
 analyses and visualizations. Some of my preliminary work on this (and links to
 source code) appears in two [blog][4] [posts][3] from last summer.
 

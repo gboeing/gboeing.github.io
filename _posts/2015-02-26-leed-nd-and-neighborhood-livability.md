@@ -5,16 +5,18 @@ date: 2015-02-26 13:49:20-08:00
 permalink: /2015/02/leed-nd-and-neighborhood-livability/
 ---
 
-I recently co-authored a journal article titled \_[LEED-ND and Livability
-Revisited][6], \_which won the [Kaye Bock award][2]. LEED-ND is a system for
+I recently co-authored a journal article titled [_LEED-ND and Livability
+Revisited_][6], which won the [Kaye Bock award][2]. LEED-ND is a system for
 evaluating neighborhood design that was developed by CNU, USGBC, and NRDC. Many
 of its criteria, particularly site location and neighborhood pattern,
 accordingly reflect New Urbanist and Smart Growth principles and are inspired by
 traditional neighborhood design.
 
+![LEED-ND][5]
+
 The prominent New Urbanist practitioners who authored [The Smart Growth
 Manual][1] write (p. 6.8) that LEED-ND allows us to "objectively determine the
-degree to which proposed ![LEED-ND][5] projects embody smart growth
+degree to which proposed projects embody smart growth
 principles... it is expected that LEED-ND will become a municipal standard for
 controlling the urban design of large-scale development."
 

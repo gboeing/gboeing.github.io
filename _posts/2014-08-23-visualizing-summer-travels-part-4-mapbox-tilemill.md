@@ -5,7 +5,7 @@ date: 2014-08-23 00:01:58-07:00
 permalink: /2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/
 ---
 
-_This post part of a series][10] on visualizing data from my summer travels._
+_This post part of a [series][10] on visualizing data from my summer travels._
 
 I've previously discussed [my goals][6] in visualizing GPS data from my summer
 travels and explored visualizing the data set [with CartoDB][9] and [with

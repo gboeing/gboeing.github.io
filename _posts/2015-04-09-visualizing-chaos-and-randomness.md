@@ -5,9 +5,6 @@ date: 2015-04-09 18:11:18-07:00
 permalink: /2015/04/visualizing-chaos-and-randomness/
 ---
 
-![3-D Poincare plot of the logistic map's chaotic regime - this is time series
-data embedded in three dimensional state space][7]
-
 _[Download/cite the paper here][17]!_
 
 In a [previous post][3], I discussed chaos theory, fractals, and strange

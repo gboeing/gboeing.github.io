@@ -12,6 +12,8 @@ description: >
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 minima:
   skin: classic
@@ -23,6 +25,7 @@ minima:
     - _pages/lab.md
     - _pages/press.md
     - _pages/contact.md
+  show_excerpts: true
   social_links:
     - title: GitHub
       icon: github
