@@ -13,10 +13,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-kramdown:
-  hard_wrap: false
-  wrap_width: 0
-
 minima:
   skin: classic
   date_format: '%-d %b %Y'
