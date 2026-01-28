@@ -4,8 +4,7 @@ title: Press
 permalink: /press/
 ---
 
-For media inquiries, please [contact]({{ site.url }}{{ site.baseurl
-}}/contact/) me directly.
+For media inquiries, please [contact]({{ "/contact/" | relative_url }}) me directly.
 
 These are some of the media publications that have previously covered my work or
 interviewed me:
@@ -329,8 +328,7 @@ interviewed me:
   "The Prices on Craigslist Rental Listings Are Lowest on This Day." August 26,
   2016\.
 
-- [_American Media Institute Newswire_]({{ site.url }}{{ site.baseurl
-  }}/press/). "Home Rental Costs Up Nationwide." June 16, 2016.
+- [_American Media Institute Newswire_]({{ "/press/" | relative_url }}). "Home Rental Costs Up Nationwide." June 16, 2016.
 
 - [_National Low Income Housing Coalition_](https://nlihc.org/article/study-uses-craigslist-examine-rental-housing-markets).
   "Study Uses Craigslist to Examine Rental Housing Markets." June 13, 2016.

@@ -5,8 +5,7 @@ date: 2019-03-12 08:09:55-07:00
 permalink: /2019/03/us-street-network-models-measures/
 ---
 
-My new [article]({{ site.url }}{{ site.baseurl
-}}/publications/street-networks-models-measures/), "Street Network Models and
+My new [article]({{ "/publications/street-networks-models-measures/" | relative_url }}), "Street Network Models and
 Measures for Every U.S. City, County, Urbanized Area, Census Tract, and
 Zillow-Defined Neighborhood" has been published in _Urban Science_. This paper
 reports results from a broader project that collected raw street network data
@@ -25,8 +24,7 @@ NetworkX, graph-tool, igraph, or Gephi.
 
 ![OSMnx Harvard Dataverse street network graph models and measures for every
 U.S. city, town, urbanized area, county, census tract, and Zillow
-neighborhood.]({{ site.url }}{{ site.baseurl
-}}/files/img/fig_study_sites-411x1024.jpg)
+neighborhood.]({{ "/files/img/fig_study_sites-411x1024.jpg" | relative_url }})
 
 The [repository](https://doi.org/10.7910/DVN/F5UNSK) also contains calculated
 indicators and measures of each network's geometric and topological
@@ -36,6 +34,5 @@ previously existed. These data offer researchers and practitioners a new ability
 to quickly and easily conduct graph-theoretic urban circulation network analysis
 anywhere in the U.S. using standard, free, open-source tools.
 
-For more, check out [the article]({{ site.url }}{{ site.baseurl
-}}/publications/street-networks-models-measures/) or read more [about
-OSMnx]({{ site.url }}{{ site.baseurl }}/2018/03/osmnx-features-roundup/).
+For more, check out [the article]({{ "/publications/street-networks-models-measures/" | relative_url }}) or read more [about
+OSMnx]({{ "/2018/03/osmnx-features-roundup/" | relative_url }}).

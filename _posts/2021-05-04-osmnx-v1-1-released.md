@@ -22,12 +22,10 @@ mid-sized city like Oakland, California in under 1 second.
 
 OSMnx v1.1 also includes a new
 [plot_orientation](https://osmnx.readthedocs.io/en/stable/osmnx.html#osmnx.bearing.plot_orientation)
-function to plot [polar histograms]({{ site.url }}{{ site.baseurl
-}}/2019/09/urban-street-network-orientation/) of street network orientation, and
+function to plot [polar histograms]({{ "/2019/09/urban-street-network-orientation/" | relative_url }}) of street network orientation, and
 an
 [orientation_entropy](https://osmnx.readthedocs.io/en/stable/osmnx.html#osmnx.bearing.orientation_entropy)
-function to calculate the [entropy]({{ site.url }}{{ site.baseurl
-}}/publications/urban-spatial-order-entropy/) of street network bearings. It
+function to calculate the [entropy]({{ "/publications/urban-spatial-order-entropy/" | relative_url }}) of street network bearings. It
 also now exposes all of its individual street network stats functions in the
 stats module for easier use.
 

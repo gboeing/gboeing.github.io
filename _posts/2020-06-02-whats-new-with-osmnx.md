@@ -61,8 +61,7 @@ dead_ends=True)
 ```
 
 ![OSMnx intersection consolidation to merge nearby nodes together and rebuild
-graph topology by reconnecting edges to new merged node]({{ site.url }}{{
-site.baseurl }}/files/img/osmnx-consolidate_intersections-300x241.png)
+graph topology by reconnecting edges to new merged node]({{ "/files/img/osmnx-consolidate_intersections-300x241.png" | relative_url }})
 
 If we plot a portion of this network (above), notice how the traffic circles'
 many (red) nodes are merged into a new single centroid node (black), with edge
@@ -108,8 +107,7 @@ This allows you to easily calculate shortest-path routes that minimize travel
 time (blue) rather than distance (red):
 
 ![Calculate shortest path routes that minimize distance or travel time by
-imputing missing street speeds with OSMnx]({{ site.url }}{{ site.baseurl
-}}/files/img/osmnx-route-travel-time.png)
+imputing missing street speeds with OSMnx]({{ "/files/img/osmnx-route-travel-time.png" | relative_url }})
 
 See the
 [documentation](https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.speed)
@@ -120,8 +118,7 @@ for a usage example.
 ## Generalized POIs Queries
 
 _Update: as of v0.16.0, the pois module and functionality has been incorporated
-into and superseded by the new geometries module:[more info]({{ site.url }}{{
-site.baseurl }}/2020/09/osmnx-summer-wrap-up/)._
+into and superseded by the new geometries module:[more info]({{ "/2020/09/osmnx-summer-wrap-up/" | relative_url }})._
 
 The pois (points of interest) module now takes a flexible `tags` dict in all of
 its OpenStreetMap queries, allowing you to query for any spatial entities. You
@@ -204,5 +201,4 @@ redundant.
 
 For more info, check out the [documentation](https://osmnx.readthedocs.io/), the
 usage [examples](https://github.com/gboeing/osmnx-examples), or the OSMnx
-features [round-up]({{ site.url }}{{ site.baseurl
-}}/2018/03/osmnx-features-roundup/).
+features [round-up]({{ "/2018/03/osmnx-features-roundup/" | relative_url }}).

@@ -11,8 +11,7 @@ urban design, transport, and health has been published by _The Lancet Global
 Health_.
 
 ![The Lancet Global Health infographic on benchmarking healthy sustainable
-cities]({{ site.url }}{{ site.baseurl
-}}/files/img/lancet-global-health-infographic-437x1024.jpeg)
+cities]({{ "/files/img/lancet-global-health-infographic-437x1024.jpeg" | relative_url }})
 
 In our [first paper](<https://doi.org/10.1016/S2214-109X(22)00069-9>), we
 analyzed urban policies and calculated built environment indicators for 25
@@ -23,8 +22,7 @@ substantial implementation gaps.
 
 ![The Lancet Global Health policy analysis investigating if cities have
 measurable, evidence-based policies in place to support healthy sustainable
-cities]({{ site.url }}{{ site.baseurl
-}}/files/img/lancet-urban-policy-analysis-1024x860.jpeg)
+cities]({{ "/files/img/lancet-urban-policy-analysis-1024x860.jpeg" | relative_url }})
 
 In our [second paper](<https://doi.org/10.1016/S2214-109X(22)00068-7>), our team
 calculated thresholds of built environment characteristics that support two
@@ -33,8 +31,7 @@ a 15% reduction in insufficient physical activity through walking.
 
 ![The Lancet Global Healthy study estimating the thresholds of built
 environment features that support UN SDG and WHO physical activity goals through
-walking for transport]({{ site.url }}{{ site.baseurl
-}}/files/img/lancet-IPEN-physical-activity-thresholds.jpeg)
+walking for transport]({{ "/files/img/lancet-IPEN-physical-activity-thresholds.jpeg" | relative_url }})
 
 I led our [third paper](<https://doi.org/10.1016/S2214-109X(22)00072-9>), in
 which our geospatial team developed open-source software to calculate indicators
@@ -44,8 +41,7 @@ thresholds for physical activity. Also check out our appendix which contains 380
 maps and visualizations for the 25 cities.
 
 ![The Lancet Global Healthy spatial analysis of urban walkability and access to
-daily living needs in 25 global cities]({{ site.url }}{{ site.baseurl
-}}/files/img/lancet-global-urban-walkability.jpeg)
+daily living needs in 25 global cities]({{ "/files/img/lancet-global-urban-walkability.jpeg" | relative_url }})
 
 Our [fourth paper](<https://doi.org/10.1016/S2214-109X(22)00066-3>) sums up our
 findings and considers where we go from here. Few cities in our study had
@@ -70,8 +66,7 @@ the 1,000 Cities Challenge to which anyone can contribute. Here's an example
 scorecard for São Paulo:
 
 ![Global Observatory of Healthy and Sustainable Cities Scorecard for Sao Paulo
-Brasil]({{ site.url }}{{ site.baseurl
-}}/files/img/Scorecard_Sao-Paulo-1024x791.jpg)
+Brasil]({{ "/files/img/Scorecard_Sao-Paulo-1024x791.jpg" | relative_url }})
 
 Check out The Lancet Global Health
 [series](https://www.thelancet.com/series/urban-design-2022) for more.

@@ -9,9 +9,7 @@ Urban Street Networks." Transportation Research Board 97th Annual Meeting
 Compendium of Papers. Washington, DC.
 
 Download PDF from [TRB](https://trid.trb.org/View/1495502). Note: an updated
-version of this paper was subsequently published as a [book chapter]({{
-site.url }}{{ site.baseurl
-}}/publications/morphology-circuity-street-networks/).
+version of this paper was subsequently published as a [book chapter]({{ "/publications/morphology-circuity-street-networks/" | relative_url }}).
 
 ## Abstract
 

@@ -8,8 +8,7 @@ permalink: /2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-countr
 This tutorial demonstrates how to reverse geocode a set of latitude-longitude
 coordinates to city and country using Python and the Google Maps API.
 
-I have [previously written]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") about my
+I have [previously written]({{ "/2014/08/visualizing-summer-travels/" | relative_url }}) about my
 GPS location data from this summer's travels. The data set, gathered with the
 OpenPaths app, contains lat- long coordinates and timestamps. Without city or
 country data, any visualizations would be very simplistic because all I have is
@@ -141,8 +140,5 @@ extract the full address text instead of city and country components. You could
 also easily tweak this geocoder to search for municipality in other types of
 address components, but these four I used covered my entire data set accurately.
 The data can be visualized with nice informational pop-ups now with tools like
-[CartoDB]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-with-cartodb/), [Leaflet]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/), or
-[Mapbox and Tilemill]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/).
+[CartoDB]({{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}), [Leaflet]({{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}), or
+[Mapbox and Tilemill]({{ "/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/" | relative_url }}).

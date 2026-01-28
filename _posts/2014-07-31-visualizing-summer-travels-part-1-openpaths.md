@@ -5,8 +5,7 @@ date: 2014-07-31 18:09:52-07:00
 permalink: /2014/07/visualizing-summer-travels-part-1-openpaths/
 ---
 
-_This post is [part of a series]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels/) on visualizing data from my summer
+_This post is [part of a series]({{ "/2014/08/visualizing-summer-travels/" | relative_url }}) on visualizing data from my summer
 travels._
 
 Oscar Levant once said that "happiness isn't something you experience; it's
@@ -50,8 +49,7 @@ There, my location data was only uploaded while I was connected to WiFi. The
 dataset I'll be mapping contains approximately 1,800 time-stamped lat-long
 coordinate points and is
 [available here](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv).
-I discuss how I [reverse-geocoded it here]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/).
+I discuss how I [reverse-geocoded it here]({{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}).
 
 ## Goals and Next Steps
 
@@ -61,6 +59,4 @@ I remember and explore where I went and what I did on this trip, using location
 data? The second goal is to play with web mapping tools and evaluate them
 against each other. This learning experience can help inform the upcoming Urban
 Informatics and Visualization course at UC Berkeley this fall semester, for
-which I am the grad student instructor. Let's [dig in]({{ site.url }}{{
-site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/ "Visualizing
-Summer Travels Part 2: CartoDB").
+which I am the grad student instructor. Let's [dig in]({{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}).

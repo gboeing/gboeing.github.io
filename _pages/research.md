@@ -7,11 +7,9 @@ permalink: /research/
 My research explores the spatial outcomes of urban planning through network
 analysis, geospatial data science, and machine learning. I am interested in how
 planners shape the urban form that shapes our lives—and, in turn, how we can
-plan a better urban future. My research has won several [awards]({{ site.url
-}}{{ site.baseurl }}/about/).
+plan a better urban future. My research has won several [awards]({{ "/about/" | relative_url }}).
 
-For an up-to-date and comprehensive publications listing, see my [CV]({{
-site.url }}{{ site.baseurl }}/cv/) or
+For an up-to-date and comprehensive publications listing, see my [CV]({{ "/cv/" | relative_url }}) or
 [Google Scholar](https://scholar.google.com/citations?user=xaKBPQQAAAAJ).
 
 Here are a few representative papers:

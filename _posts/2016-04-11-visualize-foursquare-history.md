@@ -16,8 +16,7 @@ plug in your Foursquare OAuth token then run the notebook.
 First the notebook downloads all my check-ins from the Foursquare API. Then I
 mapped all of them, using matplotlib basemap.
 
-![Map of Foursquare Swarm check-in location history]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_checkins_map-1024x634.png)
+![Map of Foursquare Swarm check-in location history]({{ "/files/img/foursquare_checkins_map-1024x634.png" | relative_url }})
 
 [Basemap](https://matplotlib.org/basemap/) is a fantastic, simple way to project
 and map geospatial data attractively with Python (here, using the
@@ -25,29 +24,25 @@ and map geospatial data attractively with Python (here, using the
 check-ins are unsurprisingly in the U.S. and along the west coast. What
 countries _other_ than the U.S. have I checked-into the most?
 
-![Foursquare Swarm most common countries checked into]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_common_countries.png)
+![Foursquare Swarm most common countries checked into]({{ "/files/img/foursquare_common_countries.png" | relative_url }})
 
 Outside of the U.S., I've checked-in to Spain more than any other country.
 Conversely, which cities (total, including the U.S.) have I checked-into the
 most?
 
-![Foursquare Swarm most common cities checked into]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_common_cities.png)
+![Foursquare Swarm most common cities checked into]({{ "/files/img/foursquare_common_cities.png" | relative_url }})
 
 Berkeley dominates, which is unsurprising because I live and work in Berkeley.
 Other bay area cities (San Francisco and Oakland) likewise come in second and
 third. What _types_ of places have I checked-into the most?
 
-![Foursquare Swarm most common venue categories checked into]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_common_categories.png)
+![Foursquare Swarm most common venue categories checked into]({{ "/files/img/foursquare_common_categories.png" | relative_url }})
 
 I guess these venue categories reveal the highs and lows of PhD student life:
 college buildings, libraries, bars, and breweries. Beyond categories, what
 specific places (aka, Foursquare "venues") have I checked-into the most?
 
-![Foursquare Swarm most common venues checked into]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_common_venues.png)
+![Foursquare Swarm most common venues checked into]({{ "/files/img/foursquare_common_venues.png" | relative_url }})
 
 So the top four venues are all buildings on UC Berkeley's campus. Two others are
 bars near my house in Berkeley. The rest of the top venues comprise my closest
@@ -58,8 +53,7 @@ grocery store, transit station, and airport.
 How has my check-in behavior changed over time? Have I used Foursquare/Swarm
 differently at different times?
 
-![Foursquare Swarm check-ins per month]({{ site.url }}{{ site.baseurl
-}}/files/img/foursquare_checkins_month.png)
+![Foursquare Swarm check-ins per month]({{ "/files/img/foursquare_checkins_month.png" | relative_url }})
 
 Clearly I have used it much more in some months than in others. While I
 checked-in more in general when the app was new to me, there are also a lot of
@@ -67,15 +61,13 @@ spikes correlated with times I was on vacation or out of town. The valleys tend
 to be mid-semester when I was busy at school and not going out and about much.
 What about by day of the week?
 
-![Foursquare Swarm check-ins per day of the week]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_checkins_weekday.png)
+![Foursquare Swarm check-ins per day of the week]({{ "/files/img/foursquare_checkins_weekday.png" | relative_url }})
 
 Fridays and Saturdays have the most check-ins, because I'm going out more on
 those days. But there isn't a _drastic_ difference in daily check-in activity.
 What about by hour of the day?
 
-![Foursquare Swarm check-ins per hour of the day]({{ site.url }}{{
-site.baseurl }}/files/img/foursquare_checkins_hour.png)
+![Foursquare Swarm check-ins per hour of the day]({{ "/files/img/foursquare_checkins_hour.png" | relative_url }})
 
 My check-in activity peaks around mid-day before hitting another mini peak in
 the late afternoon; from there it trails off into the night.
@@ -84,5 +76,4 @@ You can visualize your own Foursquare/Swarm check-in history using my Python
 code in this
 [GitHub repo](https://github.com/gboeing/data-visualization/blob/master/location-history/foursquare-location-history.ipynb).
 Just plug in your own Foursquare OAuth token, then run the notebook. You might
-also be interested in [mapping everywhere you've ever been]({{ site.url }}{{
-site.baseurl }}/2016/06/mapping-everywhere-ever-been/).
+also be interested in [mapping everywhere you've ever been]({{ "/2016/06/mapping-everywhere-ever-been/" | relative_url }}).

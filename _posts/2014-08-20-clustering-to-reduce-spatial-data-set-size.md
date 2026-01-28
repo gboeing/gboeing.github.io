@@ -27,21 +27,13 @@ How can we reduce the size of a data set down to a smaller set of spatially
 representative points? Consider a spatial data set with 1,759 latitude-
 longitude coordinates. This manageable data set is not too large to map, but it
 serves as a useful object for this tutorial (for a more complex example
-clustering 1.2 million GPS coordinates, see [this project]({{ site.url
-}}{{site.baseurl }}/2016/06/mapping-everywhere-ever-been/)).
+clustering 1.2 million GPS coordinates, see [this project]({{ "/2016/06/mapping-everywhere-ever-been/" | relative_url }})).
 
-I have discussed this data set in a [series of posts]({{ site.url }}{{
-site.baseurl }}/2014/08/visualizing-summer-travels/ "Visualizing Summer
-Travels"), and reverse-geocoded the coordinates to [add city and country]({{
-site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) data.
-Here is a simple Python [matplotlib]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/ "Visualizing
-Summer Travels Part 5: Python + Matplotlib") scatter plot of all the coordinates
+I have discussed this data set in a [series of posts]({{ "/2014/08/visualizing-summer-travels/" | relative_url }}), and reverse-geocoded the coordinates to [add city and country]({{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}) data.
+Here is a simple Python [matplotlib]({{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}) scatter plot of all the coordinates
 in the full data set:
 
-![DBSCAN clustering of GPS latitude longitude spatial data]({{ site.url }}{{
-site.baseurl }}/files/img/scatter-full-set.png)
+![DBSCAN clustering of GPS latitude longitude spatial data]({{ "/files/img/scatter-full-set.png" | relative_url }})
 
 At this scale, only a few dozen of the 1,759 data points are really visible.
 Even zoomed in very close, several locations have hundreds of data points
@@ -212,8 +204,7 @@ right')
 plt.show()
 ```
 
-![DBSCAN clustering of GPS latitude-longitude spatial data]({{ site.url }}{{
-site.baseurl }}/files/img/dbscan-clustering-spatial-gps-lat-long-data.png)
+![DBSCAN clustering of GPS latitude-longitude spatial data]({{ "/files/img/dbscan-clustering-spatial-gps-lat-long-data.png" | relative_url }})
 
 Looks good! You can see the 138 representative points, in green, approximating
 the spatial distribution of the 1,759 points of the full data set, in black.
@@ -233,6 +224,6 @@ applications that need a low-overhead spatial data set to render a visualization
 quickly and responsively. In particular, you might be interested in
 [this notebook](https://github.com/gboeing/data-visualization/blob/master/location-history/google-location-history-cluster.ipynb)
 that uses this technique to cluster 1.2 million spatial data points and [this
-post]({{ site.url }}{{ site.baseurl }}/2016/06/mapping-everywhere-ever-been/)
+post]({{ "/2016/06/mapping-everywhere-ever-been/" | relative_url }})
 about that project. You can also read the
 [paper here](https://osf.io/preprints/socarxiv/nzhdc/).

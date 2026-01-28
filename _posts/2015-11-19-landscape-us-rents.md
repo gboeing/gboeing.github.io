@@ -8,8 +8,7 @@ permalink: /2015/11/landscape-us-rents/
 Which U.S. cities are the most expensive for rental housing? Where are rents
 rising the fastest? The American Community Survey (ACS) recently released its
 latest batch of 1-year data and I analyzed, mapped, and visualized it. My
-[methodology]({{ site.url }}{{ site.baseurl
-}}/2015/08/urban-informatics-visualization-berkeley/) is below, and my code and
+[methodology]({{ "/2015/08/urban-informatics-visualization-berkeley/" | relative_url }}) is below, and my code and
 data are in this
 [GitHub repo](https://github.com/gboeing/data-visualization/tree/master/census-rents-2014).
 
@@ -22,7 +21,7 @@ The expensive coastal cities' median rents form a red line snaking along the
 western and eastern seaboards. The nation's blue interior has lower rents.
 
 ![Most expensive cities in the US: United States metro areas by 2014 median
-rent]({{ site.url }}{{ site.baseurl }}/files/img/median_rent_msa-labels.png)
+rent]({{ "/files/img/median_rent_msa-labels.png" | relative_url }})
 
 But when you switch to the percent _change_ in median rent since 2010, the
 coasts cool off somewhat and the interior - especially east of the Rockies -
@@ -30,8 +29,7 @@ warms up. Inland rents seem to be lower than those on the coasts, but also seem
 to have risen at a quicker rate since 2010.
 
 ![Most expensive cities in the US: United States metro areas by percent
-increase in median rent between 2010 and 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/rent_change_msa-labels.png)
+increase in median rent between 2010 and 2014]({{ "/files/img/rent_change_msa-labels.png" | relative_url }})
 
 ## Cities with the most expensive rents
 
@@ -39,8 +37,7 @@ Here are the U.S. metro areas with the highest rents (listed by principle city),
 along with the median rent's percentage change since 2010:
 
 ![Most expensive cities in the United States: the US metro areas with the
-highest median rent in 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/highest-median-rent-2014.png)
+highest median rent in 2014]({{ "/files/img/highest-median-rent-2014.png" | relative_url }})
 
 The list of most expensive cities is dominated by California, which comprises 10
 of the top 15. Cities around the Bay Area also have particularly large increases
@@ -49,8 +46,7 @@ until #15. By contrast, here are the U.S. metro areas with the _fastest rising_
 median rents since 2010:
 
 ![Most expensive cities in the United States: the US metro areas with the
-fastest rising rents]({{ site.url }}{{ site.baseurl
-}}/files/img/greatest-rent-increases-2014.png)
+fastest rising rents]({{ "/files/img/greatest-rent-increases-2014.png" | relative_url }})
 
 This list is largely composed of smaller cities, with plenty of representation
 from [Texas](https://www.latimes.com/nation/la-na-texas-oil-20150303-story.html)
@@ -62,16 +58,14 @@ rose 65%. Overall, 2014 median rents are closely correlated with 2010 median
 rents. This scatter plot depicts the 2014 vs 2010 median rents for each metro
 area, with a simple regression line showing their relationship:
 
-![scatter-rent-change-2010-2014]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent-change-2010-2014.png)
+![scatter-rent-change-2010-2014]({{ "/files/img/scatter-rent-change-2010-2014.png" | relative_url }})
 
 And what about fast growing cities? Do they have faster rising rents? Not
 really. The next scatter plot depicts the percent change in median rent vs the
 percent change in population for each metro area: faster growing metros tend to
 have _slightly_ faster rising rents, but the relationship is very weak.
 
-![scatter-rent-pop-change-2010-14]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent-pop-change-2010-14.png)
+![scatter-rent-pop-change-2010-14]({{ "/files/img/scatter-rent-pop-change-2010-14.png" | relative_url }})
 
 Faster-growing cities do not necessarily have faster-rising rents. There are
 clearly other factors at play.
@@ -82,8 +76,7 @@ Here are the U.S. metro areas with the least expensive rents, along with the
 median rent's percent change since 2010:
 
 ![Least expensive cities in the United States: the US metro areas with the
-lowest median rent in 2014]({{ site.url }}{{ site.baseurl
-}}/files/img/lowest-median-rent-2014.png)
+lowest median rent in 2014]({{ "/files/img/lowest-median-rent-2014.png" | relative_url }})
 
 The least expensive rents are concentrated in small towns and predominantly in
 the South. Talladega, Alabama has the lowest rent in the country by a
@@ -94,8 +87,7 @@ By contrast, here are the U.S. metro areas with the _fastest falling_ median
 rents since 2010:
 
 ![Least expensive cities in the United States: the US metro areas with the
-fastest decreasing rents]({{ site.url }}{{ site.baseurl
-}}/files/img/greatest-rent-decreases-2014.png)
+fastest decreasing rents]({{ "/files/img/greatest-rent-decreases-2014.png" | relative_url }})
 
 Talladega pops up here again and the list of cities with the greatest decrease
 in median rent is peppered with small towns across the US. But if anyone's
@@ -117,8 +109,7 @@ many latent factors at play. This scatter plot depicts the 2014 median rent vs
 the (log of) 2014 population of each metro area:
 
 ![U.S. cities (metro areas) with larger populations tend to have slightly
-higher rents]({{ site.url }}{{ site.baseurl
-}}/files/img/scatter-rent-pop-log-2010-14.png)
+higher rents]({{ "/files/img/scatter-rent-pop-log-2010-14.png" | relative_url }})
 
 Rents rise and fall for many reasons. Jobs come and go, local economies boom and
 bust. Fed monetary policy and inflation affect nominal rents. Cities restrict
@@ -152,8 +143,7 @@ the principle city/state and geocoded it to latitude-longitude for mapping.
 
 I did all the analysis and static mapping in Python with pandas and basemap. I
 made the interactive map with Leaflet. For more on these methods, check out our
-[Urban Informatics and Visualization]({{ site.url }}{{ site.baseurl
-}}/2015/08/urban-informatics-visualization-berkeley/) course at UC Berkeley or
+[Urban Informatics and Visualization]({{ "/2015/08/urban-informatics-visualization-berkeley/" | relative_url }}) course at UC Berkeley or
 see my
 [GitHub repo](https://github.com/gboeing/data-visualization/tree/master/census-rents-2014)
 for the code.

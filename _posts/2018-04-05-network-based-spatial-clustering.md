@@ -14,25 +14,21 @@ network-based spatial clustering.
 
 The code for this example can be found in this
 [GitHub repo](https://github.com/gboeing/network-clustering). We use
-[OSMnx]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx-python-street-networks/) to download and assemble the street
+[OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}) to download and assemble the street
 network for a small city. We also have a dataframe of points representing the
 locations of (fake) restaurants in this city. Our restaurants cluster into
 distinct districts, as many establishments and industries tend to do:
 
 ![firm locations on the street network to be clustered: python, osmnx,
-matplotlib, scipy, scikit-learn, geopandas]({{ site.url }}{{ site.baseurl
-}}/files/img/locations-1024x722.png)
+matplotlib, scipy, scikit-learn, geopandas]({{ "/files/img/locations-1024x722.png" | relative_url }})
 
 If we want to explore how these establishments agglomerate, we can identify
-spatial clusters using an algorithm [like DBSCAN]({{ site.url }}{{
-site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set-size/). DBSCAN
+spatial clusters using an algorithm [like DBSCAN]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}). DBSCAN
 identifies points as members of a cluster if each is within _epsilon_ distance
 of another and if this cluster contains at least _minpts_ number of points. For
 this example we parameterize it with an _epsilon_ = 300 and _minpts_ = 3. That
 is, points must be within 300 meters of each other and a cluster must contain at
-least 3 points. For more on DBSCAN, check out this [blog post]({{ site.url
-}}{{ site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set-size/) and
+least 3 points. For more on DBSCAN, check out this [blog post]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}) and
 [paper](https://osf.io/preprints/socarxiv/nzhdc/).
 
 We compute DBSCAN by converting everything to radians, fitting it, then getting
@@ -48,8 +44,7 @@ df['spatial_cluster'] = db.fit_predict(np.deg2rad(df[['y', 'x']]))
 Now we can visualize our establishments, coloring them by spatial cluster label:
 
 ![business locations on the urban street network spatially clustered with
-DBSCAN: python, osmnx, matplotlib, scipy, scikit-learn, geopandas]({{ site.url
-}}{{ site.baseurl }}/files/img/spatial-clusters-1024x722.png)
+DBSCAN: python, osmnx, matplotlib, scipy, scikit-learn, geopandas]({{ "/files/img/spatial-clusters-1024x722.png" | relative_url }})
 
 Our three clusters of establishments are clearly visible in red, magenta, and
 green, representing three distinct districts in the city. Each cluster contains
@@ -111,8 +106,7 @@ label:
 
 ![network-based spatial clustering: points along the city street network
 spatially clustered with network-constrained DBSCAN: python, osmnx, matplotlib,
-scipy, scikit-learn, geopandas]({{ site.url }}{{ site.baseurl
-}}/files/img/network-clusters-1024x722.png)
+scipy, scikit-learn, geopandas]({{ "/files/img/network-clusters-1024x722.png" | relative_url }})
 
 When clustered spatially earlier, we got 3 clusters. Now, when we do network-
 constrained density-based spatial clustering, we get 4 clusters: the formerly
@@ -127,6 +121,5 @@ in this [GitHub repo](https://github.com/gboeing/network-clustering). For a more
 complicated example clustering millions of points along a network, see
 [this notebook](https://github.com/gboeing/network-clustering/blob/master/network-clustering-node-based.ipynb).
 For more on using DBSCAN for spatial clustering, compression, and dimensionality
-reduction see this [blog post]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/) and
+reduction see this [blog post]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}) and
 [paper](https://osf.io/preprints/socarxiv/nzhdc/).

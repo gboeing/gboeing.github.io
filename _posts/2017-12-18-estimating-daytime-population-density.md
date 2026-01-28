@@ -5,8 +5,7 @@ date: 2017-12-18 16:44:28-08:00
 permalink: /2017/12/estimating-daytime-population-density/
 ---
 
-_Check out the [journal article]({{ site.url }}{{ site.baseurl
-}}/publications/estimating-density-census-payroll/) about this project._
+_Check out the [journal article]({{ "/publications/estimating-density-census-payroll/" | relative_url }}) about this project._
 
 I was recently asked: "how might someone figure out the local daytime population
 density across the Bay Area from public data?" My answer, in short, was that you
@@ -20,14 +19,12 @@ states shapefile. I preferred the 2010 census demographic data to (more recent)
 ACS data because the ACS tract-level variables are five-year rolling averages.
 Given this, I preferred not to compare 2014 LODES data to 2010-2014 ACS data as
 the Bay Area experienced substantial housing, economic, and demographic upheaval
-over this interval—[patterns obscured]({{ site.url }}{{ site.baseurl
-}}/2016/08/craigslist-rental-housing-insights/) in the ACS rolling average. To
+over this interval—[patterns obscured]({{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}) in the ACS rolling average. To
 avoid inconsistent comparison, I opted for more stale—but more accurate and
 comparable—data.
 
 ![Map of the estimated daytime population density in the San Francisco Bay
-Area]({{ site.url }}{{ site.baseurl
-}}/files/img/sf-bay-daytime-population-density-map-749x1024.jpg)
+Area]({{ "/files/img/sf-bay-daytime-population-density-map-749x1024.jpg" | relative_url }})
 
 I used Python and JavaScript to produce the analysis, the choropleth map above,
 and the interactive Leaflet web map below (code

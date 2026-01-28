@@ -5,19 +5,14 @@ date: 2014-09-06 22:02:17-07:00
 permalink: /2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/
 ---
 
-_This post is [part of a series]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") on
+_This post is [part of a series]({{ "/2014/08/visualizing-summer-travels/" | relative_url }}) on
 visualizing data from my summer travels._
 
 I've previously discussed visualizing the GPS location data from my summer
-travels with [CartoDB]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-with-cartodb/), [Leaflet]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/), and
-[Mapbox + Tilemill]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/). I also
+travels with [CartoDB]({{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}), [Leaflet]({{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}), and
+[Mapbox + Tilemill]({{ "/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/" | relative_url }}). I also
 visualized different aspects of this data set in Python, using the
-[matplotlib]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/) plotting
+[matplotlib]({{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}) plotting
 library. However, these spatial scatter plots used unprojected lat-long data
 which looked pretty distorted at European latitudes.
 
@@ -37,14 +32,12 @@ European latitudes because the spatial data was
 to understand this distortion is to see it visually. Here is the very simple but
 very distorted plot of my lat-long data, from the previous post:
 
-![geopandas-shapfile-point-data-map]({{ site.url }}{{ site.baseurl
-}}/files/img/geopandas-shapfile-point-data-map-300x153.png)
+![geopandas-shapfile-point-data-map]({{ "/files/img/geopandas-shapfile-point-data-map-300x153.png" | relative_url }})
 
 And here is the projected data in a more geographically representative plot
 which I will create today in this post:
 
-![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile-gps-coordinates-300x203.png)
+![projected-shapefile-gps-coordinates]({{ "/files/img/projected-shapefile-gps-coordinates-300x203.png" | relative_url }})
 
 You can see the horizontal distortion in the top image: France, Germany,
 England, etc are too wide because the three dimensional lat-long data from the
@@ -70,14 +63,9 @@ is used to convert the shapes into plottable objects. Lastly,
 [geopandas](https://geopandas.org/) will perform spatial and geographic
 calculations and analysis.
 
-Then I load two location data sets: one is the [original full set]({{ site.url
-}}{{ site.baseurl }}/2014/07/visualizing-summer-travels-part-1-openpaths/
-"Visualizing Summer Travels Part 1: OpenPaths") and the other is a [clustered,
-reduced set]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/) of location data points.
-Both of these data sets have been [reverse-geocoded]({{ site.url }}{{
-site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) so I
+Then I load two location data sets: one is the [original full set]({{ "/2014/07/visualizing-summer-travels-part-1-openpaths/" | relative_url }}) and the other is a [clustered,
+reduced set]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}) of location data points.
+Both of these data sets have been [reverse-geocoded]({{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}) so I
 have lat-long coordinates, city, and country data. Finally I load a shapefile of
 world country borders as a geopandas GeoDataFrame.
 
@@ -288,8 +276,7 @@ xycoords='data')
 plt.show()
 ```
 
-![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile-gps-coordinates.png)
+![projected-shapefile-gps-coordinates]({{ "/files/img/projected-shapefile-gps-coordinates.png" | relative_url }})
 
 The plot above depicts a map of Europe with my GPS location data plotted on top
 of it. The top six most visited cities are annotated on the map: Lisbon,
@@ -297,9 +284,7 @@ Barcelona, Prague, Tuebingen, Athens, and Istanbul. The country borders and
 point data are all projected to preserve relative sizes at European latitudes.
 The countries are shaded different colors indicating if I visited them or not.
 It looks much better than the simple, unprojected plots in the [previous
-post]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/ "Visualizing
-Summer Travels Part 5: Python + Matplotlib").
+post]({{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}).
 
 ## Plotting the most isolated locations
 
@@ -378,8 +363,7 @@ xycoords='data')
 plt.show()
 ```
 
-![most-isolated-projected]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated-projected.png)
+![most-isolated-projected]({{ "/files/img/most-isolated-projected.png" | relative_url }})
 
 The plot above shows the projected GPS location data set in magenta and
 highlights the most isolated points in red: Barcelona, Hounslow (outside of
@@ -390,9 +374,7 @@ nearest neighbors.
 
 ## Wrap up
 
-In my [previous post]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/ "Visualizing
-Summer Travels Part 5: Python + Matplotlib"), I created several simple plots of
+In my [previous post]({{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}), I created several simple plots of
 my GPS location data that didn't bother with projection. However, the data was
 spatially distorted at these European latitudes. The projected plots of my most
 visited cities and most isolated locations that I've created here look much

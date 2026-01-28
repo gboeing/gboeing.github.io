@@ -5,10 +5,8 @@ date: 2020-09-08 11:19:42-07:00
 permalink: /2020/09/osmnx-summer-wrap-up/
 ---
 
-[OSMnx]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx-python-street-networks/) underwent a major overhaul this
-summer, with the development of several new [features]({{ site.url }}{{
-site.baseurl }}/2018/03/osmnx-features-roundup/), improvements, and
+[OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}) underwent a major overhaul this
+summer, with the development of several new [features]({{ "/2018/03/osmnx-features-roundup/" | relative_url }}), improvements, and
 optimizations. This project concluded yesterday with the release of v0.16.0.
 
 This post briefly summarizes what's changed since the previous mid-summer
@@ -17,9 +15,7 @@ polygon when geocoding, better conversion of graph types, and the new geometries
 module that lets you flexibly download any OSM geospatial objects as a geopandas
 GeoDataFrame.
 
-First, check out those two [previous]({{ site.url }}{{ site.baseurl
-}}/2020/06/whats-new-with-osmnx/) [updates]({{ site.url }}{{ site.baseurl
-}}/2020/07/whats-new-with-osmnx-part-2/) covering what was new along the way,
+First, check out those two [previous]({{ "/2020/06/whats-new-with-osmnx/" | relative_url }}) [updates]({{ "/2020/07/whats-new-with-osmnx-part-2/" | relative_url }}) covering what was new along the way,
 including topological intersection consolidation, automatic max speed imputation
 and travel time calculation, querying historical OSM snapshots by date, improved
 visualization and plotting, better graph simplification, a new geocoder module,
@@ -116,9 +112,7 @@ network).
 
 ## Conclusion
 
-For more information, check out the [two]({{ site.url }}{{ site.baseurl
-}}/2020/06/whats-new-with-osmnx/) [previous]({{ site.url }}{{ site.baseurl
-}}/2020/07/whats-new-with-osmnx-part-2/) mid- summer updates on this project's
+For more information, check out the [two]({{ "/2020/06/whats-new-with-osmnx/" | relative_url }}) [previous]({{ "/2020/07/whats-new-with-osmnx-part-2/" | relative_url }}) mid- summer updates on this project's
 progress and changes. Also see the current OSMnx
 [documentation](https://osmnx.readthedocs.io) and
 [usage examples](https://github.com/gboeing/osmnx-examples).

@@ -12,8 +12,7 @@ doi:[10.1177/0739456X16664789](https://dx.doi.org/10.1177/0739456X16664789)
 Download PDF [from JPER](https://dx.doi.org/10.1177/0739456X16664789) or
 [from ResearchGate](https://www.researchgate.net/publication/306400541_New_Insights_into_Rental_Housing_Markets_across_the_United_States_Web_Scraping_and_Analyzing_Craigslist_Rental_Listings).
 
-Check out the [blog post]({{ site.url }}{{ site.baseurl
-}}/2016/08/craigslist-rental-housing-insights/) summary of our findings.
+Check out the [blog post]({{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}) summary of our findings.
 
 ## Abstract
 

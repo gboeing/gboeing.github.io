@@ -5,11 +5,9 @@ date: 2018-09-28 13:22:58-07:00
 permalink: /2018/09/measuring-complexity-urban-form/
 ---
 
-My article, [Measuring the Complexity of Urban Form and Design]({{ site.url
-}}{{ site.baseurl }}/publications/measuring-complexity-urban-form/), is now
+My article, [Measuring the Complexity of Urban Form and Design]({{ "/publications/measuring-complexity-urban-form/" | relative_url }}), is now
 in-press for publication at _Urban Design International_ ([download free
-PDF]({{ site.url }}{{ site.baseurl
-}}/publications/measuring-complexity-urban-form/)). Cities are complex systems
+PDF]({{ "/publications/measuring-complexity-urban-form/" | relative_url }})). Cities are complex systems
 composed of many human agents interacting in physical urban space. This paper
 develops a typology of measures and indicators for assessing the physical
 complexity of the built environment at the scale of urban design. It extends
@@ -18,9 +16,7 @@ fractal geometry, statistical physics, and information theory to the analysis of
 urban form and qualitative human experience.
 
 ![The Mandelbrot set, a mathematical fractal. Venice's fractal urban form and
-fabric. The Eiffel Tower's fractal architecture in Paris.]({{ site.url }}{{
-site.baseurl
-}}/files/img/fractal-mandelbrot-venice-urban-form-eiffel-tower-architecture-1024x334.png)
+fabric. The Eiffel Tower's fractal architecture in Paris.]({{ "/files/img/fractal-mandelbrot-venice-urban-form-eiffel-tower-architecture-1024x334.png" | relative_url }})
 
 Metrics at multiple scales are scattered throughout diverse bodies of literature
 and have useful applications in analyzing the adaptive complexity that both
@@ -34,8 +30,7 @@ urban form.
 ![Street networks (one square mile each) exhibiting varying complexity through
 density, grain, connectivity, and permeability. Left: Irvine, California.
 Center: Rome, Italy. Right: Dubai, UAE. Visualizing OpenStreetMap data with
-Python and OSMnx.]({{ site.url }}{{ site.baseurl
-}}/files/img/street-network-complexity-irvine-rome-dubai-1024x331.png)
+Python and OSMnx.]({{ "/files/img/street-network-complexity-irvine-rome-dubai-1024x331.png" | relative_url }})
 
 Urban design has evolved through eras of classicism, organicism, austere
 modernism, postmodernism, and neotraditionalism—each of which encounters the
@@ -74,5 +69,4 @@ constructed urban landscapes and towards a logic of organic growth, evolution,
 and resilience.
 
 Portions of this work were previously presented at the Conference on Complex
-Systems in Tempe, Arizona. For more, check out [the article]({{ site.url }}{{
-site.baseurl }}/publications/measuring-complexity-urban-form/).
+Systems in Tempe, Arizona. For more, check out [the article]({{ "/publications/measuring-complexity-urban-form/" | relative_url }}).

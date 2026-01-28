@@ -5,20 +5,16 @@ permalink: /about/
 ---
 
 {:style="float:left; padding-right:30px; padding-bottom:30px;"}
-![Geoff Boeing]({{ site.url }}{{ site.baseurl
-}}/files/img/geoff-boeing-headshot-1-150x150.jpg)
+![Geoff Boeing]({{ "/files/img/geoff-boeing-headshot-1-150x150.jpg" | relative_url }})
 
 Geoff Boeing is an Associate Professor in USC's Department of Urban Planning and
-Spatial Analysis, the Director of USC's [Urban Data Lab]({{ site.url }}{{
-site.baseurl }}/lab/), and a Nonresident Senior Fellow at the Brookings
+Spatial Analysis, the Director of USC's [Urban Data Lab]({{ "/lab/" | relative_url }}), and a Nonresident Senior Fellow at the Brookings
 Institution.
 
-His work has won the [Nobel Sustainability Award]({{ site.url }}{{
-site.baseurl }}/2025/11/nobel-sustainability-award/), the [Stough-Johansson
-Springer Award]({{ site.url }}{{ site.baseurl }}/2020/11/off-grid-back-again/),
-and the [Zephyr Technical Achievement Award]({{ site.url }}{{ site.baseurl
-}}/2025/03/zephyr-foundation-award/). He is regularly featured in the
-[media]({{ site.url }}{{ site.baseurl }}/press/), including _The Economist_,
+His work has won the [Nobel Sustainability Award]({{ "/2025/11/nobel-sustainability-award/" | relative_url }}), the [Stough-Johansson
+Springer Award]({{ "/2020/11/off-grid-back-again/" | relative_url }}),
+and the [Zephyr Technical Achievement Award]({{ "/2025/03/zephyr-foundation-award/" | relative_url }}). He is regularly featured in the
+[media]({{ "/press/" | relative_url }}), including _The Economist_,
 _The Guardian_, _The Atlantic_, and _The Washington Post_, and has presented his
 work at the Venice Biennale of Architecture and as a keynote speaker at several
 conferences.
@@ -31,7 +27,7 @@ network modeling software, which has become a standard tool in industry and
 academia. He has consulted for many planning, policymaking, and public health
 organizations.
 
-His [research]({{ site.url }}{{ site.baseurl }}/research/) has been published
+His [research]({{ "/research/" | relative_url }}) has been published
 in journals across scientific and policy disciplines, including _The Lancet
 Global Health_, the _Journal of the American Planning Association_, _Urban
 Studies_, _Geographical Analysis_, and _Applied Network Science_. He serves on

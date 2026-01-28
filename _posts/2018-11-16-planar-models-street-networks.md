@@ -6,8 +6,7 @@ permalink: /2018/11/planar-models-street-networks/
 ---
 
 My article, "[Planarity and Street Network Representation in Urban Form
-Analysis]({{ site.url }}{{ site.baseurl
-}}/publications/planarity-street-network-representation/)," was recently
+Analysis]({{ "/publications/planarity-street-network-representation/" | relative_url }})," was recently
 published in _Environment and Planning B: Urban Analytics and City Science_.
 Models of street networks underlie research in urban travel behavior,
 accessibility, design patterns, and morphology. These models are commonly
@@ -33,8 +32,7 @@ the planarity of its real-world spatial embedding, which we refer to as "spatial
 planarity."
 
 ![Formally planar, spatially nonplanar, and formally nonplanar street network
-graph models with trivial and real-world examples]({{ site.url }}{{
-site.baseurl }}/files/img/planar-nonplanar-street-network-graph-1024x673.png)
+graph models with trivial and real-world examples]({{ "/files/img/planar-nonplanar-street-network-graph-1024x673.png" | relative_url }})
 
 For example, a street network might be spatially nonplanar due to its embedding
 in space (i.e., it contains overpasses or underpasses in the real world), but it
@@ -55,12 +53,8 @@ are underestimated. 3, connectivity is misrepresented for routing, accessibility
 analysis, and topological studies.
 
 ![Map of world cities street networks grouped by Spatial Planarity Ratio
-terciles, demonstrating how planar or nonplanar each graph is.]({{ site.url
-}}{{ site.baseurl
-}}/files/img/street-network-planar-nonplanar-world-map-1024x484.png)
+terciles, demonstrating how planar or nonplanar each graph is.]({{ "/files/img/street-network-planar-nonplanar-world-map-1024x484.png" | relative_url }})
 
 This study develops two new indicators - the Spatial Planarity Ratio and the
 Edge Length Ratio - then measures the extent of nonplanarity in street networks
-around the world [using OSMnx]({{ site.url }}{{ site.baseurl
-}}/2018/03/osmnx-features-roundup/). For more, read [the article]({{ site.url
-}}{{ site.baseurl }}/publications/planarity-street-network-representation/).
+around the world [using OSMnx]({{ "/2018/03/osmnx-features-roundup/" | relative_url }}). For more, read [the article]({{ "/publications/planarity-street-network-representation/" | relative_url }}).

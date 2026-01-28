@@ -31,8 +31,7 @@ empirical base for evidence-informed practice in under-studied regions,
 particularly the rapidly urbanizing Global South.
 
 ![Urban street networks representing each of the six design paradigm clusters
-we found.]({{ site.url }}{{ site.baseurl
-}}/files/img/street-network-design-paradigms.png)
+we found.]({{ "/files/img/street-network-design-paradigms.png" | relative_url }})
 
 From the abstract:
 

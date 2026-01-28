@@ -7,8 +7,7 @@ permalink: /2022/09/scaling-urban-indicators/
 
 I have a new [article](https://doi.org/10.1080/08111146.2022.2076215) out now in
 the journal of _Urban Policy and Research_ coauthored with a team comprising
-many of the folks from our recent [series]({{ site.url }}{{ site.baseurl
-}}/2022/06/lancet-series-transport-health/) in _The Lancet Global Health_. The
+many of the folks from our recent [series]({{ "/2022/06/lancet-series-transport-health/" | relative_url }}) in _The Lancet Global Health_. The
 article is titled "Policy-Relevant Spatial Indicators of Urban Liveability and
 Sustainability: Scaling from Local to Global" and discusses measuring urban
 indicators and scaling the software to calculate them from a local case study to
@@ -29,6 +28,5 @@ From the abstract:
 
 For more, check out the [article](https://doi.org/10.1080/08111146.2022.2076215)
 itself. And you may also be interested in our recent _The Lancet Global Health_
-[series]({{ site.url }}{{ site.baseurl
-}}/2022/06/lancet-series-transport-health/) of articles that developed similar
+[series]({{ "/2022/06/lancet-series-transport-health/" | relative_url }}) of articles that developed similar
 themes in great depth.

@@ -11,8 +11,7 @@ published this week in _Transactions in GIS_
 it up: "Counting is hard." Hear me out... it really is!
 
 ![Street network graph simplification of complex intersections, nonplanarity,
-and curve digitization from OpenStreetMap data]({{ site.url }}{{ site.baseurl
-}}/files/img/network-simplification-complex-intersections-1024x652.jpeg)
+and curve digitization from OpenStreetMap data]({{ "/files/img/network-simplification-complex-intersections-1024x652.jpeg" | relative_url }})
 
 Most real-world objects belong to fuzzy categories, resulting in subjective
 decisions about what to include or exclude from counts. Yet this complexity is
@@ -42,14 +41,11 @@ would be overestimated by >14%, but very unevenly so in different parts of the
 world. This bias's extreme heterogeneity particularly hinders comparative urban
 analytics.
 
-![Street network topology simplification with OSMnx and OpenStreetMap]({{
-site.url }}{{ site.baseurl
-}}/files/img/osmnx-network-simplification-1024x586.png)
+![Street network topology simplification with OSMnx and OpenStreetMap]({{ "/files/img/osmnx-network-simplification-1024x586.png" | relative_url }})
 
 Mitigating these 3 problems is a project I've been iteratively refining for the
 past decade. It was a central focus of my dissertation and a key motivation for
-originally developing [OSMnx]({{ site.url }}{{ site.baseurl
-}}/2025/05/osmnx-reference-paper/). This article presents OSMnx's algorithms to
+originally developing [OSMnx]({{ "/2025/05/osmnx-reference-paper/" | relative_url }}). This article presents OSMnx's algorithms to
 automatically simplify spatial graphs of urban street networks—via edge
 simplification and node consolidation—resulting in faster parsimonious models
 and more accurate network measures like intersection counts and densities,

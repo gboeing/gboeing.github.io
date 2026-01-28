@@ -5,16 +5,12 @@ date: 2014-08-29 15:32:03-07:00
 permalink: /2014/08/visualizing-summer-travels-part-5-python-matplotlib/
 ---
 
-_This post is [part of a series]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") on
+_This post is [part of a series]({{ "/2014/08/visualizing-summer-travels/" | relative_url }}) on
 visualizing data from my summer travels._
 
 I've previously discussed visualizing the GPS location data from my summer
-travels with [CartoDB]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-with-cartodb/), [Leaflet]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/), and
-[Mapbox + Tilemill]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/). Today I will
+travels with [CartoDB]({{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}), [Leaflet]({{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}), and
+[Mapbox + Tilemill]({{ "/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/" | relative_url }}). Today I will
 explore visualizing this data set in Python, using the matplotlib plotting
 library. All of my code is available in this
 [GitHub repo](https://github.com/gboeing/2014-summer-travels), particularly
@@ -23,13 +19,9 @@ library. All of my code is available in this
 ## Getting started
 
 First I'm going to import the necessary Python modules I'll be working with.
-Then I load two location data sets: one is the [original full set]({{ site.url
-}}{{ site.baseurl }}/2014/07/visualizing-summer-travels-part-1-openpaths/) and
-the other is a [clustered, reduced set]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/) of location data points.
-Both of these data sets have been [reverse- geocoded]({{ site.url }}{{
-site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) so I
+Then I load two location data sets: one is the [original full set]({{ "/2014/07/visualizing-summer-travels-part-1-openpaths/" | relative_url }}) and
+the other is a [clustered, reduced set]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}) of location data points.
+Both of these data sets have been [reverse- geocoded]({{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}) so I
 have lat-long coordinates, city, and country data.
 
 For the full data set, I'll use its timestamp column as its index. For the
@@ -114,8 +106,7 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-![matplotlib-bar-most-visited-countries]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-most-visited-countries.png)
+![matplotlib-bar-most-visited-countries]({{ "/files/img/matplotlib-bar-most-visited-countries.png" | relative_url }})
 
 Spain is the clear winner, with about 650 records in the data set. The other
 countries trail off behind it. I was in Spain for about a month of the total
@@ -145,8 +136,7 @@ ax.set_ylabel('Log of number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-![matplotlib-bar-most-visited-countries-log]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-most-visited-countries-log.png)
+![matplotlib-bar-most-visited-countries-log]({{ "/files/img/matplotlib-bar-most-visited-countries-log.png" | relative_url }})
 
 That looks a bit nicer and represents the relationships between the value counts
 more linearly. But, it may be misleading in how it represents the relative share
@@ -173,8 +163,7 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-![matplotlib-bar-most-visited-cities]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-most-visited-cities.png)
+![matplotlib-bar-most-visited-cities]({{ "/files/img/matplotlib-bar-most-visited-cities.png" | relative_url }})
 
 Barcelona really dominates this chart, followed by Lisbon, Tuebingen, and
 Prague. Each were cities where I spent extended time.
@@ -193,14 +182,11 @@ duplicates so I get a single, representative point for each of these eight
 cities.
 
 Then I create a 10 by 6 inch figure and create the scatter plot, using that lon
-and lat columns of my [reduced data set]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/ "Clustering to Reduce
-Spatial Data Set Size") as the x and y values, respectively. Next I set x and y
+and lat columns of my [reduced data set]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}) as the x and y values, respectively. Next I set x and y
 axis labels, tick mark labels, and the plot's title. Lastly, I iterate through
 my dataframe of most visited cities, creating an annotation on the map for each
 of their points. Note that these are plots of unprojected data - I explain more
-about this in [another post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/).
+about this in [another post]({{ "/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/" | relative_url }}).
 
 ```python
 #get a representative point from the data set for each of the most visited
@@ -239,8 +225,7 @@ alpha=0.8))
 plt.show()
 ```
 
-![matplotlib-scatter-most-visited-cities]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-scatter-most-visited-cities.png)
+![matplotlib-scatter-most-visited-cities]({{ "/files/img/matplotlib-scatter-most-visited-cities.png" | relative_url }})
 
 The scatter plot above maps my point data and indicates the locations of Lisbon,
 Porto, Barcelona, Krakow, Prague, Tuebingen, Athens, and Istanbul. Let's do the
@@ -281,8 +266,7 @@ xycoords='data')
 plt.show()
 ```
 
-![matplotlib-scatter-most-visited-countries]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-scatter-most-visited-countries.png)
+![matplotlib-scatter-most-visited-countries]({{ "/files/img/matplotlib-scatter-most-visited-countries.png" | relative_url }})
 
 Much like the previous scatter plot, this one displays my coordinate data and
 indicates the locations of the eight most visited countries in the data set:
@@ -387,8 +371,7 @@ Set')
 plt.show()
 ```
 
-![geopandas-shapfile-point-data-map]({{ site.url }}{{ site.baseurl
-}}/files/img/geopandas-shapfile-point-data-map.png)
+![geopandas-shapfile-point-data-map]({{ "/files/img/geopandas-shapfile-point-data-map.png" | relative_url }})
 
 This plot above depicts a map of Europe (from my shapefile), with my location
 data plotted on top of it. The top six most visited cities are annotated on the
@@ -396,14 +379,12 @@ map: Lisbon, Barcelona, Prague, Tuebingen, Athens, and Istanbul.
 
 Like I mentioned earlier, this is just a simple plot of unprojected data so
 there is significant horizontal distortion and stretching at these latitudes. In
-[another post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/), I
+[another post]({{ "/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/" | relative_url }}), I
 explain how to convert point data and basemaps to a projected coordinate system
 in Python. I also demonstrate how to style the map to make it much more
 beautiful, also entirely in Python. Like this:
 
-![projected-shapefile-gps-coordinates]({{ site.url }}{{ site.baseurl
-}}/files/img/projected-shapefile-gps-coordinates.png)
+![projected-shapefile-gps-coordinates]({{ "/files/img/projected-shapefile-gps-coordinates.png" | relative_url }})
 
 ## The most isolated locations
 
@@ -508,19 +489,16 @@ xycoords='data')
 plt.show()
 ```
 
-![matplotlib-most-isolated-clusters]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-most-isolated-clusters.png)
+![matplotlib-most-isolated-clusters]({{ "/files/img/matplotlib-most-isolated-clusters.png" | relative_url }})
 
 The plot above shows the data set in blue and highlights the most isolated
 points in red: Barcelona, Hounslow (outside of London), Munich, Prizren, and
 Istanbul. Each point's annotation shows how far it is from its nearest neighbor.
-As mentioned earlier, in [another post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/) I
+As mentioned earlier, in [another post]({{ "/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/" | relative_url }}) I
 explain how to convert point data and basemaps to a projected coordinate system
 in Python, and how to style the map to make it much more beautiful. Like this:
 
-![most-isolated-projected]({{ site.url }}{{ site.baseurl
-}}/files/img/most-isolated-projected.png)
+![most-isolated-projected]({{ "/files/img/most-isolated-projected.png" | relative_url }})
 
 You can see that Barcelona, Hounslow, and Istanbul are by far the most isolated
 points, each being over 300 miles from their nearest neighbors (where the
@@ -543,8 +521,7 @@ grouping_threshold = 30,
 grouping_label = 'All Other Cities')
 ```
 
-![matplotlib-pie-cities-by-share]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-pie-cities-by-share.png)
+![matplotlib-pie-cities-by-share]({{ "/files/img/matplotlib-pie-cities-by-share.png" | relative_url }})
 
 As we saw earlier, Barcelona was the most visited city, followed by Lisbon,
 Tuebingen, and Prague. Cities with fewer than 30 rows in the data set are
@@ -579,8 +556,7 @@ grouping_threshold = 30,
 grouping_label = 'All Other Countries')
 ```
 
-![matplotlib-pie-countries-by-records]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-pie-countries-by-records.png)
+![matplotlib-pie-countries-by-records]({{ "/files/img/matplotlib-pie-countries-by-records.png" | relative_url }})
 
 As we saw earlier, Spain was the most visited country, followed by Portugal,
 Germany, and the Czech Republic. All countries with fewer than 30 rows in the
@@ -625,8 +601,7 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-![matplotlib-bar-records-by-hour-of-day]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-records-by-hour-of-day.png)
+![matplotlib-bar-records-by-hour-of-day]({{ "/files/img/matplotlib-bar-records-by-hour-of-day.png" | relative_url }})
 
 It looks like the OpenPaths app on my phone was transmitting more location data
 points between mid-afternoon and early evening. My phone would sometimes be
@@ -667,8 +642,7 @@ ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 plt.show()
 ```
 
-![matplotlib-bar-records-by-day-of-week]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-bar-records-by-day-of-week.png)
+![matplotlib-bar-records-by-day-of-week]({{ "/files/img/matplotlib-bar-records-by-day-of-week.png" | relative_url }})
 
 Interesting. Thursday has by far the fewest observations in the data set.
 However, I was producing about 30 records per day and my trip ended on a
@@ -742,8 +716,7 @@ ax.set_axis_bgcolor(axis_bgcolor)
 plt.show()
 ```
 
-![matplotlib-line-records-by-day]({{ site.url }}{{ site.baseurl
-}}/files/img/matplotlib-line-records-by-day.png)
+![matplotlib-line-records-by-day]({{ "/files/img/matplotlib-line-records-by-day.png" | relative_url }})
 
 As expected, the line chart above shows major fluctuations in the number of
 observations by date. At the very beginning of the trip, I had OpenPaths
@@ -790,7 +763,6 @@ time to show trends over the duration of the trip.
 
 Python is a powerful language for data analysis and there is a lot of
 visualization work that you can do natively in it using matplotlib. In [another
-post]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/), I
+post]({{ "/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/" | relative_url }}), I
 explain how to project lat-long point data and shapefiles to make create better
 maps in Python.

@@ -28,8 +28,7 @@ disruption.
 
 ![Measures of urban street network resilience and robustness to disasters like
 flooding, sea level rise, earthquakes, and targeted attacks like warfare and
-terrorism.]({{ site.url }}{{ site.baseurl
-}}/files/img/street-network-disasters-robustness.png)
+terrorism.]({{ "/files/img/street-network-disasters-robustness.png" | relative_url }})
 
 In other words, a sprawling dendritic street network is easy to disconnect by
 knocking out a few key nodes that link neighborhoods together. But (for example)
@@ -38,8 +37,7 @@ its chokepoints (like canal bridges).
 
 ![Measures of urban street network resilience and robustness to disasters like
 flooding, sea level rise, earthquakes, and targeted attacks like warfare and
-terrorism.]({{ site.url }}{{ site.baseurl
-}}/files/img/street-network-disaster-resilience.png)
+terrorism.]({{ "/files/img/street-network-disaster-resilience.png" | relative_url }})
 
 These design characteristics offer high leverage points for street network
 resilience and robustness that planners should emphasize when designing or

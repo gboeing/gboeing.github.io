@@ -8,8 +8,7 @@ permalink: /2022/10/ispah-in-abu-dhabi/
 Alongside Billie Giles-Corti and Jim Sallis, I will be presenting our team's
 recent research into accessible, sustainable urban design around the world at
 the ISPAH Congress in Abu Dhabi this week. Our symposium at the congress will
-share the methods and findings from our [_The Lancet Global Health_]({{
-site.url }}{{ site.baseurl }}/2022/06/lancet-series-transport-health/) series
+share the methods and findings from our [_The Lancet Global Health_]({{ "/2022/06/lancet-series-transport-health/" | relative_url }}) series
 published this summer, as well as our ongoing work on the
 [Thousand Cities Challenge](https://www.healthysustainablecities.org/).
 

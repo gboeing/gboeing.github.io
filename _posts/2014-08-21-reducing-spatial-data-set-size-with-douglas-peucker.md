@@ -6,15 +6,13 @@ permalink: /2014/08/reducing-spatial-data-set-size-with-douglas-peucker/
 ---
 
 In a previous post I discussed how to [reduce the size of a spatial data set by
-clustering]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/). Too many data points in
+clustering]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}). Too many data points in
 a visualization can overwhelm the user and bog down on-the-fly client-side map
-rendering (for example, with a javascript tool like [Leaflet]({{ site.url }}{{
-site.baseurl }}/2014/08/visualizing-summer-travels-part-3-leaflet/)). So, I used
+rendering (for example, with a javascript tool like [Leaflet]({{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }})). So, I used
 the DBSCAN clustering algorithm to reduce
 [my data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
 from 1,759 rows to 158 spatially-representative points. This [series of
-posts]({{ site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels/)
+posts]({{ "/2014/08/visualizing-summer-travels/" | relative_url }})
 discusses this data set in depth.
 
 ## The Douglas-Peucker algorithm
@@ -64,8 +62,7 @@ float(len(line.coords))) * 100), 1), 'percent compressed'
 The Douglas-Peucker algorithm reduced the size of the data set by about 90%,
 from 1,759 data points in the original full set to 178 points in the new reduced
 data set. That's not bad - these stats are comparable to [results from
-clustering]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/). Now let's save the
+clustering]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}). Now let's save the
 simplified set of coordinates as a new pandas dataframe:
 
 ```python
@@ -77,9 +74,7 @@ si.tail()
 
 ## Find matching points in the original data set
 
-The original full data set was [reverse-geocoded]({{ site.url }}{{
-site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/) and
+The original full data set was [reverse-geocoded]({{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}) and
 included city/country data and timestamps. The simplified set however only
 contains coordinate lat-long data. So, I'll write a short routine that, for each
 row in the simplified set, finds the row label of the row that contains its
@@ -134,14 +129,12 @@ left')
 plt.show()
 ```
 
-![shapely-simplified-vs-full]({{ site.url }}{{ site.baseurl
-}}/files/img/shapely-simplified-vs-full.png)
+![shapely-simplified-vs-full]({{ "/files/img/shapely-simplified-vs-full.png" | relative_url }})
 
 The
 [new reduced data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
 closely approximates the spatial distribution of the original full data set. You
-can compare it to the results I got [by clustering]({{ site.url }}{{
-site.baseurl }}/2014/08/clustering-to-reduce-spatial-data-set-size/): the
+can compare it to the results I got [by clustering]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}): the
 Douglas-Peucker gave us a better reduced data set than the k-means clustering
 algorithm did, and one comparable to result of the DBSCAN clustering algorithm.
 

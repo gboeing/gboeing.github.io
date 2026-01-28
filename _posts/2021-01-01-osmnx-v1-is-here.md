@@ -6,17 +6,13 @@ permalink: /2021/01/osmnx-v1-is-here/
 ---
 
 Happy new year! After five years of development and over 2,000 code commits from
-dozens of contributors, [OSMnx]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx-python-street-networks/) v1.0 has officially been released.
+dozens of contributors, [OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}) v1.0 has officially been released.
 This has been a long labor of love and I'm thrilled to see it reach this
 milestone.
 
 Much has changed in recent months with new features added and a few things
 deprecated. Most of this development occurred in a major overhaul over the
-summer, which I covered at the time in [three]({{ site.url }}{{ site.baseurl
-}}/2020/09/osmnx-summer-wrap-up/) [previous]({{ site.url }}{{ site.baseurl
-}}/2020/07/whats-new-with-osmnx-part-2/) [posts]({{ site.url }}{{ site.baseurl
-}}/2020/06/whats-new-with-osmnx/). Among these dozens of enhancements were major
+summer, which I covered at the time in [three]({{ "/2020/09/osmnx-summer-wrap-up/" | relative_url }}) [previous]({{ "/2020/07/whats-new-with-osmnx-part-2/" | relative_url }}) [posts]({{ "/2020/06/whats-new-with-osmnx/" | relative_url }}). Among these dozens of enhancements were major
 speed and efficiency improvements throughout the package, better visualization,
 a new geometries module for retrieving any geospatial objects from OSM,
 topological intersection consolidation, and much more. I encourage you to read

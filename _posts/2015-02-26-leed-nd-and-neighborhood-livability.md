@@ -6,8 +6,7 @@ permalink: /2015/02/leed-nd-and-neighborhood-livability/
 ---
 
 I recently co-authored a journal article titled \_[LEED-ND and Livability
-Revisited]({{ site.url }}{{ site.baseurl
-}}/publications/leed-nd-livability-revisited/), \_which won the
+Revisited]({{ "/publications/leed-nd-livability-revisited/" | relative_url }}), \_which won the
 [Kaye Bock award](https://escholarship.org/uc/item/64c6h2nw). LEED-ND is a
 system for evaluating neighborhood design that was developed by CNU, USGBC, and
 NRDC. Many of its criteria, particularly site location and neighborhood pattern,
@@ -17,8 +16,7 @@ traditional neighborhood design.
 The prominent New Urbanist practitioners who authored
 [The Smart Growth Manual](https://books.google.com/books/about/The_Smart_Growth_Manual.html?id=JKwebAbN5zEC)
 write (p. 6.8) that LEED-ND allows us to "objectively determine the degree to
-which proposed ![LEED-ND]({{ site.url }}{{ site.baseurl
-}}/files/img/ShowImage-300x225.jpg) projects embody smart growth principles...
+which proposed ![LEED-ND]({{ "/files/img/ShowImage-300x225.jpg" | relative_url }}) projects embody smart growth principles...
 it is expected that LEED-ND will become a municipal standard for controlling the
 urban design of large-scale development."
 
@@ -38,8 +36,7 @@ Virginia, [states that](https://www.charlottesville.org/Index.aspx?page=2499)
 LEED-ND helps "create more livable communities."
 
 Our study thus poses the question: does LEED-ND actually capture livability as
-defined by residents? From [our article]({{ site.url }}{{ site.baseurl
-}}/publications/leed-nd-livability-revisited/):
+defined by residents? From [our article]({{ "/publications/leed-nd-livability-revisited/" | relative_url }}):
 
 > This study examines LEED-ND's criteria for Neighborhood Pattern and Design
 > (NPD). LEED-ND was developed as a system for rating new neighborhoods on the

@@ -8,8 +8,7 @@ permalink: /2024/01/rethinking-the-one-way-street/
 I recently published
 [an article](https://transfersmagazine.org/magazine-article/issue-11/rethinking-the-one-way-street/)
 in _Transfers Magazine_ with Billy Riggs questioning some of the received wisdom
-about one-way streets and efficiency. This builds on our [recent research]({{
-site.url }}{{ site.baseurl }}/2022/07/two-way-street-network-efficiency/)
+about one-way streets and efficiency. This builds on our [recent research]({{ "/2022/07/two-way-street-network-efficiency/" | relative_url }})
 published in JPER modeling vehicle distance traveled before and after
 hypothetical one-way to two-way street conversions.
 
@@ -35,5 +34,4 @@ surplus travel just for intra-city trips.
 
 For more, check out our article
 [in _Transfers Magazine_](https://transfersmagazine.org/magazine-article/issue-11/rethinking-the-one-way-street/)
-or the underlying research study [in JPER]({{ site.url }}{{ site.baseurl
-}}/2022/07/two-way-street-network-efficiency/).
+or the underlying research study [in JPER]({{ "/2022/07/two-way-street-network-efficiency/" | relative_url }}).

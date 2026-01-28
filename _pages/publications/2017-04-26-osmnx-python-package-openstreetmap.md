@@ -13,5 +13,4 @@ theoretic OpenStreetMap street networks." _Journal of Open Source Software_, 2
 This is a peer-reviewed article for the
 [OSMnx software repository](https://github.com/gboeing/osmnx).
 
-**If you use OSMnx in your work, please instead cite [this paper]({{ site.url
-}}{{ site.baseurl }}/publications/osmnx-paper/).**
+**If you use OSMnx in your work, please instead cite [this paper]({{ "/publications/osmnx-paper/" | relative_url }}).**

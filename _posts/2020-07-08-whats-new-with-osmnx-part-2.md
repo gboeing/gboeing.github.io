@@ -5,16 +5,14 @@ date: 2020-07-08 18:13:37-07:00
 permalink: /2020/07/whats-new-with-osmnx-part-2/
 ---
 
-This is a follow-up to last month's [post]({{ site.url }}{{ site.baseurl
-}}/2020/06/whats-new-with-osmnx/) discussing the many new features,
+This is a follow-up to last month's [post]({{ "/2020/06/whats-new-with-osmnx/" | relative_url }}) discussing the many new features,
 improvements, and optimizations made to OSMnx this summer. As this major
 improvement project now draws to a close, I will summarize what's new(er) here.
 Long story short: there are a bunch of new features and everything in the
 package has been streamlined and optimized to be easier to use, faster, and more
 memory efficient.
 
-First off, if you haven't already, read the previous [post]({{ site.url }}{{
-site.baseurl }}/2020/06/whats-new-with-osmnx/) about new features including
+First off, if you haven't already, read the previous [post]({{ "/2020/06/whats-new-with-osmnx/" | relative_url }}) about new features including
 topological intersection consolidation, automatic max speed imputation and
 travel time calculation, generalized points-of-interest queries, querying OSM by
 date, and API streamlining. _This_ post covers new changes since then, including
@@ -69,8 +67,7 @@ fig, ax = ox.plot_graph_routes(G, routes, route_colors=colors, node_size=0)
 ```
 
 ![OSMnx plot_graph_routes with multiple colors to plot multiple shortest paths
-in a street network]({{ site.url }}{{ site.baseurl
-}}/files/img/osmnx-plot-graph-routes-colors.png)
+in a street network]({{ "/files/img/osmnx-plot-graph-routes-colors.png" | relative_url }})
 
 Color handling in the plot module has also been substantially improved. For
 example, the
@@ -140,9 +137,9 @@ footprints modules, which have become approximately
 many OSMnx improvements and changes this summer, check out the
 [documentation](https://osmnx.readthedocs.io/), the usage
 [examples](https://github.com/gboeing/osmnx-examples), or the OSMnx features
-[round-up]({{ site.url }}{{ site.baseurl }}/2018/03/osmnx-features-roundup/).
+[round-up]({{ "/2018/03/osmnx-features-roundup/" | relative_url }}).
 In particular, API changes are discussed in
 [this issue](https://github.com/gboeing/osmnx/issues/526).
 
 _Update: this summer project has now concluded and been released.[More
-info]({{ site.url }}{{ site.baseurl }}/2020/09/osmnx-summer-wrap-up/)._
+info]({{ "/2020/09/osmnx-summer-wrap-up/" | relative_url }})._

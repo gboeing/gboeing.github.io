@@ -21,8 +21,7 @@ in this
 and is easy to re-purpose for exploring your own Last.fm history. All you need
 is an [API key](https://www.last.fm/api).
 
-![Last.fm artists played the most]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-played-most.png)
+![Last.fm artists played the most]({{ "/files/img/lastfm-artists-played-most.png" | relative_url }})
 
 First I visualized my most-played artists, above. Across the dataset, I have
 279,769 scrobbles (aka, song plays). I've listened to 26,761 different artists
@@ -40,14 +39,12 @@ these place names to latitude-longitude using the Nominatim and Google APIs.
 Finally I mapped these points in Python with matplotlib
 [basemap](https://matplotlib.org/basemap/):
 
-![Map of Last.fm artist origins]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm_artists_origins_map-1024x627.png)
+![Map of Last.fm artist origins]({{ "/files/img/lastfm_artists_origins_map-1024x627.png" | relative_url }})
 
 I also converted these
 [points to GeoJSON](https://github.com/gboeing/data-visualization/blob/master/lastfm-listening-history/musicbrainz_lastfm_leaflet.ipynb)
 to produce an interactive Leaflet web map of the artists I listen to (see this
-previous post for more on exporting [pandas DataFrames to GeoJSON]({{ site.url
-}}{{ site.baseurl }}/2015/10/exporting-python-data-geojson/)). Click any point
+previous post for more on exporting [pandas DataFrames to GeoJSON]({{ "/2015/10/exporting-python-data-geojson/" | relative_url }})). Click any point
 in the map below to see a list of artists from there:
 
 I predominately listen to artists from the populated areas of the U.S. and the
@@ -63,8 +60,7 @@ the world (that appear in my listening history).
 I was curious about my most-played artists' relative performance over time. So,
 I took the top six artists and charted their cumulative play counts since 2009:
 
-![Last.fm top artists' scrobbles over time]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-top-artists-years.png)
+![Last.fm top artists' scrobbles over time]({{ "/files/img/lastfm-scrobbles-top-artists-years.png" | relative_url }})
 
 David Bowie is the big winner here, moving from sixth place in 2009 all the way
 up to first place today as my most-played artist (since Last.fm sign-up). Note
@@ -77,8 +73,7 @@ I wanted to look more into these time dynamics of my listening history. How have
 they changed over the years? And, when exactly do I spend time listening to
 music? First I looked at my songs played per _month_ since January 2010:
 
-![Last.fm scrobbles per month]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per-month.png)
+![Last.fm scrobbles per month]({{ "/files/img/lastfm-scrobbles-per-month.png" | relative_url }})
 
 Although there are a couple of big spikes, during most months I listen to
 somewhere around 1,000 to 2,500 songs. The peak during March 2015 coincides with
@@ -86,8 +81,7 @@ my doctoral qualifying exams, which saw me sitting in my room about 16 hours day
 reading, writing... and listening to music. Next I looked at which _days_ of the
 week I do most of my listening:
 
-![Last.fm scrobbles per day of the week]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per-weekday.png)
+![Last.fm scrobbles per day of the week]({{ "/files/img/lastfm-scrobbles-per-weekday.png" | relative_url }})
 
 So, I listen to the most music on Fridays, and the least on Saturdays. The
 weekdays are all consistently higher as I tend to listen to music all day long
@@ -95,16 +89,14 @@ while I'm working. The weekends are consistently lower as I tend to be out and
 about more, away from my computer and stereo. Next I looked at my cumulative
 listening history by _hour_ of the day:
 
-![Last.fm scrobbles by hour of the day]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-per-hour.png)
+![Last.fm scrobbles by hour of the day]({{ "/files/img/lastfm-scrobbles-per-hour.png" | relative_url }})
 
 This chart essentially follows my sleep, wake, work schedule. Most of my
 listening occurs during the mid-day while I'm working and tails off into the
 evening. But this aggregate pattern isn't exactly same each day. Here I broke
 out the hourly chart above, by each day of the week:
 
-![Last.fm scrobbles by hour and day of week]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-scrobbles-days-hours.png)
+![Last.fm scrobbles by hour and day of week]({{ "/files/img/lastfm-scrobbles-days-hours.png" | relative_url }})
 
 Now it's easy to see the low days of Saturday and Sunday - but interestingly,
 Saturday has my highest play count late at night, when I'm up late PARTYING.
@@ -118,14 +110,12 @@ For yuks, I looked at a couple traits of artist names. The first is the
 frequency of artist names beginning with each letter of the alphabet (sans a
 preceding "the"):
 
-![Last.fm artist names first letter prevalence]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-first-letter-count.png)
+![Last.fm artist names first letter prevalence]({{ "/files/img/lastfm-artists-first-letter-count.png" | relative_url }})
 
 S's and M's lead the pack, and Q's and X's bring up the rear. Next I looked at
 the frequency of artist name lengths:
 
-![Last.fm artist name character length]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-artists-name-length.png)
+![Last.fm artist name character length]({{ "/files/img/lastfm-artists-name-length.png" | relative_url }})
 
 Not everyone can be a name length outlier like
 [X](<https://en.wikipedia.org/wiki/X_(American_band)>) and
@@ -137,13 +127,11 @@ Finally, I'll wrap this up similarly to how I started it by visualizing my
 most-played songs and albums of all-time on Last.fm. First, my most-played
 tracks:
 
-![Last.fm most played songs of all time]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-tracks-played-most-h.png)
+![Last.fm most played songs of all time]({{ "/files/img/lastfm-tracks-played-most-h.png" | relative_url }})
 
 And lastly, my most-played albums:
 
-![Last.fm most played albums]({{ site.url }}{{ site.baseurl
-}}/files/img/lastfm-albums-played-most-h-642x1024.png)
+![Last.fm most played albums]({{ "/files/img/lastfm-albums-played-most-h-642x1024.png" | relative_url }})
 
 There are some common themes here: similar artists appear in both the most-
 played songs and most-played albums lists, unsurprisingly. There's also a pretty
@@ -169,10 +157,7 @@ and is easy to re-purpose for exploring your own Last.fm history.
 
 You might also be interested in:
 
-- Exporting [pandas DataFrames to GeoJSON]({{ site.url }}{{ site.baseurl
-  }}/2015/10/exporting-python-data-geojson/)
-- Mapping [everywhere I've ever been]({{ site.url }}{{ site.baseurl
-  }}/2016/06/mapping-everywhere-ever-been/) in my life
-- Our [course at UC Berkeley]({{ site.url }}{{ site.baseurl
-  }}/2015/08/urban-informatics-visualization-berkeley/) that teaches these
+- Exporting [pandas DataFrames to GeoJSON]({{ "/2015/10/exporting-python-data-geojson/" | relative_url }})
+- Mapping [everywhere I've ever been]({{ "/2016/06/mapping-everywhere-ever-been/" | relative_url }}) in my life
+- Our [course at UC Berkeley]({{ "/2015/08/urban-informatics-visualization-berkeley/" | relative_url }}) that teaches these
   skills and tools

@@ -34,19 +34,13 @@ fundamentals of coding, data types, conditionals, loops, and functions. Just
 enough to make you dangerous.
 
 The scientific computing Python stack, via Anaconda: we introduce numpy, scipy,
-statsmodels, [pandas for data analysis]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/),
-and [matplotlib for visualization]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-5-python-matplotlib/).
+statsmodels, [pandas for data analysis]({{ "/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/" | relative_url }}),
+and [matplotlib for visualization]({{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}).
 
-[CartoDB]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-with-cartodb/) for simple interactive web
+[CartoDB]({{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}) for simple interactive web
 mapping.
 
-[Leaflet]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-3-leaflet/) and [MapBox]({{
-site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/): more advanced
+[Leaflet]({{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}) and [MapBox]({{ "/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/" | relative_url }}): more advanced
 web mapping for community engagement, advocacy, and visualizing research
 findings.
 
@@ -60,25 +54,19 @@ collaborative development.
 QGIS: a powerful, free, and open-source alternative to ArcGIS.
 
 Data wrangling, regression, spatial statistics, and spatial analysis with Python
-and the pandas and [geopandas]({{ site.url }}{{ site.baseurl
-}}/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/)
+and the pandas and [geopandas]({{ "/2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/" | relative_url }})
 libraries.
 
 Machine learning: including feature engineering and selection, dimensionality
-reduction, modeling, and [clustering]({{ site.url }}{{ site.baseurl
-}}/2014/08/clustering-to-reduce-spatial-data-set-size/) in Python with scipy and
+reduction, modeling, and [clustering]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}) in Python with scipy and
 scikit-learn.
 
-Modeling and visualizing urban [accessibility]({{ site.url }}{{ site.baseurl
-}}/2016/07/visualize-urban-accessibility-walkability/), walkability, [street
-networks]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx-python-street-networks/) and the [built form]({{ site.url
-}}{{ site.baseurl }}/2017/01/square-mile-street-network-visualization/).
+Modeling and visualizing urban [accessibility]({{ "/2016/07/visualize-urban-accessibility-walkability/" | relative_url }}), walkability, [street
+networks]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}) and the [built form]({{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}).
 
 Working with APIs, including the census bureau, Socrata (via the City of
 Berkeley's open [data portal](https://data.cityofberkeley.info/)), Google's
-[geocoding services]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/), and
+[geocoding services]({{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}), and
 the Twitter API (including mapping and visualizing tweets).
 
 Critical thinking skills about urban data and big data: how to formulate

@@ -5,20 +5,15 @@ date: 2014-08-23 00:01:58-07:00
 permalink: /2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/
 ---
 
-_This post part of a series]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels/ "Visualizing Summer Travels") on
+_This post part of a series]({{ "/2014/08/visualizing-summer-travels/" | relative_url }}) on
 visualizing data from my summer travels._
 
-I've previously discussed [my goals]({{ site.url }}{{ site.baseurl
-}}/2014/07/visualizing-summer-travels-part-1-openpaths/) in visualizing GPS data
-from my summer travels and explored visualizing the data set [with CartoDB]({{
-site.url }}{{ site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/)
-and [with Leaflet]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-3-leaflet/). The full OpenPaths
+I've previously discussed [my goals]({{ "/2014/07/visualizing-summer-travels-part-1-openpaths/" | relative_url }}) in visualizing GPS data
+from my summer travels and explored visualizing the data set [with CartoDB]({{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }})
+and [with Leaflet]({{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}). The full OpenPaths
 location data from my summer travels is
 [available here](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv)
-and I discussed how I [reverse-geocoded it here]({{ site.url }}{{ site.baseurl
-}}/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/).
+and I discussed how I [reverse-geocoded it here]({{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}).
 
 Mapbox is a major provider of online web mapping services such as tiled web
 maps, the [Tilemill](https://www.mapbox.com/tilemill/) cartography IDE, and the
@@ -59,14 +54,12 @@ marker-allow-overlap:true;
 }
 ```
 
-![tilemill-screen]({{ site.url }}{{ site.baseurl
-}}/files/img/tilemill-screen.jpg)
+![tilemill-screen]({{ "/files/img/tilemill-screen.jpg" | relative_url }})
 
 Click the templates button in the bottom-left. Here you can enter text and data
 fields to display as a pop up:
 
-![tilemill-screen2]({{ site.url }}{{ site.baseurl
-}}/files/img/tilemill-screen2.jpg)
+![tilemill-screen2]({{ "/files/img/tilemill-screen2.jpg" | relative_url }})
 
 ## Export to Mapbox
 
@@ -77,8 +70,7 @@ Export > Upload on the top-right. Choose a center and bounds for your map and
 specify zoom levels. Your choices here must balance map detail and extent vs the
 file size of your tile set. Here's how I configured it:
 
-![tilemill-screen-upload-settings]({{ site.url }}{{ site.baseurl
-}}/files/img/tilemill-screen-upload-settings.jpg)
+![tilemill-screen-upload-settings]({{ "/files/img/tilemill-screen-upload-settings.jpg" | relative_url }})
 
 Mine weighs in at 13.1 MB. When you're done configuring, click the upload
 button. It will take a couple of minutes to process the data and upload it all
@@ -88,8 +80,7 @@ project." In your project, the info tab provides embed code to stick this map on
 a web page, but let's create a new javascript map instead. Copy the map ID from
 the info box.
 
-![mapbox-project-page]({{ site.url }}{{ site.baseurl
-}}/files/img/mapbox-project-page.jpg)
+![mapbox-project-page]({{ "/files/img/mapbox-project-page.jpg" | relative_url }})
 
 ## Using your tiles in a web map
 
@@ -126,7 +117,5 @@ L.mapbox.map('summer-travel-mapbox-map', 'YOUR-MAP-ID-HERE');
 All done! Save your HTML file, then open it in a web browser. The Mapbox map
 will appear like the one at the top of this page. It's zoomable and clickable –
 each data point has a popup with time, date, city, and country information. You
-can compare this visualization to similar ones using [CartoDB]({{ site.url
-}}{{ site.baseurl }}/2014/08/visualizing-summer-travels-with-cartodb/) or
-[Leaflet]({{ site.url }}{{ site.baseurl
-}}/2014/08/visualizing-summer-travels-part-3-leaflet/).
+can compare this visualization to similar ones using [CartoDB]({{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}) or
+[Leaflet]({{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}).

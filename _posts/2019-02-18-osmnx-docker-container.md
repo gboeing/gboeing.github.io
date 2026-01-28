@@ -7,8 +7,7 @@ permalink: /2019/02/osmnx-docker-container/
 
 [Containerization](<https://en.wikipedia.org/wiki/Container_(virtualization)>)
 is the way of the ~~future~~ present. I've heard feedback from some folks over
-the past few months who would like to play around with [OSMnx]({{ site.url
-}}{{ site.baseurl }}/2018/03/osmnx-features-roundup/) for street network
+the past few months who would like to play around with [OSMnx]({{ "/2018/03/osmnx-features-roundup/" | relative_url }}) for street network
 analysis, transport modeling, and urban design—but can't because they can't
 install Python and its data science stack on their computers. Furthermore, it
 would be nice to have a consistent reference environment to deploy on AWS or
@@ -40,6 +39,5 @@ You now have access to Jupyter Lab running inside the container, with OSMnx,
 networkx, igraph, geopandas, pysal, matplotlib, and the rest of the geospatial
 data science stack. Any changes you make to your notebook will be saved to your
 local file system even though the container is ephemeral. For more info, you can
-read more about [OSMnx here]({{ site.url }}{{ site.baseurl
-}}/2018/03/osmnx-features-roundup/) or read about the image on
+read more about [OSMnx here]({{ "/2018/03/osmnx-features-roundup/" | relative_url }}) or read about the image on
 [docker hub](https://hub.docker.com/r/gboeing/osmnx).

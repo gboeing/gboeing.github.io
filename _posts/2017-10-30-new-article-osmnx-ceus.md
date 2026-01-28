@@ -13,9 +13,7 @@ network anywhere in the world at any scale with a single line of code, then
 analyze or visualize it with one more line of code.
 
 ![OSMnx: Figure-ground diagrams of one square mile of each street network, from
-OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
-site.url }}{{ site.baseurl
-}}/files/img/square-mile-street-networks-1024x822.jpg)
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{ "/files/img/square-mile-street-networks-1024x822.jpg" | relative_url }})
 
 From the abstract:
 
@@ -38,14 +36,10 @@ From the abstract:
 > presents a simple case study using OSMnx to construct and analyze street
 > networks in Portland, Oregon.
 
-I developed [OSMnx]({{ site.url }}{{ site.baseurl
-}}/publications/osmnx-complex-street-networks/) as part of my
-[dissertation]({{ site.url }}{{ site.baseurl }}/publications/dissertation/)
-research. For more info on using OSMnx, check out this [blog post]({{ site.url
-}}{{ site.baseurl }}/2016/11/osmnx-python-street-networks/), its
+I developed [OSMnx]({{ "/publications/osmnx-complex-street-networks/" | relative_url }}) as part of my
+[dissertation]({{ "/publications/dissertation/" | relative_url }})
+research. For more info on using OSMnx, check out this [blog post]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}), its
 [documentation](https://osmnx.readthedocs.io/), or its
 [GitHub repo](https://github.com/gboeing/osmnx). Or, check out some quick
-demonstrations of using OSMnx to analyze [street network patterns]({{ site.url
-}}{{ site.baseurl }}/2017/01/square-mile-street-network-visualization/) or the
-[urban form]({{ site.url }}{{ site.baseurl
-}}/2017/04/urban-form-analysis-openstreetmap/).
+demonstrations of using OSMnx to analyze [street network patterns]({{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}) or the
+[urban form]({{ "/2017/04/urban-form-analysis-openstreetmap/" | relative_url }}).

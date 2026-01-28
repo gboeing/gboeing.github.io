@@ -14,8 +14,7 @@ and lazy path solving when accounting for fluctuations in the manifold's
 curvature (e.g., changes in elevation on Earth's surface).
 
 ![Surfacic network: a spatial network embedded in a non-flat two-dimensional
-manifold such as the Earth's surface accounting for elevation changes]({{
-site.url }}{{ site.baseurl }}/files/img/surfacic-network.jpeg)
+manifold such as the Earth's surface accounting for elevation changes]({{ "/files/img/surfacic-network.jpeg" | relative_url }})
 
 From the abstract:
 

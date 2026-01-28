@@ -21,8 +21,7 @@ as an IPython notebook. You can re-purpose it for your own inbox - just
 archive then run my code.
 
 ![Visualizing Gmail inbox email traffic volume by day with Python, pandas, and
-matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/gmail-traffic-day-1024x341.png)
+matplotlib]({{ "/files/img/gmail-traffic-day-1024x341.png" | relative_url }})
 
 First I loaded my Gmail archive, which contained 164,959 messages. I filtered
 out the non-emails (chats) and any messages without timestamps, then plotted the
@@ -36,15 +35,13 @@ at the expense of traditional email. To make these broader trends clearer, I
 aggregated the data by month and visualized volume:
 
 ![Visualizing Gmail inbox email traffic volume by month with Python, pandas,
-and matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/gmail-traffic-month-1-1024x341.png)
+and matplotlib]({{ "/files/img/gmail-traffic-month-1-1024x341.png" | relative_url }})
 
 Next I grouped the data by day of the week and calculated averages. Here's the
 mean email volume by the day of the week:
 
 ![Visualizing Gmail inbox email traffic volume by day of the week with Python,
-pandas, and matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/gmail-traffic-day-week.png)
+pandas, and matplotlib]({{ "/files/img/gmail-traffic-day-week.png" | relative_url }})
 
 Again this is just my personal email inbox, so the daily traffic is fairly low.
 It doesn't include the hundreds of emails flowing through my school, work, and
@@ -56,8 +53,7 @@ Next I grouped the data by hour of the day to see when most of the email traffic
 occurs throughout the day:
 
 ![Visualizing Gmail inbox email traffic volume by hour of the day with Python,
-pandas, and matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/gmail-traffic-hour.png)
+pandas, and matplotlib]({{ "/files/img/gmail-traffic-hour.png" | relative_url }})
 
 In other words, I don't get much in or out before 9:00am as a rule of thumb. One
 of the nice things about this data set is that its size let's you dig into some
@@ -65,8 +61,7 @@ pretty fine-grain trends. To add nuance (or obfuscation?) to this bar chart, I
 calculated my email volume by the _minute_ of the day and plotted it:
 
 ![Visualizing Gmail inbox email traffic volume by minute of the day with
-Python, pandas, and matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/gmail-traffic-minute-1024x341.png)
+Python, pandas, and matplotlib]({{ "/files/img/gmail-traffic-minute-1024x341.png" | relative_url }})
 
 There's significant variation within each hour, which might be smoothed out with
 more observations. The spike at 10:00 pm is particularly interesting. Without

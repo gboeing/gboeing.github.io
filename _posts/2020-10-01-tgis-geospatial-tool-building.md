@@ -6,10 +6,8 @@ permalink: /2020/10/tgis-geospatial-tool-building/
 ---
 
 My new article "[The Right Tools for the Job: The Case for Spatial Science
-Tool-Building]({{ site.url }}{{ site.baseurl
-}}/publications/right-tools-for-job/)" has been published in _Transactions in
-GIS_ ([free PDF]({{ site.url }}{{ site.baseurl
-}}/publications/right-tools-for-job/)). I originally presented this paper as the
+Tool-Building]({{ "/publications/right-tools-for-job/" | relative_url }})" has been published in _Transactions in
+GIS_ ([free PDF]({{ "/publications/right-tools-for-job/" | relative_url }})). I originally presented this paper as the
 8th annual Transactions in GIS plenary address at the AAG annual meeting last
 year. I argue that tool-building is an essential but poorly incentivized
 component of academic geography and social science more broadly. To conduct
@@ -71,5 +69,4 @@ positive externalities they generate throughout the community.
 
 Tool-building allows academics to better operationalize and hypothesis-test
 theory and therefore forms an essential, but poorly incentivized, pillar of
-scholarly research. To read more, check out [the article]({{ site.url }}{{
-site.baseurl }}/publications/right-tools-for-job/).
+scholarly research. To read more, check out [the article]({{ "/publications/right-tools-for-job/" | relative_url }}).

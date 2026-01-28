@@ -6,8 +6,7 @@ permalink: /2017/02/python-getting-started/
 ---
 
 This is a guide for absolute beginners to get started using Python. Since
-releasing [OSMnx]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx-python-street-networks/) a few weeks ago, I've received a lot
+releasing [OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}) a few weeks ago, I've received a lot
 of comments from people who would love to try it out, but don't know where to
 begin with Python. I'll demonstrate how to get Python up and running on your
 system, how to install packages, and how to run code.
@@ -47,10 +46,8 @@ conda config --prepend channels conda-forge
 
 This adds the conda-forge channel and then updates conda to the latest version.
 Now let's install a couple of new packages into an isolated conda environment.
-The first is [OSMnx]({{ site.url }}{{ site.baseurl
-}}/2016/11/osmnx-python-street-networks/), a package to download, analyze, and
-[visualize]({{ site.url }}{{ site.baseurl
-}}/2017/01/square-mile-street-network-visualization/) street networks from
+The first is [OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}), a package to download, analyze, and
+[visualize]({{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}) street networks from
 OpenStreetMap. The second is jupyterlab, which lets us interact with Python code
 in handy Jupyter notebooks. Run the command:
 
@@ -92,8 +89,7 @@ To run this code cell, click it, then press shift + enter. When OSMnx finishes
 downloading and plotting the street network, you should see something like this:
 
 ![Piedmont, California street network created in Python with OSMnx, networkx,
-matplotlib]({{ site.url }}{{ site.baseurl
-}}/files/img/piedmont-california-street-network.png)
+matplotlib]({{ "/files/img/piedmont-california-street-network.png" | relative_url }})
 
 ## Next steps
 

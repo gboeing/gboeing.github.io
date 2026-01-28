@@ -6,11 +6,9 @@ permalink: /2019/01/chapter-street-network-morphology/
 ---
 
 My chapter [The Morphology and Circuity of Walkable and Drivable Street
-Networks]({{ site.url }}{{ site.baseurl
-}}/publications/morphology-circuity-street-networks/) is now in-press for
+Networks]({{ "/publications/morphology-circuity-street-networks/" | relative_url }}) is now in-press for
 publication in the forthcoming book _The Mathematics of Urban Morphology_
-([download free PDF]({{ site.url }}{{ site.baseurl
-}}/publications/morphology-circuity-street-networks/)). The book integrates
+([download free PDF]({{ "/publications/morphology-circuity-street-networks/" | relative_url }})). The book integrates
 recent theoretical and empirical work from urban planning, geography, sociology,
 architecture, economics, and mathematics around the theme of how we model and
 understand the urban form's physical patterns and shaping processes. Fellow
@@ -43,5 +41,4 @@ From the chapter's abstract:
 > although different modes' networks overlap in any given city, their relative
 > structure and performance vary in most cities.
 
-For more, you can read the [chapter here]({{ site.url }}{{ site.baseurl
-}}/publications/morphology-circuity-street-networks/).
+For more, you can read the [chapter here]({{ "/publications/morphology-circuity-street-networks/" | relative_url }}).

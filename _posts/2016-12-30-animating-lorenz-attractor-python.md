@@ -5,8 +5,7 @@ date: 2016-12-30 16:24:55-08:00
 permalink: /2016/12/animating-lorenz-attractor-python/
 ---
 
-Edward Lorenz, the father of [chaos theory]({{ site.url }}{{ site.baseurl
-}}/2015/03/chaos-theory-logistic-map/), once
+Edward Lorenz, the father of [chaos theory]({{ "/2015/03/chaos-theory-logistic-map/" | relative_url }}), once
 [described chaos](https://www.mdpi.com/2079-8954/4/4/37/htm) as "when the
 present determines the future, but the approximate present does not
 approximately determine the future."
@@ -19,8 +18,7 @@ divergent outcomes, rendering weather prediction
 beyond a time horizon of about a fortnight.
 
 ![Lorenz system attractor animated GIF created with Python matplotlib scipy
-numpy PIL]({{ site.url }}{{ site.baseurl
-}}/files/img/animated-lorenz-attractor.gif)
+numpy PIL]({{ "/files/img/animated-lorenz-attractor.gif" | relative_url }})
 
 In 1963, Lorenz developed this simple model of the way air moves around in the
 atmosphere:
@@ -44,12 +42,9 @@ In three dimensions, these trajectories never overlap and the system never lands
 on the same point twice, due to its fractal geometry. We can also look at this
 attractor in two dimensions with matplotlib:
 
-![]({{ site.url }}{{ site.baseurl
-}}/files/img/lorenz-attractor-phase-plane-1024x393.png)
+![]({{ "/files/img/lorenz-attractor-phase-plane-1024x393.png" | relative_url }})
 
-For more about chaos, check out this [blog post]({{ site.url }}{{ site.baseurl
-}}/2015/03/chaos-theory-logistic-map/) and this [article]({{ site.url }}{{
-site.baseurl }}/publications/nonlinear-chaos-fractals-prediction/). You can
+For more about chaos, check out this [blog post]({{ "/2015/03/chaos-theory-logistic-map/" | relative_url }}) and this [article]({{ "/publications/nonlinear-chaos-fractals-prediction/" | relative_url }}). You can
 easily animate the Lorenz system and visualize its strange attractor with
 Python, using my code this
 [GitHub repo](https://github.com/gboeing/lorenz-system). You might also be

@@ -18,5 +18,4 @@ back toward more traditional, dense, and interconnected grids. Higher
 griddedness is associated with less car ownership, even when controlling for
 related socioeconomic, topographical, and other urban factors.
 
-Update: the paper has been [published in _JAPA_]({{ site.url }}{{ site.baseurl
-}}/publications/off-the-grid-japa/).
+Update: the paper has been [published in _JAPA_]({{ "/publications/off-the-grid-japa/" | relative_url }}).

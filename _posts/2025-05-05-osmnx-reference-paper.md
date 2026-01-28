@@ -11,9 +11,7 @@ has just been published open-access by _Geographical Analysis_. Years in the
 making, this article describes what OSMnx does and why it does it that way.
 
 ![OSMnx: Figure-ground diagrams of one square mile of each street network, from
-OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{
-site.url }}{{ site.baseurl
-}}/files/img/square-mile-street-networks-1024x822.jpg)
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{ "/files/img/square-mile-street-networks-1024x822.jpg" | relative_url }})
 
 But wait, there's more! I also discuss many lessons learned over the past decade
 in geospatial software development, including:
@@ -47,8 +45,7 @@ From the abstract:
 > for urban modeling and analysis.
 
 This year will mark the 10th anniversary of my work on the OSMnx project. It
-recently reached [version 2.0]({{ site.url }}{{ site.baseurl
-}}/2024/12/osmnx-v2-released/) with a slew of new features and enhancements. If
+recently reached [version 2.0]({{ "/2024/12/osmnx-v2-released/" | relative_url }}) with a slew of new features and enhancements. If
 you haven't used it before, OSMnx is a Python package to easily download, model,
 analyze, and visualize street networks and any other geospatial features from
 OpenStreetMap. You can download and model walking, driving, or biking networks

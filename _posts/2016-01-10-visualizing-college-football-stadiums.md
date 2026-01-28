@@ -5,8 +5,7 @@ date: 2016-01-10 17:24:06-08:00
 permalink: /2016/01/visualizing-college-football-stadiums/
 ---
 
-_Also check out this follow-up [analysis of stadium attendance]({{ site.url
-}}{{ site.baseurl }}/2016/09/college-football-stadium-attendance/)._
+_Also check out this follow-up [analysis of stadium attendance]({{ "/2016/09/college-football-stadium-attendance/" | relative_url }})._
 
 The 2016 college football championship game between Clemson and Alabama was held
 at University of Phoenix Stadium, where the NFL's Arizona Cardinals play.
@@ -37,11 +36,9 @@ subdivisions are further divided into conferences, each with several teams.
 
 Here is each Division I conference, colored by subdivision and ranked by the
 average seating capacity of their teams' stadiums (see this follow-up for an
-[analysis of attendance data]({{ site.url }}{{ site.baseurl
-}}/2016/09/college-football-stadium-attendance/)):
+[analysis of attendance data]({{ "/2016/09/college-football-stadium-attendance/" | relative_url }})):
 
-![conferences-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/conferences-bar.png)
+![conferences-bar]({{ "/files/img/conferences-bar.png" | relative_url }})
 
 The Ivy League makes a good showing for the FCS, but the FBS conferences
 unsurprisingly dominate overall. SEC teams on average have the largest capacity
@@ -50,8 +47,7 @@ stadiums, followed by teams in the Big Ten.
 Here is each FBS team ranked by home stadium seating capacity and colored by
 conference:
 
-![stadiums-fbs-conf-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-fbs-conf-bar-572x1024.png)
+![stadiums-fbs-conf-bar]({{ "/files/img/stadiums-fbs-conf-bar-572x1024.png" | relative_url }})
 
 Although the SEC has the largest stadiums on average, the top three largest
 stadiums all belong to Big Ten schools: Michigan, Penn State, and Ohio State.
@@ -59,15 +55,13 @@ But after that, seven of the next ten largest are in the SEC. Here are _all_ the
 NCAA Division I teams' football stadiums (FBS and FCS) sorted by seating
 capacity and colored by conference:
 
-![stadiums-conf-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-conf-bar-1024x595.png)
+![stadiums-conf-bar]({{ "/files/img/stadiums-conf-bar-1024x595.png" | relative_url }})
 
 Or to look at this another way, below are the same stadiums again, colored by
 subdivision instead of by conference. There are a few notably large FCS stadiums
 including those of Tennessee State, Yale, Jackson State, Penn, and Harvard:
 
-![stadiums-div-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-div-bar-1024x595.png)
+![stadiums-div-bar]({{ "/files/img/stadiums-div-bar-1024x595.png" | relative_url }})
 
 ## College football stadiums by year built
 
@@ -77,23 +71,20 @@ League is just behind them with an average year built of 1932. The conferences
 with the newest football stadiums - the Northeast and the Big South - average
 1990 and 1991 respectively:
 
-![conferences-year-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/conferences-year-bar.png)
+![conferences-year-bar]({{ "/files/img/conferences-year-bar.png" | relative_url }})
 
 So the SEC's stadiums on average are both the largest and the oldest. How well
 does build year correspond to stadium seating capacity? It turns out that many
 of the oldest stadiums are also among the largest. This chart is similar to the
 one we saw earlier, only colored by year built rather than by conference:
 
-![stadiums-year-capacity-bar]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-year-capacity-bar-1024x595.png)
+![stadiums-year-capacity-bar]({{ "/files/img/stadiums-year-capacity-bar-1024x595.png" | relative_url }})
 
 ## Big stadiums are big investments
 
 Most of these college football stadiums are larger than their university's
 student bodies, and many are larger than the cities they are located in (also
-see this follow-up [analysis of attendance]({{ site.url }}{{ site.baseurl
-}}/2016/09/college-football-stadium-attendance/)). New stadium and renovation
+see this follow-up [analysis of attendance]({{ "/2016/09/college-football-stadium-attendance/" | relative_url }})). New stadium and renovation
 costs recently have been skyrocketing into the nine-figure range: $450 million
 at Texas A&M, $400 million at Notre Dame, and $474 million at Cal. While these
 massive investments might make sense at football powerhouses with
@@ -117,8 +108,7 @@ beautiful and seismically safe Memorial Stadium.
 
 ## Methodology
 
-![stadiums-map]({{ site.url }}{{ site.baseurl
-}}/files/img/stadiums-map-300x209.png)
+![stadiums-map]({{ "/files/img/stadiums-map-300x209.png" | relative_url }})
 
 All of the data and code for my maps, analysis, and visualizations are available
 on
@@ -131,10 +121,8 @@ them up with Python. Then I geocoded each stadium to latitude-longitude (for
 mapping) using the Foursquare API. I did all the analysis and static mapping in
 Python with pandas, matplotlib, and basemap. I made the interactive map with
 Leaflet. You might also be interested in this follow-up [analysis of
-attendance]({{ site.url }}{{ site.baseurl
-}}/2016/09/college-football-stadium-attendance/). For more on these methods,
-check out our [Urban Informatics and Visualization]({{ site.url }}{{
-site.baseurl }}/2015/08/urban-informatics-visualization-berkeley/) course at UC
+attendance]({{ "/2016/09/college-football-stadium-attendance/" | relative_url }}). For more on these methods,
+check out our [Urban Informatics and Visualization]({{ "/2015/08/urban-informatics-visualization-berkeley/" | relative_url }}) course at UC
 Berkeley or see my
 [GitHub repo](https://github.com/gboeing/data-visualization/tree/master/ncaa-football-stadiums)
 for the code.
