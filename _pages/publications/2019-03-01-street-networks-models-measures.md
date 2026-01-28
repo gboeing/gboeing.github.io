@@ -8,8 +8,7 @@ permalink: /publications/street-networks-models-measures/
 U.S. City, County, Urbanized Area, Census Tract, and Zillow-Defined
 Neighborhood." _Urban Science_, 3 (1), 28. doi: 10.3390/urbansci3010028
 
-Download PDF from [UrbSci](https://doi.org/10.3390/urbansci3010028) or
-[SocArXiv](https://doi.org/10.31235/osf.io/7fxjz).
+Download PDF from [UrbSci][2] or [SocArXiv][1].
 
 ## Abstract
 
@@ -31,3 +30,6 @@ transportation planning, civil engineering, and network science. No other such
 dataset exists. These data offer researchers and practitioners a new ability to
 quickly and easily conduct graph-theoretic circulation network analysis anywhere
 in the U.S. using standard, free, open-source tools.
+
+[1]: https://doi.org/10.31235/osf.io/7fxjz
+[2]: https://doi.org/10.3390/urbansci3010028

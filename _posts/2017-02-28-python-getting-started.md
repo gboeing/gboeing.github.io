@@ -6,10 +6,10 @@ permalink: /2017/02/python-getting-started/
 ---
 
 This is a guide for absolute beginners to get started using Python. Since
-releasing [OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}) a few weeks ago, I've received a lot
-of comments from people who would love to try it out, but don't know where to
-begin with Python. I'll demonstrate how to get Python up and running on your
-system, how to install packages, and how to run code.
+releasing [OSMnx][10] a few weeks ago, I've received a lot of comments from
+people who would love to try it out, but don't know where to begin with Python.
+I'll demonstrate how to get Python up and running on your system, how to install
+packages, and how to run code.
 
 ## Step 1: download and install Miniconda
 
@@ -19,9 +19,9 @@ Python, you need to install a Python distribution on your computer. Anaconda is
 a popular and easy to use distribution and package manager. We'll install
 Miniconda, a lightweight version of the full Anaconda.
 
-First, [download](https://conda.io/miniconda.html) the Miniconda installer. Make
-sure to get the one for your operating system and architecture. Also make sure
-you download the installer for Python 3.6, not the outdated 2.7 version.
+First, [download][2] the Miniconda installer. Make sure to get the one for your
+operating system and architecture. Also make sure you download the installer for
+Python 3.6, not the outdated 2.7 version.
 
 Run the Miniconda installer. In the installer dialog, set the destination folder
 to C:\\Anaconda (or the equivalent if you're on a Mac, like ~/anaconda). Make
@@ -31,13 +31,11 @@ Anaconda as the system default Python.
 ## Step 2: install a package
 
 Ok, Python itself is now installed. Now we want to get some useful packages to
-play around with. We'll add the [conda-forge](https://conda-forge.github.io/)
-channel to our conda package manager so we can have access to their massive
-repository of packages.
+play around with. We'll add the [conda-forge][1] channel to our conda package
+manager so we can have access to their massive repository of packages.
 
-Open your computer's [command prompt](https://dosprompt.info/) (Windows) or
-[terminal](https://guides.macrumors.com/Terminal) (Mac/Linux) and run the
-following two commands:
+Open your computer's [command prompt][4] (Windows) or [terminal][7] (Mac/Linux)
+and run the following two commands:
 
 ```bash
 conda update -n base conda
@@ -46,10 +44,9 @@ conda config --prepend channels conda-forge
 
 This adds the conda-forge channel and then updates conda to the latest version.
 Now let's install a couple of new packages into an isolated conda environment.
-The first is [OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}), a package to download, analyze, and
-[visualize]({{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}) street networks from
-OpenStreetMap. The second is jupyterlab, which lets us interact with Python code
-in handy Jupyter notebooks. Run the command:
+The first is [OSMnx][10], a package to download, analyze, and [visualize][11]
+street networks from OpenStreetMap. The second is jupyterlab, which lets us
+interact with Python code in handy Jupyter notebooks. Run the command:
 
 ```bash
 conda create -n ox --strict-channel-priority osmnx jupyterlab
@@ -89,24 +86,33 @@ To run this code cell, click it, then press shift + enter. When OSMnx finishes
 downloading and plotting the street network, you should see something like this:
 
 ![Piedmont, California street network created in Python with OSMnx, networkx,
-matplotlib]({{ "/files/img/piedmont-california-street-network.png" | relative_url }})
+matplotlib][12]
 
 ## Next steps
 
-There are lots of examples of stuff you can do with OSMnx in its
-[examples repo](https://github.com/gboeing/osmnx-examples). All these examples
-come packaged as Jupyter notebooks that you can download and run, just like
-we've done in this tutorial.
+There are lots of examples of stuff you can do with OSMnx in its [examples
+repo][5]. All these examples come packaged as Jupyter notebooks that you can
+download and run, just like we've done in this tutorial.
 
 Similarly, you can install any other Python packages available in conda the same
 way we demonstrated here. If a package isn't in conda, read its documentation to
 see how they recommend you install it. If you're interested in data science,
-[pandas](https://pandas.pydata.org/) and
-[scikit- learn](https://scikit-learn.org/) are a couple of great places to start
-playing with code. You might also be interested in my course series on urban
-data science: all of its materials are available as Jupyter notebooks on
-[GitHub](https://github.com/gboeing/urban-data-science).
+[pandas][8] and [scikit- learn][9] are a couple of great places to start playing
+with code. You might also be interested in my course series on urban data
+science: all of its materials are available as Jupyter notebooks on [GitHub][6].
 
-Lastly, there are lots of great Python
-[tutorials](https://docs.python.org/3/tutorial/) to help you take your next
+Lastly, there are lots of great Python [tutorials][3] to help you take your next
 steps.
+
+[1]: https://conda-forge.github.io/
+[2]: https://conda.io/miniconda.html
+[3]: https://docs.python.org/3/tutorial/
+[4]: https://dosprompt.info/
+[5]: https://github.com/gboeing/osmnx-examples
+[6]: https://github.com/gboeing/urban-data-science
+[7]: https://guides.macrumors.com/Terminal
+[8]: https://pandas.pydata.org/
+[9]: https://scikit-learn.org/
+[10]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
+[11]: {{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}
+[12]: {{ "/files/img/piedmont-california-street-network.png" | relative_url }}

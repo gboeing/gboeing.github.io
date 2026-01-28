@@ -7,9 +7,7 @@ permalink: /publications/understanding-cities-networks-flows/
 **Cite as:** Boeing, G. 2017. "Understanding Cities through Networks and Flows."
 _Berkeley Planning Journal_, 28 (1), 118-123.
 
-Download PDF from
-[ResearchGate](https://www.researchgate.net/publication/313606246_Understanding_Cities_through_Networks_and_Flows)
-or [eScholarship](https://escholarship.org/uc/item/9756w3fq)
+Download PDF from [ResearchGate][2] or [eScholarship][1]
 
 ## Abstract
 
@@ -24,3 +22,6 @@ keen to formulate new kinds of sciences that take complexity into account. These
 attempts usually follow Kuhn's theory of paradigm shifts: new evidence and modes
 of thinking undermine an established science, and a new science emerges to
 replace it.
+
+[1]: https://escholarship.org/uc/item/9756w3fq
+[2]: https://www.researchgate.net/publication/313606246_Understanding_Cities_through_Networks_and_Flows

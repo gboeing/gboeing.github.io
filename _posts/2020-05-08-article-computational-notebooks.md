@@ -6,10 +6,10 @@ permalink: /2020/05/article-computational-notebooks/
 ---
 
 I have a new article out in Region: Journal of the European Regional Science
-Association, "[Urban Street Network Analysis in a Computational Notebook]({{ "/publications/street-network-computational-notebook/" | relative_url }})." It reflects on the use
-of Jupyter notebooks in applied data science research, pedagogy, and practice,
-and it uses the [OSMnx examples](https://github.com/gboeing/osmnx-examples)
-repository as an example.
+Association, "[Urban Street Network Analysis in a Computational Notebook][2]."
+It reflects on the use of Jupyter notebooks in applied data science research,
+pedagogy, and practice, and it uses the [OSMnx examples][1] repository as an
+example.
 
 From the abstract:
 
@@ -33,4 +33,7 @@ From the abstract:
 > computational notebooks in urban planning, analytics, and related
 > geocomputation disciplines should continue into the future.
 
-For more, check out [the article]({{ "/publications/street-network-computational-notebook/" | relative_url }}).
+For more, check out [the article][2].
+
+[1]: https://github.com/gboeing/osmnx-examples
+[2]: {{ "/publications/street-network-computational-notebook/" | relative_url }}

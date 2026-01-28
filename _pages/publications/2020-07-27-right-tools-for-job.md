@@ -8,9 +8,7 @@ permalink: /publications/right-tools-for-job/
 Science Tool-Building." _Transactions in GIS_, 24 (5), 1299-1314.
 doi:10.1111/tgis.12678
 
-Download PDF from [TGIS](https://doi.org/10.1111/tgis.12678) or
-[SSRN](https://ssrn.com/abstract=3661872) or
-[SocArXiv](https://doi.org/10.31235/osf.io/d267g).
+Download PDF from [TGIS][1] or [SSRN][3] or [SocArXiv][2].
 
 ## Abstract
 
@@ -30,3 +28,7 @@ component of academic geography and social science more broadly. To conduct
 better science, we need to build better tools. The paper concludes with paths
 forward, emphasizing open-source software and reusable computational data
 science beyond mere reproducibility and replicability.
+
+[1]: https://doi.org/10.1111/tgis.12678
+[2]: https://doi.org/10.31235/osf.io/d267g
+[3]: https://ssrn.com/abstract=3661872

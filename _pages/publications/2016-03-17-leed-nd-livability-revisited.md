@@ -7,9 +7,7 @@ permalink: /publications/leed-nd-livability-revisited/
 **Cite as:** Boeing, G., D. Church, H. Hubbard, J. Mickens, and L. Rudis. 2014.
 "LEED-ND and Livability Revisited." _Berkeley Planning Journal_, 27 (1), 31–55.
 
-Download PDF from
-[ResearchGate](https://www.researchgate.net/publication/276129939_LEED-ND_and_Livability_Revisited)
-or [eScholarship](https://escholarship.org/uc/item/49f234rd)
+Download PDF from [ResearchGate][2] or [eScholarship][1]
 
 ## Abstract
 
@@ -27,3 +25,6 @@ LEED-ND, calling into question its validity as a universally codifiable rating
 system. We propose that a single set of weighted, prescriptive design guidelines
 may not be able to reflect the diverse values and desired amenities of different
 communities.
+
+[1]: https://escholarship.org/uc/item/49f234rd
+[2]: https://www.researchgate.net/publication/276129939_LEED-ND_and_Livability_Revisited

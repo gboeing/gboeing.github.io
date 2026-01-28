@@ -11,10 +11,7 @@ Markets: How Online Information Exchanges Can Supplement Transacted-Rents Data."
 _Journal of Planning Education and Research_, published online ahead of print.
 doi:10.1177/0739456X20904435
 
-Download PDF from [JPER](https://doi.org/10.1177%2F0739456X20904435) or
-[SSRN](https://papers.ssrn.com/abstract=3532091) or
-[SocArXiv](https://osf.io/phgqt/) or
-[eScholarship](https://escholarship.org/uc/item/8gz900hd).
+Download PDF from [JPER][1] or [SSRN][4] or [SocArXiv][3] or [eScholarship][2].
 
 ## Abstract
 
@@ -27,3 +24,8 @@ governmental data to millions of contemporaneous rental listings and finds that
 asking rents diverge substantially from these most recent estimates.
 Conventional housing data understate current market conditions and affordability
 challenges, especially in cities with tight and expensive rental markets.
+
+[1]: https://doi.org/10.1177%2F0739456X20904435
+[2]: https://escholarship.org/uc/item/8gz900hd
+[3]: https://osf.io/phgqt/
+[4]: https://papers.ssrn.com/abstract=3532091

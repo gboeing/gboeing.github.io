@@ -6,14 +6,14 @@ permalink: /2017/10/new-article-osmnx-ceus/
 ---
 
 My article "OSMnx: New methods for acquiring, constructing, analyzing, and
-visualizing complex street networks" was published in the journal
-[_Computers, Environment and Urban Systems_](https://doi.org/10.1016/j.compenvurbsys.2017.05.004)
-earlier this month. OSMnx is a Python package that lets you download a street
-network anywhere in the world at any scale with a single line of code, then
-analyze or visualize it with one more line of code.
+visualizing complex street networks" was published in the journal [_Computers,
+Environment and Urban Systems_][1] earlier this month. OSMnx is a Python
+package that lets you download a street network anywhere in the world at any
+scale with a single line of code, then analyze or visualize it with one more
+line of code.
 
 ![OSMnx: Figure-ground diagrams of one square mile of each street network, from
-OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{ "/files/img/square-mile-street-networks-1024x822.jpg" | relative_url }})
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX][7]
 
 From the abstract:
 
@@ -36,10 +36,17 @@ From the abstract:
 > presents a simple case study using OSMnx to construct and analyze street
 > networks in Portland, Oregon.
 
-I developed [OSMnx]({{ "/publications/osmnx-complex-street-networks/" | relative_url }}) as part of my
-[dissertation]({{ "/publications/dissertation/" | relative_url }})
-research. For more info on using OSMnx, check out this [blog post]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}), its
-[documentation](https://osmnx.readthedocs.io/), or its
-[GitHub repo](https://github.com/gboeing/osmnx). Or, check out some quick
-demonstrations of using OSMnx to analyze [street network patterns]({{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}) or the
-[urban form]({{ "/2017/04/urban-form-analysis-openstreetmap/" | relative_url }}).
+I developed [OSMnx][9] as part of my [dissertation][8] research. For more info
+on using OSMnx, check out this [blog post][4], its [documentation][3], or its
+[GitHub repo][2]. Or, check out some quick demonstrations of using OSMnx to
+analyze [street network patterns][5] or the [urban form][6].
+
+[1]: https://doi.org/10.1016/j.compenvurbsys.2017.05.004
+[2]: https://github.com/gboeing/osmnx
+[3]: https://osmnx.readthedocs.io/
+[4]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
+[5]: {{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}
+[6]: {{ "/2017/04/urban-form-analysis-openstreetmap/" | relative_url }}
+[7]: {{ "/files/img/square-mile-street-networks-1024x822.jpg" | relative_url }}
+[8]: {{ "/publications/dissertation/" | relative_url }}
+[9]: {{ "/publications/osmnx-complex-street-networks/" | relative_url }}

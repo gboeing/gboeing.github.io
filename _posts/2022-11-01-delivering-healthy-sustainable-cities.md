@@ -5,12 +5,11 @@ date: 2022-11-01 04:07:18-07:00
 permalink: /2022/11/delivering-healthy-sustainable-cities/
 ---
 
-I have a new [article](https://doi.org/10.3138/jccpe-2022.1.1.0008) out now in
-_The Journal of City Climate Policy and Economy_, coauthored with a team that
-includes several of the folks from our recent [series]({{ "/2022/06/lancet-series-transport-health/" | relative_url }}) in _The Lancet Global
-Health_. The JCCPE article, "A Pathway to Prioritizing and Delivering Healthy
-and Sustainable Cities," synthesizes findings and recommended policy actions
-arising from that recent TLGH series.
+I have a new [article][1] out now in _The Journal of City Climate Policy and
+Economy_, coauthored with a team that includes several of the folks from our
+recent [series][2] in _The Lancet Global Health_. The JCCPE article, "A Pathway
+to Prioritizing and Delivering Healthy and Sustainable Cities," synthesizes
+findings and recommended policy actions arising from that recent TLGH series.
 
 From the abstract:
 
@@ -38,7 +37,9 @@ From the abstract:
 > indicators and an invitation to join our 1,000 Cities Challenge via the Global
 > Observatory of Healthy and Sustainable Cities.
 
-For more, check out the
-[JCCPE article](https://doi.org/10.3138/jccpe-2022.1.1.0008) itself. And you may
-also be interested in our recent _The Lancet Global Health_ [series]({{ "/2022/06/lancet-series-transport-health/" | relative_url }}) of
-articles that developed similar themes in great depth.
+For more, check out the [JCCPE article][1] itself. And you may also be
+interested in our recent _The Lancet Global Health_ [series][2] of articles that
+developed similar themes in great depth.
+
+[1]: https://doi.org/10.3138/jccpe-2022.1.1.0008
+[2]: {{ "/2022/06/lancet-series-transport-health/" | relative_url }}

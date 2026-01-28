@@ -6,11 +6,9 @@ permalink: /publications/nonlinear-chaos-fractals-prediction/
 
 **Cite as:** Boeing, G. 2016. "Visual Analysis of Nonlinear Dynamical Systems:
 Chaos, Fractals, Self-Similarity and the Limits of Prediction." _Systems_, 4
-(4), 37. doi:[10.3390/systems4040037](https://dx.doi.org/10.3390/systems4040037)
+(4), 37. doi:[10.3390/systems4040037][1]
 
-Download PDF from
-[ResearchGate](https://www.researchgate.net/publication/306226253_Visual_Analysis_of_Nonlinear_Dynamical_Systems_Chaos_Fractals_Self-Similarity_and_the_Limits_of_Prediction)
-or [SSRN](https://papers.ssrn.com/abstract=2823988)
+Download PDF from [ResearchGate][3] or [SSRN][2]
 
 ## Abstract
 
@@ -31,3 +29,7 @@ uses these visualizations to introduce the foundations of nonlinear dynamics,
 chaos, fractals, self-similarity and the limits of prediction. Finally, it
 presents Pynamical, an open-source Python package to easily visualize and
 explore nonlinear dynamical systems' behavior.
+
+[1]: https://dx.doi.org/10.3390/systems4040037
+[2]: https://papers.ssrn.com/abstract=2823988
+[3]: https://www.researchgate.net/publication/306226253_Visual_Analysis_of_Nonlinear_Dynamical_Systems_Chaos_Fractals_Self-Similarity_and_the_Limits_of_Prediction

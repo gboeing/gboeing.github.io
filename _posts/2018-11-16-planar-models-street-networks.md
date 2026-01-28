@@ -6,20 +6,19 @@ permalink: /2018/11/planar-models-street-networks/
 ---
 
 My article, "[Planarity and Street Network Representation in Urban Form
-Analysis]({{ "/publications/planarity-street-network-representation/" | relative_url }})," was recently
-published in _Environment and Planning B: Urban Analytics and City Science_.
-Models of street networks underlie research in urban travel behavior,
-accessibility, design patterns, and morphology. These models are commonly
-defined as planar, meaning they can be represented in two dimensions without any
-underpasses or overpasses. However, real-world urban street networks exist in
-three-dimensional space and frequently feature grade separation such as bridges
-and tunnels: planar simplifications can be useful but they also impact the
-results of real-world street network analysis. This study measures the
-nonplanarity of drivable and walkable street networks in the centers of 50
-cities worldwide, then examines the variation of nonplanarity across a single
-city. While some street networks are approximately planar, I empirically
-quantify how planar models can inconsistently but drastically misrepresent
-intersection density, street lengths, routing, and connectivity.
+Analysis][4]," was recently published in _Environment and Planning B: Urban
+Analytics and City Science_. Models of street networks underlie research in
+urban travel behavior, accessibility, design patterns, and morphology. These
+models are commonly defined as planar, meaning they can be represented in two
+dimensions without any underpasses or overpasses. However, real-world urban
+street networks exist in three-dimensional space and frequently feature grade
+separation such as bridges and tunnels: planar simplifications can be useful but
+they also impact the results of real-world street network analysis. This study
+measures the nonplanarity of drivable and walkable street networks in the
+centers of 50 cities worldwide, then examines the variation of nonplanarity
+across a single city. While some street networks are approximately planar, I
+empirically quantify how planar models can inconsistently but drastically
+misrepresent intersection density, street lengths, routing, and connectivity.
 
 A planar graph can be drawn on a two-dimensional plane without any of its edges
 crossing each other, except where they intersect at nodes. If it cannot be drawn
@@ -32,7 +31,7 @@ the planarity of its real-world spatial embedding, which we refer to as "spatial
 planarity."
 
 ![Formally planar, spatially nonplanar, and formally nonplanar street network
-graph models with trivial and real-world examples]({{ "/files/img/planar-nonplanar-street-network-graph-1024x673.png" | relative_url }})
+graph models with trivial and real-world examples][2]
 
 For example, a street network might be spatially nonplanar due to its embedding
 in space (i.e., it contains overpasses or underpasses in the real world), but it
@@ -53,8 +52,13 @@ are underestimated. 3, connectivity is misrepresented for routing, accessibility
 analysis, and topological studies.
 
 ![Map of world cities street networks grouped by Spatial Planarity Ratio
-terciles, demonstrating how planar or nonplanar each graph is.]({{ "/files/img/street-network-planar-nonplanar-world-map-1024x484.png" | relative_url }})
+terciles, demonstrating how planar or nonplanar each graph is.][3]
 
 This study develops two new indicators - the Spatial Planarity Ratio and the
 Edge Length Ratio - then measures the extent of nonplanarity in street networks
-around the world [using OSMnx]({{ "/2018/03/osmnx-features-roundup/" | relative_url }}). For more, read [the article]({{ "/publications/planarity-street-network-representation/" | relative_url }}).
+around the world [using OSMnx][1]. For more, read [the article][4].
+
+[1]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}
+[2]: {{ "/files/img/planar-nonplanar-street-network-graph-1024x673.png" | relative_url }}
+[3]: {{ "/files/img/street-network-planar-nonplanar-world-map-1024x484.png" | relative_url }}
+[4]: {{ "/publications/planarity-street-network-representation/" | relative_url }}

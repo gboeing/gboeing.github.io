@@ -5,39 +5,35 @@ date: 2014-09-06 22:02:17-07:00
 permalink: /2014/09/visualizing-summer-travels-part-6-projecting-spatial-data-python/
 ---
 
-_This post is [part of a series]({{ "/2014/08/visualizing-summer-travels/" | relative_url }}) on
-visualizing data from my summer travels._
+_This post is [part of a series][19] on visualizing data from my summer
+travels._
 
 I've previously discussed visualizing the GPS location data from my summer
-travels with [CartoDB]({{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}), [Leaflet]({{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}), and
-[Mapbox + Tilemill]({{ "/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/" | relative_url }}). I also
+travels with [CartoDB][18], [Leaflet][15], and [Mapbox + Tilemill][16]. I also
 visualized different aspects of this data set in Python, using the
-[matplotlib]({{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}) plotting
-library. However, these spatial scatter plots used unprojected lat-long data
-which looked pretty distorted at European latitudes.
+[matplotlib][17] plotting library. However, these spatial scatter plots used
+unprojected lat-long data which looked pretty distorted at European latitudes.
 
 Today I will show how to convert this data into a projected coordinate reference
 system and plot it again using matplotlib. These projected maps will provide a
 much more accurate spatial representation of my spatial data and the geographic
-region. All of my code is available in this
-[GitHub repo](https://github.com/gboeing/2014-summer-travels), particularly
-[this notebook](https://github.com/gboeing/2014-summer-travels/blob/master/trip-visualization-projected.ipynb).
+region. All of my code is available in this [GitHub repo][4], particularly
+[this notebook][5].
 
 ## Projected vs. not projected
 
 In my previous post, I created several plots of my GPS location data. However,
 this lat-long data and the shapefile I used as a basemap were distorted at these
-European latitudes because the spatial data was
-[not projected](https://en.wikipedia.org/wiki/Map_projection). The easiest way
-to understand this distortion is to see it visually. Here is the very simple but
-very distorted plot of my lat-long data, from the previous post:
+European latitudes because the spatial data was [not projected][2]. The easiest
+way to understand this distortion is to see it visually. Here is the very simple
+but very distorted plot of my lat-long data, from the previous post:
 
-![geopandas-shapfile-point-data-map]({{ "/files/img/geopandas-shapfile-point-data-map-300x153.png" | relative_url }})
+![geopandas-shapfile-point-data-map][20]
 
 And here is the projected data in a more geographically representative plot
 which I will create today in this post:
 
-![projected-shapefile-gps-coordinates]({{ "/files/img/projected-shapefile-gps-coordinates-300x203.png" | relative_url }})
+![projected-shapefile-gps-coordinates][22]
 
 You can see the horizontal distortion in the top image: France, Germany,
 England, etc are too wide because the three dimensional lat-long data from the
@@ -53,21 +49,17 @@ a second.
 ## Getting started
 
 First I'm going to import the necessary Python modules I'll be working with.
-I'll use [pandas](https://pandas.pydata.org/) and
-[numpy](https://www.numpy.org/) for data analysis. The
-[matplotlib](https://matplotlib.org/) modules are for plotting the
-visualizations. The [descartes](https://pypi.python.org/pypi/descartes) library
-is used to convert the shapes into plottable objects. Lastly,
-[shapely](https://pypi.python.org/pypi/Shapely),
-[geopy](https://pypi.python.org/pypi/geopy), and
-[geopandas](https://geopandas.org/) will perform spatial and geographic
-calculations and analysis.
+I'll use [pandas][7] and [numpy][11] for data analysis. The [matplotlib][6]
+modules are for plotting the visualizations. The [descartes][9] library is used
+to convert the shapes into plottable objects. Lastly, [shapely][8], [geopy][10],
+and [geopandas][3] will perform spatial and geographic calculations and
+analysis.
 
-Then I load two location data sets: one is the [original full set]({{ "/2014/07/visualizing-summer-travels-part-1-openpaths/" | relative_url }}) and the other is a [clustered,
-reduced set]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}) of location data points.
-Both of these data sets have been [reverse-geocoded]({{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}) so I
-have lat-long coordinates, city, and country data. Finally I load a shapefile of
-world country borders as a geopandas GeoDataFrame.
+Then I load two location data sets: one is the [original full set][12] and the
+other is a [clustered, reduced set][13] of location data points. Both of these
+data sets have been [reverse-geocoded][14] so I have lat-long coordinates, city,
+and country data. Finally I load a shapefile of world country borders as a
+geopandas GeoDataFrame.
 
 ```python
 import pandas as pd, numpy as np, matplotlib.pyplot as plt,
@@ -107,12 +99,11 @@ extract the original shapefile CRS. Then I define a new projected CRS to convert
 it and my point data into. I convert the shapefile's projection with the
 to_crs() method, which uses pyproj.
 
-My target CRS will be
-[Albers equal area](https://en.wikipedia.org/wiki/Albers_projection). I specify
-two standard parallels near the lower and upper extents of my point data, and a
-false origin near the center of my point data. The Albers projection minimizes
-distortion between these standard parallels and is good at representing relative
-sizes across the projected area.
+My target CRS will be [Albers equal area][1]. I specify two standard parallels
+near the lower and upper extents of my point data, and a false origin near the
+center of my point data. The Albers projection minimizes distortion between
+these standard parallels and is good at representing relative sizes across the
+projected area.
 
 ```python
 original_crs = all_countries.crs
@@ -276,7 +267,7 @@ xycoords='data')
 plt.show()
 ```
 
-![projected-shapefile-gps-coordinates]({{ "/files/img/projected-shapefile-gps-coordinates.png" | relative_url }})
+![projected-shapefile-gps-coordinates][23]
 
 The plot above depicts a map of Europe with my GPS location data plotted on top
 of it. The top six most visited cities are annotated on the map: Lisbon,
@@ -284,7 +275,7 @@ Barcelona, Prague, Tuebingen, Athens, and Istanbul. The country borders and
 point data are all projected to preserve relative sizes at European latitudes.
 The countries are shaded different colors indicating if I visited them or not.
 It looks much better than the simple, unprojected plots in the [previous
-post]({{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}).
+post][17].
 
 ## Plotting the most isolated locations
 
@@ -363,7 +354,7 @@ xycoords='data')
 plt.show()
 ```
 
-![most-isolated-projected]({{ "/files/img/most-isolated-projected.png" | relative_url }})
+![most-isolated-projected][21]
 
 The plot above shows the projected GPS location data set in magenta and
 highlights the most isolated points in red: Barcelona, Hounslow (outside of
@@ -374,14 +365,37 @@ nearest neighbors.
 
 ## Wrap up
 
-In my [previous post]({{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}), I created several simple plots of
-my GPS location data that didn't bother with projection. However, the data was
-spatially distorted at these European latitudes. The projected plots of my most
-visited cities and most isolated locations that I've created here look much
-better.
+In my [previous post][17], I created several simple plots of my GPS location
+data that didn't bother with projection. However, the data was spatially
+distorted at these European latitudes. The projected plots of my most visited
+cities and most isolated locations that I've created here look much better.
 
 I converted my point data and my shapefile basemap into the Albers equal area
 projection. This minimizes distortion and is pretty good at representing
 relative sizes without the horizontal stretching you saw in the previous post's
 plots. Python's geopandas and pyproj libraries make up a powerful toolkit for
 GIS analysis, spatial data projection, and simple cartography.
+
+[1]: https://en.wikipedia.org/wiki/Albers_projection
+[2]: https://en.wikipedia.org/wiki/Map_projection
+[3]: https://geopandas.org/
+[4]: https://github.com/gboeing/2014-summer-travels
+[5]: https://github.com/gboeing/2014-summer-travels/blob/master/trip-visualization-projected.ipynb
+[6]: https://matplotlib.org/
+[7]: https://pandas.pydata.org/
+[8]: https://pypi.python.org/pypi/Shapely
+[9]: https://pypi.python.org/pypi/descartes
+[10]: https://pypi.python.org/pypi/geopy
+[11]: https://www.numpy.org/
+[12]: {{ "/2014/07/visualizing-summer-travels-part-1-openpaths/" | relative_url }}
+[13]: {{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}
+[14]: {{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}
+[15]: {{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}
+[16]: {{ "/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/" | relative_url }}
+[17]: {{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}
+[18]: {{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}
+[19]: {{ "/2014/08/visualizing-summer-travels/" | relative_url }}
+[20]: {{ "/files/img/geopandas-shapfile-point-data-map-300x153.png" | relative_url }}
+[21]: {{ "/files/img/most-isolated-projected.png" | relative_url }}
+[22]: {{ "/files/img/projected-shapefile-gps-coordinates-300x203.png" | relative_url }}
+[23]: {{ "/files/img/projected-shapefile-gps-coordinates.png" | relative_url }}

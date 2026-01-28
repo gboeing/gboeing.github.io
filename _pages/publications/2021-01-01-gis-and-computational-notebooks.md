@@ -9,9 +9,7 @@ Notebooks_." In: The Geographic Information Science & Technology Body of
 Knowledge, edited by J. P. Wilson. Ithaca, NY: University Consortium for
 Geographic Information Science.
 
-Read [online](https://doi.org/10.22224/gistbok/2021.1.2) or download PDF from
-[SSRN](https://ssrn.com/abstract=3758662) or
-[SocArXiv](https://osf.io/preprints/socarxiv/x2p49/).
+Read [online][1] or download PDF from [SSRN][3] or [SocArXiv][2].
 
 ## Abstract
 
@@ -31,3 +29,7 @@ using notebooks for a set of basic GIS operations. Compared to traditional
 desktop GIS, notebooks can make spatial analysis more nimble, extensible, and
 reproducible and have thus evolved into an important component of the geospatial
 science toolkit.
+
+[1]: https://doi.org/10.22224/gistbok/2021.1.2
+[2]: https://osf.io/preprints/socarxiv/x2p49/
+[3]: https://ssrn.com/abstract=3758662

@@ -6,12 +6,11 @@ permalink: /2021/06/framework-measuring-pedestrian-accessibility/
 ---
 
 I'm a co-author of a new article, "[A Generalized Framework for Measuring
-Pedestrian Accessibility around the World Using Open Data]({{ "/publications/generalized-framework-pedestrian-accessibility/" | relative_url }}),"
-which has just been published by _Geographical Analysis_. We developed an open
-source, containerized software framework for modeling pedestrian networks using
-open data to analyze disaggregate access to daily living needs. We worked with
-local partners in 25 cities around the world to demonstrate and validate this
-toolkit.
+Pedestrian Accessibility around the World Using Open Data][1]," which has just
+been published by _Geographical Analysis_. We developed an open source,
+containerized software framework for modeling pedestrian networks using open
+data to analyze disaggregate access to daily living needs. We worked with local
+partners in 25 cities around the world to demonstrate and validate this toolkit.
 
 From the abstract:
 
@@ -33,4 +32,6 @@ From the abstract:
 > worldwide to support local planning and policymaking. The software is made
 > publicly available for reuse in an open repository.
 
-For more, check out [the article]({{ "/publications/generalized-framework-pedestrian-accessibility/" | relative_url }}).
+For more, check out [the article][1].
+
+[1]: {{ "/publications/generalized-framework-pedestrian-accessibility/" | relative_url }}

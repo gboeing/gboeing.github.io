@@ -5,19 +5,18 @@ date: 2017-03-01 17:25:59-08:00
 permalink: /2017/03/urban-form-figure-ground/
 ---
 
-_Check out the [journal article]({{ "/publications/osmnx-complex-street-networks/" | relative_url }}) about OSMnx._
+_Check out the [journal article][9] about OSMnx._
 
 I previously demonstrated how to create figure-ground [square-mile
-visualizations]({{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}) of urban street networks
-[with OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}) to consistently compare city patterns,
-design paradigms, and connectivity. OSMnx downloads, analyzes, and visualizes
-street networks from OpenStreetMap but it can also get building footprints. If
-we mash-up these building footprints with the street networks, we get a
-fascinating comparative window into urban form:
+visualizations][5] of urban street networks [with OSMnx][4] to consistently
+compare city patterns, design paradigms, and connectivity. OSMnx downloads,
+analyzes, and visualizes street networks from OpenStreetMap but it can also get
+building footprints. If we mash-up these building footprints with the street
+networks, we get a fascinating comparative window into urban form:
 
 ![Figure-ground map of building footprints and street network in New York, San
 Francisco, Monrovia, and Port au Prince from OpenStreetMap data, created in
-Python with OSMnx]({{ "/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png" | relative_url }})
+Python with OSMnx][6]
 
 Above we see four cities, all at the same scale (one square mile) to allow easy
 comparison of the pattern, texture, and grain of the urban form. At the top-left
@@ -42,28 +41,35 @@ each informal settlement.
 
 Figure-ground diagrams like these are common tools in urban planning and design
 to represent the relationship between built and un-built space in a city. An
-early example is the
-[Nolli Map](https://en.wikipedia.org/wiki/Giambattista_Nolli#Nolli_Map) of Rome
-from the 1740s. We can use [OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}) to produce a similar map of a city -
-in this example, suburban Piedmont, California:
+early example is the [Nolli Map][1] of Rome from the 1740s. We can use
+[OSMnx][4] to produce a similar map of a city - in this example, suburban
+Piedmont, California:
 
 ![Nolli map, figure-ground diagram of building footprints in Piedmont,
-California from OpenStreetMap data created in Python with OSMnx]({{ "/files/img/piedmont_bldgs-1024x665.png" | relative_url }})
+California from OpenStreetMap data created in Python with OSMnx][8]
 
 Piedmont's curving streets can be seen winding through the built form, which
 comprises almost exclusively single-family detached homes. By contrast, we may
 want to examine just one section of a city, such as this 1.5 km2 diagram of
 Paris, centered on the Arc de Triomphe. Notice how Baron Haussmann's
-[streets]({{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}) radiate outward as
-remnants of his massive demolition and renovation of 19th century Paris:
+[streets][5] radiate outward as remnants of his massive demolition and
+renovation of 19th century Paris:
 
 ![Nolli map, figure-ground diagram of building footprints and urban form in
-Paris, France from OpenStreetMap data created in Python with OSMnx]({{ "/files/img/paris_bldgs.png" | relative_url }})
+Paris, France from OpenStreetMap data created in Python with OSMnx][7]
 
 Each of these visualizations was created in just a handful of lines of code
-using [OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}), a Python package I've developed as
-part of my dissertation. The code to reproduce these figures is in this
-[demo notebook](https://github.com/gboeing/osmnx-examples/blob/v0.11/notebooks/10-building-footprints.ipynb).
-Several more examples are available in OSMnx's
-[GitHub repo](https://github.com/gboeing/osmnx). For more info, check out [the
-paper]({{ "/publications/osmnx-complex-street-networks/" | relative_url }}) about OSMnx.
+using [OSMnx][4], a Python package I've developed as part of my dissertation.
+The code to reproduce these figures is in this [demo notebook][3]. Several more
+examples are available in OSMnx's [GitHub repo][2]. For more info, check out
+[the paper][9] about OSMnx.
+
+[1]: https://en.wikipedia.org/wiki/Giambattista_Nolli#Nolli_Map
+[2]: https://github.com/gboeing/osmnx
+[3]: https://github.com/gboeing/osmnx-examples/blob/v0.11/notebooks/10-building-footprints.ipynb
+[4]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
+[5]: {{ "/2017/01/square-mile-street-network-visualization/" | relative_url }}
+[6]: {{ "/files/img/bldg-footprints-ny-sf-monrovia-port-au-prince-970x1024.png" | relative_url }}
+[7]: {{ "/files/img/paris_bldgs.png" | relative_url }}
+[8]: {{ "/files/img/piedmont_bldgs-1024x665.png" | relative_url }}
+[9]: {{ "/publications/osmnx-complex-street-networks/" | relative_url }}

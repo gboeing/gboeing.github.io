@@ -5,11 +5,11 @@ date: 2024-08-13 08:35:14-07:00
 permalink: /2024/08/urban-form-transport-health/
 ---
 
-I recently coauthored an [article](https://doi.org/10.1016/j.envres.2024.119324)
-in _Environmental Research_, titled "Exploring the Nexus of Urban Form,
-Transport, Environment and Health in Large-Scale Urban Studies: A
-State-of-the-Art Scoping Review." This arose from a symposium in Sitges, Spain
-which I was invited to last year by the Barcelona Institute for Global Health.
+I recently coauthored an [article][1] in _Environmental Research_, titled
+"Exploring the Nexus of Urban Form, Transport, Environment and Health in
+Large-Scale Urban Studies: A State-of-the-Art Scoping Review." This arose from a
+symposium in Sitges, Spain which I was invited to last year by the Barcelona
+Institute for Global Health.
 
 From the abstract:
 
@@ -45,4 +45,6 @@ From the abstract:
 > large-scale urban studies, and greater exploration of urban health
 > vulnerabilities and inequities.
 
-For more, check out the [article](https://doi.org/10.1016/j.envres.2024.119324).
+For more, check out the [article][1].
+
+[1]: https://doi.org/10.1016/j.envres.2024.119324

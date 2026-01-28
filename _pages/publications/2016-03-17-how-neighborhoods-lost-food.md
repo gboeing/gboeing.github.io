@@ -7,7 +7,7 @@ permalink: /publications/how-neighborhoods-lost-food/
 **Cite as:** Boeing, G. 2016. "How Our Neighborhoods Lost Food, and How They Can
 Get It Back." _Progressive Planning_, 206 (Winter), 35–37.
 
-[Download PDF](https://ssrn.com/abstract=2772432)
+[Download PDF][1]
 
 Does food matter in neighborhood planning and design? Should it matter? The
 answer is yes, but decades of planning policy and practice seem to suggest
@@ -18,3 +18,5 @@ walkable access to healthy food can reduce America's growing obesity and
 diabetes epidemics. Locally-sourced food reinforces better dietary habits as
 consumers connect with the value chain and perceive eating as a more natural
 process.
+
+[1]: https://ssrn.com/abstract=2772432

@@ -5,8 +5,7 @@ date: 2014-07-31 18:09:52-07:00
 permalink: /2014/07/visualizing-summer-travels-part-1-openpaths/
 ---
 
-_This post is [part of a series]({{ "/2014/08/visualizing-summer-travels/" | relative_url }}) on visualizing data from my summer
-travels._
+_This post is [part of a series][5] on visualizing data from my summer travels._
 
 Oscar Levant once said that "happiness isn't something you experience; it's
 something you remember." We humans have a way of constructing and reconstructing
@@ -37,19 +36,17 @@ to their cause. Furthermore, you can work with your dataset through the
 OpenPaths API or export it as a CSV file, etc.
 
 I traveled through Europe with my unlocked Android phone (a Nexus 4, which works
-globally on GSM networks) on T-Mobile's
-[Simple Choice](https://www.t-mobile.com/simple-choice-international-plans.html)
-plan, which includes unlimited free international data roaming in its $50/month
-price tag. The plan covers most European nations other than Albania and the
-former Yugoslav states, which I did travel through.
+globally on GSM networks) on T-Mobile's [Simple Choice][2] plan, which includes
+unlimited free international data roaming in its $50/month price tag. The plan
+covers most European nations other than Albania and the former Yugoslav states,
+which I did travel through.
 
 This means that OpenPaths was able to upload my GPS location data regularly
 throughout my trip, via cellular data, except while in these Balkan countries.
 There, my location data was only uploaded while I was connected to WiFi. The
 dataset I'll be mapping contains approximately 1,800 time-stamped lat-long
-coordinate points and is
-[available here](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv).
-I discuss how I [reverse-geocoded it here]({{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}).
+coordinate points and is [available here][1]. I discuss how I [reverse-geocoded
+it here][3].
 
 ## Goals and Next Steps
 
@@ -59,4 +56,10 @@ I remember and explore where I went and what I did on this trip, using location
 data? The second goal is to play with web mapping tools and evaluate them
 against each other. This learning experience can help inform the upcoming Urban
 Informatics and Visualization course at UC Berkeley this fall semester, for
-which I am the grad student instructor. Let's [dig in]({{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}).
+which I am the grad student instructor. Let's [dig in][4].
+
+[1]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv
+[2]: https://www.t-mobile.com/simple-choice-international-plans.html
+[3]: {{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}
+[4]: {{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}
+[5]: {{ "/2014/08/visualizing-summer-travels/" | relative_url }}

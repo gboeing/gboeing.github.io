@@ -6,15 +6,14 @@ permalink: /2019/01/chapter-street-network-morphology/
 ---
 
 My chapter [The Morphology and Circuity of Walkable and Drivable Street
-Networks]({{ "/publications/morphology-circuity-street-networks/" | relative_url }}) is now in-press for
-publication in the forthcoming book _The Mathematics of Urban Morphology_
-([download free PDF]({{ "/publications/morphology-circuity-street-networks/" | relative_url }})). The book integrates
+Networks][2] is now in-press for publication in the forthcoming book _The
+Mathematics of Urban Morphology_ ([download free PDF][2]). The book integrates
 recent theoretical and empirical work from urban planning, geography, sociology,
 architecture, economics, and mathematics around the theme of how we model and
 understand the urban form's physical patterns and shaping processes. Fellow
 authors in this volume include Michael Batty, Diane Davis, Keith Clarke, Bin
 Jiang, Kay Axhausen, Carlo Ratti, and Stephen Marshall. The book itself can be
-[purchased here](https://www.springer.com/us/book/9783030123802).
+[purchased here][1].
 
 From the chapter's abstract:
 
@@ -41,4 +40,7 @@ From the chapter's abstract:
 > although different modes' networks overlap in any given city, their relative
 > structure and performance vary in most cities.
 
-For more, you can read the [chapter here]({{ "/publications/morphology-circuity-street-networks/" | relative_url }}).
+For more, you can read the [chapter here][2].
+
+[1]: https://www.springer.com/us/book/9783030123802
+[2]: {{ "/publications/morphology-circuity-street-networks/" | relative_url }}

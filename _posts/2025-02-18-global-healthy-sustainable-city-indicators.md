@@ -5,14 +5,13 @@ date: 2025-02-18 10:08:53-08:00
 permalink: /2025/02/global-healthy-sustainable-city-indicators/
 ---
 
-I recently co-authored an [article](https://doi.org/10.1177/23998083241292102),
-"Global Healthy and Sustainable City Indicators: Collaborative Development of an
-Open Science Toolkit for Calculating and Reporting on Urban Indicators
-Internationally," now published in _Environment and Planning B: Urban Analytics
-and City Science_. This was a collaboration with my colleagues at the Global
-Observatory of Healthy and Sustainable Cities, in which we discuss our spatial
-software co-development process with collaborators and practitioners around the
-world.
+I recently co-authored an [article][1], "Global Healthy and Sustainable City
+Indicators: Collaborative Development of an Open Science Toolkit for Calculating
+and Reporting on Urban Indicators Internationally," now published in
+_Environment and Planning B: Urban Analytics and City Science_. This was a
+collaboration with my colleagues at the Global Observatory of Healthy and
+Sustainable Cities, in which we discuss our spatial software co-development
+process with collaborators and practitioners around the world.
 
 From the abstract:
 
@@ -37,4 +36,6 @@ From the abstract:
 > planners, policy makers and community advocates in diverse settings for
 > planning, calculating and disseminating policy and spatial urban indicators.
 
-For more, check out the [article](https://doi.org/10.1177/23998083241292102).
+For more, check out the [article][1].
+
+[1]: https://doi.org/10.1177/23998083241292102

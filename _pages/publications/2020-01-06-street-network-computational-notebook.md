@@ -7,8 +7,7 @@ permalink: /publications/street-network-computational-notebook/
 **Cite as:** Boeing, G. 2020. "Urban Street Network Analysis in a Computational
 Notebook." _Region_, 6 (3), 39-51. doi:10.18335/region.v6i3.278
 
-Download PDF from [eScholarship](https://escholarship.org/uc/item/6z9802kf) or
-[Region](https://doi.org/10.18335/region.v6i3.278).
+Download PDF from [eScholarship][2] or [Region][1].
 
 ## Abstract
 
@@ -31,3 +30,6 @@ interested in learning from, adapting, and remixing their work. Due to their
 utility and versatility, the ongoing adoption of computational notebooks in
 urban planning, analytics, and related geocomputation disciplines should
 continue into the future.
+
+[1]: https://doi.org/10.18335/region.v6i3.278
+[2]: https://escholarship.org/uc/item/6z9802kf

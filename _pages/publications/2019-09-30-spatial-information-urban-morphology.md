@@ -8,9 +8,7 @@ permalink: /publications/spatial-information-urban-morphology/
 Form: Big Data in Urban Morphology." _International Journal of Information
 Management_, 56, 102013. doi:10.1016/j.ijinfomgt.2019.09.009
 
-Download PDF from [SocArXiv](https://osf.io/preprints/socarxiv/vhrdc/) or
-[SSRN](https://papers.ssrn.com/abstract=3462078) or
-[IJIM](https://doi.org/10.1016/j.ijinfomgt.2019.09.009).
+Download PDF from [SocArXiv][2] or [SSRN][3] or [IJIM][1].
 
 ## Abstract
 
@@ -34,3 +32,7 @@ around the world, considering what these reveal about the urban fabric. The age
 of ubiquitous urban data and computational toolkits opens up a new era of
 worldwide urban form analysis from integrated quantitative and qualitative
 perspectives.
+
+[1]: https://doi.org/10.1016/j.ijinfomgt.2019.09.009
+[2]: https://osf.io/preprints/socarxiv/vhrdc/
+[3]: https://papers.ssrn.com/abstract=3462078

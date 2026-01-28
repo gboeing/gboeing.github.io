@@ -22,4 +22,6 @@ typewritten statement survives today as a grainy photocopy in the New York City
 Parks Department archive. To better preserve and disseminate it, I extracted and
 transcribed its text using optical character recognition and edited the result
 to correct errors. My transcription of Moses's statement, alongside Caro's
-response to it, is [available here]({{ "/publications/robert-moses-replies-caro/" | relative_url }}).
+response to it, is [available here][1].
+
+[1]: {{ "/publications/robert-moses-replies-caro/" | relative_url }}

@@ -7,8 +7,7 @@ permalink: /publications/robert-moses-replies-caro/
 **Cite as** : Boeing, G. 2021. "We Live in a Motorized Civilization: Robert
 Moses Replies to Robert Caro." doi:10.2139/ssrn.2934079
 
-Download from [SSRN](https://doi.org/10.2139/ssrn.2934079) or
-[SocArXiv](https://osf.io/preprints/socarxiv/cpgrd/).
+Download from [SSRN][1] or [SocArXiv][2].
 
 ## Abstract
 
@@ -27,3 +26,6 @@ grainy photocopy in the New York City Parks Department archive. To better
 preserve and disseminate it, I have extracted and transcribed its text using
 optical character recognition and edited the result to correct errors. Here I
 compile my transcription of Moses's statement, alongside Caro's reply to it.
+
+[1]: https://doi.org/10.2139/ssrn.2934079
+[2]: https://osf.io/preprints/socarxiv/cpgrd/

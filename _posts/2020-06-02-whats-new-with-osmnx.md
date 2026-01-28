@@ -9,32 +9,19 @@ There have been some major changes to OSMnx in the past couple months. I'll
 review them briefly here, demonstrate some usage examples, then reflect on a
 couple upcoming improvements on the horizon. First, what's new:
 
-- new
-  [consolidate_intersections](https://osmnx.readthedocs.io/en/stable/osmnx.html#osmnx.simplification.consolidate_intersections)
-  function with topological option
-- new
-  [speed](https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.speed)
-  module to impute missing street speeds and calculate travel times for all
-  edges
-- generalized
-  [POIs](https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.pois)
-  module to query with a flexible tags dict
+- new [consolidate_intersections][13] function with topological option
+- new [speed][11] module to impute missing street speeds and calculate travel
+  times for all edges
+- generalized [POIs][10] module to query with a flexible tags dict
 - you can now query OSM by date
-- you can now save graph as a
-  [geopackage](https://osmnx.readthedocs.io/en/stable/osmnx.html#osmnx.io.save_graph_geopackage)
-  file
-- clean up and streamline the OSMnx [API](https://osmnx.readthedocs.io/)
+- you can now save graph as a [geopackage][12] file
+- clean up and streamline the OSMnx [API][7]
 
 A few other changes clean up argument usage for consistency (e.g., all saving
-functions now have a consistent
-[filepath](https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.io)
-parameter and all "dist" or "distance" parameters have been replaced with a
-consistent
-[dist](https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.graph)
-parameter). Modules have been [refactored](https://osmnx.readthedocs.io/) as
-well. You can see a list of changes in the
-[change log](https://github.com/gboeing/osmnx/blob/master/CHANGELOG.md) and
-[this issue](https://github.com/gboeing/osmnx/issues/526).
+functions now have a consistent [filepath][9] parameter and all "dist" or
+"distance" parameters have been replaced with a consistent [dist][8] parameter).
+Modules have been [refactored][7] as well. You can see a list of changes in the
+[change log][5] and [this issue][6].
 
 ## Topological Intersection Consolidation
 
@@ -47,10 +34,8 @@ edge intersects a perpendicular edge, but these 4 nodes represent a single
 intersection in the real world. Traffic circles similarly create a cluster of
 nodes where each street's edge intersects the roundabout.
 
-OSMnx can
-[consolidate](https://osmnx.readthedocs.io/en/stable/osmnx.html#osmnx.simplification.consolidate_intersections)
-nearby intersections and now optionally rebuild the graph's topology to
-reconnect edges to the newly consolidated nodes.
+OSMnx can [consolidate][13] nearby intersections and now optionally rebuild the
+graph's topology to reconnect edges to the newly consolidated nodes.
 
 ```python
 import osmnx as ox
@@ -61,7 +46,7 @@ dead_ends=True)
 ```
 
 ![OSMnx intersection consolidation to merge nearby nodes together and rebuild
-graph topology by reconnecting edges to new merged node]({{ "/files/img/osmnx-consolidate_intersections-300x241.png" | relative_url }})
+graph topology by reconnecting edges to new merged node][16]
 
 If we plot a portion of this network (above), notice how the traffic circles'
 many (red) nodes are merged into a new single centroid node (black), with edge
@@ -107,18 +92,15 @@ This allows you to easily calculate shortest-path routes that minimize travel
 time (blue) rather than distance (red):
 
 ![Calculate shortest path routes that minimize distance or travel time by
-imputing missing street speeds with OSMnx]({{ "/files/img/osmnx-route-travel-time.png" | relative_url }})
+imputing missing street speeds with OSMnx][17]
 
-See the
-[documentation](https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.speed)
-for details and this
-[notebook](https://github.com/gboeing/osmnx-examples/blob/v0.13.0/notebooks/02-routing-speed-time.ipynb)
-for a usage example.
+See the [documentation][11] for details and this [notebook][4] for a usage
+example.
 
 ## Generalized POIs Queries
 
 _Update: as of v0.16.0, the pois module and functionality has been incorporated
-into and superseded by the new geometries module:[more info]({{ "/2020/09/osmnx-summer-wrap-up/" | relative_url }})._
+into and superseded by the new geometries module:[more info][15]._
 
 The pois (points of interest) module now takes a flexible `tags` dict in all of
 its OpenStreetMap queries, allowing you to query for any spatial entities. You
@@ -135,11 +117,7 @@ gdf = ox.pois_from_place('Piedmont, CA, USA', tags)
 gdf.shape
 ```
 
-See
-[documentation](https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.pois)
-for details or this
-[notebook](https://github.com/gboeing/osmnx-examples/blob/v0.13.0/notebooks/00-osmnx-features-demo.ipynb)
-for a usage example.
+See [documentation][10] for details or this [notebook][3] for a usage example.
 
 ## Query OSM by Date
 
@@ -158,10 +136,9 @@ This allows you to explore historical snapshots of the data set.
 ## Save graph as GeoPackage
 
 OSMnx can save your graph to disk as an ESRI shapefile, GraphML file, .osm
-formatted XML file, and now
-[GeoPackage](https://osmnx.readthedocs.io/en/stable/osmnx.html#osmnx.io.save_graph_geopackage).
-Shapefiles have a lot of limitations, so GeoPackage saving offers a superior
-modern file format for subsequent GIS work.
+formatted XML file, and now [GeoPackage][12]. Shapefiles have a lot of
+limitations, so GeoPackage saving offers a superior modern file format for
+subsequent GIS work.
 
 ## Streamlined API
 
@@ -177,12 +154,9 @@ its functional organization needed a rethink. The newly redesigned API:
 
 This makes package usage, documentation, code hinting, and code completion more
 simple, streamlined, and straightforward - but note that it is not 100%
-backwards compatible. For details, see the
-[change log](https://github.com/gboeing/osmnx/blob/master/CHANGELOG.md), the
-[documentation](https://osmnx.readthedocs.io/), and the updated usage
-[examples](https://github.com/gboeing/osmnx-examples/). In particular, these
-changes are discussed in
-[this issue](https://github.com/gboeing/osmnx/issues/526).
+backwards compatible. For details, see the [change log][5], the
+[documentation][7], and the updated usage [examples][2]. In particular, these
+changes are discussed in [this issue][6].
 
 ## Looking ahead
 
@@ -199,6 +173,23 @@ and memory efficiency throughout. Looking further ahead, I intend to eventually
 merge the pois and footprints modules, which have become approximately
 redundant.
 
-For more info, check out the [documentation](https://osmnx.readthedocs.io/), the
-usage [examples](https://github.com/gboeing/osmnx-examples), or the OSMnx
-features [round-up]({{ "/2018/03/osmnx-features-roundup/" | relative_url }}).
+For more info, check out the [documentation][7], the usage [examples][1], or the
+OSMnx features [round-up][14].
+
+[1]: https://github.com/gboeing/osmnx-examples
+[2]: https://github.com/gboeing/osmnx-examples/
+[3]: https://github.com/gboeing/osmnx-examples/blob/v0.13.0/notebooks/00-osmnx-features-demo.ipynb
+[4]: https://github.com/gboeing/osmnx-examples/blob/v0.13.0/notebooks/02-routing-speed-time.ipynb
+[5]: https://github.com/gboeing/osmnx/blob/master/CHANGELOG.md
+[6]: https://github.com/gboeing/osmnx/issues/526
+[7]: https://osmnx.readthedocs.io/
+[8]: https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.graph
+[9]: https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.io
+[10]: https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.pois
+[11]: https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.speed
+[12]: https://osmnx.readthedocs.io/en/stable/osmnx.html#osmnx.io.save_graph_geopackage
+[13]: https://osmnx.readthedocs.io/en/stable/osmnx.html#osmnx.simplification.consolidate_intersections
+[14]: {{ "/2018/03/osmnx-features-roundup/" | relative_url }}
+[15]: {{ "/2020/09/osmnx-summer-wrap-up/" | relative_url }}
+[16]: {{ "/files/img/osmnx-consolidate_intersections-300x241.png" | relative_url }}
+[17]: {{ "/files/img/osmnx-route-travel-time.png" | relative_url }}

@@ -5,7 +5,7 @@ date: 2014-11-17 14:27:03-08:00
 permalink: /2014/11/neighborhood-design-food-systems/
 ---
 
-_This post is adapted from [an article I wrote in Progressive Planning]({{ "/publications/how-neighborhoods-lost-food/" | relative_url }})_.
+_This post is adapted from [an article I wrote in Progressive Planning][5]_.
 
 Does _food_ matter in neighborhood design? Should it? The answers to these
 questions are complicated and obscured by decades of perplexing policy and
@@ -43,9 +43,7 @@ coarse-grained zoning and planning eradicated our food's origins from our daily
 lives, we began to value food as a set of abstract commodities that emphasized
 cheapness and distribution over nutrition. These values, however, are fragile
 things and the networks connecting urbanites and suburbanites to their food are
-[tenuous](https://www.bloomberg.com/news/2014-08-11/california-drought-transforms-global-food-market.html)
-and
-[prone to failure](https://www.citylab.com/politics/2013/10/new-yorks-looming-food-disaster/7294/).
+[tenuous][2] and [prone to failure][3].
 
 The loss of crop species diversity for the sake of mass-production renders
 producers susceptible to exotic pests and locked into an arms race of powerful
@@ -78,15 +76,14 @@ have a car to drive several miles to the nearest supermarket. A free market is
 one with diverse choices. What we have here is a market failure.
 
 Fortunately, modern urban planning theory offers some reasonable solutions to
-this problem. One that is gaining traction is the idea of developing
-[complete neighborhoods](https://www.portlandonline.com/portlandplan/index.cfm?a=437441&c=50730)
-with a range of housing options, green spaces, amenities, schedules, and
-services. It means options for a community, rather than a monoculture rooted in
-the bad designs of the day. Completeness at the neighborhood level means that
-schools, restaurants, recreation, and errands are within walking distance of
-everyone in the neighborhood. It means people have a choice to shop for good
-food at a local market, participate in an urban farm, and eat nutritious meals
-regardless of where they live.
+this problem. One that is gaining traction is the idea of developing [complete
+neighborhoods][4] with a range of housing options, green spaces, amenities,
+schedules, and services. It means options for a community, rather than a
+monoculture rooted in the bad designs of the day. Completeness at the
+neighborhood level means that schools, restaurants, recreation, and errands are
+within walking distance of everyone in the neighborhood. It means people have a
+choice to shop for good food at a local market, participate in an urban farm,
+and eat nutritious meals regardless of where they live.
 
 The notion of complete neighborhoods is a useful and flexible framework for good
 urban planning: promoting and providing diverse, holistic, and atomic
@@ -94,8 +91,8 @@ neighborhoods to support the health and diversity of the community's population.
 But reality trumps wishful thinking and farmer's markets, urban agriculture, and
 good food shops will not matter if they are not supported by institutions and
 the community. Cities should coordinate their planning departments with food
-policy councils (like [this one in LA](https://goodfoodla.org/)) and local
-community development corporations to develop holistic programs.
+policy councils (like [this one in LA][1]) and local community development
+corporations to develop holistic programs.
 
 High efficiency food production enabled our species' rapid urbanization, and we
 presently cannot wholly replace industrial agriculture and still feed our
@@ -107,3 +104,9 @@ produced in our underutilized or interstitial spaces, such as yards, medians,
 parks, vacant lots, rooftops, and ornamental landscapes. Good food is a crucial
 component of the complete neighborhoods philosophy and is desperately needed in
 America.
+
+[1]: https://goodfoodla.org/
+[2]: https://www.bloomberg.com/news/2014-08-11/california-drought-transforms-global-food-market.html
+[3]: https://www.citylab.com/politics/2013/10/new-yorks-looming-food-disaster/7294/
+[4]: https://www.portlandonline.com/portlandplan/index.cfm?a=437441&c=50730
+[5]: {{ "/publications/how-neighborhoods-lost-food/" | relative_url }}

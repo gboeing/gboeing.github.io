@@ -6,12 +6,11 @@ permalink: /2025/06/street-network-simplification/
 ---
 
 How many street intersections do you see in this figure? I have a new article
-published this week in _Transactions in GIS_
-([open- access](https://doi.org/10.1111/tgis.70037)) and its first sentence sums
-it up: "Counting is hard." Hear me out... it really is!
+published this week in _Transactions in GIS_ ([open- access][1]) and its first
+sentence sums it up: "Counting is hard." Hear me out... it really is!
 
 ![Street network graph simplification of complex intersections, nonplanarity,
-and curve digitization from OpenStreetMap data]({{ "/files/img/network-simplification-complex-intersections-1024x652.jpeg" | relative_url }})
+and curve digitization from OpenStreetMap data][3]
 
 Most real-world objects belong to fuzzy categories, resulting in subjective
 decisions about what to include or exclude from counts. Yet this complexity is
@@ -41,11 +40,11 @@ would be overestimated by >14%, but very unevenly so in different parts of the
 world. This bias's extreme heterogeneity particularly hinders comparative urban
 analytics.
 
-![Street network topology simplification with OSMnx and OpenStreetMap]({{ "/files/img/osmnx-network-simplification-1024x586.png" | relative_url }})
+![Street network topology simplification with OSMnx and OpenStreetMap][4]
 
 Mitigating these 3 problems is a project I've been iteratively refining for the
 past decade. It was a central focus of my dissertation and a key motivation for
-originally developing [OSMnx]({{ "/2025/05/osmnx-reference-paper/" | relative_url }}). This article presents OSMnx's algorithms to
+originally developing [OSMnx][2]. This article presents OSMnx's algorithms to
 automatically simplify spatial graphs of urban street networks—via edge
 simplification and node consolidation—resulting in faster parsimonious models
 and more accurate network measures like intersection counts and densities,
@@ -54,4 +53,9 @@ compression drastically improves downstream graph analytics' memory and runtime
 efficiency, boosting analytical tractability without loss of model fidelity.
 
 Counting is hard, but we can make it a little easier by using better models. For
-more, check out the [open-access article](https://doi.org/10.1111/tgis.70037).
+more, check out the [open-access article][1].
+
+[1]: https://doi.org/10.1111/tgis.70037
+[2]: {{ "/2025/05/osmnx-reference-paper/" | relative_url }}
+[3]: {{ "/files/img/network-simplification-complex-intersections-1024x652.jpeg" | relative_url }}
+[4]: {{ "/files/img/osmnx-network-simplification-1024x586.png" | relative_url }}

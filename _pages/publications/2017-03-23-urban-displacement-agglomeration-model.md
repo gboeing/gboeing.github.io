@@ -10,11 +10,9 @@ permalink: /publications/urban-displacement-agglomeration-model/
 **Cite as** : Boeing, G. 2018. "The Effects of Inequality, Density, and
 Heterogeneous Residential Preferences on Urban Displacement and Metropolitan
 Structure: An Agent-Based Model." _Urban Science_, 2 (3), 76.
-[doi:10.3390/urbansci2030076](https://doi.org/10.3390/urbansci2030076)
+[doi:10.3390/urbansci2030076][2]
 
-Download PDF from [SSRN](https://ssrn.com/abstract=2939933) or
-[SocArXiv](https://osf.io/preprints/socarxiv/mkq7d/) or
-[arXiv](https://arxiv.org/abs/1703.08539).
+Download PDF from [SSRN][4] or [SocArXiv][3] or [arXiv][1].
 
 ## Abstract
 
@@ -34,3 +32,8 @@ have no direct use or interest. This toy model explores these dynamics,
 demonstrating a simplified mechanism of how urban displacement and
 gentrification can be sensitive to income inequality, density, and varied
 preferences for different types of amenities.
+
+[1]: https://arxiv.org/abs/1703.08539
+[2]: https://doi.org/10.3390/urbansci2030076
+[3]: https://osf.io/preprints/socarxiv/mkq7d/
+[4]: https://ssrn.com/abstract=2939933

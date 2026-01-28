@@ -8,8 +8,8 @@ permalink: /publications/relative-circuity-walkable-drivable-street-networks/
 Urban Street Networks." Transportation Research Board 97th Annual Meeting
 Compendium of Papers. Washington, DC.
 
-Download PDF from [TRB](https://trid.trb.org/View/1495502). Note: an updated
-version of this paper was subsequently published as a [book chapter]({{ "/publications/morphology-circuity-street-networks/" | relative_url }}).
+Download PDF from [TRB][1]. Note: an updated version of this paper was
+subsequently published as a [book chapter][2].
 
 ## Abstract
 
@@ -34,3 +34,6 @@ travel and access. They also suggest the importance of differentiating between
 walkable and drivable circulation networks when modeling and characterizing
 urban street networks: although different modes' networks overlap in any given
 city, their relative structure and performance vary in most cities.
+
+[1]: https://trid.trb.org/View/1495502
+[2]: {{ "/publications/morphology-circuity-street-networks/" | relative_url }}

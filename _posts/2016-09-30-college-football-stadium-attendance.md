@@ -5,45 +5,40 @@ date: 2016-09-30 08:46:11-07:00
 permalink: /2016/09/college-football-stadium-attendance/
 ---
 
-A few months ago, I wrote about the [large investments]({{ "/2016/01/visualizing-college-football-stadiums/" | relative_url }}) that U.S.
+A few months ago, I wrote about the [large investments][4] that U.S.
 universities are making in their football stadiums. This also included a visual
-analysis of [stadium capacity]({{ "/2016/01/visualizing-college-football-stadiums/" | relative_url }}) around the country. Outside
-of North Korea, the 8 largest stadiums in the world are college football
-stadiums, and the 15 largest college football stadiums are larger than any NFL
-stadium.
+analysis of [stadium capacity][4] around the country. Outside of North Korea,
+the 8 largest stadiums in the world are college football stadiums, and the 15
+largest college football stadiums are larger than any NFL stadium.
 
 I received a few comments interested in further analysis of the actual
 attendance of games held in these stadiums. While _capacity_ is interesting
 because it represents an expectation and sustained investment by the school,
 _attendance_ represents the utilization of that investment. My stadium capacity
 data covered every NCAA division I football stadium in the U.S. as of the 2015
-college football season. So, I downloaded the NCAA's 2015 home game
-[attendance data](https://www.ncaa.org/championships/statistics/ncaa-football-attendance)
-to compare. My data, code, and analysis are in this
-[GitHub repo](https://github.com/gboeing/data-visualization/tree/master/ncaa-football-stadiums).
+college football season. So, I downloaded the NCAA's 2015 home game [attendance
+data][3] to compare. My data, code, and analysis are in this [GitHub repo][1].
 First, I visualized the FBS attendance figures themselves:
 
-![NCAA college football teams' stadiums' 2015 average attendance per game]({{ "/files/img/stadiums-fbs-attend-conf-bar-1024x594.png" | relative_url }})
+![NCAA college football teams' stadiums' 2015 average attendance per game][7]
 
 Michigan, Ohio State, and Texas A&M had the highest average attendance per home
 game in 2015. Overall, six teams exceeded an average of 100,000 people in
 attendance per game. The range of values ran from a high of 110,168 (Michigan)
 to a low of 4,897 (Eastern Michigan): the stadiums with the highest and lowest
-attendance are
-[just 6 miles apart](https://www.google.com/maps/dir/Rynearson+Stadium,+799+North+Hewitt+Road,+Ypsilanti,+MI+48197/Michigan+Stadium,+1201+South+Main+Street,+Ann+Arbor,+MI+48104/@42.2244183,-83.7821856,11.75z/).
-I also grouped these stadiums by conference:
+attendance are [just 6 miles apart][2]. I also grouped these stadiums by
+conference:
 
 ![NCAA college football conferences' teams' stadiums' 2015 average attendance
-per game]({{ "/files/img/conferences-fbs-attendance-bar.png" | relative_url }})
+per game][5]
 
 The SEC has the highest average home game attendance (79,000 people/game) and
 the MAC has the lowest (15,000 people/game). Next I looked at how this relates
-to [stadium capacity]({{ "/2016/01/visualizing-college-football-stadiums/" | relative_url }}). The colored bars below
-represent average attendance per home game, with excess stadium capacity in
-gray:
+to [stadium capacity][4]. The colored bars below represent average attendance
+per home game, with excess stadium capacity in gray:
 
 ![NCAA college football teams' stadiums' 2015 seating capacity and average
-attendance per game, per school]({{ "/files/img/stadiums-fbs-attend-capacity-conf-bar-1024x594.png" | relative_url }})
+attendance per game, per school][6]
 
 Teams like Michigan and Ohio State have enormous stadiums that fill up for all
 of their games. Other teams like USC and UCLA have very large stadiums but fill
@@ -53,7 +48,7 @@ capacity? In other words, what percent full does each stadium get, per-game, on
 average?
 
 ![NCAA college football teams' stadiums' 2015 average per-game attendance as a
-percent of seating capacity]({{ "/files/img/stadiums-fbs-fill-conf-bar-1024x594.png" | relative_url }})
+percent of seating capacity][8]
 
 Oregon, Kansas State, and Oklahoma had the highest ratio of average attendance
 to stadium capacity in 2015. Overall, 17 teams averaged a sell-out crowd or
@@ -63,8 +58,16 @@ capacity). The range of values ran from a high of 106.7% of capacity filled
 two-thirds of their stadium's capacity on average, and 13 teams filled less than
 half.
 
-I did this analysis in Python and my code is in this
-[GitHub repo](https://github.com/gboeing/data-visualization/tree/master/ncaa-football-stadiums).
-For more on this, check out the [earlier post]({{ "/2016/01/visualizing-college-football-stadiums/" | relative_url }}) in which I analyze stadium
-capacity and discuss the massive investments universities are now making in
-their athletic facilities.
+I did this analysis in Python and my code is in this [GitHub repo][1]. For more
+on this, check out the [earlier post][4] in which I analyze stadium capacity and
+discuss the massive investments universities are now making in their athletic
+facilities.
+
+[1]: https://github.com/gboeing/data-visualization/tree/master/ncaa-football-stadiums
+[2]: https://www.google.com/maps/dir/Rynearson+Stadium,+799+North+Hewitt+Road,+Ypsilanti,+MI+48197/Michigan+Stadium,+1201+South+Main+Street,+Ann+Arbor,+MI+48104/@42.2244183,-83.7821856,11.75z/
+[3]: https://www.ncaa.org/championships/statistics/ncaa-football-attendance
+[4]: {{ "/2016/01/visualizing-college-football-stadiums/" | relative_url }}
+[5]: {{ "/files/img/conferences-fbs-attendance-bar.png" | relative_url }}
+[6]: {{ "/files/img/stadiums-fbs-attend-capacity-conf-bar-1024x594.png" | relative_url }}
+[7]: {{ "/files/img/stadiums-fbs-attend-conf-bar-1024x594.png" | relative_url }}
+[8]: {{ "/files/img/stadiums-fbs-fill-conf-bar-1024x594.png" | relative_url }}

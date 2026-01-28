@@ -5,13 +5,12 @@ date: 2022-09-29 14:20:22-07:00
 permalink: /2022/09/scaling-urban-indicators/
 ---
 
-I have a new [article](https://doi.org/10.1080/08111146.2022.2076215) out now in
-the journal of _Urban Policy and Research_ coauthored with a team comprising
-many of the folks from our recent [series]({{ "/2022/06/lancet-series-transport-health/" | relative_url }}) in _The Lancet Global Health_. The
-article is titled "Policy-Relevant Spatial Indicators of Urban Liveability and
-Sustainability: Scaling from Local to Global" and discusses measuring urban
-indicators and scaling the software to calculate them from a local case study to
-a worldwide effort.
+I have a new [article][1] out now in the journal of _Urban Policy and Research_
+coauthored with a team comprising many of the folks from our recent [series][2]
+in _The Lancet Global Health_. The article is titled "Policy-Relevant Spatial
+Indicators of Urban Liveability and Sustainability: Scaling from Local to
+Global" and discusses measuring urban indicators and scaling the software to
+calculate them from a local case study to a worldwide effort.
 
 From the abstract:
 
@@ -26,7 +25,9 @@ From the abstract:
 > points across Melbourne, to Australia's 21 largest cities, and further
 > extension to 25 global cities in diverse contexts.
 
-For more, check out the [article](https://doi.org/10.1080/08111146.2022.2076215)
-itself. And you may also be interested in our recent _The Lancet Global Health_
-[series]({{ "/2022/06/lancet-series-transport-health/" | relative_url }}) of articles that developed similar
-themes in great depth.
+For more, check out the [article][1] itself. And you may also be interested in
+our recent _The Lancet Global Health_ [series][2] of articles that developed
+similar themes in great depth.
+
+[1]: https://doi.org/10.1080/08111146.2022.2076215
+[2]: {{ "/2022/06/lancet-series-transport-health/" | relative_url }}

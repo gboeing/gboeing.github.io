@@ -6,9 +6,9 @@ permalink: /2020/03/rental-housing-spot-markets/
 ---
 
 My new article, "[Rental Housing Spot Markets: How Online Information Exchanges
-Can Supplement Transacted-Rents Data]({{ "/publications/rental-housing-spot-markets/" | relative_url }})," with Jake Wegmann and Junfeng
-Jiao is now published in the _Journal of Planning Education and Research_
-(download [free PDF]({{ "/publications/rental-housing-spot-markets/" | relative_url }})).
+Can Supplement Transacted-Rents Data][5]," with Jake Wegmann and Junfeng Jiao
+is now published in the _Journal of Planning Education and Research_ (download
+[free PDF][5]).
 
 How much does it cost to rent a typical apartment in your city? Answering this
 basic housing question can be surprisingly difficult. Consider the case of San
@@ -50,7 +50,7 @@ research and policy development on pressing issues like economic mobility,
 affordability, and displacement.
 
 How well do readily-available rent estimates represent the rental spot market in
-different cities? We [analyzed millions]({{ "/publications/rental-housing-spot-markets/" | relative_url }}) of Craigslist rental listings and
+different cities? We [analyzed millions][5] of Craigslist rental listings and
 found that existing data sources typically understate how expensive it is for
 people to relocate, with particular ramifications for voucher holders and
 intermetropolitan movers.
@@ -60,19 +60,19 @@ housing production—asking rents substantially exceed contemporaneous ACS, FMR,
 and AHS estimates. We might expect Craigslist's asking rents to exceed more-
 representative estimates if it over-represents high-rent neighborhoods and
 units. Yet Craigslist does not exclusively represent the high-end rental market:
-about half of its asking rents [would be affordable]({{ "/publications/online-housing-market-urban-inequality/" | relative_url }}) for
-households just below the US median income and about a quarter would be
-affordable for households just below the corresponding African-American median.
-Craigslist hosts [millions of rental listings]({{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}) each month, many of which are
-within the reach of low- and moderate-income families.
+about half of its asking rents [would be affordable][4] for households just
+below the US median income and about a quarter would be affordable for
+households just below the corresponding African-American median. Craigslist
+hosts [millions of rental listings][1] each month, many of which are within the
+reach of low- and moderate-income families.
 
 Households using vouchers to relocate to higher-opportunity neighborhoods could
 benefit from Craigslist's broadcasting of information if it helps them find
 voucher-eligible units in unfamiliar choice neighborhoods, overcoming their own
 locally-constrained market knowledge. Online information exchanges thus play a
-potentially crucial role in ongoing residential [sorting and segregation]({{ "/publications/housing-search-big-data/" | relative_url }}). Their data
-exhaust could even help policymakers set FMRs to better reflect rapidly-evolving
-market conditions.
+potentially crucial role in ongoing residential [sorting and segregation][3].
+Their data exhaust could even help policymakers set FMRs to better reflect
+rapidly-evolving market conditions.
 
 Further, while people looking to relocate locally may have the option to utilize
 soft ties, tacit regional knowledge, and in-person scouting trips to identify
@@ -93,7 +93,13 @@ Regardless of the exact model, a rich set of spot market data should be made
 widely and publicly available to help planners address pressing rental housing
 questions.
 
-For more, read [the article]({{ "/publications/rental-housing-spot-markets/" | relative_url }}) itself. Or check out my previous
-articles on collecting/analyzing [Craigslist listings]({{ "/publications/craigslist-rental-housing-markets/" | relative_url }}), understanding
-its housing [information landscape]({{ "/publications/online-housing-market-urban-inequality/" | relative_url }}), and what this all
-means for [housing search]({{ "/publications/housing-search-big-data/" | relative_url }}) in the age of big data.
+For more, read [the article][5] itself. Or check out my previous articles on
+collecting/analyzing [Craigslist listings][2], understanding its housing
+[information landscape][4], and what this all means for [housing search][3] in
+the age of big data.
+
+[1]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}
+[2]: {{ "/publications/craigslist-rental-housing-markets/" | relative_url }}
+[3]: {{ "/publications/housing-search-big-data/" | relative_url }}
+[4]: {{ "/publications/online-housing-market-urban-inequality/" | relative_url }}
+[5]: {{ "/publications/rental-housing-spot-markets/" | relative_url }}

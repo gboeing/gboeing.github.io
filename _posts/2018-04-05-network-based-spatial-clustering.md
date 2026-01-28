@@ -12,24 +12,22 @@ be traversed as-the-crow-flies: human mobility is network-constrained. To
 properly model agglomeration along a city's street network, we must use
 network-based spatial clustering.
 
-The code for this example can be found in this
-[GitHub repo](https://github.com/gboeing/network-clustering). We use
-[OSMnx]({{ "/2016/11/osmnx-python-street-networks/" | relative_url }}) to download and assemble the street
-network for a small city. We also have a dataframe of points representing the
-locations of (fake) restaurants in this city. Our restaurants cluster into
-distinct districts, as many establishments and industries tend to do:
+The code for this example can be found in this [GitHub repo][1]. We use
+[OSMnx][6] to download and assemble the street network for a small city. We also
+have a dataframe of points representing the locations of (fake) restaurants in
+this city. Our restaurants cluster into distinct districts, as many
+establishments and industries tend to do:
 
 ![firm locations on the street network to be clustered: python, osmnx,
-matplotlib, scipy, scikit-learn, geopandas]({{ "/files/img/locations-1024x722.png" | relative_url }})
+matplotlib, scipy, scikit-learn, geopandas][7]
 
 If we want to explore how these establishments agglomerate, we can identify
-spatial clusters using an algorithm [like DBSCAN]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}). DBSCAN
-identifies points as members of a cluster if each is within _epsilon_ distance
-of another and if this cluster contains at least _minpts_ number of points. For
-this example we parameterize it with an _epsilon_ = 300 and _minpts_ = 3. That
-is, points must be within 300 meters of each other and a cluster must contain at
-least 3 points. For more on DBSCAN, check out this [blog post]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}) and
-[paper](https://osf.io/preprints/socarxiv/nzhdc/).
+spatial clusters using an algorithm [like DBSCAN][5]. DBSCAN identifies points
+as members of a cluster if each is within _epsilon_ distance of another and if
+this cluster contains at least _minpts_ number of points. For this example we
+parameterize it with an _epsilon_ = 300 and _minpts_ = 3. That is, points must
+be within 300 meters of each other and a cluster must contain at least 3 points.
+For more on DBSCAN, check out this [blog post][5] and [paper][4].
 
 We compute DBSCAN by converting everything to radians, fitting it, then getting
 cluster labels for each establishment:
@@ -44,7 +42,7 @@ df['spatial_cluster'] = db.fit_predict(np.deg2rad(df[['y', 'x']]))
 Now we can visualize our establishments, coloring them by spatial cluster label:
 
 ![business locations on the urban street network spatially clustered with
-DBSCAN: python, osmnx, matplotlib, scipy, scikit-learn, geopandas]({{ "/files/img/spatial-clusters-1024x722.png" | relative_url }})
+DBSCAN: python, osmnx, matplotlib, scipy, scikit-learn, geopandas][9]
 
 Our three clusters of establishments are clearly visible in red, magenta, and
 green, representing three distinct districts in the city. Each cluster contains
@@ -106,7 +104,7 @@ label:
 
 ![network-based spatial clustering: points along the city street network
 spatially clustered with network-constrained DBSCAN: python, osmnx, matplotlib,
-scipy, scikit-learn, geopandas]({{ "/files/img/network-clusters-1024x722.png" | relative_url }})
+scipy, scikit-learn, geopandas][8]
 
 When clustered spatially earlier, we got 3 clusters. Now, when we do network-
 constrained density-based spatial clustering, we get 4 clusters: the formerly
@@ -116,10 +114,17 @@ accurately reflects circulation and agglomeration in real-world urban space,
 which is network-constrained.
 
 All of the code to re-create this network clustering workflow is in this
-[Jupyter notebook](https://github.com/gboeing/network-clustering/blob/master/network-clustering-simple.ipynb)
-in this [GitHub repo](https://github.com/gboeing/network-clustering). For a more
-complicated example clustering millions of points along a network, see
-[this notebook](https://github.com/gboeing/network-clustering/blob/master/network-clustering-node-based.ipynb).
-For more on using DBSCAN for spatial clustering, compression, and dimensionality
-reduction see this [blog post]({{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}) and
-[paper](https://osf.io/preprints/socarxiv/nzhdc/).
+[Jupyter notebook][3] in this [GitHub repo][1]. For a more complicated example
+clustering millions of points along a network, see [this notebook][2]. For more
+on using DBSCAN for spatial clustering, compression, and dimensionality
+reduction see this [blog post][5] and [paper][4].
+
+[1]: https://github.com/gboeing/network-clustering
+[2]: https://github.com/gboeing/network-clustering/blob/master/network-clustering-node-based.ipynb
+[3]: https://github.com/gboeing/network-clustering/blob/master/network-clustering-simple.ipynb
+[4]: https://osf.io/preprints/socarxiv/nzhdc/
+[5]: {{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}
+[6]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
+[7]: {{ "/files/img/locations-1024x722.png" | relative_url }}
+[8]: {{ "/files/img/network-clusters-1024x722.png" | relative_url }}
+[9]: {{ "/files/img/spatial-clusters-1024x722.png" | relative_url }}

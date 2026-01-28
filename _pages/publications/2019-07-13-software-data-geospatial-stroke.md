@@ -11,8 +11,7 @@ and R. Beare. 2019. "An Introduction to Software Tools, Data, and Services for
 Geospatial Analysis of Stroke Services." _Frontiers in Neurology_ , 10, 743.
 doi:10.3389/fneur.2019.00743
 
-Download PDF from
-[_Frontiers in Neurology_](https://doi.org/10.3389/fneur.2019.00743)
+Download PDF from [_Frontiers in Neurology_][1]
 
 ## Abstract
 
@@ -34,3 +33,5 @@ range of components that underpin geospatial analysis. By providing an
 accessible introduction to these areas, clinicians and researchers can write
 code to answer clinically relevant questions on topics such as service delivery
 and service demand.
+
+[1]: https://doi.org/10.3389/fneur.2019.00743

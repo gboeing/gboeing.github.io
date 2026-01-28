@@ -5,16 +5,16 @@ date: 2025-01-30 17:51:19-08:00
 permalink: /2025/01/surfacic-networks/
 ---
 
-I recently coauthored an [article](https://doi.org/10.1093/pnasnexus/pgae585)
-titled "Surfacic Networks" in _PNAS Nexus_ with Marc Barthelemy, Alain
-Chiaradia, and Chris Webster. We propose the concept of surfacic networks to
-describe a class of spatial networks embedded in non-flat two-dimensional
-manifolds (e.g., the Earth's surface), and what this means for distance metrics
-and lazy path solving when accounting for fluctuations in the manifold's
-curvature (e.g., changes in elevation on Earth's surface).
+I recently coauthored an [article][1] titled "Surfacic Networks" in _PNAS Nexus_
+with Marc Barthelemy, Alain Chiaradia, and Chris Webster. We propose the concept
+of surfacic networks to describe a class of spatial networks embedded in
+non-flat two-dimensional manifolds (e.g., the Earth's surface), and what this
+means for distance metrics and lazy path solving when accounting for
+fluctuations in the manifold's curvature (e.g., changes in elevation on Earth's
+surface).
 
 ![Surfacic network: a spatial network embedded in a non-flat two-dimensional
-manifold such as the Earth's surface accounting for elevation changes]({{ "/files/img/surfacic-network.jpeg" | relative_url }})
+manifold such as the Earth's surface accounting for elevation changes][2]
 
 From the abstract:
 
@@ -38,4 +38,7 @@ From the abstract:
 > and modeling complex systems that are situated on or constrained to a surface
 > environment.
 
-For more, check out the [article](https://doi.org/10.1093/pnasnexus/pgae585).
+For more, check out the [article][1].
+
+[1]: https://doi.org/10.1093/pnasnexus/pgae585
+[2]: {{ "/files/img/surfacic-network.jpeg" | relative_url }}

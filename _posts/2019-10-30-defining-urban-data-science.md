@@ -5,13 +5,13 @@ date: 2019-10-30 16:58:55-07:00
 permalink: /2019/10/defining-urban-data-science/
 ---
 
-I'm a co-author on a [new article]({{ "/publications/roundtable-urban-data-science/" | relative_url }}) out in _Environment and Planning
-B: Urban Analytics and City Science_ titled "A Roundtable Discussion: Defining
-Urban Data Science" (download [free PDF]({{ "/publications/roundtable-urban-data-science/" | relative_url }})). It arises from a panel
-discussion I participated in at the 2019 AAG Annual Meeting in DC. Vanessa
-Frias-Martinez, Song Gao, Ate Poorthuis, and Wenfei Xu joined me on the panel,
-which was organized and moderated by Wei Kang, Taylor Oshan, and Levi Wolf. From
-the abstract:
+I'm a co-author on a [new article][2] out in _Environment and Planning B: Urban
+Analytics and City Science_ titled "A Roundtable Discussion: Defining Urban Data
+Science" (download [free PDF][2]). It arises from a panel discussion I
+participated in at the 2019 AAG Annual Meeting in DC. Vanessa Frias-Martinez,
+Song Gao, Ate Poorthuis, and Wenfei Xu joined me on the panel, which was
+organized and moderated by Wei Kang, Taylor Oshan, and Levi Wolf. From the
+abstract:
 
 > The field of urban analytics and city science has seen significant growth and
 > development in the past 20 years. The rise of data science, both in industry
@@ -33,6 +33,9 @@ the abstract:
 > around urban analytics and city science and about the role of data science in
 > this domain.
 
-For more, check out [the article]({{ "/publications/roundtable-urban-data-science/" | relative_url }}) in _Environment and Planning B_
-and also see this [blog post]({{ "/2019/04/aag-transactions-gis-plenary/" | relative_url }}) on my thematically related
-Transactions in GIS plenary address at the same conference.
+For more, check out [the article][2] in _Environment and Planning B_ and also
+see this [blog post][1] on my thematically related Transactions in GIS plenary
+address at the same conference.
+
+[1]: {{ "/2019/04/aag-transactions-gis-plenary/" | relative_url }}
+[2]: {{ "/publications/roundtable-urban-data-science/" | relative_url }}

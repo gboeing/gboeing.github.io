@@ -9,7 +9,7 @@ I am presenting at the 2015 Conference on Complex Systems tomorrow in Tempe,
 Arizona. My paper is on methods for assessing the complexity of urban design. If
 you're attending the conference, come on by!
 
-Here's [the paper]({{ "/publications/measuring-complexity-urban-form/" | relative_url }}).
+Here's [the paper][1].
 
 Here's the abstract:
 
@@ -34,4 +34,6 @@ Here's the abstract:
 > implications for the practice of planning and designing complex urban places.
 
 The paper has been adapted into a journal article manuscript and [posted
-online]({{ "/publications/measuring-complexity-urban-form/" | relative_url }}).
+online][1].
+
+[1]: {{ "/publications/measuring-complexity-urban-form/" | relative_url }}

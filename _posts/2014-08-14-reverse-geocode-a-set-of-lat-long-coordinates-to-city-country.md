@@ -8,35 +8,27 @@ permalink: /2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-countr
 This tutorial demonstrates how to reverse geocode a set of latitude-longitude
 coordinates to city and country using Python and the Google Maps API.
 
-I have [previously written]({{ "/2014/08/visualizing-summer-travels/" | relative_url }}) about my
-GPS location data from this summer's travels. The data set, gathered with the
-OpenPaths app, contains lat- long coordinates and timestamps. Without city or
-country data, any visualizations would be very simplistic because all I have is
-coordinates and timestamps. It would be nice to reverse geocode these
-coordinates to add city and country data to each point. Then, I could create
-richer, more informative marker popups that include this new geographical
-information.
+I have [previously written][10] about my GPS location data from this summer's
+travels. The data set, gathered with the OpenPaths app, contains lat- long
+coordinates and timestamps. Without city or country data, any visualizations
+would be very simplistic because all I have is coordinates and timestamps. It
+would be nice to reverse geocode these coordinates to add city and country data
+to each point. Then, I could create richer, more informative marker popups that
+include this new geographical information.
 
-Texas A&M Geoservices runs a nice
-[web service](https://geoservices.tamu.edu/Services/ReverseGeocoding/) that
-allows you to upload a data set of lat-long values as a batch, and receive
-address data back. However, their database only covers the United States (it
-requires you to have a _state_ field in addition to lat and long) so it won't
-work for this case.
+Texas A&M Geoservices runs a nice [web service][2] that allows you to upload a
+data set of lat-long values as a batch, and receive address data back. However,
+their database only covers the United States (it requires you to have a _state_
+field in addition to lat and long) so it won't work for this case.
 
 ## Reverse Geocode with the Google Maps API
 
-Instead, I will use the Google Maps API. Google provides a
-[JSON API](https://developers.google.com/maps/documentation/geocoding/#ReverseGeocoding)
-that allows you to request address data for a coordinate pair. Using Python, I
-will reverse geocode each of the 1,759 GPS coordinates in my data set to city
+Instead, I will use the Google Maps API. Google provides a [JSON API][1] that
+allows you to request address data for a coordinate pair. Using Python, I will
+reverse geocode each of the 1,759 GPS coordinates in my data set to city
 
-- country. The original data set is
-  [available here](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-no-city-country.csv)
-  and all of this code is available in this
-  [GitHub repo](https://github.com/gboeing/2014-summer-travels), particularly
-  this
-  [IPython notebook](https://github.com/gboeing/2014-summer-travels/blob/master/reverse-geocode-latlong.ipynb).
+- country. The original data set is [available here][5] and all of this code is
+  available in this [GitHub repo][3], particularly this [IPython notebook][6].
   First I import the necessary modules:
 
 ```python
@@ -127,18 +119,25 @@ df.to_csv('geocoded.csv', encoding='utf-8', index=False)
 ## Next steps
 
 That's it. I now have a data set that contains lat-long coordinate pairs, time
-stamps, city name, and country. For reference, once again here is the
-[original data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-no-city-country.csv)
-and here is the new
-[reverse geocoded data set](https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv).
-Interestingly, Google's API returned no results for any of the lat-long
-coordinates in Kosovo, so I had to enter the city and country for these (few)
-rows manually.
+stamps, city name, and country. For reference, once again here is the [original
+data set][5] and here is the new [reverse geocoded data set][4]. Interestingly,
+Google's API returned no results for any of the lat-long coordinates in Kosovo,
+so I had to enter the city and country for these (few) rows manually.
 
 This Python code can be easily changed to use a different geocoding API or
 extract the full address text instead of city and country components. You could
 also easily tweak this geocoder to search for municipality in other types of
 address components, but these four I used covered my entire data set accurately.
 The data can be visualized with nice informational pop-ups now with tools like
-[CartoDB]({{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}), [Leaflet]({{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}), or
-[Mapbox and Tilemill]({{ "/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/" | relative_url }}).
+[CartoDB][9], [Leaflet][7], or [Mapbox and Tilemill][8].
+
+[1]: https://developers.google.com/maps/documentation/geocoding/#ReverseGeocoding
+[2]: https://geoservices.tamu.edu/Services/ReverseGeocoding/
+[3]: https://github.com/gboeing/2014-summer-travels
+[4]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-full.csv
+[5]: https://github.com/gboeing/2014-summer-travels/blob/master/data/summer-travel-gps-no-city-country.csv
+[6]: https://github.com/gboeing/2014-summer-travels/blob/master/reverse-geocode-latlong.ipynb
+[7]: {{ "/2014/08/visualizing-summer-travels-part-3-leaflet/" | relative_url }}
+[8]: {{ "/2014/08/visualizing-summer-travels-part-4-mapbox-tilemill/" | relative_url }}
+[9]: {{ "/2014/08/visualizing-summer-travels-with-cartodb/" | relative_url }}
+[10]: {{ "/2014/08/visualizing-summer-travels/" | relative_url }}

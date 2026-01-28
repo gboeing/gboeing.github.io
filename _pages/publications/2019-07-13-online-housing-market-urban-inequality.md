@@ -10,9 +10,7 @@ permalink: /publications/online-housing-market-urban-inequality/
 the Digital Reproduction of Urban Inequality." _Environment and Planning A:
 Economy and Space_, 52 (2), 449-468. doi:10.1177/0308518X19869678
 
-Download PDF from [EP-A](https://doi.org/10.1177/0308518X19869678),
-[SocArXiv](https://doi.org/10.31235/osf.io/pqgw7), or
-[SSRN](https://ssrn.com/abstract=3419532).
+Download PDF from [EP-A][1], [SocArXiv][2], or [SSRN][3].
 
 ## Abstract
 
@@ -42,3 +40,7 @@ traditional inequalities and reinforcing residential sorting and segregation
 dynamics. Technology platforms like Craigslist construct new institutions with
 the power to shape spatial economies, human interactions, and planners' ability
 to monitor and respond to urban challenges.
+
+[1]: https://doi.org/10.1177/0308518X19869678
+[2]: https://doi.org/10.31235/osf.io/pqgw7
+[3]: https://ssrn.com/abstract=3419532

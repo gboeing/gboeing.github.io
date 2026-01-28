@@ -6,14 +6,13 @@ permalink: /2018/06/estimating-daytime-density-rsrs/
 ---
 
 My short article "[Estimating Local Daytime Population Density from Census and
-Payroll Data]({{ "/publications/estimating-density-census-payroll/" | relative_url }})" is out now in the latest
-issue of _Regional Studies, Regional Science_. I discuss a method for estimating
-local daytime density across a metropolitan area using US Census and LEHD LODES
-data, and dig into some limitations and biases. I look at the San Francisco Bay
-Area as a case study:
+Payroll Data][3]" is out now in the latest issue of _Regional Studies, Regional
+Science_. I discuss a method for estimating local daytime density across a
+metropolitan area using US Census and LEHD LODES data, and dig into some
+limitations and biases. I look at the San Francisco Bay Area as a case study:
 
 ![Map of the estimated daytime population density in the San Francisco Bay
-Area]({{ "/files/img/sf-bay-daytime-population-density-map.jpg" | relative_url }})
+Area][2]
 
 From the abstract:
 
@@ -29,5 +28,9 @@ From the abstract:
 > population densities, reflecting regional land use patterns. We conclude with
 > a discussion of biases, limitations, and implications of this methodology.
 
-You can [download the article]({{ "/publications/estimating-density-census-payroll/" | relative_url }}) open-access from RSRS. Also
-check out the original [blog post]({{ "/2017/12/estimating-daytime-population-density/" | relative_url }}) with an interactive web map.
+You can [download the article][3] open-access from RSRS. Also check out the
+original [blog post][1] with an interactive web map.
+
+[1]: {{ "/2017/12/estimating-daytime-population-density/" | relative_url }}
+[2]: {{ "/files/img/sf-bay-daytime-population-density-map.jpg" | relative_url }}
+[3]: {{ "/publications/estimating-density-census-payroll/" | relative_url }}

@@ -6,13 +6,12 @@ permalink: /2019/08/online-rental-housing-representation/
 ---
 
 My article, [Online Rental Housing Market Representation and the Digital
-Reproduction of Urban Inequality]({{ "/publications/online-housing-market-urban-inequality/" | relative_url }}), has just been
-published in _Environment and Planning A_ (download [free PDF]({{ "/publications/online-housing-market-urban-inequality/" | relative_url }})). It
-explores the representation of different communities in online rental listings
-from two perspectives: 1) how might biases in representativeness impact housing
-planners' knowledge of rental markets, and 2) how might information inequality
-impact residential mobility, community legibility, gentrification, and housing
-voucher utilization?
+Reproduction of Urban Inequality][2], has just been published in _Environment
+and Planning A_ (download [free PDF][2]). It explores the representation of
+different communities in online rental listings from two perspectives: 1) how
+might biases in representativeness impact housing planners' knowledge of rental
+markets, and 2) how might information inequality impact residential mobility,
+community legibility, gentrification, and housing voucher utilization?
 
 According to the most recent American Housing Survey, more renters in urbanized
 areas found their current homes through a site like Craigslist than through any
@@ -75,6 +74,8 @@ Here is the article's abstract:
 > institutions with the power to shape spatial economies, human interactions,
 > and planners' ability to monitor and respond to urban challenges.
 
-For more, check out [the article]({{ "/publications/online-housing-market-urban-inequality/" | relative_url }}). You might also be
-interested in this [previous article]({{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}) about Craigslist housing market
-characteristics.
+For more, check out [the article][2]. You might also be interested in this
+[previous article][1] about Craigslist housing market characteristics.
+
+[1]: {{ "/2016/08/craigslist-rental-housing-insights/" | relative_url }}
+[2]: {{ "/publications/online-housing-market-urban-inequality/" | relative_url }}

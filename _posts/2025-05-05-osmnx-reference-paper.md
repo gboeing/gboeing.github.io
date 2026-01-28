@@ -5,13 +5,13 @@ date: 2025-05-05 16:27:14-07:00
 permalink: /2025/05/osmnx-reference-paper/
 ---
 
-The official OSMnx reference paper, titled
-"[Modeling and Analyzing Urban Networks and Amenities With OSMnx](https://doi.org/10.1111/gean.70009),"
-has just been published open-access by _Geographical Analysis_. Years in the
-making, this article describes what OSMnx does and why it does it that way.
+The official OSMnx reference paper, titled "[Modeling and Analyzing Urban
+Networks and Amenities With OSMnx][1]," has just been published open-access by
+_Geographical Analysis_. Years in the making, this article describes what OSMnx
+does and why it does it that way.
 
 ![OSMnx: Figure-ground diagrams of one square mile of each street network, from
-OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX]({{ "/files/img/square-mile-street-networks-1024x822.jpg" | relative_url }})
+OpenStreetMap, made in Python with matplotlib, geopandas, and NetworkX][3]
 
 But wait, there's more! I also discuss many lessons learned over the past decade
 in geospatial software development, including:
@@ -45,14 +45,17 @@ From the abstract:
 > for urban modeling and analysis.
 
 This year will mark the 10th anniversary of my work on the OSMnx project. It
-recently reached [version 2.0]({{ "/2024/12/osmnx-v2-released/" | relative_url }}) with a slew of new features and enhancements. If
-you haven't used it before, OSMnx is a Python package to easily download, model,
-analyze, and visualize street networks and any other geospatial features from
-OpenStreetMap. You can download and model walking, driving, or biking networks
-with a single line of code then quickly analyze and visualize them. You can just
-as easily work with urban amenities/points of interest, building footprints,
-transit stops, elevation data, street orientations, speed/travel time, and
-routing.
+recently reached [version 2.0][2] with a slew of new features and enhancements.
+If you haven't used it before, OSMnx is a Python package to easily download,
+model, analyze, and visualize street networks and any other geospatial features
+from OpenStreetMap. You can download and model walking, driving, or biking
+networks with a single line of code then quickly analyze and visualize them. You
+can just as easily work with urban amenities/points of interest, building
+footprints, transit stops, elevation data, street orientations, speed/travel
+time, and routing.
 
-For more, check out [the article](https://doi.org/10.1111/gean.70009) at
-_Geographical Analysis_.
+For more, check out [the article][1] at _Geographical Analysis_.
+
+[1]: https://doi.org/10.1111/gean.70009
+[2]: {{ "/2024/12/osmnx-v2-released/" | relative_url }}
+[3]: {{ "/files/img/square-mile-street-networks-1024x822.jpg" | relative_url }}

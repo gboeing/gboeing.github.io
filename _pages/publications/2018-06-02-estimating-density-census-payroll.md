@@ -8,7 +8,7 @@ permalink: /publications/estimating-density-census-payroll/
 Census and Payroll Data." _Regional Studies, Regional Science_, 5 (1), 179-182.
 doi:10.1080/21681376.2018.1455535
 
-Download PDF from [RSRS](https://doi.org/10.1080/21681376.2018.1455535).
+Download PDF from [RSRS][1].
 
 ## Abstract
 
@@ -23,3 +23,5 @@ from US Census and LEHD LODES data. Estimated daytime densities are
 substantially more concentrated than corresponding night-time population
 densities, reflecting regional land use patterns. We conclude with a discussion
 of biases, limitations, and implications of this methodology.
+
+[1]: https://doi.org/10.1080/21681376.2018.1455535

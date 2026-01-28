@@ -5,7 +5,7 @@ date: 2016-08-24 00:01:00-07:00
 permalink: /2016/08/craigslist-rental-housing-insights/
 ---
 
-_This is a summary of our JPER journal article ([available here]({{ "/publications/craigslist-rental-housing-markets/" | relative_url }})) about
+_This is a summary of our JPER journal article ([available here][15]) about
 Craigslist rental listings' insights into U.S. housing markets._
 
 Rentals make up a significant portion of the U.S. housing market, but much of
@@ -44,7 +44,7 @@ is $1.11, and the average number of bedrooms is 2. This map depicts 1.5 million
 geolocated Craigslist rental listings in the contiguous U.S.:
 
 ![Map of 1.5 million Craigslist rental listings in the contiguous U.S., divided
-into quintiles by each listing's rent per square foot]({{ "/files/img/01-craigslist-rental-housing-listings-us-map-1024x677.jpg" | relative_url }})
+into quintiles by each listing's rent per square foot][5]
 
 Craigslist conforms to our geographic expectations of the U.S. housing market:
 large cities on both coasts have high rents, particularly through the Boston-
@@ -54,15 +54,13 @@ Denver, and Seattle.
 
 The interior of the U.S. has a sprinkling of less-expensive listings punctuated
 by mid-priced clusters around major cities and regional centers. Interestingly,
-rental listings in
-[North Dakota](https://www.bloomberg.com/news/articles/2015-09-29/man-camp-exodus-spurs-real-estate-crisis-across-u-s-shale-towns)
-generally have extremely high rents/ft², reflecting unmet demand for housing in
-oil-producing areas. In fact, North Dakota has the 2nd-highest median rent/ft²
-of any Craigslist region:
+rental listings in [North Dakota][2] generally have extremely high rents/ft²,
+reflecting unmet demand for housing in oil-producing areas. In fact, North
+Dakota has the 2nd-highest median rent/ft² of any Craigslist region:
 
 ![The most expensive Craigslist regions by median rent per square foot: New
 York, Boston, Miami, San Francisco Bay Area, Los Angeles, Chicago, Philadelphia,
-Seattle, Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta]({{ "/files/img/02a-craigslist-most-expensive-cities-rent.png" | relative_url }})
+Seattle, Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta][6]
 
 By _region_ I just mean Craigslist subdomain, like "Boston" in
 <https://boston.craigslist.org>. Overall, New York, North Dakota, San Francisco,
@@ -73,15 +71,15 @@ elsewhere in the Sunbelt (plus Detroit) are much cheaper:
 
 ![The most most populous Craigslist cities, by median rent per square foot: New
 York, Boston, Miami, San Francisco Bay Area, Los Angeles, Chicago, Philadelphia,
-Seattle, Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta]({{ "/files/img/02b-craigslist-most-populous-cities-rent.png" | relative_url }})
+Seattle, Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta][7]
 
 New York's median rent/ft² is more than 3.5x higher than Atlanta's, reflecting
 underlying differences in land values which capitalize variation in amenities,
 incomes, supply, and demand. Median rent figures for all cities appear in [the
-article]({{ "/publications/craigslist-rental-housing-markets/" | relative_url }}) so I won't belabor them
-here, but suffice it to say that the median rental unit in metro areas like New
-York, Boston, and the Bay Area costs well over $2,300/mo. That's across the
-whole metro area and its exurbs - not just the typical pricey urban core.
+article][15] so I won't belabor them here, but suffice it to say that the
+median rental unit in metro areas like New York, Boston, and the Bay Area costs
+well over $2,300/mo. That's across the whole metro area and its exurbs - not
+just the typical pricey urban core.
 
 Rents also vary widely _within_ cities. To examine this, we estimated the
 distribution of rents/ft² for each of the 415 Craigslist regions in the U.S.:
@@ -89,7 +87,7 @@ distribution of rents/ft² for each of the 415 Craigslist regions in the U.S.:
 ![Distribution of rents per square foot in each of the 415 Craigslist U.S.
 regions, with the 15 most populous broken out for detail: New York, Boston,
 Miami, San Francisco Bay Area, Los Angeles, Chicago, Philadelphia, Seattle,
-Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta]({{ "/files/img/03-craigslist-distribution-rents-per-metro-1024x365.png" | relative_url }})
+Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta][8]
 
 I know that this rainbow spaghetti is a bit much, but bear with me for a moment.
 The color gradient just shows that metros with lower median rents/ft² tend to
@@ -98,20 +96,18 @@ in soft markets is significant. In Detroit, most of the listed units are
 concentrated within a very narrow band of rent/ft² values, but in San Francisco
 rents are much, much more dispersed.
 
-Metropolitan
-[fair market rent](https://www.housingonline.com/2015/12/16/hud-proposes-fair-market-rents-for-2016/)
-based housing vouchers—designed to unlock neighborhoods of opportunity to the
-poor—may work differently in high-cost versus low-cost areas. Wide variations in
-rents within a city might make it very difficult for voucher holders to "move
-the needle" and upgrade neighborhoods in a statistically dispersed market like
-San Francisco's, especially when considering household size.
+Metropolitan [fair market rent][4] based housing vouchers—designed to unlock
+neighborhoods of opportunity to the poor—may work differently in high-cost
+versus low-cost areas. Wide variations in rents within a city might make it very
+difficult for voucher holders to "move the needle" and upgrade neighborhoods in
+a statistically dispersed market like San Francisco's, especially when
+considering household size.
 
 ## Housing affordability on Craigslist
 
-[The article]({{ "/publications/craigslist-rental-housing-markets/" | relative_url }}) looks at three simple but
-telling indicators of affordability: the proportion of income spent on rent, the
-proportion of listings below fair market rent, and a "rental power" indicator.
-I'll summarize each briefly:
+[The article][15] looks at three simple but telling indicators of affordability:
+the proportion of income spent on rent, the proportion of listings below fair
+market rent, and a "rental power" indicator. I'll summarize each briefly:
 
 ### a.) Rent burden
 
@@ -123,7 +119,7 @@ populous metro areas:
 ![Rent burden: ratio of median Craigslist rent to median monthly household
 income for the 15 most populous metropolitan areas in the U.S. New York, Boston,
 Miami, San Francisco Bay Area, Los Angeles, Chicago, Philadelphia, Seattle,
-Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta.]({{ "/files/img/04-craigslist-rent-burden-by-metro.png" | relative_url }})
+Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta.][9]
 
 At their _median_ rent and income values, New York, Los Angeles, San Francisco,
 Miami, Boston, and San Diego all _exceed_ the rent burden threshold. In other
@@ -143,7 +139,7 @@ percentages_ of listings below this threshold:
 ![Proportion of Craigslist listings at/below HUD FMR, per Craigslist region:
 New York, Boston, Miami, San Francisco Bay Area, Los Angeles, Chicago,
 Philadelphia, Seattle, Washington D.C., Dallas, Houston, Detroit, Phoenix,
-Atlanta]({{ "/files/img/04-craigslist-rental-listings-hud-fair-market-rent.png" | relative_url }})
+Atlanta][10]
 
 This is troubling for housing advocates. As discussed earlier, fair market rents
 might be insufficient for households trying to upgrade neighborhoods in metros
@@ -154,9 +150,9 @@ units.
 Furthermore, the HUD fair market rent for a 2-bedroom unit in Alameda County (in
 the San Francisco Bay Area) _dropped_ from $1,585 in 2015 to $1,580 in 2016
 (despite the region's skyrocketing rents) because HUD extrapolated it from the
-2013 5-year rolling-average [ACS](https://www.census.gov/programs-surveys/acs/)
-estimate. Craigslist data offer a real-time alternative to easily take the pulse
-of local housing rental markets at fine scales to inform current estimates.
+2013 5-year rolling-average [ACS][3] estimate. Craigslist data offer a real-time
+alternative to easily take the pulse of local housing rental markets at fine
+scales to inform current estimates.
 
 ### c.) Rental power
 
@@ -169,11 +165,11 @@ median rent/ft²:
 each of the 15 most populous metropolitan areas for the nationwide median rent
 of $1,145, given each's median rent per square foot: New York, Boston, Miami,
 San Francisco Bay Area, Los Angeles, Chicago, Philadelphia, Seattle, Washington
-D.C., Dallas, Houston, Detroit, Phoenix, Atlanta]({{ "/files/img/05-craigslist-rental-power-by-metro.png" | relative_url }})
+D.C., Dallas, Houston, Detroit, Phoenix, Atlanta][11]
 
 Memphis, TN offers the greatest value among large metros at 1,659 square feet,
 while New York offers the least value at 398 square feet. Details for all the
-other metro areas are in the [journal article]({{ "/publications/craigslist-rental-housing-markets/" | relative_url }}).
+other metro areas are in the [journal article][15].
 
 ## Metropolitan patterns
 
@@ -183,7 +179,7 @@ mapped the results. Such visualizations enable local planners to quickly take
 the pulse of changing neighborhoods:
 
 ![Census tract- level map of median rents per square foot on Craigslist in the
-San Francisco Bay Area]({{ "/files/img/06-craigslist-rental-listings-census-tract-map-san-francisco-bay-area.jpg" | relative_url }})
+San Francisco Bay Area][12]
 
 San Francisco, Berkeley, and Silicon Valley are very expensive, while East
 Oakland and Vallejo are less so. This is a powerful tool for understanding
@@ -197,7 +193,7 @@ rents, others like Victorville are heavily represented by the lowest quintiles:
 
 ![Detail of Craigslist rental listings, divided into nationwide quintiles by
 rent per square foot in the greater Los Angeles area (top) and the Midwest
-between Chicago and Detroit (bottom)]({{ "/files/img/07-craigslist-rental-housing-listings-los-angeles-chicago-detroit-map.jpg" | relative_url }})
+between Chicago and Detroit (bottom)][13]
 
 The Craigslist data reveal different spatial patterns elsewhere in the country.
 In the Midwest, Chicago has a high-priced urban core with mid-priced suburbs,
@@ -218,13 +214,13 @@ cost, and unit characteristics.
 
 ## Methodology and validation
 
-This project was conducted in Paul Waddell's
-[Urban Analytics Lab](https://ual.berkeley.edu/), which collected 11 million
-rental listings from Craigslist across the U.S. between May and July 2014 using
-a web scraper built with Python. For a full discussion of the web scraping
-methodology and copyright law, check out the [journal article]({{ "/publications/craigslist-rental-housing-markets/" | relative_url }}). This
-study cleaned the data, extracted useful elements, organized them, and analyzed
-them, all with Python and its pandas, numpy, and matplotlib libraries.
+This project was conducted in Paul Waddell's [Urban Analytics Lab][1], which
+collected 11 million rental listings from Craigslist across the U.S. between May
+and July 2014 using a web scraper built with Python. For a full discussion of
+the web scraping methodology and copyright law, check out the [journal
+article][15]. This study cleaned the data, extracted useful elements, organized
+them, and analyzed them, all with Python and its pandas, numpy, and matplotlib
+libraries.
 
 The study validated the listings data against HUD's median rents for this time
 period by calculating correlation coefficients to assess co-variation for a
@@ -233,7 +229,7 @@ are positive, strong, and statistically significant:
 
 ![Scatterplot of Craigslist median rents versus HUD median rents, for each
 metropolitan area. The simple regression lines represent the relationship
-between the two datasets disambiguated by number of bedrooms.]({{ "/files/img/09-craigslist-median-rent-vs-hud-median-rent.png" | relative_url }})
+between the two datasets disambiguated by number of bedrooms.][14]
 
 On average, median rents are 7% higher for 1-bedroom, 3% higher for 2-bedroom,
 7% lower for 3 bedroom, and 1% higher for 4-bedroom units than the corresponding
@@ -262,9 +258,25 @@ function of wealth, employment, education, language, and other socio-
 demographic traits. Nevertheless, Craigslist presents an invaluable data source
 for housing research.
 
-[Download the journal article]({{ "/publications/craigslist-rental-housing-markets/" | relative_url }})
+[Download the journal article][15]
 
 **Citation info** : Boeing, G. and P. Waddell. 2016. "New Insights into Rental
 Housing Markets across the United States: Web Scraping and Analyzing Craigslist
 Rental Listings." _Journal of Planning Education and Research_. Online first.
 DOI: 10.1177/0739456X16664789
+
+[1]: https://ual.berkeley.edu/
+[2]: https://www.bloomberg.com/news/articles/2015-09-29/man-camp-exodus-spurs-real-estate-crisis-across-u-s-shale-towns
+[3]: https://www.census.gov/programs-surveys/acs/
+[4]: https://www.housingonline.com/2015/12/16/hud-proposes-fair-market-rents-for-2016/
+[5]: {{ "/files/img/01-craigslist-rental-housing-listings-us-map-1024x677.jpg" | relative_url }}
+[6]: {{ "/files/img/02a-craigslist-most-expensive-cities-rent.png" | relative_url }}
+[7]: {{ "/files/img/02b-craigslist-most-populous-cities-rent.png" | relative_url }}
+[8]: {{ "/files/img/03-craigslist-distribution-rents-per-metro-1024x365.png" | relative_url }}
+[9]: {{ "/files/img/04-craigslist-rent-burden-by-metro.png" | relative_url }}
+[10]: {{ "/files/img/04-craigslist-rental-listings-hud-fair-market-rent.png" | relative_url }}
+[11]: {{ "/files/img/05-craigslist-rental-power-by-metro.png" | relative_url }}
+[12]: {{ "/files/img/06-craigslist-rental-listings-census-tract-map-san-francisco-bay-area.jpg" | relative_url }}
+[13]: {{ "/files/img/07-craigslist-rental-housing-listings-los-angeles-chicago-detroit-map.jpg" | relative_url }}
+[14]: {{ "/files/img/09-craigslist-median-rent-vs-hud-median-rent.png" | relative_url }}
+[15]: {{ "/publications/craigslist-rental-housing-markets/" | relative_url }}

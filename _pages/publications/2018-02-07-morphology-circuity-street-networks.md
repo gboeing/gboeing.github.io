@@ -9,9 +9,7 @@ Drivable Street Networks." In: _The Mathematics of Urban Morphology_ (pp.
 271-287), edited by L. D'Acci. Basel, Switzerland: Birkhäuser.
 doi:10.1007/978-3-030-12381-9_12
 
-Download PDF from [SocArXiv](https://doi.org/10.31235/osf.io/edj2s) or
-[SSRN](https://doi.org/10.2139/ssrn.3119939) or
-[Springer](https://doi.org/10.1007/978-3-030-12381-9_12).
+Download PDF from [SocArXiv][3] or [SSRN][2] or [Springer][1].
 
 ## Abstract
 
@@ -36,3 +34,7 @@ travel and access. They also suggest the importance of differentiating between
 walkable and drivable circulation networks when modeling and characterizing
 urban street networks: although different modes' networks overlap in any given
 city, their relative structure and performance vary in most cities.
+
+[1]: https://doi.org/10.1007/978-3-030-12381-9_12
+[2]: https://doi.org/10.2139/ssrn.3119939
+[3]: https://doi.org/10.31235/osf.io/edj2s
