@@ -36,16 +36,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v6
 
-      - name: Cache pre-commit
-        uses: actions/cache@v5
-        with:
-          path: ~/.cache/prek/
-          key: pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
 
       - name: Run pre-commit checks
-        run: >
-          curl --proto '=https' --tlsv1.2 -LsSf
-          https://github.com/j178/prek/releases/download/v0.3.0/prek-installer.sh
-          | sh && prek run --all-files
+        run: uvx prek run --all-files
         env:
           SKIP: no-commit-to-branch
