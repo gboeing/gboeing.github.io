@@ -40,6 +40,8 @@ minima:
       icon: google-scholar
       url: https://scholar.google.com/citations?user=xaKBPQQAAAAJ
 
+google_analytics: G-5047470VYK
+
 include:
   - _pages
 
