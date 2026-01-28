@@ -10,7 +10,7 @@ equal—residents of Los Angeles census tracts that generate more vehicular trav
 tend to be exposed to less vehicular air pollution, and that tracts with a
 larger non-white population proportion—whether high- or low-income—experience
 more air pollution than do whiter but otherwise similar tracts. There's also a
-free, open access [pre- print][2] available.
+free, open access [pre-print][2] available.
 
 Twentieth century planners designed and constructed an enormous network of
 expressways to open up growing American metropolises to motorists. Vast swaths

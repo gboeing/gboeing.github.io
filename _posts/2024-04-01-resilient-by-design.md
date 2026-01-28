@@ -6,7 +6,7 @@ permalink: /2024/04/resilient-by-design/
 ---
 
 I have a [new article][1] out now in _Transportation Research Part A: Policy and
-Practice_. Here's a free open- access [preprint][2] if you lack institutional
+Practice_. Here's a free open-access [pre-print][2] if you lack institutional
 access.
 
 We simulate over 2.4 billion trips across every urban area in the world to

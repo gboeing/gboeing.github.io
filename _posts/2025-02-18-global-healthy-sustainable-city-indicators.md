@@ -19,7 +19,7 @@ From the abstract:
 > sustainable cities is a priority for planners, policymakers and researchers in
 > diverse contexts globally. Yet data collection, analysis, visualisation and
 > reporting on policy and spatial indicators involve specialised knowledge,
-> skills, and collaboration across disciplines. Integrated open- source tools
+> skills, and collaboration across disciplines. Integrated open-source tools
 > for calculating and communicating urban indicators for diverse urban contexts
 > are needed, which provide the multiple streams of evidence required to
 > influence policy agendas and enable local changes towards healthier and more
