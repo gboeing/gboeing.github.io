@@ -32,7 +32,7 @@ and the interactive Leaflet web map below (code
 First, I loaded the LODES data. LODES is block-level and notoriously noisy (and
 synthetic!) so I aggregated and summed the O-D pairs to the tract-level, at
 which it converges
-[reasonably well](<https://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(98)_FR.pdf>)
+[reasonably well](https://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(98)_FR.pdf)
 to the observed distribution. I then merged these data with tract-level
 geometries and populations within ten Bay Area counties (the standard nine-
 county ABAG/MTC region plus Santa Cruz county).
@@ -56,7 +56,7 @@ intervals, but this still would not take into account the LODES enumeration.
 
 The latter points to another issue that makes any confidence in this analysis –
 and its interpretability—far more fraught. We systematically ignore or
-[undercount](<https://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(98)_FR.pdf>)
+[undercount](https://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(98)_FR.pdf)
 the existence and flow of tourists, shoppers, students, the self-employed,
 various government workers, and populations that are less-legible to these data
 products, such as certain minority groups and the homeless. For instance,

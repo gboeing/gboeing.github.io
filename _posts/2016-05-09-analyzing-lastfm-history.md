@@ -118,7 +118,7 @@ the frequency of artist name lengths:
 ![Last.fm artist name character length]({{ "/files/img/lastfm-artists-name-length.png" | relative_url }})
 
 Not everyone can be a name length outlier like
-[X](<https://en.wikipedia.org/wiki/X_(American_band)>) and
+[X](https://en.wikipedia.org/wiki/X_(American_band)) and
 [Orchestral Manoeuvres in the Dark](https://en.wikipedia.org/wiki/Orchestral_Manoeuvres_in_the_Dark).
 
 ## Top songs and albums on Last.fm

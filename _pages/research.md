@@ -32,7 +32,7 @@ Here are a few representative papers:
   2022\. Using Open Data and Open-Source Software to Develop Spatial Indicators
   of Urban Design and Transport Features for Achieving Healthy and Sustainable
   Cities.
-  [_The Lancet Global Health_](<https://doi.org/10.1016/S2214-109X(22)00072-9>)
+  [_The Lancet Global Health_](https://doi.org/10.1016/S2214-109X(22)00072-9)
   10 (6), 907-918.
 
 - **Boeing G**. 2021. Off the Grid... and Back Again? The Recent Evolution of

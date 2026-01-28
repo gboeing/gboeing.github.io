@@ -5,7 +5,7 @@ date: 2019-02-18 14:33:41-08:00
 permalink: /2019/02/osmnx-docker-container/
 ---
 
-[Containerization](<https://en.wikipedia.org/wiki/Container_(virtualization)>)
+[Containerization](https://en.wikipedia.org/wiki/Container_(virtualization))
 is the way of the ~~future~~ present. I've heard feedback from some folks over
 the past few months who would like to play around with [OSMnx]({{ "/2018/03/osmnx-features-roundup/" | relative_url }}) for street network
 analysis, transport modeling, and urban design—but can't because they can't

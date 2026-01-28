@@ -13,7 +13,7 @@ Health_.
 ![The Lancet Global Health infographic on benchmarking healthy sustainable
 cities]({{ "/files/img/lancet-global-health-infographic-437x1024.jpeg" | relative_url }})
 
-In our [first paper](<https://doi.org/10.1016/S2214-109X(22)00069-9>), we
+In our [first paper](https://doi.org/10.1016/S2214-109X(22)00069-9), we
 analyzed urban policies and calculated built environment indicators for 25
 cities across 6 continents to assess walkability and accessibility. Our policy
 analysis found policies inconsistent with public health evidence, rhetoric
@@ -24,7 +24,7 @@ substantial implementation gaps.
 measurable, evidence-based policies in place to support healthy sustainable
 cities]({{ "/files/img/lancet-urban-policy-analysis-1024x860.jpeg" | relative_url }})
 
-In our [second paper](<https://doi.org/10.1016/S2214-109X(22)00068-7>), our team
+In our [second paper](https://doi.org/10.1016/S2214-109X(22)00068-7), our team
 calculated thresholds of built environment characteristics that support two
 physical activity goals: 1) an 80% probability of walking for transport, and 2)
 a 15% reduction in insufficient physical activity through walking.
@@ -33,7 +33,7 @@ a 15% reduction in insufficient physical activity through walking.
 environment features that support UN SDG and WHO physical activity goals through
 walking for transport]({{ "/files/img/lancet-IPEN-physical-activity-thresholds.jpeg" | relative_url }})
 
-I led our [third paper](<https://doi.org/10.1016/S2214-109X(22)00072-9>), in
+I led our [third paper](https://doi.org/10.1016/S2214-109X(22)00072-9), in
 which our geospatial team developed open-source software to calculate indicators
 of walkability and accessibility around the world, and then linked these back to
 cities' policy contexts and identified populations living above and below the
@@ -43,7 +43,7 @@ maps and visualizations for the 25 cities.
 ![The Lancet Global Healthy spatial analysis of urban walkability and access to
 daily living needs in 25 global cities]({{ "/files/img/lancet-global-urban-walkability.jpeg" | relative_url }})
 
-Our [fourth paper](<https://doi.org/10.1016/S2214-109X(22)00066-3>) sums up our
+Our [fourth paper](https://doi.org/10.1016/S2214-109X(22)00066-3) sums up our
 findings and considers where we go from here. Few cities in our study had
 measurable policy standards and targets to actually build healthier and more
 sustainable cities, and their health-supportive built environment features were
