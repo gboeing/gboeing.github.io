@@ -22,11 +22,11 @@ numpy PIL][8]
 In 1963, Lorenz developed this simple model of the way air moves around in the
 atmosphere:
 
-$$ \frac{dx}{dt} = \sigma (y - x) $$
-
-$$ \frac{dy}{dt} = x (\rho - z) - y $$
-
-$$ \frac{dz}{dt} = x y - \beta z $$
+```latex
+\frac{dx}{dt} = \sigma (y - x)
+\frac{dy}{dt} = x (\rho - z) - y
+\frac{dz}{dt} = x y - \beta z
+```
 
 Now known as the _Lorenz System_, this model demonstrates chaos at certain
 parameter values and its [attractor is fractal][4]. The animation above depicts
