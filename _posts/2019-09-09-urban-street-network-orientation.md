@@ -5,12 +5,17 @@ date: 2019-09-09 17:38:02-07:00
 permalink: /2019/09/urban-street-network-orientation/
 ---
 
-My new article, [Urban Spatial Order: Street Network Orientation,
-Configuration, and Entropy][1], has just been published in one of my favorite
-journals: _Applied Network Science_ (download [free PDF][1]). This study
+My new article, Urban Spatial Order: Street Network Orientation, Configuration,
+and Entropy, has just been published in [_Applied Network Science_][1]
+(download [free PDF][1]).
+
+This work was previously shortlisted by the 2018 [Information Is Beautiful
+Awards][2].
+
+This study
 explores the spatial signatures of urban evolution and central planning. It
 examines street network orientation, connectivity, granularity, and entropy in
-100 cities around the world using OpenStreetMap data and [OSMnx][2] for modeling
+100 cities around the world using OpenStreetMap data and [OSMnx][10] for modeling
 and visualization:
 
 ![City street network grid orientations, order, disorder, entropy, rose plot,
@@ -100,13 +105,13 @@ blue clusters, the other world regions' cities tend to distribute more evenly
 across the green, purple, and light gray clusters.
 
 For more information on my methodology and findings, check out the [open-access
-article][1], or check out [OSMnx][2] for the Python tool used for these
+article][1], or check out [OSMnx][10] for the Python tool used for these
 analyses and visualizations. Some of my preliminary work on this (and links to
 source code) appears in two [blog][4] [posts][3] from last summer.
 
 <!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1007/s41109-019-0189-1
-[2]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
+[2]: https://www.informationisbeautifulawards.com/showcase/3413-city-street-network-orientations-around-the-world
 [3]: {{ "/2018/07/city-street-orientations-world/" | relative_url }}
 [4]: {{ "/2018/07/comparing-city-street-orientations/" | relative_url }}
 [5]: {{ "/files/img/city-street-network-polar-histograms-alpha-933x1024.jpg" | relative_url }}
@@ -114,3 +119,4 @@ source code) appears in two [blog][4] [posts][3] from last summer.
 [7]: {{ "/files/img/cluster-city-street-networks-560x1024.png" | relative_url }}
 [8]: {{ "/files/img/manhattan-boston-street-network-orientation-1024x678.jpg" | relative_url }}
 [9]: {{ "/files/img/tsne-cluster-street-networks-1024x638.png" | relative_url }}
+[10]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}

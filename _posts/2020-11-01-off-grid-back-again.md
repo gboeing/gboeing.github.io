@@ -7,14 +7,15 @@ permalink: /2020/11/off-grid-back-again/
 
 My article "[Off the Grid... and Back Again? The Recent Evolution of American
 Street Network Planning and Design][8]" has been published by the _Journal of
-the American Planning Association_ and won the 2020 Stough-Johansson Springer
-Award for best paper. It identifies recent nationwide trends in American street
-network design, measuring how urban planners abandoned the grid and embraced
-sprawl over the 20th century, but since 2000 these trends have rebounded,
-shifting back toward historical design patterns.
+the American Planning Association_ and won the 2020 [Stough-Johansson
+Springer][0] best paper award.
 
-In this post I discuss these findings and visualizations across the US today as
-well as over time, then discuss my analysis methods.
+It identifies recent nationwide trends in American street network design,
+measuring how urban planners abandoned the grid and embraced sprawl over the
+20th century, but since 2000 these trends have rebounded, shifting back toward
+historical design patterns. In this post I discuss these findings and
+visualizations across the US today as well as over time, then discuss my
+analysis methods.
 
 ![Map of where street grids exist today across the US, made with OSMnx and
 Python][5]
@@ -191,6 +192,7 @@ article][8]. And if you'd like to model and analyze street networks yourself,
 check out [OSMnx][1].
 
 <!-- markdownlint-disable MD013 -->
+[0]: https://web.archive.org/web/20210124071005/https://www.springer.com/journal/168/updates/18168590
 [1]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
 [2]: {{ "/2019/09/urban-street-network-orientation/" | relative_url }}
 [3]: {{ "/files/img/street-network-grid-index-1024x317.png" | relative_url }}
