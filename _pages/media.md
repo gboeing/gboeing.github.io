@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Press
-permalink: /press/
+title: Media
+permalink: /media/
 ---
 
 For media inquiries, please [contact][94] me directly.
@@ -378,4 +378,4 @@ interviewed me:
 [92]: https://www.wcnc.com/article/news/verify/verify-yes-according-to-a-study-charlotte-has-one-of-the-most-disordered-street-layouts/275-7e4cbc6e-c807-44e4-a236-bdcbddf1328d
 [93]: https://www.wcvb.com/article/this-explains-why-newcomers-have-such-a-hard-time-navigating-boston/22116483
 [94]: {{ "/contact/" | relative_url }}
-[95]: {{ "/press/" | relative_url }}
+[95]: {{ "/media/" | relative_url }}

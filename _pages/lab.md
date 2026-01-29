@@ -1,21 +1,23 @@
 ---
 layout: page
-title: Lab
+title: Urban Data Lab
+nav_title: Lab
 permalink: /lab/
 ---
 
-{:style="float:right; padding-right:30px; padding-bottom:30px;"}
-![Manhattan street network grid orientation][8]
-
 I am the Director of USC's Urban Data Lab.
+
+Read more about our [research][7] focus and ongoing projects.
+
+## Prospective students
 
 _Interested in studying or researching with me?_
 I am hiring master's and PhD students to work in the lab. Read more about my
-[background][5] and the Urban Data Lab's [research][7] to gauge the fit.
+[background][5] and the lab's [research][7] to gauge the fit.
 
-I particularly seek students with _strong coding and data science skills_ who
-can hit the ground running in the lab. However these skills are
-not prerequisites. If you attend USC, I will teach you coding and spatial data
+I particularly seek students with strong _coding_ and _data science_ skills who
+can hit the ground running in the lab. However these skills are not
+prerequisites. If you attend USC, I will teach you coding and spatial data
 science with Python from the ground-up primarily across two courses: PPD534
 (Data, Evidence, and Communication for the Public Good) and PPDE642 (Advanced
 Urban Analytics).
@@ -29,10 +31,9 @@ scientist interested in urbanism and planning, we will teach you how to unlock
 your skills for more equitable cities.
 
 I encourage you to apply and join us in USC's [Master of Urban Planning][1] or
-[PhD][2] programs. You can also email me to discuss your fit with the department
-and the Urban Data Lab. Please [contact][6] me with a succinct, specific, and
-personalized summary of why you're a good fit (your research interests,
-background, and relevant skills) and attach your CV.
+[PhD][2] programs. You can also [contact][6] me to discuss your fit with the
+department and lab: send me a succinct, specific, and personalized summary of
+your fit (research interests, background, relevant skills) and attach your CV.
 
 <!-- markdownlint-disable MD013 -->
 [1]: https://priceschool.usc.edu/mup/
@@ -42,4 +43,3 @@ background, and relevant skills) and attach your CV.
 [5]: {{ "/" | relative_url }}
 [6]: {{ "/contact/" | relative_url }}
 [7]: {{ "/research/" | relative_url }}
-[8]: {{ "/files/img/manhattan-nyc-street-network-bearings-osmnx-189x300.png" | relative_url }}

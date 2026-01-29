@@ -6,22 +6,20 @@ permalink: /research/
 
 My research explores the spatial outcomes of urban planning. I am interested in
 how we shape the urban form that shapes our lives—and, in turn, how we can plan
-a better urban future. My work has won several [awards][9].
+a better urban future.
 
-In the [Urban Data Lab][11], my students and I use methods spanning network
+I develop analytics to understand cities using methods spanning network
 analysis, geospatial data science, simulation modeling, machine learning, and
-AI. Ongoing projects include measuring [accessibility][14] to daily living
-needs in cities around the world, exploring how urban planning creates [spatial
-order][13] through [street design][12], and investigating how technology shapes
-the modern [housing search][15] to reproduce traditional inequalities and
-residential segregation.
+AI. Ongoing projects measure [access][14] to daily living needs in cities
+around the world to target interventions, explore how urban planning creates
+[spatial order][13] through [street design][12], and investigate how technology
+shapes the modern [housing search][15] to reproduce traditional inequalities
+and residential segregation.
 
 ## Publications
 
-For an up-to-date and comprehensive publications listing, see my [CV][10] or
-[Google Scholar][8].
-
-Here are a few representative papers:
+Here are a few representative papers. See my [CV][10] or [Google Scholar][8] for a
+complete listing.
 
 - **Boeing G**. 2025. Modeling and Analyzing Urban Networks and Amenities with
   OSMnx. [_Geographical Analysis_][5] 57 (4), 567-577.
@@ -50,7 +48,16 @@ Here are a few representative papers:
 - **Boeing G**. 2019. Urban Spatial Order: Street Network Orientation,
   Configuration, and Entropy. [_Applied Network Science_][1] 4 (1), 67.
 
-For a complete listing, see my [CV][10] or [Google Scholar][8].
+## Awards
+
+My research has won several awards. Here are a few of them. See my [CV][10] for
+a complete listing.
+
+- [Nobel Sustainability Award][14], 2025
+- [Zephyr Foundation Technical Achievement Award][16], 2025
+- [Stough-Johansson Springer Award][17], best paper, 2020
+- [Information Is Beautiful Awards][13] shortlist, 2018
+- [Accenture Inventor Innovation Award][19], 2010
 
 <!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1007/s41109-019-0189-1
@@ -68,3 +75,6 @@ For a complete listing, see my [CV][10] or [Google Scholar][8].
 [13]: {{ "/2019/09/urban-street-network-orientation/" | relative_url }}
 [14]: {{ "/2025/11/nobel-sustainability-award/" | relative_url }}
 [15]: {{ "/2020/02/housing-search-big-data/" | relative_url}}
+[16]: {{ "/2025/03/zephyr-foundation-award/" | relative_url }}
+[17]: {{ "/2020/11/off-grid-back-again/" | relative_url }}
+[19]: {{ "/publications/systems-methods-analyzing-requirements/" | relative_url }}

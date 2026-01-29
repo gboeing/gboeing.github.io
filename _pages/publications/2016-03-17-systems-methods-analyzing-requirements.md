@@ -8,10 +8,12 @@ permalink: /publications/systems-methods-analyzing-requirements/
 for Analyzing Requirements." United States Patent 8,650,186. Washington, DC:
 United States.
 
-[Download PDF][1]
+Also published as European Patent EP2413256, Australian Patent AU20112049,
+Canadian Patent CA2747481, and Chinese Patent CN102346763.
 
-(Also published as European Patent EP2413256, Australian Patent AU20112049,
-Canadian Patent CA2747481, and Chinese Patent CN102346763.)
+We received the 2010 Accenture Inventor Innovation Award for this work.
+
+[Download PDF][1]
 
 ## Abstract
 
