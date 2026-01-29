@@ -4,12 +4,12 @@ title: Lab
 permalink: /lab/
 ---
 
+{:style="float:right; padding-right:30px; padding-bottom:30px;"}
+![Manhattan street network grid orientation][8]
+
 I am the Director of USC's Urban Data Lab.
 
-## Prospective Students
-
 _Interested in studying or researching with me?_
-
 I am hiring master's and PhD students to work in the lab. Read more about my
 [background][5] and the Urban Data Lab's [research][7] to gauge the fit.
 
@@ -39,6 +39,7 @@ background, and relevant skills) and attach your CV.
 [2]: https://priceschool.usc.edu/upd/
 [3]: {{ "/2019/08/online-rental-housing-representation/" | relative_url }}
 [4]: {{ "/2019/09/urban-street-network-orientation/" | relative_url }}
-[5]: {{ "/about/" | relative_url }}
+[5]: {{ "/" | relative_url }}
 [6]: {{ "/contact/" | relative_url }}
 [7]: {{ "/research/" | relative_url }}
+[8]: {{ "/files/img/manhattan-nyc-street-network-bearings-osmnx-189x300.png" | relative_url }}

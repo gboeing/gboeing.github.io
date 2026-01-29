@@ -8,13 +8,13 @@ My research explores the spatial outcomes of urban planning. I am interested in
 how we shape the urban form that shapes our lives—and, in turn, how we can plan
 a better urban future. My work has won several [awards][9].
 
-In the [lab][11], my students and I use methods spanning network analysis,
-geospatial data science, simulation modeling, machine learning, and AI. Ongoing
-projects include measuring [accessibility][14] to daily living needs in cities
-around the world, exploring how urban planning creates [spatial order][13]
-through [street design][12], and investigating how technology shapes the modern
-[housing search][15] to reproduce traditional inequalities and residential
-segregation.
+In the [Urban Data Lab][11], my students and I use methods spanning network
+analysis, geospatial data science, simulation modeling, machine learning, and
+AI. Ongoing projects include measuring [accessibility][14] to daily living
+needs in cities around the world, exploring how urban planning creates [spatial
+order][13] through [street design][12], and investigating how technology shapes
+the modern [housing search][15] to reproduce traditional inequalities and
+residential segregation.
 
 ## Publications
 
@@ -61,7 +61,7 @@ For a complete listing, see my [CV][10] or [Google Scholar][8].
 [6]: https://doi.org/10.1177/00420980221145403
 [7]: https://doi.org/10.1177/0308518X19869678
 [8]: https://scholar.google.com/citations?user=xaKBPQQAAAAJ
-[9]: {{ "/about/" | relative_url }}
+[9]: {{ "/" | relative_url }}
 [10]: {{ "/cv/" | relative_url }}
 [11]: {{ "/lab/" | relative_url }}
 [12]: {{ "/2020/11/off-grid-back-again/" | relative_url }}
