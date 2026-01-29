@@ -6,25 +6,15 @@ permalink: /lab/
 
 I am the Director of USC's Urban Data Lab.
 
-In the lab, my students and I study the spatial outcomes of urban planning and
-their repercussions for urban living. We investigate how technology, data, and
-computing have explosively reshaped city planning in recent years, using methods
-spanning network analysis, geospatial data science, and machine learning.
-
-Ongoing lab projects include measuring accessibility to daily living needs in
-cities around the world, exploring how urban planning creates [spatial
-order][4] through street design, and investigating how technology shapes the
-modern [housing search][3] to reproduce traditional inequalities and residential
-segregation.
-
 ## Prospective Students
 
-_Interested in studying or researching with me?_ I am hiring master's and PhD
-students to work in the lab. Read more about my [background][5] and
-[research][7] to gauge the fit.
+_Interested in studying or researching with me?_
+
+I am hiring master's and PhD students to work in the lab. Read more about my
+[background][5] and the Urban Data Lab's [research][7] to gauge the fit.
 
 I particularly seek students with _strong coding and data science skills_ who
-can hit the ground running in the USC Urban Data Lab. However these skills are
+can hit the ground running in the lab. However these skills are
 not prerequisites. If you attend USC, I will teach you coding and spatial data
 science with Python from the ground-up primarily across two courses: PPD534
 (Data, Evidence, and Communication for the Public Good) and PPDE642 (Advanced
