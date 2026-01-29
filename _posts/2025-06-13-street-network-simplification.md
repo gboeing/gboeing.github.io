@@ -6,7 +6,7 @@ permalink: /2025/06/street-network-simplification/
 ---
 
 How many street intersections do you see in this figure? I have a new article
-published this week in _Transactions in GIS_ ([open- access][1]) and its first
+published this week in _Transactions in GIS_ ([open-access][1]) and its first
 sentence sums it up: "Counting is hard." Hear me out... it really is!
 
 ![Street network graph simplification of complex intersections, nonplanarity,

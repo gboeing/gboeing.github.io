@@ -4,10 +4,19 @@ title: Research
 permalink: /research/
 ---
 
-My research explores the spatial outcomes of urban planning through network
-analysis, geospatial data science, and machine learning. I am interested in how
-planners shape the urban form that shapes our lives—and, in turn, how we can
-plan a better urban future. My research has won several [awards][9].
+My research explores the spatial outcomes of urban planning. I am interested in
+how we shape the urban form that shapes our lives—and, in turn, how we can plan
+a better urban future. My work has won several [awards][9].
+
+In the [Urban Data Lab][11], my students and I use methods spanning network
+analysis, geospatial data science, simulation modeling, machine learning, and
+AI. Ongoing projects include measuring [accessibility][14] to daily living
+needs in cities around the world, exploring how urban planning creates [spatial
+order][13] through [street design][12], and investigating how technology shapes
+the modern [housing search][15] to reproduce traditional inequalities and
+residential segregation.
+
+## Publications
 
 For an up-to-date and comprehensive publications listing, see my [CV][10] or
 [Google Scholar][8].
@@ -41,6 +50,8 @@ Here are a few representative papers:
 - **Boeing G**. 2019. Urban Spatial Order: Street Network Orientation,
   Configuration, and Entropy. [_Applied Network Science_][1] 4 (1), 67.
 
+For a complete listing, see my [CV][10] or [Google Scholar][8].
+
 <!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1007/s41109-019-0189-1
 [2]: https://doi.org/10.1016/S2214-109X(22)00072-9
@@ -50,5 +61,10 @@ Here are a few representative papers:
 [6]: https://doi.org/10.1177/00420980221145403
 [7]: https://doi.org/10.1177/0308518X19869678
 [8]: https://scholar.google.com/citations?user=xaKBPQQAAAAJ
-[9]: {{ "/about/" | relative_url }}
+[9]: {{ "/" | relative_url }}
 [10]: {{ "/cv/" | relative_url }}
+[11]: {{ "/lab/" | relative_url }}
+[12]: {{ "/2020/11/off-grid-back-again/" | relative_url }}
+[13]: {{ "/2019/09/urban-street-network-orientation/" | relative_url }}
+[14]: {{ "/2025/11/nobel-sustainability-award/" | relative_url }}
+[15]: {{ "/2020/02/housing-search-big-data/" | relative_url}}

@@ -18,13 +18,12 @@ street network that started as a backbone road, then grew and filled in as the
 area around it urbanized.
 
 Building on this idea, we propose a generative model of urban street networks
-
-- that is, a model that generates street networks that reproduce this
-  distinguishing feature. It turns out that most models don't! Our proposed
-  model starts with a minimum spanning tree (the initial backbone) then adds
-  edges iteratively (the subsequent urbanization) to match empirical degree
-  distributions. Our model, implemented in Python, reproduces key empirical
-  characteristics well.
+\- that is, a model that generates street networks that reproduce this
+distinguishing feature. It turns out that most models don't! Our proposed
+model starts with a minimum spanning tree (the initial backbone) then adds
+edges iteratively (the subsequent urbanization) to match empirical degree
+distributions. Our model, implemented in Python, reproduces key empirical
+characteristics well.
 
 ![Two different networks with both having an equivalent density p=0.5 (N=4000).
 On the left, we show a random Eden-like model, and below, the corresponding

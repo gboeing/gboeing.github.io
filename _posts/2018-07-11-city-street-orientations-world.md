@@ -5,8 +5,8 @@ date: 2018-07-11 11:13:15-07:00
 permalink: /2018/07/city-street-orientations-world/
 ---
 
-This post is adapted from this [research paper][4] that you can read/cite for
-more info. It analyzes and visualizes [100 cities][1] around the world.\_
+_This post is adapted from this [research paper][4] that you can read/cite for
+more info. It analyzes and visualizes [100 cities][1] around the world._
 
 By popular request, this is a quick follow-up to [this post][3] comparing the
 orientation of streets in 25 US cities using Python and [OSMnx][2]. Here are 25

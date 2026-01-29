@@ -5,8 +5,8 @@ date: 2018-07-10 09:38:44-07:00
 permalink: /2018/07/comparing-city-street-orientations/
 ---
 
-This post is adapted from this [research paper][5] that you can read/cite for
-more info. It analyzes and visualizes [100 cities][1] around the world.\_
+_This post is adapted from this [research paper][5] that you can read/cite for
+more info. It analyzes and visualizes [100 cities][1] around the world._
 
 "We say the cows laid out Boston. Well, there are worse surveyors." –Ralph Waldo
 Emerson. In 1960, one hundred years after Emerson's quote, Kevin Lynch published

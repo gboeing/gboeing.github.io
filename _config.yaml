@@ -12,17 +12,20 @@ description: >
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 minima:
   skin: classic
   date_format: '%-d %b %Y'
   nav_pages:
-    - _pages/about.md
+    - index.md
     - _pages/cv.md
     - _pages/research.md
     - _pages/lab.md
     - _pages/press.md
     - _pages/contact.md
+  show_excerpts: true
   social_links:
     - title: GitHub
       icon: github

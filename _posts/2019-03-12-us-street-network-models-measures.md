@@ -17,7 +17,7 @@ characteristics.
 The resulting public [data repository][1] contains over 110,000 processed,
 cleaned street network graphs (which in turn comprise over 55 million nodes and
 over 137 million edges) at various scales—comprehensively covering the entire
-U.S.—archived as reusable open- source GraphML files, node/edge lists, and ESRI
+U.S.—archived as reusable open-source GraphML files, node/edge lists, and ESRI
 shapefiles that can be immediately loaded and analyzed in standard tools such as
 ArcGIS, QGIS, NetworkX, graph-tool, igraph, or Gephi.
 

@@ -5,13 +5,15 @@ date: 2014-08-30 18:29:17-07:00
 permalink: /2014/08/visualizing-summer-travels/
 ---
 
-![projected-shapefile-gps-coordinates][12]
+_This post part of a [series][10] on visualizing data from my summer travels._
 
 - [Part 2: interactive web maps with CartoDB][8]
 - [Part 3: interactive javascript web maps with Leaflet][5]
 - [Part 4: interactive tiled web maps with Mapbox and Tilemill][6]
 - [Part 5: visualizing data with Python and matplotlib][7]
 - [Part 6: projecting spatial data and making beautiful maps with Python][9]
+
+![projected-shapefile-gps-coordinates][12]
 
 My Python code is available in [this GitHub repo][1]. I also did some more
 involved work under the hood to prep the data and support these visualizations.
