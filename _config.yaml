@@ -23,7 +23,7 @@ minima:
     - _pages/cv.md
     - _pages/research.md
     - _pages/lab.md
-    - _pages/press.md
+    - _pages/media.md
     - _pages/contact.md
   show_excerpts: true
   social_links:
