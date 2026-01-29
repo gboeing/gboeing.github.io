@@ -103,7 +103,7 @@ geometries differ (which is important in modeling a street network).
 
 ## Conclusion
 
-For more information, check out the [two][12] [previous][13] mid- summer updates
+For more information, check out the [two][12] [previous][13] mid-summer updates
 on this project's progress and changes. Also see the current OSMnx
 [documentation][2] and [usage examples][1].
 

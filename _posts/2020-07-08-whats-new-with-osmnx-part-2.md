@@ -118,7 +118,7 @@ info on the many OSMnx improvements and changes this summer, check out the
 [documentation][7], the usage [examples][1], or the OSMnx features
 [round-up][19]. In particular, API changes are discussed in [this issue][5].
 
-_Update: this summer project has now concluded and been released.[More
+_Update: this summer project has now concluded and been released. [More
 info][21]._
 
 <!-- markdownlint-disable MD013 -->

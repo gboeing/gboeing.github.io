@@ -70,8 +70,7 @@ map.setView(centerCoordinates, initialZoom);
 
 //add a basemap tile layer to the map and set maxZoom to how far you can zoom
 this tileset in
-var basemapURL = 'https://a.tiles.mapbox.com/v3/mapbox.world-
-bright/{z}/{x}/{y}.png'
+var basemapURL = 'https://a.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png'
 map.addLayer(new L.TileLayer(basemapURL, {maxZoom: 11, attribution: ''}));
 ```
 
@@ -87,10 +86,8 @@ the popup will open, relative to the icon anchor):
 var customIcon = L.icon({
 iconUrl: 'circle-18.png',
 iconSize: [18, 18], //size of the icon in pixels
-iconAnchor: [9, 9], //point of the icon which will correspond to marker's
-location (the center)
-popupAnchor: [0, 0] //point from which the popup should open relative to the
-iconAnchor
+iconAnchor: [9, 9], //point of the icon which will correspond to marker's location (the center)
+popupAnchor: [0, 0] //point from which the popup should open relative to the iconAnchor
 });
 ```
 
@@ -114,8 +111,7 @@ marker.setIcon(customIcon);
 point
 var popupText =
 marker.toGeoJSON().properties.date +
-'
-I was in ' +
+'I was in ' +
 marker.toGeoJSON().properties.city + ', ' +
 marker.toGeoJSON().properties.country;
 

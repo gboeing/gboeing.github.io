@@ -25,11 +25,11 @@ field in addition to lat and long) so it won't work for this case.
 
 Instead, I will use the Google Maps API. Google provides a [JSON API][1] that
 allows you to request address data for a coordinate pair. Using Python, I will
-reverse geocode each of the 1,759 GPS coordinates in my data set to city
+reverse geocode each of the 1,759 GPS coordinates in my data set to
+city-country. The original data set is [available here][5] and all of this code
+is available in this [GitHub repo][3], particularly this [IPython notebook][6].
 
-- country. The original data set is [available here][5] and all of this code is
-  available in this [GitHub repo][3], particularly this [IPython notebook][6].
-  First I import the necessary modules:
+First I import the necessary modules:
 
 ```python
 import pandas as pd, requests
@@ -53,13 +53,13 @@ returns it, otherwise it returns None.
 
 ```python
 def reverse_geocode(latlng):
-result = {}
-url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng={}'
-request = url.format(latlng)
-data = requests.get(request).json()
-if len(data['results']) > 0:
-result = data['results'][0]
-return result
+    result = {}
+    url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng={}'
+    request = url.format(latlng)
+    data = requests.get(request).json()
+    if len(data['results']) > 0:
+        result = data['results'][0]
+    return result
 ```
 
 Then I map my reverse_geocode function to each latitude-longitude value in the
@@ -87,24 +87,24 @@ is found, I return it.
 
 ```python
 def parse_country(geocode_data):
-if (not geocode_data is None) and ('address_components' in geocode_data):
-for component in geocode_data['address_components']:
-if 'country' in component['types']:
-return component['long_name']
-return None
+    if (not geocode_data is None) and ('address_components' in geocode_data):
+        for component in geocode_data['address_components']:
+            if 'country' in component['types']:
+                return component['long_name']
+    return None
 
 def parse_city(geocode_data):
-if (not geocode_data is None) and ('address_components' in geocode_data):
-for component in geocode_data['address_components']:
-if 'locality' in component['types']:
-return component['long_name']
-elif 'postal_town' in component['types']:
-return component['long_name']
-elif 'administrative_area_level_2' in component['types']:
-return component['long_name']
-elif 'administrative_area_level_1' in component['types']:
-return component['long_name']
-return None
+    if (not geocode_data is None) and ('address_components' in geocode_data):
+        for component in geocode_data['address_components']:
+            if 'locality' in component['types']:
+                return component['long_name']
+            elif 'postal_town' in component['types']:
+                return component['long_name']
+            elif 'administrative_area_level_2' in component['types']:
+                return component['long_name']
+            elif 'administrative_area_level_1' in component['types']:
+                return component['long_name']
+    return None
 ```
 
 Finally, I map my parse_city and parse_country functions one at a time to the

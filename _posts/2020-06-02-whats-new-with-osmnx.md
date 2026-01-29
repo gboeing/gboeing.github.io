@@ -39,10 +39,8 @@ graph's topology to reconnect edges to the newly consolidated nodes.
 
 ```python
 import osmnx as ox
-G = ox.project_graph(ox.graph_from_place('San Francisco, California, USA',
-network_type='drive'))
-G2 = ox.consolidate_intersections(G, tolerance=10, rebuild_graph=True,
-dead_ends=True)
+G = ox.project_graph(ox.graph_from_place('San Francisco, California, USA', network_type='drive'))
+G2 = ox.consolidate_intersections(G, tolerance=10, rebuild_graph=True, dead_ends=True)
 ```
 
 ![OSMnx intersection consolidation to merge nearby nodes together and rebuild
@@ -111,8 +109,8 @@ are no longer limited to just amenities only. For example:
 # and everything with landuse = retail or commercial,
 # and everything with highway = bus_stop
 tags = {'amenity' : True,
-'landuse' : ['retail', 'commercial'],
-'highway' : 'bus_stop'}
+    'landuse' : ['retail', 'commercial'],
+    'highway' : 'bus_stop'}
 gdf = ox.pois_from_place('Piedmont, CA, USA', tags)
 gdf.shape
 ```
@@ -127,8 +125,7 @@ You can now query OpenStreetMap data as of a certain date, using the
 
 ```python
 cs = '[out:json][timeout:180][date:"2019-10-28T19:20:00Z"]'
-gdf = ox.pois_from_address(some_address, tags={"amenity": "school"},
-custom_settings=cs)
+gdf = ox.pois_from_address(some_address, tags={"amenity": "school"}, custom_settings=cs)
 ```
 
 This allows you to explore historical snapshots of the data set.

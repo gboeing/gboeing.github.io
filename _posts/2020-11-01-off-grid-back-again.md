@@ -11,9 +11,10 @@ the American Planning Association_ and won the 2020 Stough-Johansson Springer
 Award for best paper. It identifies recent nationwide trends in American street
 network design, measuring how urban planners abandoned the grid and embraced
 sprawl over the 20th century, but since 2000 these trends have rebounded,
-shifting back toward historical design patterns. In this post I discuss these
-findings and visualizations across the US today as well as over time, then
-discuss my analysis methods.
+shifting back toward historical design patterns.
+
+In this post I discuss these findings and visualizations across the US today as
+well as over time, then discuss my analysis methods.
 
 ![Map of where street grids exist today across the US, made with OSMnx and
 Python][5]
@@ -168,10 +169,12 @@ straightness or 4-way junctions is pretty straightforward. I've previously
 written about [orientation order][2] around the world, but the gist of it is: to
 what extent do a place's streets all point in the same directions as each other?
 
-[![US urban street network grid orientations, rose plot, polar histogram made
+![US urban street network grid orientations, rose plot, polar histogram made
 with Python, OSMnx, OpenStreetMap, matplotlib. Cities include Boston, Charlotte,
 Chicago, Detroit, Manhattan, Miami, New Orleans, Philadelphia, San Francisco, St
-Louis. ][7]][7] Above, the polar histogram bars' directions represent compass
+Louis.][7]
+
+Above, the polar histogram bars' directions represent compass
 bearings and bars' lengths represent the proportion of city street segments with
 those bearings. For example, Chicago and Manhattan illustrate high orientation
 order: they have internally-consistent orientations as nearly all their streets

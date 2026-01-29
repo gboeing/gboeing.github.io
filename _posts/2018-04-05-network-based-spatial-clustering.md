@@ -34,8 +34,7 @@ cluster labels for each establishment:
 
 ```python
 eps_rad = 300 / 3671000. #meters to radians
-db = DBSCAN(eps=eps_rad, min_samples=3, metric='haversine',
-algorithm='ball_tree')
+db = DBSCAN(eps=eps_rad, min_samples=3, metric='haversine', algorithm='ball_tree')
 df['spatial_cluster'] = db.fit_predict(np.deg2rad(df[['y', 'x']]))
 ```
 
@@ -72,8 +71,7 @@ Then we create a function to calculate a node-based network distance matrix:
 
 ```python
 def network_distance_matrix(u, G, vs=nodes_unique):
-dists = [nx.dijkstra_path_length(G, source=u, target=v, weight='length') for v
-in vs]
+dists = [nx.dijkstra_path_length(G, source=u, target=v, weight='length') for v in vs]
 return pd.Series(dists, index=vs)
 ```
 

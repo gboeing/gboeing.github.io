@@ -12,8 +12,6 @@ of its criteria, particularly site location and neighborhood pattern,
 accordingly reflect New Urbanist and Smart Growth principles and are inspired by
 traditional neighborhood design.
 
-![LEED-ND][5]
-
 The prominent New Urbanist practitioners who authored [The Smart Growth
 Manual][1] write (p. 6.8) that LEED-ND allows us to "objectively determine the
 degree to which proposed projects embody smart growth

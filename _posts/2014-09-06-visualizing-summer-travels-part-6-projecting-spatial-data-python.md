@@ -62,8 +62,7 @@ and country data. Finally I load a shapefile of world country borders as a
 geopandas GeoDataFrame.
 
 ```python
-import pandas as pd, numpy as np, matplotlib.pyplot as plt,
-matplotlib.font_manager as fm
+import pandas as pd, numpy as np, matplotlib.pyplot as plt, matplotlib.font_manager as fm
 from shapely.geometry import Polygon, Point
 from geopy.distance import great_circle
 from geopandas import GeoDataFrame
@@ -71,18 +70,15 @@ from descartes import PolygonPatch
 
 df = pd.read_csv('data/summer-travel-gps-full.csv', encoding='utf-8')
 rs = pd.read_csv('data/summer-travel-gps-dbscan.csv', encoding='utf-8')
-all_countries =
-GeoDataFrame.from_file('shapefiles/world_borders/TM_WORLD_BORDERS-0.3.shp')
+all_countries = GeoDataFrame.from_file('shapefiles/world_borders/TM_WORLD_BORDERS-0.3.shp')
 ```
 
 Next I define fonts to use for my plot titles and annotation labels, and a pale
 blue background color (like, um, water) for my plots:
 
 ```python
-title_font = fm.FontProperties(family='Bitstream Vera Sans', style='normal',
-size=15, weight='normal', stretch='normal')
-annotation_font = fm.FontProperties(family='Bitstream Vera Sans',
-style='normal', size=10, weight='normal', stretch='normal')
+title_font = fm.FontProperties(family='Bitstream Vera Sans', style='normal', size=15, weight='normal', stretch='normal')
+annotation_font = fm.FontProperties(family='Bitstream Vera Sans', style='normal', size=10, weight='normal', stretch='normal')
 backgroundcolor = '#e4f4ff'
 ```
 
@@ -107,8 +103,7 @@ projected area.
 
 ```python
 original_crs = all_countries.crs
-target_crs = {'datum':'WGS84', 'no_defs':True, 'proj':'aea', 'lat_1':35,
-'lat_2':55, 'lat_0':45, 'lon_0':10}
+target_crs = {'datum':'WGS84', 'no_defs':True, 'proj':'aea', 'lat_1':35, 'lat_2':55, 'lat_0':45, 'lon_0':10}
 all_countries.to_crs(crs=target_crs, inplace=True)
 ```
 
@@ -146,15 +141,11 @@ those margin widths. Lastly, I'll use these values to set the size of the
 plotting figure.
 
 ```python
-x_margin_width = (points.bounds['maxx'].max() - points.bounds['minx'].min()) /
-10
-y_margin_width = (points.bounds['maxy'].max() - points.bounds['miny'].min()) /
-3
+x_margin_width = (points.bounds['maxx'].max() - points.bounds['minx'].min()) / 10
+y_margin_width = (points.bounds['maxy'].max() - points.bounds['miny'].min()) / 3
 
-xlim = (points.bounds['minx'].min() - x_margin_width,
-points.bounds['maxx'].max() + x_margin_width)
-ylim = (points.bounds['miny'].min() - y_margin_width,
-points.bounds['maxy'].max() + y_margin_width)
+xlim = (points.bounds['minx'].min() - x_margin_width, points.bounds['maxx'].max() + x_margin_width)
+ylim = (points.bounds['miny'].min() - y_margin_width, points.bounds['maxy'].max() + y_margin_width)
 
 xdim = (xlim[1] - xlim[0]) / 400000
 ydim = (ylim[1] - ylim[0]) / 400000
@@ -166,12 +157,8 @@ with this rectangle. Doing so drastically cuts down the size of my country
 borders data set - making it much faster to work with later.
 
 ```python
-spatial_extent = Polygon([(xlim[0], ylim[0]),
-(xlim[0], ylim[1]),
-(xlim[1], ylim[1]),
-(xlim[1], ylim[0])])
-countries =
-all_countries[all_countries['geometry'].intersects(spatial_extent)]
+spatial_extent = Polygon([(xlim[0], ylim[0]), (xlim[0], ylim[1]), (xlim[1], ylim[1]), (xlim[1], ylim[0])])
+countries = all_countries[all_countries['geometry'].intersects(spatial_extent)]
 ```
 
 I need to write a short function to convert each of the shapely Polygon objects
@@ -189,23 +176,22 @@ island geometries.
 
 ```python
 def get_patches(countries, visited_countries):
+    facecolor = '#f7f7f7'
+    visited_facecolor = '#eeeeee'
+    edgecolor = '#cccccc'
+    patches = []
 
-facecolor = '#f7f7f7'
-visited_facecolor = '#eeeeee'
-edgecolor = '#cccccc'
-patches = []
-
-for i, row in countries.iterrows():
-if type(row['geometry']) == Polygon:
-fc = visited_facecolor if row['NAME'] in visited_countries else facecolor
-patch = PolygonPatch(row['geometry'], fc=fc, ec=edgecolor, zorder=0)
-patches.append(patch)
-else:
-for polygon in row['geometry']:
-fc = visited_facecolor if row['NAME'] in visited_countries else facecolor
-patch = PolygonPatch(polygon, fc=fc, ec=edgecolor, zorder=0)
-patches.append(patch)
-return patches
+    for i, row in countries.iterrows():
+        if type(row['geometry']) == Polygon:
+            fc = visited_facecolor if row['NAME'] in visited_countries else facecolor
+            patch = PolygonPatch(row['geometry'], fc=fc, ec=edgecolor, zorder=0)
+            patches.append(patch)
+        else:
+            for polygon in row['geometry']:
+                fc = visited_facecolor if row['NAME'] in visited_countries else facecolor
+                patch = PolygonPatch(polygon, fc=fc, ec=edgecolor, zorder=0)
+                patches.append(patch)
+    return patches
 ```
 
 Next I'll get a representative point in my data set for each of the six most
@@ -223,8 +209,7 @@ data set so it matches what I have in my point data set.
 
 ```python
 visited_countries = rs['country'].unique()
-countries = countries.replace('The former Yugoslav Republic of Macedonia',
-'Macedonia (FYROM)')
+countries = countries.replace('The former Yugoslav Republic of Macedonia', 'Macedonia (FYROM)')
 ```
 
 Now I'm ready to plot a map of my GPS point data, the projected shapefile of
@@ -247,23 +232,17 @@ ax = fig.add_subplot(111)
 ax.set_axis_bgcolor(backgroundcolor)
 
 for patch in get_patches(countries, visited_countries):
-ax.add_patch(patch)
-points_scatter = ax.scatter(x=points['x'], y=points['y'], c='m', alpha=0.4,
-s=100)
+    ax.add_patch(patch)
+points_scatter = ax.scatter(x=points['x'], y=points['y'], c='m', alpha=0.4, s=100)
 
-ax.set_title('Projected shapefile and GPS coordinates',
-fontproperties=title_font)
+ax.set_title('Projected shapefile and GPS coordinates', fontproperties=title_font)
 ax.set_xlim(xlim)
 ax.set_ylim(ylim)
 ax.set_xticks([])
 ax.set_yticks([])
 
 for i, row in most.iterrows():
-plt.annotate(row['city'],
-xy=(row['x'], row['y']),
-xytext=(row['x'] + 35000, row['y'] - 100000),
-bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.8),
-xycoords='data')
+    plt.annotate(row['city'], xy=(row['x'], row['y']), xytext=(row['x'] + 35000, row['y'] - 100000), bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.8), xycoords='data')
 plt.show()
 ```
 
@@ -300,8 +279,7 @@ for i, row in rs.iterrows():
         if(i != i2):
             point2 = (row2['lat'], row2['lon'])
             dist = great_circle(point1, point2).miles
-            if pd.isnull(points.loc[i, 'nearest_dist']) | \
-                ((dist > threshold) & (dist < points.loc[i, 'nearest_dist'])):
+            if pd.isnull(points.loc[i, 'nearest_dist']) | ((dist > threshold) & (dist < points.loc[i, 'nearest_dist'])):
                 points.loc[i, 'nearest_dist'] = dist
                 points.loc[i, 'nearest_point'] = i2
 ```
@@ -311,8 +289,7 @@ distance, then drop duplicates and take the top five rows. These are
 representative points of the five most isolated clusters in my data set:
 
 ```python
-most_isolated = points.sort('nearest_dist',
-ascending=False).drop_duplicates(subset='nearest_point', take_last=False)
+most_isolated = points.sort('nearest_dist', ascending=False).drop_duplicates(subset='nearest_point', take_last=False)
 most_isolated = most_isolated.head(5)
 ```
 
@@ -328,28 +305,19 @@ ax = fig.add_subplot(111)
 ax.set_axis_bgcolor(backgroundcolor)
 
 for patch in get_patches(countries, visited_countries):
-ax.add_patch(patch)
+    ax.add_patch(patch)
 points_scatter = ax.scatter(points['x'], points['y'], c='m', alpha=.4, s=150)
-isolated_scatter = ax.scatter(most_isolated['x'], most_isolated['y'], c='r',
-alpha=.9, s=150)
+isolated_scatter = ax.scatter(most_isolated['x'], most_isolated['y'], c='r', alpha=.9, s=150)
 
-ax.set_title('Most Isolated Clusters, and Distance to Next Nearest',
-fontproperties=title_font)
+ax.set_title('Most Isolated Clusters, and Distance to Next Nearest', fontproperties=title_font)
 ax.set_xlim(xlim)
 ax.set_ylim(ylim)
 ax.set_xticks([])
 ax.set_yticks([])
 
 for i, row in most_isolated.iterrows():
-xytext = (row['x'], row['y'] - 120000) if row['city'] != 'Prizren' else
-(row['x'], row['y'] + 90000)
-ax.annotate(row['city'] + ', ' + str(int(row['nearest_dist'])) + ' mi. to ' +
-rs['city'][row['nearest_point']],
-xy=(row['x'], row['y']),
-xytext=xytext,
-fontproperties=annotation_font,
-bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.7),
-xycoords='data')
+    xytext = (row['x'], row['y'] - 120000) if row['city'] != 'Prizren' else (row['x'], row['y'] + 90000)
+    ax.annotate(row['city'] + ', ' + str(int(row['nearest_dist'])) + ' mi. to ' + rs['city'][row['nearest_point']], xy=(row['x'], row['y']), xytext=xytext, fontproperties=annotation_font, bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.7), xycoords='data')
 
 plt.show()
 ```

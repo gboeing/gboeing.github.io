@@ -115,8 +115,7 @@ db = DBSCAN(eps=epsilon, min_samples=1, algorithm='ball_tree',
 metric='haversine').fit(np.radians(coords))
 cluster_labels = db.labels_
 num_clusters = len(set(cluster_labels))
-clusters = pd.Series([coords[cluster_labels == n] for n in
-range(num_clusters)])
+clusters = pd.Series([coords[cluster_labels == n] for n in range(num_clusters)])
 print('Number of clusters: {}'.format(num_clusters))
 ```
 
@@ -173,8 +172,7 @@ from the original data set where the latitude and longitude columns match the
 representative point's latitude and longitude:
 
 ```python
-rs = rep_points.apply(lambda row: df[(df['lat']==row['lat']) &amp;&amp;
-(df['lon']==row['lon'])].iloc[0], axis=1)
+rs = rep_points.apply(lambda row: df[(df['lat']==row['lat']) && (df['lon']==row['lon'])].iloc[0], axis=1)
 ```
 
 All done. I've reduced my original data set down to a spatially representative
@@ -187,14 +185,12 @@ see how they compare:
 
 ```python
 fig, ax = plt.subplots(figsize=[10, 6])
-rs_scatter = ax.scatter(rs['lon'], rs['lat'], c='#99cc99', edgecolor='None',
-alpha=0.7, s=120)
+rs_scatter = ax.scatter(rs['lon'], rs['lat'], c='#99cc99', edgecolor='None', alpha=0.7, s=120)
 df_scatter = ax.scatter(df['lon'], df['lat'], c='k', alpha=0.9, s=3)
 ax.set_title('Full data set vs DBSCAN reduced set')
 ax.set_xlabel('Longitude')
 ax.set_ylabel('Latitude')
-ax.legend([df_scatter, rs_scatter], ['Full set', 'Reduced set'], loc='upper
-right')
+ax.legend([df_scatter, rs_scatter], ['Full set', 'Reduced set'], loc='upper right')
 plt.show()
 ```
 

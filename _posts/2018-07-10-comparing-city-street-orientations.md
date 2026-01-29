@@ -17,7 +17,7 @@ with Python and [OSMnx][4]. That is, how is a city's street network oriented in
 terms of the streets' compass bearings? How well does it adhere to a
 straightforward north- south-east-west layout? I wanted to revisit this by
 [comparing][2] 25 major US cities' orientations (EDIT: by popular request, see
-also this [follow- up][5] comparing world cities):
+also this [follow-up][5] comparing world cities):
 
 ![City street network grid orientations, rose plot, polar histogram made with
 Python, OSMnx, OpenStreetMap, matplotlib. Atlanta, Boston, Buffalo, Charlotte,
@@ -90,7 +90,7 @@ _Want to see more cities?_ This post is adapted from this [research paper][5]
 that analyzes and visualizes [100 cities][5] around the world, discussing these
 methods, entropy calculations, and images in more detail. And for more on OSMnx,
 see this [post][4] or this [notebook][2] to recreate the visualization. Finally,
-by popular request, here's a [follow- up][5] comparing world cities:
+by popular request, here's a [follow-up][5] comparing world cities:
 
 ![City street network grid orientations, rose plot, polar histogram made with
 Python, OSMnx, OpenStreetMap, matplotlib. Bangkok, Barcelona, Beijing, Budapest,
