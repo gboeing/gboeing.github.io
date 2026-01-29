@@ -63,7 +63,7 @@ York, Boston, Miami, San Francisco Bay Area, Los Angeles, Chicago, Philadelphia,
 Seattle, Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta][6]
 
 By _region_ I just mean Craigslist subdomain, like "Boston" in
-<https://boston.craigslist.org>. Overall, New York, North Dakota, San Francisco,
+`https://boston.craigslist.org`. Overall, New York, North Dakota, San Francisco,
 Boston, and Santa Barbara are the most expensive Craigslist regions. The other
 usual suspects from Southern California, Hawaii, and the Eastern Seaboard also
 pepper this list. But among the 15 most populous metro areas, the large cities

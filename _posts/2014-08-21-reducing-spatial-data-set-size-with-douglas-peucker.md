@@ -85,11 +85,11 @@ sounds:
 start_time = time()
 si['df_index'] = None
 for si_i, si_row in si.iterrows():
-si_coords = (si_row['lat'], si_row['lon'])
-for df_i, df_row in df.iterrows():
-if si_coords == (df_row['lat'], df_row['lon']):
-si['df_index'][si_i] = df_i
-break
+    si_coords = (si_row['lat'], si_row['lon'])
+    for df_i, df_row in df.iterrows():
+        if si_coords == (df_row['lat'], df_row['lon']):
+        si['df_index'][si_i] = df_i
+        break
 print 'process took %s seconds' % round(time() - start_time, 2)
 ```
 
@@ -118,8 +118,7 @@ df_scatter = plt.scatter(df['lon'], df['lat'], c='k', alpha=.3, s=10)
 plt.xlabel('longitude')
 plt.ylabel('latitude')
 plt.title('simplified set of coordinate points vs original full set')
-plt.legend((rs_scatter, df_scatter), ('simplified', 'original'), loc='upper
-left')
+plt.legend((rs_scatter, df_scatter), ('simplified', 'original'), loc='upper left')
 plt.show()
 ```
 

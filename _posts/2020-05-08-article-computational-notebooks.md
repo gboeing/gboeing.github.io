@@ -5,8 +5,8 @@ date: 2020-05-08 14:23:11-07:00
 permalink: /2020/05/article-computational-notebooks/
 ---
 
-I have a new article out in Region: Journal of the European Regional Science
-Association, "[Urban Street Network Analysis in a Computational Notebook][2]."
+I have a new article out in _Region: Journal of the European Regional Science
+Association_, "[Urban Street Network Analysis in a Computational Notebook][2]."
 It reflects on the use of Jupyter notebooks in applied data science research,
 pedagogy, and practice, and it uses the [OSMnx examples][1] repository as an
 example.

@@ -37,18 +37,13 @@ from shapely.geometry import Polygon
 from geopy.distance import great_circle
 from geopandas import GeoDataFrame
 
-df = pd.read_csv('data/summer-travel-gps-full.csv', encoding='utf-8',
-index_col='date', parse_dates=True)
+df = pd.read_csv('data/summer-travel-gps-full.csv', encoding='utf-8', index_col='date', parse_dates=True)
 rs = pd.read_csv('data/summer-travel-gps-dbscan.csv', encoding='utf-8')
 
-title_font = fm.FontProperties(family='Bitstream Vera Sans', style='normal',
-size=15, weight='normal', stretch='normal')
-label_font = fm.FontProperties(family='Bitstream Vera Sans', style='normal',
-size=12, weight='normal', stretch='normal')
-ticks_font = fm.FontProperties(family='Bitstream Vera Sans', style='normal',
-size=10, weight='normal', stretch='normal')
-annotation_font = fm.FontProperties(family='Bitstream Vera Sans',
-style='normal', size=10, weight='normal', stretch='normal')
+title_font = fm.FontProperties(family='Bitstream Vera Sans', style='normal', size=15, weight='normal', stretch='normal')
+label_font = fm.FontProperties(family='Bitstream Vera Sans', style='normal', size=12, weight='normal', stretch='normal')
+ticks_font = fm.FontProperties(family='Bitstream Vera Sans', style='normal', size=10, weight='normal', stretch='normal')
+annotation_font = fm.FontProperties(family='Bitstream Vera Sans', style='normal', size=10, weight='normal', stretch='normal')
 
 axis_bgcolor = '#f0f0f0'
 ```
@@ -87,11 +82,10 @@ ax = countdata.plot(kind='bar', figsize=[9, 6], width=0.6, alpha=0.6,
 color='g', edgecolor='k', grid=False, ylim=[0, 700])
 
 ax.set_xticks(map(lambda x: x, range(0, len(countdata))))
-ax.set_xticklabels(countdata.index, rotation=45, rotation_mode='anchor',
-ha='right', fontproperties=ticks_font)
+ax.set_xticklabels(countdata.index, rotation=45, rotation_mode='anchor', ha='right', fontproperties=ticks_font)
 ax.yaxis.grid(True)
 for label in ax.get_yticklabels():
-label.set_fontproperties(ticks_font)
+    label.set_fontproperties(ticks_font)
 
 ax.set_axis_bgcolor(axis_bgcolor)
 ax.set_title('Most Visited Countries', fontproperties=title_font)
@@ -113,15 +107,13 @@ I'll transform the data by taking the log of the counts and then re-plot:
 
 ```python
 countdata = np.log(df['country'].value_counts())
-ax = countdata.plot(kind='bar', figsize=[9, 6], width=0.6, alpha=0.6,
-color='g', edgecolor='k', grid=False, ylim=[0, 7])
+ax = countdata.plot(kind='bar', figsize=[9, 6], width=0.6, alpha=0.6, color='g', edgecolor='k', grid=False, ylim=[0, 7])
 
 ax.set_xticks(map(lambda x: x, range(0, len(countdata))))
-ax.set_xticklabels(countdata.index, rotation=45, rotation_mode='anchor',
-ha='right', fontproperties=ticks_font)
+ax.set_xticklabels(countdata.index, rotation=45, rotation_mode='anchor', ha='right', fontproperties=ticks_font)
 ax.yaxis.grid(True)
 for label in ax.get_yticklabels():
-label.set_fontproperties(ticks_font)
+    label.set_fontproperties(ticks_font)
 
 ax.set_axis_bgcolor(axis_bgcolor)
 ax.set_title('Most Visited Countries', fontproperties=title_font)
@@ -139,15 +131,13 @@ the data set, without any log transformation:
 
 ```python
 countdata = df['city'].value_counts().head(13)
-ax = countdata.plot(kind='bar', figsize=[9, 6], width=0.6, alpha=0.6,
-color='b', edgecolor='k', grid=False, ylim=[0, 700])
+ax = countdata.plot(kind='bar', figsize=[9, 6], width=0.6, alpha=0.6, color='b', edgecolor='k', grid=False, ylim=[0, 700])
 
 ax.set_xticks(map(lambda x: x, range(0, len(countdata))))
-ax.set_xticklabels(countdata.index, rotation=45, rotation_mode='anchor',
-ha='right', fontproperties=ticks_font)
+ax.set_xticklabels(countdata.index, rotation=45, rotation_mode='anchor', ha='right', fontproperties=ticks_font)
 ax.yaxis.grid(True)
 for label in ax.get_yticklabels():
-label.set_fontproperties(ticks_font)
+    label.set_fontproperties(ticks_font)
 
 ax.set_axis_bgcolor(axis_bgcolor)
 ax.set_title('Most Visited Cities', fontproperties=title_font)
@@ -183,8 +173,7 @@ an annotation on the map for each of their points. Note that these are plots of
 unprojected data - I explain more about this in [another post][18].
 
 ```python
-#get a representative point from the data set for each of the most visited
-cities in the full set
+#get a representative point from the data set for each of the most visited cities in the full set
 most_index = df['city'].value_counts().head(8).index
 most = pd.DataFrame(df[df['city'].isin(most_index)])
 most.drop_duplicates(subset=['city'], take_last=False, inplace=True)
@@ -192,14 +181,13 @@ most.drop_duplicates(subset=['city'], take_last=False, inplace=True)
 # plot the reduced set of coordinate points
 fig, ax = plt.subplots()
 fig.set_size_inches(10, 6)
-rs_scatter = ax.scatter(rs['lon'], rs['lat'], c='m', edgecolor='k', alpha=.4,
-s=150)
+rs_scatter = ax.scatter(rs['lon'], rs['lat'], c='m', edgecolor='k', alpha=.4, s=150)
 
 # set axis labels, tick labels, and title
 for label in ax.get_xticklabels():
-label.set_fontproperties(ticks_font)
+    label.set_fontproperties(ticks_font)
 for label in ax.get_yticklabels():
-label.set_fontproperties(ticks_font)
+    label.set_fontproperties(ticks_font)
 ax.set_title('Most Visited Cities', fontproperties=title_font)
 ax.set_xlabel('Longitude', fontproperties=label_font)
 ax.set_ylabel('Latitude', fontproperties=label_font)
@@ -207,14 +195,7 @@ ax.set_axis_bgcolor(axis_bgcolor)
 
 # annotate the most visited cities
 for i, row in most.iterrows():
-ax.annotate(row['city'],
-xy=(row['lon'], row['lat']),
-xytext=(row['lon'] + 1, row['lat'] + 1),
-fontproperties=annotation_font,
-bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.8),
-xycoords='data',
-arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0.5', color='k',
-alpha=0.8))
+    ax.annotate(row['city'], xy=(row['lon'], row['lat']), xytext=(row['lon'] + 1, row['lat'] + 1), fontproperties=annotation_font, bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.8), xycoords='data', arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0.5', color='k', alpha=0.8))
 
 plt.show()
 ```
@@ -226,8 +207,7 @@ Porto, Barcelona, Krakow, Prague, Tuebingen, Athens, and Istanbul. Let's do the
 same thing, only this time annotating the eight most visited countries:
 
 ```python
-#get a representative point from the data set for each of the most visited
-countries in the full set
+#get a representative point from the data set for each of the most visited countries in the full set
 most_index = df['country'].value_counts().head(8).index
 most = pd.DataFrame(df[df['country'].isin(most_index)])
 most.drop_duplicates(subset=['country'], take_last=False, inplace=True)
@@ -235,14 +215,13 @@ most.drop_duplicates(subset=['country'], take_last=False, inplace=True)
 # plot the reduced set of coordinate points
 fig, ax = plt.subplots()
 fig.set_size_inches(10, 6)
-rs_scatter = ax.scatter(rs['lon'], rs['lat'], c='m', edgecolor='k', alpha=.4,
-s=150)
+rs_scatter = ax.scatter(rs['lon'], rs['lat'], c='m', edgecolor='k', alpha=.4, s=150)
 
 # set axis labels, tick labels, and title
 for label in ax.get_xticklabels():
-label.set_fontproperties(ticks_font)
+    label.set_fontproperties(ticks_font)
 for label in ax.get_yticklabels():
-label.set_fontproperties(ticks_font)
+    label.set_fontproperties(ticks_font)
 ax.set_title('Most Visited Countries', fontproperties=title_font)
 ax.set_xlabel('Longitude', fontproperties=label_font)
 ax.set_ylabel('Latitude', fontproperties=label_font)
@@ -250,12 +229,7 @@ ax.set_axis_bgcolor(axis_bgcolor)
 
 # annotate the most visited countries
 for i, row in most.iterrows():
-ax.annotate(row['country'].decode('utf-8'),
-xy=(row['lon'], row['lat']),
-xytext=(row['lon'] - 1, row['lat'] - 1),
-fontproperties=annotation_font,
-bbox=dict(boxstyle="round", fc="1"),
-xycoords='data')
+    ax.annotate(row['country'].decode('utf-8'), xy=(row['lon'], row['lat']), xytext=(row['lon'] - 1, row['lat'] - 1), fontproperties=annotation_font, bbox=dict(boxstyle="round", fc="1"),xycoords='data')
 
 plt.show()
 ```
@@ -284,8 +258,7 @@ get a representative point for each of my six most visited cities:
 
 ```python
 #load the shapefile of all countries in the world
-all_countries =
-GeoDataFrame.from_file('shapefiles/countries_shp/world_country_admin_boundary_shapefile_with_fips_codes.shp')
+all_countries = GeoDataFrame.from_file('shapefiles/countries_shp/world_country_admin_boundary_shapefile_with_fips_codes.shp')
 
 # get a representative point for each of the most visited cities
 most_index = df['city'].value_counts().head(6).index
@@ -310,15 +283,10 @@ lon_range = [rs['lon'].min() - margin_width, rs['lon'].max() + margin_width]
 lat_range = [rs['lat'].min() - margin_width, rs['lat'].max() + margin_width]
 
 # create a rectangle from these coordinates
-spatial_extent = Polygon([(lon_range[0], lat_range[0]),
-(lon_range[0], lat_range[1]),
-(lon_range[1], lat_range[1]),
-(lon_range[1], lat_range[0])])
+spatial_extent = Polygon([(lon_range[0], lat_range[0]), (lon_range[0], lat_range[1]), (lon_range[1], lat_range[1]), (lon_range[1], lat_range[0])])
 
-# get the shapes with geopandas intersects, which pulls the full shape, but
-let's remove russia because it's too big
-countries =
-all_countries[all_countries['geometry'].intersects(spatial_extent)]
+# get the shapes with geopandas intersects, which pulls the full shape, but let's remove russia because it's too big
+countries = all_countries[all_countries['geometry'].intersects(spatial_extent)]
 countries = countries[countries['CNTRY_NAME'] != 'Russia']
 ```
 
@@ -342,25 +310,18 @@ fig.set_size_inches(xdimension, ydimension)
 
 # plot the country boundaries and then our point data
 countries.plot(colormap='binary', alpha=0)
-rs_scatter = plt.scatter(x=rs['lon'], y=rs['lat'], c='m', edgecolor='white',
-alpha=.9, s=100)
+rs_scatter = plt.scatter(x=rs['lon'], y=rs['lat'], c='m', edgecolor='white', alpha=.9, s=100)
 
 # annotate the most visited cities in the data set
 for i, row in most.iterrows():
-plt.annotate(row['city'],
-xy=(row['lon'], row['lat']),
-xytext=(row['lon'] + 0.5, row['lat'] - 1),
-fontproperties=annotation_font,
-bbox=dict(boxstyle='round', color='gray', fc='w', alpha=0.9),
-xycoords='data')
+    plt.annotate(row['city'], xy=(row['lon'], row['lat']), xytext=(row['lon'] + 0.5, row['lat'] - 1), fontproperties=annotation_font, bbox=dict(boxstyle='round', color='gray', fc='w', alpha=0.9), xycoords='data')
 
 # limit the coordinate space shown to the extent of our point data
 plt.xlim(lon_range)
 plt.ylim(lat_range)
 
 # set axis labels and title
-plt.title('Map of ' + str(len(rs)) + ' GPS Coordinates in the Reduced Data
-Set')
+plt.title('Map of ' + str(len(rs)) + ' GPS Coordinates in the Reduced Data Set')
 
 plt.show()
 ```
@@ -404,31 +365,29 @@ great_circle() function. Then, for each point, I save the label of the other
 point that is the shortest distance (greater than 20 miles) from it:
 
 ```python
-#what is the distance to the nearest point that is at least *threshold* miles
-away?
+#what is the distance to the nearest point that is at least *threshold* miles away?
 threshold = 20
 
-# nearest_point will contain the index label of the row of the nearest point
-from the original full data set
+# nearest_point will contain the index label of the row of the nearest point from the original full data set
 # nearest_dist will contain the value of the distance between these two points
 rs['nearest_point'] = None
 rs['nearest_dist'] = None
 
 #for each row (aka, coordinate pair) in the data set
 for i, row in rs.iterrows():
-point1 = (row['lat'], row['lon'])
-for i2, row2 in rs.iterrows():
+    point1 = (row['lat'], row['lon'])
+    for i2, row2 in rs.iterrows():
+        #don't compare the row to itself
+        if(i != i2):
+            #calculate the great circle distance between points
+            point2 = (row2['lat'], row2['lon'])
+            dist = great_circle(point1, point2).miles
 
-#don't compare the row to itself
-if(i != i2):
-#calculate the great circle distance between points
-point2 = (row2['lat'], row2['lon'])
-dist = great_circle(point1, point2).miles
-#if this row's nearest is currently null, save this point as its nearest
-#or if this distance is smaller than the previous smallest, update the row
-if pd.isnull(rs.loc[i, 'nearest_dist']) | ((dist > threshold) & (dist < rs.loc[i, 'nearest_dist'])):
-rs.loc[i, 'nearest_dist'] = dist
-rs.loc[i, 'nearest_point'] = i2
+            #if this row's nearest is currently null, save this point as its nearest
+            #or if this distance is smaller than the previous smallest, update the row
+            if pd.isnull(rs.loc[i, 'nearest_dist']) | ((dist > threshold) & (dist < rs.loc[i, 'nearest_dist'])):
+                rs.loc[i, 'nearest_dist'] = dist
+                rs.loc[i, 'nearest_point'] = i2
 ```
 
 Now I know the nearest neighbor of each point in the data set. I'll sort by
@@ -436,10 +395,8 @@ distance, then drop duplicates and take the top five rows. These are
 representative points of the five most isolated clusters in my data set:
 
 ```python
-# sort the points by distance to nearest, then drop duplicates of
-nearest_point
-most_isolated = rs.sort('nearest_dist',
-ascending=False).drop_duplicates(subset='nearest_point', take_last=False)
+# sort the points by distance to nearest, then drop duplicates of nearest_point
+most_isolated = rs.sort('nearest_dist', ascending=False).drop_duplicates(subset='nearest_point', take_last=False)
 most_isolated = most_isolated.head(5)
 most_isolated
 ```
@@ -455,30 +412,21 @@ neighbor, and that nearest point's city name:
 fig, ax = plt.subplots()
 fig.set_size_inches(10, 6)
 rs_scatter = ax.scatter(rs['lon'], rs['lat'], c='b', alpha=.4, s=150)
-df_scatter = ax.scatter(most_isolated['lon'], most_isolated['lat'], c='r',
-alpha=.9, s=150)
+df_scatter = ax.scatter(most_isolated['lon'], most_isolated['lat'], c='r', alpha=.9, s=150)
 
 # set axis labels, tick labels, and title
 for label in ax.get_xticklabels():
-label.set_fontproperties(ticks_font)
+    label.set_fontproperties(ticks_font)
 for label in ax.get_yticklabels():
-label.set_fontproperties(ticks_font)
-ax.set_title('Most Isolated Clusters, and Distance to Next Nearest',
-fontproperties=title_font)
+    label.set_fontproperties(ticks_font)
+ax.set_title('Most Isolated Clusters, and Distance to Next Nearest', fontproperties=title_font)
 ax.set_xlabel('Longitude', fontproperties=label_font)
 ax.set_ylabel('Latitude', fontproperties=label_font)
 ax.set_axis_bgcolor(axis_bgcolor)
 
-# annotate each of the most isolated clusters with city name, and distance to
-next nearest point + its name
+# annotate each of the most isolated clusters with city name, and distance to next nearest point + its name
 for i, row in most_isolated.iterrows():
-ax.annotate(row['city'] + ', ' + str(int(row['nearest_dist'])) + ' mi. to ' +
-rs['city'][row['nearest_point']],
-xy=(row['lon'], row['lat']),
-xytext=(row['lon'] + 0.75, row['lat'] + 0.25),
-fontproperties=annotation_font,
-bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.7),
-xycoords='data')
+    ax.annotate(row['city'] + ', ' + str(int(row['nearest_dist'])) + ' mi. to ' + rs['city'][row['nearest_point']], xy=(row['lon'], row['lat']), xytext=(row['lon'] + 0.75, row['lat'] + 0.25), fontproperties=annotation_font, bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.7), xycoords='data')
 plt.show()
 ```
 
@@ -507,11 +455,7 @@ total records in the data set:
 
 ```python
 countdata = df['city'].value_counts()
-gbplot_pie(fractions = countdata,
-labels = countdata.index,
-title = 'Cities, by share of records in data set',
-grouping_threshold = 30,
-grouping_label = 'All Other Cities')
+gbplot_pie(fractions = countdata, labels = countdata.index, title = 'Cities, by share of records in data set', grouping_threshold = 30, grouping_label = 'All Other Cities')
 ```
 
 ![matplotlib-pie-cities-by-share][27]
@@ -537,16 +481,11 @@ countdata = df['country'].value_counts()
 
 # convert the pie wedge percentage into its count value
 def my_autopct(pct):
-total = sum(countdata)
-val = int(round(pct*total)/100.0)
-return '{v:d}'.format(v=val)
+    total = sum(countdata)
+    val = int(round(pct*total)/100.0)
+    return '{v:d}'.format(v=val)
 
-gbplot_pie(fractions = countdata,
-labels = countdata.index,
-title = 'Countries, by number of records in data set',
-autopct=my_autopct,
-grouping_threshold = 30,
-grouping_label = 'All Other Countries')
+gbplot_pie(fractions = countdata, labels = countdata.index, title = 'Countries, by number of records in data set', autopct=my_autopct, grouping_threshold = 30, grouping_label = 'All Other Countries')
 ```
 
 ![matplotlib-pie-countries-by-records][28]
@@ -575,19 +514,16 @@ or at night?
 countdata = df.groupby(df.index.hour).size()
 countdata.index = [s + ':00' for s in countdata.index.astype(str)]
 
-ax = countdata.plot(kind='bar', figsize=[9, 6], width=0.6, alpha=0.5,
-color='c', edgecolor='gray', grid=False, ylim=[0, 120])
+ax = countdata.plot(kind='bar', figsize=[9, 6], width=0.6, alpha=0.5, color='c', edgecolor='gray', grid=False, ylim=[0, 120])
 
 ax.set_xticks(map(lambda x: x, range(0, len(countdata))))
-ax.set_xticklabels(countdata.index, rotation=45, rotation_mode='anchor',
-ha='right', fontproperties=ticks_font)
+ax.set_xticklabels(countdata.index, rotation=45, rotation_mode='anchor', ha='right', fontproperties=ticks_font)
 ax.yaxis.grid(True)
 for label in ax.get_yticklabels():
-label.set_fontproperties(ticks_font)
+    label.set_fontproperties(ticks_font)
 
 ax.set_axis_bgcolor(axis_bgcolor)
-ax.set_title('Records in the data set, by hour of the day',
-fontproperties=title_font)
+ax.set_title('Records in the data set, by hour of the day', fontproperties=title_font)
 ax.set_xlabel('', fontproperties=label_font)
 ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 
@@ -607,28 +543,25 @@ Did my GPS data volume vary by day of the week?
 ```python
 # plot a histogram of the GPS records by day of week
 countdata = df.groupby(df.index.weekday).size()
-countdata.index = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday',
-'Friday', 'Saturday']
+countdata.index = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
 ax = countdata.plot(kind='bar',
-figsize=[9, 6],
-width=0.6,
-alpha=0.5,
-color='c',
-edgecolor='gray',
-grid=False,
-ylim=[200, 280])
+    figsize=[9, 6],
+    width=0.6,
+    alpha=0.5,
+    color='c',
+    edgecolor='gray',
+    grid=False,
+    ylim=[200, 280])
 
 ax.set_xticks(map(lambda x: x, range(0, len(countdata))))
-ax.set_xticklabels(countdata.index, rotation=35, rotation_mode='anchor',
-ha='right', fontproperties=ticks_font)
+ax.set_xticklabels(countdata.index, rotation=35, rotation_mode='anchor', ha='right', fontproperties=ticks_font)
 ax.yaxis.grid(True)
 for label in ax.get_yticklabels():
-label.set_fontproperties(ticks_font)
+    label.set_fontproperties(ticks_font)
 
 ax.set_axis_bgcolor(axis_bgcolor)
-ax.set_title('Records in the data set, by day of the week',
-fontproperties=title_font)
+ax.set_title('Records in the data set, by day of the week', fontproperties=title_font)
 ax.set_xlabel('', fontproperties=label_font)
 ax.set_ylabel('Number of GPS records', fontproperties=label_font)
 
@@ -666,45 +599,41 @@ countdata = df.groupby(df.index.date).size()
 fig, ax = plt.subplots()
 
 # create the line plot
-ax = countdata.plot(kind='line', figsize=[10, 5], linewidth='3', alpha=0.5,
-marker='o', color='b')
+ax = countdata.plot(kind='line', figsize=[10, 5], linewidth='3', alpha=0.5, marker='o', color='b')
 
 # annotate the points around the balkans, for explanation
 ax.annotate('Left the EU',
-xy=('2014-06-20', 60),
-fontproperties=annotation_font,
-bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.7),
-xycoords='data')
+    xy=('2014-06-20', 60),
+    fontproperties=annotation_font,
+    bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.7),
+    xycoords='data')
 
 ax.annotate('Had WiFi',
-xy=('2014-06-23', 40),
-fontproperties=annotation_font,
-bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.7),
-xycoords='data')
+    xy=('2014-06-23', 40),
+    fontproperties=annotation_font,
+    bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.7),
+    xycoords='data')
 
 ax.annotate('Return to EU',
-xy=('2014-07-01', 53.5),
-fontproperties=annotation_font,
-bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.7),
-xycoords='data')
+    xy=('2014-07-01', 53.5),
+    fontproperties=annotation_font,
+    bbox=dict(boxstyle='round', color='k', fc='w', alpha=0.7),
+    xycoords='data')
 
-# set the x-ticks/labels for every nth row of the data - here, 1 tick mark per
-horizontal inch
+# set the x-ticks/labels for every nth row of the data - here, 1 tick mark per horizontal inch
 n = len(countdata) / int(fig.get_size_inches()[0])
 xtick_data = countdata.iloc[range(0, len(countdata), n)]
 ax.xaxis.set_ticks(xtick_data.index)
 ax.set_xlim(['2014-05-13', '2014-07-10'])
 
 # set tick labels, axis labels, and title
-ax.set_xticklabels(xtick_data.index, rotation=35, rotation_mode='anchor',
-ha='right', fontproperties=ticks_font)
+ax.set_xticklabels(xtick_data.index, rotation=35, rotation_mode='anchor', ha='right', fontproperties=ticks_font)
 for label in ax.get_yticklabels():
-label.set_fontproperties(ticks_font)
-ax.set_title('Number of records in the data set, by date',
-fontproperties=title_font)
-ax.set_xlabel('', fontproperties=label_font)
-ax.set_ylabel('Number of GPS records', fontproperties=label_font)
-ax.set_axis_bgcolor(axis_bgcolor)
+    label.set_fontproperties(ticks_font)
+    ax.set_title('Number of records in the data set, by date', fontproperties=title_font)
+    ax.set_xlabel('', fontproperties=label_font)
+    ax.set_ylabel('Number of GPS records', fontproperties=label_font)
+    ax.set_axis_bgcolor(axis_bgcolor)
 
 plt.show()
 ```
@@ -726,7 +655,7 @@ then? What was happening?
 # lots of observations from this date in the balkans - why?
 date = dt.strptime('2014-06-28', '%Y-%m-%d').date()
 day_records = df[df.index.date==date]
-print len(day_records), 'observations from this date:'
+print(len(day_records), 'observations from this date:')
 day_records.head()
 ```
 

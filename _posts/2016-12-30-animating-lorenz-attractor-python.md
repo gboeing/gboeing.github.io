@@ -3,6 +3,7 @@ layout: post
 title: Animating the Lorenz Attractor with Python
 date: 2016-12-30 16:24:55-08:00
 permalink: /2016/12/animating-lorenz-attractor-python/
+requires_mathjax: true
 ---
 
 Edward Lorenz, the father of [chaos theory][7], once [described chaos][6] as
@@ -21,11 +22,11 @@ numpy PIL][8]
 In 1963, Lorenz developed this simple model of the way air moves around in the
 atmosphere:
 
-$ \\frac{dx}{dt} = \\sigma (y - x) $
-
-$ \\frac{dy}{dt} = x (\\rho - z) - y $
-
-$ \\frac{dz}{dt} = x y - \\beta z $
+```latex
+\frac{dx}{dt} = \sigma (y - x)
+\frac{dy}{dt} = x (\rho - z) - y
+\frac{dz}{dt} = x y - \beta z
+```
 
 Now known as the _Lorenz System_, this model demonstrates chaos at certain
 parameter values and its [attractor is fractal][4]. The animation above depicts

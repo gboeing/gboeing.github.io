@@ -19,14 +19,14 @@ GeoJSON:
 def df_to_geojson(df, properties, lat='latitude', lon='longitude'):
 geojson = {'type':'FeatureCollection', 'features':[]}
 for _, row in df.iterrows():
-feature = {'type':'Feature',
-'properties':{},
-'geometry':{'type':'Point',
-'coordinates':[]}}
-feature['geometry']['coordinates'] = [row[lon],row[lat]]
-for prop in properties:
-feature['properties'][prop] = row[prop]
-geojson['features'].append(feature)
+    feature = {'type':'Feature',
+    'properties':{},
+    'geometry':{'type':'Point',
+    'coordinates':[]}}
+    feature['geometry']['coordinates'] = [row[lon],row[lat]]
+    for prop in properties:
+        feature['properties'][prop] = row[prop]
+    geojson['features'].append(feature)
 return geojson
 ```
 
@@ -44,8 +44,8 @@ And you can easily save it to a .js file for loading into Leaflet, like this:
 ```python
 output_filename = 'dataset.js'
 with open(output_filename, 'wb') as output_file:
-output_file.write('var dataset = ')
-json.dump(geojson, output_file, indent=2)
+    output_file.write('var dataset = ')
+    json.dump(geojson, output_file, indent=2)
 ```
 
 <!-- markdownlint-disable MD013 -->

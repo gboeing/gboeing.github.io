@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Notes
+title: Research Notes
 permalink: /notes/
 ---

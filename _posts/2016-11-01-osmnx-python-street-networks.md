@@ -187,8 +187,7 @@ This gets the street network within 1 km (along the network) of the Empire State
 Building:
 
 ```python
-G = ox.graph_from_address('350 5th Ave, New York, New York',
-network_type='drive')
+G = ox.graph_from_address('350 5th Ave, New York, New York', network_type='drive')
 ox.plot_graph(G)
 ```
 
@@ -231,8 +230,8 @@ places can include strings and/or structured key:value place queries:
 
 ```python
 places = ['Los Altos, California, USA',
-{'city':'Los Altos Hills', 'state':'California'},
-'Loyola, California']
+    {'city':'Los Altos Hills', 'state':'California'},
+    'Loyola, California']
 G = ox.graph_from_place(places, network_type='drive')
 ox.plot_graph(G)
 ```
@@ -363,8 +362,7 @@ one-way streets into account:
 ```python
 G = ox.graph_from_place('Piedmont, CA, USA', network_type='drive')
 route = nx.shortest_path(G, orig, dest)
-fig, ax = ox.plot_graph_route(G, route, route_linewidth=6, node_size=0,
-bgcolor='k')
+fig, ax = ox.plot_graph_route(G, route, route_linewidth=6, node_size=0, bgcolor='k')
 ```
 
 ![OSMnx: routing along a street network with networkx and OpenStreetMap][23]

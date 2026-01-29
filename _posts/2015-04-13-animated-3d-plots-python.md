@@ -70,8 +70,7 @@ rows:
 chaos_pops = logistic_model(generations=1000, growth_rate_min=3.99,
 growth_rate_max=4,
 growth_rate_steps=1)
-random_pops = pd.DataFrame([random.random() for _ in range(0,1000)],
-columns=['value'])
+random_pops = pd.DataFrame([random.random() for _ in range(0,1000)], columns=['value'])
 pops = pd.concat([chaos_pops, random_pops], axis=1)
 pops.columns = ['chaos', 'random']
 pops.tail()
@@ -131,24 +130,45 @@ script that defines its action. Here's ours:
 
 ```python
 for n in range(0, 100):
-if n >= 20 and n <= 22: ax.set_xlabel('') ax.set_ylabel('') #don't show axis
-labels while we move around, it looks weird ax.elev = ax.elev-0.5 #start by
-panning down slowly if n >= 23 and n <= 36: ax.elev = ax.elev-1.0 #pan down
-faster if n >= 37 and n <= 60: ax.elev = ax.elev-1.5 ax.azim = ax.azim+1.1
-#pan down faster and start to rotate if n >= 61 and n <= 64: ax.elev =
-ax.elev-1.0 ax.azim = ax.azim+1.1 #pan down slower and rotate same speed if n
->= 65 and n <= 73: ax.elev = ax.elev-0.5 ax.azim = ax.azim+1.1 #pan down
-slowly and rotate same speed if n >= 74 and n <= 76:
-ax.elev = ax.elev-0.2
-ax.azim = ax.azim+0.5 #end by panning/rotating slowly to stopping position
-if n = 77: #add axis labels at the end, when the plot isn't moving around
-ax.set_xlabel('Population (t)')
-ax.set_ylabel('Population (t + 1)')
-ax.set_zlabel('Population (t + 2)')
-fig.suptitle(u'3-D Poincaré Plot, chaos vs random', fontsize=12, x=0.5,
-y=0.85)
-plt.savefig('images/' + gif_filename + '/img' + str(n).zfill(3) + '.png',
-bbox_inches='tight')
+    if n >= 20 and n <= 22:
+        #don't show axis labels while we move around, it looks weird
+        ax.set_xlabel('')
+        ax.set_ylabel('')
+        ax.elev = ax.elev-0.5
+
+    #start by panning down slowly
+    if n >= 23 and n <= 36:
+        ax.elev = ax.elev-1.0
+
+    #pan down faster
+    if n >= 37 and n <= 60:
+        ax.elev = ax.elev-1.5
+        ax.azim = ax.azim+1.1
+
+    #pan down faster and start to rotate
+    if n >= 61 and n <= 64:
+        ax.elev = ax.elev-1.0
+        ax.azim = ax.azim+1.1
+
+    #pan down slower and rotate same speed
+    if n >= 65 and n <= 73:
+        ax.elev = ax.elev-0.5
+        ax.azim = ax.azim+1.1
+
+    #pan down slowly and rotate same speed
+    if n >= 74 and n <= 76:
+        ax.elev = ax.elev-0.2
+        ax.azim = ax.azim+0.5
+
+    #end by panning/rotating slowly to stopping position
+    if n = 77:
+        #add axis labels at the end, when the plot isn't moving around
+        ax.set_xlabel('Population (t)')
+        ax.set_ylabel('Population (t + 1)')
+        ax.set_zlabel('Population (t + 2)')
+
+    fig.suptitle(u'3-D Poincaré Plot, chaos vs random', fontsize=12, x=0.5, y=0.85)
+    plt.savefig('images/' + gif_filename + '/img' + str(n).zfill(3) + '.png', bbox_inches='tight')
 ```
 
 This movie script is a big _for_ loop, with one loop per frame of animation -
@@ -177,8 +197,7 @@ and display it inline in our IPython notebook:
 
 ```python
 plt.close()
-images = [PIL_Image.open(image) for image in glob.glob('images/' +
-gif_filename + '/*.png')]
+images = [PIL_Image.open(image) for image in glob.glob('images/' + gif_filename + '/*.png')]
 file_path_name = 'images/' + gif_filename + '.gif'
 writeGif(file_path_name, images, duration=0.1)
 IPdisplay.Image(url=file_path_name)
@@ -201,9 +220,7 @@ random time series. This time, let's look at 50 different time series from the
 logistic map's [chaotic regime][12], all in one plot:
 
 ```python
-pops = logistic_model(generations=4000, growth_rate_min=3.6,
-growth_rate_max=4.0,
-growth_rate_steps=50)
+pops = logistic_model(generations=4000, growth_rate_min=3.6, growth_rate_max=4.0, growth_rate_steps=50)
 gif_filename = 'logistic-3d-phase-diagram-plot-chaotic-regime'
 fig, ax = get_pdiagram_3d(pops, color='hsv', color_reverse=True)
 ```
@@ -229,16 +246,34 @@ snapshot to the working directory:
 
 ```python
 for n in range(0, 100):
-if n <= 18: ax.azim = ax.azim-0.2 #begin by rotating very slowly if n >= 19
-and n <= 29: ax.azim = ax.azim-10 ax.dist = ax.dist-0.05 ax.elev = ax.elev-2
-#quickly whip around to the other side if n >= 33 and n <= 49: ax.azim =
-ax.azim+3 ax.dist = ax.dist-0.55 ax.elev = ax.elev+1.4 #zoom into the center
-if n >= 61 and n <= 79: ax.azim = ax.azim-2 ax.elev = ax.elev-2 ax.dist =
-ax.dist+0.2 #pull back and pan up if n >= 80:
-ax.azim = ax.azim-0.2 #end by rotating very slowly
-fig.suptitle('Logistic Map, r=3.6 to r=4.0', fontsize=12, x=0.5, y=0.85)
-plt.savefig('images/' + gif_filename + '/img' + str(n).zfill(3) + '.png',
-bbox_inches='tight')
+    if n <= 18:
+        ax.azim = ax.azim-0.2
+
+    #begin by rotating very slowly
+    if n >= 19 and n <= 29:
+        ax.azim = ax.azim-10
+        ax.dist = ax.dist-0.05
+        ax.elev = ax.elev-2
+
+    #quickly whip around to the other side
+    if n >= 33 and n <= 49:
+        ax.azim = ax.azim+3
+        ax.dist = ax.dist-0.55
+        ax.elev = ax.elev+1.4
+
+    #zoom into the center
+    if n >= 61 and n <= 79:
+        ax.azim = ax.azim-2
+        ax.elev = ax.elev-2
+        ax.dist = ax.dist+0.2
+
+    #pull back and pan up
+    if n >= 80:
+        #end by rotating very slowly
+        ax.azim = ax.azim-0.2
+
+    fig.suptitle('Logistic Map, r=3.6 to r=4.0', fontsize=12, x=0.5, y=0.85)
+    plt.savefig('images/' + gif_filename + '/img' + str(n).zfill(3) + '.png', bbox_inches='tight')
 ```
 
 Once we've got our 100 snapshots saved in the working directory, we'll load up
@@ -247,8 +282,7 @@ inline in the IPython notebook:
 
 ```python
 plt.close()
-images= [PIL_Image.open(image) for image in
-glob.glob('images/'+gif_filename+'/*.png')]
+images= [PIL_Image.open(image) for image in glob.glob('images/'+gif_filename+'/*.png')]
 file_path_name = 'images/' + gif_filename + '.gif'
 writeGif(file_path_name, images, duration=0.1)
 IPdisplay.Image(url=file_path_name)
