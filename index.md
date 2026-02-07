@@ -1,11 +1,10 @@
 ---
 layout: home
-title: Bio
+title: About
 permalink: /
 ---
 
-{:style="float:left; padding-right:30px; padding-bottom:30px;"}
-![Geoff Boeing][5]
+![Geoff Boeing][5]{: .headshot }
 
 I am an Associate Professor in the University of Southern California's
 Department of Urban Planning and Spatial Analysis, the Director of USC's
