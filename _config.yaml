@@ -3,7 +3,7 @@ title: Geoff Boeing
 author:
   name: Geoff Boeing
   email:
-url: https://gboeing.github.io
+url: https://geoffboeing.com
 baseurl:
 description: >
   Geoff Boeing is an Associate Professor in USC's Department of Urban Planning
@@ -16,7 +16,7 @@ plugins:
   - jekyll-sitemap
 
 minima:
-  skin: classic
+  skin: auto
   date_format: '%-d %b %Y'
   nav_pages:
     - index.md
