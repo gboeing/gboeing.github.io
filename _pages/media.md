@@ -6,7 +6,7 @@ permalink: /media/
 
 For media inquiries, please [contact][94] me directly.
 
-These are some of the media publications that have previously covered my work or
+Here are some of the media publications that have previously covered my work or
 interviewed me:
 
 - [_MIT Technology Review_][84]. "This Startup Thinks Slime Mold Can Help Us

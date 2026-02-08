@@ -14,6 +14,8 @@ img.headshot {
   float: left;
   margin-right: 40px;
   margin-bottom: 20px;
+  width: 150px;
+  height: auto;
 }
 
 ul > li > p {

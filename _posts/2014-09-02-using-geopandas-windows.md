@@ -84,7 +84,7 @@ gdal.VersionInfo()
 ```
 
 If each of these lines of code runs successfully without errors, then geopandas
-is successfully installed and ready to be used. Here's a simple [example][11] of
+is successfully installed and ready to be used. Here's a simple example of
 using geopandas with matplotlib to plot point data over a shapefile basemap:
 
 ![most-isolated-projected][15]
@@ -106,7 +106,6 @@ part of a Python spatial science stack, with Miniconda.
 [8]: https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree
 [9]: https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely
 [10]: https://www.lfd.uci.edu/~gohlke/pythonlibs/
-[11]: {{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}
 [12]: {{ "/2016/10/r-tree-spatial-index-python/" | relative_url }}
 [13]: {{ "/2016/11/osmnx-python-street-networks/" | relative_url }}
 [14]: {{ "/files/img/install-geopandas-windows-gdal-fiona-pyproj-shapely.png" | relative_url }}

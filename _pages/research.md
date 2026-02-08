@@ -59,6 +59,12 @@ a complete listing.
 - [Information Is Beautiful Awards][13] shortlist, 2018
 - [Accenture Inventor Innovation Award][19], 2010
 
+## Research Notes
+
+I publish [research notes][20] about once a month: this is a long-running
+series of short blog posts discussing ongoing projects, "how-to" tutorials,
+forthcoming publications, and other research-related news.
+
 <!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1007/s41109-019-0189-1
 [2]: https://doi.org/10.1016/S2214-109X(22)00072-9
@@ -78,3 +84,4 @@ a complete listing.
 [16]: {{ "/2025/03/zephyr-foundation-award/" | relative_url }}
 [17]: {{ "/2020/11/off-grid-back-again/" | relative_url }}
 [19]: {{ "/publications/systems-methods-analyzing-requirements/" | relative_url }}
+[20]: {{ "/notes/" | relative_url }}

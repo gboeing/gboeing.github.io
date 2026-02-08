@@ -15,6 +15,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+feed:
+  path: feed/index.xml
+
 minima:
   skin: auto
   date_format: '%-d %b %Y'
