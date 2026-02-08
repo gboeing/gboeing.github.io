@@ -39,7 +39,7 @@ in the following sections):
 1. Download and process my [Foursquare/Swarm check-in history][11]
 1. Download my [Google location history][12] from their Takeout site
 1. [Cluster][7] my Google location data set to reduce its size (for Leaflet)
-1. [Reverse-geocode][8] this reduced Google location history data set
+1. Reverse-geocode this reduced Google location history data set
 1. Create a simple spreadsheet of pre-smart phone travels, then geocode it
 1. Combine the Foursquare check-in history, the Google location history, and the
    previous travels data and then map it with Python and Leaflet.
@@ -85,7 +85,7 @@ points easily mapped in JavaScript with Leaflet, but they're also easily
 reverse-geocoded to get the neighborhood, city, state, and country for each data
 point, without spending weeks making a million API calls.
 
-Accordingly, [I reverse-geocoded][8] each point in my cluster-reduced Google
+Accordingly, I reverse-geocoded each point in my cluster-reduced Google
 location history data set with the Google Maps reverse- geocoding API, using the
 code in [this notebook][3]. I added local caching of results so you only have to
 call the API once ever for a given set of coordinates. This makes repeated runs
@@ -110,7 +110,6 @@ visualize your own location history. You might also be interested in:
 - Simply mapping your [Google location history][12] with Python
 - Visualizing and mapping your [Foursquare check-in history][11]
 - [Clustering to reduce][7] spatial data set size
-- [Reverse-geocoding][8] latitude-longitude to city + country
 - Exporting [pandas DataFrames to GeoJSON][10]
 - Our [course at UC Berkeley][9] that teaches these skills and tools
 
@@ -122,7 +121,6 @@ visualize your own location history. You might also be interested in:
 [5]: https://github.com/gboeing/data-visualization/blob/master/location-history/visualize-location-history.ipynb
 [6]: https://github.com/gboeing/data-visualization/tree/master/location-history
 [7]: {{ "/2014/08/clustering-to-reduce-spatial-data-set-size/" | relative_url }}
-[8]: {{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}
 [9]: {{ "/2015/08/urban-informatics-visualization-berkeley/" | relative_url }}
 [10]: {{ "/2015/10/exporting-python-data-geojson/" | relative_url }}
 [11]: {{ "/2016/04/visualize-foursquare-history/" | relative_url }}

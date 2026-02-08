@@ -28,10 +28,6 @@ longitude coordinates. This manageable data set is not too large to map, but it
 serves as a useful object for this tutorial (for a more complex example
 clustering 1.2 million GPS coordinates, see [this project][12]).
 
-I have discussed this data set in a [series of posts][11], and reverse-geocoded
-the coordinates to [add city and country][9] data. Here is a simple Python
-[matplotlib][10] scatter plot of all the coordinates in the full data set:
-
 ![DBSCAN clustering of GPS latitude longitude spatial data][14]
 
 At this scale, only a few dozen of the 1,759 data points are really visible.
@@ -225,9 +221,6 @@ here][6].
 [6]: https://osf.io/preprints/socarxiv/nzhdc/
 [7]: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html
 [8]: https://scikit-learn.org/stable/modules/neighbors.html#ball-tree
-[9]: {{ "/2014/08/reverse-geocode-a-set-of-lat-long-coordinates-to-city-country/" | relative_url }}
-[10]: {{ "/2014/08/visualizing-summer-travels-part-5-python-matplotlib/" | relative_url }}
-[11]: {{ "/2014/08/visualizing-summer-travels/" | relative_url }}
 [12]: {{ "/2016/06/mapping-everywhere-ever-been/" | relative_url }}
 [13]: {{ "/files/img/dbscan-clustering-spatial-gps-lat-long-data.png" | relative_url }}
 [14]: {{ "/files/img/scatter-full-set.png" | relative_url }}
