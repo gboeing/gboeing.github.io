@@ -37,7 +37,7 @@ _Pronunciation note: "Geoff" is pronounced the same as "Jeff."_
 
 <!-- markdownlint-disable MD013 -->
 [1]: https://osmnx.readthedocs.io/
-[5]: {{ "/files/img/geoff-boeing-headshot-1-150x150.jpg" | relative_url }}
+[5]: {{ "/files/img/geoff-boeing-headshot.jpg" | relative_url }}
 [6]: {{ "/lab/" | relative_url }}
 [7]: {{ "/media/" | relative_url }}
 [8]: {{ "/research/" | relative_url }}
