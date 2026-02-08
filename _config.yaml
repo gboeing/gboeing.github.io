@@ -16,7 +16,7 @@ plugins:
   - jekyll-sitemap
 
 feed:
-  path: feed/
+  path: feed/index.xml
 
 minima:
   skin: auto
