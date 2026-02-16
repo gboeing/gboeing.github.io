@@ -75,4 +75,4 @@ For more, check out our article at [IJGIS][1] or via the open-access
 
 <!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1080/13658816.2026.2628193
-[2]: https://escholarship.org/uc/item/4cm065kz
+[2]: https://doi.org/10.31235/osf.io/qepc6_v1
