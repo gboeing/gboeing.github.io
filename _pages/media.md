@@ -9,6 +9,9 @@ For media inquiries, please [contact][94] me directly.
 Here are some of the media publications that have previously covered my work or
 interviewed me:
 
+- [_Los Angeles Daily News_][96]. "Why the Sixth Street Viaduct Went Dark, and
+  Why It's Been So Hard to Protect." February 21, 2026.
+
 - [_MIT Technology Review_][84]. "This Startup Thinks Slime Mold Can Help Us
   Design Better Cities." October 17, 2025.
 
@@ -377,5 +380,6 @@ interviewed me:
 [91]: https://www.washingtonpost.com/news/wonk/wp/2016/09/01/what-more-than-1-million-craigslist-rental-listings-tell-us-about-the-housing-market/
 [92]: https://www.wcnc.com/article/news/verify/verify-yes-according-to-a-study-charlotte-has-one-of-the-most-disordered-street-layouts/275-7e4cbc6e-c807-44e4-a236-bdcbddf1328d
 [93]: https://www.wcvb.com/article/this-explains-why-newcomers-have-such-a-hard-time-navigating-boston/22116483
+[96]: https://www.dailynews.com/2026/02/20/why-the-sixth-street-viaduct-went-dark-and-why-its-been-so-hard-to-protect/
 [94]: {{ "/contact/" | relative_url }}
 [95]: {{ "/media/" | relative_url }}
