@@ -4,18 +4,21 @@ title: Media
 permalink: /media/
 ---
 
-For media inquiries, please [contact][94] me directly.
+For media inquiries, please [contact][contact] me directly.
 
 Here are some of the media publications that have previously covered my work or
 interviewed me:
 
-- [_Los Angeles Daily News_][96]. "Why the Sixth Street Viaduct Went Dark, and
+- [_Jalopnik_][95]. "Do One-Way Streets Really Help Traffic Flow (Or Are They
+  Just Annoying)?" February 21, 2026.
+
+- [_Los Angeles Daily News_][94]. "Why the Sixth Street Viaduct Went Dark, and
   Why It's Been So Hard to Protect." February 21, 2026.
 
 - [_MIT Technology Review_][84]. "This Startup Thinks Slime Mold Can Help Us
   Design Better Cities." October 17, 2025.
 
-- [_Bloomberg CityLab_][39]. "One-Way Streets Are the Wrong Way to Tame
+- [_Bloomberg_][39]. "One-Way Streets Are the Wrong Way to Tame
   Downtown Traffic." September 4, 2025.
 
 - [_CNU Public Square_][51]. "An Innovative Street Grid Proposal." February
@@ -277,7 +280,7 @@ interviewed me:
 - [_The San Francisco Chronicle_][80]. "The Prices on Craigslist Rental
   Listings Are Lowest on This Day." August 26, 2016.
 
-- [_American Media Institute Newswire_][95]. "Home Rental Costs Up
+- [_American Media Institute Newswire_][self]. "Home Rental Costs Up
   Nationwide." June 16, 2016.
 
 - [_National Low Income Housing Coalition_][14]. "Study Uses Craigslist to
@@ -380,6 +383,7 @@ interviewed me:
 [91]: https://www.washingtonpost.com/news/wonk/wp/2016/09/01/what-more-than-1-million-craigslist-rental-listings-tell-us-about-the-housing-market/
 [92]: https://www.wcnc.com/article/news/verify/verify-yes-according-to-a-study-charlotte-has-one-of-the-most-disordered-street-layouts/275-7e4cbc6e-c807-44e4-a236-bdcbddf1328d
 [93]: https://www.wcvb.com/article/this-explains-why-newcomers-have-such-a-hard-time-navigating-boston/22116483
-[96]: https://www.dailynews.com/2026/02/20/why-the-sixth-street-viaduct-went-dark-and-why-its-been-so-hard-to-protect/
-[94]: {{ "/contact/" | relative_url }}
-[95]: {{ "/media/" | relative_url }}
+[94]: https://www.dailynews.com/2026/02/20/why-the-sixth-street-viaduct-went-dark-and-why-its-been-so-hard-to-protect/
+[95]: https://www.jalopnik.com/2103845/one-way-streets-help-traffic-flow/
+[contact]: {{ "/contact/" | relative_url }}
+[self]: {{ "/media/" | relative_url }}
