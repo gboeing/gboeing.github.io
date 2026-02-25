@@ -17,10 +17,10 @@ analysis, geospatial data science, and machine learning. It has won several
 Springer Award, and the Zephyr Foundation's Technical Achievement Award. My
 research is regularly featured in the [media][7]—including _The Economist_,
 _The Guardian_, _The Atlantic_, and _The Washington Post_—and I've presented
-it at the Venice Biennale of Architecture and in several keynote talks.
+it at the Venice Biennale of Architecture and in keynote talks around the world.
 
 I have served on the editorial boards of several journals, including
-_Urban Studies_, _Annals of the AAG_, and _Cities_, and I have published my
+_Urban Studies_, _Annals of the AAG_, and _Cities_, and have published my
 [research][8] in journals across scientific and policy disciplines, including
 _The Lancet Global Health_, the _Journal of the American Planning Association_,
 _Urban Studies_, _Geographical Analysis_, and _Applied Network Science_. I also

@@ -25,6 +25,7 @@ minima:
     - index.md
     - _pages/cv.md
     - _pages/research.md
+    - _pages/notes.md
     - _pages/lab.md
     - _pages/media.md
     - _pages/contact.md
