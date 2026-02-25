@@ -5,5 +5,5 @@ nav_title: Notes
 permalink: /notes/
 ---
 
-This is a long-running series of short blog posts discussing ongoing projects,
-"how-to" tutorials, forthcoming publications, and other research-related news.
+A long-running series of short blog posts discussing ongoing projects,
+sharing new publications, and exploring how to do things I find interesting.

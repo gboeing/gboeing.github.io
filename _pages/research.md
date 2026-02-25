@@ -18,8 +18,9 @@ and residential segregation.
 
 ## Publications
 
-Here are a few representative papers. See my [CV][10] or [Google Scholar][8] for a
-complete listing.
+I have published peer-reviewed articles in dozens of journals across scientific
+and policy disciplines. Here are a few representative papers. See my [CV][10]
+or [Google Scholar][8] for a complete listing.
 
 - **Boeing G**. 2025. Modeling and Analyzing Urban Networks and Amenities with
   OSMnx. [_Geographical Analysis_][5] 57 (4), 567-577.
@@ -53,17 +54,11 @@ complete listing.
 My research has won several awards. Here are a few of them. See my [CV][10] for
 a complete listing.
 
-- [Nobel Sustainability Award][14], 2025
+- [Nobel Sustainability Award][14] for outstanding research, 2025
 - [Zephyr Foundation Technical Achievement Award][16], 2025
 - [Stough-Johansson Springer Award][17], best paper, 2020
 - [Information Is Beautiful Awards][13] shortlist, 2018
 - [Accenture Inventor Innovation Award][19], 2010
-
-## Research Notes
-
-I publish [research notes][20] about once a month: this is a long-running
-series of short blog posts discussing ongoing projects, "how-to" tutorials,
-forthcoming publications, and other research-related news.
 
 <!-- markdownlint-disable MD013 -->
 [1]: https://doi.org/10.1007/s41109-019-0189-1
