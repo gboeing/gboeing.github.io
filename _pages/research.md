@@ -54,7 +54,7 @@ or [Google Scholar][8] for a complete listing.
 My research has won several awards. Here are a few of them. See my [CV][10] for
 a complete listing.
 
-- [Nobel Sustainability Award][14], 2025
+- [Nobel Sustainability Award][14] for outstanding research, 2025
 - [Zephyr Foundation Technical Achievement Award][16], 2025
 - [Stough-Johansson Springer Award][17], best paper, 2020
 - [Information Is Beautiful Awards][13] shortlist, 2018

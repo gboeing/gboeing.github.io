@@ -22,7 +22,6 @@ minima:
   skin: classic
   date_format: '%-d %b %Y'
   nav_pages:
-    - index.md
     - _pages/cv.md
     - _pages/research.md
     - _pages/notes.md

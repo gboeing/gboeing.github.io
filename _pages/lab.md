@@ -31,9 +31,9 @@ scientist interested in urbanism and planning, we will teach you how to unlock
 your skills for more equitable cities.
 
 I encourage you to apply and join us in USC's [Master of Urban Planning][1] or
-[PhD][2] programs. You can also [contact][6] me to discuss your fit with the
-department and lab: send me a succinct, specific, and personalized summary of
-your fit (research interests, background, relevant skills) and attach your CV.
+[PhD][2] programs. You can also [contact][6] me to discuss your fit: send me a
+succinct, specific, and personalized summary of your research interests,
+background, and relevant skills and attach your CV.
 
 <!-- markdownlint-disable MD013 -->
 [1]: https://priceschool.usc.edu/mup/
