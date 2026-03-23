@@ -16,7 +16,7 @@ around the world to target interventions, explore how urban planning creates
 shapes the modern [housing search][15] to reproduce traditional inequalities
 and residential segregation.
 
-## Publications
+## Representative publications
 
 I have published peer-reviewed articles in dozens of journals across scientific
 and policy disciplines. Here are a few representative papers. See my [CV][10]
@@ -54,6 +54,7 @@ or [Google Scholar][8] for a complete listing.
 My research has won several awards. Here are a few of them. See my [CV][10] for
 a complete listing.
 
+- [AAG SAM Emerging Scholar Award][20], 2026
 - [Nobel Sustainability Award][14] for outstanding research, 2025
 - [Zephyr Foundation Technical Achievement Award][16], 2025
 - [Stough-Johansson Springer Award][17], best paper, 2020
@@ -79,4 +80,4 @@ a complete listing.
 [16]: {{ "/2025/03/zephyr-foundation-award/" | relative_url }}
 [17]: {{ "/2020/11/off-grid-back-again/" | relative_url }}
 [19]: {{ "/publications/systems-methods-analyzing-requirements/" | relative_url }}
-[20]: {{ "/notes/" | relative_url }}
+[20]: {{ "/2026/03/aag-sam-award/" | relative_url }}
