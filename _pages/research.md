@@ -22,29 +22,33 @@ I have published peer-reviewed articles in dozens of journals across scientific
 and policy disciplines. Here are a few representative papers. See my [CV][10]
 or [Google Scholar][8] for a complete listing.
 
+- **Boeing G**. 2026. Urban Science Beyond Samples: Up-to-Date Street Network
+  Models and Indicators for Every Urban Area in the World.
+  [_Environment and Planning B_][9], published online ahead of print.
+
 - **Boeing G**. 2025. Modeling and Analyzing Urban Networks and Amenities with
   OSMnx. [_Geographical Analysis_][5] 57 (4), 567-577.
 
 - **Boeing G** and J Ha. 2024. Resilient by Design: Simulating Street Network
   Disruptions across Every Urban Area in the World. [_Transportation Research
-  Part A: Policy and Practice_][3] 182, 104016.
+  Part A_][3] 182, 104016.
 
 - **Boeing G**, Y Lu, and C Pilgram. 2023. Local Inequities in the Relative
   Production of and Exposure to Vehicular Air Pollution in Los Angeles. [_Urban
   Studies_][6] 60 (12), 2351-2368.
 
-- **Boeing G**, C Higgs, S Liu, B Giles-Corti, JF Sallis, ..., and J Arundel.
-  2022\. Using Open Data and Open-Source Software to Develop Spatial Indicators
-  of Urban Design and Transport Features for Achieving Healthy and Sustainable
-  Cities. [_The Lancet Global Health_][2] 10 (6), 907-918.
+- **Boeing G**, et al. 2022. Using Open Data and Open-Source Software to
+  Develop Spatial Indicators of Urban Design and Transport Features for
+  Achieving Healthy and Sustainable Cities. [_The Lancet Global Health_][2]
+  10 (6), 907-918.
 
 - **Boeing G**. 2021. Off the Grid... and Back Again? The Recent Evolution of
   American Street Network Planning and Design. [_Journal of the American
   Planning Association_][4] 87 (1), 123-137.
 
 - **Boeing G**. 2020. Online Rental Housing Market Representation and the
-  Digital Reproduction of Urban Inequality. [_Environment and Planning A:
-  Economy and Space_][7] 52 (2), 449-468.
+  Digital Reproduction of Urban Inequality. [_Environment and Planning A_][7]
+  52 (2), 449-468.
 
 - **Boeing G**. 2019. Urban Spatial Order: Street Network Orientation,
   Configuration, and Entropy. [_Applied Network Science_][1] 4 (1), 67.
@@ -70,7 +74,7 @@ a complete listing.
 [6]: https://doi.org/10.1177/00420980221145403
 [7]: https://doi.org/10.1177/0308518X19869678
 [8]: https://scholar.google.com/citations?user=xaKBPQQAAAAJ
-[9]: {{ "/" | relative_url }}
+[9]: https://doi.org/10.1177/23998083261446991
 [10]: {{ "/cv/" | relative_url }}
 [11]: {{ "/lab/" | relative_url }}
 [12]: {{ "/2020/11/off-grid-back-again/" | relative_url }}
