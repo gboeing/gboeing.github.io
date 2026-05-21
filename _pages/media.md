@@ -6,8 +6,11 @@ permalink: /media/
 
 For media inquiries, please [contact][contact] me directly.
 
-Here are some of the media publications that have previously covered my work or
-interviewed me:
+Here are some of the media publications that have previously covered my work
+or interviewed me:
+
+- [_ANSA_][96] (Italy). "A Torino la Conferenza Italiana sulle Scienze Sociali
+  Computazionali." May 19, 2026.
 
 - [_Jalopnik_][95]. "Do One-Way Streets Really Help Traffic Flow (Or Are They
   Just Annoying)?" February 21, 2026.
@@ -385,5 +388,6 @@ interviewed me:
 [93]: https://www.wcvb.com/article/this-explains-why-newcomers-have-such-a-hard-time-navigating-boston/22116483
 [94]: https://www.dailynews.com/2026/02/20/why-the-sixth-street-viaduct-went-dark-and-why-its-been-so-hard-to-protect/
 [95]: https://www.jalopnik.com/2103845/one-way-streets-help-traffic-flow/
+[96]: https://www.ansa.it/piemonte/notizie/2026/05/19/a-torino-la-conferenza-italiana-sulle-scienze-sociali-computazionali_14461d4d-6035-4b41-85e2-6cd5c8c33219.html
 [contact]: {{ "/contact/" | relative_url }}
 [self]: {{ "/media/" | relative_url }}

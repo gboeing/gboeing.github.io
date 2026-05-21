@@ -18,9 +18,9 @@ and residential segregation.
 
 ## Representative publications
 
-I have published peer-reviewed articles in dozens of journals across scientific
-and policy disciplines. Here are a few representative papers. See my [CV][10]
-or [Google Scholar][8] for a complete listing.
+I have published peer-reviewed articles in journals across scientific and
+policy disciplines. Here are a few representative papers. See my [CV][10] or
+[Google Scholar][8] for a complete listing.
 
 - **Boeing G**. 2026. Urban Science Beyond Samples: Up-to-Date Street Network
   Models and Indicators for Every Urban Area in the World.
