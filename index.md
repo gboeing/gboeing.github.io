@@ -19,17 +19,18 @@ featured in the [media][7]—including _The Economist_, _The Guardian_,
 _The Atlantic_, and _The Washington Post_—and I've presented it at the Venice
 Biennale of Architecture and in keynote talks around the world.
 
-I have served on the editorial boards of several journals, including _Urban Studies_,
-_Annals of the AAG_, and _Environment and Planning B_, and have published my
-[research][8] in journals across scientific and policy disciplines, including
+I have served on the editorial boards of several scientific journals,
+including _Urban Studies_, _Annals of the AAG_, _Geographical Analysis_,
+and _Environment and Planning B_, and I've published my [research][8] in
+journals across scientific and policy disciplines, including
 _The Lancet Global Health_, the _Journal of the American Planning Association_,
-_Urban Studies_, _Geographical Analysis_, and _Applied Network Science_. I also
+_Urban Studies_, _Geographical Analysis_, and _Physical Review Letters_. I also
 developed and maintain the [OSMnx][1] street network modeling software—which
 has become a standard tool in industry and academia—and I've consulted for
 many planning, policymaking, and public health organizations.
 
 Before all that, I grew up in Rancho Cucamonga, California and received my PhD
-in City and Regional Planning from the University of California, Berkeley. I
+from the University of California, Berkeley in City and Regional Planning. I
 have never played a round of golf or drunk a cup of coffee in my life.
 
 <!-- markdownlint-disable-next-line MD036 -->
