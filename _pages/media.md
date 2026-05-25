@@ -30,8 +30,8 @@ interviewed me:
 - [_Voice of OC_][28]. "Will Construction Jams on the 55 Freeway Payoff for
   Commuters?" 21 February 2025.
 
-- [_U.N. Office for Disaster Risk Reduction_][77]. "USC study shows which
-  street network designs are more resilient to disasters." 25 November 2024.
+- [_U.N. Office for Disaster Risk Reduction_][77]. "USC Study Shows Which
+  Street Network Designs Are More Resilient to Disasters." 25 November 2024.
 
 - [_Charlotte Magazine_][42]. "Charlotte Traffic: 5 Secrets of the Anti-Grid."
   15 July 2024.
@@ -93,7 +93,7 @@ interviewed me:
 - [_Stuff_][83] (New Zealand). "Auckland Lacking Health-Focused Public
   Transport Policy – Study." 13 May 2022.
 
-- [_The Guardian_][87]. "Australian Cities among Worst Performing on
+- [_The Guardian_][87]. "Australian Cities Among Worst Performing on
   Walkability and Public Transport Access." 11 May 2022.
 
 - [_Tasmanian Times_][22]. "Australian Cities Out-of-Step on Walkability,
@@ -160,7 +160,7 @@ interviewed me:
 - [_Courrier International_][53] (France). "Quelles sont les villes à
   l'urbanisme le plus 'chaotique?'" 17 September 2018.
 
-- [_Planetizen_][72]. "Chart Your City's Street Network to Understand its
+- [_Planetizen_][72]. "Chart Your City's Street Network to Understand Its
   Logic." 14 August 2018.
 
 - [_FiveThirtyEight_][5]. "Comparing US City Street Orientations." 1 August
@@ -218,8 +218,8 @@ interviewed me:
 - [_T Journal_][33] (Russia). "Разработчик научил бота Microsoft описывать
   города на фото, но он не всегда справляется." 20 September 2017.
 
-- [_The Next Web_][24]. "Watch Microsoft's AI suck at captioning gorgeous city
-  landscapes on Twitter." 20 September 2017.
+- [_The Next Web_][24]. "Watch Microsoft's AI Suck at Captioning Gorgeous City
+  Landscapes on Twitter." 20 September 2017.
 
 - [_General Pop Magazine_][34] (France). "Quand l'IA de Microsoft Confond des
   Immeubles et des Cactus." 20 September 2017.
@@ -242,7 +242,7 @@ interviewed me:
 - [_Flowing Data_][6]. "One Square Mile in Different Cities." 10 February
   2017\.
 
-- [_Forbes_][62]. "Understanding Our Cities, Thanks To Beautiful Maps." 7
+- [_Forbes_][62]. "Understanding Our Cities, Thanks to Beautiful Maps." 7
   February 2017.
 
 - [_Fast Company_][60]. "Turn Your Local Streets into a Map That Reveals the
@@ -253,10 +253,10 @@ interviewed me:
 
 - [_Domus Magazine_][31]. "Do-It-Yourself City Mapping." 23 January 2017.
 
-- [_NextCity_][11]. "Compare City Grids With This Street Network Tool." 23
+- [_NextCity_][11]. "Compare City Grids with This Street Network Tool." 23
   January 2017.
 
-- [_CityLab_][46]. "A Digital Window Into Your City's Urban Form." 17 January
+- [_CityLab_][46]. "A Digital Window into Your City's Urban Form." 17 January
   2017\.
 
 - [_Discovery News_][79]. "Compare City Street Grids One Square Mile at a
