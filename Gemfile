@@ -5,11 +5,11 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.4.1"
 
 # pin gem-based theme to specific github commit to get unreleased v3
-gem "minima", github: "jekyll/minima", ref: "bf9ef98"
+gem "minima", github: "jekyll/minima", ref: "4de3223"
 
 # pin jekyll plugins to minor versions with min patch versions
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17.0"
-  gem "jekyll-seo-tag", "~> 2.8.0"
+  gem "jekyll-seo-tag", "~> 2.9.0"
   gem "jekyll-sitemap", "~> 1.4.0"
 end
