@@ -48,7 +48,7 @@ or interviewed me:
 - [_KPCC/LAist Radio_][9]. "LA Traffic Is Worse, But Not Terrible and It
   Probably Won't Get Better." November 16, 2023.
 
-- [_San Francisco Chronicle_][81]. "We Want to Build a City of Yesterday."
+- [_The San Francisco Chronicle_][81]. "We Want to Build a City of Yesterday."
   October 25, 2023.
 
 - [_Streetsblog USA_][27]. "White Roads through Black Bedrooms: How Urban
@@ -128,7 +128,7 @@ or interviewed me:
 - [_Congress for the New Urbanism_][49]. "The Grid Makes a Comeback." December
   1, 2020.
 
-- [_Next City_][13]. "What a Biden Transportation Program Will Look Like."
+- [_NextCity_][13]. "What a Biden Transportation Program Will Look Like."
   November 12, 2020.
 
 - [_Apogeo_][36] (Italy). "5 Risposte Su... Imparare a Pensare in Modo
@@ -169,14 +169,14 @@ or interviewed me:
 
 - [_CityLab_][48]. "Visualizing the Hidden Logic of Cities." July 26, 2018.
 
-- [_99 Percent Invisible_][1]. "On the Grid: Visualizing Street Network
-  Orientations Across 50 Global Cities." July 20, 2018.
-
 - [_New Statesman CityMetric_][32]. "Do British Cities Have Grid Systems? We
   Used Science to Find Out." July 23, 2018.
 
 - [_The Big Think_][3]. "Street Grids Matter More to Your Commute than You
   Might Think." July 23, 2018.
+
+- [_99 Percent Invisible_][1]. "On the Grid: Visualizing Street Network
+  Orientations Across 50 Global Cities." July 20, 2018.
 
 - [_Fast Company_][61]. "How Crazy Is Your City's Plan?" July 16, 2018.
 
