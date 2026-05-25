@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Social-Transactional Spectrum in Shared Housing
-date: 2026-05-25 06:00:00-07:00
+date: 2026-05-25 02:00:00-07:00
 permalink: /2026/05/social-transactional-shared-housing/
 ---
 
