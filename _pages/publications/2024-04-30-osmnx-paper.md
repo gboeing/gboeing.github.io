@@ -8,7 +8,7 @@ This is the official reference paper for the OSMnx package. If you use OSMnx in
 your work, please cite it as:
 
 Boeing, G. 2025. "Modeling and Analyzing Urban Networks and Amenities with
-OSMnx." _Geographical Analysis_, published online ahead of print.
+OSMnx." _Geographical Analysis_, 57 (4), 567-577.
 doi:10.1111/gean.70009
 
 [Download PDF][1] open-access from _Geographical Analysis_.
