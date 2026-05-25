@@ -18,28 +18,32 @@ if [[ "${#files[@]}" -eq 0 ]]; then
 fi
 
 status=0
+cmd=(uvx --with yamllint yamllint)
 
 for file in "${files[@]}"; do
   [[ -f "$file" ]] || continue
 
-  # Front matter must start on line 1
-  if ! sed -n '1p' "$file" | grep -Fxq -- '---'; then
-    continue
-  fi
+  # Extract front matter, including --- markers. It must start on line 1.
+  frontmatter="$(
+    awk '
+      NR == 1 && $0 != "---" {exit}
+      NR == 1 {print; next}
+      NR > 1 {
+        print
+        if ($0 == "---") {exit}
+      }
+    ' "$file"
+  )"
 
-  # Extract front matter including --- markers
-  frontmatter="$(sed -n '1{/^---$/!q};/^---$/,/^---$/p' "$file")"
   if [[ -n "$frontmatter" ]]; then
-    # Run yamllint only on stdin, no filenames
-    CMD="uvx --with yamllint yamllint"
-    output="$(echo "$frontmatter" | $CMD "${yamllint_args[@]}" - 2>&1)" || rc=$?
+    rc=0
 
-    # Remove leading/trailing blank lines
-    output="$(echo "$output" | sed '/^[[:space:]]*$/d')"
+    # Run yamllint only on stdin, no filenames.
+    output="$(printf '%s\n' "$frontmatter" | "${cmd[@]}" "${yamllint_args[@]}" - 2>&1)" || rc=$?
 
     if [[ -n "$output" ]]; then
-      # Replace "stdin" with the actual filename
-      echo "$output" | sed "s|^stdin\$|$file|"
+      # Replace "stdin" with the actual filename and remove blank lines.
+      printf '%s\n' "$output" | awk -v file="$file" 'NF {print ($0 == "stdin" ? file : $0)}'
     fi
 
     if [[ "${rc:-0}" -ne 0 ]]; then
