@@ -6,9 +6,9 @@ title: >
 permalink: /publications/rental-housing-spot-markets/
 ---
 
-**Cite as:** Boeing, G., J. Wegmann, and J. Jiao. 2020. "Rental Housing Spot
+**Cite as:** Boeing, G., J. Wegmann, and J. Jiao. 2023. "Rental Housing Spot
 Markets: How Online Information Exchanges Can Supplement Transacted-Rents Data."
-_Journal of Planning Education and Research_, published online ahead of print.
+_Journal of Planning Education and Research_, 43 (3), 525-537.
 doi:10.1177/0739456X20904435
 
 Download PDF from [JPER][1] or [SSRN][4] or [SocArXiv][3] or [eScholarship][2].

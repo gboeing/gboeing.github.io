@@ -82,7 +82,7 @@ latitude-longitude data.
 
 Time to cluster. I begin by importing necessary Python modules and loading up
 the full data set. I convert the latitude and longitude coordinates' columns
-into a two-dimensional numpy array, called _coords_ :
+into a two-dimensional numpy array, called _coords_:
 
 ```python
 import pandas as pd, numpy as np, matplotlib.pyplot as plt

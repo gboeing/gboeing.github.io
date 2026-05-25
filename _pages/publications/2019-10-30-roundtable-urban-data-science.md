@@ -4,7 +4,7 @@ title: 'A Roundtable Discussion: Defining Urban Data Science'
 permalink: /publications/roundtable-urban-data-science/
 ---
 
-**Cite as** : Kang, W., T. Oshan, L.J. Wolf, G. Boeing, V. Frias-Martinez, S.
+**Cite as:** Kang, W., T. Oshan, L.J. Wolf, G. Boeing, V. Frias-Martinez, S.
 Gao, A. Poorthuis, and W. Xu. 2019. "A Roundtable Discussion: Defining Urban
 Data Science." Environment and Planning B: Urban Analytics and City Science, 46
 (9), 1756-1768. doi:10.1177/2399808319882826

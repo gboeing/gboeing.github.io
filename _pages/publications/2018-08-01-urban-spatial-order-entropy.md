@@ -4,7 +4,7 @@ title: 'Urban Spatial Order: Street Network Orientation, Configuration, and Entr
 permalink: /publications/urban-spatial-order-entropy/
 ---
 
-**Cite as** : Boeing, G. 2019. "Urban Spatial Order: Street Network Orientation,
+**Cite as:** Boeing, G. 2019. "Urban Spatial Order: Street Network Orientation,
 Configuration, and Entropy." _Applied Network Science_, 4 (1), 67.
 doi:10.1007/s41109-019-0189-1
 

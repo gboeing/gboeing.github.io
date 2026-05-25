@@ -4,7 +4,7 @@ title: The Relative Circuity of Walkable and Drivable Urban Street Networks
 permalink: /publications/relative-circuity-walkable-drivable-street-networks/
 ---
 
-**Cite as** : Boeing, G. 2018. "The Relative Circuity of Walkable and Drivable
+**Cite as:** Boeing, G. 2018. "The Relative Circuity of Walkable and Drivable
 Urban Street Networks." Transportation Research Board 97th Annual Meeting
 Compendium of Papers. Washington, DC.
 

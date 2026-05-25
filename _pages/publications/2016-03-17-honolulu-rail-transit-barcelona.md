@@ -7,7 +7,7 @@ permalink: /publications/honolulu-rail-transit-barcelona/
 ---
 
 **Cite as:** Boeing, G. 2016. "Honolulu Rail Transit: International Lessons from
-Barcelona in Linking Urban Form, Design, and Transportation." _Planext_ , 2,
+Barcelona in Linking Urban Form, Design, and Transportation." _Planext_, 2,
 28–47. doi:[10.17418/planext.2016.3vol.02][1]
 
 Download PDF from [ResearchGate][3] or [SSRN][2]

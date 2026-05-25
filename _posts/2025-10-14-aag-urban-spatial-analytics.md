@@ -51,10 +51,10 @@ and spatial analytics. Example topics could include:
   through the tools of urban data science and spatial analytics that has the
   potential to produce meaningful and plausible change
 
-**Where/When** : this session will be in-person at the American Association of
+**Where/When:** this session will be in-person at the American Association of
 Geographers [Annual Meeting][1], March 17-21, 2026, San Francisco, California.
 
-**How to submit** : submit your abstract to AAG by its Oct 30 deadline. Then
+**How to submit:** submit your abstract to AAG by its Oct 30 deadline. Then
 email your abstract and AAG PIN to both Geoff (boeing at usc dot edu) and
 Elizabeth (delmelle at design dot upenn dot edu) by Nov 1 for us to consider for
 the session. Session participants will be notified by Nov 20.

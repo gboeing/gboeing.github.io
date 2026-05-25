@@ -4,10 +4,10 @@ title: Converting One-Way Streets to Two-Way Streets
 permalink: /publications/converting-one-way-streets/
 ---
 
-**Cite as** : Boeing, G. and W. Riggs. 2022. "Converting One-Way Streets to
+**Cite as:** Boeing, G. and W. Riggs. 2024. "Converting One-Way Streets to
 Two-Way Streets to Improve Transportation Network Efficiency and Reduce Vehicle
-Distance Traveled." _Journal of Planning Education and Research_, published
-online ahead of print. doi:10.1177/0739456X221106334
+Distance Traveled." _Journal of Planning Education and Research_, 44 (3),
+1670-1678. doi:10.1177/0739456X221106334
 
 Download PDF from [JPER][1] or [SocArXiv][2].
 

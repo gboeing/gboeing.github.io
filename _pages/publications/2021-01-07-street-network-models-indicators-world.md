@@ -4,9 +4,9 @@ title: Street Network Models and Indicators for Every Urban Area in the World
 permalink: /publications/street-network-models-indicators-world/
 ---
 
-**Cite as** : Boeing, G. 2021. "Street Network Models and Indicators for Every
-Urban Area in the World." _Geographical Analysis_, published online before
-print. doi:10.1111/gean.12281
+**Cite as:** Boeing, G. 2021. "Street Network Models and Indicators for Every
+Urban Area in the World." _Geographical Analysis_, 54 (3), 519-535.
+doi:10.1111/gean.12281
 
 Download PDF from _[Geographical Analysis][2]_ or [SocArXiv][3].
 

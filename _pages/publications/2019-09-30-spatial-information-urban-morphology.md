@@ -4,7 +4,7 @@ title: Spatial Information and the Legibility of Urban Form
 permalink: /publications/spatial-information-urban-morphology/
 ---
 
-**Cite as** : Boeing, G. 2019. "Spatial Information and the Legibility of Urban
+**Cite as:** Boeing, G. 2019. "Spatial Information and the Legibility of Urban
 Form: Big Data in Urban Morphology." _International Journal of Information
 Management_, 56, 102013. doi:10.1016/j.ijinfomgt.2019.09.009
 

@@ -6,7 +6,7 @@ title: >
 permalink: /publications/multiscale-analysis-street-networks/
 ---
 
-**Cite as** : Boeing, G. 2020. "A Multi-Scale Analysis of 27,000 Urban Street
+**Cite as:** Boeing, G. 2020. "A Multi-Scale Analysis of 27,000 Urban Street
 Networks: Every US City, Town, Urbanized Area, and Zillow Neighborhood."
 _Environment and Planning B_ _: Urban Analytics and City Science_, 47 (4),
 590-608. doi: 10.1177/2399808318784595

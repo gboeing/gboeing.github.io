@@ -4,7 +4,7 @@ title: Measuring the Complexity of Urban Form and Design
 permalink: /publications/measuring-complexity-urban-form/
 ---
 
-**Cite as** : Boeing, G. 2018. "Measuring the Complexity of Urban Form and
+**Cite as:** Boeing, G. 2018. "Measuring the Complexity of Urban Form and
 Design." _Urban Design International_, 23 (4), 281-292.
 doi:10.1057/s41289-018-0072-1
 

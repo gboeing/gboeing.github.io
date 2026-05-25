@@ -6,10 +6,10 @@ title: >
 permalink: /publications/generalized-framework-pedestrian-accessibility/
 ---
 
-**Cite as** : Liu, S., C. Higgs, J. Arundel, G. Boeing, N. Cerdera, D.
-Moctezuma, E. Cerin, D. Adlakha, M. Lowe, and B. Giles-Corti. 2021. "A
+**Cite as:** Liu, S., C. Higgs, J. Arundel, G. Boeing, N. Cerdera, D.
+Moctezuma, E. Cerin, D. Adlakha, M. Lowe, and B. Giles-Corti. 2022. "A
 Generalized Framework for Measuring Pedestrian Accessibility around the World
-Using Open Data." _Geographical Analysis_, published online before print.
+Using Open Data." _Geographical Analysis_, 54 (3), 559-582.
 doi:10.1111/gean.12290
 
 Download PDF from [SocArXiv][2] or [Geographical Analysis][1].

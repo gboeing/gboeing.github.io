@@ -4,7 +4,7 @@ title: 'Exploring Urban Form Through OpenStreetMap Data: A Visual Introduction'
 permalink: /publications/exploring-urban-form-openstreetmap/
 ---
 
-**Cite as** : Boeing, G. 2020. "Exploring Urban Form Through OpenStreetMap Data:
+**Cite as:** Boeing, G. 2020. "Exploring Urban Form Through OpenStreetMap Data:
 A Visual Introduction." In: _Urban Experience and Design: Contemporary
 Perspectives on Improving the Public Realm_ (pp. 167–184), edited by J. B.
 Hollander and A. Sussman. Abingdon, England: Routledge. ISBN 978-0-367-43558-5.
