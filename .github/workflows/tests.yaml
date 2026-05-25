@@ -43,3 +43,12 @@ jobs:
         run: uvx prek run --all-files
         env:
           SKIP: no-commit-to-branch
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.307.0
+        with:
+          ruby-version: .ruby-version
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --trace
