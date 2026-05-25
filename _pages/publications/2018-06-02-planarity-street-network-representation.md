@@ -4,7 +4,7 @@ title: Planarity and Street Network Representation in Urban Form Analysis
 permalink: /publications/planarity-street-network-representation/
 ---
 
-**Cite as** : Boeing, G. 2020. "Planarity and Street Network Representation in
+**Cite as:** Boeing, G. 2020. "Planarity and Street Network Representation in
 Urban Form Analysis." _Environment and Planning B_, 47 (5), 855-869.
 doi:10.1177/2399808318802941
 

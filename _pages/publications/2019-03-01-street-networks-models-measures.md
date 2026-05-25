@@ -4,7 +4,7 @@ title: Street Network Models and Measures
 permalink: /publications/street-networks-models-measures/
 ---
 
-**Cite as** : Boeing, G. 2018. "Street Network Models and Measures for Every
+**Cite as:** Boeing, G. 2018. "Street Network Models and Measures for Every
 U.S. City, County, Urbanized Area, Census Tract, and Zillow-Defined
 Neighborhood." _Urban Science_, 3 (1), 28. doi: 10.3390/urbansci3010028
 

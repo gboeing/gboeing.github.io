@@ -4,7 +4,7 @@ title: Estimating Local Daytime Population Density from Census and Payroll Data
 permalink: /publications/estimating-density-census-payroll/
 ---
 
-**Cite as** : Boeing, G. 2018. "Estimating Local Daytime Population Density from
+**Cite as:** Boeing, G. 2018. "Estimating Local Daytime Population Density from
 Census and Payroll Data." _Regional Studies, Regional Science_, 5 (1), 179-182.
 doi:10.1080/21681376.2018.1455535
 

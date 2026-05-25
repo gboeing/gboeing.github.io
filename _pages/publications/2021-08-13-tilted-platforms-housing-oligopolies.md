@@ -6,7 +6,7 @@ title: >
 permalink: /publications/tilted-platforms-housing-oligopolies/
 ---
 
-**Cite as** : Boeing, G., M. Besbris, D. Wachsmuth, and J. Wegmann. "Tilted
+**Cite as:** Boeing, G., M. Besbris, D. Wachsmuth, and J. Wegmann. "Tilted
 Platforms: Rental Housing Technology and the Rise of Urban Big Data
 Oligopolies." _Urban Transformations_, 3, 6. doi:10.1186/s42854-021-00024-2
 

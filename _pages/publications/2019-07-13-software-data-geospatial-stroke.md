@@ -8,7 +8,7 @@ permalink: /publications/software-data-geospatial-stroke/
 
 **Cite as:** Padgham, M., G. Boeing, D. Cooley, N. Tierney, M. Sumner, T. Phan,
 and R. Beare. 2019. "An Introduction to Software Tools, Data, and Services for
-Geospatial Analysis of Stroke Services." _Frontiers in Neurology_ , 10, 743.
+Geospatial Analysis of Stroke Services." _Frontiers in Neurology_, 10, 743.
 doi:10.3389/fneur.2019.00743
 
 Download PDF from [_Frontiers in Neurology_][1]

@@ -7,7 +7,7 @@ title: >
 permalink: /publications/urban-displacement-agglomeration-model/
 ---
 
-**Cite as** : Boeing, G. 2018. "The Effects of Inequality, Density, and
+**Cite as:** Boeing, G. 2018. "The Effects of Inequality, Density, and
 Heterogeneous Residential Preferences on Urban Displacement and Metropolitan
 Structure: An Agent-Based Model." _Urban Science_, 2 (3), 76.
 [doi:10.3390/urbansci2030076][2]

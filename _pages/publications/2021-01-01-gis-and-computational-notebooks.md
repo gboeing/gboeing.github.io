@@ -4,7 +4,7 @@ title: GIS and Computational Notebooks
 permalink: /publications/gis-and-computational-notebooks/
 ---
 
-**Cite as** : Boeing, G. and D. Arribas-Bel. 2021. "_GIS and Computational
+**Cite as:** Boeing, G. and D. Arribas-Bel. 2021. "_GIS and Computational
 Notebooks_." In: The Geographic Information Science & Technology Body of
 Knowledge, edited by J. P. Wilson. Ithaca, NY: University Consortium for
 Geographic Information Science.
