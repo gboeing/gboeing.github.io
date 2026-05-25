@@ -69,7 +69,7 @@ usual suspects from Southern California, Hawaii, and the Eastern Seaboard also
 pepper this list. But among the 15 most populous metro areas, the large cities
 elsewhere in the Sunbelt (plus Detroit) are much cheaper:
 
-![The most most populous Craigslist cities, by median rent per square foot: New
+![The most populous Craigslist cities, by median rent per square foot: New
 York, Boston, Miami, San Francisco Bay Area, Los Angeles, Chicago, Philadelphia,
 Seattle, Washington D.C., Dallas, Houston, Detroit, Phoenix, Atlanta][7]
 
@@ -260,7 +260,7 @@ for housing research.
 
 [Download the journal article][15]
 
-**Citation info** : Boeing, G. and P. Waddell. 2016. "New Insights into Rental
+**Citation info:** Boeing, G. and P. Waddell. 2016. "New Insights into Rental
 Housing Markets across the United States: Web Scraping and Analyzing Craigslist
 Rental Listings." _Journal of Planning Education and Research_. Online first.
 DOI: 10.1177/0739456X16664789

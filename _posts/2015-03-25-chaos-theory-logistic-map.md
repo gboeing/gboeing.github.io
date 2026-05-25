@@ -216,7 +216,7 @@ Here's what happens when these period-doubling bifurcations lead to chaos:
 
 The plot on the left depicts a parabola formed by a growth rate parameter of
 3.9. The plot on the right depicts 50 different growth rate parameters between
-3.6 and 4.0. This range of parameters represents the _chaotic regime_ : the
+3.6 and 4.0. This range of parameters represents the _chaotic regime_: the
 range of parameter values in which the logistic map behaves chaotically. Each
 growth rate forms its own curve. These parabolas never overlap, due to their
 fractal geometry and the deterministic nature of the logistic equation.

@@ -59,7 +59,7 @@ from true randomness. Fortunately, we can use phase diagrams to tell them apart.
 A phase diagram is a [return map][1] that plots some system value at generation
 _t + 1_ on the y-axis versus its value at _t_ on the x-axis. The nifty trick
 with our phase diagrams is that they essentially embed 1-dimensional time series
-data from the logistic map into 2-dimensional _state space_ : an imaginary space
+data from the logistic map into 2-dimensional _state space_: an imaginary space
 that uses system variables as its dimensions. Each point in state space is a
 possible system state, or in other words, a set of variable values.
 

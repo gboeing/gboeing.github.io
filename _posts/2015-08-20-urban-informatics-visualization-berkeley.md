@@ -5,7 +5,7 @@ date: 2015-08-20 14:20:13-07:00
 permalink: /2015/08/urban-informatics-visualization-berkeley/
 ---
 
-_Update, September 2017_ : I am no longer a Berkeley GSI, but Paul's class is
+_Update, September 2017_: I am no longer a Berkeley GSI, but Paul's class is
 ongoing. Check out his teaching materials in [his GitHub][4] repo.
 From my experiences here, I have developed a course series on urban data science
 with Python and Jupyter, available in [this GitHub repo][3].

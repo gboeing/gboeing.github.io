@@ -39,11 +39,11 @@ In three dimensions, these trajectories never overlap and the system never lands
 on the same point twice, due to its fractal geometry. We can also look at this
 attractor in two dimensions with matplotlib:
 
-![][9]
+![Lorenz attractor phase plane plotted with Python matplotlib][9]
 
 For more about chaos, check out this [blog post][7] and this [article][10]. You
 can easily animate the Lorenz system and visualize its strange attractor with
-Python, using my code this [GitHub repo][1]. You might also be interested in
+Python, using my code in this [GitHub repo][1]. You might also be interested in
 [Pynamical][3], a Python package for easily playing around with chaos, fractals,
 and strange attractors.
 
