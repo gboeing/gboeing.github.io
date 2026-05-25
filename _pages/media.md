@@ -6,291 +6,290 @@ permalink: /media/
 
 For media inquiries, please [contact][contact] me directly.
 
-Here are some of the media publications that have previously covered my work
-or interviewed me:
+Here are some of the media publications that have previously covered my work or
+interviewed me:
 
 - [_ANSA_][96] (Italy). "A Torino la Conferenza Italiana sulle Scienze Sociali
-  Computazionali." May 19, 2026.
+  Computazionali." 19 May 2026.
 
 - [_Jalopnik_][95]. "Do One-Way Streets Really Help Traffic Flow (Or Are They
-  Just Annoying)?" February 21, 2026.
+  Just Annoying)?" 21 February 2026.
 
 - [_Los Angeles Daily News_][94]. "Why the Sixth Street Viaduct Went Dark, and
-  Why It's Been So Hard to Protect." February 21, 2026.
+  Why It's Been So Hard to Protect." 21 February 2026.
 
 - [_MIT Technology Review_][84]. "This Startup Thinks Slime Mold Can Help Us
-  Design Better Cities." October 17, 2025.
+  Design Better Cities." 17 October 2025.
 
-- [_Bloomberg_][39]. "One-Way Streets Are the Wrong Way to Tame
-  Downtown Traffic." September 4, 2025.
+- [_Bloomberg_][39]. "One-Way Streets Are the Wrong Way to Tame Downtown
+  Traffic." 4 September 2025.
 
-- [_CNU Public Square_][51]. "An Innovative Street Grid Proposal." February
-  25, 2025.
+- [_CNU Public Square_][51]. "An Innovative Street Grid Proposal." 25 February
+  2025\.
 
 - [_Voice of OC_][28]. "Will Construction Jams on the 55 Freeway Payoff for
-  Commuters?" February 21, 2025.
+  Commuters?" 21 February 2025.
 
-- [_U.N. Office for Disaster Risk Reduction_][77]. "USC study shows which
-  street network designs are more resilient to disasters." November 25, 2024.
+- [_U.N. Office for Disaster Risk Reduction_][77]. "USC Study Shows Which
+  Street Network Designs Are More Resilient to Disasters." 25 November 2024.
 
 - [_Charlotte Magazine_][42]. "Charlotte Traffic: 5 Secrets of the Anti-Grid."
-  July 15, 2024.
+  15 July 2024.
 
-- [_The Atlantic_][86]. "City Planning's Greatest Innovation Makes a
-  Comeback." February 15, 2024.
+- [_The Atlantic_][86]. "City Planning's Greatest Innovation Makes a Comeback."
+  15 February 2024.
 
 - [_The Dominion Post_][56]. "Are One-Way Streets Hurting Morgantown's
-  Downtown?" February 3, 2024.
+  Downtown?" 3 February 2024.
 
-- [_CNU Public Square_][50]. "Traveling Near and Far toward Low-Carbon
-  Cities." January 17, 2024.
+- [_CNU Public Square_][50]. "Traveling Near and Far toward Low-Carbon Cities."
+  17 January 2024.
 
 - [_KPCC/LAist Radio_][9]. "LA Traffic Is Worse, But Not Terrible and It
-  Probably Won't Get Better." November 16, 2023.
+  Probably Won't Get Better." 16 November 2023.
 
-- [_San Francisco Chronicle_][81]. "We Want to Build a City of Yesterday."
-  October 25, 2023.
+- [_The San Francisco Chronicle_][81]. "We Want to Build a City of Yesterday."
+  25 October 2023.
 
 - [_Streetsblog USA_][27]. "White Roads through Black Bedrooms: How Urban
-  Freeways Cemented Spatial Inequalities." October 19, 2023.
+  Freeways Cemented Spatial Inequalities." 19 October 2023.
 
-- [_El Universal_][58] (Colombia). "Cartagena y Su Infraestructura Vial." July
-  18, 2023.
+- [_El Universal_][58] (Colombia). "Cartagena y Su Infraestructura Vial." 18
+  July 2023.
 
 - [_Afro LA_][2]. "Unequal Air: The Pollution Legacy of Segregation and the
-  Freeway Boom in Los Angeles." June 19, 2023.
+  Freeway Boom in Los Angeles." 19 June 2023.
 
 - [_MReport Magazine_][23]. "How Digitalization Changes How People Search for,
-  Finance Housing." May 5, 2023.
+  Finance Housing." 5 May 2023.
 
-- [_Spectrum News_][18] (TV). "Inside the Issues with Alex Cohen." May 1,
-  2023\.
+- [_Spectrum News_][18] (TV). "Inside the Issues with Alex Cohen." 1 May 2023\.
 
-- [_Streets MN_][20]. "New Research Highlights the Problems of Urban
-  Freeways." April 27, 2023.
+- [_Streets MN_][20]. "New Research Highlights the Problems of Urban Freeways."
+  27 April 2023.
 
 - [_Los Angeles Times_][67]. "How White and Affluent Drivers Are Polluting the
-  Air Breathed by L.A.'s People of Color." March 9, 2023.
+  Air Breathed by L.A.'s People of Color." 9 March 2023.
 
-- [_Los Angeles Times_][66]. "L.A. Residents Who Drive Less Are Exposed to
-  More Air Pollution, Study Finds." March 7, 2023.
+- [_Los Angeles Times_][66]. "L.A. Residents Who Drive Less Are Exposed to More
+  Air Pollution, Study Finds." 7 March 2023.
 
-- [_The Economist_][57]. "The Decline of the City Grid." December 20, 2022.
+- [_The Economist_][57]. "The Decline of the City Grid." 20 December 2022.
 
-- [_Planetizen_][74]. "Sustainability Goals Go Unmet in Many Global Cities."
-  November 17, 2022.
+- [_Planetizen_][74]. "Sustainability Goals Go Unmet in Many Global Cities." 17
+  November 2022.
 
-- [_Streetsblog USA_][26]. "How Walkable Cities Foster Public Health."
-  September 22, 2022.
+- [_Streetsblog USA_][26]. "How Walkable Cities Foster Public Health." 22
+  September 2022.
 
-- [_Forbes_][63]. "We Are Not Doing Enough To Make Our Cities Healthier." June
-  20, 2022.
+- [_Forbes_][63]. "We Are Not Doing Enough to Make Our Cities Healthier." 20
+  June 2022.
 
-- [_Planetizen_][73]. "Urban Design, Transport, and Health." May 20, 2022.
+- [_Planetizen_][73]. "Urban Design, Transport, and Health." 20 May 2022.
 
-- [_New Zealand Herald_][70]. "Aucklanders Waiting Too Long for Buses,
-  Research Finds." May 13, 2022.
+- [_New Zealand Herald_][70]. "Aucklanders Waiting Too Long for Buses, Research
+  Finds." 13 May 2022.
 
 - [_Stuff_][83] (New Zealand). "Auckland Lacking Health-Focused Public
-  Transport Policy – Study." May 13, 2022.
+  Transport Policy – Study." 13 May 2022.
 
-- [_The Guardian_][87]. "Australian Cities among Worst Performing on
-  Walkability and Public Transport Access." May 11, 2022.
+- [_The Guardian_][87]. "Australian Cities Among Worst Performing on
+  Walkability and Public Transport Access." 11 May 2022.
 
 - [_Tasmanian Times_][22]. "Australian Cities Out-of-Step on Walkability,
-  Transport." May 11, 2022.
+  Transport." 11 May 2022.
 
 - [_Noticias del Mundo_][35]. "Ciudades Australianas entre las de Peor
-  Desempeño en Accesibilidad para Peatones y Transporte Público." May 11, 2022.
+  Desempeño en Accesibilidad para Peatones y Transporte Público." 11 May 2022.
 
 - [_Phys.org_][15]. "Building a Global System to Measure Sustainable Cities."
-  May 11, 2022.
+  11 May 2022.
 
 - [_The Guardian_][88]. "Could Flying Electric 'Air Taxis' Help Fix Urban
-  Transportation?" October 25, 2021.
+  Transportation?" 25 October 2021.
 
 - [_NRC Handelsblad_][69] (Netherlands). "Nederlandse Straten Liggen Vaak in
-  Keurige Patronen." August 27, 2021.
+  Keurige Patronen." 27 August 2021.
 
-- [_La Repubblica_][78] (Italy). "Il Pianeta Sulla Griglia." June 18, 2021.
+- [_La Repubblica_][78] (Italy). "Il Pianeta Sulla Griglia." 18 June 2021.
 
 - [_Chicago Magazine_][44]. "Why Chicago's Grid Is a Model of Perfect Urban
-  Order." June 17, 2021.
+  Order." 17 June 2021.
 
-- [_Jalopnik_][8]. "How Your City's Road Configuration Compares To Others."
-  June 12, 2021.
+- [_Jalopnik_][8]. "How Your City's Road Configuration Compares to Others." 12
+  June 2021.
 
 - [_NBC Charlotte_][92]. "Yes, According to a Study, Charlotte Has One of the
-  Most Disordered Street Layouts." June 8, 2021.
+  Most Disordered Street Layouts." 8 June 2021.
 
-- [_Slate_][17]. "In Charge and Online." February 26, 2021.
+- [_Slate_][17]. "In Charge and Online." 26 February 2021.
 
-- [_Congress for the New Urbanism_][49]. "The Grid Makes a Comeback." December
-  1, 2020.
+- [_Congress for the New Urbanism_][49]. "The Grid Makes a Comeback." 1
+  December 2020.
 
-- [_Next City_][13]. "What a Biden Transportation Program Will Look Like."
-  November 12, 2020.
+- [_NextCity_][13]. "What a Biden Transportation Program Will Look Like." 12
+  November 2020.
 
-- [_Apogeo_][36] (Italy). "5 Risposte Su... Imparare a Pensare in Modo
-  Creativo con il Graphic Design." October 30, 2020.
+- [_Apogeo_][36] (Italy). "5 Risposte Su... Imparare a Pensare in Modo Creativo
+  con il Graphic Design." 30 October 2020.
 
 - [_Arch Daily_][38]. "Big Data and Urbanism: How to Organize Information for
-  Optimal Application." April 15, 2020.
+  Optimal Application." 15 April 2020.
 
-- [_Arch Daily Brasil_][37]. "Big Data e Urbanismo: Como Sintetizar
-  Informações Complexas para Aplicação Prática?" April 4, 2020.
+- [_Arch Daily Brasil_][37]. "Big Data e Urbanismo: Como Sintetizar Informações
+  Complexas para Aplicação Prática?" 4 April 2020.
 
 - [_Talking Headways Podcast_][21]. "Episode 275: The Communist Leanings of
-  Charlotte (Streets)." March 12, 2020.
+  Charlotte (Streets)." 12 March 2020.
 
 - [_Plataforma Arquitectura_][76] (Chile). "Big Data y Urbanismo, ¿Cómo
-  Sintetizar Información Compleja para Su Aplicación Práctica?" February 27,
+  Sintetizar Información Compleja para Su Aplicación Práctica?" 27 February
   2020\.
 
-- [_Forbes_][64]. "See Your City In A New Way." December 30, 2019.
+- [_Forbes_][64]. "See Your City in a New Way." 30 December 2019.
 
 - [_Heise Magazine_][65] (Germany). "Die Gute City: Quelloffene Tools für
-  Stadtplaner." November 25, 2019.
+  Stadtplaner." 25 November 2019.
 
-- [_MIT Technology Review_][85]. "What Makes a City Great? A New Way to Look
-  at Urban Data Will Give Us Clues." October 16, 2019.
+- [_MIT Technology Review_][85]. "What Makes a City Great? A New Way to Look at
+  Urban Data Will Give Us Clues." 16 October 2019.
 
 - [_PBS NOVA_][71]. "With 'Problems Out There Waiting for Us,' Public Health
-  Practitioners Turn to AI for Help." April 11, 2019.
+  Practitioners Turn to AI for Help." 11 April 2019.
 
 - [_Courrier International_][53] (France). "Quelles sont les villes à
-  l'urbanisme le plus 'chaotique?'" September 17, 2018.
+  l'urbanisme le plus 'chaotique?'" 17 September 2018.
 
-- [_Planetizen_][72]. "Chart Your City's Street Network to Understand its
-  Logic." August 14, 2018.
+- [_Planetizen_][72]. "Chart Your City's Street Network to Understand Its
+  Logic." 14 August 2018.
 
-- [_FiveThirtyEight_][5]. "Comparing US City Street Orientations." August 1,
+- [_FiveThirtyEight_][5]. "Comparing US City Street Orientations." 1 August
   2018\.
 
-- [_CityLab_][48]. "Visualizing the Hidden Logic of Cities." July 26, 2018.
-
-- [_99 Percent Invisible_][1]. "On the Grid: Visualizing Street Network
-  Orientations Across 50 Global Cities." July 20, 2018.
+- [_CityLab_][48]. "Visualizing the Hidden Logic of Cities." 26 July 2018.
 
 - [_New Statesman CityMetric_][32]. "Do British Cities Have Grid Systems? We
-  Used Science to Find Out." July 23, 2018.
+  Used Science to Find Out." 23 July 2018.
 
 - [_The Big Think_][3]. "Street Grids Matter More to Your Commute than You
-  Might Think." July 23, 2018.
+  Might Think." 23 July 2018.
 
-- [_Fast Company_][61]. "How Crazy Is Your City's Plan?" July 16, 2018.
+- [_99 Percent Invisible_][1]. "On the Grid: Visualizing Street Network
+  Orientations Across 50 Global Cities." 20 July 2018.
+
+- [_Fast Company_][61]. "How Crazy Is Your City's Plan?" 16 July 2018.
 
 - [_TYS Magazine_][90] (Spain). "Comparando las Orientaciones de las Calles de
-  las Ciudades." July 16, 2018.
+  las Ciudades." 16 July 2018.
 
 - [_NRC Handelsblad_][68] (Netherlands). "Deze Kaartjes Laten Zien Welke
-  Wereldstad Het Kronkeligst Is." July 14, 2018.
+  Wereldstad Het Kronkeligst Is." 14 July 2018.
 
 - [_Meduza_][10] (Russia). "Исследователь из США придумал удивительную
-  визуализацию, объясняющую устройство городов." July 14, 2018.
+  визуализацию, объясняющую устройство городов." 14 July 2018.
 
 - [_The Boston Globe_][40]. "Boston's Streets Do Go in All Sorts of
-  Directions." July 12, 2018.
+  Directions." 12 July 2018.
 
-- [_Flowing Data_][7]. "Street Network Orientation in Major Cities." July 12,
+- [_Flowing Data_][7]. "Street Network Orientation in Major Cities." 12 July
   2018\.
 
 - [_Slate_][16]. "Elegant Graphs Reduce 25 American Cities to Their Design
-  Essence." July 11, 2018.
+  Essence." 11 July 2018.
 
 - [_ABC 5 Boston_][93]. "This Explains Why Newcomers Have Such a Hard Time
-  Navigating Boston." July 11, 2018.
+  Navigating Boston." 11 July 2018.
 
-- [_Streets MN_][19]. "Minneapolis Street Grid Orientation vs Other US
-  Cities." July 11, 2018.
+- [_Streets MN_][19]. "Minneapolis Street Grid Orientation vs Other US Cities."
+  11 July 2018.
 
 - [_Chicago Magazine_][43]. "What Craigslist Can Tell Us About Rents in
-  Chicago." January 24, 2018.
+  Chicago." 24 January 2018.
 
 - [_Urban Land Magazine_][25]. "Barcelona's Experiment with Superblocks." Fall
   2017, p. 132.
 
-- [_CityLab_][47]. "The Absurd Musings of the 'City Describer' Twitter Bot."
-  September 21, 2017.
+- [_CityLab_][47]. "The Absurd Musings of the 'City Describer' Twitter Bot." 21
+  September 2017.
 
-- [_Design Taxi_][4]. "Microsoft's AI Fails At Captioning Picturesque
-  Cityscapes To Hilarious Effect." September 21, 2017.
+- [_Design Taxi_][4]. "Microsoft's AI Fails at Captioning Picturesque
+  Cityscapes to Hilarious Effect." 21 September 2017.
 
 - [_T Journal_][33] (Russia). "Разработчик научил бота Microsoft описывать
-  города на фото, но он не всегда справляется." September 20, 2017.
+  города на фото, но он не всегда справляется." 20 September 2017.
 
-- [_The Next Web_][24]. "Watch Microsoft's AI suck at captioning gorgeous city
-  landscapes on Twitter." September 20, 2017.
+- [_The Next Web_][24]. "Watch Microsoft's AI Suck at Captioning Gorgeous City
+  Landscapes on Twitter." 20 September 2017.
 
 - [_General Pop Magazine_][34] (France). "Quand l'IA de Microsoft Confond des
-  Immeubles et des Cactus." September 20, 2017.
+  Immeubles et des Cactus." 20 September 2017.
 
 - [_The San Francisco Chronicle_][82]. "Stunning, Simple Maps Show San
-  Francisco versus Other Global Cities." June 19, 2017.
+  Francisco versus Other Global Cities." 19 June 2017.
 
 - [_The Daily Mail_][55]. "Square Mile Maps Reveal How Different the World's
-  Cities Really Are." June 9, 2017.
+  Cities Really Are." 9 June 2017.
 
 - [_Core 77_][52]. "Geoff Boeing's Square-Mile Street Network Visualization
-  Tool Reveals Wildly Different Ideas about Urban Planning." February 27, 2017.
+  Tool Reveals Wildly Different Ideas about Urban Planning." 27 February 2017.
 
 - [_Time Out New York_][89]. "Compare a Square Mile of NYC's Street Grid to
-  Cities All over the World." February 16, 2017.
+  Cities All over the World." 16 February 2017.
 
 - [_Mental Floss_][30]. "What a Square Mile of a City's Grid Looks Like Around
-  the World." February 13, 2017.
+  the World." 13 February 2017.
 
-- [_Flowing Data_][6]. "One Square Mile in Different Cities." February 10,
+- [_Flowing Data_][6]. "One Square Mile in Different Cities." 10 February
   2017\.
 
-- [_Forbes_][62]. "Understanding Our Cities, Thanks To Beautiful Maps."
-  February 7, 2017.
+- [_Forbes_][62]. "Understanding Our Cities, Thanks to Beautiful Maps." 7
+  February 2017.
 
-- [_Fast Company_][60]. "Turn Your Local Streets Into A Map That Reveals The
-  Character Of Your Neighborhood." February 6, 2017.
+- [_Fast Company_][60]. "Turn Your Local Streets into a Map That Reveals the
+  Character of Your Neighborhood." 6 February 2017.
 
 - [_Planetizen_][75]. "Comparing a Square Mile of the World's Famous Cities."
-  January 27, 2017.
+  27 January 2017.
 
-- [_Domus Magazine_][31]. "Do-It-Yourself City Mapping." January 23, 2017.
+- [_Domus Magazine_][31]. "Do-It-Yourself City Mapping." 23 January 2017.
 
-- [_NextCity_][11]. "Compare City Grids With This Street Network Tool."
-  January 23, 2017.
+- [_NextCity_][11]. "Compare City Grids with This Street Network Tool." 23
+  January 2017.
 
-- [_CityLab_][46]. "A Digital Window Into Your City's Urban Form." January 17,
+- [_CityLab_][46]. "A Digital Window into Your City's Urban Form." 17 January
   2017\.
 
 - [_Discovery News_][79]. "Compare City Street Grids One Square Mile at a
-  Time." January 9, 2017.
+  Time." 9 January 2017.
 
-- [_Builder Magazine_][41]. "The Housing Market According to Craigslist."
-  September 2, 2016.
+- [_Builder Magazine_][41]. "The Housing Market According to Craigslist." 2
+  September 2016.
 
 - [_The Washington Post_][91]. "What More than 1 Million Craigslist Rental
-  Listings Tell Us about the Housing Market." September 1, 2016.
+  Listings Tell Us about the Housing Market." 1 September 2016.
 
-- [_Fast Company_][59]. "11 Million Craigslist Ads Show Which Cities Have The
-  Highest Rents." September 1, 2016.
+- [_Fast Company_][59]. "11 Million Craigslist Ads Show Which Cities Have the
+  Highest Rents." 1 September 2016.
 
-- [_CityLab_][45]. "For Quick Housing Data, Hit Craigslist." August 31, 2016.
+- [_CityLab_][45]. "For Quick Housing Data, Hit Craigslist." 31 August 2016.
 
 - [_Curbed_][29]. "The Typical Craigslist Listing across 58 U.S. Metro Areas."
-  August 29, 2016.
+  29 August 2016.
 
 - [_NextCity_][12]. "What 11 Million Craigslist Posts Show About Affordable
-  Housing." August 26, 2016.
+  Housing." 26 August 2016.
 
 - [_The San Francisco Chronicle_][80]. "The Prices on Craigslist Rental
-  Listings Are Lowest on This Day." August 26, 2016.
+  Listings Are Lowest on This Day." 26 August 2016.
 
 - [_American Media Institute Newswire_][self]. "Home Rental Costs Up
-  Nationwide." June 16, 2016.
+  Nationwide." 16 June 2016.
 
 - [_National Low Income Housing Coalition_][14]. "Study Uses Craigslist to
-  Examine Rental Housing Markets." June 13, 2016.
+  Examine Rental Housing Markets." 13 June 2016.
 
 - [_The Daily Californian_][54]. "Berkeley Announces Retrofittings for More
-  than Half of City's Soft-Story Buildings." October 6, 2015.
+  than Half of City's Soft-Story Buildings." 6 October 2015.
 
 <!-- markdownlint-disable MD013 -->
 [1]: https://99percentinvisible.org/article/on-the-grid-visualizing-street-network-orientations-across-50-global-cities/
