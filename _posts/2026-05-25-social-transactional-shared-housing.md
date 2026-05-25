@@ -5,11 +5,10 @@ date: 2026-05-25 06:00:00-07:00
 permalink: /2026/05/social-transactional-shared-housing/
 ---
 
-My article "What Kind of Home is the Shared Home? The Social-Transactional
+My article "What Kind of Home Is the Shared Home? The Social-Transactional
 Spectrum in Platform-Mediated Homemaking Among Strangers," co-authored
 with Julia Harten and Madison Lore, has just been published in the
-_International Journal of Housing Policy_. You can download it open-access
-from [IJHP][1].
+_International Journal of Housing Policy_. You can download it from [IJHP][1].
 
 This paper builds on our recent work studying [exclusionary language][2] in
 rental housing listings. Shared housing is usually framed as an affordability
@@ -32,8 +31,8 @@ want affordability without much social obligation, while social sharing may
 offer connection, care, and a stronger sense of household -- but they create very
 different power dynamics and tenant experiences. If shared housing is becoming a
 normal part of urban life, planners and policymakers need to treat it as more
-than cheap bedrooms and instead start thinking about access to kitchens
-and bathrooms, house rules, lease terms, co-tenant protections, and the everyday
+than cheap bedrooms and instead start thinking about access to kitchens and
+bathrooms, house rules, lease terms, co-tenant protections, and the everyday
 domestic conditions that make housing a home.
 
 From the abstract:
@@ -62,5 +61,5 @@ From the abstract:
 For more, check out our free open-access article at [IJHP][1].
 
 <!-- markdownlint-disable MD013 -->
-[1]:
+[1]: https://doi.org/10.1080/19491247.2026.2668640
 [2]: {{ "/2026/05/exclusionary-language-shared-rentals/" | relative_url }}
