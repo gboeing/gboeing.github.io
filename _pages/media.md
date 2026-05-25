@@ -83,7 +83,7 @@ or interviewed me:
 - [_Streetsblog USA_][26]. "How Walkable Cities Foster Public Health."
   September 22, 2022.
 
-- [_Forbes_][63]. "We Are Not Doing Enough To Make Our Cities Healthier." June
+- [_Forbes_][63]. "We Are Not Doing Enough to Make Our Cities Healthier." June
   20, 2022.
 
 - [_Planetizen_][73]. "Urban Design, Transport, and Health." May 20, 2022.
@@ -117,7 +117,7 @@ or interviewed me:
 - [_Chicago Magazine_][44]. "Why Chicago's Grid Is a Model of Perfect Urban
   Order." June 17, 2021.
 
-- [_Jalopnik_][8]. "How Your City's Road Configuration Compares To Others."
+- [_Jalopnik_][8]. "How Your City's Road Configuration Compares to Others."
   June 12, 2021.
 
 - [_NBC Charlotte_][92]. "Yes, According to a Study, Charlotte Has One of the
@@ -147,7 +147,7 @@ or interviewed me:
   Sintetizar Información Compleja para Su Aplicación Práctica?" February 27,
   2020\.
 
-- [_Forbes_][64]. "See Your City In A New Way." December 30, 2019.
+- [_Forbes_][64]. "See Your City in a New Way." December 30, 2019.
 
 - [_Heise Magazine_][65] (Germany). "Die Gute City: Quelloffene Tools für
   Stadtplaner." November 25, 2019.
@@ -213,8 +213,8 @@ or interviewed me:
 - [_CityLab_][47]. "The Absurd Musings of the 'City Describer' Twitter Bot."
   September 21, 2017.
 
-- [_Design Taxi_][4]. "Microsoft's AI Fails At Captioning Picturesque
-  Cityscapes To Hilarious Effect." September 21, 2017.
+- [_Design Taxi_][4]. "Microsoft's AI Fails at Captioning Picturesque
+  Cityscapes to Hilarious Effect." September 21, 2017.
 
 - [_T Journal_][33] (Russia). "Разработчик научил бота Microsoft описывать
   города на фото, но он не всегда справляется." September 20, 2017.
@@ -246,8 +246,8 @@ or interviewed me:
 - [_Forbes_][62]. "Understanding Our Cities, Thanks To Beautiful Maps."
   February 7, 2017.
 
-- [_Fast Company_][60]. "Turn Your Local Streets Into A Map That Reveals The
-  Character Of Your Neighborhood." February 6, 2017.
+- [_Fast Company_][60]. "Turn Your Local Streets into a Map That Reveals the
+  Character of Your Neighborhood." February 6, 2017.
 
 - [_Planetizen_][75]. "Comparing a Square Mile of the World's Famous Cities."
   January 27, 2017.
@@ -269,7 +269,7 @@ or interviewed me:
 - [_The Washington Post_][91]. "What More than 1 Million Craigslist Rental
   Listings Tell Us about the Housing Market." September 1, 2016.
 
-- [_Fast Company_][59]. "11 Million Craigslist Ads Show Which Cities Have The
+- [_Fast Company_][59]. "11 Million Craigslist Ads Show Which Cities Have the
   Highest Rents." September 1, 2016.
 
 - [_CityLab_][45]. "For Quick Housing Data, Hit Craigslist." August 31, 2016.
