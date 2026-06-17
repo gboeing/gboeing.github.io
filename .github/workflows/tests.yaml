@@ -45,7 +45,7 @@ jobs:
           SKIP: no-commit-to-branch
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.307.0
+        uses: ruby/setup-ruby@v1.313.0
         with:
           ruby-version: .ruby-version
           bundler-cache: true
