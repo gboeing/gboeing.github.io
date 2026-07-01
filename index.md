@@ -6,10 +6,10 @@ permalink: /
 
 ![Geoff Boeing][5]{: .headshot }
 
-I am an Associate Professor in the University of Southern California's
-Department of Urban Planning and Spatial Analysis, the Director of USC's
-[Urban Data Lab][6], and a Nonresident Senior Fellow at the Brookings
-Institution.
+I am an Associate Professor at the University of Southern California, the
+Chair of USC's Department of Urban Planning and Spatial Analysis, and the
+Director of USC's [Urban Data Lab][6]. I am also a Nonresident Senior Fellow
+at the Brookings Institution.
 
 My research explores the spatial outcomes of urban planning through network
 analysis, geospatial data science, and machine learning. It has won several
@@ -24,10 +24,10 @@ including _Urban Studies_, _Annals of the AAG_, _Geographical Analysis_,
 and _Environment and Planning B_, and I've published my [research][8] in
 journals across scientific and policy disciplines, including
 _The Lancet Global Health_, the _Journal of the American Planning Association_,
-_Urban Studies_, _Geographical Analysis_, and _Physical Review Letters_. I also
-developed and maintain the [OSMnx][1] street network modeling software—which
-has become a standard tool in industry and academia—and I've consulted for
-many planning, policymaking, and public health organizations.
+_Applied Network Science_, and _Physical Review Letters_. I also developed and
+maintain the [OSMnx][1] street network modeling software—which has become a
+standard tool in industry and academia—and I've consulted for many planning,
+policymaking, and public health organizations.
 
 Before all that, I grew up in Rancho Cucamonga, California and received my PhD
 from the University of California, Berkeley in City and Regional Planning. I
