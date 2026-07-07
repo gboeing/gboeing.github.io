@@ -6,10 +6,10 @@ permalink: /
 
 ![Geoff Boeing][5]{: .headshot }
 
-I am an Associate Professor at the University of Southern California, the
-Chair of USC's Department of Urban Planning and Spatial Analysis, and the
-Director of USC's [Urban Data Lab][6]. I am also a Nonresident Senior Fellow
-at the Brookings Institution.
+I am an Associate Professor at the University of Southern California and the
+Chair of USC's Department of Urban Planning and Spatial Analysis. I am also
+the Director of USC's [Urban Data Lab][6] and a Nonresident Senior Fellow at
+the Brookings Institution.
 
 My research explores the spatial outcomes of urban planning through network
 analysis, geospatial data science, and machine learning. It has won several
