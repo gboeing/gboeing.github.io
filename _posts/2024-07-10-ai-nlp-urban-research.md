@@ -48,7 +48,7 @@ From the abstract:
 > alongside efficient computer-based methods like BERT models generates better
 > accuracy without sacrificing scalability.
 
-For more on this technique and how you can use to to scale up qualitative text
+For more on this technique and how you can use it to scale up qualitative text
 analysis in urban research, check out the [article][1] at CEUS.
 
 <!-- markdownlint-disable MD013 -->

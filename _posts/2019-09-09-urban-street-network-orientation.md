@@ -57,7 +57,7 @@ elements (paths, edges, districts, nodes, landmarks) that help make it an
 
 This study measures the entropy (or disordered-ness) of street bearings in each
 street network, along with each city's typical street segment length, average
-circuity, average node degree, and the network's proportions of four- way
+circuity, average node degree, and the network's proportions of four-way
 intersections and dead-ends. It also develops a new indicator of
 orientation-order that quantifies how a city's street network follows the
 geometric ordering logic of a single grid. These indicators, taken in concert,

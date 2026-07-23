@@ -16,7 +16,7 @@ OpenStreetMap provides a valuable crowd-sourced database of raw geospatial data
 for constructing models of urban street networks for scientific analysis. This
 paper reports results from a research project that collected raw street network
 data from OpenStreetMap using the Python-based OSMnx software for every U.S.
-city and town, county, urbanized area, census tract, and Zillow- defined
+city and town, county, urbanized area, census tract, and Zillow-defined
 neighborhood. It constructed nonplanar directed multigraphs for each and
 analyzed their structural and morphological characteristics. The resulting data
 repository contains over 110,000 processed, cleaned street network graphs (which

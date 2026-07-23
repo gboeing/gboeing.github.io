@@ -29,7 +29,7 @@ The characteristics of city street networks fundamentally depend on what "city"
 means: municipal boundaries, urbanized areas, or certain central neighborhoods?
 The first is a legal/political definition, but captures the scope of city
 planning authority and decision-making for top-down interventions into human
-circulation. The second captures a wider self- organized human system and its
+circulation. The second captures a wider self-organized human system and its
 emergent built form (as well as the jurisdiction of MPOs), but tends to
 aggregate multiple heterogeneous forms together into a single unit of analysis.
 The third captures the nature of the local built environment and lived

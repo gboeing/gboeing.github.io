@@ -118,7 +118,7 @@ have faster-rising rents.
 The census reflects the rents that surveyed residents are currently paying per
 month. This gives an indicator of current metro housing costs, _not_ the current
 metro market for available units. It's a representation of housing costs across
-the area, which comprises rent-controlled units as well as non- rent-controlled
+the area, which comprises rent-controlled units as well as non-rent-controlled
 units, long-term rentals, recent rentals, etc. But, it's essential to note that
 it does not disambiguate the current market for available units.
 

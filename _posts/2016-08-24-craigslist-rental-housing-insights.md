@@ -178,7 +178,7 @@ tract-level median rents/ft² from 100,000 San Francisco Bay Area listings and
 mapped the results. Such visualizations enable local planners to quickly take
 the pulse of changing neighborhoods:
 
-![Census tract- level map of median rents per square foot on Craigslist in the
+![Census tract-level map of median rents per square foot on Craigslist in the
 San Francisco Bay Area][12]
 
 San Francisco, Berkeley, and Silicon Valley are very expensive, while East

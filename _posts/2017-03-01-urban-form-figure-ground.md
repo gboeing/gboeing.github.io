@@ -32,9 +32,9 @@ The bottom row reveals an entirely different mode of urbanization, by
 visualizing slums in Monrovia, Liberia and Port-au-Prince, Haiti. These informal
 settlements are much finer-grained, and are not structured according to the
 orderly logic of the American street grids. Monrovia's square mile contains
-2,543 building footprints with a median area of 127 m2. Port-au- Prince's square
+2,543 building footprints with a median area of 127 m2. Port-au-Prince's square
 mile contains an incredible 14,037 building footprints with a median area of
-just 34 m2. Compared to New York's macro-form, the Port-au- Prince informal
+just 34 m2. Compared to New York's macro-form, the Port-au-Prince informal
 settlement's urban fabric resembles a remarkable dusting of urbanization.
 Notice, too, the percolation (or lack thereof) of the circulation networks into
 each informal settlement.

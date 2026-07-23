@@ -85,7 +85,7 @@ cycle attractor. When the growth rate is set to 3.5, the logistic map oscillates
 across four points, as shown in this phase diagram (and in the bifurcation
 diagram from earlier).
 
-If we adjust the growth rate parameter up to 3.56, we witness a period- doubling
+If we adjust the growth rate parameter up to 3.56, we witness a period-doubling
 bifurcation:
 
 ![Poincaré plots for limit-cycle attractors showing system bifurcation on the

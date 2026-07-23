@@ -124,7 +124,7 @@ based on the _epsilon_ and _min_samples_ parameters.
 To reduce my data set size, I want to grab the coordinates of one point from
 each cluster that was formed. I could just take the first point in each cluster,
 but it would be more spatially-representative if I take the point nearest the
-cluster's centroid. Note that with DBSCAN, clusters may be non- convex and
+cluster's centroid. Note that with DBSCAN, clusters may be non-convex and
 centers may fall outside the cluster - however, we just want to reduce the
 cluster down to a single point. The point nearest its center is perfectly
 suitable for this.

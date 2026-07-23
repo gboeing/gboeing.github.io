@@ -44,7 +44,7 @@ perspective, but its real-world embedding is spatially nonplanar.
 
 In the urban studies literature, street networks are commonly modeled as planar
 graphs. Many street networks are obviously nonplanar in reality, but researchers
-use planar models as a potentially useful simplification of real- world
+use planar models as a potentially useful simplification of real-world
 complexity. However, modeling urban street networks as planar graphs can bias
 urban form analyses in several ways. 1, intersection counts are overestimated
 due to false nodes where grade-separated edges cross. 2, average edge lengths

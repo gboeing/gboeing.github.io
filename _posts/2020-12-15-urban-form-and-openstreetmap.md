@@ -18,7 +18,7 @@ From the abstract:
 > environment. It demonstrates the OSMnx toolkit for automatically downloading,
 > modeling and visualizing spatial data from OpenStreetMap. We explore patterns
 > and configurations in street networks and buildings around the world
-> computationally through visualization methods—including figure- ground
+> computationally through visualization methods—including figure-ground
 > diagrams and polar histograms—that help compress urban complexity into
 > comprehensible artifacts that reflect the human experience of the built
 > environment. Ubiquitous urban data and computation can open up new urban form

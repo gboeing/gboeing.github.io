@@ -24,7 +24,7 @@ the built environment. From the abstract:
 > access needs than shelter and safety needs. Inequities experienced by
 > minorities, people with low socioeconomic status, people with health concerns,
 > and vulnerable age groups receive more attention than the inequities
-> experienced by people with gender/sexual- orientation vulnerability or
+> experienced by people with gender/sexual-orientation vulnerability or
 > displaced groups. The literature exhibits a relatively narrow focus on some
 > subgroups, such as refugees, people experiencing homelessness, people with
 > cognitive differences, people with visual or hearing impairments, children,
