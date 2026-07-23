@@ -108,7 +108,7 @@ Northwest Heights, from OpenStreetMap, created with OSMnx, Python, NetworkX, and
 matplotlib][10]
 
 Each image shows half a km2. Downtown has an orthogonal grid with compact
-blocks, Laurelhurst shows its early 20th century Olmstead-influenced roots, and
+blocks, Laurelhurst shows its early 20th century Olmsted-influenced roots, and
 Northwest Heights has a winding, sprawling late-20th century suburban street
 network. OSMnx tells us over 90% of Downtown's nodes (i.e., intersections and
 dead-ends) are 4-way intersections (note that OSMnx correctly recognizes that

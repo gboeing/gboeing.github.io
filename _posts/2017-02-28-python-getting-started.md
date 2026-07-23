@@ -97,7 +97,7 @@ download and run, just like we've done in this tutorial.
 Similarly, you can install any other Python packages available in conda the same
 way we demonstrated here. If a package isn't in conda, read its documentation to
 see how they recommend you install it. If you're interested in data science,
-[pandas][8] and [scikit- learn][9] are a couple of great places to start playing
+[pandas][8] and [scikit-learn][9] are a couple of great places to start playing
 with code. You might also be interested in my course series on urban data
 science: all of its materials are available as Jupyter notebooks on [GitHub][6].
 

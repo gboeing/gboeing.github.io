@@ -86,7 +86,7 @@ reverse-geocoded to get the neighborhood, city, state, and country for each data
 point, without spending weeks making a million API calls.
 
 Accordingly, I reverse-geocoded each point in my cluster-reduced Google
-location history data set with the Google Maps reverse- geocoding API, using the
+location history data set with the Google Maps reverse-geocoding API, using the
 code in [this notebook][3]. I added local caching of results so you only have to
 call the API once ever for a given set of coordinates. This makes repeated runs
 of the notebook nearly instantaneous (and no repeated API calls to count against

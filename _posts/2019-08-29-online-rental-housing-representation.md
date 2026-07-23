@@ -25,7 +25,7 @@ It finds that listings spatially concentrate and over-represent whiter,
 wealthier, and better-educated tracts. Majority-White tracts are over-
 represented more than twice as often as Hispanic or Black tracts. Although large
 swaths of this market are affordable to low and moderate income families,
-homeseekers in whiter, wealthier, better-educated, and more- expensive
+homeseekers in whiter, wealthier, better-educated, and more expensive
 communities have a surplus of information available online to aid their searches
 while other communities continue to face a relative deficit. The Internet helps
 democratize access to information but it does not necessarily equalize its

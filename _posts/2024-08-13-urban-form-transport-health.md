@@ -39,7 +39,7 @@ From the abstract:
 > the lack of consensus on robust methodologies that encompass best research
 > practice. Future urban environmental health research for evidence-informed
 > urban planning and policies requires a multi-faceted approach. Advances in
-> geospatial and AI- driven techniques and urban indicators offer promising
+> geospatial and AI-driven techniques and urban indicators offer promising
 > developments; however, there remains a wider call for increased data
 > availability at local-levels, transparent and robust methodologies of
 > large-scale urban studies, and greater exploration of urban health

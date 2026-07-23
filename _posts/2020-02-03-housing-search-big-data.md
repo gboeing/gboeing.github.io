@@ -9,7 +9,7 @@ My article "[Housing Search in the Age of Big Data: Smarter Cities or the Same
 Old Blind Spots?][2]" with Max Besbris, Ariela Schachter, and John Kuk is now
 published in _Housing Policy Debate_. We look at the quantity and quality of
 information in online housing listings and find that they are much higher in
-White and non- poor neighborhoods than they are in poor, Black, or Latino
+White and non-poor neighborhoods than they are in poor, Black, or Latino
 neighborhoods. Listings in White neighborhoods include more descriptive text and
 focus on unit and neighborhood amenities, while listings in Black neighborhoods
 focus more on applicant (dis)qualifications. We discuss what this means for
@@ -34,7 +34,7 @@ platforms offers a good example: optimistically, large corpora of rental
 listings could provide housing researchers and practitioners with actionable
 [insights for policymaking][4] while also equalizing [access to
 information][3] for otherwise disadvantaged homeseekers. But how good are these
-platforms at resolving the types of problems that already plague old- fashioned,
+platforms at resolving the types of problems that already plague old-fashioned,
 non-big data? Does this broadcasting of information reduce longstanding
 geographic and demographic inequalities or do established patterns of
 segmentation and sorting remain?
@@ -45,7 +45,7 @@ brokers, it requires no payment from landlords to list their own units. With
 such low barriers to entry, Craigslist could possibly be the most representative
 exchange of rental information, although use is contingent on access and ability
 to navigate the internet. While alternative information channels exist for
-luxury rental listings, low-income listings, and non- English listings,
+luxury rental listings, low-income listings, and non-English listings,
 Craigslist is by far the most trafficked and largest single source of rental
 information. In this paper we review, empirically extend, and retheorize ongoing
 research projects that collected Craigslist rental listings via web scraping.
@@ -114,7 +114,7 @@ vary between neighborhoods, correlated with sociodemographics.
 In turn, the information-broadcasting benefits of these housing technology
 platforms are unevenly distributed among communities. On one hand, this
 unevenness concentrates the technology's benefits in privileged communities. On
-the other hand, it could also open up such communities to information- deprived
+the other hand, it could also open up such communities to information-deprived
 housing seekers by making whiter, wealthier, and better-educated communities
 more-equally legible to everyone in the search process through a larger volume
 of rental listings and higher-quality unit information.

@@ -36,7 +36,7 @@ to more vehicular air pollution. Tracts with a larger non-white population
 proportion—whether high- or low-income—experience more air pollution than do
 whiter but otherwise similar tracts. To illustrate how vehicular air pollution
 disparities unfold spatially, we simulate car commutes. On average, white
-commuters traverse tracts that are far more non- white than the tracts where
+commuters traverse tracts that are far more non-white than the tracts where
 most white commuters live. This disparity does not exist in the opposite
 direction: on average, non-white commuters do not travel through tracts that are
 substantially whiter than their home tracts.
@@ -67,7 +67,7 @@ the construction of denser and more affordable housing in less-polluted,
 exclusive neighborhoods could reduce exposure disparities.
 
 Yet no single policy can eliminate longstanding systemic discrimination against
-low-income and non-white populations. Dismantling decades of racially- motivated
+low-income and non-white populations. Dismantling decades of racially motivated
 transport planning and segregation requires concerted effort by planners and
 policymakers to redress past harms and envision a more equitable future.
 

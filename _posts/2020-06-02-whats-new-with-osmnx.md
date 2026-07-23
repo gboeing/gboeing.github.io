@@ -49,7 +49,7 @@ graph topology by reconnecting edges to new merged node][16]
 If we plot a portion of this network (above), notice how the traffic circles'
 many (red) nodes are merged into a new single centroid node (black), with edge
 geometries extended to connect to it. Similar consolidation occurs at the
-intersection of the divided road in the upper- right.
+intersection of the divided road in the upper-right.
 
 Running `consolidate_intersections` with `rebuild_graph=True` may yield somewhat
 (but not very) different intersection counts/densities compared to
@@ -59,7 +59,7 @@ overlapping node buffers before merging them. This prevents topologically remote
 but spatially proximate nodes from being merged. For example:
 
 - A street intersection may lie directly below a freeway overpass's intersection
-  with an on-ramp. We would not want to merge these together and connnect their
+  with an on-ramp. We would not want to merge these together and connect their
   edges: they are distinct junctions in the system of roads.
 - In a residential neighborhood, a bollarded street may create a dead-end
   immediately next to an intersection or traffic circle. We would not want to
@@ -74,14 +74,14 @@ cases. The trade-off is that it has higher time complexity than
 `rebuild_graph=False`. For best results, the tolerance argument should be
 adjusted to approximately match street design standards in the specific street
 network, and you should always use a projected graph to work in meaningful and
-consistent units like meters. You can also specify if you do not want dead- ends
+consistent units like meters. You can also specify if you do not want dead-ends
 returned in the list of cleaned intersections.
 
 ## Speed and Travel Time
 
 The new `add_edge_speeds` function adds edge speeds (km/hour) to a graph as new
 `speed_kph` edge attributes. It imputes free-flow travel speeds for all edges
-based on mean `maxspeed` value of edges per highway type. This mean- imputation
+based on mean `maxspeed` value of edges per highway type. This mean imputation
 can obviously be imprecise, so the caller can override it by passing in a
 `hwy_speeds` dict and/or a `fallback` argument to correspond to local speed
 limit standards.

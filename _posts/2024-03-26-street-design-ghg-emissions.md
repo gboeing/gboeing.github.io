@@ -41,8 +41,8 @@ From the abstract:
 > street network design and transport emissions - including greenhouse gases
 > implicated in climate change - primarily through case studies focusing on
 > certain world regions or relatively small samples of cities, complicating
-> generalizability and applicability for evidence- informed practice. Our
-> worldwide study finds that straighter, more- connected, and less-overbuilt
+> generalizability and applicability for evidence-informed practice. Our
+> worldwide study finds that straighter, more-connected, and less-overbuilt
 > street networks are associated with lower transport emissions, all else equal.
 > Importantly, these relationships vary across development levels and design
 > paradigms - yet most prior literature reports findings from urban areas that

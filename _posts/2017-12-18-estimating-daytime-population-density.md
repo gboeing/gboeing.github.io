@@ -32,7 +32,7 @@ the LODES data. LODES is block-level and notoriously noisy (and synthetic!) so I
 aggregated and summed the O-D pairs to the tract-level, at which it converges
 [reasonably well][2] to the observed distribution. I then merged these data with
 tract-level geometries and populations within ten Bay Area counties (the
-standard nine- county ABAG/MTC region plus Santa Cruz county).
+standard nine-county ABAG/MTC region plus Santa Cruz county).
 
 Next I estimated daytime population density (persons/km²) as tract total
 population minus outbound commuters plus inbound commuters, normalized by land

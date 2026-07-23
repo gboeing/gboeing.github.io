@@ -310,7 +310,7 @@ from OpenStreetMap][14]
 
 Above, all the non-intersection nodes have been removed, all the true
 intersections (junctions of multiple streets) remain in blue, and self-loop
-nodes are in purple. There are two simplification modes: strict and non- strict.
+nodes are in purple. There are two simplification modes: strict and non-strict.
 In strict mode (above), OSMnx considers two-way intersections to be
 topologically identical to a single street that bends around a curve. If you
 want to retain these intersections when the incident edges have different OSM

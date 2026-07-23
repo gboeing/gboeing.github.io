@@ -23,7 +23,7 @@ traditional information segregation patterns through a digital divide. They
 could also circumscribe housing practitioners' and researchers' ability to draw
 broad market insights from listings to understand rental supply and
 affordability. This study examines millions of Craigslist rental listings across
-the US and finds that they spatially concentrate and over- represent whiter,
+the US and finds that they spatially concentrate and over-represent whiter,
 wealthier, and better-educated communities. Other significant demographic
 differences exist in age, language, college enrollment, rent, poverty rate, and
 household size. Most cities' online housing markets are digitally segregated by

@@ -26,7 +26,7 @@ relatively small, is too often ignored:
 > their destinations.
 
 Our research found that two-way street conversions (all else equal) would allow
-for significantly shorter average travel distances: San Francisco's as- is
+for significantly shorter average travel distances: San Francisco's as-is
 network's average intra-city trip is about 1.7% longer than it could be if it
 were all two-way streets, corresponding to 27 million kilometers of annual
 surplus travel just for intra-city trips.

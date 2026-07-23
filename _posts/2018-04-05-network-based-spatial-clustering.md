@@ -46,7 +46,7 @@ DBSCAN: python, osmnx, matplotlib, scipy, scikit-learn, geopandas][9]
 Our three clusters of establishments are clearly visible in red, magenta, and
 green, representing three distinct districts in the city. Each cluster contains
 at least 3 points and no point is more than 300 meters away from another. Except
-for one problem: in cities, we usually cannot travel as-the- crow-flies. Rather,
+for one problem: in cities, we usually cannot travel as-the-crow-flies. Rather,
 urban circulation is constrained to networks of streets and paths. Due to
 terrain and other factors, even adjacent land parcels may not interface with
 each other except through a long trip along the street network.

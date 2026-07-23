@@ -12,7 +12,7 @@ questions are complicated and obscured by decades of perplexing policy and
 practice. There are many benefits of good food—that is, food which is healthy,
 affordable, fair, and sustainable. Proper nourishment has been linked in several
 studies to better classroom performance. Walkable access to healthy food can
-reduce America's growing obesity and diabetes epidemics. Locally- sourced food
+reduce America's growing obesity and diabetes epidemics. Locally sourced food
 can reinforce better dietary habits as consumers connect with the value chain
 and see eating as a more natural process.
 

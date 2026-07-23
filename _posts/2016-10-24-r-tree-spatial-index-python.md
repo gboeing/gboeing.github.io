@@ -20,7 +20,7 @@ is for "Rectangle") as the lowest level of the spatial index. It then aggregates
 nearby objects and represents them with their aggregate bounding box in the next
 higher level of the index. At yet higher levels, the R-tree aggregates bounding
 boxes and represents them by _their_ bounding box, iteratively, until everything
-is nested into one top- level bounding box.
+is nested into one top-level bounding box.
 
 To search, the R-tree takes a query box and, starting at the top level, sees
 which (if any) bounding boxes intersect it. It then expands each intersecting

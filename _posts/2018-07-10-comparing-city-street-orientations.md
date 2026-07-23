@@ -15,7 +15,7 @@ coherent is a city's spatial organization? How do these patterns help or hinder
 urban navigation? I recently wrote about visualizing street [orientations][3]
 with Python and [OSMnx][4]. That is, how is a city's street network oriented in
 terms of the streets' compass bearings? How well does it adhere to a
-straightforward north- south-east-west layout? I wanted to revisit this by
+straightforward north-south-east-west layout? I wanted to revisit this by
 [comparing][2] 25 major US cities' orientations (EDIT: by popular request, see
 also this [follow-up][5] comparing world cities):
 
