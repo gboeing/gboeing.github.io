@@ -9,6 +9,9 @@ For media inquiries, please [contact][contact] me directly.
 Here are some of the media publications that have previously covered my work or
 interviewed me:
 
+- [_NPR_][97]. "What the Equinox 'Henge' Effect Tells Us about U.S. Cities." 21
+  September 2026.
+
 - [_ANSA_][96] (Italy). "A Torino la Conferenza Italiana sulle Scienze Sociali
   Computazionali." 19 May 2026.
 
@@ -388,5 +391,6 @@ interviewed me:
 [94]: https://www.dailynews.com/2026/02/20/why-the-sixth-street-viaduct-went-dark-and-why-its-been-so-hard-to-protect/
 [95]: https://www.jalopnik.com/2103845/one-way-streets-help-traffic-flow/
 [96]: https://www.ansa.it/piemonte/notizie/2026/05/19/a-torino-la-conferenza-italiana-sulle-scienze-sociali-computazionali_14461d4d-6035-4b41-85e2-6cd5c8c33219.html
+[97]: https://www.npr.org/2026/09/21/nx-s1-5973179/equinox-henge-sunrise-sunset
 [contact]: {{ "/contact/" | relative_url }}
 [self]: {{ "/media/" | relative_url }}
