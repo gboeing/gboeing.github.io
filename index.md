@@ -8,8 +8,8 @@ permalink: /
 
 I am an Associate Professor at the University of Southern California and the
 Chair of USC's Department of Urban Planning and Spatial Analysis. I am also
-the Director of USC's [Urban Data Lab][6] and a Nonresident Senior Fellow at
-the Brookings Institution.
+the Director of USC's [Urban Data Lab][6] and previously a Nonresident Senior
+Fellow at the Brookings Institution.
 
 My research explores the spatial outcomes of urban planning through network
 analysis, geospatial data science, and machine learning. It has won several
